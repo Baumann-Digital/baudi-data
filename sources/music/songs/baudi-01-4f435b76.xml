@@ -1,0 +1,199 @@
+<?xml-model href="../../resources/schema/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0"
+   xml:id="baudi-01-4f435b76" status="created">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="uniform" xml:lang="de" xml:id="baudi-01-4f435b76-titleUniformDE">
+               <titlePart type="main" xml:lang="de" xml:id="baudi-01-4f435b76-titleUniformMainDE">Du schönes Weltenall</titlePart>
+               <titlePart type="sub" xml:lang="de" xml:id="baudi-01-4f435b76-titleUniformSubDE"/>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-4f435b76-titleUniformDescDE"
+                  >baudi-01-4f435b76-titleUniformDescDE</titlePart>
+            </title>
+         </titleStmt>
+         <pubStmt>
+            <respStmt>
+               <persName>
+                  <ref target="baudi-04-1d680f20.xml#dried">Dennis Ried</ref>
+               </persName>
+               <resp>This file was generated for the Baumann Digital project (BauDi). Files and data from the catalogue of works
+                  are a part of the PhD thesis of Dennis Ried. This data stock will be published after the PhD thesis ist
+                  finished.</resp>
+            </respStmt>
+            <address>
+               <postCode>76133</postCode>
+               <settlement auth="baudi-06-ba166af7">Karlsruhe</settlement>
+               <country>Germany</country>
+            </address>
+            <address>
+               <postCode>67165</postCode>
+               <settlement>Waldsee</settlement>
+               <country>Germany</country>
+            </address>
+            
+            <date isodate="2019-08-21"/>
+         </pubStmt>
+         <!-- <sourceDesc>
+    			<source>
+    			<head/>
+    			<locus/>
+    			<bibl/>
+    			</source>
+    			</sourceDesc> -->
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+         <samplingDecl>
+            <p decls="Kodierungsrichtlinien">
+               <ref target="SourceEncodingGuidelines.xml">Richtlinien zur Kodierung der Quellen</ref>
+            </p>
+         </samplingDecl>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title analog="#baudi-01-4f435b76-title"/>
+            <key pname="B" accid="f" mode=""/>
+            <meter count="4" unit="4" sym="cut"/>
+            <tempo>Leicht bewegt</tempo>
+            <incip/>
+            <perfMedium>
+               <perfResList>
+                  <perfRes>S</perfRes>
+                  <perfRes>T</perfRes>
+                  <perfRes>pf</perfRes>
+               </perfResList>
+            </perfMedium>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation class="#ms">
+            <head/>
+            <identifier type="rism">453007347</identifier>
+            <identifier type="D-KA">Mus. Hs. 1394,50</identifier>
+            <titleStmt>
+               <title xml:id="baudi-01-4f435b76-title">
+                  <titlePart type="main" xml:id="baudi-01-4f435b76-titleMain">[title page:] Du schönes Weltenall. | (Richard
+                     Graebener) | Für hohe Stimme und Klavier. | Ludwig Baumann</titlePart>
+                  <titlePart type="sub" xml:id="baudi-01-4f435b76-titleSub"/>
+                  <titlePart type="desc" xml:id="baudi-01-4f435b76-titleDesc">für Chor, Orchester, Solist</titlePart>
+               </title>
+               <composer xml:id="baudi-01-4f435b76-composer">
+                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+               </composer>
+               <arranger xml:id="baudi-01-4f435b76-arranger"/>
+               <lyricist xml:id="baudi-01-4f435b76-lyricist">
+                  <persName auth="baudi-04-">Graebener, Richard</persName>
+               </lyricist>
+               <respStmt xml:id="baudi-01-4f435b76-respStmtDed"/>
+            </titleStmt>
+            <physDesc>
+               <p decls="creation"
+                  ><!--	<date
+    								type="creation"
+    								subtype="sure"
+    								isodate="0000"/> --></p>
+               <titlePage>
+                  <!-- Hier die Titelseite codieren (diplomatische Wiedergabe!) -->
+                  <p decls="titlePage">[title page:] Du schönes Weltenall. | (Richard Graebener) | Für hohe Stimme und Klavier. |
+                     Ludwig Baumann<lb/></p>
+               </titlePage>
+               <dimensions label="height" unit="mm">333</dimensions>
+               <dimensions label="width" unit="mm">260</dimensions>
+               <extent label="orientation">portrait</extent>
+               <extent label="cover">true</extent>
+               <extent label="folium" unit="folium">30</extent>
+               <extent label="pages" unit="page">59</extent>
+               <extent label="pagination">arabic</extent>
+               <scoreFormat>choral score</scoreFormat>
+               <watermark label="watermark">none</watermark>
+               
+               <condition n="1">
+                  <date isodate="2019-08-21" type="desc" resp="dried"/>
+                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+               </condition>
+               <physMedium xml:id="baudi-01-4f435b76-physMedium">Gedruckt. Gebunden, Fadenheftung</physMedium>
+            </physDesc>
+            <physLoc>
+               <repository>
+                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                  <identifier type="shelfmark">Mus. Hs. 1394,50</identifier>
+               </repository>
+            </physLoc>
+            <history><!-- <eventList/> --></history>
+            <langUsage><!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet --></langUsage>
+            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+    							<list
+    								label="quires">
+    								<head>Lagenordnung</head>
+    								<li
+    									n="1">1. Lage</li>
+    							</list>
+    						</p> --></contents>
+            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+    						<bibl type="announcement"/>
+    						<bibl type="notice"/>--></biblList>
+            <notesStmt>
+               <!-- Weitere Anmerkungen des Beschreibers -->
+               <annot n="1" when="2019-08-21" label="dried">notCleaned</annot>
+               <annot plist="stamp S-oriented 0r" corresp="#baudi-01-4f435b76-physMedium">Badische
+                  Landesbibliothek/Karlsruhe</annot>
+               <annot plist="paperTypeNote PapTypPos-oriented" corresp="#baudi-01-4f435b76-physMedium">Papiertyp</annot>
+            </notesStmt>
+            <classification>
+               <termList>
+                  <term type="source">manuscript</term>
+                  <term type="setting" xml:lang="de">
+                     <ptr target="#baudi-01-4f435b76-titleUniformDescDE"/>
+                  </term>
+                  <term type="workGroup"/>
+                  <term type="genre"/>
+               </termList>
+            </classification>
+            <!--
+    					<componentList>
+                   <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
+                   <manifestation class="#ms">
+                      <identifier/>
+                      <physDesc>
+                         <extent/>
+                      </physDesc>
+                   </manifestation>
+                   <manifestation class="#pr"/>
+                </componentList>
+                -->
+            <relationList/>
+         </manifestation>
+      </manifestationList>
+      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+      <revisionDesc>
+         <change n="0" isodate="2017-04-01" resp="dried">
+            <changeDesc>
+               <p>Initializing the project</p>
+            </changeDesc>
+         </change>
+         <change n="1" isodate="2019-08-21" resp="dried">
+            <changeDesc>
+               <p>File generated by generateSourceMsScore.xql</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef/>
+               <section/>
+               <div>
+                  <lg>
+                     <l/>
+                  </lg>
+               </div>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

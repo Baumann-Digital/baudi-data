@@ -1,0 +1,34 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listPerson>
+					<person xml:id="BauDi-Pers-00001">
+						<persName> <forename>Ludwig</forename> <surname>Baumann</surname> </persName>
+						<birth when-iso="1866-06-26">26.06.1866</birth>
+						<death when-iso="1944-10-30">30.10.1944</death>
+						<faith>ev</faith>
+						<education>Musiklehrer</education>
+						<sex>M</sex>
+						<nationality>D</nationality>
+						<occupation/>
+						<idno type="gnd"/>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Some text here.</p>
+		</body>
+	</text>
+</TEI>

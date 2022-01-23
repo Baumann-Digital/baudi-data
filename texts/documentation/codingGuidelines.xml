@@ -1,0 +1,319 @@
+<codingGuidelines>
+    <register/>
+    <sources>
+        <documents>
+            <letters>
+                <structure>
+                    <TEI xml:id="baudi-07-XXXXXXXX">
+                        <!-- xmlns="http://www.tei-c.org/ns/1.0" -->
+                        <teiHeader>
+                            <fileDesc>
+                                <titleStmt>
+                                    <title><!--Titel der Datei zur Quelle--></title>
+                                </titleStmt>
+                                <publicationStmt>
+                                    <p/>
+                                </publicationStmt>
+                                <sourceDesc>
+                                    <p><!--Beschreibung und Verbleib der Quelle. Auszeichnugnen mit <persName/> und <orgName/>. Bei Daten auch <date/>--></p>
+                                </sourceDesc>
+                            </fileDesc>
+                            <profileDesc>
+                                <correspDesc>
+                                    <correspAction type="sent">
+                                        <persName key="baudi-04-XXXXXXXX"
+                                            ><!--nameAbsender--></persName>
+                                        <settlement key="baudi-06-XXXXXXXX" cert="medium"
+                                            ><!--ortAbsender--></settlement>
+                                        <date when="1944-03-15"><!--datumGesendet--></date>
+                                    </correspAction>
+                                    <correspAction type="received">
+                                        <persName key="baudi-04-YYYYYYYY"
+                                            ><!--nameAdressat--></persName>
+                                        <settlement key="baudi-06-YYYYYYYY" cert="high"
+                                            ><!--ortAdressat--></settlement>
+                                        <date when="1944-03-15"><!--datumEmpfang--></date>
+                                    </correspAction>
+                                </correspDesc>
+                            </profileDesc>
+                            <revisionDesc status="approved">
+                                <change who="dried" when="2018-05-26">Create document.</change>
+                            </revisionDesc>
+                        </teiHeader>
+                        <text>
+                            <body>
+                                <div type="page" n="1">
+                                    <!-- Jede Seite wird in ein eigenes <div/> verpackt und durchgezählt. -->
+                                    <p>
+                                        <!-- Jeder Abschnitt bekommt ein eigenes <p/>. Achtung: Zeilenumbrüche sind keine Abschnitte --> </p>
+                                    <note type="editor"
+                                        ><!-- Optionales Element. Kann auf an jeder Stelle eingefügt werden. --></note>
+                                </div>
+                            </body>
+                        </text>
+                    </TEI>
+                </structure>
+                <rendering type="special">
+                    <elements>
+                        <element name="elementName">
+                            <attribute name="attributName" value="attributInhalt">
+                                <effect/>
+                            </attribute>
+                            <effect/>
+                        </element>
+                    </elements>
+                </rendering>
+            </letters>
+            <periodicals/>
+            <reports/>
+        </documents>
+        <music>
+            <collections/>
+            <nonCollections>
+                <structure xml:id="sourceMusicSingle">
+                    <mei meiversion="3.0.0" xml:id="baudi-01-6b488120">
+                        <!-- xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" -->
+                        <meiHead>
+                            <fileDesc>
+                                <titleStmt>
+                                    <title type="uniform" xml:lang="de"
+                                        xml:id="baudi-01-6b488120-titleUniformDE"
+                                        >Am fernen Strand</title>
+                                    <title type="uniform" xml:lang="en"
+                                        xml:id="baudi-01-6b488120-titleUniformEN"
+                                        >Am fernen Strand</title>
+                                    <title type="desc" xml:lang="de"
+                                        xml:id="baudi-01-6b488120-titleDescDE"
+                                        >für Singstimme und Klavier</title>
+                                    <title type="desc" xml:lang="de"
+                                        xml:id="baudi-01-6b488120-titleDescEN"
+                                        >for voice and piano</title>
+                                    <title type="main">
+                                        <ptr target="#baudi-01-6b488120-titleMain"/>
+                                    </title>
+                                    <title type="subordinate">
+                                        <ptr target="#baudi-01-6b488120-titleSub"/>
+                                    </title>
+                                    <composer>
+                                        <ptr target="#baudi-01-6b488120-composer"/>
+                                    </composer>
+                                    <arranger>
+                                        <ptr target="#baudi-01-6b488120-arranger"/>
+                                    </arranger>
+                                    <lyricist>
+                                        <ptr target="#baudi-01-6b488120-lyricist"/>
+                                    </lyricist>
+                                </titleStmt>
+                                <pubStmt/>
+                                <sourceDesc>
+                                    <source>
+                                        <identifier type="rism">453003910</identifier>
+                                        <identifier type="D-KA">Mus. Hs. 1312</identifier>
+                                        <titleStmt>
+                                            <title type="main" xml:id="baudi-01-6b488120-titleMain"
+                                                >Am fernen Strand.</title>
+                                            <title type="subordinate"
+                                                xml:id="baudi-01-6b488120-titleSub"/>
+                                            <composer xml:id="baudi-01-6b488120-composer">
+                                                <ref target="persons.xml#baudi-04-5e3ed698"
+                                                  >Ludwig Baumann</ref>
+                                            </composer>
+                                            <arranger xml:id="baudi-01-6b488120-arranger"/>
+                                            <lyricist xml:id="baudi-01-6b488120-lyricist">
+                                                <ref target="persons.xml#baudi-04-f7902fb2"
+                                                  >Willi Birger</ref>
+                                            </lyricist>
+                                            <respStmt xml:id="baudi-01-6b488120-respStmtDed"/>
+                                        </titleStmt>
+                                        <physDesc>
+                                            <p decls="creation">
+                                                <!--	<date
+								type="creation"
+								subtype="sure"
+								isodate="0000"/> --> </p>
+                                            <dimensions label="height" unit="mm">334</dimensions>
+                                            <dimensions label="width" unit="mm">250</dimensions>
+                                            <extent label="orientation">portrait</extent>
+                                            <extent label="folium" unit="folium">2</extent>
+                                            <extent label="pages" unit="page">3</extent>
+                                            <extent label="pagination">none</extent>
+                                            <scoreFormat>song score</scoreFormat>
+                                            <handList>
+                                                <hand label="NW 1r AuffVermerk" medium="Bleistift"
+                                                  >3 1/2 Minuten</hand>
+                                                <hand label="NE 1r BiblVermerk" medium="Bleistift"
+                                                  >Musik Hs. 1312</hand>
+                                            </handList>
+                                            <condition n="1">
+                                                <date isodate="2018-02-05" type="desc" resp="dried"/>
+                                                <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                                            </condition>
+                                            <physMedium xml:id="baudi-01-6b488120-physMedium"
+                                                >Maschinell rastriert für Gesang und Klavier. Beschrieben mit schwarzer Tinte.</physMedium>
+                                        </physDesc>
+                                        <physLoc>
+                                            <repository>
+                                                <corpName label="D-KA"
+                                                  >Badische Landesbibliothek Karlsruhe</corpName>
+                                                <identifier type="shelfmark"
+                                                  >Mus. Hs. 1312</identifier>
+                                            </repository>
+                                            <provenance><!-- <eventList/> --></provenance>
+                                        </physLoc>
+                                        <history><!-- <eventList/> --></history>
+                                        <langUsage>
+                                            <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
+                                            <language label="dt"/>
+                                        </langUsage>
+                                        <contents>
+                                            <!-- Weitere Beschreibung des physischen Mediums -->
+                                            <p>
+                                                <list label="quires">
+                                                  <head>Lagenordnung</head>
+                                                  <li n="1">Lage in der Mitte gefaltet</li>
+                                                </list>
+                                            </p>
+                                        </contents>
+                                        <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+						<bibl type="announcement"/>
+						<bibl type="notice"/>--></biblList>
+                                        <notesStmt>
+                                            <!-- Weitere Anmerkungen des Beschreibers -->
+                                            <annot n="1" when="2018-02-05" label="dried"
+                                                >Brinzing spricht hier von D-Dur</annot>
+                                            <annot plist="stamp S-oriented 1r 2v"
+                                                corresp="#baudi-01-6b488120-physMedium"
+                                                >L.B./Karlsruhe</annot>
+                                            <annot plist="paperTypeNote SW-oriented"
+                                                corresp="#baudi-01-6b488120-physMedium"
+                                                >»Sünova« Nr. 37 - 4 Systeme</annot>
+                                        </notesStmt>
+                                        <classification>
+                                            <termList>
+                                                <term type="source">Manuskript</term>
+                                                <term type="setting" xml:lang="de">
+                                                  <ptr target="#baudi-01-6b488120-titleDescDE"/>
+                                                </term>
+                                                <term type="gattung">Vokalmusik</term>
+                                                <term type="genre">Lied</term>
+                                            </termList>
+                                        </classification>
+                                        <componentGrp>
+                                            <item label="textvorlage"
+                                                target="https://www.volksliederarchiv.de/wild-flutet-der-see-masuren/"/>
+                                        </componentGrp>
+                                        <relationList/>
+                                    </source>
+                                </sourceDesc>
+                            </fileDesc>
+                            <encodingDesc>
+                                <editorialDecl>
+                                    <!-- Link zur den Editionsrichtlinien und den Quellenbeschreibungsrichtlinien -->
+                                    <p decls="Quellenbeschreibung">
+                                        <ref target="SourceDescriptionGuidelines.xml"
+                                            >Richtlinien zur Beschreibung der
+                                    Quellen</ref>
+                                    </p>
+                                    <p decls="Editionsrichtlinien">
+                                        <ref target="EditionGuidelines.xml"
+                                            >Richtlinien für die Edition der Werke</ref>
+                                    </p>
+                                </editorialDecl>
+                                <samplingDecl>
+                                    <p decls="Kodierungsrichtlinien">
+                                        <ref target="codingGuidelines.xml#sourceMusicSingle"
+                                            >Richtlinien zur Kodierung von musikalischen Einzel-Quellen</ref>
+                                    </p>
+                                </samplingDecl>
+                            </encodingDesc>
+                            <workDesc>
+                                <work>
+                                    <key pname="d" mode="minor"/>
+                                    <meter count="4" unit="4" sym="common"/>
+                                    <tempo>Stürmisch bewegt.</tempo>
+                                    <incip/>
+                                    <perfMedium>
+                                        <perfResList>
+                                            <perfRes authURI="baudiID" count="1" solo="true">[Diplomatischer Instrumentenname]</perfRes>
+                                        </perfResList>
+                                    </perfMedium>
+                                    <contents/>
+                                </work>
+                            </workDesc>
+                            <revisionDesc/>
+                        </meiHead>
+                        <music>
+                            <facsimile decls="blb">
+                                <surface xml:id="baudi-01-24c80b0c-surface-0000" n="0">
+                                    <figDesc> <repository>D-KA</repository> <identifier type="blb-vlid">3301128</identifier>
+                                    </figDesc>
+                                </surface>
+                                <surface xml:id="baudi-01-24c80b0c-surface-0001" n="1" label="1r">
+                                    <graphic targettype="blb-vlid" target="3304969" xml:id="baudi-01-24c80b0c-00-0001"
+                                        type="facsimile"/>
+                                </surface>
+                                <surface xml:id="baudi-01-24c80b0c-surface-0002" n="2" label="1v">
+                                    <graphic targettype="blb-vlid" target="3304970" xml:id="baudi-01-24c80b0c-00-0002"
+                                        type="facsimile"/>
+                                </surface>
+                                <!-- [...] -->
+                            </facsimile>
+                            <body>
+                                <mdiv xml:id="baudi_20_a8478298" label="Am fernen Strand">
+                                    <score>
+                                        <scoreDef/>
+                                        <section/>
+                                        <div type="songtext">
+                                            <lg label="title">
+                                                <l label="title">Titel des Gedichtes</l>
+                                                <l label="subtitle"/>
+                                            </lg>
+                                            <lg n="1" label="1. Stophe"
+                                                xml:id="baudi-01-6b488120-stanza-0001">
+                                                <l n="1" xml:id="baudi-01-6b488120-verse-0001"
+                                                  >Vers 1</l>
+                                                <l n="2" xml:id="baudi-01-6b488120-verse-0002"
+                                                  >Vers 2</l>
+                                            </lg>
+                                            <lg n="2" label="Refrain 1"
+                                                xml:id="baudi-01-6b488120-chorous-0001">
+                                                <l n="1" xml:id="baudi-01-6b488120-ch1Verse-0001"
+                                                  >Ref1-Vers 1</l>
+                                            </lg>
+                                            <lg n="3" label="2. Stophe"
+                                                xml:id="baudi-01-6b488120-stanza-0002">
+                                                <l n="1" xml:id="baudi-01-6b488120-verse-0015"
+                                                  >Vers 15</l>
+                                            </lg>
+                                            <lg n="4" label="Refrain 2"
+                                                xml:id="baudi-01-6b488120-chorous-0002">
+                                                <l n="1" xml:id="baudi-01-6b488120-ch2Verse-0001"
+                                                  >Ref2-Vers 1 (Variante)</l>
+                                            </lg>
+                                        </div>
+                                    </score>
+                                </mdiv>
+                            </body>
+                        </music>
+                    </mei>
+                </structure>
+            </nonCollections>
+        </music>
+    </sources>
+    <texts>
+
+        <institutions/>
+        <loci/>
+        <persons/>
+        <portal/>
+    </texts>
+    <rendering type="global">
+        <elements>
+            <element name="note">
+                <attribute name="type" value="editor">
+                    <effect>Ergänzt editorische Klammern und kursiviert den Element-Inhalt.</effect>
+                </attribute>
+            </element>
+        </elements>
+    </rendering>
+</codingGuidelines>

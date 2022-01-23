@@ -1,0 +1,82 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-07-58a843a6">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Ludwig Baumann an Willy Müller vom 14. März 1944</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Diese Datei sowie deren Inhalt wurden im Rahmen der M.A.-Thesis von <persName role="researcher" key="baudi-04-1d680f20#dried">Dennis Ried</persName> im <date from-iso="2017-04-01" to-iso="2017-08-15">Sommersemester 2017</date> erstellt. Die
+                    vorliegende Datei enthält unpublizierte Inhalte einer Korrespondenz mit Bezug zu <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName>. </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Bei der vorliegenden Quelle handelt es sich um einen Brief, der auf unliniertes Papier geschrieben wurde. Die Quelle ist gelocht und unter den Unterlagen des Verlagsarchivs des Süddeutschen Musikverlags beim Bärenreiter-Verlag in Kassel
+                    abgeheftet.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <settlement key="baudi-06-0aa5a41e">Baden-Baden</settlement>
+                    <date when="1944-03-14" n="03">14. März 1944</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="baudi-04-585e6747">Willy Müller</persName>
+                    <settlement key="baudi-06-a1ca746a" cert="medium">[Heidelberg]</settlement>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="tbachmann" when="2017-08-16">Add profileDesc and xml:id</change>
+            <change who="dried" when="2018-05-25">Revision</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" n="1">
+                <p>
+                    <hi rend="right">
+                        <settlement key="baudi-06-115711de">
+                            <placeName key="baudi-06-0aa5a41e">B.Baden</placeName>, <date when-iso="1944-03-14">14.III.44</date>
+                            <lb/>
+                             Fremersbergstr. 3</settlement>
+                        <lb/>
+                        Tel. <num type="phone">1057</num>
+                    </hi>
+                </p>
+                <p> Lieber <persName key="baudi-04-585e6747">Willy</persName>! <lb type="dipl"/>
+                     der <orgName key="baudi-05-68bb6de9">Ges.[angs] V.[erein] Junker und Ruh</orgName>, <placeName key="baudi-06-ef212d55">Karlsruhe</placeName>, <lb type="dipl"/>
+                    feiert im <date when-iso="1944-10-01">Herbst</date> sein 50 jähr. Jubiläum <lb type="dipl"/>
+                     [b]eiliegender Chor: <q><title key="baudi-02-2194d5e5">Deutscher Rhein</title></q>
+                    <lb type="dipl"/>
+                     musste ich ihm widmen. Würdest du <lb type="dipl"/>
+                     ihn in Verlag nehmen? Ich würde auf <lb type="dipl"/>
+                     jegliches Honorar verzichten. Bitte um <lb type="dipl"/>
+                     baldige Antwort.</p>
+                <p>Beiliegende Rechnung ist mir wohl <lb type="dipl"/>
+                     irrtümlich zugeschickt worden, da ja <lb type="dipl"/>
+                     Werbe-Exemplare für den Komponisten <lb type="dipl"/>
+                     frei sind.</p>
+                <p>Wenn normale Zeiten wären, <lb type="dipl"/>
+                     so wäre ich schon mal nach <placeName key="baudi-06-a1ca746a">Heidelberg</placeName>
+                </p>
+                <pb n="2"/>
+                <p>gekommen. So aber lebe ich hier in <lb type="dipl"/>
+                     vollständiger Zurückgezogenheit, auch in <lb type="dipl"/>
+                    <placeName key="baudi-06-ef212d55">Karlsruhe</placeName> war ich schon 3 Jahre nicht <lb type="dipl"/>
+                     mehr.</p>
+                <p decls="salut">
+                    <hi rend="center">Mit den besten Grüßen</hi>
+                    <lb/>
+                    <hi rend="right">dein</hi>
+                    <lb/>
+                    <hi rend="right">
+                        <persName key="baudi-04-5e3ed698">LBaumann</persName>
+                    </hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

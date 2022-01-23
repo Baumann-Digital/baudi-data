@@ -1,0 +1,169 @@
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-291da6b8" status="created">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="uniform" xml:lang="de">
+               <titlePart type="main" xml:lang="de" xml:id="baudi-01-291da6b8-titleUniMainDE">Mein Vaterland</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-291da6b8-titleUniDescDE">für Singstimme und
+                  Klavier</titlePart>
+            </title>
+         </titleStmt>
+         <pubStmt>
+            
+         </pubStmt>
+
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+
+      <workList>
+         <work>
+            <title type="uniform" xml:lang="de">
+               <titlePart type="main" xml:lang="de">Mein Vaterland</titlePart>
+               <titlePart type="subordinate" xml:lang="de"/>
+               <titlePart type="desc" xml:lang="de"/>
+            </title>
+
+            <key pname="c" mode="major"/>
+            <meter count="12" unit="8">12/8 = 4/4 (C)</meter>
+            <tempo/>
+            <incip/>
+            <perfMedium>
+               <perfResList>
+                  <perfRes auth="baudi-09-82e86ea7">Stimme<range>
+                        <rangeNote pname="f" oct="4" type="lowest"/>
+                        <rangeNote pname="f" accid="s" oct="5" type="highest"/>
+                        <rangeNote pname="g" oct="5" type="highestAlt"/>
+                     </range>
+                  </perfRes>
+                  <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
+               </perfResList>
+            </perfMedium>
+            <contents/>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation type="ms">
+            <identifier type="rism">453003914</identifier>
+            <identifier type="D-KA">Mus. Hs. 1314</identifier>
+            <titleStmt>
+               <title>
+                  <titlePart type="main" xml:id="baudi-01-291da6b8-titleMain">Mein Vaterland.</titlePart>
+                  <titlePart type="subordinate" xml:id="baudi-01-291da6b8-titleSub">(Ged. v. Inge Karsten)</titlePart>
+               </title>
+               <composer xml:id="baudi-01-291da6b8-composer">
+                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+               </composer>
+               <lyricist xml:id="baudi-01-291da6b8-lyricist">
+                  <persName auth="baudi-04-d1c90992">Inge Karsten</persName>
+               </lyricist>
+            </titleStmt>
+            <physDesc>
+               <p decls="creation"><!--	<date
+								type="creation"
+								cert="high"
+								isodate="0000"/> --></p>
+               <dimensions label="height" unit="mm">339</dimensions>
+               <dimensions label="width" unit="mm">270</dimensions>
+               <extent label="orientation">portrait</extent>
+               <extent label="folium" unit="folium">1</extent>
+               <extent label="pages" unit="page">2</extent>
+               <extent label="pagination">none</extent>
+               <scoreFormat>song score</scoreFormat>
+               <handList>
+                  <hand label="NW 1v BiblVermerk" medium="Bleistift">N<rend rend="sup underline(2)">o</rend> 1</hand>
+                  <hand label="N 1r composer" medium="ink">(Ged. v. Inge Karsten)</hand>
+               </handList>
+               <handList>
+                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                  <hand type="composer" medium="ink" xml:id="baudi-01-6b488120-hand-0002"/>
+               </handList>
+               <condition n="1">
+                  <date isodate="2018-02-05" type="desc" resp="dried"/>
+                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+               </condition>
+               <physMedium xml:id="baudi-01-291da6b8-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit
+                  blauer Tinte.</physMedium>
+            </physDesc>
+            <physLoc>
+               <repository>
+                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                  <identifier type="shelfmark">Mus. Hs. 1314</identifier>
+               </repository>
+
+            </physLoc>
+            <history><!-- <eventList/> --></history>
+            <langUsage>
+               <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
+               <language auth="de"/>
+            </langUsage>
+            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+							<list
+								label="quires">
+								<head>Lagenordnung</head>
+								<li
+									n="1">1. Lage</li>
+							</list>
+						</p> --></contents>
+            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+						<bibl type="announcement"/>
+						<bibl type="notice"/>--></biblList>
+            <notesStmt>
+               <!-- Weitere Anmerkungen des Beschreibers -->
+               <annot n="1" when="2018-02-05" label="dried">Sammelquelle Mus. Hs. 1314; Taktvorzeichnung 12/8 = 4/4 (C)</annot>
+            </notesStmt>
+            <classification>
+               <termList>
+                  <term type="source">manuscript</term>
+                  <term type="workGroup">vocal</term>
+                  <term type="genre">song</term>
+               </termList>
+            </classification>
+            <relationList>
+               <relation rel="isPartOf" corresp="baudi-01-ed0d187e"/>
+               <relation rel="isEmbodimentOf" corresp="baudi-02-85fe51a2"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+         <tei:person>
+            <tei:persName/>
+         </tei:person>
+      </extMeta>
+      <revisionDesc>
+         <change n="0" isodate="2017-04-01" resp="dried">
+            <changeDesc>
+               <p>Initializing the project</p>
+            </changeDesc>
+         </change>
+         <change n="1" isodate="2018-02-05" resp="dried">
+            <changeDesc>
+               <p>File generated by generateSourceMsScore.xql</p>
+            </changeDesc>
+         </change>
+         <change n="2" isodate="2018-04-24" resp="dried">
+            <changeDesc>
+               <p>Datenbereinigung</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv xml:id="baudi_20_1fb717f6" label="Mein Vaterland">
+            <score>
+               <scoreDef>
+                  <ambitus>
+                     <ambNote pname="f" oct="4" type="lowest"/>
+                     <ambNote pname="f" accid="s" oct="5" type="highest"/>
+                     <ambNote pname="g" oct="5" type="highestAlt"/>
+                  </ambitus>
+               </scoreDef>
+               <section/>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

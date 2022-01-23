@@ -1,0 +1,38 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Willy Müller</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listPerson>
+					<person xml:id="BauDi-PersID-00004">
+						<persName> <forename>Ludwig</forename> <surname>Baumann</surname> </persName>
+						<birth when-iso="1833-10-04"/>
+						<death/>
+						<faith/>
+						<listEvent>
+							<event>
+								<head/>
+								<desc> </desc>
+							</event>
+						</listEvent>
+						<education/>
+						<sex>M</sex>
+						<nationality>D</nationality>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Some text here.</p>
+		</body>
+	</text>
+</TEI>

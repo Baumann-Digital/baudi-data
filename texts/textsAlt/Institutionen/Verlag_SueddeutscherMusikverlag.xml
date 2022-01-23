@@ -1,0 +1,51 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Süddeutscher Musikverlag</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="Verlagsgeschichte" xml:id="SMV-Verlagsgeschichte">
+				<p>Der ursprünglich in Karlruhe beheimatete <orgName>Süddeutsche Musikverlag</orgName> wurde <date>%Jahr</date> von <persName>Fritz Müller</persName> gegründet. Als alternative Benennungen findet sich auch die Bezeichnungen <orgName>Fritz Müller Verlag</orgName> oder <orgName>Musikverlag Fritz Müller Karlsruhe</orgName>.
+         </p>
+				<p>
+					<date>%Jahr</date> wurde der Verlag von Karlsruhe nach Heidelberg verlegt. Auch nach dem Tod des Inhabers und Gründers <persName>Fritz Müller</persName> bleibt der Verlag in Heidelberg bestehen. Nachfolger wird dessen Sohn <persName>Willy Müller</persName>, der den Unternehmensnamen <date>%Jahr</date> wie folgt anpasst: <orgName>Süddeutscher Musikverlag Willy Müller</orgName>.
+               Heute existiert dieser Verlag nicht mehr, dieser wurde <date when-iso="1988">%1988?</date> an den <orgName>Bärenreiterverlag</orgName> in <settlement>Kassel</settlement> samt Verlagsarchiv veräußert.
+            </p>
+			</div>
+			<div type="BestandHeute" xml:id="SMV-BestandHeute">
+				<p>
+               Diejenigen Bestände, die heute noch beim Bärenreiter-Verlag in Kassel vorliegen, sind überschaubar. Während des Zweiten Weltkriegs, als der Verlag noch in den Händen des Gründers selbst lag, muss unglaublich viel an Material verloren gegangen sein.
+               Legen wir den Fokus auf Ludwig Baumann, so fallen drei Aktenordner und eine Liste der vorhandenen gedruckten%? Werke ins Auge.
+               <lb/>Zwei der Aktenordnet enthalten Dokumente und Korrespondenzen verschiedener Komponisten mit dem <orgName>Süddeutschen Musikverlag</orgName>. Bezüglich Baumann finden sich leider nur sehr wenige Dokumente, darunter jedoch ein kurzer Briefverkehr zwischen <persName>Baumann</persName> und <persName>Fritz Müller</persName> bezüglich Werke, die aufgrund der Papierknappheit im Krieg nicht gedruckt werden konnten. Ferner findet sich ein Brief von <persName>Berta Baumann</persName>, der Witwe des Komponisten, die in freundschaftlichem Ton den Verleger um eine vollständige Liste bittet, welche alle verlegten Werke ihres Mannes enthalten soll.
+            </p>
+				<p>
+               Der Dritte Aktenordner bietet eine wunderbare Überraschung; die Aufschrift <quote>Manuskripte</quote> lässt es bereits erahnen. Unter dem Register-Buchstabe »A« findet sich ein einziges Werk von <persName>%R. Arnold</persName>, das auf einer gefalteten Lage gedruckt ist. Die Rückseite ist jedoch nicht leer, hier findet sich <persName>Baumanns</persName>
+					<title type="BaWV-print"/>.
+               <lb/>Unter dem Register-Buchstaben »B« sind, wie zu erwarten ist, einige Werke von Baumann hinterlegt. Die versprochene Überraschung jedoch bietet der Umfang und die Vielfalt dieser musikalischen Quellen. Autographe Handschriften, Abschriften, Stichvorlagen, Korrekturabzüge, Erstdrucke, aber auch Abschriften von Liedtexten und z.T. Vorlagen für Bearbeitete Werke prägen diesen Bestand.
+               <lb/>
+               Alle an diesem Ort aufgefundenen Quellen wurden – aus zeitlichen Gründen nicht immer mit allen Details – in der vorliegenden Datenbank verzeichnet. Das Werk, welches die vollständigste Quellenlage aufweißt ist eine Bearbeitung der <title type="BaWV-arrange">Badischen Hymne</title>, die ursprünglich von %?<persName>Felix Mottl</persName> stammt. Für dieses Werk sind alle genannten Quellarten überliefert, was nicht nur eine gute Editionsgrundlage bietet, sondern auch Aufschluss über den Arbeitsprozess bzw. das Verlegen und Herausgeben der Werke <persName>Baumanns</persName> gibt. Umso mehr verwundert es, das in der Liste an vorhandenen %?gedruckten Werken, diese <title>Badische Hymne</title> nicht verzeichnet ist. Dieser Umstand sowie der fehlende Nachweis über eine Veröffentlichung und die Tatsache, dass der »fertige«, korrigierte Druck auf unbeschnittenem Papier vorliegt, legen nahe, dass die <title>Hymne</title> zwar alle Prozesse bis zur Druckfreigabe durchlief, jedoch nie veröffentlich wurde.
+            </p>
+			</div>
+			<div type="Manuskripte" xml:id="SMV-Manuskripte">
+				<p>
+            Der Begriff <quote>Manuskripte</quote>, die er im Verlagsarchiv des <orgName>Süddeutschen Musikverlags</orgName> Anwendung findet, ist an dieser Stelle kurz zu erläutern.
+            <lb/>Die Aufschrift des Aktenordners bezeichnet den Inhalt, folgt man dem Begriff »Manuskript« äußerst unzureichend. Enthält dieser doch auch Abschriften, Korrekturabzüge und fertige Drucke. Damit deckt der Begriff nur einen Teil des vorhandenen Spektrums ab.
+            <lb/>Doch auch innerhalb des Aktenordners wird der Begriff des Manuskriptes anders verwendet, als zunächst zu erwarten ist. Es finden sich dort einige geheftete Lagen, denen mit Schreibmaschine <quote>Manuskript</quote> aufgedruckt ist. Die naheliegende Annahme, das diese Exemplare der Werke der Hand des <persName>Komponisten</persName> entstammen, ist jedoch falsch. Es handelt sich hierbei um Reinschriften, die darauf hindeuten, dass es nicht um eine Schönschrift-Variante von <persName>Baumann</persName> handelt. Dies lässt sich mir relativer Sicherheit daran erkennen, dass manchen dieser <quote>Manuskripte</quote> eine weitere Handschrift beiligt, deren Schriftbild für <persName>Baumann</persName>
+					<ref target="../Arbeitsweise/BaumannsHandschrift.xml#HS-Chrakterisika">typische Charakterisitka</ref> aufweißt.
+         </p>
+			</div>
+		</body>
+	</text>
+</TEI>

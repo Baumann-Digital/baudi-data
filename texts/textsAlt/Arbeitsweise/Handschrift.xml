@@ -1,0 +1,42 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Die Handschrift des Komponisten</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="Allgemein">
+				<p>
+               Über die Arbeitsweise <persName key="BauDi-PersID-0001">Baumanns</persName> ist bislang nicht viel bekannt. Dies liegt nicht etwa daran, dass keinerlei Informationen vorhanden sind, sondern daran, dass die Aufarbeitung der Werke noch nicht so weit fortgeschritten ist, dass hierüber en detail Auskunft gegeben werden kann. Dennoch können durch die Einsicht verschiedener handschriftlicher Quellen einige allgemeine Bemerkungen zur Handschrift angebracht werden. 
+            </p>
+			</div>
+			<div type="Schriftbild" xml:id="HS-Schriftbild">
+				<p>
+               Ohne Kenntnis der Umstände zu denen ein Autograph entstanden ist, fällt es schwer Aussagen über Charakteristika und Abweichungen im Schriftbild zu treffen. Dennoch zeugen ein Großteil der Handschriften von sauberer Schreibarbeit. Einige zeichnen sich sogar durch ein gewisses Maß an Akribie aus, wenn z.B. Änderungen in jeder Notenzeile explizit angegeben werden, obwohl auch mit weniger Ausnotationen dieser Anpassungen die Intention deutlich genug gewesen wäre. Dieses Auftreten an jeder Stelle, dieses akribische Ausnotieren findet Anwendung in den Stichvorlagen. Hier wurde dem Stecher durch die exakte Angabe nicht viel Spielraum für Eigeninterpretationen gelassen. Noch ist nicht sicher, ob diese Genauigkeit ein Wesenszug des <persName key="BauDi-PersID-0001">Komponisten</persName> war, oder ob hierfür schlechte Erfahrungen mit dem Druckverfahren die Grundlage bildeten. JEdenfalls scheint <persName key="BauDi-PersID-0001">Baumann</persName> eine genaue Vorstellung davon gehabt zu haben, wie das Werk später im gedruckten Zustand aussehen soll. Hierfür zeugen auch zahlreiche Korrekturen (rasuren), die sich des öfteren in den Stichvorlagen finden.  
+               Über die Ästhetik der Handschrift <persName key="BauDi-PersID-0001">Baumanns</persName> lässt sich streiten, jedoch gibt es im Verlagsarchiv des <ref target="../Institutionen/Verlag_SueddeutscherMusikverlag.xml">Süddeutschen Musikverlags</ref> als Manuskript betitelte Abschriften der Stichvorlagen Baumanns.
+            </p>
+			</div>
+			<div type="Charakteristika" xml:id="HS-Chrakterisika">
+				<p>
+               Als Charakteristisch für die Handschrift <persName key="BauDi-PersID-0001">Ludwig Baumanns</persName> kann die Notation der Fähnchen bei kurzen Notenwerten angesehen werden. Die übliche Notation von Abgerundeten Fähnchen findet hier keine Anwendung. Das Schriftbild zeugt von geraden Strichen, die mehr an einen unvollständiges Dreieck erinnern.<lb/> <figure>
+					<graphic url="../pictures/Handschrift/KurzeNotenwerte.jpg"/>
+					<figDesc>Typische Notation kurzer Notenwerte</figDesc>
+					</figure>
+					<lb/>
+               Diese gehetzt wirkende Schnellschreibweise findet sich so häufig, dass bei einem Fehlen dieses Charakteristikums ein anderer Schreiber in Betracht gezogen werden muss.  
+            </p>
+			</div>
+		</body>
+	</text>
+</TEI>

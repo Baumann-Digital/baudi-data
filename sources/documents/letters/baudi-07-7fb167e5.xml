@@ -1,0 +1,79 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-07-7fb167e5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Willy Müller an Ludwig Baumann vom 15. März 1944</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Diese Datei sowie deren Inhalt wurden im Rahmen der M.A.-Thesis von <persName role="researcher"
+                        key="baudi-04-1d680f20#dried">Dennis Ried</persName> im <date from-iso="2017-04-01" to-iso="2017-08-15"
+                        >Sommersemester 2017</date> erstellt. Die vorliegende Datei enthält unpublizierte Inhalte einer
+                    Korrespondenz mit Bezug zu <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName>. </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Bei dieser Quelle handelt es sich um den Durchschlag des ursprünglichen Briefes, der als Kopie im <orgName
+                        key="baudi-05-8272ad0d">Süddeutschen Musikverlag</orgName> verblieben ist. Dass der Brief nicht
+                    unterschrieben ist, bekräftigt diese Annahme. Das Papier weist keine Papiervermerke auf. Die Quelle ist
+                    gelocht und unter den Unterlagen des Verlagsarchivs des Süddeutschen Musikverlags beim <orgName
+                        key="baudi-05-e5930348">Bärenreiter-Verlag</orgName> in Kassel abgeheftet.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="baudi-04-585e6747">Willy Müller</persName>
+                    <settlement key="baudi-06-a1ca746a" cert="medium">[Heidelberg]</settlement>
+                    <date when="1944-03-15" n="03">15. März 1944</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <settlement key="baudi-06-0aa5a41e" cert="high">Baden-Baden</settlement>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="TB" when="2017-08-16">Add profileDesc and xml:id</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" n="1">
+                <p rend="right">
+                        <date when-iso="1944-03-15">15.III.44</date>
+                   </p><p > Herrn <lb/>
+                    <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <lb/>
+                    <settlement key="baudi-06-115711de"><placeName key="baudi-06-0aa5a41e">Baden – Baden</placeName>
+                        <lb/> Fremersbergstr. 3</settlement>
+                </p>
+                <p rend="center">Sehr geehrter <persName key="baudi-04-5e3ed698">Herr Baumann</persName>!
+                </p>
+                <p>Leider muß ich
+                    Ihnen anbei das Manu<lb type="dipl" subtype="hyphen"/>skript Ihres Chores <q><title key="baudi-02-2194d5e5">Deutscher Rhein</title></q>
+                    zurück<lb type="dipl" subtype="hyphen"/>geben, da vorläufig keine Möglichkeit besteht,<lb type="dipl"/> denselben zu drucken.</p>
+                <p>Seit <date when-iso="1944-01-01">1. Januar <choice>
+                            <abbr>ds.</abbr>
+                            <expan>diesen</expan>
+                </choice> Jahres</date> bedarf jeder <lb type="dipl"/> Neu- und Nachdruck der Genehmigung der Reichs<lb type="dipl" subtype="hyphen"/>musikkammer.
+                    Zunächst werden dabei die total<lb type="dipl" subtype="hyphen"/>fliegergeschädigten Verlage berücksichtigt mit <lb type="dipl"/> je 10 Ihrer besten
+                    Werke. Außerdem ist mein Pa<lb type="dipl" subtype="hyphen"/>pierkontingent so vollkommen
+                    erschöpft , daß <lb type="dipl"/> ich
+                    <choice>
+                        <abbr>z.Zt.</abbr>
+                        <expan>zur Zeit</expan>
+                    </choice> nicht einmal die wichtigsten Unterrichts<lb type="dipl" subtype="hyphen"/>werke drucken kann.</p>
+                <p>Es tut mir außerordentlich leid, daß <lb type="dipl"/>
+                    ich Ihnen keinen besseren Bescheid geben kann. <lb type="dipl"/> Vielleicht können
+                    wir nach dem Kriege einmal <lb type="dipl"/> darauf zurückkommen.</p>
+                <p decls="salut">Mit den besten Grüssen Ihr</p>
+                <note type="editor">Der Brief trägt keine Unterschrift</note>
+                <p>
+                    <hi rend="underline">Anlage:</hi> 1 Manuskript </p>
+                <note type="editor">Die Anlage befindet sich im Verlagsarchiv des Bärenreiter Musikverlag in Kassel. Sie wurde
+                    noch nicht transkribiert.</note>
+            </div>
+        </body>
+    </text>
+</TEI>

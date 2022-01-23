@@ -1,0 +1,181 @@
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-0cfcae76" status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-0cfcae76-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-0cfcae76-titleUniformMainDE">Ständchen</titlePart>
+                    <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-0cfcae76-titleUniformSubDE"/>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0cfcae76-titleUniformDescDE">für Männerchor</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+
+            <!-- <sourceDesc>
+    			<source>
+    			<head/>
+    			<locus/>
+    			<bibl/>
+    			</source>
+    			</sourceDesc> -->
+        </fileDesc>
+
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Ständchen</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+
+                <key pname="b" accid="f" mode="major"/>
+                <meter count="4" unit="8" sym="common"/>
+                <tempo>Mit zartem Vortrag.</tempo>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes auth="baudi-09-">Tenor II</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="pr">
+                <head/>
+                <identifier type="rism">453007174</identifier>
+                <identifier type="D-KA">Mus. Hs. 1394,2d</identifier>
+                <titleStmt>
+                    <title xml:id="baudi-01-0cfcae76-title">
+                        <titlePart type="main" xml:id="baudi-01-0cfcae76-titleMain">Ständchen </titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-0cfcae76-titleSub"/>
+                        <titlePart type="desc" xml:id="baudi-01-0cfcae76-titleDesc">für Männerchor</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-0cfcae76-composer">
+                        <persName auth="baudi-04-5e3ed698">L. Baumann</persName>
+                    </composer>
+                    <arranger xml:id="baudi-01-0cfcae76-arranger"/>
+                    <lyricist xml:id="baudi-01-0cfcae76-lyricist">
+                        <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
+                    </lyricist>
+                    
+                </titleStmt>
+                <physDesc>
+                    <p decls="creation"><!--	<date
+    								type="creation"
+    								subtype="sure"
+    								isodate="0000"/> --></p>
+                    <dimensions label="height" unit="mm">278</dimensions>
+                    <dimensions label="width" unit="mm">183</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">1</extent>
+                    <extent label="pages" unit="page">1</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>choir part</scoreFormat>
+                    <handList>
+                        <hand label="librarian" medium="bleistift" xml:id="baudi-01-0cfcae76-hand1"/>
+                    </handList>
+               <handList>
+                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+               </handList>
+                    <condition n="1">
+                        <p decls="statusReport">
+                            <date isodate="2019-08-21" type="desc" resp="dried"/>Leichte Nutzungsspuren</p>
+                    </condition>
+                    <physMedium xml:id="baudi-01-0cfcae76-physMedium">Einzelblatt, autographierter Druck</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1394,2</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+    							<list
+    								label="quires">
+    								<head>Lagenordnung</head>
+    								<li
+    									n="1">1. Lage</li>
+    							</list>
+    						</p> --></contents>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+    						<bibl type="announcement"/>
+    						<bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot plist="top left" corresp="#baudi-01-0cfcae76-hand1">2d</annot>
+                    <annot type="dedication" corresp="#baudi-01-0cfcae76-respStmtDed">Dem <corpName>»Sängerbund
+                            Hohenbaden«</corpName> und seinem Chormeister Herrn Edmund Braun gewidmet</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="choir"/>
+                        <term type="vocal"/>
+                        <term type="pr"/>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" label="part" corresp="baudi-02-7b1dd5e8"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2019-08-21" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv n="1" label="Ständchen">
+                <score>
+                    <scoreDef/>
+                    <section/>
+                    <div>
+                        <lg n="1" type="stanza">
+                            <l>Komm' in meinen Rosengarten,</l>
+                            <l>ich will mit dir geh'n,</l>
+                            <l>all' die Blüten schön und zarten</l>
+                            <l>werden uns umweh'n!</l>
+                            <l>Warte bis der Abendglocken</l>
+                            <l>friedlich Lied erklingt,</l>
+                            <l>und die Amsel im Frohlocken</l>
+                            <l>ihre Predigt singt.</l>
+                        </lg>
+                        <lg n="1" type="chorous">
+                            <l>Komm' in meinen Rosengarten,</l>
+                            <l>komm', komm', komm'.</l>
+                        </lg>
+                        <lg n="2" type="stanza">
+                            <l>Dann im süßen Duft der Rosen</l>
+                            <l>gibt sich Zauber kund,</l>
+                            <l>und der Liebe Engel kosen</l>
+                            <l>zärtlich uns den Mund.</l>
+                            <l>Heiss wird unser Herz umfangen</l>
+                            <l>eine frohe Zeit.</l>
+                            <l>und des Duftes süß' Verlangen</l>
+                            <l>wird zur Heimlichkeit.</l>
+                        </lg>
+                        <lg n="2" type="chorous">
+                            <l>Komm' in meinen Rosengarten,</l>
+                            <l>komm', komm', komm'!</l>
+                        </lg>
+                    </div>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

@@ -1,0 +1,104 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="de">Eggenstein-Leopoldshafen</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>BauDi – Baumann Digital Edition</authority>
+				<date when-iso="2017">2017</date>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz.
+                  <graphic url="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+						<desc>Creative Commons Lizenzvertrag</desc>
+						</graphic> </licence>
+				</availability>
+				<distributor> <persName role="editor" xml:id="TB"> <surname>Bachmann</surname>
+					<forename>Tobias</forename> <idno type="gnd"/> <date type="birth" when-iso="1989"/> </persName> <persName role="editor" xml:id="DF">
+					<surname>Fütterer</surname> <forename>Daniel</forename> <idno type="gnd">111099673X</idno> <date type="birth" when-iso="1989"/> </persName> <persName role="editor" xml:id="DR"> <surname>Ried</surname> <forename>Dennis</forename>
+					<idno type="gnd">1091567573</idno> <date type="birth" when-iso="1989"/>
+					</persName> </distributor>
+				<publisher> <orgName>Edition Lilienteich</orgName> <address>
+					<street>Beiertheimer Allee <num>27</num> </street>
+					<postCode>76137</postCode>
+					<settlement key="baudi-06-ba166af7">Karlsruhe</settlement>
+					</address> </publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<listPlace>
+					<place xml:id="BauDi-Ort-0001" type="city">
+						<placeName type="official" notBefore="1974-12-01" xml:lang="de">Eggenstein-Leopoldshafen</placeName>
+						<location>
+							<geo>49.091068 8.388257</geo>
+							<address>
+								<settlement>Eggenstein-Leopoldshafen</settlement>
+								<postCode>76344</postCode>
+								<district type="state">Baden-Württemberg</district>
+								<offset>west of</offset>
+								<region>Baden</region>
+								<region>LandkreisKarlsruhe</region>
+								<country key="D">Germany</country>
+								<bloc>EU</bloc>
+							</address>
+						</location>
+						<terrain>
+							<desc>Area: 26,09 sq km (Eggenstein-Leopoldshafen)</desc>
+						</terrain>
+						<population>
+							<!--<population when-iso="1866"/>-->
+							<population when-iso="2015-04">
+								<desc>16.545</desc>
+								<population type="male">
+									<desc>8.084</desc>
+								</population>
+								<population type="female">
+									<desc>8.461</desc>
+								</population>
+							</population>
+						</population>
+						<event type="conclusion" when-iso="1974-12-01">
+							<desc>Die Gemeinden Eggenstein und Leopoldshafen fusionieren zur
+                           Verbandsgemeinde Eggenstein-Leopoldshafen</desc>
+						</event>
+						<place>
+							<placeName type="part" xml:lang="de" xml:id="BauDi-Ort-0002">Eggenstein</placeName>
+							<placeName notBefore="0766">Hecinsteins</placeName>
+							<placeName notBefore="1160" notAfter="1974-12-01">Eggenstein</placeName>
+							<location>
+								<geo>49.100624 8.389482</geo>
+							</location>
+							<event type="governance" when="0766-06-13">
+								<desc>Ersterwähnung im Lorscher Kodex als »Hecinsteins« unter dem Datum
+                              13. Juni 766.</desc>
+							</event>
+							<event type="conclusions" when-iso="1927-01-14">
+								<desc>Der Gemeinderat beschließt einstimmig, die Ernennung Ludwig
+                              Baumanns zum Ehrenbürger der Stadt Eggenstein.</desc>
+							</event>
+							<event type="conclusions" when-iso="1964">
+								<desc>Der Gemeinderat beschließt die Seitenstraße der Bachstraße nach dem
+                              Ehrenbürger Ludwig Baumann (Baumannstraße) zu benennen. </desc>
+							</event>
+							<idno type="gnd">943385237</idno>
+							<place>
+								<placeName type="street" xml:id="BauDi-Ort-0003">Baumannstraße</placeName>
+								<desc>Nach Ludwig Baumann benannte Straße. Seitenstraße der
+                           Bachstraße</desc>
+								<location>
+									<geo>49.082374 8.393634</geo>
+								</location>
+							</place>
+						</place>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p><!-- %Text über Eggenstein --></p>
+		</body>
+	</text>
+</TEI>

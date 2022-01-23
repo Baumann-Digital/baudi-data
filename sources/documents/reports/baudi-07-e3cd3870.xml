@@ -1,0 +1,965 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-07-e3cd3870" type="report">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jahresbericht des Lehrerseminar I 1881/1882</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Jahresbericht des Lehrerseminar I 1881/1882</title>
+                    <author>Direktor</author>
+                    <settlement key="baudi-06-ef212d55">Karlsruhe</settlement>
+                    <date>1882</date>
+                    <publisher>Verlag</publisher>
+                </bibl>
+
+                <!--               <stamp rend="left" type="round">L.B. Karlsruhe</stamp>-->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="titlepage">
+                <p>
+                    <title>
+                        <hi rend="heading5">
+                            <hi rend="center">Sechsunddreissigster Jahresbericht</hi>
+                        </hi>
+                        <lb/>
+                        <hi rend="center">des</hi>
+                        <lb/>
+                        <orgName key="baudi-05-4f04c3a6">
+                            <hi rend="center">Grossherzoglich Badischen</hi>
+                            <lb/>
+                            <hi rend="heading3">
+                                <hi rend="center">Schullehrerseminars Karlsruhe I</hi>
+                            </hi>
+                        </orgName>
+                        <lb/>
+                        <hi rend="heading5">
+                            <hi rend="center">für das Schuljahr <lb/>
+                                <date from-iso="1881" to-iso="1882">1881/82</date>
+                            </hi>.</hi>
+                    </title>
+                </p>
+                <p>
+                    <hi rend="center">
+                        <lb/> Mit einer Beigabe: <title>Zur Beurteilung der Katechismusvorlage</title>, <lb/> von <persName
+                            key="baudi-04-4a047f25">Dir. Leutz</persName>.</hi>
+                </p>
+                <p>
+                    <settlement key="baudi-06-ef212d55">
+                        <hi rend="heading5">
+                            <hi rend="center">Karlsruhe</hi>
+                        </hi>
+                    </settlement>. <lb/>
+                    <hi rend="center">Druck der <orgName>G. Braun'schen Hofbuchdruckerei</orgName>. <lb/>1882. </hi>
+                </p>
+            </div>
+            <div type="page" n="[3]" decls="Zur Geschichte der Anstalt">
+                <p>
+                    <hi rend="heading3">
+                        <hi rend="center">I.<lb/> Zur Geschichte der Anstalt.</hi>
+                    </hi>
+                </p>
+                <p>Das Schuljahr 1880/81 schloss ab mit der Schlussprüfung vom <date from-iso="1881-08-06" to-iso="1881-08-09"
+                        >6.–9. August 1881</date>. Die 39 Schüler des obersten Kurses wurden sämtlich in das
+                        <orgName>Schulamt</orgName> entlassen. Die 37 Schüler des II. Kurses rückten in den oberen vor, und ebenso
+                    die 35 des I. in den II. Kurs. Zu der vom <date from-iso="1881-09-27" to-iso="1881-09-30">27.–30. September
+                        1881</date> abgehaltenen Aspirantenprüfung meldeten sich 36 junge Leute, darunter 27 aus Realgymnasien und
+                    höheren Bürgerschulen, welche dieselben meist bis zu Ende durchlaufen hatten, mehrere bis Unterprima, nur 9
+                    wurden von einzelnen Lehrern vorbereitet. Wenn das Ergebnis der Prüfung auch nicht dieser langen Vorbereitung
+                    überall entsprach, so lag der Grund wohl darin, dass diese Schüler auf den Mittelschulen auch schon
+                    mangelhafte Leistungen aufwiesen, oder die musikalische Ausbildung vernachlässigt hatten. Es wurden 26
+                    Aspiranten aufgenommen, 23 in I. Kl. und 3 in II. Kl., letztere waren alle in Gymnasien, von ersteren 18 in
+                    Gymnasien oder höheren Bürgerschulen, und 5 von einzelnen Lehrern vorbereitet. Aus der
+                        <orgName>Präparandenschule Tauberbischofsheim</orgName> kamen 11. Im Laufe des Jahres traten aus I. Klasse
+                    3, aus II. Klasse 1 und aus III. Klasse 1 aus, so dass am Schlusse des Schuljahres anwesend sind:</p>
+                <table>
+                    <row>
+                        <cell>I.</cell>
+                        <cell>Kurs</cell>
+                        <cell>Evang.</cell>
+                        <cell>29</cell>
+                        <cell>Israel.</cell>
+                        <cell>2</cell>
+                        <cell>zusam.</cell>
+                        <cell>31</cell>
+                    </row>
+                    <row>
+                        <cell>II.</cell>
+                        <cell>"</cell>
+                        <cell>"</cell>
+                        <cell>36</cell>
+                        <cell>Israel.</cell>
+                        <cell>1</cell>
+                        <cell>zusam.</cell>
+                        <cell>37</cell>
+                    </row>
+                    <row>
+                        <cell>III.</cell>
+                        <cell>"</cell>
+                        <cell>"</cell>
+                        <cell>35</cell>
+                        <cell>"</cell>
+                        <cell>1</cell>
+                        <cell>zusam.</cell>
+                        <cell>36</cell>
+                    </row>
+                    <row>
+                        <cell>Im</cell>
+                        <cell>Ganzen</cell>
+                        <cell>Evang.</cell>
+                        <cell>100</cell>
+                        <cell>Israel.</cell>
+                        <cell>4</cell>
+                        <cell>zusam.</cell>
+                        <cell>104</cell>
+                    </row>
+                </table>
+                <p> Hiervon sind 97 intern, 7 extern.</p>
+                <p> Die Prüfung der Seminarschule wurde am <date when-iso="1882-03-31">31. März d. J.</date> in den
+                    Religionsfächern von <persName>Geh. Kirchenrat Schellenberg</persName>, in den weltlichen von
+                        <persName>Oberschulrat von Sallwürk</persName> vorgenommen. Am Schlusse des Schuljahres zählte die Schule
+                    in Kl. I 56, in Kl. II 60, in Kl. III 61, in Kl. IV 21 Schüler.</p>
+            </div>
+            <div type="page" n="4" decls="Zur Geschichte der Anstalt">
+                <p>Nach Promovierung der Klassen wurden an <date when-iso="1882">Ostern d. J.</date> 54 neue Schüler in die I.
+                    Klasse aufgenommen.</p>
+                <p>Die Dienstprüfung für <date when-iso="1881">1881</date> fand vom <date from-iso="1881-08-10"
+                        to-iso="1881-08-13">10.–13. August</date> statt. Es hatten sich dazu 37 Lehrer gemeldet, wovon 32
+                    erschienen, hievon bestanden 3 die Prüfling für erweiterte Schulen, 23 für einfache und 4 erhielten eine
+                    Nachprüfung. Ausserdem erschienen 8 Lehrer zu Nachprüfungen, wovon 7 bestanden, und 4 machten die
+                    Candidatenprüfung‚ wovon 2 bestanden.</p>
+                <p>Im Lehrerpersonale des Seminars fand keine Veränderung statt. Der <date from-iso="1876-09">seit Herbst
+                        1876</date> an der Seminarschule angestellte Unterlehrer <persName>Karl Friedrich Gutmann</persName>
+                    erhielt eine Stelle als Hauptlehrer an der Volksschule in <settlement key="baudi-06-5541661c">Heidelberg</settlement>, Erlass Grossh.
+                    Oberschulrats vom <date when-iso="1882-04-05">5. April d. J.</date>‚ No. 5352, an seine Stelle trat nach
+                    Erlass vom <date when-iso="1882-04-14">14. April d. J.</date>‚ No. 5351, Unterlehrer <persName>Johann Georg
+                        Ziegler</persName>, bisher in <settlement key="baudi-06-5541661c">Heidelberg</settlement>. Derselbe trat in die II. Klasse ein,
+                    und der bisherige Lehrer dieser Klasse, <persName>August Ziegler</persName>, übernahm die oberste IV.
+                    Klasse.</p>
+                <p>Auch in diesem Jahre können wir dankbar den Gesundheitszustand im allgemeinen als befriedigend bezeichnen, doch
+                    mussten einige Zöglinge längere Zeit wegen Krankheit in ihre Heimat zurückkehren, wovon zwei des obersten
+                    Kurses bis jetzt noch nicht wieder in den Unterricht eintreten konnten.</p>
+                <p>Zur Zeit der Feier der silbernen Hochzeit <persName>Seiner Königlichen Hoheit des Grossherzogs</persName>, im
+                        <date when-iso="1881-09">September des vorigen Jahres</date>, waren die Zöglinge noch in ihrer Heimat in
+                    den Ferien, doch wurde <persName>Ihren Königlichen Hoheiten</persName> eine gemeinsame Glückwunschadresse der
+                    vier badischen Seminarlehrerkollegien überreicht.</p>
+                <p>Das Weihnachtsfest wurde in üblicher Weise vom Seminar und der Schule am Abend des <date when-iso="1881-12-23"
+                        >23. Dezember</date> begangen.</p>
+                <p>Das Geburtsfest unseres <persName>Kaisers</persName> wurde am Morgen des <date when-iso="1882-03-22">22. März
+                        1882</date> von der Anstalt mit Gesängen und Vorträgen gefeiert, wobei der Zögling des Oberkurses
+                        <persName>Johann Herold von Boxberg</persName> die Festrede hielt über <persName>den deutschen Kaiser
+                        Heinrich III.</persName> Einen gemeinsamen Ausﬂug machten Lehrer und Zöglinge am <date
+                        when-iso="1882-06-24"> 24. Juni d. J.</date> Wir fuhren mit der Eisenbahn bis
+                        <settlement>Gernsbach</settlement>, wanderten über <settlement>Scheuren</settlement> nach
+                        <settlement>Reichenthal</settlement>, nach kurzer Rast von hier auf den <settlement>Hohloh</settlement>
+                    und nach <settlement>Kaltenbronn</settlement>. Hier wurde längere Zeit gerastet und die mitgebrachten
+                    Lebensmittel wurden verzehrt. Alsdann gingen wir über das <settlement>Hochmoor</settlement>, an dem
+                        <settlement>Hornsee</settlement> vorbei, durch prächtige, noch mit dem frischen Grün geschmückte
+                        <settlement>Tannenwälder</settlement> nach <settlement>Wildbad</settlement>, wo wir noch so zeitig
+                    ankamen, dass die Anlagen und die Bad-</p>
+            </div>
+            <div type="page" n="5" decls="Zur Geschichte der Anstalt">
+                <p>einrichtungen besichtigt werden konnten. Um <time when="20:30:00">8 1/2 Uhr</time> fuhren wir mit der Eisenbahn
+                    nrach <settlement>Pforzheim</settlement> und von da <settlement key="baudi-06-ef212d55">nach
+                        Hause</settlement>. Das Wetter war uns sehr günstig, die beim Aufsteigen etwas lästige Hitze wurde bald
+                    durch die bewegte, frischere Luft der Höhe angenehm gemildert.</p>
+                <p> Im Laufe des Jahres erhielt unsere ‚Änsstalt folgende Besuche: Am I7. und I8. November V. bcehrten uns die
+                    Grossherzogliclrerr Kreisschulritte Alletag von (Mfenburgg Goth von Mosbach und 'I‘rautz von Iirxrlsruhe mit
+                    ihrem Besuche und wohnten dem Unterricht im Seminar und in der Seminarschrlle an. Ilerr A. D. Lückhoff,
+                    Pfarrer der ref. Kirche in Kapstadt, Süd-Africzr, wohnte dem Unterrichte an und besichtigte die Einrichtung;
+                    ferner Herr Kulmann-Olserr aus Teröen in Norwegen. I-Ierr Seminardirector Bethe aus Weissenfels. Der tmstalt
+                    wurden im Laufe des Jahres folgende Geschenke gemacht: Von Seiner Käönigl. Hoheit dem Grossherzog:
+                    l-Iottinger, Deutschland in Bild und Wort. Berlin und Strassburg 1878. Ilottinger, der deutschJranzösische
+                    Krieg 1870-71. Berlin und Strassburg 1880. Hottinger, Orbis pictus. Berlin und Strassburg 1881. Von I-‚Ierrn
+                    Buchhändler Kreuzbauer dahier: Ilul)’s Deutschlands Ilalladenund Romanzendichter. 3 Bde. Von Herrn
+                    Gymnasialllehrer Meinzer hier: dessen Rcrxhenbüchlein für die Volksschüler, 8 Jahrgänge. Vom Verlag von
+                    Baedelc er in Essen: Atlas zur deutschen (‘xeschichte, entworfen von Dr. C. Fr. bileyer. Von Bahnmaieﬂs Verlag
+                    in Basel: Schäublin, Chorge- sänge, I. und II. l3äirdcheil. Vun C}1ristianl{aise1-‚ Iluchhzrndlrlng in
+                    München: Evangelisches Choralbtxch für den Blännerchor von Joh. Zahn, Seminarinspelctol’ in Altdorf. Wir
+                    sprechen hiemit für diese Gaben unseren verbindlichsteir IJanl; aus. Wir müssen noch einer Ilereicherung
+                    unserer Bibliothek gedenken, welche für unsere Anstalt von ganz besonderem Werte ist. Verzrnlasst durch
+                    mehrfache Anfragen um die frühesten Schriften des verstorbenen Direktors Prof. Stern wurde </p>
+            </div>
+            <div type="page" n="6" decls="Zur Geschichte der Anstalt">
+                <p> der Wunsch ausgesprochen, es möchte unsere Anstalt eine möglichst vollständige Sammlung jener Schriften s1cl1
+                    verschaffen, welche für die Geschichte der Methodik von hoher Wichtigkeit sind. In unserer Bibliothek fand
+                    sich kein einziges sprachliches Werk von Stern. Da die älteren Bücher in den Buchhandlungen gar nicht mehr zu
+                    bekommen waren, so blieb kein anderer Weg, als die älteren evang. Lehrer des Landes um gütig-e Ueberlassung
+                    von Exemplaren jener früheren Bücher an unsere Anstalt zu bitten, welcher Bitte denn auch mit Freuden von
+                    vielen Seiten entsprochen wurde. So sehen wir uns denn im Besitze aller wichtigeren sprachlichen Schriften
+                    Sterrfs, es sind diese der Zeit nach folgende: Anfänge des Unterrichts 1827. Sprachbuch in Quart, I. Wörter,
+                    II. Wortverbindungen, III. Satzverbindungen, IV. Frühlingsgarten, V. Sprachschule 1826 bis 1830. _ Anleitung
+                    zum Gebrauch des Sprachbuchs I. und II. Abteilung 1828, 1829. Schulbüchlein der deutschen Stilbildung, ein
+                    Auszug 21115 dem V. Teil des Sprachbuchs, 1831. Lehrgang des Lautirtinterrichts, in mehreren Exemplaren, 1833-
+                    Freie Sprechund Aufsatzübungen, 1832. Begründung, Unterscheidung und Uebung der ersten und wesentlichen
+                    Sprachbegriﬂe, 1 8 3 2. Deutsche Formenund Satzlehre, 1834. Erstes Sprachund Lesebuch, Fibel. Zweites „
+                    Drittes „ „ „ Lehrgang der ersten Satz- und Atlfsatzübtlngen, als Anleitung zum zweiten Sprachbuch, 1840.
+                    Anleitung zum dritten Sprachund Lesebuch. Belehrendes Leseund Unterrichtsbuch, 1842. Zergliedernder
+                    Sprachunterricht nach geistbildenden Grundsätzen, 1846. Satzbildung und Anfertigung kleiner Aufsätze, 1854.
+                    Anleitung‘ zum Gebrauche der Satzbildmig, 1854. Deutsche Sprachlehre für höhere Schulen, 1856. Kleines Leseund
+                    Unterrichtsbuch, 1864. Natur-‚ Erdund Völkerkunde, 1839. Allgemeine Erdund Himmelskunde, 1843. Kleine
+                    Schulgeographie, 1863. Lehrgang des Rechenunterrichts, 1832. Aufgabenbüchlein für das 'I'afelrechnen.
+                    Erfahrungen und Grundsäitze für den Religionsunterrieht, 1 8 3 3. Erstes Spru chbuch für christliche Schulen,
+                    1 8 3 3.</p>
+            </div>
+            <div type="page" n="7" decls="Zur Geschichte der Anstalt">
+                <p> H 77 .1 7 i. Geschichtliches Spruchbuch für die Repetition der bibl. Geschichte, 1834. Lehrbüchlein des
+                    christlichen Glaubens, 1853. geht aus dieser grossen Reihe von Schriften hervor, welche grosse Arbeitskraft,
+                    und welche vielseitige Bildung der Verfasser besass, welch ein rastloses Streben nach einer stets
+                    vollkommneren Methode ihn beseelte, wie er jede neue Erscheinung mit vortirteilslosem Blicke prüfte, das Gute
+                    anerkannte und in seinen Schriften verarbeitete. Stern gehört zu den bedeutendsten, bahnbrechenden
+                    Schulmännern auf dem Gebiete der Sprache und des Rechnens, und mancher altere Lehrer greift heute noch gerne
+                    zu den Anleitungen, um sich daraus rats zu erholen. Die Bücher wurden uns von nachstehenden Lehrern über-
+                    sendet: I-Iauptl. Reuther in Karlsruhe, Kirsch in Lichtenau, Walter in Sennfeld, Schember in Ernmendingen,
+                    Klein in Ruchsen, Zimmermann in Reilsheim, Köbler in Feudenheirn, Larnerdin in Käfcrthal, Men g in Hohnhurst,
+                    Mössinger in Riippurr, Zachmann in Pforzheirn, Merkel in Huchenfeld, R atzcl in Dainbach, W örner in
+                    Ladenburg, Held in Reilingen, Glock in Weinheim, Schücl: in Heidelberg, Brauch in Sulzfeld, Oblitnder in
+                    Eichel, Bussemer in Schriesheim, Leh— mann in Rittenweier. Von den in mehrfacher Zahl eingesendeten Exemplaren
+                    habe ich, gewiss mit Erlaubniss der Geber, ein Exemplar an das Seminar II abgegeben. Im Namen unserer Anstalt
+                    sage ich hiermit den freundlichen Gebern, welche zugleich ihre Anhänglichkeit an die Stätte ihrer Vorbereitung
+                    und an ihre ehemaligen Lehrer damit ausdrückten, meinen besten Dank. Zur Verteilung von Stipendien waren für
+                    1881/82 zur Verfügung: ' Aus Stiftungsfonds 1540 MAus der Staatsdotation 670e „ Summa 8240 M. Nach Erlass
+                    Grossh. Oberschulrats vom I4. Juni d. ].‚ Nr. 8052, wurden bewilligt: In der I. Klasse: 3 Stipendien zu je IIO
+                    M. 5 Stipendien zu je 7o M. 8 „ „ „ IOO „ 3 n n n 60 a; 7 H 77 7! </p>
+            </div>
+            <div type="page" n="8" decls="Zur Nachricht">
+                <p> In der II. Klasse: 7 Stipendien zu je I25 M. 6 Stipendien zu je IOO MII „ n n [I0 n In der III. Klasse. Das
+                    grosse Friederiken-StipenIO Stipendien zu je I30 Mclium zu . . . 200 M. 6 „ „ n I30 H 4 Stipendien zu je IIO
+                    M. 5 „ n n 100 ‚y </p>
+                <p>
+                    <hi rend="heading3">
+                        <hi rend="center">Zur Nachricht.</hi>
+                    </hi>
+                </p>
+                <p> 1. Die Schlussprüfttng mit der Kandidatenprüfting für das Schuljahr 1881/82 ﬁndet vom 29. juli bis I. August
+                    statt. 2. Die Dienstprüfung für 1882 ﬁndet vom 13.-46. September statt. 3. Die Prüfung der Aspiranten beginnt
+                    Dienstag den I9. Sept. morgens 8 Uhr. Dieselben haben sich Tags zuVOr bei der Direktion anzumelden. Den bis I.
+                    Sept. einzusendenden Eingaben müssen beiliegen: 1. Ein Geburtsschein. 2. Ein grüner Impfscheirl für die zweite
+                    Impfung. 3. Ein verschlossenes Zeugnis des Bezirksamtes Über die körperliche Beschaffenheit und den
+                    Gestrndheitszustand des Aspiranten. i 4. Das Abgangszerlgnis von einer Priiparancienschule oder das Zeugniss
+                    von einer Mittelschule oder ein verschlossenes Zeugnis über den Privatvorbereitungs- Unterricht. ' Eine vom
+                    Bürgermeisteramt zu beglaubigende Erklärung des Vaters, bezw. Vormunds, die durch den Aufenthalt des Schülers
+                    an dem Seminar entstehenden Kosten zu tragen. U! Die Zeugnisse über Vorbereitung haben genau anzugeben; wie
+                    lange der Aspirant bei dem betreffenden Lehrer den Unterricht genossen hat. Beim Eintritt hat jeder das
+                    Kostgeld für das erste Halbjahr mit go Mark und den ersten ökonomischen Beitrag mit IO Mark, zusammen IOO
+                    Mark, zu bezahlen. Im übrigen wird das Kostgeld vierteljährig zum voraus erhoben; es werden den Zöglingen
+                    jeweils beim Eintritt der Ferien die Forderungszettel mitgegeben, welche sofort nach der Rückkehr zu
+                    berichtigen sind. Das Kostgeld beläuft sich für das jahr auf circa I90 Mark. Ein Nachlass kann nur von Ä 9
+                    „___ der Zeit an eintreten, wo über die Verteilung von Stipendien schon Beschluss gefasst ist, was erst im
+                    Laufe des Sommers geschieht. Soferne die Itiöglichkeit, den Anforderungen der Kostkasse nachkommen zu können,
+                    bei einem Aspiranten zweifelhaft erscheint, müssen wir die rmfstellung eines Bürgen verlangen. Beim Eintritt
+                    hat jeder seine Leibwäsche, deutlich gezeichnet, Handtücher, Waschbecken, Schwamm und Bürsten mitzubringen,
+                    ferner haben sämtliche Zöglinge zum Bezug der Betten 4 Betttücher, 2 kleine Ueberzüge für Kopfpolster, 0,55 m
+                    lang, 0,75 m breit, und einen grösseren Ueberzug, 1,30 m lang, für ein Plümeau mitzubringen. Über sämtliche
+                    Gegenstände ist ein Verzeichnis zu führen. 4.. Der Unterricht im neuen Schuljahre beginnt Samstag den 23.
+                    September. Die II. und III. Klasse hat sich am Nachmittage vorher hier einzuﬁnden. II. l’ersonalstand der
+                    Anstalt. Direktion. Ferdinzind L e u t z. Anstaltslehrer. i) Am Seminar: Ferdinzurd Leutz, DirektorAlbrecht
+                    Thema, ProfessorMzxrtin S c h we i ck ert, SeminarobcrlcllförAndreas Barner, Seminarlehrer. Leonhard Knauer, „
+                    Heinrich Eyth, Hilfslehrer für einzelne Fächer. Alfred Maul, Direktor der Turnlehrerbildungsanstalt. .
+                    Heinrich Bihler, Professor am Gymnasium, den für französischen Unterricht. I0 Wilhelm Brenk, Musiklehrer, für
+                    das Klavier in der I. Klasse. Violinspiel und 2) An der Seminarschule: II. III. . Klasse’. Karl Gutmann bis
+                    Ostern 1882. August Ziegler. IICIIIIIICII Schwarz. Karl Ilriitininger. Joh. Gg. Ziegler, seit Ostern 1882.
+                    Verwaltung. Seminarfondsverrechner : Karl Reis s ‚ Rechnungsrat. Kostverrechner: Seminaroberlehrer S ch w e i
+                    c k e r t. Anstaltsarzt. Wedicinalrat Dr. E. Meier. Seminardiener. Abraham Schleich. III. Uebersicht des
+                    Unterrichts. I. Religion . Lesen und Erklären ausgewählter Abschnitte aus den historischen Büchern des alten
+                    und neuen Testaments und geeigneter Stellen aus den prophetischen Büchern. Biblische Geographie und
+                    Altertumslcundta. Glaubensund Sittenlehre, soweit sie aus den gelesenen Abschnitten sich ergeben. Lieder aus
+                    dem Gesangbuch und deren Geschichte. Das Kirchenjahr. ——3 Std. wöch. Klasse. Die Lehrbücher des alten und
+                    neuen Testaments mit Hervorhebung der daraus sich ergebenden Glaubensund Sittenlehren. —3 Std. wöch. — Klasse.
+                    Uebersicht der biblischen Geschichte im Zusammenhang. Die christliche Lehre nach Anleitung des Katechismus.
+                    Geschichte der christlichen Kirche nach dem für die evang. Schulen bestimmten Leitfaden. Die wichtigsten
+                    Bekenntuisschriften. Anweisung zur Erteilung des Religionsunterrichts in den Volksschulen. —— 2 Std. wöch.
+                    Leutz, In den täglichen Morgcnund Abendantlachten werden Stücke des neuen und alten Testaments gelesen und
+                    erklärt. An den Sonntagen wird vor Beginn des Gottesdienstes der jeweilige Text erläutert und erbaulich
+                    angewendet. II. Erziehungsund Unterrichtslehre. II. Klasse. Allgemeine Unterrichtslehre mit Uebtingen im
+                    Erzählen und llrfragen. Zahlreiche schriftliche Katechesen mit Probelektionen vor einer Anzahl von Schülern
+                    der Seminarschule. —— 2 Std. wöeh. III. Klasse. I. Die anthropologischen und psychologischen Grundsätze,
+                    soweit sie der Erziehungsund Unterrichtslchre zur Grundlage dienen. 2. Allgemeine Erziehungslehre.
+                    Sehuldisciplin. Besprechung der Methodik einzelner Lehrgegenstände auf Grund des Lehrplans für Volksschulen.
+                    Geschichte der Pädagogik seit 1500 n. Chr. —3 Std. wöch. Die Zöglinge benützten das Lehrbuch von Kahle. Leutz.
+                    A. Theoretischer Teil. in B. Praktischer Teil. Die praktischen Uebungen im Schulhalten sind so geordnet, dass
+                    der ganze Nachmittagsunterricht der Seminarschule, in 4 Klassen, und in den 4 Hauptunterrichtsfäehern, ——
+                    Religion, Sprache, Rechnen, Realien, — von dem in 4 Abteilungen sich’ spaltenden Oberkurs unter unmittelbarer
+                    Aufsieht des Klassenlehrers und der Kontrole des betreffenden F achlehrers besorgt wird. Behufs der
+                    Beurteilung der Leistungen und der Verwertung der gemachten Erfahrungen ﬁndet wöchentlich mit jeder Abteilung
+                    unter Leitung des Seminarlehrers eine Konferenz statt. —— I0 Std. WöchIII. Deutsche Sprache. I. Klasse. r.
+                    Sprachlehre. Der einfache und erweiterte Satz. Der zusammengesetzte Satz im allgemeinen. Das Wichtigste aus
+                    der Wortlehre. Orthographie und Interpunktion. Zergliedertrng von Lesestücken. II. III. 2. Lektüre. Lautund
+                    tonrichtiges Lesen prosaischer und poetischer Stücke mit sprachlicher und sachlicher Crklarttng. Wiedergabe
+                    des Gelesenen. Vortrag auswendig gelernter Stücke. Im Anschluss an die Lektüre das Wichtigste aus der Poetik.
+                    3. Aufsatz. Erzühhrngxin, Nachbildungen, leichtere Beschreibungen und Schilderungen, kleine Abhandlungen,
+                    ‚Inhaltsangabe von Gedichten, Geschüftsaufsätze. Nach Blatz, Schulgrzxmmzitik. —— Wöch. 6 Std. * Knauer.
+                    Klasse. I. Spraehlehre. Wiederholung und Blrweiterung des früher Gelernten. Der zusammengesetzte Satz.
+                    ‚Interpunktion. Wortbildung. Zergliederung von Lesestüeken. Nach Blatz, Schulgmmmzxtik. 2. Lektüre.
+                    Fortgesetzte Uebung im lautund ton- richtigen Lesen prosaischer und poetischer Stücke aus dem bad. Lesebuch
+                    III. Teil und Fäörsters deutschem Lesebuch mit sprachlicher und sachlicher Iirkliirunrr. Angabe des Inhalts
+                    und der Darstellungsart des Gelesenen. Vortrag" auswendig gelernter Gedichte und prosaischer Stücke.
+                    Uebersicht über die erste Blütenperiode der deutschen Litteratur mit Proben in Ursprache und Uebertragunrr. 3.
+                    Aufsatz. Schriftliche Arbeiten — Dispositionen, Entwürfe, Aufsätze — über verschiedene Themata mit gegebenem
+                    Stoff: Beschreibungen, Schilderungen und Abhandlungen, meist im Anschluss an die Lektüre und Geschichte. ——
+                    Wöch. 6 Std. Klasse. I. Spraehlehre. Wiederholung der gesamten Sprachlehre mit eingehender Behandlung
+                    einzelner wichtiger Partien. Zergliederung von Lesestücken. 2. Lektüre. Darstellung der Entwickelung der
+                    deutschen Litteratur seit Opitz. Gelesen und erklärt wurden Göthes „Jphigenie“ und Schrllers „Tell“. 5.
+                    Aufsatz. Das Wichtigste aus der Stillehre. Aufsatze uber verschiedene Themata im Anschluss an die Lektüre;
+                    Abhandlungen über Sprichwörter; dienstliche Iilingaben an Ilehörden; eine Rede. — Wöch. 4. Std. Anleitung zur
+                    Erteilung deutschen Sprachunterrichts in der Volksschule mit praktischen Uebungen in der Seminarschule. —-—
+                    Wöch. 3 Std. 'I'horna. a ‚.. I3 _ IV. Französische Sprache. (Für solche Schüler, welche bereits früher
+                    Unterricht hierin l1. III. genossen haben.) Untere Abteilung. Wiederholung der Formenlehre und der wichtigsten
+                    syntaktischen Regeln unter Zugrundelegung der Notivelle grammaire francaise und des sich daran anschliessenden
+                    Cours gradue de thcmes von Plötz. Extempoirxlien. Gelesen wurde Don Quichotte von Florian. — 2 Std. Obere
+                    Abteilung’. Kasuslehre, Gebrauch der Zeiten und Modi, Adverbien und Negationen, nach derselben Grammatik und
+                    den zugehörigen Uebungen zur Erlernung" der französischen Syntax. lixtemporalien. Uebung im Vortrag-. Viktor
+                    Hugo. Histoire de Napoleon von Lanfrey. — 3 Std. wöch. Pﬂege französischer Konversation in beiden Abteilungen.
+                    B i hl e r. V. Rechnen. Klasse. Repetition der gemeinen Brüche und Dezimalbrüche. Angewandtes Rechnen. Die
+                    vier Grundrechnungsarten in ganzen und gebrochenen unbestimmten Zzrhlen und mit entgegengesetzten Grössen.
+                    Zahlengleichungen vom ersten Grad mit einer Unbekannten. ——— 3 Std. wöch. Klasse. Angewandte Aufgaben.
+                    Potenzen und Wurzeln. Proportionen. Gleichungen des ersten Grades mit mehreren und des zweiten Grades mit
+                    einer Unbekannten. ——— 3 Std. wöch. Klasse. schwierigere Schlussrechnungen. Gleichungen des ersten Grades mit
+                    mehreren Unbekannten und Gleichungen des zweiten Grades mit einer Unbekannten. Die Logarithmen. ‚Arithmetisehe
+                    und geometrische Progressionen. Zinseszinsund Rentenrechnung-en. —— 2 Std. wöch. Methodik des
+                    Rechenunterriehts in der Volksschule in Verbindung mit praktischen Uebungen in der Seminarschulu _- Knauer.
+                    VI. Geometrie. Klasse. Geometrischer Anschauungsunterricht. Die Winkel. Die Lehrsiitze von den Dreiecken und
+                    Parallelograinmen. (Erleichheit der geradlinigen ‚Figuren; Berechnung derselben. Konstruktionen. — 2 Std.
+                    wöch. II. III. II. III. II. III. II. III. I4 Klasse. Die Kreislehre. Die Aehnlichkeit der Figuren.
+                    Konstruktionen und Berechnungen. — 2 Std. wöch. Klasse. Wiederholung der ebenen Geometrie. Die Hauptsätze aus
+                    der Stereometrie. »—— 2 Std. wöch. Knauer. VII. Geographie. Klasse. Das Wichtigste aus der allgemeinen
+                    Geographie. Die Planigloben. — 2 Std. wöch. Klasse. Wiederholung und Erweiterung der allgemeinen Geographie.
+                    Die Staaten Europas. Die fremden Erdtcile im Überblick. — 2 Std. wöch. Klasse. Das Wichtigste aus der
+                    Himmelskunde. —— I 514dwöch. Anleitung zur Erteilung des gcogr. Unterrichts in der Volksschule. Die Zöglinge
+                    benützen die Lehrbücher von Hummel und Seydlitz. Schweickert. VIII. Geschichte. Klasse. Ueberblick über die
+                    Geschichte der alten Völker bis zum Untergang Westroms. —— 2 Std. wöch. Klasse. Allgemeine Geschichte mit
+                    besonderer Berücksichtigung der deutschen Geschichte, von der Völkerwanderung bis zum westfälischen Frieden. w
+                    2 Stdwöch. Klasse. 'Neuere Geschichte; vom Ende des 30jährigen Krieges bis zur Gegenwart. Wiederholung der
+                    alten und mittleren Geschichte. — 2 Std. wöch. Nach Andrä, Grundriss der Weltgeschichte. ' Thema. IX.
+                    Naturgeschichte. . Klasse. Beschreibung einzelner Mineralien, Pflanzen und Tiere. —— 2 Std. wöch. Klasse.
+                    Übungen im Bestimmen der Pﬂanzen auf Grund des Linneischen Systems. Bau und Lebensverrichtungen der Pﬂanzen.
+                    Die Wirbeltiere. — 2 Std. wöch. Klasse. Die bekannten einfachen Gesteine; die verbreitetsten Geblrgsartcn und
+                    deren Lagerung. Wiederholung des 'I‘ierreichs. —— I Std. wöch. Anleitung zur Erteilung des
+                    naturgeschichtlichen Unterrichts in der Volksschule. —— I Std. wöch. Die Zöglinge benützen den Leitfaden von
+                    Leunis. Schweickert. II. III. X. Natur-lehre. . Klasse. Bewegungsgesetze der festen, ﬂüssigen und luftförmigen
+                    Stoffe. —— 2 Std. wöch, Klasse. Die Lehre vom Schall und vom Licht. ——— 2 Std. woch. Klasse. Das Wichtigste
+                    aus der Lehre von der Wärme, vﬁom. Magnetismus und der Elektrizität. Anleitung zur Erteilung dieses
+                    Unterrichts in der Volksschule. —— 2 Std. wöch. Die Zöglinge benützen das Lehrbuch von „Bänitz. Schweickert.
+                    X1. Schönschreiben. . Klasse. Die deutsche und lateinische und die Rund-Schrift. w 2 Std. wöch. Schweickert.
+                    XII. Zeichnen. A. Freihandzeichnen. I. II. III. Klasse. Zeichnen nach freistehenden Körperformen im Umriss und
+                    mit Angabe der Beleuchtung. —— 2 Std. wöch. Klasse. Zeichnen einfach proﬁlierter Gefasse und Geräte im Umriss
+                    und zum Teil mit Sehattierung und Farbangabe. Palmette und Spirale. —— 2 Std. wöch. __ Klasse. Zeichnen nach
+                    Vorlage und Modell. Ubung im Wztndtafelzeichnen. Zeichnen geradliniger Ornamente in das Punktnetz als erster
+                    Unterrichtsstoff für die Volksschule. ——I Std. wöch. B. Linearzeichnen. I. II. III. I. Klasse. Die Projektion
+                    des Punktes, der Linien, Flächen und einfach geometrischer Körper. —— 1 Std. wöch. Klasse. Anwendung der
+                    reehtwinkeligen Parallelprojektion. Einfache Aufgaben aus der Schattenlehre. —« I Std. wöch. Klasse.
+                    Körperschnitte; Aufnahme von Gegenständen. —— I Std. wöch. Eyth. XIII. Musik. A. G es a ng. Klasse. Allgemeine
+                    Regeln über Tonund Stimmbildung, Körperhaltung, Mundstellung und Atmen. T0n— und Stiminbildtingsübungen. Die
+                    Dur-Tonleiter und ihre Intervalle. Leichterc Treffübtingeir. Einübung leichter ein- und mehrstimmiger Choräle
+                    und Volkslieder aus dem Choralheft von Kramm und aus den Gesangheften von Barner. —— 2 Std. wöch. M.‚ II. III.
+                    II. I. ——-IÖ-Klasse. F ortgesetzte Uebungen bezüglich der Tonund Stimmbildung. Das Singen der Skala,
+                    insbesondere der Moll-Skala und ihrer Intervalle. Schwierigere Treffübungen absoluter und relativer
+                    Intervalle. Praktische Studien im 'I'aktieren. Erweiterte Uebttngezr im Vortrag: deutliche und korrekte
+                    Aussprache der Worte, Betonung und Nuancierttng. Einübung vierstimmiger Choräle und Münnerchöre aus der neuen
+                    Siingerrunde. — 2 Std. wöch. Klasse. Erweiterung der obigen Ubungen des II. Kurses. Einübung schwieriger
+                    Choräle und grösserer Chöre. Anleitung zur Erteilung des Gesangunterrichts in der Volksschule nach Barner.
+                    („Methodische Anleitung zur Erteilung des Gesangunterrichts nach dem Gehör.“ ’I‘auberbischofsheim, 187g). — r
+                    Std. wöch. Barner. B. Iilavierspiel. Klasse (in vier Abteilungen). Fingerübungen von Herz. Die
+                    gebräuchlichsten Durund Moll-Tbnleitern in Verbindung mit kleinen Cadenzen. Sonatinen von Clernenti und
+                    Kuhlau. — Jede Abteilung I Std. wöch. Brenk. Klasse (in vier Abteilungen). Fingerübtmgen von Herz. Durund
+                    Moll-Tonleitern in Gegenbewegung und Uebung der gebrochenen Akkorde. Etuden von Bertini, Czerny, Cramer u. a.
+                    Sonatinen von Clementi, Kuhlau und Dussek. Sonaten von Haydn, Clementi und Mozart. —— Jede Abteilung I Std.
+                    wöch. Barner. C. Orgelspiel. Klasse (in vier Abteilungen). Orgelschule von G. A. Ritter. Leichte Choräle. —
+                    Jede Abteilung I Std. wöch. II. Klasse (in vier Abteilungen). Orgelschule von Ritter. ChoralIII. I. II. und
+                    Präludienspiel nach dem evangelischen Choralund Präludienbuch. Jede Abteilung 1 Std. wöch. Klasse (in 4
+                    Abteilungen). Fortgesetzte Pedalübungen. Choralund Präludienspiel nach dem evangelischen Choralund
+                    Präludienbuche. Grössere Orgelstücke von Bach und Mendelssohn, sowie aus Sammlungen von Ritter, Vollrmar,
+                    Schick u. a. — Jede Abteilung 1 Std. wöch. Barner. D. Harmonielehre. Klasse. Die Elementarmusiklehre und
+                    Intervallenlehre nach Barner, „Elementare Musiklehre“. — I Std. wöch. Klasse. Die Lehre von den Dreildängen
+                    der Durund Moll-'I‘onart‚ die Uinkehrungen dieser Akkorde und ihre III. II. III. II. harmonische Verbindung’.
+                    Ausarbeitung‘ kleiner Sätze. Nach der Musiklehre von Barner. —« I Std. wöch. Klasse. Die Dreiund Vierklätnge
+                    der Durund MollTonart. Die Blodtilzrtionslehre. Diatonische, chroinatische und enharmonische Ausweichungen.
+                    Von den Verhalten, den Durchgangsund Wechselnoten. Nach der Harmonielehre von Schütze. Das Wichtigste über
+                    Orgelbau, insbesondere über die verschiedenen Arten der Orgelstinnnen und ihre Behandlung" beim Orgelspiel im
+                    Gottesdienst nach Barner, „die Orgelund ihre Ilestandteile“. I Std. wöch. Barner. E. Violinspiel. Klasse.
+                    Unterricht von den ersten Anfangsgründen des Vielinspiels an, nach der Violinschule von Heinze und Kothe.
+                    Duetten. Auswendiglernen einiger Choräle und Volkslieder. liingeriibuiigen. —« 2 Std. wöeh. Klasse.
+                    Wiederholung" des in der I. Klasse Gelernten. Erweiterung der Kenntnisse nach der Violinsehtlle von Heinze und
+                    Kothe. Duetten. Fingerübttngen. Auswendigm lernen von Chorälen und Volksliedern. — 2 Std. wöch. Klasse.
+                    Wiederholung des in der II. Klasse Gelernten. Erweiterung" der Kenntnisse nach der Violinschule von IIeinze
+                    und Kothe. Duetten in der 3ten Lage. Auswendiglernen von Choriileir und Figuralliedeiai. —— 2 Std. wöch.
+                    Brenk. XIV. Turnen. Klasse. Wöchentlich 2 Stunden. Die Ordnungs-, Freiund Stabübtmgen für das vierte Jahr des
+                    'I'urnunterrichts an Volksschulen (nach der „Anleitung für den 'I‘urntinterriclit in Knabenschtilen“ von A.
+                    Maul, II. Theil). Die Geräitübungen der fünften und sechsten Stufe mit Auswahl (nach dem „Lehrplan für den
+                    ’I‘urnunterricht“ von A. l\'Iaul). Maul. Klasse. Wöchentlich 2 Stunden. Die Ordnung"s-, Freiund Stabübungwzn
+                    für das fünfte Jahr des 'l'urnunterrichts an den Volksschulen, die Gerätübnngen aus der Oberstufe des
+                    Gymnasialturnens mit Auswahl (nach den obengenannten Leitfäden). In) letzten Vierteljahr Übungen im „Befehlen.
+                    Maul. N L “"“?* “‘—‚‘Z"‘"T ‘ l ——— I8 w III. Klasse. Wöchentlich 2 Stunden. Das Wichtigste aus der Methodik
+                    und Systematik des Schulturnens. Praktische Wiederholung des UbungsstofTs für das 'I'urnen in Volksschulen.
+                    UnterrichtsÜbungen im Turnen. Freiturneir für alle Klassen mittags von I2.bis 121/2 und Winters ausserdeln in
+                    je einer Abendstunde wöch. Maul. XV. Gartenbau und Bienenzucht. I.‚ II. und III. Klasse. In den freien Stunden
+                    des Nach- mittags. Praktische Anleitung zur Erziehrmg‘ und Pflege der gewöhnlichen Obstgewächse und
+                    Ziersträucher, der Gemüsepilanzen und Gartenblurnen und Einführung in die Arbeiten am Bienenstand.
+                    Schweickert. Name. % Geburtsort. Wohnort der "Eltern. I. Bangert, Karl. Dallau. Dallau. 2. Baumann, Ludwig.
+                    Mühlburg. hlühlburg. 3. Buss einer, Gustav. Sulzbach b. W. Schriesheim. 4. Dressler, Friedrich. Ruchsen
+                    Ruchsen. 5. lüminericli, Karl. Weiler. Weiler. O. Feuerstein, Jakob. Käferthal. Käferthzxl. 7. Fitzer,
+                    Friedrich. Heidelberg. Heidelberg". 8. Gomer, Ludwig. lttlingen. Ittlingen. g. Greiner, Friedrich. Pforzheim.
+                    Worms. IO. Haas, Raphael. Gissigheim. Gissigheim. II. Kamm, Heinrich. lüppingen. Eppingen. I2. Kaufmann, Nlax.
+                    Lichtenau. Lichtenati. I3. Klein, Gottlieb. Knielingen. Knielingen. I4. Krämer, Johann. Eberstadt. Eberstadt.
+                    I5. Kühn, Wilhelm. Zaiseirhauscn. Zaisenhaixsen. "16. Lamerdin, Philipp. Käferthal. Küferthal. I7. Lang,
+                    Rinil. Pforzheim. Pforzheim. *I8. Leppert, Jakob. Lohrbach. Aach b. St. 1g. Ludwig", Otto. hlüllheim.
+                    h/Iüllheim. 2o. M alsch, Julius, Iriagsfclrl. Hagsfeld. 21. Martin, Karl. Raitbztch. Bobstadt. 22. M einzer,
+                    Theodor. Weingarten. Weingarten. 23. Menger, Ludwig. Lohrbach. Lohrbach. 24. Perino, Ludwig. Oppenau.
+                    Kirchheim b. H. 2 5. Pfeifer, Irleinrich. Waldkatzenbach. Waldlcatzenbach. 26. Renkert, Karl. Kirchen.
+                    Sulzburg. 27. Rupp, Heinrich. Neulussheim. Neulussheinn. 28. Rupp, Karl. Riätteln. Hüssingeil. 2g. Sauer,
+                    Peter. Feudenheiin. Feudenheirn. 3o. Scheine n au, Georg. Ruchscn. Neckarhausen b.L. 31. Scitz, Wilhelm.
+                    Oberscheﬁilenz. Oberscheﬂlenz. „K 19 _ IV. Verzeichniss der Zöglinge im Schuljahre 1881 auf 1882. .x. r:
+                    zttisgetrcten . I. Klasse. 9% u Name. l Geburtsort. 32. Vollmer, „hingen. 5135501" 33. Würz, Friedrich.
+                    Karlsruhe. 3 *34_ Zimlnermanri, Phil. Mühlhausen. II. Klasse. I. Angeloch, Wilhelm. OberschefTleIIz. 2. Asal,
+                    Johann. Malsburg. 3. Bock, Adam. leutershausen. *4. Braungart, Friedr. Steinbachbßuch. 5. Detterer, Gottlieb.
+                    Allemühl. Ö. Duggert, August. Bretten. 7. Ebert, Philipp. Weinheim. 8. Edel, Jakob. Eppingen. g. Etzel, Karl.
+                    'I'iefenbroIIn. I0. Fath, Jakob. Leutershatisen. II. Haffner, Karl. Ittersbach. I2. Hauck, Emil.
+                    Kleineicholzheim. I3. Hauck, Philipp. Neckarbischofsh. I4. Hespelt, Karl. Unterkessach. I5. Hörner, Wilhelm.
+                    Höhefeld. I6. Hollenbachﬁlduard. Dainbach. I7. Jost, Hermann. Bittlingen. I8. Klein, Adam. Mümliiig-Gruinb.
+                    Ig. Kreis, Wilhelm. Ilohenwettersb. 2o. Lutz, Matthäus. Friedrichsfeld. 21. Merke], Ferdinarld. Altenbach. 22.
+                    Mölbert, Friedrich. Eberbach. 23. Müller, Samuel. Krautheim. 24. Obländenlümanuel. Sachsenhausen. 25. Rabe,
+                    Georg. Schönati b. Hdlb. 26. Rehm, Gustav. Ernmendingen. 27. Rieckher, Karl.‚ Unterkcssach. 28. Schäfer,
+                    Jakob. Lützelsachsen. 29. Schmitt, Gustav. Windenreuthe. 3 . Schmitt, Peter. Rippenweier. 31. Schott1nüller‚
+                    Frdr. Karlsruhe. 2. Schröder, Heinrich. Lützelsachsen. 33. Seith, Gotthold. Fischenberg. 34. Stober,
+                    Friedrich. ’I'eutschneureuth. 35. Stoll, Johannes. Oberacker 36. Tre u s c h , Hermann. Gölshausen. Ruith.
+                    Karlsruhe. Miihlhausen b. W. Oberschefflenz. Malsburg. Leutershztusen. I-Ieiclersbztch. Eichtersheim.
+                    Pforzheim. WVeinIIeiIII. v Eppingen. Tiefenbronn. Leutershausen. Ittersbach. Neckarbischofsh. Ne
+                    ckarbischofsh. Unterkessach. flöhefeld. Dainbach. Weinheim. hﬁimling-Gruinb. Iangensteinbach. F riedrichsfeld.
+                    Huchenfeld. Eberbach. Krautheim. Sachsenhausen. Schönau b. Hdlb. Emmendingen. Unterkessach. Lützelsachsen.
+                    StaiTort. Rippenweier. Bretten. Lützelsachsen. Walldorf. Teutschneure uth. Heidelsheim. Gölshausen. 9°?! o?" .
+                    Kling, Georg. Q°OJQJÜJOJOJOJLJIQhnur I r “5791-‘794507 99 52x: odimfcfij I Name. l (leburlsort. ‘ Wohnort der
+                    Eltern. I I . Ulmerich, Johann. IBuch am Ahorn! Ober-‚Etibigheim. . Zimmerrnzrlrri,Frdin: Wiesloch. I
+                    Wiesloch. III. Klasse. 1- ATHOICI: GCOTg. Kembach. Kembach. 2. Braun, Ileinrich. I-Ieicielberg. l-lemslaach.
+                    3. ‚lﬁckert, Wilhelm. Neclczmnühlbacln. Neckarmiililbaclr. 4. Feuerstein, Jalcob. Ilvesheim. Ilvesheim.
+                    Fiedler, Friedrich, Zunzingen. Brombach. Förster, Albert. lttliirgcn. Ittlingen. Friedrich, Karl.
+                    Aglzrsterlnzulsen. Eppiiigrezr. Geier, Friedrich. Neckarbischofsb. Neckarbischofsh. . (lerstner, Georg.
+                    Ileddesheim. Heddesheim. . Crorurig, Ernst. ‚Kandern. Kandern. . Gerwig, Ludwig. Pforzheiln. Pforzheini. .
+                    Grüntllel’, llennzmrr. zhlelsheiln. Adelsheim. . I-Iauer, Wilhelm. Knielingen. Knielingen. llerbolrl,
+                    Friedrich. Rohrbach b. Rohrbach b. S. . Herold, Johann. ‚Boxberg. Boxberg. . llctzel, Karl. Gernsbzxeh.
+                    Gernsbach. Ilandschuchsh. Ilandschuchsheiin. . Koch, Peter. Oberdielbach. I Oberdielbach. . ‚K r a 11th,
+                    Jakob. Eberbach. lüberbzrch. . K u b a c h, Heinrich. I mibenstadt. Leibenstadt. . L211" s ‚ Johann.
+                    Unter-Eggingen. Randegg. L i n d e r, Friedrich. 'l‘eutschneureuth. ’I‘cutschneureuth. M a n n, Gustav.
+                    Siegelsbach. Siegelsbach. I’ e r i n 0 , Karl. (‘xengenbach Kirchheim. R e i n b o th, Julius. Mauer.
+                    Walldorf. S c hil ufe l e , Wilhelm. Diedelsheim. Diedelsheim. S c h rni tt, Johann. Oberöwisheixn.
+                    Oberfnvisheim. S c h In i tt, Philipp. Sandhausen. Sandhausen. S c h u m a c h e r, Wilh. Neckarwimmersb.
+                    Blüllheim. S t e in e m, Fallc. Blerchingeir. Merchingen. S t o b e r, Wilhelm. 'I‘euts chnetiretrth.
+                    Teutschneureuth. U tz, jalrob. Neckarelz. Neckarelz. Ve r b as ‚ Ferdinand. Allemühl. Allemühl. V 0 g t ,
+                    Ileinrich. Zuzenhausen. Zuzenhatlsen. W i l l a r e t h , Otto. Pforzheim. Gerlachsheim. W ö rn e r,
+                    Christian. Münzesheim. Münzesheiln. . Z a c h m a n n, Ernst. Achern. Achern. Zur läeurteilting’ der
+                    Kateehismusvorlage. 5 nsere oberste evangelische Kirehenbehtirde hat, veranlasst 1876, der im vorigen Jahre
+                    versammelten Synode einen „lCnt— wurf eines Katechismus für die evangx-protest. Kirche Badens“ vorgelegt,
+                    welcher in der zu diesem Zwecke gewithlten Kommission sorgfältig beraten, in vielen Stücken umgestaltet wurde
+                    und beim Wiederzusammentritt der Generalsynode zur Annahme empfohlen werden soll. Wir werden also aller
+                    WVahrscheinlich— keit nach ein neues Lehrbuch für unsern Religionsunterrieht erhalten. Da dieser Gegenstand
+                    für die Schule mindestens ein ebenso hohes Interesse hat als für die Kirche, so mögen einige Bemerkungen
+                    hierüber von der Stelle aus, wo der griösste Teil der evangel. Lehrer seine Ausbildung erhält, gewiss am
+                    Platze sein, sowohl um der Förderung der Sache Selbst willen, als um unsern Standpunkt hierin den Lehrern
+                    darzulegen. Wir werden unsere Bemerkungen zusammenfassen unter folgenden Gesichtspunkten: Die Notwendigkeit
+                    eines Lehrbuchs im allgemeinen, seine (Jvestziltting als Katechismus, die Inethodische IBehandIung desselben
+                    und der vorliegende Entwurf. I. Die Notwendigkeit im allgemeinen. Wenn wir als Aulgztbe unseres
+                    Religionsunterrichts bezeichnen „unsere Kinder die Religion zu lehren“, so verstehen wir hier unter Religion
+                    doch nur die Geschichte, die Lehrsätze und Einrichtungen des Christenturns, wie sie unsere evangeL-protest.
+                    Kirche für ihre Glieder gestaltet hat, nicht aber, was wir sonst als Religion bezeichnen und was schliesslieh
+                    die Hauptsache ist, die von Christus in uns begründete, von dem heiligen Geiste erfüllte Lebenskraft und
+                    Lebensgemeinschaft mit Gott, die Ausgestaltung unseres ganzen Lebens nach Gottes Geboten, den Besitz all der
+                    seligen Trtästungen und Iloffnungen der frohen Botschaft des Erlösers. Religion in diesem Sinne kann ja nicht
+                    gelehrt durch einen Beschluss der Generalsyrrocle vom Jahre’ l werden, aber sie ist teilweise, und zwar zum
+                    grössterl Teil die Frucht und Wirkung jener auf zwecknriissigc Weise in unsere Herzen aufgenommenen
+                    Geschichten und Lehren; religiöses Leben wird erzeugt durch religiöse Lehren, darin hat der
+                    Religionsunterricht seinen Grund und seine Berechtigung. Freilich ist er nicht das erste und einzige Mittel,
+                    der Grund zur Religion wird schon im Elternhause gelegt und durch die fromme Sitte des Hauses gepflegt, und
+                    was fast noch unbewusst und ohne Verständnis im Kinde lebte, das bildet den ‚Anknüpfungspunkt und die
+                    Grundlage für den Unterricht in der Schule. Den aus dem Heidentum übertretenden ersten Christen fehlten diese
+                    Grundlagen des christlichen Hauses und des christlichen Gemeindelebens, sie erhielten ihr Christentum durch
+                    die Mitteilung der Geschichte von jesus und der daraus gezogenen Lehren, ein Geschäft der „Evangelisten und
+                    Lehrer“. Der wichtigste und wirksamste Teil dieser Mitteilungen war offenbar die Geschichte von jesus, wie
+                    denn ja auch die ganze Bedeutung des Lebens unseres Meisters nicht sowohl besteht in dem was er gelehrt, als
+                    was er für uns gethan hat, das Christentum ist kein System von Lehrsittzen, sondern es ist 'l‘hatszrche,
+                    Geschichte. Hiervon zeugt jede Seite der Apostelgeschichte, und wenn der Apostel Paulus den Römern und
+                    Galatern oder Petrus, jakobus, Johannes den Lesern ihrer Briefe christliche Lehrsätze vortragen, so setzen sie
+                    überall die genaue Kenntniss der Geschichte jesu voraus. Also: Der wichtigste Gegenstand für unsern
+                    Religionsunterricht in der Schule ist nicht der Katechismus mit seinen Lehrsäitzen, sondern die biblische
+                    Geschichte. Ttiuschen wir uns nicht, das Christentum, welches wir in uns tragen, ist nicht das Ergebnis des
+                    Katechismus, sondern der von uns gelernten biblischen Geschichte, bis dahin, wo der Katechismusunterricht
+                    eintritt, muss jenes schon vorhanden sein, sonst ist der weitere Unterricht nutzlos. Brauchen wir denn, wenn
+                    dem so ist, überhaupt einen Katechismus? So könnte man fragen, zumal da unser Lehrbuch der biblischen
+                    Geschichte uns schon anleitet, den Lehrgehalt einer jeden Geschichte herauszuleseir und in Form eines
+                    Bibelspruches dem Gedächtnis einzuprägen. Der Katechismus könnte ja dann doch nichts anderes sein als eine
+                    nochmalige Zusammenstellung dieses Lehrgehalts. Das soll er nun zrllerdings sein, und zwar eine
+                    zusammenhangeirde Darstellung des Lehrgehttlts der (Eeschichte, weil die Lehren der biblischen Geschichten
+                    unter einander in keinerlei Zusammenhang stehen, unser Denken aber einen solchen Zusammenhang verlzingt. So
+                    verfahren wir auch in zmderen Unterrichtsfäichern, wir analysieren Lesestücke und ziehen daraus grammatische
+                    Regeln, weiche sodann im Zusammenhang vorgetragen werden, wir analysieren im physikalischen Unterricht eine
+                    Erscheinung‘, einen Versuch, erkennen darin ein Gesetz, welches wieder mit anderen zu einer ganzen Lehre
+                    vereinigt wird. So wollen wir es auch mit den Lehren unserer biblischen Geschichte machen, wir stellen sie
+                    zusammen nach bestimmten Gesichtspunkten behufs leichteren Behaltens, des besseren Verständnisses der einen
+                    durch die anderen, so erfordert es unser Denken. Auf diese Weise verführen auch die ersten Christen, nur waren
+                    sie weniger gelehrt, d. h. weniger befangen in theologischer Gelelirsainkeit, ihr Lehrbuch war sehr kurz, es
+                    war das sogenannte apostolische Glaubensbekenntnis; wir bringen es zu so kurzen Leitfaden nicht mehr, aber
+                    solche Leitfaden oder Katechismen herzustellen, ist nach unserer ihisicht nicht zu sehelten, sondern für den
+                    Unterricht zweckiniissig, nur dürfen sie nicht in den Fehler verfallen, ein gutes Stück unserer gelehrten
+                    Theologie in sich aufzunehmen. Dieser Umstand, die Ilerbeiziehung von allzuviel Theologie, hat auch die
+                    Katechisinen vielfach in Misskredit gebracht und ihr Leben gekürzt, wiihrend die einfachen, worin ja der
+                    kleine Lutheﬁsche ein tinerreichtes Vorbild heute noch ist, sich viel längerer Dauer und weiterer Verbreitung
+                    erfreuten. Wir sind also aus gutem Grunde dafür, dass man neben den biblischen Geschichten noch die Lehren im
+                    Zusammenhang den Schülern mitteile‚ aber in möglichst kurzer Form. Nun wird es sich darum handeln, wie dies zu
+                    machen ist. Diese Frage führt auf den zweiten Gesichtspunkt. H. Die Gestaltung des ‚Lehrbuchs. Der Katechismus
+                    soll die Grundlehre IIIISOICI‘ evangekprotest. Kirche in knapper, priiciser aber deutlicher Form ent2 ' . ' u
+                    " h xlten Nun erheben sich aber die Schwierigkeiten Die einen sagen, es sei zu schwer, ja wohl unmöglich,
+                    diese Grundlchren , scharf zu bezeichnen; das liiesse also wohl, man könne eigentlich nicht recht sagen, was
+                    Christentum sei, was die Bibel oder unser Heiland eigentlich gewollt habe, da ein grosser Teil der biblischen
+                    Schriften tiniicht sei, über die Aechtheit der Aaissprüche Jesu in den Evangelien selbst Zweifel obwalteten.
+                    In allgemeinen Ausdrücken lasse es sich wohl sagen, aber wie man bestimmte Begriffe formen wolle, so kämen die
+                    Schwierigkeiten. Wir müssten aber unsern Ileiland für einen schlechten Meister halten, wenn er es so wenig‘
+                    verstanden hätte, ganz bestimmt und genau uns zu belehren über seine Person, sein Wesen, sein Werk, seine
+                    Forderungen) an uns, wenn er so wenig vorsichtig in der Wahl der Verkündiger seines Wortes, der Art und Weise
+                    dieser Verkündigung gewesen wäre. Wer mit vorurteilslosem Sinn an das Neue Testament herantritt, der hat,
+                    denke ich, noch zu allen Zeiten genau darin gefunden, was zu seiner Seligkeit dient. Man muss also ganz
+                    bestimmt sagen können, was Christentum ist und was nicht, und unsere Reformatoren haben auch ganz genau
+                    gesagt, was evangelisehes Christentum ist, wie in den Bekenntnisschriften zu lesen ist. Dabei giebt es
+                    allerdings ein unverrückbares Centrum und eine Peripherie, d. h. wesentliche Stücke und minder wesentliche,
+                    und in der Scheidung zwischen beiden liegt die grosse Schwierigkeit. Auch die reforInz-Itoriscllen Katechismen
+                    geben den Inhalt des evangelischen Glaubens genau an, die darum auch Bekenntnisschriften der betreffenden
+                    Kirchen geworden sind, sie sind aber in erster Linie Unterrichtsbiicher, dazu sind sie nach der ausdrücklichen
+                    ‚Bestimmung Luthers und der Verfasser des Ileidelberger Katechismus geschrieben; zu ‚liekenntnisschriften in
+                    dem ganz speziellen Sinne sind sie erst später gestempelt worden. Bekenntnisschriften im allgemeinen Sinne
+                    waren sie freilich von jeher und werden alle zukünftigen Katechismen sein müssen. ‚Ich könnte mir wenigstens
+                    keinen Katechismus denken, der nicht ein bestimmtes Bekenntnis enthielte, so wenig als einen Christen, der nur
+                    so im allgemeinen ein Christ wäre. Das ist eine ganz falsche Auffassung der protestantischen
+                    Gewissensfreiheit, wenn man behauptet, wenn man nur in gewissen zillgemeinen Sätzen übereinstimme, in den
+                    Details könne jeder seine eigene l\'leinung haben. „Unser Religionsstifter hat ein bis in’s Detail
+                    durchgeführtes Lehrsystem weder selbst ziulgestellt noch aufstellen wollen, noch seine Aufstellung" uns zur
+                    Pﬂicht gemacht, und er hat folglich bei aller Ueber- einstimnrungiin grossen und ganzen doch unbedingte
+                    Freiheit im einzelnen gestattet.“ Ganz recht, allein was ist Uebereinstimmung im grossen, was ist Detail? Es
+                    giebt nicht wenige Leute, welche die Auferstehung und Himmelfahrt zum Detail rechnen, über welche jeder denken
+                    könne wie er wolle. Nein, auf so vagen hleinungen beruht doch unser evangelischer Glaube nicht. Es giebt
+                    allerdings Detail in der evangelischen Lehre und Geschichte, d. h. Lehren und Geschichten von
+                    untergeordneterein Werte, von denen unsere Seligkeit nicht abhiiirgt, allein es giebt auch Iilauptsachen,
+                    Lehren und Geschichten, über die weder Paulus noch Petrus, weder Luther noch Zwingli uneins waren und deren
+                    Leugnung sowohl die Apostel als die Reformatoren als unvereinbar mit dem Christentum _2(‚ „.verworfen hätten.
+                    Diese unumstösslichen Lehren festsetzen in einem Katechismus, das heisst nicht „ein bis in’s einzelste
+                    durchgeführtes Gebäude von ‚Lehrsätzen konstruieren, welches 1na11 seinen Mitchristen aufoctroyiren will“, ein
+                    solcher Katechismus ist auch nicht „das zufällige Operat einer ganz zufälligen hlajoritilt, welches eine Menge
+                    von Gewissen in Not bringt“, er bringt nur die Gewissen in Not, welche nicht auf dem gemeinsamen (irunde der
+                    Bibel stehen. ' Eine andere Schwierigkeit besteht darin, dass in einem Katechismus die göttliche Wahrheit in
+                    eine dem Stoffe sowohl als dem Zwecke des Unterrichts angemessene Sprache eingekleidet werde. Auf den
+                    sprachlichen Ausdruck kommt bei biblischen Wahrheiten sehr viel an, und wie Viel Streitigkeiten in der
+                    Kirchengeschichte hatten nur hierin ihre Ursache! Man glaubt nun dieser Schwierigkeit dadurch zu entgehen,
+                    dass man von allen menschlichen Zuthaten ganz absieht und ein Lehrbuch herstellt, welches nur die Sprache der
+                    Bibel redet, also bloss in Aussprüchen der biblischen Bücher besteht. Es ist das die Idee eines Spruchbuchs,
+                    welches biblische Aus— sprüche enthält, die nach den Rubriken eines Lehrbuchs zu- sammengestellt werden, wobei
+                    es entweder dem Lehrer überlassen bleibt, durch geeignete Fragen den Inhalt zu entwickeln, oder wobei die
+                    Sprüche die Antwort auf die im Buche selbst gestellte Frage bilden. Dieser Gedanke hat sehr vieles für sich,
+                    und in der 'I‘hat wäre ein nach der zuletzt genannten Weise verfasster Katechismus das Ideal eines solchen. Es
+                    ist nur schade, dass weder Christus noch die Apostel ei11eI1 solchen Katechismus geschrieben und jeder
+                    bisherige Versuch, einen solchen zu machen, gescheitert ist. Warum? Ich habe bereits an einem andern Orte auf
+                    die grossen Schwierigkeiten hingewiesenix‘) Es giebt mehrere solche Versuche, so empﬁehlt z. B. Thilo das alte
+                    lirfurter Spruchbiichlein, dort heisst es II. Irlauptstück: Was heisst glauben? Antwort: „Es ist aber der
+                    Glaube eine gewisse etc.“ Hebr. 11,1. Welches ist alles Glaubens Anfang? „Ohne Glauben ist’s unmöglich Gott
+                    gefallen, denn wer zu Gott kommen will, der muss glauben, dass er sei.“ I-Iebr. 11,6. Was glztuben wir von der
+                    Kraft (lrottes? „Von ihm und durch ihn und in ihm sind alle Dinge.“ Röm. 11,36. Was lernen wir daraus von
+                    Gott? i“) Siehe meine Anleitung zur Bchzuidlung der biblischen Geschichten, 36. Tauberbischofsheim bei Lang.
+                    „Ich bin der allmächtige Gott, wandle vor mir und sei fromm.“ I Mos. 17,1; Ps. I3g‚8——Io; Ps. 90,2. Was
+                    glauben wir von der Erkenntniss Gottes? „Bei dir ist die lebendige Quelle, und in deinem Lichte sehen wir das
+                    Licht.“ Ps. 36,10 u. w. Thilo sagt hierüber: „Das ist musterhzift und meisterhaft, und hiernach lässt sich
+                    auch bei den heranwachsenden Schülern ein gehörig geordneter und doch nicht auf leere Schematismen Jagd
+                    machender Religionsuirterricht geben.“ Wir werden diese Art vielleicht auf den ersten Blick beifällig
+                    aufnehmen, und doch ist der Weg nicht der richtige; denn erstens ist manche Antwort eine gezwungene und
+                    schiefe. So ist die Antwort in IIebr. 11,1 doch eine einseitige, unvollständige, und die Antwort auf die Frage
+                    von des (irlaubens Anfang würde eher lauten: „die Erkenntnis unserer Sünde“ als „das Dasein Gottes“. Sodann
+                    enthalten die Sprüche oft mehr als gefragt wird, soll man diese Zuthzitcn unerkläirt übergehen, oder soll der
+                    Lehrer auch auf diese oft ferne liegenden Dinge eingehen? Endlich wird es sehr schwer sein, passende Sprüche
+                    für alle Teile der Hauptstücke aufzufinden. „Man kommt in die Lage, Sprüchen einen andern Sinn
+                    unterzuscliieben, einen Teil ihres Inhalts aufzugeben, sie aus ihrem Znszimmenhange herauszurcissen, und bei
+                    alledem kommt man nicht vorwärts. Die Sprüche gleichen einer Inselgruppe. So nahe sie liegen mögen, man bedarf
+                    des geziinmerteir Nachens, um von einer Insel zur andern zu kommen, und jedesmal liegt die ganze Gruppe offen
+                    da3‘) i?) Schneider, I-Izindrcichung der Kirche an die Schule, 86. Unter den älteren Stenfsehcn Schriften
+                    haben wir auch ein Spruchbüchlein für christliche Schulen, welches in ächt pädagogischer, concret-fassbarcr
+                    Weise dass Bibclwort den Kindern nahe bringt. ‚Es beginnt: Welche Sprüche der heiligen Schrift sollen an jedem
+                    Morgen mein erster (i edankc sein? Ps. 103,I—4. Lebe den IIerrn meine Seele etc. Gal. 2,20. Ich lebe, doch nun
+                    nicht ich etc. Welche Sprüche will ich abends zu Herzen nehmen? ‘P5. 63,7——9. Wenn ich mich zu Bette lege etc.
+                    Welche rxussprüche sollen mich am Sonntag Morgen erwecken? Jes. 52,7. Wie lieblich sind auf den Bergen die
+                    Füsse der Boten etc. Mit welchen Aus-Sprüchen beginne ich meine Arbcitr Ps. 118,25. O I-lfcrr, hilf! etc.
+                    "Matth. 6,33. Trachtet am ersten etc. Welches wVort soll mir am Freitag vor Augen stehen? I Jeh. I‚7. Das
+                    Illut Jesu Christi etc. Mit welchcmGcclaiikcn geheichziﬁrischc? 1’s.I45,I5.I6. Aller Augen etc. Was gebietet
+                    mir die Schrift über meine Eltern? 5 Mos. 5,15. Du sollst deinen Vater und deine Mutter ehren etc. Wie tröstet
+                    dich Gottes Wort, wenn dir Vater und Mutter sterben? P5. 68,6. Er ist ein Vater der NVaisen etc. "Was lehrt
+                    mich Gottes Wort gegenüber meinen Geschwistern? Ps. 133,1. Siehe, wie fein etc. Wozu dient dir alles Kreuz und
+                    Ungemach? Jcs. 28,19. Allein die Anfechtung lehrt auf das Wort merken. Jcs. 26,16. Herr, wenn i Trübsal da ist
+                    etc. jgncﬂﬂttu-xw . .._. 28 ‚w. lllanfwill durch ein Spruchbuch alles Subjektive, schablonenhaft Gemachte
+                    vermeiden und die Kinder zu den reinen, lauteren Quellen der Schrift zurückführen. lCin solches Buch muss aber
+                    auch von Menschen gemacht werden, die Sprüche müssen wenigstens in einer gewissen Ordnung zusammengestellt
+                    werden, und wenn man gar verlangt, wie z. l3. ein Schulmanir, der im Spruchbuch die einzige Rettung aus der
+                    Katechismusnot sieht, „dass in den Ueberschriften, in der Kapiteleinteilung, welche wohl xiötig fallen wird,
+                    der Gedanke, welcher durch die Sprüche nahe gelegt werden soll, nur ganz kurz und ganz objektiv angedeutet
+                    werde und dass alle und jede subjektive Beimischung ausgeschlossen werde“, so ist dies gar nicht möglich,
+                    sowohl in der Einteilung als in der kurzen Angabe des ‚Inhalts ist wieder reiche Gelegenheit, ja die
+                    Notwendigkeit geboten, nach subjektiven Ansichten zu entscheiden. Ich wiederhole, ein Katechismus, der nur aus
+                    genau passenden biblischen Antworten auf die gestellten Fragen bestände, wäre auch mein ldeal, aber so lange
+                    von den eifrigen Freunden des Spruchbuchs dasselbe nur gepriesen, aber nicht durch ein lllusterbuch die
+                    Nlöglichkeit der Ausführung dargelegt wird, glaube, ich nicht an dieselbe. Wo man solche Spruchbücher gehabt
+                    hat oder noch hat, wie 2.13. in unserem Nachbarland Würtemberg, da hat man den Katechismus nebenbei. Wenn auch
+                    nach dem Vorschlage des oben erwähnten Schulmanns ein Spruchbuch mit kurzer Angabe des Gedankeninhalts
+                    abgefasst würde, so würde nach meiner Meinung dieses Büchlein einem Katechismus so ähnlich sehen wie ein Ei
+                    dem andern. So soll ja ein Katechismus gestaltet sein, dass die sogenannten Fragen den Gedankeninhztlt der
+                    Sprüche angeben, „die Sprüche sind die Ilauptsache“. Ganz gewiss, aber doch darf man diesen Satz nicht falsch
+                    verstehen, dem innern Wert nach sind sie allerdings‘ die ltlauptsache, allein bei der Abfassung eines
+                    Katechismus sind jedenfalls die Fragesütze die Hauptsache, sonst wäre ja die Arbeit nicht so schwierig. lch
+                    glaube nun viele Freunde des Spruchbuchs auf meine Seite zu bekommen, wenn ich den Vorschlag machte, wir
+                    wollen die Sprüche obenan stellen im Druck, Lungekehrt als bisher, und unter dieselben die Frage: Was lernst
+                    du hieraus? So 13.: Was lehrt in diesen Sprüchen die heilige Schrift über Gott? Was lehrt sie über die
+                    Vergebung der Sünden? Was lehrt dich die Schrift über die Liebe zu den Eltern, über deine Pflichten gegen die
+                    Obrigkeit? u. w.‚ wobei die Antwort stets aus den darüber stehenden Sprüchen entnommen würde, aber in klarer
+                    moderner Sprache. Das wäre ein VermittlungsVorschlag und ein ganz korrekt methodisches Verfahren, überein-
+                    stimmend mit dem Verfahren in unsern übrigen Unterrichtsfächern, das wilre eine wirkliche Anleitung zum
+                    „Suchen und Finden in der Schrift“, ein iicht protestantischcs „Gewisswerden seines Glaubens atls der heiligen
+                    Schrift“. Die ‘Sprüche wären die lürkenntnisqtlelle für die folgende Antwort, während sie bisher in allen
+                    Katechismen Beweisstellen für die voranstehenden Sätze sind. ln dieser Anordnung dürften auch die Sprüche
+                    etwas über den gerade in Frage stehenden Gegenstand hinausreichen, da wir ausdrücklich nur eine Seite des
+                    Spruchs herausheben, die Stellen wären also leichter ziuszuwählen. Doch der Katechismusstreit wäre damit nicht
+                    beseitigt, die Antworten müssten doch formuliert, sie müssten doch wieder auswendig gelernt werden, ob sie
+                    darunter oder darüber stehen. Wenn auch das Prinzip nach meiner Meinung" entschieden das richtige ist, so hat
+                    die Sache in der Praxis am Ende doch nur eine formelle Bedeutung, und so wollen wir lieber dem Katechismus die
+                    bisherige Form, und die Sprüche als Belegstellen für die Sätze gelten lassen. Dabei stimme ich aber völlig mit
+                    den Stimmen aus der Lehrerwelt überein, dass man Mass halten solle mit der Zahl der Sprüche, die Masse thuts
+                    hier gar nicht, wenige, aber diese tief dem Gedächtnis und dem Herzen eingeprägt, nach ihrer Bedeutung in
+                    Ilezug‘ auf die Lehre, die Warnung, den Trost und die Hoffnung, die darin liegt, recht veranschaulicht, wirken
+                    viel mehr als viele, die sich gegenseitig verwirren und ihren Einfluss auf den Willen abschwächen. Wessen
+                    Beruf das Stttdium der Bibel ist, der hat eine Menge von Lieblingsstellen, oder eine Reihe von
+                    Begründungsstellen für gewisse theologische Lehrsiitze, die er natürlich auch für die Katechismussätze für
+                    wichtig und für nothwendig hält, dass sie memoriert werden. Das sind Verstandessprüche, die für das spätere
+                    Leben wenig Wert haben; mit solchen Sprüchen müssen wir ganz besonders sparsam sein, wenigstens beim
+                    lllemorieren. So ist z. B. die Stelle Phil. 2‚6——II: „Welcher, ob er wohl in göttlicher Gestalt war etc.“ für
+                    die Lehre von den beiden Ständen eine klassische Stelle, für das religiöse Leben ist sie weniger fruchtbar,
+                    daher zum Memorieren nicht geeignet; so Ephes. 441-12: „E? hat etliche zu Aposteln. gesetzt etc.“‚ Eph.
+                    2‚I9—2I3 „HIT Seid nicht mehr Gäste etc.“, Apostelgesch. 2‚I.4: „Als der Tag der Pfingsten erfüllt war etc.“,
+                    Röm. I‚I9.2o: „Dass man weiss, dass Gott sei etc.“, Röm. 2‚14.I5: „Die Heideiu die das Gesetz nicht haben
+                    etc.“. Mir wäre allerdings aus pädagogischen Gründen Cill lkfzitcächismus lieber, welcher nichts enthielte,
+                    als was dem Gedächtnis eingeprägt werden soll, allein ich erkenne auch die Wichtigkeit jener ‚Beweisstellen,
+                    und somit stimme ich auch bei, wenn in dem neuen Buche eine Reihe von Sprüchen als nicht zum Memorieren
+                    bestimmt bezeichnet wird. Man hat öfters die alte Spruchszxmmlung getadelt, weil einige Sprüche doppelt
+                    angeführt sind, auch der neuen Vorlage ist dieser Vorwurf gemacht werden; ich begreife nicht, welcher Nachteil
+                    darin liegen sollte, enthält ein Spruch den prägnanten Ausdruck für zwei getrennte Lehrsätze, so gehört er
+                    eben auch zweimal angeführt. Was nun die Zahl betrifft, so hielte ich 300 für das höchste hlass, ich wäre auch
+                    mit 200 zufrieden und würde diese Zahl nicht für zu gering halten, nicht etwa aus Rücksicht auf das grössere
+                    Geschäft der Lehrer oder aus Mitleid mit den Schülern, nein im Interesse der Sache, weil der feste Bestand von
+                    Kernsprüchen Not leidet durch die grosse Zahl, und weil ich möchte, dass die Sprüche immer und immer
+                    wiederholt werden, in den vier letzten Schuljahren jedes Jahr alle miteinander. Unsere Vorlage hat im ganzen
+                    419 Sprüche, hiervon sind zu memorieren 316, ungefähr dieselbe Zahl hatte der bisherige Katechismus, 312,
+                    wovon in den 4 ersten Schuljahren im Anschluss an die biblischen Geschichten 22 32 + 47 + 49 = I50 gelernt
+                    wurden, es bleiben somit, wenn die bisherige Verteilung beibehalten wird, im fünften bis siebenten Schuljahre
+                    I66 Sprüche zu erlernen, pro Jahr 55.9‘) Einen Wunsch hätte ich auch noch gehabt, doch gehört die Erfüllung
+                    desselben vielleicht in eine Anleitung zur Behandlung des Katechismus. Im biblischen Geschichtsunterricht wird
+                    ein grosser Teil der Sprüche schon gelernt im Anschluss an die betreffende Geschichte, von hier aus erhält der
+                    Spruch sein Verständnis in Folge der Veranschaulichung. So sollten nun auch selbstverständlich bei dem Lernen
+                    der Sprüche im Katechismus die betreffenden Geschichten wieder beigezogen und wenn auch nur mit wenigen
+                    Worten, daran erinnert werden. Damit dieses sicher geschehe, könnte der Katechismus die hierher gehörigen
+                    Geschichten am Sehlusse der Fragen kurz bezeichnen. So z. B. unter Frage 3: „Der Kerkermeister in Philippi.
+                    Ap. IÖ‚23——32“; unter Frage 5: „Der Sündenfall“; unter Frage 8: „Elias und die Baalsjiriester“; unter Frage
+                    I0: „Das goldene Kalb“ u. s. w. Doch diese Zusätze passen allerdings besser in eine Anleitung zum
+                    Katechismusunterrieht, *) Die Wiirtcmberger lernen aus ihrem Spruchbueh, I. Jahrgang 3o Sprüche; II. 6o
+                    Sprüche; III. 70 Sprüche; IV. (x6 Sprüche; V. 82 Sprüche; VI. 36 Sprüche, zusammen 3 50 ; dort betragen die
+                    Religionsstunden ‘[3 aller Stunden, nach den Allgemeinen Bestimmungen in I’reusseu mindestens 4. *__ 3 I ‚_.._
+                    .. wie sie auch Herr Dekan Bechtel in seinem IIandbuch zu dem bisherigen Katechismus dort angeführt hat. Nun
+                    wäre noch zu bestimmen, ob die Frageforni der Sätze beizubehalten wäre, wie wir es bei einem Katechismus seit
+                    alter Zeit gewohnt sind. Notwendig ist diese Form ja nicht, allein ich sehe auch keinen Grund ein, der uns
+                    veranlassen könnte, von dieser hergebrachten Form abzuweichen, sofern nur die Antworten so gestaltet sind,
+                    dass sie auch, abgesehen von der Frage, einen selbständigen Gedanken ausdrücken. Ich muss dem Verfasser des
+                    Entwurfs des Katechismus vollkommen beipllichten, der sagt: „Den einzelnen Lehrsäitzen Ueberschriften in
+                    Frageforin zu geben, scheint uns zweckmässig für den Unterricht in den Volksschulen und den entsprechenden
+                    Klassen der höheren Lehranstalten, weil der Lehrer bei dem katechetischen Verfahren ja doch den Inhalt der
+                    Sätze durch Fragestellung erklären muss, und weil die Kinder die Sätze besser verstehen und behalten, wenn sie
+                    ihnen als Antworten auf bestimmte Fragen erscheinen.“ Wer nun mit mir der Ansicht ist, dass diese Sätze
+                    auswendig gelernt werden sollten, der wird die kateehetisehe Anordnung des Buches gewiss zweckmässig ﬁnden.
+                    Damit wollen wir übergehen auf den dritten. Punkt. III. Die methodische Behandlung. Es ist hierbei nicht meine
+                    Absicht, einen kurzen Versuch der Kateehetik zu geben, sondern ich will nur einzelne Punkte besprechen, welche
+                    gerade bezüglich unseres badischen Lehrbuchs öfters aufgeworfen werden. Greifen wir den wichtigsten. zuerst
+                    heraus. Es ist eine zweifellose 'I‘hatsache, ich mache diese Erfahrung sehr häuﬁg, und die Geistlichen werden
+                    sie aus ihrem Konﬁrmandenunterricht bestätigen, dass die Ergebnisse des Katechisnrusunterrichts gegen ‘früher
+                    erheblich zurückgegangen sind, man kann sich nicht mehr auf den Katechismus berufen, er haftet nicht mehr, und
+                    warum? Weil seine Sätze nicht mehr ziuswendig gelernt werden. Dieser Beschluss datirt bekanntlich von der
+                    Synode 1867 her, oder vielmehr von der Verordnung des Evangelischen (Dberkirehenrats vom I9. Juni 1863, welche
+                    schon den Memorierstoff beschränkte. In jener Zeit liess man sich durch das laute Gerede von der Ueberbürdung
+                    der Schule mit Memorierstoif einschüchtern und beschloss die Aufhebung des Memorierzwangs. Ich selbst hatte
+                    die Ehre, jener Synode anzugehören, und stimmte auch dafür, aber es war ein Fehler. Seit jener Zeit haben wir
+                    zillerdings einen Notstand, der durch die Flickerei von 1871, ._.. 3g ___ wo man die Sprüche des Anhangs in
+                    denvText hcr0iIlIli1hlfl‚ nicht verbessert wurde. Diesem Notstand kann aber nur ein ﬁnde gemacht werden durch
+                    ein Zurückgeheir auf die alte gute Sitte des Memorierens, und zwar des ganzen Katechismus. ich stimme mit
+                    voller Ueberzeugting meinem verehrten Lehrer, Herrn Pfarrer Dr. Plitt, bei, dem Erfahrung und Uebung auf
+                    unserm Gebiete gewiss in hohem Masse zu Gebote stehen, der sagt: „Wenn einmal ein Katechismus eingeführt ist,
+                    muss er auch auswendig gelernt werden. Das Auswencliglernen des Katechismus ist wirklich eine Notwendigkeit.“
+                    Man hat damals 1867 den Beschluss keineswegs Linüberlcgt gefasst, es war eine Reihe von Sachverständigen
+                    Männern dabei beteiligt, und ich bin weit entfernt, ihre wohl erwogenen Ausführungen bestreiten zu wollen, als
+                    ob es nicht richtig wäre, was der Berichterstatter Prof. Holtzmann sagte, „dass der Unterricht in der Religion
+                    durch die Notwendigkeit massenhaften Memorierens an Würde und Nachhaltigkeit nichts gewinne, wohl aber im
+                    Gegenteil die empﬁndlichste Einbusse erleide“‚ und dass die zu Gebote stehende Zeit durch die neue
+                    Schulorganisation erheblich geschmälert worden sei; oder als ob ich das Gewicht der Stimme des seligen
+                    Prälaten Holtzmann verkennen wollte, dem gewiss niemand die Erfahrung auf dem Gebiete des
+                    Religionsuirterrichts absprechen wird, und der auf jener Synode so eindringlich für die Ermässigung des
+                    Memorierstoifs gesprochen hat, wobei aber auch er nicht alle Antwortsätze unmemoriert lassen wollte. Allein
+                    ich glaube doch, dass damals unter dem Einflüsse der ganzen Zeitrichtung gesprochen wurde und, wie es so
+                    gewöhnlich geht, im Eifer für die gute Sache der rechte Mittelweg verkannt wurde. Was damals über die
+                    Nachteile des Memorierens gesagt wurde, gilt heute noch, wenn die Fülle des Stoffs zu gross, oder wenn
+                    derselbe in einer solchen sprachlichen Form geboten wird, dass er schwer zuibehalten und schwer zu begreifen
+                    ist, wenn das allzuschwere Memorieren den Stoff dem Kinde verleidet, dann ist Schaden da. Wenn aber, statt das
+                    Lehrbuch nach dieser Seite hin zu verbessern, alles Memorieren aufgehoben wird, dann muss ich gestehen, ist
+                    wirklich jenes Gleichnis wahr, (lass wir nämlich den Ast abgesägt haben, auf dem wir im Religionsunterricht
+                    sitzen. Ein Hauptgrund gegen das Memorieren war damals die kurz zugemessene Zeit; in Folge des neuen
+                    Lehrplans, sagte man, müssten die Kinder gar viel andere notwendige Dinge jetzt auch lernen. Dagegen gilt
+                    stets das ewig wahre Wort: „Eins ist Not!“ Aller andere Unterricht muss zurückstellen. Und wenn es wirklich
+                    wahr ist, dass bei der jetzt zugemessenen Zeit ein Mcmorieren der Lehrsätze nicht möglich ist, dann dürfen wir
+                    nicht schliessen: also muss der hiemorierzwang fallen, sondern wir müssen eben von Seiten der Kirche darauf
+                    dringen, dass eine weitere Religionsstunde zugegeben wird. Uebrigens muss ich, um der Wahrheit die Ehre zu
+                    geben, nach meinen Erfahrungen bei Prüfungen behaupten, dass diejenigen Schulen, in welchen bis heutigen
+                    "eiges noch der ganze alte Katechismus gelernt wird, auch in den übrigen Fächern, im Rechnen und in den
+                    Realien durchaus nicht zurückstellen, ohne dass Lehrer, Eltern oder Schüler über Ueberbürdung klagen. Der
+                    Unterricht besteht nicht im Auswendiglernen, das ist gewiss richtig, aber wenn man auch auf der Synode von
+                    1867 vielfach den Satz "bestritten hat: Ich weiss nur, was ich auswendig gelernt habel so muss ich ihn doch
+                    für richtig halten, bei Kindern der Volksschule nämlich, bei älteren Schülern nicht. Der Wert" des
+                    hfemorierens hat in der Geschichte der Pädagogik schon eigentümliche Schwankungen erlebt. Im ganzen
+                    Mittelalter und noch lange nach der Reformation hestund der Unterricht im mechanischen Auswendigiernen; dann
+                    folgte die Zeit der Rousseaiﬂschen Ideen, und es wurde nichts mehr auswendig" gelernt, alles sollte nur
+                    angeschaut und verstanden werden, der Verstand statt des Gedächtnisses sollte kultivirt werden. Jetzt lenkt
+                    man doch wieder von diesem Extrem ab und beginnt den Wert des Gedächtnisses wieder zu schätzen als der
+                    Vorratskainmer unseres I)enkens‚ der Voraussetzung all unserer formalen Verstandesbildung; es kann jemand ein
+                    reiches Gedächtnis haben, ohne verständig zu sein, allein niemand wird ohne ersteres sich zu einer höheren
+                    Stufe des Verstandes erheben. Bei allem, was wir dem Kinde vortragen, liegen für es zwei Geschäfte vor, einmal
+                    muss es den neuen Stoff mit dem ihm bekannten nach den psychologischen Gesetzen der Apperception verschmelzen,
+                    und dann muss es diesen Stoff in eine sprachliche Form kleiden. Letzteres Geschäft ist für ‘Erwachsene sehr
+                    leicht, mit dem Stoff giebt sich die Form vermöge unserer grösscren sprachlichen Gewandtheit, bei den Kindern
+                    ist das nicht so, sie können nicht frei über den Inhalt verfügen, ihn jeder Zeit in einen anderen sprachlichen
+                    Ausdruck fassen; sie behalten den Stoff in der Form, in welcher sie ihn empfingen, verlieren sie diese, so
+                    verlieren sie alles, daher ist das Wort richtig; dass die Kinder mit dem Wort auch die Sache verlieren, dass
+                    es für sie noch kein anderes Wissen giebt, als (las: auswendig" gelernte. Das Kind kann keine Regel behalten,
+                    ohne sie auswendig zu lernen, und verlangen wir o J z. B. eine biblische Geschichte von Kindern bis zu I0 und
+                    I2 Jahren mit ihren eigenen Worten erzählt, so wird dies nur bei wenigen möglich sein, die meisten lernen sie
+                    lieber auswendig. Wenn unsere Schüler noch zu thun haben mit der Bildung des sprachlichen Ausdrucks und
+                    zugleich mit dem Verständnis, so fällt ihnen beides zu schwer, daher haben die alten Pädagogen den vielleicht
+                    für manche neuen Pädagogen etwas wunderlichen Satz aufgestellt: „Man lasse zuerst die Sache auswendig lernen,
+                    um sie hernach zu erklären.“ Sie wollen also zuerst das eine Geschäft fertig machen, die Form, das Wort dem
+                    Gedächtnis einprägeri, damit der Schüler damit nichts mehr zu thun habe und nun seine ganze Aufmerksamkeit dem
+                    Verständnis zuwenden könne. Diese Sätze sind gar nicht so unverständig, obwohl ich zugebe, dass die
+                    schlimmsten Folgerungen daraus gezogen werden könnten. Ich will auch zwei Gewährsmänner anführen für das
+                    Memorieren solcher Stoffe, deren Verständnis noch nicht Vollständig da ist. Der eine ist Imther, welcher
+                    bekanntlich in der Vorrede zu seinenr kleinen Katechismus sagt: „Zum andern, wenn sie den Text wohl können, so
+                    lehre sie denn hernach auch den Verstand, dass s-ie wissen, was es gesagt sei“; und der andere ist der
+                    Philosoph Hegel: „Eine Erkenntnis, sie sei welche sie wolle, muss man, um sie zu besitzen, im Gedächtnis
+                    haben, mag man nun damit anfangen oder damit endigen. Wird damit angefangen, so hat man nun um so mehr
+                    Freiheit und Veranlassung, sie selbst zu denken.“ Dass das Auswendiglernen die Verstandesbildung fördert,
+                    vermag jeder aus seiner eigenen Erfahrung zu bestätigen. Denn was heisst verstehen? Fäden anknüpfen zwischen
+                    Neuem und Altern, Verbindungen herstellen, es ist ein Assinrilationsprozess, der sich aber nicht auf einmal,
+                    sondern sehr langsam vollzieht, es fügt sich langsam Verbindung an Verbindung, was uns anfangs fremd
+                    gegenüberstand, zeigt bei liiirgerenr Verweilen doch uns ‘bekannte Seiten, wollen wir nun mit dem Mitteilen
+                    der neuen Wahrheit zuwarteir, bis alle Verbindungen hergestellt sind, d. h. bis sie ganz verstanden werden
+                    kann? Das wäre thöricht, das gäbe einen langweiligen, fruchtlosem Unterricht. Wir müssen uns oft damit
+                    begnügen, dass wenigstens einige Verbindungsfiiclerr gezogen sind, und es der Zeit, dem erstarkenden
+                    Kindesgeiste überlassen, die Assimilation vollständig herzustellen. Dies kann aber nur geschehen, wenn das
+                    Kind mit der Form, mit dem sprachlichen Ausdruck nichts mehr zu thun hat, wenn dieser fest im Gedächtnis
+                    eingeprägt ist. Also lasse man die Katechisinussätze auswendig lernen, nicht nur um sie für das Leben zu
+                    behalten, nein, auch um sie zu verstehen, um sie stets parat zu haben. bei 'I'ag und Nacht, damit bald da bald
+                    dort ein Lichtstrahl auf die noch dunklen Partieen falle, damit wir mit dem altbekannten, liebgewordenen
+                    Ausdruck auch den Inhalt selbst immer lieber gewinnen. Dass 1ch damit einem Inechanisehen hlemorieren, welches
+                    auf das Verständnis gar keinen Wert legt, nicht das Wort reden will, wird wohl selbstverständlich sein. Der
+                    Lehrer muss den Inhalt der zu lernenden Antwort so gut er kann vorher gründlich erklären, und zwar
+                    hauptsächlich mit der Veranschaulichung aus der biblischen Geschichte, er muss die Sprüche damit in Verbindung
+                    setzen, oder viehnehr die Antwort als die durch das llibelwort der Sprüche gegebene beweisen, dann erst sie
+                    zum Memoriereir aulgeben. Unser Zweck war nur, darzuthun, (lass man dem Kinde das Erlernen der religiösen
+                    Wahrheiten durch das Memorieren erleichtere, den Inhalt befestige und das Verstiixuliiis ‘fördere. 1ch
+                    bestreite somit vollständig den Satz: „dass das Memorieren der Katechismussäitze ohne unterrichtlichen Wert
+                    sei“, und wenn man fragt: warum soll denn nur im Religions- unterricht memoriert werden und sonst nicht? so
+                    sage ich getrost, dass ebenso im grammatischen Unterricht, in der hlathcmatik, in den Realien memoriert werden
+                    muss, wenn von dem Kinde eine klare, verstiindige Antwort gegeben werden soll, wo es nicht geschieht, da wird
+                    das Ergebnis auch nicht viel wert sein, zu einem freien Produzieren sind unsere Volksschüler viel zu wenig
+                    fähig. IV. Der neue Entwurf. Man könnte nun aus dem Vorhergehenden folgern: Wenn dem so ist, so hebe man
+                    einfach den Beschluss der Synode von 1867 auf, dann hat unsere Katechismusnot ein Ende. Oder ist der bisherige
+                    Katechismus so schlecht, dass man ihn nicht mehr gebrauchen könnte? Das hat, glaube ich, ll1\V8.l1l’— heit und
+                    bei ruhiger Ueberlegung noch iriemand zu behaupten gewagt, atusser den Stimmen der Zeitungen in
+                    unverstäiudigem „Eifer. Das Buch wurde seiner Zeit als ein Meisterstück erklärt, bekannt ist das Urteil von
+                    dem hervorragenden Theologen Dr. K. Nitzsch, es wurde seither in vielen Gemeinden mit Segen gebraucht, und
+                    tüchtige Lehrer tmterrichteteir gerne nach ihm, — also von Unbrauchbarkeit kann keine Rede sein, und wenn der
+                    grösste Teil unserer deutschen protestantischen Kirche den lutherischen Katechismus als ein teures Kleinod
+                    hochschittzt, sowohl seines Inhalts als seiner methodischen Anlage wegen, dann müssen wir doch sehr milde und
+                    vorsichtig sein mit den oft harten Urteilen über die schweren, unverständlichen lutherischen Antworten in
+                    tmserm bisherigen Buche. _36_ Allein die Augen wollen wir uns nicht verschliessen, das Buch ist Menschenwerk,
+                    also unvollkommen, und wenn uns entgegen gerufen wird: „lEIalte was du hastl“ so sagen wir mit demselben
+                    Apostel: „Prüfet alles und behaltet das Beste!“ Wenn ich aber diese hlahnung befolge, so muss ich gestehen,
+                    dass ich den Entwurf, wie er jetzt aus der Beratung der Kommission hervorgegangen ist, dem bisherigen Buche
+                    vorziehe, und dass die Vorzüge alle Bedenken über den öfteren Wechsel der Lehrbücher, über die Verletzung so
+                    mancher iingstlichen Gemüter doch aufwiegen. Welches sind aber diese Vorzüge? I. Hier muss ich zuerst, nach
+                    allem, was über das Memorieren bereits gesagt worden ist, abermals Herrn Dr. Plitt beistimmen: „Es ist, wie
+                    die Dinge einmal stehen, durchaus keine Aussicht Vorhanden, die Einführung des Memorierzwangs für den
+                    bisherigen Katechismus wieder zu erlangen. Es steht vielmehr wirklich so, wie der Oberkirchenrat in seinem
+                    Vorbericht sagt: Entweder der bisherige Katechismuss ohne Niemorierzwang oder der neue Katechismus mit
+                    hlelnorierzwang. Vor diese Alternative gestellt, muss ich sagen: „Lieber den neuen Katechismus mit
+                    Memorierzwang, als den bisherigen ohne hlemorierzwang“. Das ist auch meine Meinung. 2. Schon der ursprüngliche
+                    Entwurf, noch mehr aber der jetzt in der Kommission beschlossene Entwurf, hat sprachlich Irnverkennbare
+                    Vorzüge vor dem bisherigen Katechismtis. Ich meine nun, wenn ich denselben Gedanken kurz, einfach, in klaren
+                    Worten ausdrücken kann, warum sollte ich den Schüler plagen mit vielen Worten und oft verwickelter
+                    Satzkenstruktion? des Gedächtnisses wegen, weil das mühsam Erlernte besser haftet? Nein, das wäre doch ein
+                    verkehrtes Verfahren. Jeder vorurteilsfreie Leser unseres Katechismus wird sich aber gestehen müssen, dass man
+                    manche Frage mit viel weniger Worten und deutlicher beantworten kann, als dies von Luther oder den Verfassern
+                    des „Irleidelberger“ geschehen ist, so hohe Bewunderung und Ehrfurcht ich auch den schönen inhaltsreichen
+                    Lehrsätzen der beiden alten Katechismen zolle. Wie muss man diese behandeln? Ich nehme z. B. die dritte Frage:
+                    Was ist hiernach etc.? Antwort: Dass ich mit Leib und Seele, beides im Leben und im Sterben, nicht mein,
+                    sondern meines getreuen Heilandes, Jesu Christi, eigen bin. Das ist die Antwort auf meine Frage. Nun muss ich
+                    weiter fragen: Was hat Christus für dich gethan? oder Warum ist er dein einiger Trost? und endlich: Was musst
+                    du ihm dagegen thun? das sind drei Fragen, die von vorn herein den Schüler in (‚las ganze Evangelium
+                    hineinführcn, bewundernswert schön, ich habe auch gegen die Stellung am Anfang nichts, allein ich würde doch
+                    die Antwort, wie es jeder Lehrer thun wird, in drei besondere Fragen zerlegen, dann wird derselbe Inhalt viel
+                    klarer und sicherer gelernt. So muss man bei allen lutherischen z\ntworten auf die drei Artikel die grossen
+                    Sätze zerlegen, warum sollte man sie nicht zerlegt auswendig lernen lassen und so manche Wiederholung
+                    weglassen? "Die Sätze des "Entwurfs sind nach meiner Bleinung viel leichter zu behalten. Ferner will ich ganz
+                    absehen von mancher altertümlichen Wendung in der Sprache, es sind deren nicht sehr viele, ich sehe es nicht
+                    ungerne, wenn in der Besprechung (xhristlicher Wahrheiten auch modernes Deutsch gebraucht wird, die Wahrheiten
+                    unseres Llvangeliums ruhen auf einem festen gelegten Grund, aber sie durchdringen die Bildungselemente und
+                    Sprachen der modernsten Zeiten und haben die klare rhisdrticksweise nach jetzigem Deutsch nicht zu fürchten.
+                    Dies führt auf eine weitere wichtige Frage: 3. ‚Enthält der lüntwurf auch die evangelische Lehre unserer
+                    Kirche? Wer diese Frage beantworten will, muss sich zuvor bemühen, jedes Vorurteil, jedes Vereingenommensein
+                    dafür oder (lagegen abzulegen, sonst werden aus den Lehrsätzen Dinge herausgelesen, an die der Verfasser nicht
+                    im entferntesten dachte. So ist’s ja dem Entwurf gegangen, aus den tinverfälnglichsten, vom Verfasser"
+                    vielleicht nur sprachlich etwas besser formulierten Sätzen, hat man sofort eine Abschwächung, wenn nicht gar
+                    eine Leugining der kirchlichen Lehre herausgelesen. So darf man nicht an das neue Buch herantreten, unser
+                    jetziger Katechismus lehrt uns ja, dass wir „alles zum Besten kehren“ sollen. Der Entwurf enthält nach dem
+                    Urteile vieler ernst christlich gesinnter, in streng kirchlichem Glauben stehender Männer die reine biblische
+                    und kirchliche Lehre, tmgefilrbt, wie sie in der Schrift und den Bekenntnissen niedergelegt ist. W0 GtWII
+                    Bedenken oder Zweifel rege werden, da gebe man, ‘Venn das neue liiichlein eingeführt werden sollte, dasselbe
+                    nur getrost den Zweitlern in die Hand, und ich möchte besonders auch die Lehrer bitten, wo sie Gelegenheit
+                    haben, dass sie ängstliche Gemüter aufklären und sie über den positiv christlichen Charakter des neuen
+                    liatceehisinus belehren. So gut der bisherige Kate- chismus als ein liekenirtnisbtich unserer Kirche
+                    bezeichnet werden ist, ebenso gut kann man das neue Büchlein so bezeichnen, es ist nur etwas zweckmässiger für
+                    den Gebrauch in der Schule eingerichtet. Man hat ihm zwar vorgeworfen, es nehme uns Vieles und Wichtiges, was
+                    wir bisher besessen, z. B. die Frage 3, die lirkläirtnrg der 3 Artikel, das Schlüsselamt, die llrkkirung des
+                    Vaterunser, und zwar sei diese ‚Äusletssung‘ absichtlich darum geschehen, weil die darin enthaltenen Lehren
+                    nicht modern seien. Das war wohl der Grund ganz gewiss nicht, sondern es waren pädagogische Gründe, man. Wlll
+                    nur die schwierige Formulierung nicht mehr lernen lassen, vom Nehmen des Inhalts ist keine Rede. lübenso ist
+                    0S 1111i de“ andern angegriffenen Punkten. Wenn gesagt wurde, die Lehre von Christus, dem Sehne Gottes, welche
+                    allerdings die Fundamentallehre des Christentums ist, sei nicht klar und deutlich, besonders an der Stelle,
+                    Iirage 53 des Entwurfs, wo der Ausdruck „aus Gottes Geist geboren“ gebraucht wird, so muss doch jedem
+                    unbefangenen Leser aus einer Reihe von anderen Stellen, Frage 48, 55, 57, 58 die Gottessohnschaft Christi klar
+                    hervortreten; ebenso klar ist der sühnende Opfertod Jesu gelehrt, wer diesen nicht in Frage 55 ﬁndet, ﬁndet
+                    ihn doch sicher in Frage 51. Uebrignns hat der neue Entwurf allen diesen Bedenken besonders durch knappe,
+                    präcise Fassung von Frage 5o und 52 der Kommissionsvorlage und auch anderwäirts vollständig Rechnung getragen,
+                    so dass der Vorwurf einer unvollständigen oder Irnklaren Darlegung der positiven evangelischen Wahrheit gewiss
+                    nicht mehr erhoben werden kann. Ich war hier der Meinung, (lass gerade in dem I{(1I)ii;0l von dem
+                    Erlösungstode der bisherige Katechismus noch mehr hatte abgekürzt werden sollen, als es der Entwurf tlrut,
+                    dass auch die ‚Erklärung über: „geboren von der Jungfrau Maria“ und „niedergefahren zur Hölle“ hatten
+                    wegbleibeir können, ich sehe nicht ein, warum Satz für Satz im Glaubensbekenntnis durch eine besondere Frage
+                    erklärt werden sollte. Nachdem der Name Jesus und sein dreifaches Amt erklärt ist, bleiben uns nur noch die
+                    drei Fragen: „Was verdanken wir dem Tode, der Auferstehung und Ilimmelfzihrt P“ Das sind die drei
+                    Kardinalstützen unseres Glaubens. Es ist durchaus Imnötig" und lich, allen Studien des Leidens Jesu eine
+                    besonde beizulegen, das mag theologisch interessant sein, für unser (llaubensleben hat es wenigWert. Uns steht
+                    die grossse 'I‘hatsache fest: für uns gestorben zur Vergebung der Sünden. Warum das so geschehen ist, welche
+                    "Bedeutung" jedes einzelne ._bre1g'n1s hat, das will und kann ich den Schülern nicht erklären, ich werde nlich
+                    einfach bescheiden und sagen: So war es unseres Gottes Willen. 4. Dagegen wollen wir das neue Buch inhaltlich
+                    betrachtet für die Anordnung des Eltoffes ist durchäsichtige logische Ordnung in einem Katecl". 119m3»
+                    11110111 WGQII » ‘ . ‚ pädagogischen Zweck nicht entgegentrrtt, so 1st sie iratürlrch willkommen. aber nn
+                    alten Buche in der Lehre vom Glauben, auch unmög— re Bedeutung’ doch auch nicht verkennen, was Vorzüge hat.
+                    Schon VW“**« u.\_ —— 39 e ' 7 gewiss auch eine Fundamentallehre, eine Unklarheit herrschte das 1st wohl jedem
+                    Religionslehrer klar i‘i—‚’l‘:;:f((:)1'Ll6ll..‘ Pas neue ‘Buclrbringt uns wichtige Sätze über die (fies
+                    glattes, qseInrci) Altigenschalten, den wahrenfrlaubeh, unerdiw-TS ‚ricﬁﬁﬂaeuxc, (‚n und-die lVachfolgr:
+                    Christi. 12s 1st „_ g. „.— n elnemlxzitechismus istdre Glaubens- lfiiﬂlre die Hauptsache“, die Ethik enthält
+                    nur Folgerungen, .14 ruehte des Glaubenslebens, wer recht glaubt, lebt recht, das 1st acht protestantisch.
+                    Allein im Unterricht ist es doch von grossem Wert, wenn auf diese Früchte, welche ja auch immerhin zugleich
+                    I3eweise des Glaubens sind, speziell hingewiesen wird. Unsere Jugend und auch die Alten sind selten so weit
+                    111 ihrer Ausbildung des Denkens und in der Stärke des Willens Vorangescliritten, (lass sich ihnen die
+                    Konsequenzen des wahren chlichen Lebens von selbst Glaubens auf allen Gebieten des mens ergeben, man muss sie
+                    darauf hinführen, und selbst die Lehrer müssen beim Unterricht darauf hingeführt werden. Das war Offenbar die
+                    Absicht des Verfassers, er will unser ganzes modernes Leben unter den christlichen Gesichtspunkt stellen,
+                    daraus floss auch die vielangefiochtene Antwort auf die Frage I04: „Wie verhält sich der Christ im
+                    bürgerlichen Leben?“ Ich kann die Antwort nicht tadeln, sie enthält die modernen Begriffe Freiheit, Bildung,
+                    Wohlstand, das sind Worte, die wir alle oft hören, wir haben eine gewisse Abneigung gegen sie, weil sie Oft
+                    leere Worte sind oder falsch gebraucht werden, allein was Sie bezeichnen, sind gewiss hohe Güter. Stehen diese
+                    ausserhalb 'r keine christlichen Pﬂichten bezügdes Christentums, haben w1 lieh ihrer? Und wenn diese Worte so
+                    oft missbraucht werden in falschem, unchristlichem Sinne, ist es nicht unsere Pflicht in der Schule, auf den
+                    richtigen Sinn dieser Worte, auf den wahren Wert dieser Güter ziufmerksam zu machen? Ja, Ilnsere Kinder müssen
+                    in der Schule lernen, dass das Christentum nicht eine veraltete Lehre ist, sondern eine Macht, die die Welt
+                    erobert, die sich alles unterthäriig macht, dass ihm „alles gehört“, 1 Cor. 3,22, alle geistigen, alle
+                    materiellen Schätze; sie reiheit giebt, keine BilInüssen lernen, dass es keine F g dung, keinen Wohlstand als
+                    auf dem einen (zrtinde, auf den uns unser Herr und Meister Jesus Christus gestellt hat, ohne ihn ist
+                    Klnechtschaft,’ ohne ihn die Unkultur, ohne ihn der rohe Materialismus. so ist das Christentum ewig alt, aber
+                    auch ewig modern, und In diesem Sinne wollen wir es immer und immer unserer Zeit voranleuchteir, es darf nic
+                    bleiben. Wenn. nun unser Katechismus zu geben Versucht, so wollen wir diese m0 gelinde ziusgedrückt,
+                    modernisieren, es muss ht hinter uns zurückhierin einige Winke derne Färbung gewiss _.4o.__ nicht tadeln, und
+                    wenn auch in dem revidierten Entwürfe die Worte geändert sind, so wird die Sache doch bleiben müssen, und ich
+                    möchte den Lehrern gerade das Oben Gesagte an’s Herz legen, damit den Schülern ihr Christenglaube nicht mit
+                    der Religionsstunde abschliesse, sondern dass sie lernen, ihr Leben draussen christlich zu gestalten und was
+                    die moderne Zeit ihnen vor Augen führt nach christlichen Grund- sätzen zu beurteilen. Eines habe ich auch in
+                    dem ethischen Teile des Katechismus bedauert, das wegfallen der Haustafel; nach meiner Empﬁndung machten jene
+                    Fragen stets einen gewaltigen Ilindrucc Was verlangt das Wort Gottes von den Eltern? Was von den Kindern ? und
+                    wenn dann mit dem Bibelworte die Antwort erfolgte. Ja, auch die Kinder müssen lernen, was Gott von den Eltern
+                    verlangt. Das war so ein Stück eines Spruchbuchs, wie wir es gewiss alle in der Idee haben, könnten wir nur so
+                    den ganzen Katechismus formulieren! Wir haben zwar die Sprüche, welche ja doch die Hauptsache sind, und
+                    vielleicht ist mein Bedauern nur eine subjektive Empfindurrr. Unser Buch hat ausser dem MÖXIIOIlGIStOiT noch
+                    einige Zusätze, es sind die Frage 3 aus dem Heidelberger und die Erklärung‘ der Hauptstiicke aus dem
+                    lutherischen Katechismus. Ich erklärte bereits oben, dass ich lieber gesehen hätte, wenn blos der
+                    Memorierstoif geboten werden wäre, allein wenn die Aufnahme dieser Stücke dem Büchleiil zur lilmpfehlting bei
+                    den Freunden des alten Katechismus dienen kann, so ist es mir auch recht, ich respektiere vollständig ihren
+                    hohen geschichtlichen kVert; ebenso verdient dann auch noch die Stelle aus dem Augsburger Glaubensbekenntnis
+                    eine Aufnahme, so dass alsdann unsere vier Bekenntnisschriften im Katechismus erwähnt sind. Was die Augustantt
+                    betrifft, so wünschte ich noch etwas mehr aus ihr in unsere kleine Kirchengeschichte aufgenommen. Warum aber
+                    diese Stücke durchaus gleichen Druck wie die Fragen haben sollen, begreife ich nicht, ein anderer Druck wiire
+                    gewiss zweckmassiger. Die Anführung‘ der biblischen Bücher und den Anhang über das Kirchenjahr werden wir
+                    Lehrer mit Freuden begrüssen, denn nun ist festgesetzt, was in der sogenzinnten Bibelkunde in der Schule
+                    vorgenommen werden soll, nämlich nur das, was im Katechismus und in der biblischen Geschichte steht, weiter
+                    nichts. Es ist schon mehrfach aufmerksam gemacht worden, dass mit der Bibelkunde in der Volksschule ein
+                    gewisser Luxus getrieben wird, weniger von den Lehrern als von den Geistlichen, dass nämlich zuweilen
+                    1nonate-, ja jahrelang über Verfetsser, Zeit und Inhalt der biblischen Bücher geredet wird, so dass die Kinder
+                    vor lauter Gerede über die Bibel gar nicht in die Bibel hinein kommen. Das ist ein Unfug, solche
+                    nebensächliche Dinge gehören gelegentlich in den biblischen Geschichtsunterricht, wo sie mit den aus dem
+                    Bibelbuche entnommenen Geschichten auch Wert haben, oder sie werden mit dem Bibellesen verknüpft; was aber
+                    über den Kanon, dessen Einteilung, die Uebersetzungen und die "Verbreitung der Bibel zu sagen ist, das geben
+                    die Anhänge zur biblischen Geschichte an, oder die paar Notizen lassen sich dort leicht anfügen, nur kein
+                    besonderes Bächlein oder gar einen besonderen Unterricht darin. lﬁine ähnliche Behandlung erfährt hie und da
+                    das Kirchenjahr, doch seltener, hier giebt uns nun auch der Katechismus den Stoff, über den nicht
+                    hinausgegzingen werden sollte. Dann bleibt uns noch als ein besonderes Büchlein die Kirchengeschichte, welche
+                    gelegentlich der Katechismusverhandlungen auch erwähnt wurde. Sie gehört allerdings nicht zu unserm
+                    Gegenstand, wir wollen auch nur 2 Punkte aufgreifen für eine etwaige spätere Neugestaltung auch dieses
+                    Büchleins. Der erste ist ein äusserlicher, formeller. Verschiedene Lehrbücher für ein Fach sind immer
+                    unzweckmässig, wenige, wo möglich nur eines, aber mit diesem recht vertraut machen, das ist das Beste. Wir
+                    können die Kirchengeschichte nicht entbehren, aber es wäre gut, wenn sie als Anhang entweder der biblischen
+                    Geschichte oder dem Katechismus beigedrilclzt würde. Am liebsten würde ich sie der biblischen Geschichte
+                    beigeben, dort schliesst sie sich organisch an, und das Buch wird wegen des grösseren Formats kaum nennenswert
+                    dicker. Der zweite Punkt ist die Gestaltung. 15s wird über das jetzige Bächlein geklagt, es sei zu hoch
+                    gehalten für die Volksschule, ich stimme bei, allein es hat auch sehr schöne Partieen, die von dem feinen
+                    piidagogischen T akt des Verfassers Zeugnis ablegen, der kein kahles Gerippe geben, sondern durch schön
+                    ausgeführte Lebens- bilder den Stoff für den Schüler interessant, anschaulich und behältlich machen wollte.
+                    Dahin gehört z. B. der Tod Polycarps, Augustins Bekehrung, Luther auf dem Reichstag, die Einzelheiten aus der
+                    badischen Geschichte. Wenn das Bächlein auch einmal gekürzt werden sollte, sollte man keinen trockenen
+                    Leitfaden, ein kurzes Register von Ereignissen und Namen an seine Stelle setzen, jene ausgeführten
+                    Schilderungen würde ich ungerne vermissen. Wenn nun dieser neue Katechismus von der Generalsynode angenommen
+                    wird und zur Einführung gelangt; dann möchtc ich auch unsere Lehrer ersuchen, sich zunächst mit dem läüchlein
+                    bekannt zu machen als einer Arbeit, die nicht leichthin auf das Papier geworfen wurde, sondern deren erster
+                    Entwurf schon mit grosser Sorgfalt und reifer Ueberlegung ausgearbeitet wurde, und die von einem grossen
+                    Kreise theologisch gebildeter, im Religionsunterricht erfahrener und gewiss mit treuem, aufrichtigem Herzen
+                    für die hohe Aufgabe sich hingebcnden ltliinnern beraten wurde. Noch eines aber möchte ich hier zum Schlusse
+                    zur Sprache bringen, was mir stets den Wert des Katechismus zu beeinträchtigen schien, das ist, dass ihn viele
+                    Geistliche nicht für würdig‘ halten, dass er auch dem K0nﬁrmandenunterricht zu Grunde gelegt werde. Dadurch
+                    entsteht die Meinung, er sei ein Buch blos für die kleinen Schüler, die tiefere Weisheit bekomme man erst im
+                    Konﬁrmandenbüchlein. Solches Verfahren ist schon pädagogisch falsch, denn wenn letzteres Bächlein dann gelernt
+                    wird, so verwischen sich die Sätze des Katechismus, beide verwirren sich gegenseitig, und schliesslich hat der
+                    arme Konﬁrmand gar nichts Festes mehr im Gedächtnis. Ich meine, es wäre besser, wenn auch im
+                    Konﬁrmandenunterricht nur der Katechismus nochmals wiederholt würde und am Konﬁrmationstag gezeigt würde, dass
+                    die Schüler ihren Katechismus können und verstehen. Es giebt ja in unserem Religionsunterricht keine geheime
+                    Weisheit, und mehr als im Katechismus steht, braucht ein gewöhnlicher Christ nicht zu wissen, aber 1111111
+                    kann die Sätze tiefer begründen, durch Lesen aus der Bibel vervollständigen, durch Beispiele aus der
+                    Biblischen und Kirchengeschichte veranschaulichen, auf die Verhältnisse des Lebens anwenden, und dann braucht
+                    der Konﬁrmandenunterricht auch nicht immer streng katechetisch zu sein, er darf und muss auch hie und da
+                    erbaulich die Herzen erfassen. Es ist wohl unmöglich, dass jeder das Seine in dem neuen Buche ﬁnde; da5
+                    8011611 Wir ja auch nicht suchen, nicht jeder das ihm gelänﬁge Wort für seine religiöse Ueberzeugung, aber
+                    doch‘ wohl den einen Geist, in welchem wir alle Christi Glieder sind, in welchem wir alle an uns selbst und an
+                    der uns anvertrauten Jugend arbeiten. Und in diesem Geiste wollen wir, soviel an uns liegt, dem neuen Buch den
+                    Weg bereiten hellen, etwaige Bedenken und Missverständnisse in wohlwollendem, schonendem Sinne ziufzuldiiren
+                    und in unsern Schülern durch. ‘V0156; Pädagogische Behandlung trotz des Memorierens Freude daran zu erzeugen
+                    suchen. Ferd. Leutz. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Wohnorte Ludwig Baumanns innerhalb Karlsruhe</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listPlace>
+					<place xml:id="Fabrikstr" type="building">
+						<placeName>Karlsruher Wohnort der Mutter (1887-ca.1906)</placeName>
+						<location>
+							<country key="D"/>
+							<settlement type="city" key="baudi-06-ba166af7">Karlsruhe</settlement>
+							<district type="quartier">Mühlburg</district>
+							<placeName type="street">
+                     Fabrikstraße <num>7</num> </placeName>
+							<geo>49.01300010000001 8.357178900000008</geo>
+						</location>
+					</place>
+					<place xml:id="Lessingstr" type="building">
+						<placeName>Wohnung Ludwig Baumann (1904)</placeName>
+						<location>
+							<country key="D"/>
+							<settlement type="city" key="baudi-06-ba166af7">Karlsruhe</settlement>
+							<district type="quartier">Weststadt</district>
+							<placeName type="street">
+                       Lessingstraße <num>17</num> </placeName>
+							<geo>49.0088082 8.385569499999974</geo>
+						</location>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="AdressbuchDerHaupt-UndResidenzstadtKarlsruhe">
+				<!-- KARLSRUHE (Stadt), nicht Mühlburg!! -> StA? -->
+				<p select="1866">unter Baumann kein LudwigSen. Kein Eintrag für Wenner</p>
+				<p select="1867"/>
+				<p select="1868"/>
+				<p select="1869">unter Baumann kein LudwigSen. Kein Eintrag für Wenner</p>
+				<p select="1870">unter Baumann kein LudwigSen. Kein Eintrag für Wenner</p>
+				<p select="1871">unter Baumann kein LudwigSen. Kein Eintrag für Wenner</p>
+				<p select="1872">unter Baumann kein LudwigSen. Kein Eintrag für Wenner</p>
+				<p select="1873"/>
+
+				<p select="1887"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+                  Ludw.</persName>, Wundarzneidien. Wwe.</persName>,
+               
+					<settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1888"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1889"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1890"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1891"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1892"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1893"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1894"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1895"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1896"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> </p>
+				<p select="1897"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wundarzneidien. Wwe.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> <persName type="unknown"> <hi rend="bold">Baumann</hi> Ludw.</persName>,
+               Versich.=Beamter, <settlement type="rent">Rheinstr. 74</settlement> </p>
+				<p select="1898"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wdarzneid. We.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7</settlement> <persName type="unknown"> <hi rend="bold">Baumann</hi> Ludw.</persName>, VBeamter,
+                  <settlement type="rent">Rheinstr. 78.1</settlement> </p>
+				<p select="1899"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wdarzneid. We.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7.1</settlement> <persName type="unknown"> <hi rend="bold">Baumann</hi> Ludw.</persName>, VBeamter,
+                  <settlement type="rent">Rheinstr. 78.1</settlement> </p>
+				<p select="1900"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wdarzneid. We.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7.1</settlement> <persName type="unknown"> <hi rend="bold">Baumann</hi> Ludw.</persName>, VBeamter,
+                  <settlement type="rent">Eisenbahnst. 15.2</settlement> könnte zum Schreiner
+               gehören, wohnt im selben Haus wie dessen Witwe, ziehen 1903 gemeinsam um!</p>
+				<p select="1904"> <persName type="mother"> <persName type="father"> <hi rend="bold">Baumann</hi>
+					Ludw.</persName>, Wdarzneid. We.</persName>, <settlement key="baudi-06-4bf02c71" type="owner">Fabrikstr. 7.1</settlement> <persName type="himself"> <hi rend="bold">Baumann</hi>
+                  Ludw., Musiklehrer</persName>, <settlement ref="#Lessingstr" type="rent">Lessingst. 17.2</settlement> </p>
+				<p select="1916"> <persName type="himself"> <hi rend="bold">Baumann</hi>
+                  Ludw., SemMusiklehrer uund Hoforganist</persName>, <settlement ref="#Sophienstr" type="rent">Sophienstr. 152.3</settlement> </p>
+			</div>
+		</body>
+	</text>
+</TEI>

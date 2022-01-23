@@ -1,0 +1,47 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Hochstein Musikverlag</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="Verlagsgeschichte" xml:id="HSt-Verlagsgeschichte">
+				<p>
+              Der Musikverleger <persName>Karl Hochstein</persName> war von <date from-iso="0000" to-iso="0000">%Jahr-Jahr</date> Inhaber des <orgName>Hochstein Verlag Heidelberg</orgName>.
+           </p>
+				<p>
+              Als Verlag der Süddeutschen Sängerzeitung spielt <orgName>Hochstein</orgName> eine herausragende Rolle für die Chormusik und für die Männergesangs-Kultur des ausgehenden 19. sowie des beginnenden 20. Jahrhunderts.
+              
+              Partiturenkataloge R und S 1926 (Oktober) R ist für Männerchor und S für gemischten Chor. Beides enthält Baumann (SSZ, 21.1926/27-1,S.28) (S. 28./29. über den Inhalt der Kataloge)
+           </p>
+				<p>
+              Der Verlag wurde <date>%Jahr</date> an den <orgName>Chormusikverlag Seebold</orgName> in <settlement>St. Augustin</settlement> veräußert.
+             </p>
+			</div>
+			<div type="BestandHeute" xml:id="HSt-BestandHeute">
+				<p>
+             Der Umfang des heutigen Bestandes ist ungewiss. Nach Aussage des <orgName>Chormusikverlag Seebold</orgName> in <settlement>St. Augustin</settlement> wurde ebenfalls das Verlgsarchiv übernommen, jedoch gibt es keinerlei Hinweise über den Verbleib von Stichvorlagen, Druckplatten und Rechnungen.
+           </p>
+			</div>
+			<div type="SüddeutscheSängerZeitung" xml:id="HSt-SSZ">
+				<p>
+              Süddeutshce Sängerzeitung
+           </p>
+			</div>
+			<div type="VerlegteWerke" xml:id="HSt-VerlegteWerke">
+				<p> </p>
+			</div>
+		</body>
+	</text>
+</TEI>

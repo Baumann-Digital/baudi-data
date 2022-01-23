@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     meiversion="4.0.0"
+     xml:id="baudi-01-57e03f0b"
+     status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">Am Brunnen</title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform"
+                   xml:lang="de"
+                   xml:id="baudi-01-57e03f0b-titleUniformDE">
+                    <titlePart type="main"
+                          xml:lang="de"
+                          xml:id="baudi-01-57e03f0b-titleUniformMainDE">Am Brunnen</titlePart>
+                    <titlePart type="perf">für Männerchor</titlePart>
+                </title>
+                <composer>
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist>
+                    <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
+                </lyricist>
+                <key pname="b" mode="major" accid="f"/>
+                <meter count="4" unit="4" sym="common"/>
+                <tempo>Getragen, sehr innig.</tempo>
+                <incip/>
+                <perfMedium>
+                    <perfResList auth="choirMen">
+                        <perfRes auth="tenor.i" xml:id="baudi-01-3c1eaec1-perfRes-0001">
+                     <range corresp="baudi-01-3c1eaec1-perfRes-0001">
+                        <rangeNote type="lowest" pname="f" oct="3"/>
+                        <rangeNote type="highest" pname="b" accid="f" oct="4"/>
+                     </range>
+                  </perfRes>
+                        <perfRes auth="tenor.ii" xml:id="baudi-01-3c1eaec1-perfRes-0002">
+                     <range corresp="baudi-01-3c1eaec1-perfRes-0002">
+                        <rangeNote type="lowest" pname="f" oct="3"/>
+                        <rangeNote type="highest" pname="f" oct="4"/>
+                     </range>
+                  </perfRes>
+                        <perfRes auth="bass.i" xml:id="baudi-01-3c1eaec1-perfRes-0003">
+                     <range corresp="baudi-01-3c1eaec1-perfRes-0003">
+                        <rangeNote type="lowest" pname="d" oct="3"/>
+                        <rangeNote type="highest" pname="d" oct="4"/>
+                     </range>
+                  </perfRes>
+                        <perfRes auth="bass.ii" xml:id="baudi-01-3c1eaec1-perfRes-0004">
+                     <range corresp="baudi-01-3c1eaec1-perfRes-0004">
+                        <rangeNote type="lowest" pname="f" oct="2"/>
+                        <rangeNote type="highest" pname="b" accid="f" oct="3"/>
+                     </range>
+                  </perfRes>
+                    </perfResList>
+                </perfMedium>
+
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="pr">
+                <identifier type="rism"/>
+                <identifier type="D-KA">M 317</identifier>
+                <titleStmt>
+                    <title xml:id="baudi-01-57e03f0b-title">
+                        <titlePart type="main" xml:id="baudi-01-57e03f0b-titleMain">Am Brunnen</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-57e03f0b-titleSub"/>
+                        <titlePart type="perf" xml:id="baudi-01-57e03f0b-titleDesc">für Männerchor</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-57e03f0b-composer">
+                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                </titleStmt>
+                <physDesc>
+                    <titlePage>
+                        <p decls="titlePage">
+                            <rend halign="center">Am Brunnen<lb/>
+                                <fig>
+                                    <figDesc>Brunnen, direkt daneben ein Baum, darunter eine Sitzbank.</figDesc>
+                                </fig>
+                                <lb/>Gedicht von <persName>Richard Graebener</persName>
+                                <lb/> für Männerchor von <persName>Ludwig Baumann</persName>
+                            </rend>
+                        </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">297</dimensions>
+                    <dimensions label="width" unit="mm">215</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="cover"/>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    <watermark label="watermark"/>
+                    <plateNum/>
+                    <handList>
+                        <hand medium="Bleistift" label="BiblVermerk" xml:id="hand1"/>
+                    </handList>
+               <handList>
+                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+               </handList>
+                    <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>--></addDesc>
+                    <condition n="1" resp="dried" type="desc">
+                        <date isodate="2019-08-21" type="desc" resp="dried"/>
+                        <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-57e03f0b-physMedium"><!-- Lagenordnung -->
+                        <extent>Eine gefaltete Lage (Partitur); Stimmen jeweils ein Blatt.</extent>
+                        <stamp>
+                            <locus n="2r" type="stamps">
+                                <symbol class="blb-002"/>
+                                <rend valign="bottom" halign="center"/>
+                            </locus>
+                        </stamp>
+                    </physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="D-KA">M317</identifier>
+                    </repository>
+                </physLoc>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList/>
+                <notesStmt>
+                    <!-- Weitere Anmerkungen des Beschreibers -->
+                    <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
+                    <!--<annot type="ambitus" corresp="baudi-09-27e7bd96">
+                        <note type="start" pname="f" oct="3"/>–<note type="end" pname="b" accid="f" oct="4"/>
+                    </annot>
+                    <annot type="ambitus" corresp="baudi-09-9d9c654f">
+                        <note type="start" pname="f" oct="3"/>–<note type="end" pname="f" oct="4"/>
+                    </annot>
+                    <annot type="ambitus" corresp="baudi-09-b9db0d2c">
+                        <note type="start" pname="d" oct="3"/>–<note type="end" pname="d" oct="4"/>
+                    </annot>
+                    <annot type="ambitus" corresp="baudi-09-a76e4bf2">
+                        <note type="start" pname="f" oct="2"/>–<note type="end" pname="b" accid="f" oct="3"/>
+                    </annot>-->
+                    <annot corresp="hand1" resp="dried">
+                        <locus type="biblNotes" corresp="hand1">
+                            <rend halign="left" valign="top">aK</rend>
+                        </locus>
+                    </annot>
+                    <annot corresp="hand1" resp="dried">
+                        <locus type="biblNotes">
+                            <rend halign="center" valign="bottom">[um 1920]</rend>
+                        </locus>
+                    </annot>
+                    <annot corresp="hand1" resp="dried">
+                        <locus type="biblNotes">
+                            <rend halign="center" valign="bottom">Z</rend>
+                            <symbol/>
+                        </locus>
+                    </annot>
+                    <annot corresp="hand1" resp="dried">
+                        <locus type="biblNotes">
+                            <rend halign="center" valign="top">M 317</rend>
+                            <symbol/>
+                        </locus>
+                    </annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">choir</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <componentList>
+                    <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
+                    <manifestation type="pr">
+                        <identifier>M 317a, Tenor I</identifier>
+                        <titleStmt>
+                            <title>
+                                <titlePart type="main">Am Brunnen</titlePart>
+                                <titlePart type="perf">für Männerchor</titlePart>
+                            </title>
+                        </titleStmt>
+                        <physDesc>
+                            <dimensions label="height" unit="mm">290</dimensions>
+                            <dimensions label="width" unit="mm">182</dimensions>
+                            <extent label="orientation">portrait</extent>
+                            <extent label="cover"/>
+                            <extent label="folium" unit="folium">1</extent>
+                            <extent label="pages" unit="page">1</extent>
+                            <extent label="pagination">none</extent>
+                            <scoreFormat>part</scoreFormat>
+                            <watermark label="watermark"/>
+                            <plateNum/>
+                            <handList>
+                                <hand medium="Bleistift" label="BiblVermerk"/>
+                            </handList>
+                            <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->
+                                Zweites Exemplar vorhanden</addDesc>
+                            <condition n="1" resp="dried" type="desc">
+                                <date isodate="2019-08-21" type="desc" resp="dried"/>
+                                <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                            </condition>
+                            <physMedium><!-- Lagenordnung -->
+                                <extent>Einzelblatt, einseitig bedruckt.</extent>
+                                <stamp>
+                                    <locus n="2r" type="stamps">
+                                        <symbol class="blb-002"/>
+                                        <rend valign="top" halign="left"/>
+                                    </locus>
+                                </stamp>
+                            </physMedium>
+                        </physDesc>
+                        <langUsage>
+                            <language auth="de"/>
+                        </langUsage>
+                        <notesStmt>
+                            <!-- Weitere Anmerkungen des Beschreibers -->
+                            <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation type="pr">
+                        <identifier>M 317a, Tenor II</identifier>
+                        <titleStmt>
+                            <title>
+                                <titlePart type="main">Am Brunnen</titlePart>
+                                <titlePart type="perf">für Männerchor</titlePart>
+                            </title>
+                        </titleStmt>
+                        <physDesc>
+                            <dimensions label="height" unit="mm">290</dimensions>
+                            <dimensions label="width" unit="mm">186</dimensions>
+                            <extent label="orientation">portrait</extent>
+                            <extent label="cover"/>
+                            <extent label="folium" unit="folium">1</extent>
+                            <extent label="pages" unit="page">1</extent>
+                            <extent label="pagination">none</extent>
+                            <scoreFormat>part</scoreFormat>
+                            <watermark label="watermark"/>
+                            <plateNum/>
+                            <handList>
+                                <hand medium="Bleistift" label="BiblVermerk"/>
+                            </handList>
+                            <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->
+                                Zweites Exemplar vorhanden</addDesc>
+                            <condition n="1" resp="dried" type="desc">
+                                <date isodate="2019-08-21" type="desc" resp="dried"/>
+                                <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                            </condition>
+                            <physMedium><!-- Lagenordnung -->
+                                <extent>Einzelblatt, einseitig bedruckt.</extent>
+                                <stamp>
+                                    <locus n="2r" type="stamps">
+                                        <symbol class="blb-002"/>
+                                        <rend valign="top" halign="left"/>
+                                    </locus>
+                                </stamp>
+                            </physMedium>
+                        </physDesc>
+                        <langUsage>
+                            <language auth="de"/>
+                        </langUsage>
+                        <notesStmt>
+                            <!-- Weitere Anmerkungen des Beschreibers -->
+                            <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation type="pr">
+                        <identifier>M 317a, Bass I</identifier>
+                        <titleStmt>
+                            <title>
+                                <titlePart type="main">Am Brunnen</titlePart>
+                                <titlePart type="perf">für Männerchor</titlePart>
+                            </title>
+                        </titleStmt>
+                        <physDesc>
+                            <dimensions label="height" unit="mm">290</dimensions>
+                            <dimensions label="width" unit="mm">186</dimensions>
+                            <extent label="orientation">portrait</extent>
+                            <extent label="cover"/>
+                            <extent label="folium" unit="folium">1</extent>
+                            <extent label="pages" unit="page">1</extent>
+                            <extent label="pagination">none</extent>
+                            <scoreFormat>part</scoreFormat>
+                            <watermark label="watermark"/>
+                            <plateNum/>
+                            <handList>
+                                <hand medium="Bleistift" label="BiblVermerk"/>
+                            </handList>
+                            <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->
+                                Zweites Exemplar vorhanden</addDesc>
+                            <condition n="1" resp="dried" type="desc">
+                                <date isodate="2019-08-21" type="desc" resp="dried"/>
+                                <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                            </condition>
+                            <physMedium><!-- Lagenordnung -->
+                                <extent>Einzelblatt, einseitig bedruckt.</extent>
+                                <stamp>
+                                    <locus n="2r" type="stamps">
+                                        <symbol class="blb-002"/>
+                                        <rend valign="top" halign="left"/>
+                                    </locus>
+                                </stamp>
+                            </physMedium>
+                        </physDesc>
+                        <langUsage>
+                            <language auth="de"/>
+                        </langUsage>
+                        <notesStmt>
+                            <!-- Weitere Anmerkungen des Beschreibers -->
+                            <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation type="pr">
+                        <identifier>M 317a, Bass II</identifier>
+                        <titleStmt>
+                            <title>
+                                <titlePart type="main">Am Brunnen</titlePart>
+                                <titlePart type="perf">für Männerchor</titlePart>
+                            </title>
+                        </titleStmt>
+                        <physDesc>
+                            <dimensions label="height" unit="mm">290</dimensions>
+                            <dimensions label="width" unit="mm">185</dimensions>
+                            <extent label="orientation">portrait</extent>
+                            <extent label="cover"/>
+                            <extent label="folium" unit="folium">1</extent>
+                            <extent label="pages" unit="page">1</extent>
+                            <extent label="pagination">none</extent>
+                            <scoreFormat>part</scoreFormat>
+                            <watermark label="watermark"/>
+                            <plateNum/>
+                            <handList>
+                                <hand medium="Bleistift" label="BiblVermerk"/>
+                            </handList>
+                            <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->Zweites
+                                Exemplar vorhanden</addDesc>
+                            <condition n="1" resp="dried" type="desc">
+                                <date isodate="2019-08-21" type="desc" resp="dried"/>
+                                <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                            </condition>
+                            <physMedium><!-- Lagenordnung -->
+                                <extent>Einzelblatt, einseitig bedruckt.</extent>
+                                <stamp>
+                                    <locus n="2r" type="stamps">
+                                        <symbol class="blb-002"/>
+                                        <rend valign="top" halign="left"/>
+                                    </locus>
+                                </stamp>
+                            </physMedium>
+                        </physDesc>
+                        <langUsage>
+                            <language auth="de"/>
+                        </langUsage>
+                        <notesStmt>
+                            <!-- Weitere Anmerkungen des Beschreibers -->
+                            <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
+                        </notesStmt>
+                    </manifestation>
+                </componentList>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-26075507"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"> </extMeta>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef>
+                        <ambitus corresp="baudi-01-3c1eaec1-perfRes-0001">
+                            <ambNote type="lowest" pname="f" oct="3"/>
+                            <ambNote type="highest" pname="b" accid="f" oct="4"/>
+                        </ambitus>
+                        <ambitus corresp="baudi-01-3c1eaec1-perfRes-0002">
+                            <ambNote type="lowest" pname="f" oct="3"/>
+                            <ambNote type="highest" pname="f" oct="4"/>
+                        </ambitus>
+                        <ambitus corresp="baudi-01-3c1eaec1-perfRes-0003">
+                            <ambNote type="lowest" pname="d" oct="3"/>
+                            <ambNote type="highest" pname="d" oct="4"/>
+                        </ambitus>
+                        <ambitus corresp="baudi-01-3c1eaec1-perfRes-0004">
+                            <ambNote type="lowest" pname="f" oct="2"/>
+                            <ambNote type="highest" pname="b" accid="f" oct="3"/>
+                        </ambitus>
+                    </scoreDef>
+                    <section/>
+                    <div type="songtext">
+                        <lg>
+                            <l>Dort wo der Brunnen einstmals stand,</l>
+                            <l>war meine Lieb' daheim.</l>
+                            <l>Was mich mit ihr so tief verband</l>
+                            <l>gehört mir mir allein.</l>
+                            <l>Dies Glück, es ist so ganz mir mein</l>
+                            <l>so lang mein Herz mir schlägt;</l>
+                            <l>und seine Kraft, so ist so sein,</l>
+                            <l>weil es die Liebe trägt.</l>
+                        </lg>
+                        <lg>
+                            <l>Oft summ' ich leis' von diesem Glück</l>
+                            <l>ein Liedchen vor mich hin.</l>
+                            <l>Dann kehrt das Einst in mich zurück</l>
+                            <l>und bringt mir frohen Sinn.</l>
+                            <l>Der Brunnen fliesst schon längst nicht mehr</l>
+                            <l>die ich dort traf, ist tot.</l>
+                            <l>Doch schwebt ihr Bild noch um mich her</l>
+                            <l>wie lichtes Morgen rot.</l>
+                        </lg>
+                    </div>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>

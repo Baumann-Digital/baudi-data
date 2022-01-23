@@ -1,0 +1,65 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A TEI file automatically converted from CSV</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>No publication statement</p>
+			</publicationStmt>
+			<sourceDesc>s
+            <listPlace>
+				<place xml:id="none2" type="city">
+					<placeName type="official" xml:lang="de">Eggenstein</placeName>
+					<placeName type="called" xml:lang="de"/>
+					<placeName notBefore="1400"/>
+					<placeName notAfter="0056"/>
+					<location>
+						<geo>51.969604 -2.893146</geo>
+						<address>
+							<placeName type="street"> <num/> </placeName>
+							<settlement>Eggenstein</settlement>
+							<postCode/>
+							<district type="state">Baden-Württemberg</district>
+							<offset>north west of</offset>
+							<region>Baden</region>
+							<country key="D">Germany</country>
+							<bloc>EU</bloc>
+						</address>
+					</location>
+					<terrain>
+						<desc>Area: 103,000 sq km</desc>
+					</terrain>
+					<population>
+						<population when-iso="1866"/>
+						<population when-iso="2017"/>
+					</population>
+					<listEvent>
+						<event type="governance" when="1944-06-17">
+							<desc>Iceland became independent on 17 June 1944.</desc>
+						</event>
+						<event type="conclusions" when-iso="1927-01-">
+							<desc>second part</desc>
+						</event>
+					</listEvent>
+				</place>
+
+
+				</listPlace> </sourceDesc>
+		</fileDesc>
+
+	</teiHeader>
+	<text>
+		<body>
+
+			<p> <settlement>Stuttgart</settlement> </p>
+			<p decls="Beschreibung">Stadt in Württemberg. Heimatstadt des Stuttgarter
+            Liederkranzes</p>
+			<p decls="Bezug">Befreundeter Verein</p>
+
+
+		</body>
+	</text>
+</TEI>

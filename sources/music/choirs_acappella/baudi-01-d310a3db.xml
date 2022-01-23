@@ -1,0 +1,155 @@
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-d310a3db" status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d310a3db-titleUniMainDE">Komm’ mit deinem
+                        Engelslied</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:id="baudi-02-d310a3db-title">
+                    <titlePart type="main" xml:id="baudi-02-d310a3db-titleMain">Komm’ mit deinem Engelslied</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-d310a3db-titleMainSort">Komm mit deinem Engelslied</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-d310a3db-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-d310a3db-titleDesc"/>
+                </title>
+                <composer xml:id="baudi-02-d310a3db-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist xml:id="baudi-02-d310a3db-lyricist">
+                    <persName>August Sturm</persName>
+                </lyricist>
+                <key pname="g" mode="major"/>
+                <meter count="3" unit="4"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList auth="choirMixed">
+                        <perfRes auth="soprano" xml:id="baudi-02-d310a3db-perfRes-0001"/>
+                        <perfRes auth="alto" xml:id="baudi-02-d310a3db-perfRes-0002"/>
+                        <perfRes auth="tenor" xml:id="baudi-02-d310a3db-perfRes-0003"/>
+                        <perfRes auth="bass" xml:id="baudi-02-d310a3db-perfRes-0004"/>
+                    </perfResList>
+                    <annot type="performance"/>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation class="#pr">
+                <identifier type="rism"/>
+                <identifier type="baudi-copy">BLB-SMV-7</identifier>
+                <identifier type="blb">M 311, II, 30</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-d310a3db-titleMain">Komm’ mit deinem Engelslied</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-d310a3db-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-d310a3db-composer">
+                        <persName auth="baudi-04-5e3ed698">
+                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-d310a3db-lyricist">
+                        <persName auth="baudi-04-35c9a190">
+                            <persName>August Sturm</persName>
+                        </persName>
+                    </lyricist>
+                    <respStmt xml:id="baudi-01-d310a3db-respStmtDed"/>
+                </titleStmt>
+                <editionStmt>
+                    <edition>
+                        <title>Komm’ mit deinem Engelslied</title>
+                        <bibl>
+                            <identifier>27</identifier>
+                            <publisher>
+                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee/>
+                        </bibl>
+                    </edition>
+                    <respStmt>
+                        <corpName role="printing">Stich und Druck von C.G.Röder G. m. b. H., Leipzig</corpName>
+                    </respStmt>
+                </editionStmt>
+                <physDesc>
+                    
+                    <dimensions label="height" unit="mm">170</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    
+                    <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+                    <plateNum n="27">27</plateNum>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName>Badische Landesbibliothek</corpName>
+                    </repository>
+                </physLoc>
+                <creation/>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot type="internal"/>
+                </notesStmt>
+                <classification>
+                    <head/>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-2cace187"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="1" isodate="2020-07-25" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourcesFromCSV.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv xml:id="baudi-20-699d1327" label="Komm’ mit deinem Engelslied"/>
+        </body>
+    </music>
+</mei>

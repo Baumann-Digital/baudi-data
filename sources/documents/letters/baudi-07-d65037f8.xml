@@ -1,0 +1,81 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-07-d65037f8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Willy Müller an Berta Baumann vom 02. Januar 1947</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Diese Datei sowie deren Inhalt wurden im Rahmen der M.A.-Thesis von <persName role="researcher"
+                        key="baudi-04-1d680f20#dried">Dennis Ried</persName> im <date from-iso="2017-04-01" to-iso="2017-08-15"
+                        >Sommersemester 2017</date> erstellt. Die vorliegende Datei enthält unpublizierte Inhalte einer
+                    Korrespondenz mit Bezug zu <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Bei dieser Quelle handelt es sich um den Durchschlag des ursprünglichen Briefes, der als Kopie im <orgName
+                        key="baudi-05-8272ad0d">Süddeutschen Musikverlag</orgName> verblieben ist. Dass der Brief nicht
+                    unterschrieben ist, bekräftigt diese Annahme. Das Papier weist keine Papiervermerke auf. Die Quelle ist
+                    gelocht und unter den Unterlagen des Verlagsarchivs des Süddeutschen Musikverlags beim <orgName
+                        key="baudi-05-e5930348">Bärenreiter-Verlag</orgName> in Kassel abgeheftet.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="baudi-04-585e6747">Willy Müller</persName>
+                    <settlement key="baudi-06-a1ca746a" cert="medium">[Heidelberg]</settlement>
+                    <date when="1947-01-02" n="03">02. Februar 1947</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="baudi-04-2d158485">Berta Baumann</persName>
+                    <settlement key="baudi-06-0aa5a41e" cert="high">Baden-Baden</settlement>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc status="approved">
+            <change who="TB" when="2017-08-16">Add profileDesc and xml:id</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="page" n="1">
+                <p>
+                    <hi rend="right">
+                        <date when-iso="1947-01-02">2.1.47</date>
+                    </hi>
+                </p>
+                <p>Frau<lb/>
+                    <persName key="baudi-04-2d158485">Berta <hi rend="spaced">Baumann</hi>
+                    </persName>
+                    <lb/>
+                    <settlement key="baudi-06-115711de">
+                        <hi rend="spaced"><placeName key="baudi-06-0aa5a41e">Baden-Baden</placeName></hi>
+                        <lb/> Frimmersbergstr. 27</settlement>
+                </p>
+                <p>Sehr ve<add>r</add>ehrte <persName key="baudi-04-2d158485">Frau Baumann</persName>!</p>
+                <p>Entschuldigen Sie, daß ich mit der Beantwortung Ihres Briefes Sie so<lb type="dipl"/> lange warten ließ, aber der
+                    Geschäftsbetrieb,Verlag und Sortiment,<lb type="dipl"/> ließ mich nicht eher Zeit finden. Infolge Kohlenmangel haben wir
+                    einige<lb type="dipl"/> Tage zu und da läßt sich nun die aufgestapelte Post der Reihe nach<lb type="dipl"/> wieder bearbeiten.</p>
+                <p>Es tut mir sehr leid, daß auch Sie Ihre Wohnung durch Beschlag<lb type="dipl" subtype="hyphen"/>nahme verloren haben. Hoffentlich haben Sie
+                    aber dennoch ein schönes<lb type="dipl"/> Unterkommen gefunden.</p>
+                <p>In der Anlage gebe ich Ihnen die gewünschte Aufstellung der Chöre<lb type="dipl"/>
+                    <persName key="baudi-04-5e3ed698">Ihres Mannes</persName>, die bei <persName key="baudi-04-066cab08">meinem
+                        Vater</persName> s.Z. im Verlag herauskamen. Auf<lb type="dipl"/> der Rückseite der beigelegten Partitur haben Sie die
+                    genaue Aufstel<lb type="dipl" subtype="hyphen"/>lung,was noch fehlt erhalten Sie im Nachtrag angegeben. Es würde mich<lb type="dipl"/> interessieren
+                    zu erfahren, ob <persName key="baudi-04-5e3ed698">Ihr Mann</persName> noch Manuskripte hinterlassen<lb type="dipl"/> hat,
+                    um dieselben evtl. herauszugeben. Er war ja im Komponieren immer<lb type="dipl"/> sehr fleißig und so könnte ich mir
+                    denken, daß manch wertvolles Manus<pb n="2" type="arabic" subtype="hyphen"/>
+                    kript der Veröffentlichung wert wäre. Vielleicht schreiben Sie mir ein<lb type="dipl" subtype="hyphen"/>mal darüber. Von <persName
+                        key="baudi-04-320817a3">Erwin</persName> habe ich schon lange nichts mehr gehört. Ist er<lb type="dipl"/> noch in
+                    <placeName key="baudi-06-eda48674">Pforzheim</placeName>? Hat er noch Vereine? Was machen <persName
+                        key="baudi-04-825d9ae2">Guido</persName> und <persName key="baudi-04-df754354">Gerda</persName>?</p>
+                <p decls="salut">Mit allen guten Wünschen zum neuen Jahre<lb/> verbleibe ich mit herzlichen Grüßen
+                <lb/> Ihr
+                </p>
+                <note type="editor">Der Brief trägt keine Unterschrift</note>
+            </div>
+        </body>
+    </text>
+</TEI>

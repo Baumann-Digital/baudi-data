@@ -1,0 +1,38 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<listEvent>
+				<event xml:id="Chrono-1881">
+					<head> <date when-iso="1881">1881/1882</date> </head>
+					<desc>Beginn der Ausbildung am Lehrerseminar I in Karlsruhe. Eintritt in die 1.
+                  Klasse zum Schuljahr 1881/1882.</desc>
+				</event>
+				<event xml:id="Chrono-1882">
+					<head> <date when-iso="1882">1882/1883</date> </head>
+					<desc>Ausbildung am Lehrerseminar I in Karlsruhe. Versetzung in die 2. Klasse zum
+                  Schuljahr 1882/1883.</desc>
+				</event>
+				<event xml:id="Chrono-1883">
+					<head> <date when-iso="1883">1883/1884</date> </head>
+					<desc>Letztes Jahr der Ausbildung am Lehrerseminar I in Karlsruhe. Versetzung in die
+                  3. Klasse (Abschlussklasse) zum Schuljahr 1883/1884.</desc>
+				</event>
+			</listEvent>
+		</body>
+	</text>
+</TEI>

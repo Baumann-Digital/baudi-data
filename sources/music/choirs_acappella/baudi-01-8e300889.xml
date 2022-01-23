@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0"
+     xml:id="baudi-01-8e300889"
+     status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-8e300889-titleUniMainDE">Liedessegen</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:id="baudi-02-8e300889-title">
+                    <titlePart type="main" xml:id="baudi-02-8e300889-titleMain">Liedessegen</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-8e300889-titleMainSort">Liedessegen</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-8e300889-titleSub">»Lieder sind gleich guten Taten« Aus:
+                        Deutscher Parnass</titlePart>
+                    <titlePart type="perfmedium" xml:id="baudi-02-8e300889-titleDesc"/>
+                </title>
+                <composer xml:id="baudi-02-8e300889-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist xml:id="baudi-02-8e300889-lyricist">
+                    <persName>Johann Wolfgang Goethe</persName>
+                </lyricist>
+                <key pname="c" mode="major"/>
+                <meter count="4" unit="4" sym="common"/>
+                <tempo>Wuchtig, mit hymnenartigem Schwung</tempo>
+                <incip/>
+
+                <perfMedium>
+                    <perfResList auth="choirMen">
+                        <perfRes auth="tenor"/>
+                        <perfRes auth="tenor"/>
+                        <perfRes auth="bass"/>
+                        <perfRes auth="bass"/>
+                    </perfResList>
+                    <annot type="performance"/>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="pr">
+                <identifier type="rism"/>
+                <identifier type="baudi-copy">CMVS-HH-69</identifier>
+            <titleStmt>
+               <title type="uniform" xml:id="baudi-02-8e300889-title">
+                    <titlePart type="main" xml:id="baudi-02-8e300889-titleMain">Liedessegen</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-8e300889-titleMainSort">Liedessegen</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-8e300889-titleSub">»Lieder sind gleich guten Taten« Aus:
+                        Deutscher Parnass</titlePart>
+                    <titlePart type="perfmedium" xml:id="baudi-02-8e300889-titleDesc"/>
+                </title>
+               <composer xml:id="baudi-02-8e300889-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+               <lyricist xml:id="baudi-02-8e300889-lyricist">
+                    <persName>Johann Wolfgang Goethe</persName>
+                </lyricist>
+            </titleStmt>
+                
+                
+                
+                
+                <editionStmt>
+                    <edition>
+                        <title>Liedessegen</title>
+                        <bibl>
+                            <identifier>H. 2802 H.</identifier>
+                            <publisher>
+                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>Der <corpName>Schneider’schen Chorvereinigung <settlement>Stuttgart</settlement>
+                        </corpName> und ihrem Leiter, <persName role="director">Herrn Musikdirektor
+                                Schneider</persName> gewidmet.</dedicatee>
+                        </bibl>
+                    </edition>
+                    
+                </editionStmt>
+                <physDesc>
+                    <titlePage>
+                        <p/>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">170</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">3</extent>
+                    <extent label="pages" unit="page">3</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    
+                    <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+                    <plateNum n="2802">H. 2802 H.</plateNum>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
+                </physLoc>
+                <creation/>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot type="internal">Aus Deutscher Parnass von Goethe</annot>
+                </notesStmt>
+                <classification>
+                    <head/>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-db04d557"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="1" isodate="2020-07-25" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourcesFromCSV.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv xml:id="baudi-20-2ea728ac" label="Liedessegen"/>
+        </body>
+    </music>
+</mei>

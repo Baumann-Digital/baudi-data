@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0"
+     xml:id="baudi-01-5800bbd4"
+     status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-5800bbd4-titleUniMainDE">Osterlied</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:id="baudi-02-5800bbd4-title">
+                    <titlePart type="main" xml:id="baudi-02-5800bbd4-titleMain">Osterlied</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-5800bbd4-titleMainSort">Osterlied</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-5800bbd4-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-5800bbd4-titleDesc"/>
+                </title>
+                <composer xml:id="baudi-02-5800bbd4-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist xml:id="baudi-02-5800bbd4-lyricist">
+                    <persName>Emanuel Geibel</persName>
+                </lyricist>
+                <key pname="g" mode="major"/>
+                <meter count="4" unit="4" sym="common"/>
+                <tempo>Nicht zu langsam.</tempo>
+                <incip/>
+
+                <perfMedium>
+                    <perfResList auth="choir">
+                        <perfRes auth="soprano"/>
+                        <perfRes auth="alto"/>
+                        <perfRes auth="tenor"/>
+                        <perfRes auth="bass"/>
+                        <perfRes auth="organ"/>
+                    </perfResList>
+                    <annot type="performance">Wird der Chor ohne Orgel gesungen, so falle[n] die Pausen weg.</annot>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="pr">
+                <identifier type="rism"/>
+                <identifier type="baudi-copy">CMVS-HH-26</identifier>
+            <titleStmt>
+               <title type="uniform" xml:id="baudi-02-5800bbd4-title">
+                    <titlePart type="main" xml:id="baudi-02-5800bbd4-titleMain">Osterlied</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-5800bbd4-titleMainSort">Osterlied</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-5800bbd4-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-5800bbd4-titleDesc"/>
+                </title>
+               <composer xml:id="baudi-02-5800bbd4-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+               <lyricist xml:id="baudi-02-5800bbd4-lyricist">
+                    <persName>Emanuel Geibel</persName>
+                </lyricist>
+            </titleStmt>
+                
+                
+                
+                
+                <editionStmt>
+                    <edition>
+                        <title>Osterlied</title>
+                        <bibl>
+                            <identifier>H. 957 H.</identifier>
+                            <publisher>
+                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee/>
+                        </bibl>
+                    </edition>
+                    
+                </editionStmt>
+                <physDesc>
+                    <titlePage>
+                        <p/>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">170</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">3</extent>
+                    <extent label="pages" unit="page">4</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    
+                    <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+                    <plateNum n="957">H. 957 H.</plateNum>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
+                </physLoc>
+                <creation/>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot type="perf">Wird der Chor ohne Orgel gesungen, so falle[n] die Pausen weg.</annot>
+                    <annot type="internal"/>
+                </notesStmt>
+                <classification>
+                    <head/>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-4eef5d11"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="1" isodate="2020-07-25" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourcesFromCSV.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile label="6146224">
+            
+                
+                
+                
+                
+                
+        <surface xml:id="baudi-01-5800bbd4-surface-0001" n="1" label="1r">
+            <graphic targettype="blb-vlid"
+                     target="6230983"
+                     xml:id="baudi-01-5800bbd4-00-0001"
+                     type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-5800bbd4-surface-0002" n="2" label="1v">
+            <graphic targettype="blb-vlid"
+                     target="6230984"
+                     xml:id="baudi-01-5800bbd4-00-0002"
+                     type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-5800bbd4-surface-0003" n="3" label="2r">
+            <graphic targettype="blb-vlid"
+                     target="6230985"
+                     xml:id="baudi-01-5800bbd4-00-0003"
+                     type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-5800bbd4-surface-0004" n="4" label="2v">
+            <graphic targettype="blb-vlid"
+                     target="6230986"
+                     xml:id="baudi-01-5800bbd4-00-0004"
+                     type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-5800bbd4-surface-0005" n="5" label="3r">
+            <graphic targettype="blb-vlid"
+                     target="6230987"
+                     xml:id="baudi-01-5800bbd4-00-0005"
+                     type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-5800bbd4-surface-0006" n="6" label="3v">
+            <graphic targettype="blb-vlid"
+                     target="6230988"
+                     xml:id="baudi-01-5800bbd4-00-0006"
+                     type="facsimile"/>
+         </surface>
+      </facsimile>
+        <body>
+            <mdiv xml:id="baudi-20-9cd9724a" label="Osterlied"/>
+        </body>
+    </music>
+</mei>

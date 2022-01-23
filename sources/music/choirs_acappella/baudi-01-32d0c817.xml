@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0"
+     xml:id="baudi-01-32d0c817"
+     status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-32d0c817-titleUniMainDE">Deutsche
+                        Strom-Hymne</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:id="baudi-02-32d0c817-title">
+                    <titlePart type="main" xml:id="baudi-02-32d0c817-titleMain">Deutsche Strom-Hymne</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-32d0c817-titleMainSort">Deutsche Strom-Hymne</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-32d0c817-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-32d0c817-titleDesc"/>
+                </title>
+                <composer xml:id="baudi-02-32d0c817-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist xml:id="baudi-02-32d0c817-lyricist">
+                    <persName>Joseph von Eichendorff</persName>
+                </lyricist>
+                <key pname="d" mode="major"/>
+                <meter count="3" unit="4"/>
+                <tempo>Gemessen, feierlich</tempo>
+                <incip/>
+
+                <perfMedium>
+                    <perfResList auth="choirMen">
+                        <perfRes auth="tenor"/>
+                        <perfRes auth="tenor"/>
+                        <perfRes auth="bass"/>
+                        <perfRes auth="bass"/>
+                    </perfResList>
+                    <annot type="performance"/>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="pr">
+                <identifier type="rism"/>
+                <identifier type="baudi-copy">CMVS-HH-71</identifier>
+            <titleStmt>
+               <title type="uniform" xml:id="baudi-02-32d0c817-title">
+                    <titlePart type="main" xml:id="baudi-02-32d0c817-titleMain">Deutsche Strom-Hymne</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-32d0c817-titleMainSort">Deutsche Strom-Hymne</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-32d0c817-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-32d0c817-titleDesc"/>
+                </title>
+               <composer xml:id="baudi-02-32d0c817-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+               <lyricist xml:id="baudi-02-32d0c817-lyricist">
+                    <persName>Joseph von Eichendorff</persName>
+                </lyricist>
+            </titleStmt>
+                
+                
+                
+                
+                <editionStmt>
+                    <edition>
+                        <title>Deutsche Strom-Hymne</title>
+                        <bibl>
+                            <identifier>H. 3035 H.</identifier>
+                            <publisher>
+                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>Der <corpName>»Harmonie Worms«</corpName> und ihrem Chormeister, <persName role="choirMaster">Herrn Emil Sieh</persName>, aus Anlaß des <date>75jährigen
+                                Vereinsjubiläums</date> gewidmet von ihrem a. o. Mitglied.</dedicatee>
+                        </bibl>
+                    </edition>
+                    
+                </editionStmt>
+                <physDesc>
+                    <titlePage>
+                        <p/>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">170</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    
+                    <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+                    <plateNum n="3035">H. 3035 H.</plateNum>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
+                </physLoc>
+                <creation/>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot type="internal"/>
+                </notesStmt>
+                <classification>
+                    <head/>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-3b914c20"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="1" isodate="2020-07-25" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourcesFromCSV.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv xml:id="baudi-20-602e2c56" label="Deutsche Strom-Hymne"/>
+        </body>
+    </music>
+</mei>

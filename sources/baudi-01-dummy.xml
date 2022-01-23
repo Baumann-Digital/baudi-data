@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
+   xml:id="baudi-01-dummy" status="created">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="uniform" xml:lang="de">
+               <titlePart type="main" xml:lang="de" xml:id="baudi-01-0b7c7fcc-titleUniMainDE"
+                  >Dummy Quelle</titlePart>
+            </title>
+         </titleStmt>
+         <pubStmt>
+            <date n="0" when-iso="2020-11-27"/>
+         </pubStmt>
+         <sourceDesc>
+            <source/>
+         </sourceDesc>
+      </fileDesc>
+      <workList>
+         <work>
+            <title type="uniform" xml:id="baudi-02-0b7c7fcc-title">
+               <titlePart type="main" xml:id="baudi-02-0b7c7fcc-titleMain">Christ-Wiegen-Liedlein</titlePart>
+               <titlePart type="number" auth="opus">87</titlePart>
+               <titlePart type="mainSort" xml:id="baudi-02-0b7c7fcc-titleMainSort">Christ-Wiegen-Liedlein</titlePart>
+               <titlePart type="subordinate" xml:id="baudi-02-0b7c7fcc-titleSub"/>
+               <titlePart type="perfmedium" xml:id="baudi-02-0b7c7fcc-titleDesc"/>
+            </title>
+            <composer xml:id="baudi-02-0b7c7fcc-composer">
+               <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+            </composer>
+            <lyricist xml:id="baudi-02-0b7c7fcc-lyricist">
+               <persName>Alter Text</persName>
+            </lyricist>
+            <key pname="f" mode="major"/>
+            <meter count="6" unit="8"/>
+            <tempo>Ruhig bewegt.</tempo>
+            <incip/>
+            
+            <perfMedium>
+               <perfResList auth="choirMixed">
+                  <perfRes auth="soprano"/>
+                  <perfRes auth="alto"/>
+                  <perfRes auth="tenor"/>
+                  <perfRes auth="bass"/>
+               </perfResList>
+               <annot type="performance"/>
+            </perfMedium>
+            <contents/>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation type="pr">
+            <identifier type="rism">00009999</identifier>
+            <title type="uniform" xml:id="baudi-02-0b7c7fcc-title">
+               <titlePart type="main" xml:id="baudi-02-0b7c7fcc-titleMain">Dummy Titel Dipl.</titlePart>
+               <titlePart type="number" auth="opus">87</titlePart>
+               <titlePart type="mainSort" xml:id="baudi-02-0b7c7fcc-titleMainSort">0000</titlePart>
+               <titlePart type="subordinate" xml:id="baudi-02-0b7c7fcc-titleSub">Dummy Untertitel Dipl.</titlePart>
+            </title>
+            <composer xml:id="baudi-02-0b7c7fcc-composer">
+               <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+            </composer>
+            <lyricist xml:id="baudi-02-0b7c7fcc-lyricist">
+               <persName auth="baudi-04-dummy">Dummy-Dichter</persName>
+            </lyricist>
+            
+            <editionStmt>
+               <edition>
+                  <title>Christ-Wiegen-Liedlein</title>
+                  <bibl>
+                     <identifier>H. 904 H.</identifier>
+                     <publisher>
+                        <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                     </publisher>
+                     <pubPlace>
+                        <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                     </pubPlace>
+                     <date/>
+                     <dedicatee/>
+                  </bibl>
+               </edition>
+               
+            </editionStmt>
+            <physDesc>
+               <titlePage>
+                  <p/>
+               </titlePage>
+               <dimensions label="height" unit="mm">170</dimensions>
+               <dimensions label="width" unit="mm">270</dimensions>
+               <extent label="orientation">portrait</extent>
+               <extent label="folium" unit="folium">2</extent>
+               <extent label="pages" unit="page">2</extent>
+               <extent label="pagination">arabic</extent>
+               <scoreFormat>choir score</scoreFormat>
+               <handList>
+                  <hand/>
+               </handList>
+               <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+               <plateNum n="904">H. 904 H.</plateNum>
+            </physDesc>
+            <physLoc>
+               <repository>
+                  <corpName>Dummy-Archiv</corpName>
+               </repository>
+            </physLoc>
+            <creation/>
+            <history/>
+            <langUsage>
+               <language auth="de"/>
+            </langUsage>
+            <contents/>
+            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+            <notesStmt>
+               <annot type="internal">Fassung für gemischten Chor</annot>
+            </notesStmt>
+            <classification>
+               <head/>
+               <termList>
+                  <term type="source">print</term>
+                  <term type="workGroup">vocal</term>
+                  <term type="genre">choir</term>
+               </termList>
+            </classification>
+            <relationList>
+               <relation rel="isEmbodimentOf" corresp="baudi-02-dummy"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+         <tei:person>
+            <tei:persName/>
+         </tei:person>
+      </extMeta>
+      <revisionDesc>
+         <change n="1" isodate="2020-11-27" label="dried">
+            <changeDesc>
+               <p>File generated</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music>
+      <facsimile/>
+      <body>
+         <mdiv xml:id="baudi-20-dummy" label="Dummy"/>
+      </body>
+   </music>
+</mei>

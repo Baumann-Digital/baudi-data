@@ -1,0 +1,171 @@
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-be10d4f8" status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-be10d4f8-titleUniMainDE">Gretelein</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:id="baudi-02-be10d4f8-title">
+                    <titlePart type="main" xml:id="baudi-02-be10d4f8-titleMain">Gretelein</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-be10d4f8-titleMainSort">Gretelein</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-be10d4f8-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-be10d4f8-titleDesc"/>
+                </title>
+                <composer xml:id="baudi-02-be10d4f8-composer">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist xml:id="baudi-02-be10d4f8-lyricist">
+                    <persName>Otto Hausmann</persName>
+                </lyricist>
+                <key pname="a" accid="f" mode="major"/>
+                <meter count="3" unit="8"/>
+                <tempo>Leicht im Vortrag, aber nicht zu schnell</tempo>
+                <incip/>
+                <perfMedium>
+                    <perfResList auth="choirMixed">
+                        <perfRes auth="soprano" xml:id="baudi-02-be10d4f8-perfRes-0001"/>
+                        <perfRes auth="alto" xml:id="baudi-02-be10d4f8-perfRes-0002"/>
+                        <perfRes auth="tenor" xml:id="baudi-02-be10d4f8-perfRes-0003"/>
+                        <perfRes auth="bass" xml:id="baudi-02-be10d4f8-perfRes-0004"/>
+                    </perfResList>
+                    <annot type="performance"/>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation class="#pr">
+                <identifier type="rism"/>
+                <identifier type="baudi-copy">BLB-SMV-9</identifier>
+                <identifier type="blb">M 311, II, 32</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-be10d4f8-titleMain">Gretelein</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-be10d4f8-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-be10d4f8-composer">
+                        <persName auth="baudi-04-5e3ed698">
+                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-be10d4f8-lyricist">
+                        <persName auth="baudi-04-35c9a190">
+                            <persName>Otto Hausmann</persName>
+                        </persName>
+                    </lyricist>
+                    <respStmt xml:id="baudi-01-be10d4f8-respStmtDed"/>
+                </titleStmt>
+                <editionStmt>
+                    <edition>
+                        <title>Gretelein</title>
+                        <bibl>
+                            <identifier>92</identifier>
+                            <publisher>
+                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee/>
+                        </bibl>
+                    </edition>
+                    <respStmt>
+                        <corpName role="printing">Stich &amp; Druck von Engelmann &amp; Mühlberg, Leipzig</corpName>
+                    </respStmt>
+                </editionStmt>
+                <physDesc>
+                    
+                    <dimensions label="height" unit="mm">170</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    
+                    <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+                    <plateNum n="92">92</plateNum>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName>Badische Landesbibliothek</corpName>
+                    </repository>
+                </physLoc>
+                <creation/>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot type="internal">Titelblatt: Neue Männerchöre</annot>
+                </notesStmt>
+                <classification>
+                    <head/>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-40daa702"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="1" isodate="2020-07-25" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourcesFromCSV.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile label="6146075">
+            
+                
+                
+                
+        <surface xml:id="baudi-01-be10d4f8-surface-0001" n="1" label="1r">
+            <graphic targettype="blb-vlid" target="6231111" xml:id="baudi-01-be10d4f8-00-0001" type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-be10d4f8-surface-0002" n="2" label="1v">
+            <graphic targettype="blb-vlid" target="6231112" xml:id="baudi-01-be10d4f8-00-0002" type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-be10d4f8-surface-0003" n="3" label="2r">
+            <graphic targettype="blb-vlid" target="6231113" xml:id="baudi-01-be10d4f8-00-0003" type="facsimile"/>
+         </surface>
+         <surface xml:id="baudi-01-be10d4f8-surface-0004" n="4" label="2v">
+            <graphic targettype="blb-vlid" target="6231114" xml:id="baudi-01-be10d4f8-00-0004" type="facsimile"/>
+         </surface>
+      </facsimile>
+        <body>
+            <mdiv xml:id="baudi-20-a5369461" label="Gretelein"/>
+        </body>
+    </music>
+</mei>

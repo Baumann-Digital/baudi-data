@@ -1,0 +1,158 @@
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-70d417fa" status="created">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-70d417fa-titleUniMainDE">Wenn weit in den
+                        Landen</titlePart>
+                </title>
+            </titleStmt>
+            <pubStmt>
+                
+            </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:id="baudi-02-70d417fa-title">
+                    <titlePart type="main" xml:id="baudi-02-70d417fa-titleMain">Wenn weit in den Landen</titlePart>
+                    <titlePart type="mainSort" xml:id="baudi-02-70d417fa-titleMainSort">Wenn weit in den Landen</titlePart>
+                    <titlePart type="subordinate" xml:id="baudi-02-70d417fa-titleSub"/>
+                    <titlePart type="perfmedium" xml:id="baudi-02-70d417fa-titleDesc"/>
+                </title>
+                <composer xml:id="baudi-02-70d417fa-composer">Irische Volksweise</composer>
+                <arranger xml:id="baudi-02-70d417fa-arranger">
+                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </arranger>
+                <lyricist xml:id="baudi-02-70d417fa-lyricist">
+                    <persName>unbekannt</persName>
+                </lyricist>
+                <key pname="e" mode="major"/>
+                <meter count="2" unit="4"/>
+                <tempo>Innig</tempo>
+                <incip/>
+                <perfMedium>
+                    <perfResList auth="choirMixed">
+                        <perfRes auth="soprano" xml:id="baudi-02-70d417fa-perfRes-0001"/>
+                        <perfRes auth="alto" xml:id="baudi-02-70d417fa-perfRes-0002"/>
+                        <perfRes auth="tenor" xml:id="baudi-02-70d417fa-perfRes-0003"/>
+                        <perfRes auth="bass" xml:id="baudi-02-70d417fa-perfRes-0004"/>
+                    </perfResList>
+                    <annot type="performance">Kann auch in Es gesungen werden</annot>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation class="#pr">
+                <identifier type="rism"/>
+                <identifier type="baudi-copy">BLB-SMV-5</identifier>
+                <identifier type="blb">M 311, II, 27</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-70d417fa-titleMain">Wenn weit in den Landen</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-70d417fa-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-70d417fa-composer">
+                        <persName auth="baudi-04-5e3ed698">Irische Volksweise</persName>
+                    </composer>
+                    <arranger>
+                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist xml:id="baudi-01-70d417fa-lyricist">
+                        <persName auth="baudi-04-35c9a190">
+                            <persName>unbekannt</persName>
+                        </persName>
+                    </lyricist>
+                    <respStmt xml:id="baudi-01-70d417fa-respStmtDed"/>
+                </titleStmt>
+                <editionStmt>
+                    <edition>
+                        <title>Wenn weit in den Landen</title>
+                        <bibl>
+                            <identifier>F. M. 105 S. M.</identifier>
+                            <publisher>
+                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee/>
+                        </bibl>
+                    </edition>
+                    <respStmt>
+                        <corpName role="printing">Stich &amp; Druck von Engelmann &amp; Mühlberg, Leipzig</corpName>
+                    </respStmt>
+                </editionStmt>
+                <physDesc>
+                    
+                    <dimensions label="height" unit="mm">170</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choir score</scoreFormat>
+                    
+                    <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
+                   						          <locus type="paperNotes">
+                   							              <rend halign="center" valign="bottom"/>
+                   							              <symbol class="suenova-001"/>
+                   						            </locus>
+                   					          </physMedium>-->
+                    <plateNum n="105">F. M. 105 S. M.</plateNum>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName>Badische Landesbibliothek</corpName>
+                    </repository>
+                </physLoc>
+                <creation/>
+                <history/>
+                <langUsage>
+                    <language auth="de"/>
+                </langUsage>
+                <contents/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                   						          <bibl type="announcement"/>
+                   						          <bibl type="notice"/>--></biblList>
+                <notesStmt>
+                    <annot type="perf">Kann auch in Es gesungen werden</annot>
+                    <annot type="internal"/>
+                </notesStmt>
+                <classification>
+                    <head/>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-d9af66c5"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="1" isodate="2020-07-25" resp="dried">
+                <changeDesc>
+                    <p>File generated by generateSourcesFromCSV.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv xml:id="baudi-20-e3d4e3f6" label="Wenn weit in den Landen"/>
+        </body>
+    </music>
+</mei>

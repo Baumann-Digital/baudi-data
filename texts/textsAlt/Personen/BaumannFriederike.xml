@@ -1,0 +1,40 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<listPerson>
+					<person>
+						<persName> <forename>Friederike</forename> <surname type="birth">Wenner</surname> <surname type="married">Ludwig</surname> </persName>
+						<birth when-iso="1835-03-01">01.03.1835 in <settlement>Mühlburg</settlement> </birth>
+						<death/>
+						<faith>rk</faith>
+						<listEvent>
+							<event type="marriage" when-iso="1859-11-15">
+								<head>Heirat</head>
+								<desc>Hochzeit mit <persName ref="#BauDi-Pers-00002">
+									<forename>Ludwig</forename> <surname>Baumann</surname>
+								</persName> in <settlement key="baudi-06-ef212d55">Eggenstein</settlement> </desc>
+							</event>
+						</listEvent>
+						<education/>
+						<sex>W</sex>
+						<nationality>D</nationality>
+					</person>
+				</listPerson>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p>Some text here.</p>
+		</body>
+	</text>
+</TEI>
