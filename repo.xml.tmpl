@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>@project.name@</description>
+    <author>Dennis Ried</author>
+    <website>https://baumann-digital.de</website>
+    <status>dev</status>
+    <license>CC BY 3.0</license>
+    <copyright>true</copyright>
+    <type>library</type>
+    <target>@data.target@</target>
+    <prepare>scripts/pre-install.xql</prepare>
+    <finish>scripts/post-install.xql</finish>
+    <permissions user="@db.user.name@" password="@db.user.password@" group="@db.user.group@" mode="@db.user.permissions@"/>
+</meta>
