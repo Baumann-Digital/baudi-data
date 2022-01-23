@@ -1,0 +1,41 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:mei="http://www.music-encoding.org/ns/mei">
+        <!--         Full text index based on Lucene -->
+        <lucene>
+            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+            <analyzer id="ws" class="org.apache.lucene.analysis.core.WhitespaceAnalyzer"/>
+            <text qname="tei:title" boost="2.0"/>
+            <text qname="@type" analyzer="ws"/>
+            <text qname="@key" analyzer="ws"/>
+            <text qname="mei:persName" boost="2.0"/>
+            <text qname="mei:corpName" boost="2.0"/>
+        </lucene>
+        <!-- Range indexes -->
+        <range>
+            <create qname="mei:work" type="xs:string">
+                <field name="work-id" match="@xml:id" type="xs:string"/>
+            </create>
+            <create qname="mei:title" type="xs:string"/>
+            <create qname="mei:titlePart" type="xs:string">
+                <field name="titlePart-main" match="@type" type="xs:string"/>
+            </create>
+            <create qname="mei:titlePart" type="xs:string">
+                <field name="titlePart-sort" match="@class" type="xs:string"/>
+            </create>
+            <create qname="mei:persName" type="xs:string">
+                <field name="persName-key" match="@key" type="xs:string"/>
+            </create>
+            <create qname="mei:date">
+                <field name="date-type" match="@type" type="xs:string"/>
+                <field name="date-when" match="@when" type="xs:date"/>
+            </create>
+            <create qname="mei:annot">
+                <field name="annot-type" match="@type" type="xs:string"/>
+            </create>
+            <!--            <create qname="@type" type="xs:string"/>-->
+            <create qname="mei:relation" type="xs:string">
+                <field name="relation-target" match="@target" type="xs:string"/>
+            </create>
+        </range>
+    </index>
+</collection>
