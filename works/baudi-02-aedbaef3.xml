@@ -24,13 +24,13 @@
     <perfMedium>
         <perfResList>
             <perfResList type="choose">
-                <perfRes auth="soprano" solo="true">
+                <perfRes solo="true" label="soprano">
                     <ambitus>
                         <ambNote pname="e" accid="f" oct="4" type="lowest"/>
                         <ambNote pname="a" oct="5" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="tenor" solo="true">
+                <perfRes solo="true" label="tenor">
                     <ambitus>
                         <ambNote pname="e" accid="f" oct="3" type="lowest"/>
                         <ambNote pname="a" oct="4" type="highest"/>
@@ -38,25 +38,25 @@
                 </perfRes>
             </perfResList>
             <perfResList auth="choir.men">
-                <perfRes auth="tenor.i">
+                <perfRes label="tenor.i">
                     <ambitus>
                         <ambNote pname="b" oct="2" type="lowest"/>
                         <ambNote pname="a" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="tenor.ii">
+                <perfRes label="tenor.ii">
                     <ambitus>
                         <ambNote pname="b" oct="2" type="lowest"/>
                         <ambNote pname="a" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="bass.i">
+                <perfRes label="bass.i">
                     <ambitus>
                         <ambNote pname="g" accid="s" oct="2" type="lowest"/>
                         <ambNote pname="d" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="bass.ii">
+                <perfRes label="bass.ii">
                     <ambitus>
                         <ambNote pname="e" oct="2" type="lowest"/>
                         <ambNote pname="d" oct="4" type="highest"/>
@@ -65,25 +65,25 @@
             </perfResList>
             <perfResList type="choose">
                 <perfResList auth="choir.children">
-                    <perfRes auth="soprano.i">
+                    <perfRes label="soprano.i">
                         <ambitus>
                             <ambNote pname="a" accid="f" oct="4" type="lowest"/>
                             <ambNote pname="g" accid="f" oct="5" type="highest"/>
                         </ambitus>
                     </perfRes>
-                    <perfRes auth="soprano.ii">
+                    <perfRes label="soprano.ii">
                         <ambitus>
                             <ambNote pname="f" oct="4" type="lowest"/>
                             <ambNote pname="f" accid="f" oct="5" type="highest"/>
                         </ambitus>
                     </perfRes>
-                    <perfRes auth="alto.i">
+                    <perfRes label="alto.i">
                         <ambitus>
                             <ambNote pname="d" accid="f" oct="4" type="lowest"/>
                             <ambNote pname="c" oct="5" type="highest"/>
                         </ambitus>
                     </perfRes>
-                    <perfRes auth="alto.ii">
+                    <perfRes label="alto.ii">
                         <ambitus>
                             <ambNote pname="a" accid="f" oct="3" type="lowest"/>
                             <ambNote pname="a" oct="4" type="highest"/>
@@ -91,25 +91,25 @@
                     </perfRes>
                 </perfResList>
                 <perfResList auth="choir.women">
-                    <perfRes auth="soprano.i">
+                    <perfRes label="soprano.i">
                         <ambitus>
                             <ambNote pname="a" accid="f" oct="4" type="lowest"/>
                             <ambNote pname="g" accid="f" oct="5" type="highest"/>
                         </ambitus>
                     </perfRes>
-                    <perfRes auth="soprano.ii">
+                    <perfRes label="soprano.ii">
                         <ambitus>
                             <ambNote pname="f" oct="4" type="lowest"/>
                             <ambNote pname="f" accid="f" oct="5" type="highest"/>
                         </ambitus>
                     </perfRes>
-                    <perfRes auth="alto.i">
+                    <perfRes label="alto.i">
                         <ambitus>
                             <ambNote pname="d" accid="f" oct="4" type="lowest"/>
                             <ambNote pname="c" oct="5" type="highest"/>
                         </ambitus>
                     </perfRes>
-                    <perfRes auth="alto.ii">
+                    <perfRes label="alto.ii">
                         <ambitus>
                             <ambNote pname="a" accid="f" oct="3" type="lowest"/>
                             <ambNote pname="a" oct="4" type="highest"/>
@@ -117,84 +117,84 @@
                     </perfRes>
                 </perfResList>
             </perfResList>
-            <perfRes auth="choir.mixed">
-                <perfRes auth="soprano.i">
+            <perfRes label="choir.mixed">
+                <perfRes label="soprano.i">
                     <ambitus>
                         <ambNote pname="c" oct="4" type="lowest"/>
                         <ambNote pname="e" oct="5" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="soprano.ii">
+                <perfRes label="soprano.ii">
                     <ambitus>
                         <ambNote pname="c" oct="4" type="lowest"/>
                         <ambNote pname="c" oct="5" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="alto.i">
+                <perfRes label="alto.i">
                     <ambitus>
                         <ambNote pname="c" oct="4" type="lowest"/>
                         <ambNote pname="c" oct="5" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="alto.ii">
+                <perfRes label="alto.ii">
                     <ambitus>
                         <ambNote pname="c" accid="f" oct="3" type="lowest"/>
                         <ambNote pname="c" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="tenor.i">
+                <perfRes label="tenor.i">
                     <ambitus>
                         <ambNote pname="c" oct="3" type="lowest"/>
                         <ambNote pname="e" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="tenor.ii">
+                <perfRes label="tenor.ii">
                     <ambitus>
                         <ambNote pname="c" oct="3" type="lowest"/>
                         <ambNote pname="c" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="bass.i">
+                <perfRes label="bass.i">
                     <ambitus>
                         <ambNote pname="c" oct="3" type="lowest"/>
                         <ambNote pname="c" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
-                <perfRes auth="bass.ii">
+                <perfRes label="bass.ii">
                     <ambitus>
                         <ambNote pname="c" oct="3" type="lowest"/>
                         <ambNote pname="c" oct="4" type="highest"/>
                     </ambitus>
                 </perfRes>
             </perfRes>
-            <perfResList auth="orchestra">
-                <perfRes auth="flute.i"/>
-                <perfRes auth="flute.ii"/>
-                <perfRes auth="oboe.i"/>
-                <perfRes auth="oboe.ii"/>
-                <perfRes auth="clarinet.i"/>
-                <perfRes auth="clarinet.ii"/>
-                <perfRes auth="bassoon.i"/>
-                <perfRes auth="bassoon.ii"/>
-                <perfRes auth="horn.french.i"/>
-                <perfRes auth="horn.french.ii"/>
-                <perfRes auth="horn.french.iii"/>
-                <perfRes auth="horn.french.iv"/>
-                <perfRes auth="trumpet.i"/>
-                <perfRes auth="trumpet.ii"/>
-                <perfRes auth="trombone.i"/>
-                <perfRes auth="trombone.ii"/>
-                <perfRes auth="trombone.iii"/>
-                <perfRes auth="tuba"/>
-                <perfRes auth="timpani"/>
-                <perfRes auth="turbularBells" adLib="true">Röhrenglocken</perfRes>
-                <perfRes auth="violin.i"/>
-                <perfRes auth="violin.ii"/>
-                <perfRes auth="viola"/>
-                <perfRes auth="violoncello"/>
-                <perfRes auth="doubleBass"/>
+            <perfResList label="orchestra">
+                <perfRes label="flute.i"/>
+                <perfRes label="flute.ii"/>
+                <perfRes label="oboe.i"/>
+                <perfRes label="oboe.ii"/>
+                <perfRes label="clarinet.i"/>
+                <perfRes label="clarinet.ii"/>
+                <perfRes label="bassoon.i"/>
+                <perfRes label="bassoon.ii"/>
+                <perfRes label="horn.french.i"/>
+                <perfRes label="horn.french.ii"/>
+                <perfRes label="horn.french.iii"/>
+                <perfRes label="horn.french.iv"/>
+                <perfRes label="trumpet.i"/>
+                <perfRes label="trumpet.ii"/>
+                <perfRes label="trombone.i"/>
+                <perfRes label="trombone.ii"/>
+                <perfRes label="trombone.iii"/>
+                <perfRes label="tuba"/>
+                <perfRes label="timpani"/>
+                <perfRes adLib="true" label="bells">Glocken</perfRes>
+                <perfRes label="violin.i"/>
+                <perfRes label="violin.ii"/>
+                <perfRes label="viola"/>
+                <perfRes label="violoncello"/>
+                <perfRes label="doubleBass"/>
             </perfResList>
-            <perfRes auth="organ" adLib="true">Orgel</perfRes>
+            <perfRes adLib="true" label="organ">Orgel</perfRes>
         </perfResList>
     </perfMedium>
     <audience>Uraufführung beim Gau-Sängerfest in Karlsruhe (Festhalle) ???</audience>
