@@ -76,13 +76,13 @@
     
     <!-- Deploy directly to localhost -->
     <target name="deploy" depends="clean, data-package">
-        <path id="classpath.eXist5">
-            <fileset dir="${exist5.libs}" erroronmissingdir="no">
+        <path id="classpath.eXist">
+            <fileset dir="${exist.libs}" erroronmissingdir="no">
                 <include name="*.jar"/>
             </fileset>
         </path>
         <typedef resource="org/exist/ant/antlib.xml" uri="http://exist-db.org/ant">
-            <classpath refid="classpath.eXist5"/>
+            <classpath refid="classpath.eXist"/>
         </typedef>
         
         <!-- store xar-file in eXist-db -->
