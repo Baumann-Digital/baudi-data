@@ -11,139 +11,159 @@
             <navigatorDefinition>
                 <navigatorCategory xml:id="navCategory-0" sortNo="1">
                     <names>
-                        <name>Zum Online-Portal</name>
+                        <name>Werkkontext</name>
                     </names>
-                    <navigatorItem xml:id="navItem-0-0" sortNo="1" targets="/exist/apps/baudiApp/index.html">
+                    <navigatorItem xml:id="navItem-0-2" sortNo="1" targets="xmldb:exist:///db/apps/baudiApp/index.html">
                         <names>
-                            <name>Leben, Werk und Wirken</name>
+                            <name>Besetzung</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem xml:id="navItem-0-3" sortNo="2" targets="http://baumann-digital.de/index.html">
+                        <names>
+                            <name>Gesangstexte</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem xml:id="navItem-0-1" sortNo="3" targets="http://baumann-digital.de/index.html">
+                        <names>
+                            <name>Uraufführung</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem xml:id="navItem-0-4" sortNo="4" targets="http://baumann-digital.de/index.html">
+                        <names>
+                            <name>Werkeinführung</name>
                         </names>
                     </navigatorItem>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-1" sortNo="2">
+                <navigatorSeparator sortNo="2"/>
+                <navigatorCategory xml:id="navCategory-1" sortNo="3">
                     <names>
-                        <name>Werk</name>
+                        <name>Edition</name>
                     </names>
                     <navigatorItem xml:id="navItem-1-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml[width:900]">
                         <names>
                             <name>Kritischer Bericht</name>
                         </names>
                     </navigatorItem>
+                    <navigatorItem xml:id="navItem-1-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-855dce96.xml">
+                        <names>
+                            <name>Partitur</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorItem xml:id="navItem-1-3" sortNo="3" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-noFile.xml">
+                        <names>
+                            <name>Klavierauszug</name>
+                        </names>
+                    </navigatorItem>
+                    <navigatorCategory xml:id="navCategory-1-4" sortNo="4">
+                        <names>
+                            <name>Bearbeitungen</name>
+                        </names>
+                        <navigatorItem xml:id="navItem-1-4-1" sortNo="5" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-noFile.xml">
+                            <names>
+                                <name>Harmonium-Stimme</name>
+                            </names>
+                        </navigatorItem>
+                        <navigatorItem xml:id="navItem-1-4-2" sortNo="6" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-noFile.xml">
+                            <names>
+                                <name>Violin-Stimme</name>
+                            </names>
+                        </navigatorItem>
+                    </navigatorCategory>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-2" sortNo="3">
+                <navigatorSeparator sortNo="4"/>
+                <navigatorCategory xml:id="navCategory-2" sortNo="5">
                     <names>
-                        <name>Handschriftliche Quellen</name>
+                        <name>Handschriften &amp; Drucke mit Eintragungen</name>
                     </names>
                     <navigatorCategory xml:id="navCategory-2-1" sortNo="1">
                         <names>
-                            <name>Partituren &amp; Auszüge</name>
+                            <name>Partituren</name>
                         </names>
                         <navigatorItem xml:id="navItem-2-1-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-7e635bf0.xml">
                             <names>
-                                <name>Vorspiel (A<sup xmlns="http://www.w3.org/1999/xhtml">P1</sup>)</name>
+                                <name>Vorspiel | A<sup xmlns="http://www.w3.org/1999/xhtml">P1</sup></name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-2-1-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-fa0912b9.xml">
                             <names>
-                                <name>Erstschrift [I, II} | Entwurf [IX] (A<sup xmlns="http://www.w3.org/1999/xhtml">P2</sup>)</name>
+                                <name>Erstschrift (I, II)/Entwurf (IX) | A<sup xmlns="http://www.w3.org/1999/xhtml">P2</sup></name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-2-1-3" sortNo="3" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-ec7e5c36.xml">
                             <names>
-                                <name>Stichvorlage (A<sup xmlns="http://www.w3.org/1999/xhtml">P3</sup>)</name>
+                                <name>Stichvorlage | A<sup xmlns="http://www.w3.org/1999/xhtml">P3</sup></name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-2-1-4" sortNo="4" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-3dc71f3f.xml">
                             <names>
-                                <name>Klavierauszug mit Eintragungen (ED<sup xmlns="http://www.w3.org/1999/xhtml">KA1</sup>)</name>
+                                <name>Klavierauszug (Handex.) | ED<sup xmlns="http://www.w3.org/1999/xhtml">KA1</sup></name>
                             </names>
                         </navigatorItem>
                     </navigatorCategory>
                     <navigatorCategory xml:id="navCategory-2-2" sortNo="2">
                         <names>
-                            <name>Stimmenmaterial</name>
+                            <name>Stimmen</name>
                         </names>
                         <navigatorItem xml:id="navItem-2-2-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-5f9f9f33.xml">
                             <names>
-                                <name>Violine (A<sup xmlns="http://www.w3.org/1999/xhtml">St-Vl</sup>)</name>
+                                <name>Violine | A<sup xmlns="http://www.w3.org/1999/xhtml">St-Vl</sup></name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-2-2-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-58dcf426.xml">
                             <names>
-                                <name>Orchester (A<sup xmlns="http://www.w3.org/1999/xhtml">St-Orch</sup>)</name>
+                                <name>Orchester | A<sup xmlns="http://www.w3.org/1999/xhtml">St-Orch</sup></name>
                             </names>
                         </navigatorItem>
                     </navigatorCategory>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-3" sortNo="4">
+                <navigatorSeparator sortNo="6"/>
+                <navigatorCategory xml:id="navCategory-3" sortNo="7">
                     <names>
-                        <name>Gedruckte Quellen</name>
+                        <name>Drucke</name>
                     </names>
                     <navigatorCategory xml:id="navCategory-3-2" sortNo="1">
                         <names>
-                            <name>Partitur &amp; Auszug</name>
+                            <name>Partituren</name>
                         </names>
                         <navigatorItem xml:id="navItem-3-2-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-14ce8c30.xml">
                             <names>
-                                <name>Partitur ED<sup xmlns="http://www.w3.org/1999/xhtml">P</sup></name>
+                                <name>Partitur | ED<sup xmlns="http://www.w3.org/1999/xhtml">P</sup>
+                                </name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-3-2-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-bdfac5dd.xml">
                             <names>
-                                <name>Klavierauszug (ED<sup xmlns="http://www.w3.org/1999/xhtml">KA2</sup>)</name>
+                                <name>Klavierauszug | ED<sup xmlns="http://www.w3.org/1999/xhtml">KA2</sup></name>
                             </names>
                         </navigatorItem>
                     </navigatorCategory>
                     <navigatorCategory xml:id="navCategory-3-3" sortNo="2">
                         <names>
-                            <name>Stimmenmaterial</name>
+                            <name>Stimmen</name>
                         </names>
                         <navigatorItem xml:id="navItem-3-3-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-8a00c113.xml">
                             <names>
-                                <name>Orchester (ED<sup xmlns="http://www.w3.org/1999/xhtml">St-Orch</sup>)</name>
+                                <name>Orchester | ED<sup xmlns="http://www.w3.org/1999/xhtml">St-Orch</sup></name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-3-3-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-26450dda.xml">
                             <names>
-                                <name>Männerchor (ED<sup xmlns="http://www.w3.org/1999/xhtml">St-TTBB</sup>)</name>
+                                <name>Männerchor | ED<sup xmlns="http://www.w3.org/1999/xhtml">St-TTBB</sup></name>
                             </names>
                         </navigatorItem>
                         <navigatorItem xml:id="navItem-3-3-3" sortNo="3" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-9d4b9769.xml">
                             <names>
-                                <name>Frauenchor (ED<sup xmlns="http://www.w3.org/1999/xhtml">St-SSAA</sup>)</name>
+                                <name>Frauenchor | ED<sup xmlns="http://www.w3.org/1999/xhtml">St-SSAA</sup></name>
                             </names>
                         </navigatorItem>
                     </navigatorCategory>
                 </navigatorCategory>
-                <navigatorCategory xml:id="navCategory-4" sortNo="5">
+                <navigatorSeparator sortNo="8"/>
+                <navigatorItem xml:id="navItem-4" sortNo="9" targets="http://baumann-digital.de/index.html">
                     <names>
-                        <name>Editionen</name>
+                        <name>Zum Online-Portal</name>
                     </names>
-                    <navigatorItem xml:id="navItem-4-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-855dce96.xml">
-                        <names>
-                            <name>Partitur</name>
-                        </names>
-                    </navigatorItem>
-                    <navigatorItem xml:id="navItem-4-2" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-noFile.xml">
-                        <names>
-                            <name>Klavierauszug</name>
-                        </names>
-                    </navigatorItem>
-                    <navigatorCategory xml:id="navCategory-4-3" sortNo="1">
-                        <names>
-                            <name>Autorisierte Bearbeitungen</name>
-                        </names>
-                       <navigatorItem xml:id="navItem-4-3-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-noFile.xml">
-                           <names>
-                               <name>Harmonium-Stimme</name>
-                           </names>
-                       </navigatorItem>
-                        <navigatorItem xml:id="navItem-4-3-2" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-noFile.xml">
-                           <names>
-                               <name>Violin-Stimme</name>
-                           </names>
-                       </navigatorItem>
-                    </navigatorCategory>
-                </navigatorCategory>
+                </navigatorItem>
             </navigatorDefinition>
             <searchWindowConfig/>
             <concordances>
