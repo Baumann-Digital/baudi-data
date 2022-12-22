@@ -1,6 +1,4 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-26450dda" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-26450dda" meiversion="5.0.0-dev">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -1106,7 +1104,7 @@
                             <annot type="performer">Textänderung, VII, T. 66 Zz. 4: »Der <handShift medium="pencil"/><subst><del>Hirt</del><add place="below">Herr</add></subst> ist mein Hirte« <locus class="#C">2r</locus></annot>
                             <annot type="performer">Markierung, VII, Titel: »<handShift medium="pencil"/><add place="end">X</add>« <locus class="#C">1v</locus></annot>
                             <annot type="performer">Markierung, VII, T. 50 auf 51, über dem Taktstrich: »<handShift medium="pencil"/><add>X</add>« <locus class="#C">1v</locus></annot>
-                            <annot type="performer">Markierung, VII, T. 79 Zz. 1: »<handShift medium="pencil"/><add place="above">+</add>« <locus class="#C" >2r</locus></annot>
+                            <annot type="performer">Markierung, VII, T. 79 Zz. 1: »<handShift medium="pencil"/><add place="above">+</add>« <locus class="#C">2r</locus></annot>
                             <annot type="performer">Notentextänderung, T. 95–96, <handShift medium="pencil"/><add><note type="add" pname="a" oct="4" dur="2" dots="2"/><note type="add" pname="d" oct="4" dur="8"/><note type="add" pname="d" oct="4" dur="2"/></add></annot>
                             <annot type="facsimile" plist="4822922 4822923 4822924 4822925" xml:base="https://digital.blb-karlsruhe.de/blbihd/content/zoom/">Faksimile des Exemplars (BLB)</annot>
                         </notesStmt>
@@ -1593,13 +1591,13 @@
     <music>
         <facsimile>
             <surface xml:id="baudi-21-0ba3e4a8" n="1" ulx="0" uly="0" lrx="2196" lry="2659">
-                <graphic xml:id="graphic_b4f1b08a-b27a-4529-bef2-d17e2ddeab8c" target="baudi-01-26450dda/M_302_KLAV_0034.jpg" type="facsimile" width="2196" height="2659" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822543"/>
+                <graphic xml:id="graphic_b4f1b08a-b27a-4529-bef2-d17e2ddeab8c" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822543" type="facsimile" width="2196" height="2659"/>
             </surface>
             <surface xml:id="baudi-21-3d5734c0" n="2" ulx="0" uly="0" lrx="2196" lry="2659">
-                <graphic xml:id="graphic_cab1a384-05c5-4ba1-90ed-2123c15ba8ca" target="baudi-01-26450dda/M_302_KLAV_0035.jpg" type="facsimile" width="2196" height="2659" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822544"/>
+                <graphic xml:id="graphic_cab1a384-05c5-4ba1-90ed-2123c15ba8ca" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822544" type="facsimile" width="2196" height="2659"/>
             </surface>
             <surface xml:id="baudi-21-35bd3d96" n="3" ulx="0" uly="0" lrx="2196" lry="2659">
-                <graphic xml:id="graphic_c99a103f-23e3-4951-ab4a-f0d6d05d3f1d" target="baudi-01-26450dda/M_302_KLAV_0036.jpg" type="facsimile" width="2196" height="2659" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822546"/>
+                <graphic xml:id="graphic_c99a103f-23e3-4951-ab4a-f0d6d05d3f1d" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822546" type="facsimile" width="2196" height="2659"/>
                 <zone xml:id="zone_d155158c-07a2-4649-8667-61151b014789" type="measure" ulx="560" uly="724" lrx="980" lry="920"/>
                 <zone xml:id="zone_e131e44f-c4f3-4ed3-9dbd-7457ffae9ef7" type="measure" ulx="940" uly="724" lrx="1164" lry="920"/>
                 <zone xml:id="zone_a9a390b8-30aa-4dda-9f87-275d43092b13" type="measure" ulx="1124" uly="724" lrx="1312" lry="920"/>
@@ -1638,7 +1636,7 @@
                 <zone xml:id="zone_c9755076-b966-4152-89fa-38048a881a01" type="measure" ulx="1416" uly="1980" lrx="1662" lry="2176"/>
             </surface>
             <surface xml:id="baudi-21-a8063065" n="4" ulx="0" uly="0" lrx="2196" lry="2655">
-                <graphic xml:id="graphic_d23cc134-720b-4076-b16f-dce7484dd185" target="baudi-01-26450dda/M_302_KLAV_0037.jpg" type="facsimile" width="2196" height="2655" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822547"/>
+                <graphic xml:id="graphic_d23cc134-720b-4076-b16f-dce7484dd185" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822547" type="facsimile" width="2196" height="2655"/>
                 <zone xml:id="zone_314889c9-9f47-41b0-b4ff-3eca370ece15" type="measure" ulx="832" uly="450" lrx="1198" lry="646"/>
                 <zone xml:id="zone_283f653c-fe7f-41a7-8074-789bef2e10ac" type="measure" ulx="1158" uly="450" lrx="1428" lry="646"/>
                 <zone xml:id="zone_96bbc211-cccf-457e-823b-c1b8e2085830" type="measure" ulx="1388" uly="450" lrx="1666" lry="646"/>
@@ -1690,7 +1688,7 @@
                 <zone xml:id="zone_19b2bede-cac2-4731-845c-7dac594f2822" type="measure" ulx="1836" uly="2032" lrx="2006" lry="2200"/>
             </surface>
             <surface xml:id="baudi-21-e7282edc" n="5" ulx="0" uly="0" lrx="2196" lry="2659">
-                <graphic xml:id="graphic_fe281a86-1426-42b2-a2b5-8e08fb16793f" target="baudi-01-26450dda/M_302_KLAV_0038.jpg" type="facsimile" width="2196" height="2659" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822548"/>
+                <graphic xml:id="graphic_fe281a86-1426-42b2-a2b5-8e08fb16793f" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822548" type="facsimile" width="2196" height="2659"/>
                 <zone xml:id="zone_c7abb712-d3f1-4ce5-a7f3-79c6190cef3d" type="measure" ulx="150" uly="472" lrx="440" lry="634"/>
                 <zone xml:id="zone_2c84fcd0-7b72-45db-8033-15f5d20c046f" type="measure" ulx="400" uly="472" lrx="540" lry="634"/>
                 <zone xml:id="zone_fe629406-8e62-42fd-883a-bff0d7241861" type="measure" ulx="500" uly="472" lrx="644" lry="634"/>
@@ -1754,16 +1752,16 @@
                 <zone xml:id="zone_ccc5307c-b7a1-4704-a77c-9fcec204d949" type="measure" ulx="1030" uly="2032" lrx="1312" lry="2206"/>
             </surface>
             <surface xml:id="baudi-21-6f78c67d" n="6" ulx="0" uly="0" lrx="2196" lry="2655">
-                <graphic xml:id="graphic_0badc80e-65dd-40f6-932d-c815f321fe3b" target="baudi-01-26450dda/M_302_KLAV_0039.jpg" type="facsimile" width="2196" height="2655" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822549"/>
+                <graphic xml:id="graphic_0badc80e-65dd-40f6-932d-c815f321fe3b" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822549" type="facsimile" width="2196" height="2655"/>
             </surface>
             <surface xml:id="baudi-21-b5be6772" n="7" ulx="0" uly="0" lrx="2196" lry="2647">
-                <graphic xml:id="graphic_2cbb1a02-0db0-424e-808f-b7671f1956d8" target="baudi-01-26450dda/M_302_KLAV_0258.jpg" type="facsimile" width="2196" height="2647" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822824"/>
+                <graphic xml:id="graphic_2cbb1a02-0db0-424e-808f-b7671f1956d8" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822824" type="facsimile" width="2196" height="2647"/>
             </surface>
             <surface xml:id="baudi-21-444cebd5" n="8" ulx="0" uly="0" lrx="2196" lry="2648">
-                <graphic xml:id="graphic_60dfed77-83bf-47e1-ad15-23d81d63997d" target="baudi-01-26450dda/M_302_KLAV_0259.jpg" type="facsimile" width="2196" height="2648" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822825"/>
+                <graphic xml:id="graphic_60dfed77-83bf-47e1-ad15-23d81d63997d" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822825" type="facsimile" width="2196" height="2648"/>
             </surface>
             <surface xml:id="baudi-21-75e60bac" n="9" ulx="0" uly="0" lrx="2196" lry="2647">
-                <graphic xml:id="graphic_e2b53014-3426-47c9-9e0a-7e0882ceda23" target="baudi-01-26450dda/M_302_KLAV_0260.jpg" type="facsimile" width="2196" height="2647" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822827"/>
+                <graphic xml:id="graphic_e2b53014-3426-47c9-9e0a-7e0882ceda23" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822827" type="facsimile" width="2196" height="2647"/>
                 <zone xml:id="zone_f2446fec-88a3-4a9c-b7d3-24146675032d" type="measure" ulx="569" uly="684" lrx="986" lry="868"/>
                 <zone xml:id="zone_520e2a21-9350-415f-8c9d-f82d10fd5d94" type="measure" ulx="926" uly="684" lrx="1169" lry="868"/>
                 <zone xml:id="zone_ceafce73-d09b-4e40-900a-262848bcf998" type="measure" ulx="1109" uly="684" lrx="1309" lry="868"/>
@@ -1802,7 +1800,7 @@
                 <zone xml:id="zone_c73d28e2-ba55-4973-bffd-a95e60a36178" type="measure" ulx="1403" uly="1978" lrx="1677" lry="2144"/>
             </surface>
             <surface xml:id="baudi-21-951883a1" n="10" ulx="0" uly="0" lrx="2196" lry="2643">
-                <graphic xml:id="graphic_720f733a-ae09-4b09-94c4-c3b510f75ae1" target="baudi-01-26450dda/M_302_KLAV_0261.jpg" type="facsimile" width="2196" height="2643" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822828"/>
+                <graphic xml:id="graphic_720f733a-ae09-4b09-94c4-c3b510f75ae1" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822828" type="facsimile" width="2196" height="2643"/>
                 <zone xml:id="zone_11e23eab-9094-40ca-94ac-425b75ddd5e4" type="measure" ulx="860" uly="434" lrx="1218" lry="605"/>
                 <zone xml:id="zone_5ada97b3-0f40-417f-b819-59d35d6a602d" type="measure" ulx="1158" uly="434" lrx="1444" lry="605"/>
                 <zone xml:id="zone_74b67c3c-a855-4d99-a624-7226990b697e" type="measure" ulx="1384" uly="434" lrx="1680" lry="605"/>
@@ -1852,7 +1850,7 @@
                 <zone xml:id="zone_d3cc4b92-9b1e-4886-a25b-fd181e434f3e" type="measure" ulx="1674" uly="2005" lrx="2015" lry="2183"/>
             </surface>
             <surface xml:id="baudi-21-09e8698c" n="11" ulx="0" uly="0" lrx="2196" lry="2647">
-                <graphic xml:id="graphic_4763d5c9-e5f6-4b60-95d9-98f63a0b0e4c" target="baudi-01-26450dda/M_302_KLAV_0262.jpg" type="facsimile" width="2196" height="2647" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822829"/>
+                <graphic xml:id="graphic_4763d5c9-e5f6-4b60-95d9-98f63a0b0e4c" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822829" type="facsimile" width="2196" height="2647"/>
                 <zone xml:id="zone_154d7238-c77d-4212-abf8-46bd32375e83" type="measure" ulx="162" uly="427" lrx="580" lry="605"/>
                 <zone xml:id="zone_a49ff4dd-f85f-49ea-bd53-cd4b3779786e" type="measure" ulx="520" uly="427" lrx="780" lry="605"/>
                 <zone xml:id="zone_0dc76cc3-1218-436f-b04b-c54a3c4b46a2" type="measure" ulx="720" uly="427" lrx="926" lry="605"/>
@@ -1914,13 +1912,13 @@
                 <zone xml:id="zone_f5aa5a35-3c89-4f08-be16-6c81ef4fbd7b" type="measure" ulx="1031" uly="2001" lrx="1329" lry="2174"/>
             </surface>
             <surface xml:id="baudi-21-8d18bd99" n="12" ulx="0" uly="0" lrx="2196" lry="2643">
-                <graphic xml:id="graphic_cb1a024f-5878-4314-882d-39abc5e72457" target="baudi-01-26450dda/M_302_KLAV_0263.jpg" type="facsimile" width="2196" height="2643" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822830"/>
+                <graphic xml:id="graphic_cb1a024f-5878-4314-882d-39abc5e72457" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4822830" type="facsimile" width="2196" height="2643"/>
             </surface>
             <surface xml:id="baudi-21-9544f880" n="13" ulx="0" uly="0" lrx="2184" lry="2632">
-                <graphic xml:id="graphic_5b5a9865-dd15-4ddd-9377-bf4913f5981e" target="baudi-01-26450dda/M_302_KLAV_0480.jpg" type="facsimile" width="2184" height="2632" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4823103"/>
+                <graphic xml:id="graphic_5b5a9865-dd15-4ddd-9377-bf4913f5981e" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4823103" type="facsimile" width="2184" height="2632"/>
             </surface>
             <surface xml:id="baudi-21-3edc9528" n="14" ulx="0" uly="0" lrx="2172" lry="2632">
-                <graphic xml:id="graphic_844d3019-7837-4e33-81d5-84eb1c0555c2" target="baudi-01-26450dda/M_302_KLAV_0481.jpg" type="facsimile" width="2172" height="2632" xml:base="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4823104"/>
+                <graphic xml:id="graphic_844d3019-7837-4e33-81d5-84eb1c0555c2" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4823104" type="facsimile" width="2172" height="2632"/>
             </surface>
         </facsimile>
         <body>
