@@ -1,7 +1,7 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-bdfac5dd"
-  meiversion="4.0.1" status="created">
+  meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -97,13 +97,6 @@
           </repository>
         </physLoc>
         <creation>Dieses Exemplar wurde 1928 auf Grundlage von Baumanns Stichvorlage erstellt. die Stichvorlage des Klavierauszugs ist in die Stichvorlage der Orchesterpartitur integriert.</creation>
-        <history>
-          <p>Drucktechnisch ist das vorliegende Exemplar identisch mit dem <title auth="baudi-01-bdfac5dd">Erstdruck des Klavierauszugs</title>. Die Eintragungen in der Handschrift des Komponisten deuteten darauf hin, dass es sich hier um das Handexemplar
-            Baumanns handelt. Der Komponist muss dieses Exemplar vor der Uraufführung erhalten haben, da die Einklebungen nahelegen, dass es bei der Uraufführung verwendet wurde. Von wann die autographen Eintragungen stammen (Ur- oder spätere Aufführung) ist
-            nicht mit Sicherheit zu bestimmen.</p>
-          <provenance>Seit 1928 (Veröffentlichungsjahr), im Besitz von Ludwig Baumann. Nach Baumanns Tod ging es in den Besitz der Nachkommen über. Schließlich wurde das Exemplar als Teil des musikalischen Nachlasses Baumanns an die Badische Landesbibliothek
-            übergeben.</provenance>
-        </history>
         <langUsage>
           <language codedval="de"/>
         </langUsage>
@@ -117,6 +110,17 @@
             <term type="genre">cantata</term>
           </termList>
         </classification>
+        <itemList>
+        <item>
+          <history>
+            <p>Drucktechnisch ist das vorliegende Exemplar identisch mit dem <title auth="baudi-01-bdfac5dd">Erstdruck des Klavierauszugs</title>. Die Eintragungen in der Handschrift des Komponisten deuteten darauf hin, dass es sich hier um das Handexemplar
+              Baumanns handelt. Der Komponist muss dieses Exemplar vor der Uraufführung erhalten haben, da die Einklebungen nahelegen, dass es bei der Uraufführung verwendet wurde. Von wann die autographen Eintragungen stammen (Ur- oder spätere Aufführung) ist
+              nicht mit Sicherheit zu bestimmen.</p>
+            <provenance>Seit 1928 (Veröffentlichungsjahr), im Besitz von Ludwig Baumann. Nach Baumanns Tod ging es in den Besitz der Nachkommen über. Schließlich wurde das Exemplar als Teil des musikalischen Nachlasses Baumanns an die Badische Landesbibliothek
+              übergeben.</provenance>
+          </history>
+        </item>
+        </itemList>
         <relationList>
           <relation rel="isEmbodimentOf" corresp="baudi-02-aedbaef3"/>
           <relation rel="isEmbodimentOf" corresp="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp1" type="edirom"/>

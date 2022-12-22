@@ -1,6 +1,6 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-14ce8c30" meiversion="4.0.0" status="created">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-14ce8c30" meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -26,30 +26,30 @@
         <incip> </incip>
         <perfMedium>
           <perfResList>
-            <perfRes label="Violine 1"/>
-            <perfRes label="Violine 2"/>
-            <perfRes label="Viola"/>
-            <perfRes label="Violoncello"/>
-            <perfRes label="Kontrabass"/>
-            <perfRes label="Flöte 1"/>
-            <perfRes label="Flöte 2"/>
-            <perfRes label="Oboe 1"/>
-            <perfRes label="Oboe 2"/>
-            <perfRes label="Klarinette 1"/>
-            <perfRes label="Klarinette 2"/>
-            <perfRes label="Fagott 1"/>
-            <perfRes label="Fagott 2"/>
-            <perfRes label="Horn 1 in F"/>
-            <perfRes label="Horn 2 in F"/>
-            <perfRes label="Horn 3 in F"/>
-            <perfRes label="Horn 4 in F"/>
-            <perfRes label="Trompete 1 in B"/>
-            <perfRes label="Trompete 2 in B"/>
-            <perfRes label="Posaune 1"/>
-            <perfRes label="Posaune 2"/>
-            <perfRes label="Posaune 3"/>
-            <perfRes label="Tuba"/>
-            <perfRes label="Pauken"/>
+            <perfRes label="violin.i" xml:id="part_01"/>
+            <perfRes label="violin.ii" xml:id="part_02"/>
+            <perfRes label="vila" xml:id="part_03"/>
+            <perfRes label="violoncello" xml:id="part_04"/>
+            <perfRes label="doubleBass" xml:id="part_05"/>
+            <perfRes label="flute.i" xml:id="part_06"/>
+            <perfRes label="flute.ii" xml:id="part_07"/>
+            <perfRes label="oboe.i" xml:id="part_08"/>
+            <perfRes label="oboe.ii" xml:id="part_09"/>
+            <perfRes label="clarinet.i" xml:id="part_10"/>
+            <perfRes label="clarinet.ii" xml:id="part_11"/>
+            <perfRes label="bassoon.i" xml:id="part_12"/>
+            <perfRes label="bassoon.ii" xml:id="part_13"/>
+            <perfRes label="hornFrench.i" xml:id="part_14"/>
+            <perfRes label="hornFrench.ii" xml:id="part_15"/>
+            <perfRes label="hornFrench.iii" xml:id="part_16"/>
+            <perfRes label="hornFrench.iv" xml:id="part_17"/>
+            <perfRes label="trumpet.i" xml:id="part_18"/>
+            <perfRes label="trumpet.ii" xml:id="part_19"/>
+            <perfRes label="trombone.i" xml:id="part_20"/>
+            <perfRes label="trombone.ii" xml:id="part_21"/>
+            <perfRes label="trombone.iii" xml:id="part_22"/>
+            <perfRes label="tuba" xml:id="part_23"/>
+            <perfRes label="timpani" xml:id="part_24"/>
           </perfResList>
         </perfMedium>
         <contents>

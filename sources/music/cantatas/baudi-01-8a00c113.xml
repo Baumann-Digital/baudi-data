@@ -1,7 +1,7 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-8a00c113"
-    meiversion="4.0.0" status="created">
+    meiversion="5.0.0-dev">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -16,30 +16,30 @@
                 <title>Kantate</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes label="Vl1" xml:id="rwa_part_01"/>
-                        <perfRes label="Vl2" xml:id="rwa_part_02"/>
-                        <perfRes label="Vla" xml:id="rwa_part_03"/>
-                        <perfRes label="Vlc" xml:id="rwa_part_04"/>
-                        <perfRes label="Kb" xml:id="rwa_part_05"/>
-                        <perfRes label="Fl1" xml:id="rwa_part_06"/>
-                        <perfRes label="Fl2" xml:id="rwa_part_07"/>
-                        <perfRes label="Ob1" xml:id="rwa_part_08"/>
-                        <perfRes label="Ob2" xml:id="rwa_part_09"/>
-                        <perfRes label="Klar1" xml:id="rwa_part_10"/>
-                        <perfRes label="Klar2" xml:id="rwa_part_11"/>
-                        <perfRes label="Fg1" xml:id="rwa_part_12"/>
-                        <perfRes label="Fg2" xml:id="rwa_part_13"/>
-                        <perfRes label="Hrn1" xml:id="rwa_part_14"/>
-                        <perfRes label="Hrn2" xml:id="rwa_part_15"/>
-                        <perfRes label="Hrn3" xml:id="rwa_part_16"/>
-                        <perfRes label="Hrn4" xml:id="rwa_part_17"/>
-                        <perfRes label="Trp1" xml:id="rwa_part_18"/>
-                        <perfRes label="Trp2" xml:id="rwa_part_19"/>
-                        <perfRes label="Pos1" xml:id="rwa_part_20"/>
-                        <perfRes label="Pos2" xml:id="rwa_part_21"/>
-                        <perfRes label="Pos3" xml:id="rwa_part_22"/>
-                        <perfRes label="Tb" xml:id="rwa_part_23"/>
-                        <perfRes label="Pk" xml:id="rwa_part_24"/>
+                        <perfRes label="violin.i" xml:id="part_01"/>
+                        <perfRes label="violin.ii" xml:id="part_02"/>
+                        <perfRes label="vila" xml:id="part_03"/>
+                        <perfRes label="violoncello" xml:id="part_04"/>
+                        <perfRes label="doubleBass" xml:id="part_05"/>
+                        <perfRes label="flute.i" xml:id="part_06"/>
+                        <perfRes label="flute.ii" xml:id="part_07"/>
+                        <perfRes label="oboe.i" xml:id="part_08"/>
+                        <perfRes label="oboe.ii" xml:id="part_09"/>
+                        <perfRes label="clarinet.i" xml:id="part_10"/>
+                        <perfRes label="clarinet.ii" xml:id="part_11"/>
+                        <perfRes label="bassoon.i" xml:id="part_12"/>
+                        <perfRes label="bassoon.ii" xml:id="part_13"/>
+                        <perfRes label="hornFrench.i" xml:id="part_14"/>
+                        <perfRes label="hornFrench.ii" xml:id="part_15"/>
+                        <perfRes label="hornFrench.iii" xml:id="part_16"/>
+                        <perfRes label="hornFrench.iv" xml:id="part_17"/>
+                        <perfRes label="trumpet.i" xml:id="part_18"/>
+                        <perfRes label="trumpet.ii" xml:id="part_19"/>
+                        <perfRes label="trombone.i" xml:id="part_20"/>
+                        <perfRes label="trombone.ii" xml:id="part_21"/>
+                        <perfRes label="trombone.iii" xml:id="part_22"/>
+                        <perfRes label="tuba" xml:id="part_23"/>
+                        <perfRes label="timpani" xml:id="part_24"/>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -8178,7 +8178,7 @@
             <mdiv xml:id="baudi-20-7d3beb95" label="Vorspiel">
                 <parts>
                     <part xml:id="baudi-11-e0d2b01a" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="Tacet" xml:id="measure_89fc77ee-5067-45aa-ba3d-917d13f06836"
@@ -8187,7 +8187,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-22babed8" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f55b288b-c6de-410d-b225-f7504b8fd42c"
@@ -8196,7 +8196,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-04336eda" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4ad40f2d-bd9a-4c9a-81b3-8f82789c5338"
@@ -8205,7 +8205,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2674b57b" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_b874d1dd-2a38-4c6f-9948-96e67a907364"
@@ -8214,10 +8214,10 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-01d4f8f0" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                     </part>
                     <part xml:id="baudi-11-359779c7" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4fb29c82-1f15-4381-8446-52e79ec4356a"
@@ -8226,7 +8226,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a6223b3e" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7705aa7c-a17b-4ab2-8478-8732ac9dfca1"
@@ -8235,7 +8235,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7fe48ddb" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_74c249e6-2969-4729-a14e-2ef740f40dd9"
@@ -8244,7 +8244,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-fd0c1930" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6dc3e8e3-c9d9-4389-be25-adfb8d06f84f"
@@ -8253,7 +8253,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-be023622" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_175a4707-c719-487d-aa61-ab849ebdf904"
@@ -8262,7 +8262,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-61facf8f" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4c76c66e-45fd-4fb8-be35-e69218b6bf8a"
@@ -8271,7 +8271,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6866d618" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_66eaea65-90a6-4354-8d8a-513250dd3ae7"
@@ -8280,7 +8280,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7d24a635" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_40d63667-e75e-49a5-8cc1-f4cba043c808"
@@ -8289,7 +8289,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-da3f3dec" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_1e49bcc8-a50b-44de-98f4-67d64c57eceb"
@@ -8299,7 +8299,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5c6c8d41" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5c082c4f-b6b7-405e-97f0-4e37e752a32a"
@@ -8309,7 +8309,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-211d0e41" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_cab110bc-8824-480e-ae34-2acd3022a331"
@@ -8327,7 +8327,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-33c3e450" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_29b2c6ba-3970-42ae-af89-d3337734bbb4"
@@ -8336,7 +8336,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-34f97519" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6f2585f5-6f06-41d6-8e44-406673e46b41"
@@ -8344,7 +8344,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ce85146c" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5b530027-7c5d-4a07-ac42-b573cb0cd7d0"
@@ -8352,7 +8352,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e73e75aa" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2aef8ae7-f6b7-44c2-8e95-3eda99a095a7"
@@ -8362,7 +8362,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8d409c18" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f9b62777-1199-42b9-aa46-e78cb5d754c2"
@@ -8372,7 +8372,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b86ed28f" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_81b45134-0021-4196-ab9e-66a37bbd81f8"
@@ -8382,7 +8382,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-49b274d6" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2531df24-c60b-481c-be91-d86f62b3fd74"
@@ -8391,7 +8391,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b068bf14" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4f95bd97-6330-4da9-869a-8de1a71f4897"
@@ -8404,7 +8404,7 @@
             <mdiv xml:id="baudi-20-08fb7994" label="I">
                 <parts>
                     <part xml:id="baudi-11-57a74cb6" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8c15935d-e2d6-4a30-94d3-afa11d4392d4"
@@ -8604,7 +8604,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b0438174" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_05dbc296-ce65-465d-886e-a42e5f92df90"
@@ -8804,7 +8804,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8ecdfb20" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_550fa479-a573-4cdb-bfd9-241508e94955"
@@ -9034,7 +9034,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0ac2aa04" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_710ba901-a5af-4ae9-bc4e-24ccd328cf7b"
@@ -9280,7 +9280,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f3c434fa" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_454edddb-6119-4282-843d-fd110d6faf75"
@@ -9500,7 +9500,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-087034de" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_50bf1782-6ca3-480a-9e22-85ed2669fe7e"
@@ -9637,7 +9637,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-970f1e6e" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_140c69ef-2d6e-495e-976e-d5dffeeb32db"
@@ -9774,7 +9774,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8df61630" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_890207ad-49a0-4c08-8c7f-41b31447e9a2"
@@ -9894,7 +9894,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ae5100fd" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d1ea979b-8574-40b5-8927-913830946646"
@@ -10000,7 +10000,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a1c4467c" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_855c544b-d8f2-4e99-a529-729006d492ca"
@@ -10122,7 +10122,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-608b794c" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6527c538-13d4-47ce-b36b-741acaf57132"
@@ -10240,7 +10240,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e0963eff" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_85a25a4b-12f8-4597-ac8f-e0846cb865e2"
@@ -10381,7 +10381,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c247b186" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_02f4ab9c-c7b2-48a5-9f03-586bc4a85ac4"
@@ -10528,7 +10528,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-aff72c81" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_89515e25-f359-43e2-bfc9-e0463e7edc0b"
@@ -10668,7 +10668,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6416e36b" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_1af94987-23cd-48a3-87ec-3a893a8dbe05"
@@ -10808,7 +10808,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-cd4ce273" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3de356c1-0e60-44ba-9810-be046b1c24ff"
@@ -10932,7 +10932,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7373d365" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0fc59e81-4806-444e-8f22-e6f89130ec2a"
@@ -11058,7 +11058,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-79010bb3" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_1ba693b9-44e2-4166-b75a-d7248f6b3e4d"
@@ -11177,7 +11177,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f1b69832" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e9c7fbfe-4710-4746-a430-f379688a2f2b"
@@ -11271,7 +11271,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-483a73e8" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5e8bcb14-cb58-4668-bf67-6f4afd17eb17"
@@ -11397,7 +11397,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-689d415d" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_885e19a9-5177-4406-a637-f0741d9f5c10"
@@ -11523,7 +11523,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-244a916a" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_772e33ee-fdd9-4eb1-b4e3-442968be6f8b"
@@ -11651,7 +11651,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c31f8337" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3e7f9b82-506a-4f94-9fc9-eda23426b9c0"
@@ -11752,7 +11752,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-89d50e83" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e7c14bfe-49a9-4060-8f60-980c54d0e8f6"
@@ -11896,7 +11896,7 @@
             <mdiv xml:id="baudi-20-cc41d155" label="II">
                 <parts>
                     <part xml:id="baudi-11-153e4ef0" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f9e4d44c-c153-46c3-8b86-5acc013a9093"
@@ -11949,7 +11949,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-db97f7c8" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_c35cea5e-9140-4582-b796-b3f446458f53"
@@ -12003,7 +12003,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2566f4f1" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4980cb87-2b7c-4497-b0fd-dfd979d212ac"
@@ -12019,7 +12019,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0b7d78d7" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_bcb75ba5-3f6b-4bfa-9e68-0d8be747531d"
@@ -12034,7 +12034,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-de0f071f" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_92e3f83a-3ef7-44c6-9eda-4338941ddaf0"
@@ -12049,7 +12049,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-28eaac6b" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6ef7082b-300b-49f2-885a-f80b0db71f8b"
@@ -12059,7 +12059,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5c6c2335" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e5ad43e0-7878-446d-b10b-ccfc48fe49ef"
@@ -12069,7 +12069,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2d0339ec" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7abd2099-a3dd-49a6-bcdb-a973a43335a9"
@@ -12079,7 +12079,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3d82a655" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ed14006a-fa1f-435f-838d-281ef4fe98a5"
@@ -12089,10 +12089,10 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-da5995b4" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                     </part>
                     <part xml:id="baudi-11-e99b642a" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_300c24fa-279a-4ea5-9b48-0c472f9acaab"
@@ -12102,7 +12102,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5e47134a" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_08177897-1013-47ec-866b-4404a4697fba"
@@ -12112,7 +12112,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0740f358" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ddf5b8ea-fcb3-4f24-bd14-979534e40533"
@@ -12122,7 +12122,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-213e2a4e" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_31a204fb-29c3-47de-8006-964dec70a832"
@@ -12132,7 +12132,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-914869b8" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_a6cfd824-e3a8-4627-8eb0-f3f19820dc52"
@@ -12142,7 +12142,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a2973f6a" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f3a30cd3-4850-4b19-901b-de5fc42ef333"
@@ -12152,7 +12152,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-65e3aa17" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_309d55ab-b512-4ee4-9f71-f8d33f95f216"
@@ -12164,7 +12164,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-06551c03" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4f1d01af-2f8b-4d28-9e60-c4cc6805b1a4"
@@ -12174,7 +12174,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9b9d1829" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4d817498-9f1f-407d-82fd-3b52200540ac"
@@ -12185,7 +12185,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-62e33083" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6456b4c1-1d17-4c6e-b337-63f4203bff63"
@@ -12199,7 +12199,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b1adb60c" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_a59435ea-4fbe-4c46-8fe7-021d1c8cbac4"
@@ -12213,7 +12213,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c0a35c40" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0f652dbb-fcfb-4f05-aa44-fe541098b5de"
@@ -12227,7 +12227,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-1c781b10" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f658bfde-04f8-4260-a655-d8b0b546671b"
@@ -12238,7 +12238,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3a163e87" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3f24029b-333a-490a-8199-b5df30925881"
@@ -12254,7 +12254,7 @@
             <mdiv xml:id="baudi-20-6ef0428c" label="III">
                 <parts>
                     <part xml:id="baudi-11-7ef3280d" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_0d5623ac-3881-4be1-97d3-697d4755d7d9"
@@ -12288,7 +12288,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d5167664" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_c1af3758-ba64-4827-807d-ca5b9557525f"
@@ -12322,7 +12322,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-185e36e3" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_d8e43c7b-f8e1-4fa2-b65a-266e665bb345"
@@ -12356,7 +12356,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-08310c9e" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_f2090f47-8cfc-4906-acab-b644f877d0a8"
@@ -12390,7 +12390,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e66b56e1" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_a34338ab-1ec6-420e-bf3f-2752f1ad40c5"
@@ -12425,7 +12425,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e6a70827" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_856e041b-2a0d-41f5-9755-71ba43ee3044"
@@ -12438,7 +12438,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-db79cd20" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_7d0b636e-4708-4ace-a775-01b02ca1de45"
@@ -12451,7 +12451,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-eaf33deb" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_cd8d318a-fe34-4dd3-a6b2-a8adb51b4454"
@@ -12483,7 +12483,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d4c546d4" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_825d34fb-18a5-4d6b-8fc6-eae11d58f96f"
@@ -12501,7 +12501,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f57c0dd0" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_e9f4cca4-6bad-456b-8592-3a6b9ae518fe"
@@ -12530,7 +12530,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5f957c8c" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_d3bd4da4-28a9-4d4e-9530-83381abe8319"
@@ -12547,7 +12547,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-33208251" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_4b4f2c57-e4dc-4615-8c2e-1046d928f787"
@@ -12564,7 +12564,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8c560c84" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_34c063ce-35c6-4bff-891b-630f1b624b0a"
@@ -12581,7 +12581,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3bfe3b0d" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_fa71a851-90ed-4729-8cdc-94df9ac1f795"
@@ -12593,7 +12593,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9ef91717" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_6779a53f-793f-4029-9ca0-c262e3540cc9"
@@ -12605,7 +12605,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-bdac532b" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_17dd2f84-9d16-4899-b17d-fed34d28e577"
@@ -12618,7 +12618,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4d388e35" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_dffd68d3-39cc-4f5a-ad5a-25d134b242ec"
@@ -12630,7 +12630,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2661aa8f" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_b1f64073-cb3d-4d84-98ef-5e53d37dc24c"
@@ -12648,7 +12648,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5c84b4bf" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_719a960f-8f33-44f2-8684-67517607325d"
@@ -12666,7 +12666,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e78e095b" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_976c0d95-55cf-4673-b910-0839a9c730c1"
@@ -12700,7 +12700,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f9d7acf2" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_38ec7c3f-8934-42b4-b40e-d93b4bf7cfc2"
@@ -12734,7 +12734,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-520724b1" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_902919a1-c572-4fa6-a585-ec47bf283130"
@@ -12768,7 +12768,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7cfc0588" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_25dd4f1d-f384-4c2f-af40-1ad0a17931a3"
@@ -12786,7 +12786,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-821c6c65" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="0" xml:id="measure_fecf65dd-61bd-4c36-859e-736fb0d543b4"
@@ -12808,7 +12808,7 @@
             <mdiv xml:id="baudi-20-7d4679ec" label="IV">
                 <parts>
                     <part xml:id="baudi-11-8bf068ca" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5fd80466-6ab9-4e27-9b08-eba33b19023c"
@@ -12947,7 +12947,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c6ea3514" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ab3da295-74aa-4218-8939-edc41df3fbd5"
@@ -13080,7 +13080,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9288255f" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f414e396-d6ca-48c2-bdb8-a8c07f9d95d0"
@@ -13231,7 +13231,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2c651035" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8a2e6852-a2fd-4a0e-aa14-7dfa8aaccad4"
@@ -13404,7 +13404,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e2219eee" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_bfd5bcb0-b5e7-403c-90a3-550b97714394"
@@ -13518,7 +13518,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-01676687" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_34ee3db9-4b7f-4578-8797-df419cf1261a"
@@ -13609,7 +13609,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c42a3c21" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0ecdaec0-19db-4a11-aaf4-e41d94074b25"
@@ -13698,7 +13698,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-77c8cb13" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3af1cb5e-01fd-46ae-896f-67a04a6ddc1b"
@@ -13859,7 +13859,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7178e55d" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_48ae837b-4ede-4b58-9cd0-87eff7100841"
@@ -13880,7 +13880,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-63f788f7" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d08e723a-8cf6-4ff8-be04-9f9e05557dc6"
@@ -14045,7 +14045,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f078c364" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_da3da328-fc95-410c-b6da-bcdde89cece3"
@@ -14129,7 +14129,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3ea9be90" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6be6f271-f666-4cd3-8fbb-36efc5a3b370"
@@ -14190,7 +14190,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c637328e" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_73ac5311-4d3a-4b46-bd69-12c29fd94884"
@@ -14262,7 +14262,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c92c1da8" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ab18fa52-6bd4-4015-9af5-464d62e7b2c6"
@@ -14275,7 +14275,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-55ec7e72" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f3257c5f-649e-4d4a-b963-78a6acc35ed9"
@@ -14288,7 +14288,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-718659b6" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_79fc2ef4-56f9-42ca-971f-4e05404bbeb0"
@@ -14300,7 +14300,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-76517c49" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7febef74-c352-4122-a0ad-e0876809fbdf"
@@ -14313,7 +14313,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-535206f2" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_19173e70-373b-4583-a6a2-c63b4e88fa7b"
@@ -14387,7 +14387,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-aaa00254" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_29164446-42aa-40f2-945a-9d3a2db274aa"
@@ -14463,7 +14463,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f5b13120" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_fd1b7a5f-d746-4393-bd58-7c81ed4687d2"
@@ -14525,7 +14525,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4802bd2e" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5800925e-d0ff-4b48-95f0-b0dec977583c"
@@ -14587,7 +14587,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-847043a0" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_30854daa-fef0-4381-a6a8-19e75d24a673"
@@ -14649,7 +14649,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-17365d7d" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_97ae87bf-b7d3-4bc6-8f63-9c159f495495"
@@ -14661,7 +14661,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b88ad023" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_bfafa58c-464a-4eb5-a082-9f924a7b9bc2"
@@ -14678,7 +14678,7 @@
             <mdiv xml:id="baudi-20-7afafd7f" label="V">
                 <parts>
                     <part xml:id="baudi-11-481020fe" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_02d119b5-d7b7-484e-976f-2837b9df8276"
@@ -14713,7 +14713,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-27667e45" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2e1634ba-6424-4d62-9698-d2e14631738b"
@@ -14747,7 +14747,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2b35b7ac" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ec7facdd-0ecf-4a4f-b7b0-d0400523fb1a"
@@ -14775,7 +14775,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-db11e877" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5eb114ca-c1a2-4cb9-aebd-ade737e76a52"
@@ -14798,7 +14798,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-199de82a" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4e75eca8-aec9-4aab-b10a-fe63cabf7447"
@@ -14818,7 +14818,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d074ace2" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d3435d2c-4191-40ec-a00a-9a84e7bb3323"
@@ -14826,7 +14826,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ae2581ea" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3f4fce52-2e8a-429c-b5af-d9b5f2b9f922"
@@ -14834,7 +14834,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2a8a7463" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ec73d790-ef24-40f0-ae56-514feecaacaf"
@@ -14842,7 +14842,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2cbda4fb" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8e3b1b8d-75b7-4e9e-a1f0-dc0d15e95d8c"
@@ -14850,7 +14850,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-34ecae04" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_bbe0655c-1d08-4430-9484-b2ea15aed2f4"
@@ -14859,7 +14859,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-12c4117a" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d8e9a936-efd1-4a9b-8ac7-1de883899ae4"
@@ -14868,7 +14868,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3536f9f1" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2a0f8ca8-192a-4349-ac12-41af1990a4ad"
@@ -14876,7 +14876,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-bc2f2560" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d5a51d46-9c89-4f2e-97c4-cbbfc69833e8"
@@ -14884,7 +14884,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-aadcbc11" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_be46d0a4-0324-48a9-9808-46b50c7b5b4f"
@@ -14892,7 +14892,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-aa0ddbf7" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0b2d3a77-5ffc-4340-ac58-3f7d87daff52"
@@ -14900,7 +14900,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d0b575cb" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e6ab39cd-c227-40e3-b9b9-f42aa00b921f"
@@ -14909,7 +14909,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d2cf141c" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e273beae-73a8-467a-a4b5-74702f1a8916"
@@ -14917,7 +14917,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e9faccb1" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_57914b43-c176-492d-80b0-08f99f0b5a4f"
@@ -14934,7 +14934,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9755118a" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_c7f99603-2083-4994-b970-aa1707bc35cb"
@@ -14951,7 +14951,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-fc0c5c19" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_12138a97-60fe-4658-80a1-824190bd1f15"
@@ -14968,7 +14968,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3a784d88" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7558c55b-0408-4981-b680-d3e4587c95a5"
@@ -14985,7 +14985,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ab35dd5b" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_92dae71d-fed1-4c6d-aec6-6c171e2bdb1c"
@@ -15002,7 +15002,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-aa2f8e56" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7f5754ea-6cc2-4072-8521-80a3e5c9139a"
@@ -15011,7 +15011,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-50f9c896" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6f86b6cb-2a3b-4ded-ad96-51f2e0f30779"
@@ -15031,7 +15031,7 @@
             <mdiv xml:id="baudi-20-9957ed5e" label="VI">
                 <parts>
                     <part xml:id="baudi-11-0a0d33d6" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8940123e-89fa-445d-860f-6d202a2a6310"
@@ -15048,7 +15048,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d399af80" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f17bbaea-e45d-4726-80b1-089a0be8a8be"
@@ -15075,7 +15075,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6a83b080" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e3540b31-86cd-4359-a320-5fa0336e0cf4"
@@ -15102,7 +15102,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5017e817" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_98f7bbda-c794-4b8a-96d8-a3f02b4ddf21"
@@ -15128,7 +15128,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-fcf6eadf" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7eda74c4-3384-4989-b7d6-18293590d60c"
@@ -15153,7 +15153,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b5ab18ba" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_b8c5a4e2-4784-413a-a29c-5f285fadcb71"
@@ -15174,7 +15174,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-12d0472d" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_61be5873-df83-423e-b535-39ad788f5c4b"
@@ -15195,7 +15195,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3c4e5a2d" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0c5995a2-4397-46d3-8cc4-271268fe9273"
@@ -15216,7 +15216,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-777fa3be" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_25a3bff4-ec9d-4907-80c9-897d3bb844dd"
@@ -15237,7 +15237,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-def949d7" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_083c4fed-1d9e-4494-93b5-a11ea9bbdce1"
@@ -15263,7 +15263,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-dc905573" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_908d22c9-c2af-41b1-ad08-3562a9c03319"
@@ -15283,7 +15283,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-341c1550" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_53145444-9981-458d-b8fe-7b29e05b6558"
@@ -15300,7 +15300,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-90689e9b" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_a720a404-2ee2-49d4-8b7a-daa6240c9c55"
@@ -15317,7 +15317,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-95b27358" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8e471485-0535-4371-b3d9-c334a5842682"
@@ -15340,7 +15340,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d8df54d8" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_b895bdf1-0fcc-4009-bfd7-7cf71ea12e76"
@@ -15363,7 +15363,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4648a61e" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_46115d98-e6de-477a-b609-7466d2d3115a"
@@ -15386,7 +15386,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-1c514c71" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_215dea11-12a6-4805-b723-62e550c6282e"
@@ -15396,7 +15396,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9efd8281" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2f5e7013-d998-46ea-ba2e-a0dde7c16db4"
@@ -15413,7 +15413,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d715cfc3" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_eb12702c-3058-463b-a8d4-3d1d3e3d3928"
@@ -15430,7 +15430,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-29b48b13" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_87bccff3-763b-45bc-8a4c-d3e802d6579f"
@@ -15449,7 +15449,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d8f6ca36" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ed3e9c98-0712-45de-a6b5-0562253e2121"
@@ -15468,7 +15468,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4ff4e4aa" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5ffb3008-3dc8-4da8-a3d4-76cafe93bb7c"
@@ -15487,7 +15487,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0c02825d" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_c8384493-eb8b-47c7-929a-0dc0180b5552"
@@ -15497,7 +15497,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-eeeb810a" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_60ba5e3c-3593-46ce-9be1-b6b16381a43f"
@@ -15520,7 +15520,7 @@
             <mdiv xml:id="baudi-20-38461ce4" label="VII">
                 <parts>
                     <part xml:id="baudi-11-d5aad77f" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_877ba975-6373-4ed5-b0e4-51cbdbde9c8d"
@@ -15688,7 +15688,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-cae191ea" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7d783a65-4cba-4800-aba7-13ea10c7d7e5"
@@ -15885,7 +15885,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a5890106" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_a71dc096-b326-4d24-b610-dd7804683ad3"
@@ -16056,7 +16056,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8515a4f3" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ec8a8eb0-a41c-4844-8683-99dff588f35d"
@@ -16253,7 +16253,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ee48b578" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_cfde6f73-3b17-4098-91b1-dd43b3cf2808"
@@ -16419,7 +16419,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6396eb45" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_368228f9-fd86-4d36-a8aa-29f332861508"
@@ -16550,7 +16550,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-09837135" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_587981a8-ffa6-40e0-b069-46fd4310a94c"
@@ -16642,7 +16642,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-fac16727" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7e036edd-da32-41a7-95f2-fbf62f98ff99"
@@ -16772,7 +16772,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-bb34ca6d" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_68c85bcf-12b2-4c20-af2f-83846064f26f"
@@ -16881,7 +16881,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ea658eda" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4b55a470-6789-4afd-a599-5dc43aa485a7"
@@ -17022,7 +17022,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6f1f5f96" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_706f8800-8934-4c99-b753-fd7d9c93cd55"
@@ -17152,7 +17152,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a9eb76f6" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d0f60bd6-28c1-42db-815b-f1f93524205b"
@@ -17302,7 +17302,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-02937bab" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_be70b40b-7bf2-429f-8d04-d630c0a3a45b"
@@ -17460,7 +17460,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-cb83db3d" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_aaec5a35-13c8-4dec-a907-b7a3440bd820"
@@ -17598,7 +17598,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2416b2a3" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6fd68cba-d750-4eb1-a4ef-7e4222ea82d5"
@@ -17753,7 +17753,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5f2386ea" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_73dc901f-36d6-4a44-8bd4-45e6432f248e"
@@ -17877,7 +17877,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9a0a4be1" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8f36bac7-0c50-44e2-a9a3-f2f857ef7994"
@@ -18027,7 +18027,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a8176479" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0ff90157-9089-41b2-90cd-4d24f80dbe44"
@@ -18121,7 +18121,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ec55be53" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4818e4f3-70a2-4ef9-a64b-0730a1260116"
@@ -18205,7 +18205,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7757c3ad" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2de5c98e-e9ad-43b7-be46-a7edeab04a8d"
@@ -18321,7 +18321,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7785f71a" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5d3b191b-def0-4c19-8a67-26afee54c5a1"
@@ -18438,7 +18438,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-df9d9a8c" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_c32d5052-dbd5-45b3-a779-3d8637226483"
@@ -18546,7 +18546,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-bc4b5f91" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_385d336e-550f-425d-8736-b5fa3653b8a3"
@@ -18561,7 +18561,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4baa9069" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_26fa9579-2a93-4d27-bc6e-0215634e0b15"
@@ -18585,7 +18585,7 @@
             <mdiv xml:id="baudi-20-88bef99d" label="VIII">
                 <parts>
                     <part xml:id="baudi-11-cb5f9d26" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0badcb3b-36e5-4e6b-babc-eb76807fee8d"
@@ -18656,7 +18656,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-1ba398dc" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ba798f84-31f0-408b-bd19-4ca6ed999cba"
@@ -18725,7 +18725,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6ed3df43" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_b7cb27e5-143d-49a0-8568-0f005dab8a22"
@@ -18763,7 +18763,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f5808f69" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_25f2509e-b86e-4251-952f-beef383e8f44"
@@ -18810,7 +18810,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c1f74917" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_441bdb5b-7d11-4392-9d69-94e13e9255f2"
@@ -18833,7 +18833,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-bd3d30df" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_67324613-6880-4ada-98c8-0b68173cc499"
@@ -18848,7 +18848,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-82b31957" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_52b113de-b11d-48a9-8f27-1bea3e165001"
@@ -18863,7 +18863,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0c21be9c" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_123e1592-25df-4084-baeb-f550af47e8ba"
@@ -18877,7 +18877,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7966559b" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_851024ab-f02e-43cb-9e7d-85a882f6f9b3"
@@ -18893,7 +18893,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e00090a8" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0b2d0236-60b1-4671-bebf-d2b6099207b2"
@@ -18909,7 +18909,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8f5a576a" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_59c119c4-a1d4-400f-85fe-68e09f0af18d"
@@ -18921,7 +18921,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-27741893" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4bedfa93-e548-4c8d-bf92-49fb30250d06"
@@ -18931,7 +18931,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-935b9fc3" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_e787899d-ca75-43d2-be4c-47004691d43a"
@@ -18942,7 +18942,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6caa06df" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_4247abc7-5470-49b1-a16e-3d04fdd01cd4"
@@ -18959,7 +18959,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e34acc15" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0cb62a2c-440f-47ff-95a1-9a251b1d1e48"
@@ -18976,7 +18976,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-431e238a" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_97ac2324-1170-4fa8-a478-ea45aa73bf2d"
@@ -18993,7 +18993,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9d041f33" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f36543aa-ed2a-4efb-91a6-1c5e49d79820"
@@ -19010,7 +19010,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2f285925" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_275e8f25-a0b6-473a-8258-88f5baa66d7e"
@@ -19027,7 +19027,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6d1ebecc" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_c33afab8-8918-406e-bd0e-8983e1cb4b33"
@@ -19044,7 +19044,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b8047b3f" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_34c6181f-69d0-44c1-9fb9-9cd9ea5c873c"
@@ -19059,7 +19059,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-7df1d28e" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d644bfe0-1070-4f5c-9f1f-b61224f395c5"
@@ -19074,7 +19074,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-27eb2521" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_602967d2-723c-4d5f-b281-96b5003d3997"
@@ -19089,7 +19089,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3658fbe4" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_473138a1-afc6-45c8-b9d6-e00de6f99810"
@@ -19099,7 +19099,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c0e10f96" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ca5eefad-fa37-41df-b63d-7064111a8de6"
@@ -19115,7 +19115,7 @@
             <mdiv xml:id="baudi-20-ddec75e9" label="IX">
                 <parts>
                     <part xml:id="baudi-11-459e6e28" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_9c4f394f-2010-4f2d-a006-b714db0e0fdb"
@@ -19164,7 +19164,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-038d889c" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3c5d87be-a1c1-4a39-85b4-8484f9738cc7"
@@ -19213,7 +19213,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0d851b13" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8a34f8aa-88d7-4aab-a46e-d3dd7dd72f06"
@@ -19262,7 +19262,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-34522c22" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_a4e11598-d9a6-4e7d-a03d-de760e049339"
@@ -19312,7 +19312,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3cfeab5f" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8ba05aac-9e80-4bfd-a177-0403af459d7f"
@@ -19363,7 +19363,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a7baeaab" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6a53aae1-fe70-4d52-93a5-baba681ae4fd"
@@ -19394,7 +19394,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5883705a" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_125580d3-f9a5-4f8c-8f1a-24f298b0280b"
@@ -19419,7 +19419,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-541ee5d8" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d4f29f1a-8064-4f5c-9f25-a7ffc1f56e6b"
@@ -19451,7 +19451,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-a012c9e0" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_8b74356e-b694-4230-a20e-cb66cf44b7ec"
@@ -19483,7 +19483,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6f062056" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_dd1de56e-d494-4556-9147-7d9293b0d534"
@@ -19511,7 +19511,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9c08e3f7" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5f0b43ee-8d32-4d2c-9eb3-c2419131c46c"
@@ -19539,7 +19539,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-8f2d7066" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_65c51576-7c39-4e93-b8c7-0f317c2418b6"
@@ -19564,7 +19564,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b3f64f81" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_16e09bbe-0cfe-4485-9db9-2ed30dcb8221"
@@ -19589,7 +19589,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9369327f" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ecbaa7ca-fa13-4024-b047-54f613c99f92"
@@ -19634,7 +19634,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-56de7ba2" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_50a9499e-0feb-4335-a4fd-e4bbdcb86389"
@@ -19679,7 +19679,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-cb94d134" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_69736d1b-75a2-4371-acf3-59f6695031dc"
@@ -19726,7 +19726,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-60e7e472" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_2ef2aa08-468f-4ea5-a440-ff9e38d5d671"
@@ -19771,7 +19771,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d3f62699" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5b8d6394-3bf7-4e0b-b97d-24472f8dedb5"
@@ -19805,7 +19805,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-6d71c681" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_cc36c770-a6a0-420f-a082-d9e27ff596d9"
@@ -19839,7 +19839,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-f7630ffe" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_1c721c70-9013-4ea6-8afb-2b01936fd330"
@@ -19871,7 +19871,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-38830c50" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ddb24991-0afc-491e-afc3-b70f59994612"
@@ -19903,7 +19903,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ee30ecd7" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_af9b3e88-4fb3-4ae6-aa0a-d1a01055a587"
@@ -19935,7 +19935,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e4e52138" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_dda507ee-56b6-4137-8764-709e4b8b3d51"
@@ -19965,7 +19965,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0739ffef" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_305c7cb2-b70e-4037-b754-138c73eaf8c4"
@@ -20001,7 +20001,7 @@
             <mdiv xml:id="baudi-20-c0658c8c" label="X">
                 <parts>
                     <part xml:id="baudi-11-58cf5ab6" label="Violine 1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_927d0f6b-907a-40dd-87a8-6380ba14cf27"
@@ -20098,7 +20098,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c75005fa" label="Violine 2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_87b4f606-44fa-44c8-9463-20ff0ec8c0c2"
@@ -20192,7 +20192,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-764659b4" label="Viola">
-                        <staffDef decls="#rwa_part_03"/>
+                        <staffDef decls="#part_03" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_f03af02e-965d-4267-9ee9-99b845e287ee"
@@ -20288,7 +20288,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-edb0d141" label="Violoncello">
-                        <staffDef decls="#rwa_part_04"/>
+                        <staffDef decls="#part_04" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_96443034-5559-40b7-a5d6-9c453fbe5d0d"
@@ -20390,7 +20390,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-06509a11" label="Kontrabass">
-                        <staffDef decls="#rwa_part_05"/>
+                        <staffDef decls="#part_05" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_27823983-128f-4950-ac4a-d5dc7140ec2a"
@@ -20488,7 +20488,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-97daeeed" label="Flöte 1">
-                        <staffDef decls="#rwa_part_06"/>
+                        <staffDef decls="#part_06" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_880242e3-787d-4bfc-9729-4ac54712a139"
@@ -20587,7 +20587,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-020660dc" label="Flöte 2">
-                        <staffDef decls="#rwa_part_07"/>
+                        <staffDef decls="#part_07" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_fd203831-ade9-4af2-a61a-0a6b6e74077f"
@@ -20681,7 +20681,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ebffaf4a" label="Oboe 1">
-                        <staffDef decls="#rwa_part_08"/>
+                        <staffDef decls="#part_08" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_84411e96-efe3-4425-b3c4-54b66f5681ab"
@@ -20780,7 +20780,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-498680d5" label="Oboe 2">
-                        <staffDef decls="#rwa_part_09"/>
+                        <staffDef decls="#part_09" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_cc3c5bc0-26f3-4806-835c-2615cd9bec73"
@@ -20875,7 +20875,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-0cd1aa3a" label="Klarinette 1">
-                        <staffDef decls="#rwa_part_10"/>
+                        <staffDef decls="#part_10" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6164e998-51fa-4f58-a859-9ec512f871d6"
@@ -20971,7 +20971,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4d2954a2" label="Klarinette 2">
-                        <staffDef decls="#rwa_part_11"/>
+                        <staffDef decls="#part_11" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_c6f9ab7d-8069-45b2-9993-4ed99eaadc97"
@@ -21067,7 +21067,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-25bd60e5" label="Fagott 1">
-                        <staffDef decls="#rwa_part_12"/>
+                        <staffDef decls="#part_12" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_d57ed036-9ca5-423c-81f6-8a3d16900943"
@@ -21158,7 +21158,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-deb7350c" label="Fagott 2">
-                        <staffDef decls="#rwa_part_13"/>
+                        <staffDef decls="#part_13" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_80a0b2b9-0273-4835-9e18-1a8e79f28f58"
@@ -21247,7 +21247,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-16acd4e3" label="Horn 1 in F">
-                        <staffDef decls="#rwa_part_14"/>
+                        <staffDef decls="#part_14" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0294a796-b54c-406a-a473-de36626c9d6f"
@@ -21329,7 +21329,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ec998d88" label="Horn 2 in F">
-                        <staffDef decls="#rwa_part_15"/>
+                        <staffDef decls="#part_15" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ee0716ca-7c14-44e8-9643-f6471f2fde97"
@@ -21412,7 +21412,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5fb0b5e6" label="Horn 3 in F">
-                        <staffDef decls="#rwa_part_16"/>
+                        <staffDef decls="#part_16" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_785aa44f-7900-4070-9657-62d1a285aa2e"
@@ -21494,7 +21494,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-bd026309" label="Horn 4 in F">
-                        <staffDef decls="#rwa_part_17"/>
+                        <staffDef decls="#part_17" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_56867fca-ff3a-4dbb-8538-ea17801b2388"
@@ -21573,7 +21573,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-d95cf72c" label="Trompete 1 in B">
-                        <staffDef decls="#rwa_part_18"/>
+                        <staffDef decls="#part_18" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_fa282b71-3424-47e2-b3c9-b9cbf2b9e9b6"
@@ -21648,7 +21648,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-48194ecf" label="Trompete 2 in B">
-                        <staffDef decls="#rwa_part_19"/>
+                        <staffDef decls="#part_19" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_34c44fed-34ad-4982-969a-ea58fe7fe34e"
@@ -21723,7 +21723,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-43eb88a8" label="Posaune 1">
-                        <staffDef decls="#rwa_part_20"/>
+                        <staffDef decls="#part_20" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_89724892-0b3c-457d-92c7-0ad9e034dd6a"
@@ -21783,7 +21783,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2be1ac72" label="Posaune 2">
-                        <staffDef decls="#rwa_part_21"/>
+                        <staffDef decls="#part_21" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_5783fdd1-c565-49fe-8a21-6706287985f0"
@@ -21843,7 +21843,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ed6c7212" label="Posaune 3">
-                        <staffDef decls="#rwa_part_22"/>
+                        <staffDef decls="#part_22" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3d483886-af93-4062-92c8-740a39fdf68b"
@@ -21908,7 +21908,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ff57c417" label="Tuba">
-                        <staffDef decls="#rwa_part_23"/>
+                        <staffDef decls="#part_23" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_72ea5e3e-b544-4c59-8139-3332939f8521"
@@ -21969,7 +21969,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-2077f73d" label="Pauken">
-                        <staffDef decls="#rwa_part_24"/>
+                        <staffDef decls="#part_24" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_47a15691-ca10-423d-b99b-979a37ea4ce6"

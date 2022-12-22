@@ -1,7 +1,7 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-5f9f9f33"
-    meiversion="4.0.0" status="created">
+    meiversion="5.0.0-dev">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -14,8 +14,8 @@
                     <title>Kantate</title>
                     <perfMedium>
                         <perfResList>
-                            <perfRes label="Vl1" xml:id="rwa_part_01"/>
-                            <perfRes label="Vl1" xml:id="rwa_part_02"/>
+                            <perfRes label="violin.i" xml:id="rwa_part_01"/>
+                            <perfRes label="violin.i" xml:id="rwa_part_02"/>
                         </perfResList>
                     </perfMedium>
                 </work>
@@ -761,7 +761,7 @@
             <mdiv xml:id="baudi-20-8109b50e" label="Vorspiel">
                 <parts>
                     <part xml:id="baudi-11-3011f80e" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_42f9580c-1d10-4b54-9a85-79cef42ec418"
@@ -858,7 +858,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-65a1dfbe" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_fd7c589f-2e0e-4686-8e08-5801b2601cbc"
@@ -913,7 +913,7 @@
             <mdiv xml:id="baudi-20-58e245f2" label="I">
                 <parts>
                     <part xml:id="baudi-11-681a2195" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_753dce16-486e-4f3e-b50e-f7b421214835"
@@ -1021,7 +1021,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-91bf6415" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_266d8ee6-1c69-43fa-b267-99e28802e05a"
@@ -1176,7 +1176,7 @@
             <mdiv xml:id="baudi-20-3e540c4c" label="II">
                 <parts>
                     <part xml:id="baudi-11-247fea96" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_41818bf3-0f85-4d29-a49b-da3382f0ff66"
@@ -1185,7 +1185,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-802d378a" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3c81dbde-89e7-441a-b4a0-008013d673ae"
@@ -1197,7 +1197,7 @@
             <mdiv xml:id="baudi-20-4e9a8179" label="III">
                 <parts>
                     <part xml:id="baudi-11-ce345c6a" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_920fee2d-365e-4590-83aa-d98c7477fe41"
@@ -1206,7 +1206,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-5266ffb0" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_3dee9031-7516-4e83-b513-c31160e67c2a"
@@ -1219,7 +1219,7 @@
             <mdiv xml:id="baudi-20-c0db4b4d" label="IV">
                 <parts>
                     <part xml:id="baudi-11-3eb4f623" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_6b128a90-b8bb-413f-8d2b-4cfb48d9911d"
@@ -1353,7 +1353,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-3cc038b6" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_21318052-05bf-4373-9408-96427c599563"
@@ -1490,7 +1490,7 @@
             <mdiv xml:id="baudi-20-6c159f0a" label="V">
                 <parts>
                     <part xml:id="baudi-11-766387e7" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_fd6debbe-41b7-4fff-893e-dbb75a4800a7"
@@ -1499,7 +1499,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-72683d53" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_fa13fd38-239f-46db-a4be-1681ec91fd8b"
@@ -1511,7 +1511,7 @@
             <mdiv xml:id="baudi-20-966f5d09" label="VI">
                 <parts>
                     <part xml:id="baudi-11-ebe3c768" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_26df2c96-0ead-4405-b695-0824b38a7eb9"
@@ -1520,7 +1520,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-dc2ba833" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_ddd56db6-4621-4004-ab0a-eead852ec7c7"
@@ -1533,7 +1533,7 @@
             <mdiv xml:id="baudi-20-224227f6" label="VII">
                 <parts>
                     <part xml:id="baudi-11-66529eb8" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0513edcf-46f2-439a-ab87-d4297653df53"
@@ -1669,7 +1669,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-acce9280" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_174fe7a9-89ae-4ebd-af86-022c6860f013"
@@ -1809,7 +1809,7 @@
             <mdiv xml:id="baudi-20-2ff228f9" label="VIII">
                 <parts>
                     <part xml:id="baudi-11-e4fe9dcb" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_1590fa0d-772b-49d3-9420-4a8f1c7974bb"
@@ -1818,7 +1818,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-e76d18bc" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_77511f8c-b692-4bf0-9a28-b44d63e63a48"
@@ -1831,7 +1831,7 @@
             <mdiv xml:id="baudi-20-852a6dc8" label="IX">
                 <parts>
                     <part xml:id="baudi-11-062c93e6" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_154da21c-2f3e-4728-b1a0-3e2ec9d1365b"
@@ -1841,7 +1841,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-dfca3767" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_9535e7b8-47c6-4e5a-85bb-1af2f2b74e50"
@@ -1855,7 +1855,7 @@
             <mdiv xml:id="baudi-20-30de1a70" label="X">
                 <parts>
                     <part xml:id="baudi-11-9e9c0536" label="Vl1.1">
-                        <staffDef decls="#rwa_part_01"/>
+                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_50b2dfdc-979a-4412-b500-594d4304f4fb"
@@ -1942,7 +1942,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-61012ffd" label="Vl1.2">
-                        <staffDef decls="#rwa_part_02"/>
+                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_0c208e73-e1e0-4583-8c00-f23b89c856e1"
