@@ -1,4 +1,5 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-fa0912b9" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-fa0912b9" meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -17,7 +18,8 @@
           <title>
             <titlePart type="main">Kantate</titlePart>
             <titlePart type="subordinate">Den Gefallenen</titlePart>
-            <titlePart type="ediromSourceWindow">Autographe Partitur (Erstschrift Nr. 1 &amp; 2, sowie Entwurf zu Nr. 9)</titlePart></title>
+            <titlePart type="ediromSourceWindow">Autographe Partitur (Erstschrift Nr. 1 &amp; 2, sowie Entwurf zu Nr. 9)</titlePart>
+                    </title>
           <composer xml:id="baudi-01-ed0d187e-composer">
             <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
           </composer>
@@ -39,7 +41,7 @@
   </meiHead>
   <music>
     <facsimile>
-      <surface xml:id="baudi-21-7719aee2" n="1" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-7719aee2" n="1" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_a5708612-db3d-4edc-b434-4f7fd6f85072" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811579" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_13bfaa2f-0595-4330-b205-3ee92a1584bb" type="measure" ulx="173" uly="289" lrx="777" lry="2689"/>
         <zone xml:id="zone_ac184dff-5861-4cc3-8d94-d01304545056" type="measure" ulx="633" uly="287" lrx="1046" lry="2687"/>
@@ -50,7 +52,7 @@
         <zone xml:id="zone_d3f55f69-fd26-42b0-b290-2cc3d9ddfb71" type="measure" ulx="1562" uly="299" lrx="1906" lry="2645"/>
         <zone xml:id="zone_d866650a-1fe5-45ca-b954-c0cc80b2e8bd" type="measure" ulx="1718" uly="290" lrx="2098" lry="2656"/>
       </surface>
-      <surface xml:id="baudi-21-c96f7710" n="2" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-c96f7710" n="2" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_3d938ea3-763f-4c85-a3a7-65bcbe3747a4" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811580" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_72012014-1484-4c0f-8ca8-837d8867037e" type="measure" ulx="357" uly="264" lrx="777" lry="2655"/>
         <zone xml:id="zone_43eb4f3e-83d3-4aa4-b49e-f6d9d856525f" type="measure" ulx="657" uly="264" lrx="948" lry="2655"/>
@@ -63,7 +65,7 @@
         <zone xml:id="zone_cca7eece-9dd2-46e8-a53c-a918d8859e68" type="measure" ulx="1720" uly="264" lrx="2026" lry="2655"/>
         <zone xml:id="zone_5462879e-4b16-4aa2-bf47-8e6f35ce915e" type="measure" ulx="1906" uly="264" lrx="2194" lry="2655"/>
       </surface>
-      <surface xml:id="baudi-21-0f937f83" n="3" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-0f937f83" n="3" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_c61c69d0-a43b-45f5-8018-8febc2407fe6" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811581" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_0ddcee56-25f5-43d2-9c2b-a2973acf675e" type="measure" ulx="87" uly="190" lrx="568" lry="2698"/>
         <zone xml:id="zone_3ff54f88-3be4-4acf-8a7f-ef57f4367652" type="measure" ulx="448" uly="190" lrx="784" lry="2698"/>
@@ -73,7 +75,7 @@
         <zone xml:id="zone_9b5d49ef-9228-4e42-a037-b6a3586a3d1b" type="measure" ulx="1327" uly="190" lrx="1692" lry="2698"/>
         <zone xml:id="zone_9018a584-c8a9-4d81-b117-8c0db367db38" type="measure" ulx="1572" uly="190" lrx="1955" lry="2698"/>
       </surface>
-      <surface xml:id="baudi-21-71eaa159" n="4" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-71eaa159" n="4" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_4e7a6222-e94b-46f0-8838-d7f49fabc47f" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811582" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_e4cce33f-d778-44dd-b59d-f540eaf09704" type="measure" ulx="317" uly="190" lrx="854" lry="2710"/>
         <zone xml:id="zone_c7688bf5-df78-49bf-9811-039d7426b252" type="measure" ulx="734" uly="190" lrx="1135" lry="2710"/>
@@ -82,7 +84,7 @@
         <zone xml:id="zone_5762d216-b106-4a76-b600-b09e8472f71b" type="measure" ulx="1568" uly="190" lrx="1850" lry="2710"/>
         <zone xml:id="zone_01c1bf2e-c874-4b26-8a65-73d32ef41f5a" type="measure" ulx="1730" uly="190" lrx="2185" lry="2710"/>
       </surface>
-      <surface xml:id="baudi-21-530d4d8b" n="5" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-530d4d8b" n="5" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_248be247-fb04-4df8-b6b3-5932b5181dee" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811583" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_e602be7e-0080-4e11-bdf5-215246e6addc" type="measure" ulx="136" uly="184" lrx="708" lry="2648"/>
         <zone xml:id="zone_da4121dc-5c5f-407a-a6a6-1746c148abf4" type="measure" ulx="588" uly="184" lrx="988" lry="2648"/>
@@ -92,7 +94,7 @@
         <zone xml:id="zone_dab2a0c4-0ac0-41d7-b0c9-4bd36a15eecf" type="measure" ulx="1477" uly="184" lrx="1786" lry="2648"/>
         <zone xml:id="zone_c48a4b3b-1341-4781-989f-3497e7e9f45f" type="measure" ulx="1666" uly="184" lrx="1943" lry="2648"/>
       </surface>
-      <surface xml:id="baudi-21-441e4314" n="6" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-441e4314" n="6" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_cdb43513-ce2c-4664-a4b9-b6a7f91746e9" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811584" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_e7c66f2f-43df-4c70-bf53-b5941dde1ef1" type="measure" ulx="338" uly="200" lrx="961" lry="2710"/>
         <zone xml:id="zone_6936857a-82a4-477b-ae01-d3b6681e15ff" type="measure" ulx="841" uly="200" lrx="1245" lry="2710"/>
@@ -101,7 +103,7 @@
         <zone xml:id="zone_e1c63bc0-1ded-4991-bda2-01ea66c52e9c" type="measure" ulx="1735" uly="200" lrx="2009" lry="2710"/>
         <zone xml:id="zone_d031abc9-1f4c-4019-bc10-0855473147a3" type="measure" ulx="1889" uly="200" lrx="2220" lry="2710"/>
       </surface>
-      <surface xml:id="baudi-21-dff578bb" n="7" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-dff578bb" n="7" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_bd4c37d3-c810-4616-a695-3323a29d4330" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811585" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_a3a50e0c-a123-45f3-be0c-63081d51b1f1" type="measure" ulx="199" uly="245" lrx="604" lry="2686"/>
         <zone xml:id="zone_9e91e493-a837-44b8-9aa5-3027f8e65ac4" type="measure" ulx="484" uly="245" lrx="809" lry="2686"/>
@@ -111,7 +113,7 @@
         <zone xml:id="zone_cfb85146-1c2d-44bb-a715-14bdc07aa9ca" type="measure" ulx="1390" uly="245" lrx="1733" lry="2686"/>
         <zone xml:id="zone_554de488-31b0-4996-b52b-07a4be8b2460" type="measure" ulx="1613" uly="245" lrx="1940" lry="2686"/>
       </surface>
-      <surface xml:id="baudi-21-cd1fa819" n="8" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-cd1fa819" n="8" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_dfd89319-45c6-4a6f-9fe7-ea4a3e716495" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811586" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_f7c53ddd-291a-4054-ac29-e75083892a1e" type="measure" ulx="409" uly="202" lrx="908" lry="2700"/>
         <zone xml:id="zone_094c335e-bbbb-4054-9286-a49c1ae7573d" type="measure" ulx="788" uly="202" lrx="1181" lry="2700"/>
@@ -121,7 +123,7 @@
         <zone xml:id="zone_f717292b-832b-442c-9918-9bd29731b8a7" type="measure" ulx="1775" uly="202" lrx="2070" lry="2700"/>
         <zone xml:id="zone_1b20fa94-1638-4e15-b6ea-488d72a9c01e" type="measure" ulx="1950" uly="202" lrx="2223" lry="2700"/>
       </surface>
-      <surface xml:id="baudi-21-b0f163ab" n="9" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-b0f163ab" n="9" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_e5de1717-9731-4bba-8ada-9024d24da698" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811587" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_5de6b58d-0dfa-463f-bf90-7f54f14f0b17" type="measure" ulx="107" uly="239" lrx="613" lry="2647"/>
         <zone xml:id="zone_56f5dc3b-308a-49cb-a075-134ff6eacf9e" type="measure" ulx="493" uly="239" lrx="859" lry="2647"/>
@@ -130,7 +132,7 @@
         <zone xml:id="zone_c7fa0a58-f09f-427d-8fd6-78d274180e61" type="measure" ulx="1289" uly="239" lrx="1751" lry="2647"/>
         <zone xml:id="zone_cfa115ae-b736-478f-add5-25ed33bcf9e3" type="measure" ulx="1631" uly="239" lrx="1954" lry="2647"/>
       </surface>
-      <surface xml:id="baudi-21-e1713a89" n="10" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-e1713a89" n="10" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_cd1853e4-2c0e-43ae-8b15-a37d306e3583" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811588" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_2c83828c-10c0-43b6-b082-df57da981c7a" type="measure" ulx="308" uly="204" lrx="793" lry="2698"/>
         <zone xml:id="zone_ff6103c2-2332-47f8-927f-23ed92035a72" type="measure" ulx="673" uly="204" lrx="1010" lry="2698"/>
@@ -139,7 +141,7 @@
         <zone xml:id="zone_b2d22b7c-c777-48ea-b0b0-580faa9b72fb" type="measure" ulx="1557" uly="204" lrx="2058" lry="2698"/>
         <zone xml:id="zone_a437ca43-5abd-4623-8e3b-e1dd03984019" type="measure" ulx="1938" uly="204" lrx="2220" lry="2698"/>
       </surface>
-      <surface xml:id="baudi-21-bf40a1a2" n="11" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-bf40a1a2" n="11" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_eb1b5e58-0eaa-487f-919f-6135e041d269" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811589" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_f12e8029-1a7d-49ed-9412-a6756b09bc6f" type="measure" ulx="186" uly="190" lrx="644" lry="2674"/>
         <zone xml:id="zone_13fd3e6a-b02d-4e27-9e35-c98698379c45" type="measure" ulx="524" uly="190" lrx="1051" lry="2674"/>
@@ -147,7 +149,7 @@
         <zone xml:id="zone_76dc4e69-3365-463c-a14a-fc0229bfcf41" type="measure" ulx="1316" uly="190" lrx="1624" lry="2674"/>
         <zone xml:id="zone_ae60d49b-669d-4152-826c-98b9a7bc9033" type="measure" ulx="1504" uly="190" lrx="1970" lry="2674"/>
       </surface>
-      <surface xml:id="baudi-21-3c52d761" n="12" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-3c52d761" n="12" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_01d7b83a-db64-4ad5-a020-d4987ea88355" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811591" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_8919e1e2-7f5c-48c5-99bf-c2407666ac55" type="measure" ulx="372" uly="259" lrx="1054" lry="2659"/>
         <zone xml:id="zone_a5cb4976-3ff6-4295-9eba-306b0a28e8ea" type="measure" ulx="934" uly="259" lrx="1249" lry="2659"/>
@@ -156,14 +158,14 @@
         <zone xml:id="zone_40fb7080-624d-4b58-b094-68b82df7f08e" type="measure" ulx="1643" uly="259" lrx="1941" lry="2659"/>
         <zone xml:id="zone_8d692bec-0b56-46da-a137-f9e8bbc166ff" type="measure" ulx="1821" uly="259" lrx="2195" lry="2659"/>
       </surface>
-      <surface xml:id="baudi-21-0a336512" n="13" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-0a336512" n="13" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_a75e8495-6e61-40ba-a9de-670acd9f93a7" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811592" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_2a9ac4b1-b4ea-464d-b4f9-8325c99f0cb2" type="measure" ulx="141" uly="183" lrx="809" lry="2660"/>
         <zone xml:id="zone_5eaec297-a97a-4b4d-bc7b-079a7b649bb1" type="measure" ulx="689" uly="183" lrx="1181" lry="2660"/>
         <zone xml:id="zone_d3838079-93a5-4527-b3c4-dea95eb58f80" type="measure" ulx="1061" uly="183" lrx="1628" lry="2660"/>
         <zone xml:id="zone_70db31f4-ed9b-462b-8917-b9070f724ce4" type="measure" ulx="1508" uly="183" lrx="1931" lry="2660"/>
       </surface>
-      <surface xml:id="baudi-21-6b152221" n="14" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-6b152221" n="14" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_4fade182-57e8-492d-83e0-dc8efb9ef235" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811593" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_2e1f572d-780b-45d3-ae49-41f4c10e5f6c" type="measure" ulx="348" uly="205" lrx="914" lry="2689"/>
         <zone xml:id="zone_b5fe6ab3-0c96-475d-8d7b-56ffab5c411c" type="measure" ulx="794" uly="205" lrx="1166" lry="2689"/>
@@ -171,7 +173,7 @@
         <zone xml:id="zone_1a5fb902-334a-47c9-929f-39b346dd6b5d" type="measure" ulx="1446" uly="205" lrx="1902" lry="2689"/>
         <zone xml:id="zone_03f04b25-ee54-4dcb-96c0-1569df5aee24" type="measure" ulx="1782" uly="205" lrx="2274" lry="2689"/>
       </surface>
-      <surface xml:id="baudi-21-cfc99ace" n="15" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-cfc99ace" n="15" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_f6bc48df-6d59-478f-9a3d-566d5d6847c1" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811594" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_8f89417c-3a55-4a2d-9b3d-9514de30e15d" type="measure" ulx="136" uly="264" lrx="700" lry="2694"/>
         <zone xml:id="zone_797b5dc5-ebc9-413f-bf76-11493f2263c2" type="measure" ulx="580" uly="264" lrx="1066" lry="2694"/>
@@ -179,7 +181,7 @@
         <zone xml:id="zone_5dac42af-9bdc-4913-abb3-9ac7145dbdda" type="measure" ulx="1318" uly="264" lrx="1688" lry="2694"/>
         <zone xml:id="zone_0bb4bb31-e47f-4d7b-8bb1-ee7ff1b337fb" type="measure" ulx="1568" uly="264" lrx="1953" lry="2694"/>
       </surface>
-      <surface xml:id="baudi-21-5009e43f" n="16" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-5009e43f" n="16" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_1d5da63d-8adb-4943-b59b-13c5b7193bff" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811595" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_cd46aaf2-264c-4f78-ba53-9e59f68f0ff7" type="measure" ulx="204" uly="226" lrx="750" lry="2618"/>
         <zone xml:id="zone_1009e6e2-15c0-49a8-adb1-8a3bb7d8c7d0" type="measure" ulx="630" uly="226" lrx="953" lry="2618"/>
@@ -189,7 +191,7 @@
         <zone xml:id="zone_c1d49270-9980-45dd-b3f7-24ea6a3c2c63" type="measure" ulx="1539" uly="226" lrx="1864" lry="2618"/>
         <zone xml:id="zone_acc7217e-ce15-4124-8fd4-5ba2231fbb41" type="measure" ulx="1744" uly="226" lrx="2127" lry="2618"/>
       </surface>
-      <surface xml:id="baudi-21-90ced25e" n="17" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-90ced25e" n="17" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_74c9fe15-a103-487a-a4f0-6808df70886b" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811596" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_e609c3d4-5edb-40a7-ae93-eba2a5dcf405" type="measure" ulx="135" uly="204" lrx="655" lry="2737"/>
         <zone xml:id="zone_46c0a2b8-302b-4e83-8409-6b4c225df2fe" type="measure" ulx="535" uly="204" lrx="908" lry="2737"/>
@@ -199,7 +201,7 @@
         <zone xml:id="zone_76e0bd91-1298-4e6c-9df3-be537b583c9a" type="measure" ulx="1488" uly="204" lrx="1844" lry="2737"/>
         <zone xml:id="zone_3bc59a87-93fc-44df-aafc-f7224bf4cc06" type="measure" ulx="1724" uly="204" lrx="2051" lry="2737"/>
       </surface>
-      <surface xml:id="baudi-21-786bed76" n="18" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-786bed76" n="18" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_681a97ba-0e20-4557-9f1e-28fa8a8bec46" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811597" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_9d52de13-1a3c-4801-9789-6650ab0bc608" type="measure" ulx="381" uly="242" lrx="804" lry="2694"/>
         <zone xml:id="zone_8de16758-4d29-4e58-9e83-118f7547c381" type="measure" ulx="684" uly="242" lrx="1027" lry="2694"/>
@@ -207,7 +209,7 @@
         <zone xml:id="zone_fdf6bd83-a495-4339-b438-a7ea0dc8241f" type="measure" ulx="1112" uly="242" lrx="1448" lry="2694"/>
         <zone xml:id="zone_5958a50e-19ad-4713-a05e-77f0ec451fbb" type="measure" ulx="1328" uly="242" lrx="1684" lry="2694"/>
       </surface>
-      <surface xml:id="baudi-21-30bfa7fb" n="19" ulx="0" uly="0" lrx="2358" lry="2938">
+      <surface xml:id="baudi-21-30bfa7fb" n="19" ulx="0" uly="0" lrx="3537" lry="4407">
         <graphic xml:id="graphic_fe30e18c-1ab6-4b8e-9205-256aa826ea5b" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811598" type="facsimile" width="2358" height="2938"/>
         <zone xml:id="zone_6d032b91-89a4-4334-966f-a76c7da2900d" type="measure" ulx="87" uly="250" lrx="612" lry="1042"/>
         <zone xml:id="zone_997a75f0-7cb0-4207-8ce9-471f59566b68" type="measure" ulx="492" uly="250" lrx="767" lry="1042"/>
@@ -234,7 +236,7 @@
         <zone xml:id="zone_229b174d-51ed-4583-8c64-5992010dd5b8" type="measure" ulx="1147" uly="2102" lrx="1578" lry="2722"/>
         <zone xml:id="zone_7d9483d8-bad1-410d-9576-03702a5b0275" type="measure" ulx="1458" uly="2102" lrx="1709" lry="2722"/>
       </surface>
-      <surface xml:id="baudi-21-2d36a768" n="20" ulx="0" uly="0" lrx="2358" lry="2941">
+      <surface xml:id="baudi-21-2d36a768" n="20" ulx="0" uly="0" lrx="3537" lry="4412">
         <graphic xml:id="graphic_191e9479-bd15-45fe-bb80-d862ec53ff36" target="https://digital.blb-karlsruhe.de/blbihd/i3f/v20/4811599" type="facsimile" width="2358" height="2941"/>
         <zone xml:id="zone_88aa7d1f-38bb-4333-8465-2be96b1008a4" type="measure" ulx="339" uly="190" lrx="793" lry="496"/>
         <zone xml:id="zone_4c0aa28d-b5d2-4a7c-a6b1-f312e67a52d1" type="measure" ulx="673" uly="190" lrx="1084" lry="496"/>
