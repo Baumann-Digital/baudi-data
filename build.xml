@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="deploy" name="baudiData" basedir="." xmlns:unless="ant:unless">
+<project default="data-package" name="baudiData" basedir="." xmlns:unless="ant:unless">
     <dirname property="baudiData.basedir" file="${ant.file.baudiData}"/>
     
     <!-- import default properties from file -->
