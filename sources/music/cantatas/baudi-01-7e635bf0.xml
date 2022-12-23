@@ -1,14 +1,23 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-7e635bf0" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-7e635bf0" meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
         <title>Autographe Partitur (Vorpiel)</title>
       </titleStmt>
-      <pubStmt>
-        
-      </pubStmt>
-
+      <pubStmt/>
     </fileDesc>
+    <workList>
+      <work>
+        <title>Den Gefallenen</title>
+        <componentList>
+          <work xml:id="baudi-02-aedbaef3_comp_001">
+            <title xml:lang="de">Vorspiel</title>
+            <title xml:lang="en">Prelude</title>
+          </work>
+        </componentList>
+      </work>
+    </workList>
     <manifestationList>
       <manifestation>
         <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: Mus. Hs. 1274</identifier>
