@@ -3534,7 +3534,13 @@
                             <measure n="41" label="109" xml:id="measure_80113bf7-72ec-4514-b06d-f3ddf5d86213" facs="#zone_b21e467c-4e02-4224-9ba6-ed838ab29547"/>
                             <measure n="42" label="110" xml:id="measure_6d920358-8a39-4c77-96bc-3befddc60580" facs="#zone_9fcb5eeb-346a-4cb3-a0e9-4fdc93b57d8d"/>
                             <measure n="43" label="111" xml:id="measure_a4f4d2a5-b6d1-49a0-a250-7e3b685592df" facs="#zone_5a4fd9fb-da89-4992-b674-5ea3da9ed400"/>
-                            <measure n="44" label="112" xml:id="measure_29b05c1d-f5cc-4ffa-b514-b3537a421bb1" facs="#zone_68ffb895-7b3c-4f09-a5ea-cde601d06883"/>
+                            <measure n="44" label="112" xml:id="measure_29b05c1d-f5cc-4ffa-b514-b3537a421bb1" facs="#zone_68ffb895-7b3c-4f09-a5ea-cde601d06883">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="3"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                         </section>
                     </part>
@@ -3626,7 +3632,13 @@
                             <measure n="41" label="109" xml:id="measure_a61e4648-8c56-45a0-ace6-747ee708cfd8" facs="#zone_98bfc0b5-83e4-451c-be3d-f1be7f6a0008"/>
                             <measure n="42" label="110" xml:id="measure_e46b2806-b5c9-48b3-84de-cb5871088b44" facs="#zone_5d5f5098-41e4-4370-b5d5-eef0743d5dd1"/>
                             <measure n="43" label="111" xml:id="measure_fe2cbd15-8967-4cce-8ab1-848de3f88029" facs="#zone_ffb4106d-9610-440b-ba78-c13c7b143ebc"/>
-                            <measure n="44" label="112" xml:id="measure_4369443a-b1ee-4c35-90f4-8ae78e273416" facs="#zone_0cde8971-98d7-47e0-83a7-8b289b7d5e73"/>
+                            <measure n="44" label="112" xml:id="measure_4369443a-b1ee-4c35-90f4-8ae78e273416" facs="#zone_0cde8971-98d7-47e0-83a7-8b289b7d5e73">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="3"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                         </section>
                     </part>
@@ -3638,14 +3650,26 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_a33cf422-12d7-44c8-8a67-56a53c1d0cf3" facs="#zone_7a97e9ba-48d4-4f73-8083-678422547dea"/>
+                            <measure n="1" label="1" xml:id="measure_a33cf422-12d7-44c8-8a67-56a53c1d0cf3" facs="#zone_7a97e9ba-48d4-4f73-8083-678422547dea">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="24" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                     <part xml:id="baudi-11-83c18e0e" label="Bass">
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_ae7054f5-b142-4547-8b43-53bac3f6b4a3" facs="#zone_8fc27589-db8c-495c-a9ed-68221b51f503"/>
+                            <measure n="1" label="1" xml:id="measure_ae7054f5-b142-4547-8b43-53bac3f6b4a3" facs="#zone_8fc27589-db8c-495c-a9ed-68221b51f503">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="24" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                 </parts>
@@ -3656,14 +3680,26 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_15b0b87c-4aa7-423e-b6fa-586fb570a821" facs="#zone_c2851874-928f-4821-abac-cb73ec503b05"/>
+                            <measure n="1" label="1" xml:id="measure_15b0b87c-4aa7-423e-b6fa-586fb570a821" facs="#zone_c2851874-928f-4821-abac-cb73ec503b05">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="13" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                     <part xml:id="baudi-11-4a2c2698" label="Bass">
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_5312de96-3f9b-4f27-b5b9-8a3e26ffeca6" facs="#zone_9c2949dc-e820-4ffa-8e5c-52e55ef2c987"/>
+                            <measure n="1" label="1" xml:id="measure_5312de96-3f9b-4f27-b5b9-8a3e26ffeca6" facs="#zone_9c2949dc-e820-4ffa-8e5c-52e55ef2c987">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="13" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                 </parts>
@@ -3674,14 +3710,26 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_4baeebcb-ebca-484d-9f40-1dd954c2c44b" facs="#zone_404f4a69-9edf-47d3-aa56-ed8f1d9d04df"/>
+                            <measure n="1" label="1" xml:id="measure_4baeebcb-ebca-484d-9f40-1dd954c2c44b" facs="#zone_404f4a69-9edf-47d3-aa56-ed8f1d9d04df">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="83" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                     <part xml:id="baudi-11-ecc1fc37" label="Bass">
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_aba5e2f6-1b5a-4a27-bba8-1d78ef3f788b" facs="#zone_5d54ece6-f693-4047-981d-bc9ada95bfdb"/>
+                            <measure n="1" label="1" xml:id="measure_aba5e2f6-1b5a-4a27-bba8-1d78ef3f788b" facs="#zone_5d54ece6-f693-4047-981d-bc9ada95bfdb">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="83" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                 </parts>
@@ -3692,14 +3740,26 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_7c024199-fa95-43c7-b21f-fb71eeb3fc50" facs="#zone_0690642c-32f7-41fe-a8bb-4d21bdf7f2a3"/>
+                            <measure n="1" label="1" xml:id="measure_7c024199-fa95-43c7-b21f-fb71eeb3fc50" facs="#zone_0690642c-32f7-41fe-a8bb-4d21bdf7f2a3">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="14" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                     <part xml:id="baudi-11-c0649190" label="Bass">
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_5990b640-aa69-491e-95b2-6d5cedb878c7" facs="#zone_fab33bed-4f4b-47d1-bb4e-5a1739311870"/>
+                            <measure n="1" label="1" xml:id="measure_5990b640-aa69-491e-95b2-6d5cedb878c7" facs="#zone_fab33bed-4f4b-47d1-bb4e-5a1739311870">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="14" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                 </parts>
@@ -3710,7 +3770,13 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_b9f07059-39ae-4c31-9cca-465e49107681" facs="#zone_625b53f6-dd1b-48c1-ada5-8cedcc0136cf"/>
+                            <measure n="1" label="1" xml:id="measure_b9f07059-39ae-4c31-9cca-465e49107681" facs="#zone_625b53f6-dd1b-48c1-ada5-8cedcc0136cf">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="9" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                         </section>
                     </part>
@@ -3718,7 +3784,13 @@
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_78391bab-cbb4-42c4-a1ae-8b971bf93bd7" facs="#zone_564c0e8c-752a-483c-ae21-7d754eef2bef"/>
+                            <measure n="1" label="1" xml:id="measure_78391bab-cbb4-42c4-a1ae-8b971bf93bd7" facs="#zone_564c0e8c-752a-483c-ae21-7d754eef2bef">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="9" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                         </section>
                     </part>
@@ -3841,7 +3913,13 @@
                             <sb/>
                             <measure n="72" label="95" xml:id="measure_daec9fc6-25ac-4424-85f3-76aa8f0dd2e5" facs="#zone_d8c9beb8-ca67-466b-be2d-0676b1806643"/>
                             <measure n="73" label="96" xml:id="measure_08eb9dbf-72e5-4b24-9c83-ba4b312bc642" facs="#zone_db72a849-868b-4d78-9c20-f8767b6d1d27"/>
-                            <measure n="74" label="97" xml:id="measure_104b5879-d5ce-4990-ac78-170515156381" facs="#zone_25c2171c-2a8b-46c5-b85a-d93a8c4857c0"/>
+                            <measure n="74" label="97" xml:id="measure_104b5879-d5ce-4990-ac78-170515156381" facs="#zone_25c2171c-2a8b-46c5-b85a-d93a8c4857c0">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                     <part xml:id="baudi-11-82dc1edf" label="Bass">
@@ -3955,7 +4033,13 @@
                             <measure n="67" label="94" xml:id="measure_4cdbe146-bfb8-48b8-8995-03687d6daf76" facs="#zone_178a2341-a23b-4c93-a9d9-0d9966c66060"/>
                             <measure n="68" label="95" xml:id="measure_2a22ee8a-4f3b-4b34-a88f-464dba38f145" facs="#zone_84edf9e7-7eb9-462c-bb2a-83cfab0164e3"/>
                             <measure n="69" label="96" xml:id="measure_f3a8293a-7d89-4797-b07a-e0d70e2efe21" facs="#zone_48f5a235-dfd4-43d9-94c0-0d4055522f86"/>
-                            <measure n="70" label="97" xml:id="measure_f2317ed1-ceb8-4acd-849b-454e8e733634" facs="#zone_575edd5a-1ce4-4762-9287-0f45d4884cda"/>
+                            <measure n="70" label="97" xml:id="measure_f2317ed1-ceb8-4acd-849b-454e8e733634" facs="#zone_575edd5a-1ce4-4762-9287-0f45d4884cda">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                 </parts>
@@ -3966,14 +4050,26 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_0b7b87b1-dfd5-4d81-8fb1-638c7f6cf0cf" facs="#zone_7843474d-cceb-4b55-8313-d052534fb2ef"/>
+                            <measure n="1" label="1" xml:id="measure_0b7b87b1-dfd5-4d81-8fb1-638c7f6cf0cf" facs="#zone_7843474d-cceb-4b55-8313-d052534fb2ef">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="34" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                     <part xml:id="baudi-11-315629b1" label="Bass">
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_bae56570-f9f7-4402-b9b3-adbcdb999a9a" facs="#zone_e14d1fc0-1d91-4413-84b4-e2995ac1daf1"/>
+                            <measure n="1" label="1" xml:id="measure_bae56570-f9f7-4402-b9b3-adbcdb999a9a" facs="#zone_e14d1fc0-1d91-4413-84b4-e2995ac1daf1">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="34" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                         </section>
                     </part>
                 </parts>
@@ -3984,7 +4080,13 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_04be9bb7-ed03-4de9-8ff6-7da336470b76" facs="#zone_af3164a2-967d-468b-b79b-b97b138c41a5"/>
+                            <measure n="1" label="1" xml:id="measure_04be9bb7-ed03-4de9-8ff6-7da336470b76" facs="#zone_af3164a2-967d-468b-b79b-b97b138c41a5">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="20" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                         </section>
                     </part>
@@ -3992,7 +4094,13 @@
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_a806b4b1-7e39-452d-8a4b-a728a31521a3" facs="#zone_583bef01-8785-40c3-b348-5911eb06789b"/>
+                            <measure n="1" label="1" xml:id="measure_a806b4b1-7e39-452d-8a4b-a728a31521a3" facs="#zone_583bef01-8785-40c3-b348-5911eb06789b">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="20" type="tacet"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                         </section>
                     </part>
