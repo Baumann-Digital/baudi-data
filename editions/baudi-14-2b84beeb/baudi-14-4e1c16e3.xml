@@ -1,5 +1,5 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-14-4e1c16e3" meiversion="4.0.1" status="created">
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-14-4e1c16e3" meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -32,7 +32,7 @@
         </classification>
         <relationList>
           <relation rel="isEmbodimentOf" corresp="baudi-02-aedbaef3"/>
-          <relation rel="isEmbodimentOf" corresp="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp3" type="edirom"/>
+          <relation rel="isEmbodimentOf" type="edirom" target="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp3"/>
         </relationList>
       </manifestation>
     </manifestationList>
@@ -40,7 +40,7 @@
   <music>
         <facsimile>
             <surface xml:id="surface_7fea246c-891d-4e5e-b2c5-ac93817b9ff5" n="1" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_fbb32b75-21a1-41ea-b674-598bb28690d3" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page1.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_fbb32b75-21a1-41ea-b674-598bb28690d3" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page1.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_49470a05-3833-45a8-9073-dfa98785e079" type="measure" ulx="182" uly="336" lrx="432" lry="718"/>
                 <zone xml:id="zone_05874923-ef9a-40a0-8928-520ac2473a29" type="measure" ulx="404" uly="330" lrx="552" lry="710"/>
                 <zone xml:id="zone_607295c5-1c08-4509-963c-c698defd8ba9" type="measure" ulx="526" uly="324" lrx="684" lry="718"/>
@@ -81,7 +81,7 @@
                 <zone xml:id="zone_5d80f3a0-0b80-4d52-901e-def2225ea059" type="measure" ulx="1392" uly="1778" lrx="1532" lry="2170"/>
             </surface>
             <surface xml:id="surface_ed8a76af-3911-4b9f-bbc5-3cde64396915" n="2" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_572522f8-5df1-4d4a-a9d4-b6acfbb22733" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page2.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_572522f8-5df1-4d4a-a9d4-b6acfbb22733" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page2.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_febb9f13-f9dd-4e1f-a836-4e23192ae04e" type="measure" ulx="106" uly="182" lrx="472" lry="628"/>
                 <zone xml:id="zone_396045d1-93fd-4ff7-a5d2-a38b7280abd7" type="measure" ulx="446" uly="164" lrx="576" lry="638"/>
                 <zone xml:id="zone_df2fa708-53ea-4124-a568-dd24bfec1f67" type="measure" ulx="546" uly="174" lrx="718" lry="626"/>
@@ -142,7 +142,7 @@
                 <zone xml:id="zone_f668aec9-3020-40d1-ad22-ef59ec0d9ff2" type="measure" ulx="1300" uly="1854" lrx="1534" lry="2120"/>
             </surface>
             <surface xml:id="surface_87fc941b-7743-4367-a6ae-3f468482e919" n="3" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_31eff4ef-95fb-4cd5-a113-67ce757ffdc7" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page3.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_31eff4ef-95fb-4cd5-a113-67ce757ffdc7" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page3.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_95df2d7c-7b5e-48bf-ad52-d576d73c2e6b" type="measure" ulx="78" uly="180" lrx="448" lry="434"/>
                 <zone xml:id="zone_92c637f0-f78c-4813-abab-e631b3ec5357" type="measure" ulx="416" uly="182" lrx="572" lry="438"/>
                 <zone xml:id="zone_b97b0470-9256-49b2-8056-33c410450460" type="measure" ulx="546" uly="184" lrx="676" lry="446"/>
@@ -191,7 +191,7 @@
                 <zone xml:id="zone_acd27199-11f1-4ec3-b96c-ba604c51608c" type="measure" ulx="1330" uly="1754" lrx="1536" lry="2066"/>
             </surface>
             <surface xml:id="surface_e1b9f650-4fb5-41da-8e9e-caf5ce5eb3ce" n="4" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_914d27e9-50ee-467f-8e0d-6384aaca7e9d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page4.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_914d27e9-50ee-467f-8e0d-6384aaca7e9d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page4.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_d28ea268-32e5-4e37-a637-287de37e5afd" type="measure" ulx="104" uly="142" lrx="404" lry="406"/>
                 <zone xml:id="zone_55a3a1ad-b852-4f3f-8a0b-d7d49953a10f" type="measure" ulx="368" uly="150" lrx="554" lry="416"/>
                 <zone xml:id="zone_5eec14f5-3fee-4f94-9d31-e625b7325ce5" type="measure" ulx="526" uly="160" lrx="712" lry="432"/>
@@ -249,7 +249,7 @@
                 <zone xml:id="zone_38321719-35c5-4832-8709-aaef37d02ff2" type="measure" ulx="1370" uly="1908" lrx="1530" lry="2192"/>
             </surface>
             <surface xml:id="surface_e99ef733-a596-41fd-acd9-e6c3672a063d" n="5" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_daac9b91-83c5-4b69-b499-a08c6ca10253" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page5.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_daac9b91-83c5-4b69-b499-a08c6ca10253" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page5.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_3c776a12-d6ae-460d-ac72-d374b9b88eab" type="measure" ulx="122" uly="180" lrx="506" lry="446"/>
                 <zone xml:id="zone_9fbe4b74-b467-4186-9270-bba1f3ec3303" type="measure" ulx="490" uly="188" lrx="702" lry="452"/>
                 <zone xml:id="zone_5a0fd1ef-f8b4-4ab6-a314-190cabf24596" type="measure" ulx="682" uly="180" lrx="802" lry="452"/>
@@ -297,7 +297,7 @@
                 <zone xml:id="zone_42e27388-233e-4b68-8723-c4b2d9f596b1" type="measure" ulx="1394" uly="1880" lrx="1528" lry="2184"/>
             </surface>
             <surface xml:id="surface_5e1bc170-fc3d-4d5c-bedc-f985cf421a6e" n="6" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_e6b0abee-e5f3-4213-aeb2-af8be4172a71" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page6.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_e6b0abee-e5f3-4213-aeb2-af8be4172a71" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page6.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_45ed4005-70e1-4c60-aec9-549cb8cefc4e" type="measure" ulx="100" uly="180" lrx="414" lry="486"/>
                 <zone xml:id="zone_93456907-f297-427b-9f05-344faf7dbbf3" type="measure" ulx="392" uly="184" lrx="568" lry="484"/>
                 <zone xml:id="zone_2e863d1c-53a0-498a-b3b6-c7a52723e82e" type="measure" ulx="534" uly="178" lrx="718" lry="476"/>
@@ -351,7 +351,7 @@
                 <zone xml:id="zone_100fbb48-6075-4637-ae53-eb3d137bae2d" type="measure" ulx="1396" uly="1824" lrx="1524" lry="2122"/>
             </surface>
             <surface xml:id="surface_26c9b9a6-15d7-4e17-8726-d2bd5b61bfd1" n="7" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_687fb32a-e055-4836-9c6f-c564a10d9a37" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page7.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_687fb32a-e055-4836-9c6f-c564a10d9a37" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page7.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_c65760f8-9275-4610-9fc6-875a1fa0ae0d" type="measure" ulx="176" uly="200" lrx="470" lry="492"/>
                 <zone xml:id="zone_6b77fddc-67f6-4d06-b70a-89ffa05bc46e" type="measure" ulx="440" uly="204" lrx="604" lry="482"/>
                 <zone xml:id="zone_212c4bed-8f5c-4dc5-b25a-a6aad83238bb" type="measure" ulx="574" uly="196" lrx="810" lry="508"/>
@@ -394,7 +394,7 @@
                 <zone xml:id="zone_d5c36e85-edb2-44cc-a973-ca032ee1d543" type="measure" ulx="1369" uly="1805" lrx="1537" lry="2186"/>
             </surface>
             <surface xml:id="surface_c0446cab-a4cd-4f41-a169-9069b26cbcce" n="8" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_b2656129-0996-48b0-9f92-9a134edf5796" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page8.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_b2656129-0996-48b0-9f92-9a134edf5796" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-4e1c16e3/DR-doctoral-thesis-part1-3-music-harmoniumVoice-page8.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_01b305cd-518b-4e5f-bab8-e204025008bb" type="measure" ulx="146" uly="192" lrx="430" lry="494"/>
                 <zone xml:id="zone_a5236da6-58b7-450b-b197-f05fa2ba20bb" type="measure" ulx="402" uly="194" lrx="660" lry="492"/>
                 <zone xml:id="zone_c4740b66-cd72-4073-ae28-1849b4d95bad" type="measure" ulx="634" uly="196" lrx="774" lry="490"/>

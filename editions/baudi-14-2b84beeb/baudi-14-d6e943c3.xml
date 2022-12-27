@@ -1,5 +1,5 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-14-d6e943c3" meiversion="4.0.1" status="created">
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-14-d6e943c3" meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -25,7 +25,7 @@
         </titleStmt>
         <relationList>
           <relation rel="isEmbodimentOf" corresp="baudi-02-aedbaef3"/>
-          <relation rel="isEmbodimentOf" corresp="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp2" type="edirom"/>
+          <relation rel="isEmbodimentOf" type="edirom" target="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp2"/>
         </relationList>
       </manifestation>
     </manifestationList>
@@ -33,7 +33,7 @@
   <music>
         <facsimile>
             <surface xml:id="surface_50abc68f-7f30-4d6a-a37e-88301c1f6431" n="1" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_022860aa-6f79-44d1-a89e-46e1b93ce6d1" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page01.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_022860aa-6f79-44d1-a89e-46e1b93ce6d1" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page01.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_648077cb-0f71-45bd-b359-dc2d746ca571" type="measure" ulx="174" uly="248" lrx="432" lry="628"/>
                 <zone xml:id="zone_78952d7c-b844-4a1d-a015-37794cef42a8" type="measure" ulx="400" uly="240" lrx="552" lry="628"/>
                 <zone xml:id="zone_7a8b5b49-9b3d-495f-8240-e1023e45ad16" type="measure" ulx="524" uly="240" lrx="684" lry="626"/>
@@ -75,7 +75,7 @@
                 <zone xml:id="zone_09a1aa36-84d6-41f3-b07c-48da0a4a0375" type="measure" ulx="1392" uly="1764" lrx="1530" lry="2158"/>
             </surface>
             <surface xml:id="surface_fbe1160e-b687-4c43-9ffb-172105bcaabf" n="2" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_e91a6cf2-b8ea-4836-8e92-25e4cc50fc29" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page02.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_e91a6cf2-b8ea-4836-8e92-25e4cc50fc29" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page02.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_d54b0a88-e1a0-49c5-9ec0-6f3eff43624b" type="measure" ulx="122" uly="190" lrx="472" lry="630"/>
                 <zone xml:id="zone_d26f9e76-9f78-4854-9ff4-1b12e794cdfe" type="measure" ulx="446" uly="170" lrx="576" lry="636"/>
                 <zone xml:id="zone_252621ee-f35e-4924-a7a0-bda7129ff073" type="measure" ulx="548" uly="174" lrx="718" lry="636"/>
@@ -100,7 +100,7 @@
                 <zone xml:id="zone_0a3016bb-0db4-4ede-a671-2b242668a04a" type="measure" ulx="1388" uly="930" lrx="1524" lry="1956"/>
             </surface>
             <surface xml:id="surface_1849ec1d-c715-4cd7-b6ed-1d7c21c5a408" n="3" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_a91b1472-a74f-4a4a-b5a1-4be98cddfb26" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page03.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_a91b1472-a74f-4a4a-b5a1-4be98cddfb26" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page03.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_56494dd0-d67b-4476-bc16-e28d850dacf7" type="measure" ulx="0" uly="0" lrx="0" lry="0"/>
                 <zone xml:id="zone_5e68eca9-dfa7-4394-9171-eae7ca7bb2b1" type="measure" ulx="0" uly="0" lrx="0" lry="0"/>
                 <zone xml:id="zone_e8889986-b006-4dbc-b025-5ede70632f7d" type="measure" ulx="0" uly="0" lrx="0" lry="0"/>
@@ -151,7 +151,7 @@
                 <zone xml:id="zone_139ba044-6a89-43ef-a75b-f4c6830f4df4" type="measure" ulx="1152" uly="1836" lrx="1546" lry="2214"/>
             </surface>
             <surface xml:id="surface_3e33b30d-2247-4795-b1ef-d5b182dd52d5" n="4" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_1de3148e-4cf4-44bb-812e-78aa1b358704" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page04.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_1de3148e-4cf4-44bb-812e-78aa1b358704" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page04.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_7d2ea64c-bc1e-44d8-ba60-335a5fada4ea" type="measure" ulx="106" uly="144" lrx="556" lry="514"/>
                 <zone xml:id="zone_91f21c4f-dd92-4518-bac5-5f5697a3ccba" type="measure" ulx="524" uly="146" lrx="888" lry="504"/>
                 <zone xml:id="zone_530ea2d8-2ed1-4a4c-a6d8-44228cb72402" type="measure" ulx="854" uly="158" lrx="1248" lry="506"/>
@@ -175,7 +175,7 @@
                 <zone xml:id="zone_aac36070-fe3b-4dc0-b5d0-3ec1a85bfbed" type="measure" ulx="1286" uly="1846" lrx="1534" lry="2168"/>
             </surface>
             <surface xml:id="surface_6844b74d-9e43-40de-a82e-01c0e2a66aff" n="5" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_b3f1c7ca-6a17-4f42-8962-57d37c399ecb" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page05.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_b3f1c7ca-6a17-4f42-8962-57d37c399ecb" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page05.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_333d9057-24c0-4731-909e-6c615b804ac5" type="measure" ulx="122" uly="144" lrx="550" lry="498"/>
                 <zone xml:id="zone_7927f8ce-61b7-4dd3-896f-df9431e59f89" type="measure" ulx="518" uly="164" lrx="876" lry="484"/>
                 <zone xml:id="zone_ae9b9ee2-c5c0-4ebc-a85f-4d8701d85da0" type="measure" ulx="858" uly="168" lrx="1190" lry="490"/>
@@ -195,7 +195,7 @@
                 <zone xml:id="zone_9f573e67-cd29-4e20-b300-3f0d6678d7ed" type="measure" ulx="1222" uly="1266" lrx="1538" lry="2180"/>
             </surface>
             <surface xml:id="surface_9bc5408c-46c0-4ce7-96b7-2f69d0416099" n="6" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_91600ac7-e772-4bd3-8800-b5c909829aff" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page06.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_91600ac7-e772-4bd3-8800-b5c909829aff" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page06.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_5b2e07c9-287a-4c93-b3cc-1eccc0d51cc9" type="measure" ulx="92" uly="154" lrx="538" lry="1008"/>
                 <zone xml:id="zone_98881211-28e3-497d-9833-8b5eaa0321d6" type="measure" ulx="506" uly="166" lrx="776" lry="1002"/>
                 <zone xml:id="zone_feb3cb15-9926-4f58-a9a2-eb04f552793c" type="measure" ulx="748" uly="168" lrx="1010" lry="1014"/>
@@ -207,7 +207,7 @@
                 <zone xml:id="zone_4dcdf94d-ed72-416e-b6e5-6f9ab9eb3000" type="measure" ulx="1150" uly="1280" lrx="1536" lry="2148"/>
             </surface>
             <surface xml:id="surface_a1305589-3592-4e01-9d4c-1883147d21e2" n="7" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_ff9cdaf6-2f9a-4085-8874-05553c880152" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page07.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_ff9cdaf6-2f9a-4085-8874-05553c880152" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page07.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_1d70672a-b02a-4eed-91e6-eb1d8c719356" type="measure" ulx="96" uly="88" lrx="572" lry="1136"/>
                 <zone xml:id="zone_5654c693-68d5-4ab9-ae1a-0dfcb2ddde01" type="measure" ulx="544" uly="156" lrx="890" lry="1076"/>
                 <zone xml:id="zone_72fccf2c-672b-43f1-9b05-d3fd42bd1859" type="measure" ulx="848" uly="150" lrx="1236" lry="1058"/>
@@ -219,7 +219,7 @@
                 <zone xml:id="zone_7f56c2d7-da57-4285-98bc-54a750d618a9" type="measure" ulx="1286" uly="1290" lrx="1536" lry="2132"/>
             </surface>
             <surface xml:id="surface_1ee87201-6418-4988-9d99-acffdd549fdb" n="8" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_1775820e-0a31-4597-8739-ea8ea633ae22" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page08.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_1775820e-0a31-4597-8739-ea8ea633ae22" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page08.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_f109fdf7-5db9-4ce1-8658-2a40864d547c" type="measure" ulx="86" uly="170" lrx="616" lry="1058"/>
                 <zone xml:id="zone_3becadb9-d8fa-4b93-a8e0-b3d6d30b1644" type="measure" ulx="570" uly="156" lrx="906" lry="1064"/>
                 <zone xml:id="zone_cd193350-03e2-4ffd-a459-7c129563c7fa" type="measure" ulx="876" uly="166" lrx="1168" lry="1066"/>
@@ -231,7 +231,7 @@
                 <zone xml:id="zone_f0c2e3a2-d480-44a0-bcb5-c3c4c161ac82" type="measure" ulx="1234" uly="1274" lrx="1536" lry="2138"/>
             </surface>
             <surface xml:id="surface_9d6af4ef-b168-43f8-bda3-50ed50f8bc82" n="9" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_bb8ca1d7-e251-4e3e-bffc-e11d38789cb4" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page09.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_bb8ca1d7-e251-4e3e-bffc-e11d38789cb4" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page09.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_93891eab-afaa-4f7e-9fc0-6ab74980222a" type="measure" ulx="92" uly="134" lrx="552" lry="1026"/>
                 <zone xml:id="zone_b898dac0-6d3c-4e49-9739-7f61cdc2b5ee" type="measure" ulx="512" uly="164" lrx="860" lry="1014"/>
                 <zone xml:id="zone_a8de035d-19c1-47e6-ac40-f3ca6b84a77b" type="measure" ulx="828" uly="150" lrx="1168" lry="1020"/>
@@ -244,7 +244,7 @@
                 <zone xml:id="zone_e19449ee-3d82-4a9b-9192-6b8b1d180a4d" type="measure" ulx="1266" uly="1294" lrx="1532" lry="2112"/>
             </surface>
             <surface xml:id="surface_e2d7784e-a8eb-42e6-a1ae-3bd759900a8f" n="10" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_67fdd747-f2ee-422a-8799-9b8519c4ba48" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page10.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_67fdd747-f2ee-422a-8799-9b8519c4ba48" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page10.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_941ab39d-e1a2-468a-96bc-d44fd3d29430" type="measure" ulx="102" uly="152" lrx="472" lry="458"/>
                 <zone xml:id="zone_c18fcecf-d05c-403e-8910-15c555abf8d3" type="measure" ulx="438" uly="152" lrx="666" lry="462"/>
                 <zone xml:id="zone_6960ca72-6ef4-4a17-9782-e3a4495f99d2" type="measure" ulx="646" uly="154" lrx="914" lry="472"/>
@@ -257,7 +257,7 @@
                 <zone xml:id="zone_24429de0-4fdf-48c3-8fbc-15cf90c28c4d" type="measure" ulx="1254" uly="992" lrx="1540" lry="1956"/>
             </surface>
             <surface xml:id="surface_7b07a25d-1234-48c9-ae60-c93fecbc86af" n="11" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_baadc723-d479-4464-907c-1a26b7a14c81" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page11.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_baadc723-d479-4464-907c-1a26b7a14c81" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page11.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_ab953089-dcab-4f62-9cb3-a4bba34c2894" type="measure" ulx="94" uly="176" lrx="456" lry="1142"/>
                 <zone xml:id="zone_75e9609b-fdec-4771-ac75-f30740ef001d" type="measure" ulx="416" uly="178" lrx="734" lry="1168"/>
                 <zone xml:id="zone_56918023-0320-462c-8c95-0a0b57ccf13a" type="measure" ulx="702" uly="190" lrx="1022" lry="1160"/>
@@ -265,7 +265,7 @@
                 <zone xml:id="zone_046bc576-9726-41d2-8d5e-b76f52461881" type="measure" ulx="1296" uly="176" lrx="1538" lry="1156"/>
             </surface>
             <surface xml:id="surface_6ad91429-d670-409e-9eb0-af4d77af7d6b" n="12" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_59f18a9a-8cc3-4b34-804e-d008720fd1c4" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page12.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_59f18a9a-8cc3-4b34-804e-d008720fd1c4" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page12.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_3ae236a7-2492-4d4e-b9ab-cf8b7594e3e5" type="measure" ulx="78" uly="604" lrx="476" lry="1770"/>
                 <zone xml:id="zone_83d94e49-178e-4464-8162-8a526d93a262" type="measure" ulx="446" uly="616" lrx="610" lry="1752"/>
                 <zone xml:id="zone_205d1c0b-ece4-4fbd-92f0-c0fd38df8085" type="measure" ulx="580" uly="610" lrx="732" lry="1760"/>
@@ -277,7 +277,7 @@
                 <zone xml:id="zone_92cf004f-6d2d-4e5a-9c22-fbb913e9bf6e" type="measure" ulx="1362" uly="622" lrx="1534" lry="1776"/>
             </surface>
             <surface xml:id="surface_4e80c748-f04a-4ecf-8f02-2cfef73724bd" n="13" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_9e751dcd-cd95-4f8d-9364-bcb6e3268a72" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page13.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_9e751dcd-cd95-4f8d-9364-bcb6e3268a72" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page13.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_2538db38-006c-47d4-b3c8-741dc2c4e451" type="measure" ulx="90" uly="144" lrx="478" lry="1020"/>
                 <zone xml:id="zone_f47c6351-d001-46f1-b147-bc80f4561230" type="measure" ulx="442" uly="160" lrx="594" lry="1010"/>
                 <zone xml:id="zone_26c54eee-2a23-4e0a-8d74-54d9fe1666a8" type="measure" ulx="564" uly="152" lrx="824" lry="1004"/>
@@ -294,7 +294,7 @@
                 <zone xml:id="zone_a285040c-7126-401a-943b-9688d6067814" type="measure" ulx="1250" uly="1220" lrx="1512" lry="2136"/>
             </surface>
             <surface xml:id="surface_1e7f650e-d774-4e57-ac3d-e6e9183b4da0" n="14" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_df1a1240-8917-43a8-8c8b-e44bbae631cd" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page14.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_df1a1240-8917-43a8-8c8b-e44bbae631cd" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page14.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_6372598c-0418-42aa-b8c3-0fd00ce47120" type="measure" ulx="138" uly="288" lrx="468" lry="726"/>
                 <zone xml:id="zone_6a87dfbc-9dd4-4632-a21f-ed9e7cd1e41e" type="measure" ulx="434" uly="288" lrx="702" lry="730"/>
                 <zone xml:id="zone_35b63345-bfac-4640-ab64-f5ea34c3bf0b" type="measure" ulx="670" uly="284" lrx="998" lry="738"/>
@@ -310,7 +310,7 @@
                 <zone xml:id="zone_928ed015-8735-4dd8-a882-e7bfe63b3722" type="measure" ulx="1346" uly="1664" lrx="1548" lry="2102"/>
             </surface>
             <surface xml:id="surface_4aebef46-c4af-47a9-8b27-10f64fd2a980" n="15" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_c29150a4-470c-4b56-a0ae-57ed72a27251" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page15.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_c29150a4-470c-4b56-a0ae-57ed72a27251" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page15.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_76f6aee6-2d64-4987-9c2a-ff07ec0bfba7" type="measure" ulx="176" uly="220" lrx="548" lry="534"/>
                 <zone xml:id="zone_d1086cb1-2c61-4d2d-8c99-5c7766a12440" type="measure" ulx="510" uly="224" lrx="748" lry="542"/>
                 <zone xml:id="zone_32df8eb8-dbcb-4bdc-a711-f7695994f68f" type="measure" ulx="718" uly="230" lrx="942" lry="530"/>
@@ -336,7 +336,7 @@
                 <zone xml:id="zone_ef3c2043-3aa0-4e80-a1d0-541935429831" type="measure" ulx="1214" uly="1788" lrx="1524" lry="2186"/>
             </surface>
             <surface xml:id="surface_a18d4484-bd60-4c03-8abe-a16283344b66" n="16" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_640a57fd-65ab-479d-ae05-54edea1f584e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page16.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_640a57fd-65ab-479d-ae05-54edea1f584e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page16.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_08cdcdcb-03f4-40e0-8a0f-5360abdbdcbf" type="measure" ulx="100" uly="170" lrx="434" lry="630"/>
                 <zone xml:id="zone_fc4d6ccb-3aa1-4b17-8954-e9ea38699038" type="measure" ulx="410" uly="174" lrx="744" lry="602"/>
                 <zone xml:id="zone_073329a1-3e31-4fc8-9c44-6ba6a6b703ec" type="measure" ulx="710" uly="180" lrx="932" lry="612"/>
@@ -359,7 +359,7 @@
                 <zone xml:id="zone_b2c46e3b-4b38-4131-aa81-a08163a6b23a" type="measure" ulx="1204" uly="1772" lrx="1524" lry="2172"/>
             </surface>
             <surface xml:id="surface_7ecd5e4a-8ff7-4347-86e0-475281a7f504" n="17" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_fbaaaf1d-e5b1-4e80-b473-4a184eff708b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page17.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_fbaaaf1d-e5b1-4e80-b473-4a184eff708b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page17.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_153e7bd9-9cc2-4bcc-bd63-c1fe0000b9d8" type="measure" ulx="96" uly="162" lrx="558" lry="550"/>
                 <zone xml:id="zone_32446c36-c0f3-4a1c-8a73-28835b837a22" type="measure" ulx="522" uly="160" lrx="744" lry="562"/>
                 <zone xml:id="zone_73b03a7a-69ab-49c0-97df-839da97f4cf8" type="measure" ulx="712" uly="164" lrx="1044" lry="568"/>
@@ -385,7 +385,7 @@
                 <zone xml:id="zone_9aa415fc-55e1-4b85-a77a-8779619d2b77" type="measure" ulx="1184" uly="1784" lrx="1526" lry="2196"/>
             </surface>
             <surface xml:id="surface_47cf46dd-91ab-45b1-a4f5-e896eda98a12" n="18" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_3b58bfe7-370d-4aab-bcd6-041357bb014e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page18.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_3b58bfe7-370d-4aab-bcd6-041357bb014e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page18.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_547d0a37-aaee-4c37-bf93-db66ec791fff" type="measure" ulx="98" uly="168" lrx="490" lry="600"/>
                 <zone xml:id="zone_1d6823e6-bc4b-4d93-af3a-0ac224f8b21d" type="measure" ulx="448" uly="160" lrx="796" lry="606"/>
                 <zone xml:id="zone_31bef62d-25ee-4efb-8d32-54cc0db9ada6" type="measure" ulx="766" uly="164" lrx="1004" lry="606"/>
@@ -405,7 +405,7 @@
                 <zone xml:id="zone_26e2c242-3241-4f6c-bbe2-89c697f674e8" type="measure" ulx="1270" uly="1528" lrx="1532" lry="1834"/>
             </surface>
             <surface xml:id="surface_21198101-9b51-4f03-b21f-2c8a684547a6" n="19" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_9b75feca-35c6-48d5-9339-0810c4da4f3d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page19.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_9b75feca-35c6-48d5-9339-0810c4da4f3d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page19.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_d149f7b9-11b0-4c1f-b196-4ee33bfb5dfa" type="measure" ulx="80" uly="298" lrx="468" lry="1094"/>
                 <zone xml:id="zone_5c753f86-db6b-44e5-be1a-f41bbe08ef0c" type="measure" ulx="428" uly="298" lrx="588" lry="1094"/>
                 <zone xml:id="zone_75ba4ea7-8696-46ed-bb43-2602099d421b" type="measure" ulx="548" uly="298" lrx="690" lry="1094"/>
@@ -422,7 +422,7 @@
                 <zone xml:id="zone_f863cb3b-21d3-4bab-b824-ba0824dd4ae3" type="measure" ulx="1316" uly="1342" lrx="1536" lry="2130"/>
             </surface>
             <surface xml:id="surface_9406c261-4022-4ceb-be41-58ee7c5894ac" n="20" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_f5524ffe-98a5-4f4d-bb83-b1fdb7234991" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page20.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_f5524ffe-98a5-4f4d-bb83-b1fdb7234991" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page20.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_9fc48f8a-bbf1-463c-a43d-dd1dfc32d373" type="measure" ulx="142" uly="246" lrx="746" lry="614"/>
                 <zone xml:id="zone_1fc0fda5-7094-4007-b32a-bc6b0248751f" type="measure" ulx="706" uly="250" lrx="1140" lry="614"/>
                 <zone xml:id="zone_6cb43a8e-6fa0-45b6-9fd7-deff96cd1410" type="measure" ulx="1102" uly="258" lrx="1530" lry="606"/>
@@ -434,7 +434,7 @@
                 <zone xml:id="zone_497334b6-ddc4-44cd-b48f-68a5be0872ba" type="measure" ulx="1344" uly="620" lrx="1530" lry="1004"/>
             </surface>
             <surface xml:id="surface_63c52cbc-bd81-4f49-95fc-75df7d081b57" n="21" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_a12dead2-c5b0-4aa4-aef4-3ba0eef09445" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page21.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_a12dead2-c5b0-4aa4-aef4-3ba0eef09445" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page21.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_a96f39d5-4d87-46dd-9226-36db53b7ce56" type="measure" ulx="168" uly="248" lrx="514" lry="556"/>
                 <zone xml:id="zone_6a1f6063-d0ca-4eee-9dc6-7b41699f9daa" type="measure" ulx="480" uly="256" lrx="674" lry="568"/>
                 <zone xml:id="zone_f973bc4d-9c76-469d-ba04-6a535f933d90" type="measure" ulx="646" uly="252" lrx="878" lry="566"/>
@@ -459,7 +459,7 @@
                 <zone xml:id="zone_4050242c-c94c-4f0f-ba7c-23fdfce5f2a0" type="measure" ulx="1292" uly="1564" lrx="1536" lry="2140"/>
             </surface>
             <surface xml:id="surface_de6a2dc7-7085-4c6f-8976-e469a0b01970" n="22" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_8a33ab3e-5b0a-47ea-8a2f-f1e49df378dc" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page22.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_8a33ab3e-5b0a-47ea-8a2f-f1e49df378dc" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page22.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_e508b717-13f6-48db-a84a-a750857c2d8e" type="measure" ulx="100" uly="150" lrx="402" lry="774"/>
                 <zone xml:id="zone_904e6d0d-6691-4959-b8af-d1a0c454b9c4" type="measure" ulx="366" uly="164" lrx="540" lry="778"/>
                 <zone xml:id="zone_98f3b787-754d-4524-820d-68dc38179faf" type="measure" ulx="510" uly="170" lrx="702" lry="780"/>
@@ -485,7 +485,7 @@
                 <zone xml:id="zone_3b629680-0cb0-470f-a546-6c9f87eadec7" type="measure" ulx="1250" uly="1700" lrx="1532" lry="2136"/>
             </surface>
             <surface xml:id="surface_47f4c11b-a8fb-44eb-b1a4-0383fbb4a449" n="23" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_1897d888-f69e-4251-b0be-74a6d75e5c25" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page23.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_1897d888-f69e-4251-b0be-74a6d75e5c25" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page23.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_ce3159ea-33fb-4113-a666-28e096301719" type="measure" ulx="102" uly="154" lrx="498" lry="648"/>
                 <zone xml:id="zone_17d3f91b-db4f-4d38-886c-a0170e1485d5" type="measure" ulx="462" uly="164" lrx="692" lry="658"/>
                 <zone xml:id="zone_d002817f-83a5-4853-8657-936324504841" type="measure" ulx="660" uly="170" lrx="874" lry="656"/>
@@ -511,7 +511,7 @@
                 <zone xml:id="zone_c862d9eb-ddbf-4d13-bcf0-51150ff85b4f" type="measure" ulx="1244" uly="1656" lrx="1536" lry="2198"/>
             </surface>
             <surface xml:id="surface_f68a7198-3273-4ed6-b5cc-2a6fadb77f26" n="24" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_5c65498d-cc95-4dcb-b694-af9250182229" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page24.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_5c65498d-cc95-4dcb-b694-af9250182229" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page24.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_196efe2e-dfdf-4d9f-be4d-1a65b165483b" type="measure" ulx="92" uly="130" lrx="476" lry="720"/>
                 <zone xml:id="zone_385cb8b1-30fd-4891-9fe5-d8c7a317504b" type="measure" ulx="442" uly="144" lrx="694" lry="714"/>
                 <zone xml:id="zone_ff9663fa-a809-471b-8f27-5ab7e77a31cb" type="measure" ulx="660" uly="154" lrx="898" lry="704"/>
@@ -537,7 +537,7 @@
                 <zone xml:id="zone_85aeaf51-24bd-479c-88d6-c625ec82273e" type="measure" ulx="1340" uly="1556" lrx="1540" lry="2154"/>
             </surface>
             <surface xml:id="surface_c888d564-404e-4172-be5e-776d4d8803a9" n="25" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_1fc0ea77-6b92-47ca-9f57-b3f7d1d30016" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page25.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_1fc0ea77-6b92-47ca-9f57-b3f7d1d30016" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page25.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_69e7f3da-2639-4acf-a582-37962d326c7e" type="measure" ulx="94" uly="160" lrx="416" lry="762"/>
                 <zone xml:id="zone_7812a81d-4603-4cb1-9823-a9cf12f77c00" type="measure" ulx="394" uly="176" lrx="590" lry="750"/>
                 <zone xml:id="zone_f7a04c82-76c9-4bbd-85d2-05e2c48d76a3" type="measure" ulx="556" uly="176" lrx="736" lry="760"/>
@@ -549,7 +549,7 @@
                 <zone xml:id="zone_5e3e9a16-e5a9-4df6-8386-3ba85df8525f" type="measure" ulx="1394" uly="192" lrx="1532" lry="752"/>
             </surface>
             <surface xml:id="surface_b186b771-4b2c-4e72-b89f-65cb39f7bb6b" n="26" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_a4c413fa-3454-4ad9-b1d3-b64506883628" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page26.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_a4c413fa-3454-4ad9-b1d3-b64506883628" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page26.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_faf5e792-063f-4f11-b4cb-34f3916f69cb" type="measure" ulx="166" uly="290" lrx="554" lry="578"/>
                 <zone xml:id="zone_56d5d0d2-710a-470c-b80b-d070533e27ff" type="measure" ulx="528" uly="298" lrx="810" lry="586"/>
                 <zone xml:id="zone_8e1ef671-305f-4081-9b9b-853e321499e2" type="measure" ulx="780" uly="300" lrx="1060" lry="576"/>
@@ -568,7 +568,7 @@
                 <zone xml:id="zone_5dc0dd92-807f-4e07-89bb-5279ba7ad548" type="measure" ulx="1228" uly="1272" lrx="1536" lry="2118"/>
             </surface>
             <surface xml:id="surface_2e68ca21-0ed4-49b4-9e01-975fec276d72" n="27" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_0d7a5452-5564-4f22-974b-425bc8eea315" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page27.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_0d7a5452-5564-4f22-974b-425bc8eea315" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page27.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_99001b8a-babc-4fc6-bcab-1ec60dba189f" type="measure" ulx="102" uly="160" lrx="442" lry="1122"/>
                 <zone xml:id="zone_e89b0b98-6d21-47cc-9db0-df60e3230b64" type="measure" ulx="414" uly="164" lrx="652" lry="1116"/>
                 <zone xml:id="zone_3bf4f791-9ecf-4f16-bcba-798c66dda260" type="measure" ulx="622" uly="178" lrx="852" lry="1120"/>
@@ -582,7 +582,7 @@
                 <zone xml:id="zone_164bdeb8-1d08-485d-b22e-0c2fcde9679f" type="measure" ulx="1314" uly="1268" lrx="1536" lry="2166"/>
             </surface>
             <surface xml:id="surface_387bda72-915a-4c0a-b7c1-0d456171b590" n="28" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_15778b64-e31b-44d6-bc28-0445a01fec93" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page28.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_15778b64-e31b-44d6-bc28-0445a01fec93" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page28.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_978b2ab2-b5c4-46ea-865d-ad4b4f47b271" type="measure" ulx="90" uly="176" lrx="504" lry="1130"/>
                 <zone xml:id="zone_e2eaf3c8-a9d1-40bf-a4f9-911a18c34592" type="measure" ulx="462" uly="168" lrx="610" lry="1146"/>
                 <zone xml:id="zone_874a7402-d92b-4e74-abf5-a33a440ce70e" type="measure" ulx="580" uly="160" lrx="808" lry="1136"/>
@@ -592,7 +592,7 @@
                 <zone xml:id="zone_2cbcc2b4-2192-40ab-8cfe-428e4174c91c" type="measure" ulx="1374" uly="164" lrx="1538" lry="1128"/>
             </surface>
             <surface xml:id="surface_1175d4f0-8c5b-4124-94c5-5cecffefc64e" n="29" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_b28d2259-b8eb-49d4-be67-f3e3708b6784" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page29.png" type="facsimile" width="1654" height="2339"/>
+                <graphic xml:id="graphic_b28d2259-b8eb-49d4-be67-f3e3708b6784" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page29.png?dh=1000" type="facsimile" width="1654" height="2339"/>
                 <zone xml:id="zone_7f7d0c4e-5f50-420d-9c8a-cb9c237a4b66" type="measure" ulx="134" uly="280" lrx="522" lry="812"/>
                 <zone xml:id="zone_db50c3c0-a6e4-4984-94b4-7cf05e23df7d" type="measure" ulx="498" uly="298" lrx="684" lry="790"/>
                 <zone xml:id="zone_a2011eef-e627-4e10-85e1-8c6f5ce71854" type="measure" ulx="648" uly="282" lrx="860" lry="800"/>
@@ -615,7 +615,7 @@
                 <zone xml:id="zone_1e8a4035-c650-46d2-bad8-75d3473f97e7" type="measure" ulx="1394" uly="1664" lrx="1528" lry="2160"/>
             </surface>
             <surface xml:id="surface_99be5a8d-3ae1-4650-8fe4-d1515bc59ebd" n="30" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_e696afb5-7bee-4041-b54b-d942b812de6d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page30.png" type="facsimile" width="1654" height="2339"/> 
+                <graphic xml:id="graphic_e696afb5-7bee-4041-b54b-d942b812de6d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page30.png?dh=1000" type="facsimile" width="1654" height="2339"/> 
                 <zone xml:id="zone_06885a5b-867d-452c-bb03-32ed2be092f6" type="measure" ulx="164" uly="256" lrx="566" lry="604"/>
                 <zone xml:id="zone_4ca290b6-9f05-45fa-b1d2-e30eeb2606a6" type="measure" ulx="524" uly="274" lrx="806" lry="590"/>
                 <zone xml:id="zone_468bc886-273d-4ca7-9288-f6c71d0a9731" type="measure" ulx="770" uly="272" lrx="1032" lry="586"/>
@@ -636,7 +636,7 @@
                 <zone xml:id="zone_8644733d-8549-49cb-aae8-d171714c2493" type="measure" ulx="1278" uly="1338" lrx="1538" lry="2134"/>
             </surface>
             <surface xml:id="surface_3de1dc6b-bfb8-4d11-8008-c57da09e57ce" n="31" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_f8d8f5e1-997e-4594-ad20-5766b5946f2f" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page31.png" type="facsimile" width="1654" height="2339"/> 
+                <graphic xml:id="graphic_f8d8f5e1-997e-4594-ad20-5766b5946f2f" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page31.png?dh=1000" type="facsimile" width="1654" height="2339"/> 
                 <zone xml:id="zone_6a6e4456-c92c-4123-8bc0-ada6a26ff3dd" type="measure" ulx="98" uly="148" lrx="402" lry="936"/>
                 <zone xml:id="zone_6da244d6-6b0a-4489-af46-309442aa5258" type="measure" ulx="376" uly="158" lrx="630" lry="934"/>
                 <zone xml:id="zone_7c9546a5-ee08-4702-8d25-d4d83c16e54c" type="measure" ulx="598" uly="174" lrx="884" lry="952"/>
@@ -658,7 +658,7 @@
                 <zone xml:id="zone_819bb76b-3182-4046-b0a3-1cf3c1958f98" type="measure" ulx="1264" uly="1398" lrx="1538" lry="2176"/>
             </surface>
             <surface xml:id="surface_fdf9cbfe-bd4a-4e38-80c4-419b5eab76cd" n="32" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_696c53a5-467e-414b-97ee-fdd257006bce" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page32.png" type="facsimile" width="1654" height="2339"/> 
+                <graphic xml:id="graphic_696c53a5-467e-414b-97ee-fdd257006bce" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page32.png?dh=1000" type="facsimile" width="1654" height="2339"/> 
                 <zone xml:id="zone_daa64ac3-c03e-400c-8be6-dbeb10a62164" type="measure" ulx="96" uly="142" lrx="436" lry="974"/>
                 <zone xml:id="zone_ebeccf66-ccbb-4a24-b1e1-a93d9ab08746" type="measure" ulx="416" uly="156" lrx="634" lry="966"/>
                 <zone xml:id="zone_b0416641-270e-44c7-ade8-3a487078a47f" type="measure" ulx="604" uly="152" lrx="810" lry="974"/>
@@ -673,7 +673,7 @@
                 <zone xml:id="zone_9a8cc608-2a09-417c-b537-1d3f7c4720ab" type="measure" ulx="1326" uly="1238" lrx="1538" lry="2094"/>
             </surface>
             <surface xml:id="surface_5723f5c5-48c9-4495-8e93-333ad7469cc8" n="33" ulx="0" uly="0" lrx="1654" lry="2339">
-                <graphic xml:id="graphic_d6ebdc66-4a8d-4309-bcb8-b063b92ef9d1" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page33.png" type="facsimile" width="1654" height="2339"/> 
+                <graphic xml:id="graphic_d6ebdc66-4a8d-4309-bcb8-b063b92ef9d1" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-d6e943c3/DR-doctoral-thesis-part1-2-music-pianoReduction-page33.png?dh=1000" type="facsimile" width="1654" height="2339"/> 
                 <zone xml:id="zone_53d45dba-d1d6-4490-a1e2-57618e44550b" type="measure" ulx="110" uly="144" lrx="434" lry="974"/>
                 <zone xml:id="zone_09bd7f8b-0b25-4edc-ab2d-c9c768ca70bc" type="measure" ulx="406" uly="160" lrx="592" lry="968"/>
                 <zone xml:id="zone_51905d1e-7b9a-44c4-a31c-5b406e86b1e9" type="measure" ulx="562" uly="160" lrx="728" lry="974"/>
