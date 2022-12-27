@@ -1,4 +1,5 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-3dc71f3f" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-3dc71f3f" meiversion="5.0.0-dev">
   <meiHead>
     <fileDesc>
       <titleStmt>
@@ -19,8 +20,8 @@
             <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
           </composer>
           <lyricist xml:id="baudi-01-ed0d187e-lyricist">
-                        <name xml:id="bible">Die Bibel</name>
-                    </lyricist>
+            <name xml:id="bible">Die Bibel</name>
+          </lyricist>
         </titleStmt>
         <physDesc>
           <bindingDesc>
@@ -36,35 +37,23 @@
           <condition>Das Exemplar weißt Gebrauchsspuren auf.</condition>
           <stamp>
             <locus>
-                            <rend>Badische Landesbibliothek | Karlsruhe</rend>
+              <rend>Badische Landesbibliothek | Karlsruhe</rend>
               <locus>4r, central</locus>
-                        </locus>
+            </locus>
           </stamp>
           <extent unit="folio">11</extent>
           <extent unit="page">19</extent>
           <dimensions>
             <width unit="mm">235</width>
             <height unit="mm">309</height>
-                    </dimensions>
+          </dimensions>
           <titlePage facs="#surface-5">
-            <p>Kantate<lb/>
-               Den Gefallenen zum Gedächtnis, den Trauernden<lb/>
-               zum Trost<lb/>
-               von<lb/>
-               LUDWIG BAUMANN</p>
-            <p>KOMPONIERT FÜR MÄNNERCHOR,<lb/>
-               TENOR= ODER SOPRAN=SOLO,<lb/>
-               KNABEN= ODER FRAUEN=<lb/>
-               CHOR, ORCHESTER UND<lb/>
-               ORGEL AD LIBITUM</p>
-            <p>Große Orchester = Partitur sowie Orchestermaterial leihweise<lb/>
-               Klavier=Auszug Mk. 3.– + Männerchorstimmen à 40 Pfg.<lb/>
-               Knaben= oder Frauenchorstimmen . . . . . . . . à 20 Pfg.</p>
+            <p>Kantate<lb/> Den Gefallenen zum Gedächtnis, den Trauernden<lb/> zum Trost<lb/> von<lb/> LUDWIG BAUMANN</p>
+            <p>KOMPONIERT FÜR MÄNNERCHOR,<lb/> TENOR= ODER SOPRAN=SOLO,<lb/> KNABEN= ODER FRAUEN=<lb/> CHOR, ORCHESTER UND<lb/> ORGEL AD LIBITUM</p>
+            <p>Große Orchester = Partitur sowie Orchestermaterial leihweise<lb/> Klavier=Auszug Mk. 3.– + Männerchorstimmen à 40 Pfg.<lb/> Knaben= oder Frauenchorstimmen . . . . . . . . à 20 Pfg.</p>
             <p>VERLAG UND EIGENTUM FÜR ALLE LÄNDER</p>
-            <p>FRITZ MÜLLER, SÜDDEUTSCHER MUSIKVERLAG<lb/>
-               KARLSRUHE i. B.</p>
-            <p>COPYRIGHT 1928 BY FRITZ MÜLLER, SÜDDEUTSCHER MUSIKVERLAG<lb/>
-               KARLSRUHE i. B.</p>
+            <p>FRITZ MÜLLER, SÜDDEUTSCHER MUSIKVERLAG<lb/> KARLSRUHE i. B.</p>
+            <p>COPYRIGHT 1928 BY FRITZ MÜLLER, SÜDDEUTSCHER MUSIKVERLAG<lb/> KARLSRUHE i. B.</p>
           </titlePage>
           <foliaDesc>
             <!-- the numbers in the attributes correspond to surface/@n !!! -->
@@ -107,7 +96,7 @@
             <corpName>Badische Landesbibliothek</corpName>
             <address>
               <street>Erbprinzenstraße <num>15</num>
-                            </street>
+              </street>
               <postCode>76133</postCode>
               <settlement>Karlsruhe</settlement>
               <country codedval="de">Deutschland</country>
@@ -121,10 +110,9 @@
         <notesStmt>
           <annot facs="#surface-3" resp="#hand-03" type="biblNote" plist="N-oriented">M 302, KLAV</annot>
           <annot facs="#zone_9b3b2219-4b8c-40c6-8ffa-0b7a434494a9" resp="#hand-04">
-                        <p>
-                            <rend halign="center">Den Gefallenen.<lb/>
-                 (Der Geworbene.)</rend>
-                            <lb/>
+            <p>
+              <rend halign="center">Den Gefallenen.<lb/> (Der Geworbene.)</rend>
+              <lb/>
               <lg>
                 <l>Sie gruben einen Soldaten ein,</l>
                 <l>Sie trommelten, prästierten,</l>
@@ -136,14 +124,13 @@
               <lg>
                 <l>Und wie hernach die Trommel schlug</l>
                 <l>Dem Kriegsmann in der Erden,</l>
-                <l>Dem schwur der Knab', der 's Kreuz<lb/>
-                   ihm trug,</l>
+                <l>Dem schwur der Knab', der 's Kreuz<lb/> ihm trug,</l>
                 <l>Auch ein Soldat zu werden.</l>
                 <l>Wohlan, Kamerad, wohlan!</l>
               </lg>
               <rend halign="center">— • —</rend>
             </p>
-                    </annot>
+          </annot>
         </notesStmt>
         <classification>
           <termList>
@@ -155,11 +142,8 @@
         <itemList>
           <item>
             <history>
-              <p>Drucktechnisch ist das vorliegende Exemplar identisch mit dem <title auth="baudi-01-bdfac5dd">Erstdruck des Klavierauszugs</title>. Die Eintragungen in der Handschrift des Komponisten deuteten darauf hin, dass es sich hier um das Handexemplar
-                Baumanns handelt. Der Komponist muss dieses Exemplar vor der Uraufführung erhalten haben, da die Einklebungen nahelegen, dass es bei der Uraufführung verwendet wurde. Von wann die autographen Eintragungen stammen (Ur- oder spätere Aufführung) ist
-                nicht mit Sicherheit zu bestimmen.</p>
-              <provenance>Seit 1928 (Veröffentlichungsjahr), im Besitz von Ludwig Baumann. Nach Baumanns Tod ging es in den Besitz der Nachkommen über. Schließlich wurde das Exemplar als Teil des musikalischen Nachlasses Baumanns an die Badische Landesbibliothek
-                übergeben.</provenance>
+              <p>Drucktechnisch ist das vorliegende Exemplar identisch mit dem <title auth="baudi-01-bdfac5dd">Erstdruck des Klavierauszugs</title>. Die Eintragungen in der Handschrift des Komponisten deuteten darauf hin, dass es sich hier um das Handexemplar Baumanns handelt. Der Komponist muss dieses Exemplar vor der Uraufführung erhalten haben, da die Einklebungen nahelegen, dass es bei der Uraufführung verwendet wurde. Von wann die autographen Eintragungen stammen (Ur- oder spätere Aufführung) ist nicht mit Sicherheit zu bestimmen.</p>
+              <provenance>Seit 1928 (Veröffentlichungsjahr), im Besitz von Ludwig Baumann. Nach Baumanns Tod ging es in den Besitz der Nachkommen über. Schließlich wurde das Exemplar als Teil des musikalischen Nachlasses Baumanns an die Badische Landesbibliothek übergeben.</provenance>
             </history>
           </item>
         </itemList>

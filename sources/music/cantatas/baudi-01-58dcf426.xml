@@ -1,4 +1,5 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0.0-dev" xml:id="baudi-01-58dcf426">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0.0-dev" xml:id="baudi-01-58dcf426">
       <meiHead>
             <fileDesc>
                   <titleStmt>
@@ -1563,7 +1564,13 @@
                                           <measure n="20" label="20" xml:id="measure_7c1cd8e5-94e9-4768-bde9-fadd68966fc2" facs="#zone_e356eee9-fe20-47b3-8e9f-6f9a8d8b9e81"/>
                                           <measure n="21" label="21" xml:id="measure_6e4ccf8b-6f1b-4d36-aaed-184c85689489" facs="#zone_339489b1-bc90-43c7-8c89-930cff308c2d"/>
                                           <measure n="22" label="22" xml:id="measure_ee4eeb3c-7b1e-4e01-89e9-ef1bfb828292" facs="#zone_ba8f8c39-c20b-4fc8-a463-30682f3c54df"/>
-                                          <measure n="23" label="23" xml:id="measure_976b7fb9-8443-45f6-8b19-41c4a4c6f4fe" facs="#zone_a6fcb47d-1125-42bd-be46-78eb2fb07bf9"><staff><layer><multiRest num="5"/></layer></staff></measure>
+                                          <measure n="23" label="23" xml:id="measure_976b7fb9-8443-45f6-8b19-41c4a4c6f4fe" facs="#zone_a6fcb47d-1125-42bd-be46-78eb2fb07bf9">
+                                                <staff>
+                                                      <layer>
+                                                            <multiRest num="5"/>
+                                                      </layer>
+                                                </staff>
+                                          </measure>
                                           <del>
                                                 <measure n="24" label="24" xml:id="measure_5982f607-e6f4-46a2-aa8c-d18d8689a881" facs="#zone_8cc8bbc4-7ede-4118-a423-5e732c48ea0a"/>
                                                 <measure n="25" label="25" xml:id="measure_07bf376b-532c-48d3-bd23-e4681cff12ba" facs="#zone_e64aff45-ae9d-492a-abbd-373eb19a3459"/>
@@ -1592,10 +1599,10 @@
                                           <measure n="47" label="47" xml:id="measure_0d3306d2-b93f-4f9a-aaf6-1291443e9d96" facs="#zone_db8bc5f0-61b1-478d-92d5-4d188e0df57a"/>
                                           <measure n="48" label="48" xml:id="measure_aa94dba2-3dff-4396-b3c8-4b7cebedabe1" facs="#zone_9d899165-5d90-47e1-aed2-24ef0db0ee8f"/>
                                           <add>
-                                          <measure n="49" label="24" xml:id="measure_f02ff10a-e68b-40a6-94b7-d4d2e1631f21" facs="#zone_c76ea466-bf73-4f8a-874e-2b00af57d42b"/>
-                                          <measure n="50" label="25" xml:id="measure_c9043942-fadb-431f-95a8-1c5b443444a4" facs="#zone_b92316fa-3041-42f3-9323-f929336c53d8"/>
-                                          <measure n="51" label="26" xml:id="measure_a1b1e1f1-34ec-4bc9-9d8c-be5220af698d" facs="#zone_9b90cad6-e5e3-4d92-a57d-e22e7a107103"/>
-                                          <measure n="52" label="27" xml:id="measure_f4d80eaf-36ec-48d7-ad41-f59c10379734" facs="#zone_87893ee0-69b2-4fb0-88e2-3c1776aef50c"/>
+                                                <measure n="49" label="24" xml:id="measure_f02ff10a-e68b-40a6-94b7-d4d2e1631f21" facs="#zone_c76ea466-bf73-4f8a-874e-2b00af57d42b"/>
+                                                <measure n="50" label="25" xml:id="measure_c9043942-fadb-431f-95a8-1c5b443444a4" facs="#zone_b92316fa-3041-42f3-9323-f929336c53d8"/>
+                                                <measure n="51" label="26" xml:id="measure_a1b1e1f1-34ec-4bc9-9d8c-be5220af698d" facs="#zone_9b90cad6-e5e3-4d92-a57d-e22e7a107103"/>
+                                                <measure n="52" label="27" xml:id="measure_f4d80eaf-36ec-48d7-ad41-f59c10379734" facs="#zone_87893ee0-69b2-4fb0-88e2-3c1776aef50c"/>
                                           </add>
                                           <sb/>
                                           <pb/>
@@ -1627,7 +1634,13 @@
                                           <measure n="20" label="20" xml:id="measure_7c062038-e9f3-41a8-8cdc-d779450b525e" facs="#zone_a6fbbceb-639d-4b33-9885-3c9fa0588053"/>
                                           <measure n="21" label="21" xml:id="measure_07aa31a3-fdc7-4349-9b51-c4d73d4a3430" facs="#zone_88273dff-dc6c-4ca8-9a58-5d1ff59d839b"/>
                                           <measure n="22" label="22" xml:id="measure_f3ea51ae-4a53-49c2-9509-7d97fe009d79" facs="#zone_1105e8bf-0ea5-4b3c-be40-0be51110973a"/>
-                                          <measure n="23" label="23" xml:id="measure_cee2fef7-2972-487a-bc0c-5d6b63a2721e" facs="#zone_e53287f3-1101-44cd-b49b-5e2dfd1ba65f"><staff><layer><multiRest num="5"/></layer></staff></measure>
+                                          <measure n="23" label="23" xml:id="measure_cee2fef7-2972-487a-bc0c-5d6b63a2721e" facs="#zone_e53287f3-1101-44cd-b49b-5e2dfd1ba65f">
+                                                <staff>
+                                                      <layer>
+                                                            <multiRest num="5"/>
+                                                      </layer>
+                                                </staff>
+                                          </measure>
                                           <del>
                                                 <measure n="24" label="24" xml:id="measure_46ffd9d2-7e8a-4704-b5ad-69a5e9b015cf" facs="#zone_f65e319c-57d2-469d-a433-cd8c82df86d2"/>
                                                 <measure n="25" label="25" xml:id="measure_2fc13d3f-befb-4e51-838c-e965cc0103a4" facs="#zone_e90d5755-d190-4eb2-8ad5-6549ace56f16"/>
@@ -2441,7 +2454,13 @@
                                           <measure n="40" label="40" xml:id="measure_685449b0-7b9b-4216-8f6e-42561f65457c" facs="#zone_5c123ef4-967e-4f45-85b3-ca8af1e5ea05"/>
                                           <measure n="41" label="41" xml:id="measure_95c65b4c-82c1-40df-93af-eb9fcd484382" facs="#zone_c75a2680-4f4c-45b4-8b3e-2cb3e240f575"/>
                                           <measure n="42" label="42" xml:id="measure_b9085811-5086-4ec8-892b-f92b425b3b9d" facs="#zone_abc06271-8cdf-47f3-8c6a-ef0a4ab3db45"/>
-                                          <measure n="43" label="43" xml:id="measure_460280ce-e872-4b59-ad42-13a1f6a8e47d" facs="#zone_4235262d-06c9-4c4a-a805-d2c7fcfe5bf9"><staff><layer><multiRest num="2"/></layer></staff></measure>
+                                          <measure n="43" label="43" xml:id="measure_460280ce-e872-4b59-ad42-13a1f6a8e47d" facs="#zone_4235262d-06c9-4c4a-a805-d2c7fcfe5bf9">
+                                                <staff>
+                                                      <layer>
+                                                            <multiRest num="2"/>
+                                                      </layer>
+                                                </staff>
+                                          </measure>
                                           <supplied>
                                                 <measure n="44" label="44" xml:id="measure_c8e69d9b-a463-4838-99fd-018bdc581cb2" facs="#zone_4235262d-06c9-4c4a-a805-d2c7fcfe5bf9"/>
                                           </supplied>
@@ -2497,7 +2516,13 @@
                                           <measure n="38" label="38" xml:id="measure_274cab0b-9f84-4941-bb4f-5e989035c85d" facs="#zone_5dbb4a34-2cb4-462f-9491-d3d9ab02e118"/>
                                           <measure n="39" label="39" xml:id="measure_152f0664-5ea1-43f4-9939-4b1197754814" facs="#zone_59858f72-1df4-4b22-84ee-a1d79210f56a"/>
                                           <measure n="40" label="40" xml:id="measure_a6671475-7fcc-4240-b386-45ed3f3c70ba" facs="#zone_fef395cc-9f7d-4475-91f1-e42e504c3244"/>
-                                          <measure n="41" label="41" xml:id="measure_35549b88-f974-407c-bb6e-fc34d2134e0e" facs="#zone_cc988c35-4ce2-46a8-98e1-608f1289cb4f"><staff><layer><multiRest num="2"/></layer></staff></measure>
+                                          <measure n="41" label="41" xml:id="measure_35549b88-f974-407c-bb6e-fc34d2134e0e" facs="#zone_cc988c35-4ce2-46a8-98e1-608f1289cb4f">
+                                                <staff>
+                                                      <layer>
+                                                            <multiRest num="2"/>
+                                                      </layer>
+                                                </staff>
+                                          </measure>
                                           <supplied>
                                                 <measure n="42" label="42" xml:id="measure_6f6bc378-94fc-46ea-bacf-bd0f189dd56b" facs="#zone_cc988c35-4ce2-46a8-98e1-608f1289cb4f"/>
                                           </supplied>
@@ -2898,11 +2923,11 @@
                                           <measure n="45" label="45" xml:id="measure_65e92c23-577f-4f43-b499-31ffd6401b0c" facs="#zone_380bc1ba-0e8f-4716-ac0e-e62c88fa26cd"/>
                                           <measure n="46" label="46" xml:id="measure_bed29ab4-750d-4657-9f61-70e9c22c6651" facs="#zone_384d60d8-b891-4e89-af03-4eea62c87050"/>
                                           <measure n="47" label="47" xml:id="measure_bdb080dd-9de2-4209-aaab-c7e917ab5090" facs="#zone_a9fbce57-6779-4857-8b67-c762e8a1dadc">
-                                               <staff>
-                                                     <layer>
-                                                           <multiRest num="2"/>
-                                                     </layer>
-                                               </staff>
+                                                <staff>
+                                                      <layer>
+                                                            <multiRest num="2"/>
+                                                      </layer>
+                                                </staff>
                                           </measure>
                                           <sb/>
                                           <pb/>

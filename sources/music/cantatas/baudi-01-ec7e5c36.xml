@@ -1,4 +1,5 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-ec7e5c36" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-ec7e5c36" meiversion="5.0.0-dev">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -3489,7 +3490,13 @@
                         <measure n="19" label="19/40" xml:id="measure_5527e3a4-cba4-4c40-9c07-0dc744f2d034" facs="#zone_7077f154-b190-48ff-a365-f91d3f9deb32"/>
                         <measure n="20" label="20/41" xml:id="measure_8573024a-4a00-4779-ba33-12ed125dbd32" facs="#zone_0206b713-fbcc-46bf-9000-809fbc0d43b8"/>
                         <measure n="21" label="21/42" xml:id="measure_0c1e89d1-8f38-4bc6-afcc-6df0257e9d4f" facs="#zone_57b918ca-0d91-4485-aad7-b90d11817e98"/>
-                        <measure n="22" label="22" xml:id="measure_1a9d4e5f-7bfa-4279-80c1-0f1fd9aa7fb0" facs="#zone_0cd754bb-e014-4426-8018-e9aab1d27953"><staff><layer><multiRest num="21"/></layer></staff></measure>
+                        <measure n="22" label="22" xml:id="measure_1a9d4e5f-7bfa-4279-80c1-0f1fd9aa7fb0" facs="#zone_0cd754bb-e014-4426-8018-e9aab1d27953">
+                            <staff>
+                                <layer>
+                                    <multiRest num="21"/>
+                                </layer>
+                            </staff>
+                        </measure>
                         <measure n="23" label="43" xml:id="measure_dfc49f4b-b53c-4025-8f83-9c57eb1c7d02" facs="#zone_ed904097-eb4f-4753-a5e2-da29dd8a7123"/>
                         <measure n="24" label="44" xml:id="measure_5823da3b-af97-44b4-8577-59ebb776c02f" facs="#zone_7c93d1da-27f9-49d9-bc60-c136d4c3f93d"/>
                         <measure n="25" label="45" xml:id="measure_976b8994-48dc-477b-82b5-fb318ef79809" facs="#zone_b0cbdb85-2ff2-4c5c-9fa6-b5cbd3e1f358"/>

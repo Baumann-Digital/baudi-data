@@ -1,4 +1,5 @@
-<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-26450dda" meiversion="5.0.0-dev">
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-01-26450dda" meiversion="5.0.0-dev">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -10,15 +11,11 @@
             <classDecls>
                 <taxonomy label="stamps">
                     <category xml:id="stamp-blb">
-                        <label>Badische Landesbibliothek<lb/>
-                             Karlsruhe</label>
+                        <label>Badische Landesbibliothek<lb/> Karlsruhe</label>
                         <desc>Kreis als Rahmen. Mittig gesetzt das Wappen des Landes Baden-Württemberg. Darüber im Halbkreis "Badische Landesboibliothek", unterhalb im Halbkreis "Karlsruhe". Trennung der beiden Phrasen jeweils durch Punkt "•".</desc>
                     </category>
                     <category xml:id="stamp-badenia">
-                        <label>Eigentum<lb/>
-                             des<lb/>
-                             Gesang-Verein Badenia<lb/>
-                             Karlsruhe</label>
+                        <label>Eigentum<lb/> des<lb/> Gesang-Verein Badenia<lb/> Karlsruhe</label>
                         <desc>Rechteckiger Rahmen um den Text.</desc>
                     </category>
                     <category xml:id="stamp-getilgt">
@@ -95,8 +92,7 @@
                     <lyricist>[Bibeltexte]</lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition>Verlag und Eigentum für alle Länder Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.<lb/>
-                         Copyright 1928 by Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.</edition>
+                    <edition>Verlag und Eigentum für alle Länder Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.<lb/> Copyright 1928 by Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.</edition>
                 </editionStmt>
                 <physDesc>
                     <extent unit="folio">2</extent>
@@ -1267,8 +1263,7 @@
                     <lyricist>[Bibeltexte]</lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition>Verlag und Eigentum für alle Länder Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.<lb/>
-                         Copyright 1928 by Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.</edition>
+                    <edition>Verlag und Eigentum für alle Länder Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.<lb/> Copyright 1928 by Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.</edition>
                 </editionStmt>
                 <physDesc>
                     <extent unit="folio">2</extent>
@@ -1829,7 +1824,7 @@
                                 <subst>
                                     <del>von</del>
                                     <add>zu</add>
-                                </subst> Gilboa«  v</annot>
+                                </subst> Gilboa« v</annot>
                             <annot type="performer">Textänderung, VII, T. 66 Zz. 4: »Der <handShift medium="pencil"/>
                                 <subst>
                                     <del>Hirt</del>
@@ -3461,8 +3456,19 @@
                                         <multiRest num="38"/>
                                     </layer>
                                 </staff>
-                            <staff><layer><multiRest num="38"/></layer></staff></measure>
-                            <measure n="2" label="39" xml:id="measure_2e0eced3-a566-44f5-ae16-b47ee8b2782a" facs="#zone_e131e44f-c4f3-4ed3-9dbd-7457ffae9ef7"><staff><layer><multiRest num="20"/></layer></staff></measure>
+                                <staff>
+                                    <layer>
+                                        <multiRest num="38"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="2" label="39" xml:id="measure_2e0eced3-a566-44f5-ae16-b47ee8b2782a" facs="#zone_e131e44f-c4f3-4ed3-9dbd-7457ffae9ef7">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="20"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="3" label="59" xml:id="measure_eeb7790f-6202-4efe-bb8c-b703df7c51b7" facs="#zone_a9a390b8-30aa-4dda-9f87-275d43092b13"/>
                             <measure n="4" label="60" xml:id="measure_0ba26c49-2816-4331-b5b4-a6d11eea73b8" facs="#zone_77758770-cbbf-49b1-8380-14559a922590"/>
                             <measure n="5" label="61" xml:id="measure_e29361e4-b037-4565-8580-ae393580cb4b" facs="#zone_852c2596-4b4e-4955-a940-de7126cf623c"/>
@@ -3470,7 +3476,13 @@
                             <measure n="6" label="62" xml:id="measure_3f844d84-e4aa-40aa-b5fb-6b5de2fc1c76" facs="#zone_8d4f07f3-2619-4bd9-8b8b-95d30f116e2c"/>
                             <measure n="7" label="63" xml:id="measure_5042c959-c695-4704-a56f-874015c40677" facs="#zone_5275800c-9bce-433f-be4c-f9d5930b98b8"/>
                             <measure n="8" label="64" xml:id="measure_0490f683-03f2-41ac-b54f-08279a3daa51" facs="#zone_13a2561f-fd0a-46de-8167-045bea531264"/>
-                            <measure n="9" label="65" xml:id="measure_b90b8c30-c42d-4a64-8efa-fd90db50ef74" facs="#zone_726b2b35-a7ef-4927-ae9a-72ec7f223117"><staff><layer><multiRest num="2"/></layer></staff></measure>
+                            <measure n="9" label="65" xml:id="measure_b90b8c30-c42d-4a64-8efa-fd90db50ef74" facs="#zone_726b2b35-a7ef-4927-ae9a-72ec7f223117">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="2"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <measure n="10" label="67" xml:id="measure_9f83336c-cd87-4f5e-be7d-70ebb141495d" facs="#zone_8285b9dd-79b6-499e-9564-1c6f5137f420"/>
                             <measure n="11" label="68" xml:id="measure_67ffb9fb-293d-4668-9b08-b38f564d1c88" facs="#zone_30e5b186-491f-4208-9668-cb8108a1b468"/>
@@ -3487,7 +3499,13 @@
                             <measure n="20" label="77" xml:id="measure_7b63abf9-25b8-484b-9876-169a8b1ef705" facs="#zone_1047bf9b-3a5f-4cfd-bde4-82295e3fd3ec"/>
                             <sb/>
                             <measure n="21" label="78" xml:id="measure_76eb2da9-cf2c-4ff7-9d98-9af715db973c" facs="#zone_c794dafd-31c2-453f-8910-23e8deaec27f"/>
-                            <measure n="22" label="79" xml:id="measure_c521fcc0-366f-4336-a8a0-29b7a0b1470b" facs="#zone_8a7ea4d8-a5b1-4a9f-99cb-8f6bf5836297"><staff><layer><multiRest num="3"/></layer></staff></measure>
+                            <measure n="22" label="79" xml:id="measure_c521fcc0-366f-4336-a8a0-29b7a0b1470b" facs="#zone_8a7ea4d8-a5b1-4a9f-99cb-8f6bf5836297">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="3"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="23" label="82" xml:id="measure_f00a071f-ab8d-4bdc-9fca-075b2e3e4cc9" facs="#zone_536e2df7-21b1-4eea-95cc-377a4c65ca16"/>
                             <measure n="24" label="83" xml:id="measure_bfc829d7-0ad7-4926-a226-ea38063cac7f" facs="#zone_bf9e39f6-6fe0-4eb3-ab52-ef53f1d7fa6e"/>
                             <measure n="25" label="84" xml:id="measure_8abb8afe-62c1-4071-943f-fe45e6b12c16" facs="#zone_09553173-2338-452b-996c-6a3c4470201b"/>
@@ -3504,7 +3522,13 @@
                             <measure n="33" label="92" xml:id="measure_c63199ee-eabb-457c-a66f-241f53070f28" facs="#zone_26df499e-24e0-43f7-852e-56f3dc2c07b4"/>
                             <measure n="34" label="93" xml:id="measure_7931e6bb-7177-442c-8c36-dfa215c6a30c" facs="#zone_844e6541-7efa-4df2-b14b-261b247684b9"/>
                             <measure n="35" label="94" xml:id="measure_f1e2e076-f238-42e1-a8a9-f410c65868d2" facs="#zone_c4d76387-5bad-406b-9b88-34ee94bca868"/>
-                            <measure n="36" label="95" xml:id="measure_94bdeabd-a994-406b-974a-164285e6bde1" facs="#zone_c9755076-b966-4152-89fa-38048a881a01"><staff><layer><multiRest num="10"/></layer></staff></measure>
+                            <measure n="36" label="95" xml:id="measure_94bdeabd-a994-406b-974a-164285e6bde1" facs="#zone_c9755076-b966-4152-89fa-38048a881a01">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="10"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <pb/>
                             <measure n="37" label="105" xml:id="measure_75466032-d5e4-4f3f-864e-fbd634347975" facs="#zone_314889c9-9f47-41b0-b4ff-3eca370ece15"/>
@@ -3523,8 +3547,20 @@
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_38e36143-c2b6-4985-9ad5-cdb9386ce10f" facs="#zone_f2446fec-88a3-4a9c-b7d3-24146675032d"><staff><layer><multiRest num="38"/></layer></staff></measure>
-                            <measure n="2" label="39" xml:id="measure_a5a819a4-59d0-4aa8-97ef-28225cd0e115" facs="#zone_520e2a21-9350-415f-8c9d-f82d10fd5d94"><staff><layer><multiRest num="20"/></layer></staff></measure>
+                            <measure n="1" label="1" xml:id="measure_38e36143-c2b6-4985-9ad5-cdb9386ce10f" facs="#zone_f2446fec-88a3-4a9c-b7d3-24146675032d">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="38"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                            <measure n="2" label="39" xml:id="measure_a5a819a4-59d0-4aa8-97ef-28225cd0e115" facs="#zone_520e2a21-9350-415f-8c9d-f82d10fd5d94">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="20"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="3" label="59" xml:id="measure_fc7f7c2b-089b-447e-b7c6-7d4b59784d30" facs="#zone_ceafce73-d09b-4e40-900a-262848bcf998"/>
                             <measure n="4" label="60" xml:id="measure_81b01c8c-5858-4d8e-96b4-82bfe842d449" facs="#zone_f86549c3-8993-4e8b-91a6-d7d9f162e6fa"/>
                             <measure n="5" label="61" xml:id="measure_70443ad0-3af8-4708-a7ee-dc21f7e1d686" facs="#zone_0e1b4a8a-13cb-4ee7-a865-67076e96cca6"/>
@@ -3532,7 +3568,13 @@
                             <measure n="6" label="62" xml:id="measure_cfd1842b-7aae-4a4b-95c9-b95f8fd9d83c" facs="#zone_c58f6a01-18f4-42b4-a137-60348e127045"/>
                             <measure n="7" label="63" xml:id="measure_b4c42dd4-3d9d-4509-a362-922cd17f9f7e" facs="#zone_972b40f6-6bf2-417d-a485-4abe5b832dd7"/>
                             <measure n="8" label="64" xml:id="measure_30a7dd5e-40d1-4be7-a5ff-31f2dda8b65e" facs="#zone_bfeaec1b-39c3-4239-b83c-f2ea53d614cd"/>
-                            <measure n="9" label="65" xml:id="measure_79d9b511-777c-4eb7-823c-50fb69676998" facs="#zone_7ebe89b3-8d28-4293-9b1f-717ed26b8b02"><staff><layer><multiRest num="2"/></layer></staff></measure>
+                            <measure n="9" label="65" xml:id="measure_79d9b511-777c-4eb7-823c-50fb69676998" facs="#zone_7ebe89b3-8d28-4293-9b1f-717ed26b8b02">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="2"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <measure n="10" label="67" xml:id="measure_c87d77bc-0b6c-4c8c-8617-7481ccff8e28" facs="#zone_43e2c962-a010-4df8-b271-69def4788d23"/>
                             <measure n="11" label="68" xml:id="measure_236e74eb-5fca-4b5e-8fb0-203272821bcf" facs="#zone_b6a451ef-e066-475f-91c5-5372b78609ac"/>
@@ -3549,7 +3591,13 @@
                             <measure n="20" label="77" xml:id="measure_0cbf6ca8-b138-4268-b9e1-da0b598ef025" facs="#zone_504cc07a-6a6b-448f-9bde-a083c5f23f48"/>
                             <sb/>
                             <measure n="21" label="78" xml:id="measure_390ab71c-0931-4b67-9fd3-f78aa5539e35" facs="#zone_3f256694-495c-4bd1-a7c7-83d9ce67b365"/>
-                            <measure n="22" label="79" xml:id="measure_1fb7d2c5-ef74-461f-9614-20dae4bdbfb2" facs="#zone_31895b08-8b31-4d92-9081-b8dbbb327b6b"><staff><layer><multiRest num="3"/></layer></staff></measure>
+                            <measure n="22" label="79" xml:id="measure_1fb7d2c5-ef74-461f-9614-20dae4bdbfb2" facs="#zone_31895b08-8b31-4d92-9081-b8dbbb327b6b">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="3"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="23" label="82" xml:id="measure_e9af4605-16a6-4555-8472-ab45fa4d7a50" facs="#zone_6c40f92a-c0a5-45af-b4e9-8085d5448bca"/>
                             <measure n="24" label="83" xml:id="measure_a04cb652-6bf3-493e-81c6-ada79d2390fc" facs="#zone_ec60a594-eb66-4bec-a1b4-981fbfae0605"/>
                             <measure n="25" label="84" xml:id="measure_47a69747-e532-4332-8e84-d91063293af5" facs="#zone_3e2dca49-2779-4d21-8063-a20a6402a3d1"/>
@@ -3566,7 +3614,13 @@
                             <measure n="33" label="92" xml:id="measure_45281b55-23be-4595-99b7-3517c390e66e" facs="#zone_6a83e9d6-4eb9-4a91-8a90-9306d296e5c8"/>
                             <measure n="34" label="93" xml:id="measure_cd09e0a8-b0a3-46e5-b12b-9243be268736" facs="#zone_be22e4d6-820c-4159-95f0-da802cb1d861"/>
                             <measure n="35" label="94" xml:id="measure_0f052019-ef86-4a2c-a6af-fcfb48a8e64d" facs="#zone_ba86e77e-59c7-4063-830e-9df66f58a073"/>
-                            <measure n="36" label="95" xml:id="measure_f6764fea-7d04-46a2-8efb-425891a1c2d8" facs="#zone_c73d28e2-ba55-4973-bffd-a95e60a36178"><staff><layer><multiRest num="10"/></layer></staff></measure>
+                            <measure n="36" label="95" xml:id="measure_f6764fea-7d04-46a2-8efb-425891a1c2d8" facs="#zone_c73d28e2-ba55-4973-bffd-a95e60a36178">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="10"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <pb/>
                             <measure n="37" label="105" xml:id="measure_e80c5690-f36f-4175-89ed-1db443588d24" facs="#zone_11e23eab-9094-40ca-94ac-425b75ddd5e4"/>
@@ -3681,7 +3735,13 @@
                         <staffDef decls="#rwa_part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_eb8c3d3c-e78b-418e-bace-730ade6bba99" facs="#zone_15e22f29-9c74-4532-850d-dda961ddd4ce"><staff><layer><multiRest num="11"/></layer></staff></measure>
+                            <measure n="1" label="1" xml:id="measure_eb8c3d3c-e78b-418e-bace-730ade6bba99" facs="#zone_15e22f29-9c74-4532-850d-dda961ddd4ce">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="11"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="2" label="12" xml:id="measure_7c2580a1-5fca-49f8-9c19-9c2c51ad479b" facs="#zone_19fdcf82-df44-44ea-826e-e17c951bdfb8"/>
                             <measure n="3" label="13" xml:id="measure_d8f250a1-99eb-4203-b36f-aeefa5ea0908" facs="#zone_18741f8a-d3c2-499e-a49a-878960b5a595"/>
                             <measure n="4" label="14" xml:id="measure_482e53ba-4328-4cac-b904-f78438498bf8" facs="#zone_a9edbf28-0c4a-4f95-ac37-3f7635c294f4"/>
@@ -3708,7 +3768,13 @@
                             <measure n="21" label="31" xml:id="measure_caf58cc1-f08d-4e37-a57f-0ab86ab1ddc9" facs="#zone_c9ce3d1e-dd30-4f69-9f57-ecf8925431de"/>
                             <measure n="22" label="32" xml:id="measure_857b4293-2a56-46be-a697-940dd303b3ed" facs="#zone_bcd9ed8d-2151-41cf-8fe7-8f8597146aee"/>
                             <measure n="23" label="33" xml:id="measure_9ad900fe-7a2f-4fe3-9398-186ff443f677" facs="#zone_aee2b0f1-fab7-495e-9598-1dff499c0f89"/>
-                            <measure n="24" label="34" xml:id="measure_a0e7a3d8-f391-4f60-b0d1-1b9f7eaf246a" facs="#zone_cc37b97e-b65c-4d73-85b1-f256abd9d372"><staff><layer><multiRest num="7"/></layer></staff></measure>
+                            <measure n="24" label="34" xml:id="measure_a0e7a3d8-f391-4f60-b0d1-1b9f7eaf246a" facs="#zone_cc37b97e-b65c-4d73-85b1-f256abd9d372">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="7"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="25" label="41" xml:id="measure_86b56051-34de-4f2d-b0b5-6be3cced55ed" facs="#zone_d1ac7816-39c3-468c-af0a-e4e3bc04ac07"/>
                             <sb/>
                             <measure n="26" label="42" xml:id="measure_d7bb9e1d-00c3-45c8-b725-d3e5aeea9b81" facs="#zone_d5443806-de4f-447b-9f90-9eaad5314793"/>
@@ -3722,7 +3788,13 @@
                             <measure n="33" label="49" xml:id="measure_7417aa75-3d64-48db-912f-31403fa72fab" facs="#zone_a636165e-1f03-4092-b022-c342f8fcc9c2"/>
                             <measure n="34" label="50" xml:id="measure_b11d90ee-b76b-4941-bc1a-124c87c4c585" facs="#zone_72e08069-a443-4b60-984e-67ac21eb6ddc"/>
                             <measure n="35" label="51" xml:id="measure_a00eb243-569c-49ce-a53a-cb3db228917f" facs="#zone_0894d72b-b288-419d-b5df-a082e8b8ca14"/>
-                            <measure n="36" label="52" xml:id="measure_26bddc57-2707-4622-bd1b-4e2953e7dbbd" facs="#zone_19b2bede-cac2-4731-845c-7dac594f2822"><staff><layer><multiRest num="5"/></layer></staff></measure>
+                            <measure n="36" label="52" xml:id="measure_26bddc57-2707-4622-bd1b-4e2953e7dbbd" facs="#zone_19b2bede-cac2-4731-845c-7dac594f2822">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="5"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <pb/>
                             <measure n="37" label="57" xml:id="measure_d997d56b-4c4e-4df5-b73a-0b5c2299d646" facs="#zone_c7abb712-d3f1-4ce5-a7f3-79c6190cef3d"/>
@@ -3744,7 +3816,13 @@
                             <measure n="51" label="71" xml:id="measure_94b35384-00ce-468f-a8b2-3978727e379f" facs="#zone_6050ad20-b303-4761-ac54-b407a94cd0ba"/>
                             <measure n="52" label="72" xml:id="measure_02e4c63e-addb-4c72-ae7a-e4ac8d5fac6f" facs="#zone_e5994fd9-46e2-4101-b36c-dc2f7e657564"/>
                             <measure n="53" label="73" xml:id="measure_88618aeb-e22b-4fee-98fd-c7591baaee88" facs="#zone_3f4c735a-cdc2-46bb-a0e5-0110806b1142"/>
-                            <measure n="54" label="74" xml:id="measure_9ff07ae1-b931-4271-acb6-9d2796d5119d" facs="#zone_a8f5dca9-33eb-463c-8d43-e279215924a6"><staff><layer><multiRest num="4"/></layer></staff></measure>
+                            <measure n="54" label="74" xml:id="measure_9ff07ae1-b931-4271-acb6-9d2796d5119d" facs="#zone_a8f5dca9-33eb-463c-8d43-e279215924a6">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <measure n="55" label="78" xml:id="measure_4066e42d-ca5e-4d15-8687-81a2e19eff4d" facs="#zone_2dfa3886-e326-4196-86c8-c3156cf0d405"/>
                             <measure n="56" label="79" xml:id="measure_ae13408d-fe28-49b2-831c-c1c1ee3f0e7d" facs="#zone_ef8fe6fc-f560-4e81-98aa-bad5a566bda2"/>
@@ -3775,7 +3853,13 @@
                         <staffDef decls="#rwa_part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
-                            <measure n="1" label="1" xml:id="measure_83a9d48f-532f-4908-8025-032543fac5b3" facs="#zone_9718c4d9-06d1-4ab2-9a5f-6b315397ad5e"><staff><layer><multiRest num="11"/></layer></staff></measure>
+                            <measure n="1" label="1" xml:id="measure_83a9d48f-532f-4908-8025-032543fac5b3" facs="#zone_9718c4d9-06d1-4ab2-9a5f-6b315397ad5e">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="11"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="2" label="12" xml:id="measure_5f263dbd-cf0b-4137-a9e3-e62a81749c5a" facs="#zone_e910440d-b26e-473b-875d-c1e6cd477514"/>
                             <measure n="3" label="13" xml:id="measure_deebdf6a-4eaf-42a5-a4b9-89363c7a9943" facs="#zone_91b33010-7fe2-4fc0-a333-e2dabb13ec2b"/>
                             <measure n="4" label="14" xml:id="measure_9c96529c-ba3e-4ee5-8f9f-bf5be4bc199b" facs="#zone_8783ce34-dd47-4f20-a509-b033b30a6329"/>
@@ -3802,9 +3886,21 @@
                             <measure n="21" label="31" xml:id="measure_64ad8cfa-afe4-4f06-b2d2-09c5cc70d6a7" facs="#zone_990592dc-4888-4428-90d6-83e5a2b4608f"/>
                             <measure n="22" label="32" xml:id="measure_10158b13-5291-41f7-a922-00bd20b96e0c" facs="#zone_99ffe049-17bc-48fd-95d3-42c4962b6285"/>
                             <measure n="23" label="33" xml:id="measure_9a67fd67-4135-42e8-8da8-f3fc042999c9" facs="#zone_a8448294-5ab9-44cc-94ab-2843bd1b19dc"/>
-                            <measure n="24" label="34" xml:id="measure_1fd61246-f222-4f6c-9ab6-ae2d63db760e" facs="#zone_0ca26b9f-0c92-4819-b0ff-55007517406c"><staff><layer><multiRest num="8"/></layer></staff></measure>
+                            <measure n="24" label="34" xml:id="measure_1fd61246-f222-4f6c-9ab6-ae2d63db760e" facs="#zone_0ca26b9f-0c92-4819-b0ff-55007517406c">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
-                            <measure n="25" label="42" xml:id="measure_d279d499-95cc-40a6-8d68-fd8ac3dec968" facs="#zone_c956f759-1df2-4449-8bbc-ade0ad10aa5a"><staff><layer><multiRest num="8"/></layer></staff></measure>
+                            <measure n="25" label="42" xml:id="measure_d279d499-95cc-40a6-8d68-fd8ac3dec968" facs="#zone_c956f759-1df2-4449-8bbc-ade0ad10aa5a">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="8"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="26" label="50" xml:id="measure_2734fc67-3143-4e96-912f-596baafc08d2" facs="#zone_336fa062-04f0-482f-aa80-095d136cd1b8"/>
                             <measure n="27" label="51" xml:id="measure_7de8ae4f-080d-4a30-8275-0d6020d36de2" facs="#zone_16c10a0f-de29-40ae-8863-0ece6908ee5a"/>
                             <measure n="28" label="52" xml:id="measure_3bbb4559-b9c6-46b0-bd1a-020ed0b92d21" facs="#zone_f602813d-fff6-49f7-9a87-063450ac226e"/>
@@ -3834,7 +3930,13 @@
                             <measure n="47" label="71" xml:id="measure_8008be95-a992-4ea1-88d0-6943cce9d2ed" facs="#zone_455ba6d9-e778-4df4-8354-640e60622ec3"/>
                             <measure n="48" label="72" xml:id="measure_9e38c10c-0838-4bda-9507-af4c667fdff8" facs="#zone_819a7d74-7143-4c09-935d-44744d9eeb54"/>
                             <measure n="49" label="73" xml:id="measure_8748efee-928e-4d94-bb2d-03ff2e8cbd8c" facs="#zone_2674be58-a9f9-46bf-bfb1-15fb73a573ee"/>
-                            <measure n="50" label="74" xml:id="measure_6997036f-e408-4961-b726-8db627619ad1" facs="#zone_f81b0c07-65c2-489b-b005-8a29823205f2"><staff><layer><multiRest num="4"/></layer></staff></measure>
+                            <measure n="50" label="74" xml:id="measure_6997036f-e408-4961-b726-8db627619ad1" facs="#zone_f81b0c07-65c2-489b-b005-8a29823205f2">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="4"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <sb/>
                             <measure n="51" label="78" xml:id="measure_9a13eb6a-106d-43ba-8a5a-fa27712b9537" facs="#zone_57cc2681-bc09-4866-a31d-004b0017d0a1"/>
                             <measure n="52" label="79" xml:id="measure_02fa015a-3506-41ca-bf9f-e3b52b037c78" facs="#zone_3b713cbf-c11a-4ecf-9bf6-d2db23711db7"/>
@@ -3908,7 +4010,13 @@
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_db8ab15e-08cd-4f4a-b833-9f919fc141a7" facs="#zone_9a851747-3464-4c53-b1ad-77dfe6eb6840"/>
-                            <measure n="2" label="2" xml:id="measure_43e7a5ae-e733-49a1-8633-fdb4e4f1132a" facs="#zone_7fcf932e-a6dd-4f22-9b63-574d5256135d"><staff><layer><multiRest num="12"/></layer></staff></measure>
+                            <measure n="2" label="2" xml:id="measure_43e7a5ae-e733-49a1-8633-fdb4e4f1132a" facs="#zone_7fcf932e-a6dd-4f22-9b63-574d5256135d">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="12"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="3" label="14" xml:id="measure_18c4caf5-0ad2-451e-9c77-cf0ff1de5f78" facs="#zone_57e5abe2-5775-4149-b00b-ead4d7b57e5a"/>
                             <measure n="4" label="15" xml:id="measure_387425f0-ac08-4648-bc81-7da040231ad7" facs="#zone_d8b301ef-04e4-4da9-b169-020136513c34"/>
                             <measure n="5" label="16" xml:id="measure_2ffc0b47-fd04-45f6-b12e-5cf244aaf08c" facs="#zone_7c8d172a-8b9d-4dae-9f24-15996ea3310e"/>
@@ -3939,7 +4047,13 @@
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7ec1c22d-1de7-430c-8551-1fb791494777" facs="#zone_07cf4572-f0b6-49da-b9bd-186a332a2228"/>
-                            <measure n="2" label="2" xml:id="measure_25f4c4ca-3735-429a-ae9d-22e39db908ba" facs="#zone_7c8370cc-4cdd-459d-9ae2-16bcb7f8d11b"><staff><layer><multiRest num="12"/></layer></staff></measure>
+                            <measure n="2" label="2" xml:id="measure_25f4c4ca-3735-429a-ae9d-22e39db908ba" facs="#zone_7c8370cc-4cdd-459d-9ae2-16bcb7f8d11b">
+                                <staff>
+                                    <layer>
+                                        <multiRest num="12"/>
+                                    </layer>
+                                </staff>
+                            </measure>
                             <measure n="3" label="14" xml:id="measure_40922dc1-f5f9-4aa6-be2b-bdf3f5eaf4f1" facs="#zone_ae3e5ec2-fcd6-4387-9b29-c8b342a569b8"/>
                             <measure n="4" label="15" xml:id="measure_8adaf223-92c8-4f7e-ad77-a2e1d9d2e8b4" facs="#zone_fea05845-dae1-4dfd-b8bf-7b86469e9f70"/>
                             <measure n="5" label="16" xml:id="measure_1daa748a-70c3-4473-801c-f3a7346fdb64" facs="#zone_d12d1bd9-bb3f-41de-a19f-bbeec23bee97"/>
