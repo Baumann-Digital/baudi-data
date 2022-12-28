@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="deploy" name="baudiData" basedir="." xmlns:unless="ant:unless">
+<project default="data-package" name="baudiData" basedir="." xmlns:unless="ant:unless">
     <dirname property="baudiData.basedir" file="${ant.file.baudiData}"/>
     
     <!-- import default properties from file -->
@@ -30,10 +30,10 @@
     
     <target name="get-current-hash-of-HEAD">
         <description>Get the hash of the current git HEAD</description>
-        <exec executable="${bash.command}" outputproperty="local.revision">
-            <arg value="-c"/>
-            <arg value="${git.command} rev-parse --short HEAD"/>
-            <env key="LANG" value="C"/>
+        <exec executable="git" outputproperty="local.revision">
+            <arg value="rev-parse"/>
+            <arg value="--short"/>
+            <arg value="HEAD"/>
         </exec>
         <echo>Current HEAD: ${local.revision}</echo>
     </target>

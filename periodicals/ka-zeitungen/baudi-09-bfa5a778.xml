@@ -1,0 +1,70 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-09-bfa5a778">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das 3. Gausängerfest des Karlsruher Sängergaues</title>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="periodical">
+<!--                    <idno resp="D-KA">Signatur</idno>-->
+                    <title type="main">Badischer Beobachter</title>
+                    <date when="1928-10-08">8. Oktober 1928</date>
+<!--                    <biblScope unit="volume">1</biblScope>-->
+                    <biblScope unit="issue">278</biblScope>
+                    <biblScope unit="page" from="4" to="4"/>
+                    <series>
+                        <title>Badischer Beobachter. Hauptorgan der badischen Zentrumspartei</title>
+                    </series>
+                    <pubPlace>Karlsruhe</pubPlace>
+                    <respStmt>
+                        <resp>Herausgeber</resp>
+                        <orgName>Badische Zentrumspartei</orgName>
+                    </respStmt>
+                    <availability>
+                        <p resp="D-KA">1928: urn:nbn:de:bsz:31-147648</p>
+                    </availability>
+                    <textLang mainLang="de"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <charDecl>
+                <char><desc>When something is printed with spaced letters the following letters appear without space inbetween (i.e., as ligature): ch, st</desc></char>
+                
+            </charDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface n="4">
+            <graphic url="2258324.jpg"></graphic>
+            <zone ulx="1552" uly="333" lrx="1957" lry="1156"/>
+            <zone ulx="1189" uly="309" lrx="1568" lry="1832"/>
+            <zone ulx="909" uly="897" lrx="980" lry="900"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <head>Das 3. Gausängerfest des Karlsruher Sängergaues</head>
+                <p>Text</p>
+                <div>
+                    <head>Den Gefallenen zum Gedächtnis</head>
+                    <p>Das Hauptkonzert <date when="1928-10-07"><time from="14:00:00" to="17:00:00">am Nachmittag</time></date>, dem <choice><abbr>u. a.</abbr><expan>unter anderen</expan></choice><lb/>auch der badische Staatspräsident <persName>Dr. A. <hi rend="spaced">Rem<lb break="no"/>mele</hi></persName> und Oberbürgermeister <persName>Dr. <hi rend="spaced">Finter</hi></persName><lb/> beiwohnten, sah die Festhalle bis auf den letzten<lb/>Platz besetzt.</p>
+                    <p>Die <hi rend="spaced">Gefallenen=Ehrung</hi> gestaltetete<lb/>sich zu einer eindrucksvollen Feier. Sie wurde<lb/>mit einem Orgelvorspiel über den Choral<lb/><q>Wenn ich einmal soll scheiden</q> von <persName>Hugo<lb/><hi rend="spaced">Rahner</hi> jr.</persName> eingeleitet, dessen Spiel den<lb/>Grundakkord für den Weihespruch von <persName>Ferdinand<lb/><hi rend="spaced">Dietz</hi></persName> schuf<supplied>.</supplied> Mit dichterischem Schwung er<lb break="no"/>neuert hier <rs>der Verfasser</rs> das Treugelöbnis für<lb/>die Toten, das in <rs>Fritz <hi rend="spaced">Held</hi></rs> den oft bewähr<lb break="no"/>ten Sprecher fand.</p>
+                    <p>Die <q>Kantate</q> ist das letzte große Chorwerk<lb/>unseres einheimischen Komponisten <persName>Ludwig<lb/><hi rend="spaced">Baumann</hi></persName>, für den dieser Sängertrag über<lb break="no"/>haupt viele Würden nebst großen Bürden<lb/>brachte. Bach Worten aus der Heiligen Schrift<lb/>bewegt sich der Text mit der Klage über die ge<lb break="no"/>fallenen Helden bis zum Siege über den Tod.<lb/>Dazwischen spendet die Seligpreisung der Toten<lb/>(Frauenchor) den Trauernden Trost; die Klagen<lb break="no"/>melodie wird abgelöst von einem Rezitativ mit<lb/>Arie <q>Die mit Tränen säen</q>, und langsam spinnt<lb/>sich der Glaube an die ewige Allmacht musika<lb break="no"/>lisch und trostreich aus in dem Choral <q>Jesus, meine Zuversicht</q>.</p>
+                    <p><persName>Ludwig <hi rend="spaced">Baumann</hi></persName> hat hiermit sein reifstes<lb/>Werk geschaffen. Sowohl in der verschiedenartigen<lb/>Verschiebung der Männer= und Frauenchöre mit<lb/>dem Sopransolo wie in der Instrumentierung für<lb/>großes Orchester zeigt sich das Bestreben, mit den<lb/>musikalisch einfachsten Mitteln zu arbeiten. Wenn<lb/>wir glaubten, da und dort Anklänge an Wagner<lb/>feststellen zu können, so beweist das nur, aus wel<lb break="no"/>cher Atmosphäre dieses wertvolle Werk geboren ist.<lb/>Es stellte die würdigste Feiermusik dar, die hier seit<lb/>langem aus diesem Anlaß geboten wurde.</p>
+                    <p><rs>Der Komponist</rs> leitet <rs>sein Werk</rs> selbst. Die ver<lb break="no"/>schiedenen Männerchöre und der Frauenchor (Leitung <persName>Herr <hi rend="spaced">Haberstroh</hi></persName>) bewältigten ihre<lb/>Aufgabe mit großer Hingabe. Den Intentionen<lb/><rs>des Dirigenten</rs> folgte mit vorbildlicher Disziplin unser <hi rend="spaced">Landestheaterorchester</hi>, während<lb/><persName>Frau Hildegard <hi rend="spaced">Bieber=Baumann</hi></persName> die Solo<lb break="no"/>partie mit leuchtender Stimme sang.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
