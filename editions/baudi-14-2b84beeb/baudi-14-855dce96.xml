@@ -1,0 +1,1471 @@
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="baudi-14-855dce96" meiversion="5.0.0-dev">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Neu-Edition: Partitur</title>
+      </titleStmt>
+      <pubStmt/>
+    </fileDesc>
+    <manifestationList>
+      <manifestation>
+        <identifier type="siglum">Edition</identifier>
+        <titleStmt>
+          <title>
+            <titlePart type="main">Kantate</titlePart>
+            <titlePart type="subordinate">Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</titlePart>
+            <titlePart type="ediromSourceWindow">Erstruck (Klavierauszug)</titlePart>
+          </title>
+          <composer xml:id="baudi-01-ed0d187e-composer">
+            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+          </composer>
+          <lyricist xml:id="baudi-01-ed0d187e-lyricist">
+            <name xml:id="bible">Die Bibel</name>
+          </lyricist>
+        </titleStmt>
+        <relationList>
+          <relation rel="isEmbodimentOf" corresp="baudi-02-aedbaef3"/>
+          <relation rel="isEmbodimentOf" type="edirom" target="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp1"/>
+        </relationList>
+      </manifestation>
+    </manifestationList>
+  </meiHead>
+  <music>
+        <facsimile>
+            <surface xml:id="surface_eec33773-755d-4c66-ac3c-6cfb2ed7d1e9" n="1" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_4a04ccc8-4414-4feb-b421-98463c518c12" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page01.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f42147c3-ee4d-4400-80c2-aa080a076b7c" type="measure" ulx="90" uly="292" lrx="378" lry="2072"/>
+                <zone xml:id="zone_3d542d63-0179-4e76-bda8-d8d34c8afd46" type="measure" ulx="338" uly="292" lrx="448" lry="2072"/>
+                <zone xml:id="zone_b3ffffc0-5710-4904-82e5-f90842e60ee1" type="measure" ulx="408" uly="292" lrx="528" lry="2072"/>
+                <zone xml:id="zone_05c5cae6-e9aa-47e7-accf-4205fe30324b" type="measure" ulx="488" uly="292" lrx="588" lry="2072"/>
+                <zone xml:id="zone_974b719f-ce78-49ad-a27e-e008c035d70f" type="measure" ulx="548" uly="292" lrx="674" lry="2072"/>
+                <zone xml:id="zone_9daae1ae-ec25-4d85-b16d-21ba2c36ac33" type="measure" ulx="634" uly="292" lrx="754" lry="2072"/>
+                <zone xml:id="zone_3fee0e40-477c-41e6-9172-48bbc83176e8" type="measure" ulx="714" uly="292" lrx="822" lry="2072"/>
+                <zone xml:id="zone_c9a6ee68-6dcc-454c-95b0-df4c1dba1f04" type="measure" ulx="782" uly="292" lrx="882" lry="2072"/>
+                <zone xml:id="zone_7cc30ece-8e5a-47a1-9ea6-08ae9df43669" type="measure" ulx="842" uly="292" lrx="958" lry="2072"/>
+                <zone xml:id="zone_4e36dd28-acd4-4649-8b98-c8813abfc5f8" type="measure" ulx="918" uly="292" lrx="1022" lry="2072"/>
+                <zone xml:id="zone_968f9820-a828-4fe4-b78c-0f9cc1394293" type="measure" ulx="982" uly="292" lrx="1082" lry="2072"/>
+                <zone xml:id="zone_96032650-cc85-4f25-88d4-77515a3eb699" type="measure" ulx="1042" uly="292" lrx="1160" lry="2072"/>
+                <zone xml:id="zone_eb0f4c7b-be9e-4db9-ba46-8af09fc8aa31" type="measure" ulx="1120" uly="292" lrx="1242" lry="2072"/>
+                <zone xml:id="zone_de1234ba-e361-4cee-9aa4-341b5c20668a" type="measure" ulx="1202" uly="292" lrx="1310" lry="2072"/>
+                <zone xml:id="zone_98f93c04-b430-464c-9f89-954fff0f848d" type="measure" ulx="1270" uly="292" lrx="1386" lry="2072"/>
+                <zone xml:id="zone_c82e692e-b8f1-44fb-a568-bb59fe5b9e75" type="measure" ulx="1346" uly="292" lrx="1448" lry="2072"/>
+                <zone xml:id="zone_a57cda83-f58b-404e-8a5f-51c733fec4c4" type="measure" ulx="1408" uly="292" lrx="1532" lry="2072"/>
+            </surface>
+            <surface xml:id="surface_26095a41-892d-4bc8-b329-7634a7ff2da0" n="2" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_444ac3ee-4996-49f4-af74-be86abb4ab85" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page02.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_b6b1d85a-664a-4789-be2d-e233b90ee943" type="measure" ulx="98" uly="152" lrx="298" lry="2048"/>
+                <zone xml:id="zone_3dc518ff-8cd1-4717-a5fa-561f3a53495a" type="measure" ulx="258" uly="152" lrx="372" lry="2048"/>
+                <zone xml:id="zone_9d4fc13a-3f7e-466c-afda-6104c16b0ddf" type="measure" ulx="332" uly="152" lrx="438" lry="2048"/>
+                <zone xml:id="zone_7dab2036-3604-49dd-86a1-be1dcb3100c3" type="measure" ulx="398" uly="152" lrx="530" lry="2048"/>
+                <zone xml:id="zone_be73498e-221f-40c7-bd66-03426f147216" type="measure" ulx="490" uly="152" lrx="600" lry="2048"/>
+                <zone xml:id="zone_a2c7cc1e-9809-4bd5-a85b-7fc22dad9da9" type="measure" ulx="560" uly="152" lrx="692" lry="2048"/>
+                <zone xml:id="zone_3dd49de6-2b17-4c3e-8b10-0c50cc218686" type="measure" ulx="652" uly="152" lrx="758" lry="2048"/>
+                <zone xml:id="zone_cf335e85-786e-4a09-b8d7-24a0f99628b0" type="measure" ulx="718" uly="152" lrx="850" lry="2048"/>
+                <zone xml:id="zone_512aaa49-ee2f-4da9-b9c8-209c1852fac5" type="measure" ulx="810" uly="152" lrx="932" lry="2048"/>
+                <zone xml:id="zone_c391bfc0-4024-4125-81c8-f14194d0d1b5" type="measure" ulx="892" uly="152" lrx="1010" lry="2048"/>
+                <zone xml:id="zone_3059e161-7213-4755-b02a-26f52a2efd42" type="measure" ulx="970" uly="152" lrx="1084" lry="2048"/>
+                <zone xml:id="zone_42a77cc9-b9ff-45bf-83aa-ea501103d358" type="measure" ulx="1044" uly="152" lrx="1142" lry="2048"/>
+                <zone xml:id="zone_94bad485-a016-4704-bb10-82600465dbae" type="measure" ulx="1102" uly="152" lrx="1250" lry="2048"/>
+                <zone xml:id="zone_05df4ab3-8c22-4268-99b0-85be050c8b7e" type="measure" ulx="1210" uly="152" lrx="1314" lry="2048"/>
+                <zone xml:id="zone_4a750dea-5df8-461b-966f-1d1e6fc7497c" type="measure" ulx="1274" uly="152" lrx="1378" lry="2048"/>
+                <zone xml:id="zone_ae32a91a-4a00-4ddd-ac8e-dc71b9e26b6a" type="measure" ulx="1338" uly="152" lrx="1452" lry="2048"/>
+                <zone xml:id="zone_b3daa969-d951-4d8f-a899-a1c1bae5ba87" type="measure" ulx="1412" uly="152" lrx="1536" lry="2048"/>
+            </surface>
+            <surface xml:id="surface_b83f94ef-a2ba-47ea-ba32-8fdbdbd3a660" n="3" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_09fd4d44-d210-4335-9c3a-8f854c547945" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page03.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_66399477-5165-45f2-88bf-6e3df2305aae" type="measure" ulx="98" uly="150" lrx="372" lry="2052"/>
+                <zone xml:id="zone_f33357e0-ee22-4848-9ce2-04344d5381be" type="measure" ulx="332" uly="150" lrx="482" lry="2052"/>
+                <zone xml:id="zone_da7873a9-3898-4ad4-92df-aac0617cd37b" type="measure" ulx="442" uly="150" lrx="630" lry="2052"/>
+                <zone xml:id="zone_09da8fb0-8cf9-4481-81ab-98212c1d2c35" type="measure" ulx="590" uly="150" lrx="744" lry="2052"/>
+                <zone xml:id="zone_aad3b8cd-b627-4fef-9669-e2101b5729a1" type="measure" ulx="704" uly="150" lrx="856" lry="2052"/>
+                <zone xml:id="zone_d8eb0436-40cb-4087-b3fc-d1f406f4d828" type="measure" ulx="816" uly="150" lrx="940" lry="2052"/>
+                <zone xml:id="zone_d5a7ba3f-661c-4e7f-ae34-7f50481bd9ec" type="measure" ulx="900" uly="150" lrx="1034" lry="2052"/>
+                <zone xml:id="zone_dc1373cd-da62-46f9-887b-5ad285553d7c" type="measure" ulx="994" uly="150" lrx="1116" lry="2052"/>
+                <zone xml:id="zone_f2d26d76-2390-4b68-af50-83cca49373e2" type="measure" ulx="1076" uly="150" lrx="1176" lry="2052"/>
+                <zone xml:id="zone_54ce767d-ab28-4a61-8347-0651c7f9c19f" type="measure" ulx="1136" uly="150" lrx="1258" lry="2052"/>
+                <zone xml:id="zone_6a3c7f2b-a0f8-4036-b507-2340e48b531f" type="measure" ulx="1218" uly="150" lrx="1320" lry="2052"/>
+                <zone xml:id="zone_daffcb9d-898d-44cb-96f2-b16e187dc6db" type="measure" ulx="1280" uly="150" lrx="1388" lry="2052"/>
+                <zone xml:id="zone_a0e56847-0f47-4fc9-9dad-cc0f2ae5f5ba" type="measure" ulx="1348" uly="150" lrx="1450" lry="2052"/>
+                <zone xml:id="zone_16dc4213-5f83-4c42-a894-cb7d1f1beed5" type="measure" ulx="1410" uly="150" lrx="1538" lry="2052"/>
+            </surface>
+            <surface xml:id="surface_52533955-7824-4129-914c-97db8b22cd70" n="4" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_33d408fd-d656-4446-a2fb-e9969aa6e374" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page04.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_57d17b40-2769-4ddb-afb3-952f51ec25c8" type="measure" ulx="94" uly="268" lrx="476" lry="2092"/>
+                <zone xml:id="zone_94a90442-ea01-45f0-bc52-433fe17776ab" type="measure" ulx="436" uly="268" lrx="618" lry="2092"/>
+                <zone xml:id="zone_7aff68e8-da10-4ca6-a9ab-28c58566558d" type="measure" ulx="578" uly="268" lrx="770" lry="2092"/>
+                <zone xml:id="zone_d9b43a83-6a6c-441b-9a37-9c0b7d9df742" type="measure" ulx="730" uly="268" lrx="932" lry="2092"/>
+                <zone xml:id="zone_f512bfb1-0193-4ace-9e3d-35258589cd84" type="measure" ulx="892" uly="268" lrx="1082" lry="2092"/>
+                <zone xml:id="zone_f19e2962-a40d-4c6a-8458-11b419e495da" type="measure" ulx="1042" uly="268" lrx="1228" lry="2092"/>
+                <zone xml:id="zone_5c2afcc7-1e89-4854-9554-6678d05e51a2" type="measure" ulx="1188" uly="268" lrx="1378" lry="2092"/>
+                <zone xml:id="zone_1ff9fbee-e3df-433d-9af5-140897a55bd6" type="measure" ulx="1338" uly="268" lrx="1526" lry="2092"/>
+            </surface>
+            <surface xml:id="surface_b2a08a9c-6c66-4b5d-bfd7-cfa728305094" n="5" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_6878706d-89e8-4a75-b16b-5fb2be1dfe4f" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page05.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_906f8f76-334e-4972-bc14-c7d3c20c37d2" type="measure" ulx="96" uly="144" lrx="380" lry="2052"/>
+                <zone xml:id="zone_5ca5d79a-440b-4bb4-b97a-f1fb00f0dbcb" type="measure" ulx="340" uly="144" lrx="520" lry="2052"/>
+                <zone xml:id="zone_0d7e2620-49a6-4b0f-a659-2819fbf30c3e" type="measure" ulx="480" uly="144" lrx="664" lry="2052"/>
+                <zone xml:id="zone_0b26c229-7a2e-44f4-9cc2-1d508154dbd7" type="measure" ulx="624" uly="144" lrx="818" lry="2052"/>
+                <zone xml:id="zone_9087a226-aa08-4141-937a-f5e748fd64c0" type="measure" ulx="778" uly="144" lrx="960" lry="2052"/>
+                <zone xml:id="zone_08fa010a-e4cc-4155-a4eb-514fd02fa71a" type="measure" ulx="920" uly="144" lrx="1096" lry="2052"/>
+                <zone xml:id="zone_29cd0c77-d104-4a07-ad3a-67a5ec923379" type="measure" ulx="1056" uly="144" lrx="1236" lry="2052"/>
+                <zone xml:id="zone_2894cece-da74-455d-980e-ec90d40f2a37" type="measure" ulx="1196" uly="144" lrx="1386" lry="2052"/>
+                <zone xml:id="zone_2228bf8d-9da1-49fd-855d-bcabccd1bc95" type="measure" ulx="1346" uly="144" lrx="1530" lry="2052"/>
+            </surface>
+            <surface xml:id="surface_d7ff3366-20a7-4471-a5d4-b2ccbc5e3751" n="6" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_a812ba98-059a-4abb-a36b-9bf06870c901" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page06.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_2dab06ff-4eb6-4178-89ef-5d64739cf603" type="measure" ulx="96" uly="144" lrx="376" lry="2082"/>
+                <zone xml:id="zone_b586effc-9aca-4932-a3e2-c15c0ea6581a" type="measure" ulx="336" uly="144" lrx="534" lry="2082"/>
+                <zone xml:id="zone_4b161848-1e41-4f6f-bfeb-649efce26409" type="measure" ulx="494" uly="144" lrx="684" lry="2082"/>
+                <zone xml:id="zone_93026139-1f3e-4d65-abe9-7f9df7126e96" type="measure" ulx="644" uly="144" lrx="838" lry="2082"/>
+                <zone xml:id="zone_4e7c44d2-347e-4538-a00b-32cbdcdee865" type="measure" ulx="798" uly="144" lrx="990" lry="2082"/>
+                <zone xml:id="zone_f22224ef-0e93-4a3d-8069-c346454c882c" type="measure" ulx="950" uly="144" lrx="1176" lry="2082"/>
+                <zone xml:id="zone_f93efa41-1a91-4cd4-b3d9-33d1f2075fba" type="measure" ulx="1136" uly="144" lrx="1376" lry="2082"/>
+                <zone xml:id="zone_753cd08a-3807-4844-961a-46c23bbe7361" type="measure" ulx="1336" uly="144" lrx="1528" lry="2082"/>
+            </surface>
+            <surface xml:id="surface_0909cbe6-f99c-49ba-9c2b-7565b54df218" n="7" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_7ffc81fe-5469-4a05-9ac2-d8bb02677760" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page07.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_139c01ff-b019-40f9-b8c8-ab4a5808d3dc" type="measure" ulx="94" uly="148" lrx="404" lry="2080"/>
+                <zone xml:id="zone_c1c2ec11-648f-44be-a7dc-c919fad78503" type="measure" ulx="364" uly="148" lrx="578" lry="2080"/>
+                <zone xml:id="zone_5906b002-07c6-4312-8a15-c03ca246490b" type="measure" ulx="538" uly="148" lrx="738" lry="2080"/>
+                <zone xml:id="zone_ecdfcfed-d21b-45c6-ac3f-d0f6009c70b9" type="measure" ulx="698" uly="148" lrx="920" lry="2080"/>
+                <zone xml:id="zone_fe6e971a-8fbd-49a5-b1c2-53147566eb1c" type="measure" ulx="880" uly="148" lrx="1158" lry="2080"/>
+                <zone xml:id="zone_5cd25f5b-c3ed-46ad-a039-6782ea34d971" type="measure" ulx="1118" uly="148" lrx="1376" lry="2080"/>
+                <zone xml:id="zone_a1ecbb53-980a-46cf-9f33-a2da5be28c9b" type="measure" ulx="1336" uly="148" lrx="1528" lry="2080"/>
+            </surface>
+            <surface xml:id="surface_f53d7d8c-8419-4e6e-ad59-0f171e8cddd5" n="8" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_b7ef680e-e7d2-4a82-ab50-7abb65fdde4f" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page08.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f3e462c4-82b4-4170-93e6-f6c5dbacf423" type="measure" ulx="96" uly="142" lrx="388" lry="2076"/>
+                <zone xml:id="zone_9ad5d91a-ff28-405c-a8d2-0300e683648f" type="measure" ulx="348" uly="142" lrx="692" lry="2076"/>
+                <zone xml:id="zone_6acf051e-8418-4402-a6d5-91e646ab219e" type="measure" ulx="652" uly="142" lrx="864" lry="2076"/>
+                <zone xml:id="zone_072e9d96-b883-46fb-8543-eec5ab29597f" type="measure" ulx="824" uly="142" lrx="992" lry="2076"/>
+                <zone xml:id="zone_cad56a64-8cba-44b7-b22c-19f821309dc2" type="measure" ulx="952" uly="142" lrx="1098" lry="2076"/>
+                <zone xml:id="zone_509b465e-c2a2-4f28-ba8d-0ae33379cd91" type="measure" ulx="1058" uly="142" lrx="1268" lry="2076"/>
+                <zone xml:id="zone_875bcdf8-4266-4fb9-bf24-4c6951301463" type="measure" ulx="1228" uly="142" lrx="1528" lry="2076"/>
+            </surface>
+            <surface xml:id="surface_3d3644a8-cd45-4d53-905d-752d7b43c01f" n="9" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_91438afc-32e6-48b3-8d0c-3c69ff1e5364" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page09.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_3b5f7eb4-d29a-4dc9-ba4a-d5bcb99b6881" type="measure" ulx="96" uly="148" lrx="502" lry="2058"/>
+                <zone xml:id="zone_f5d94158-a928-411f-84c2-128bc583f9f3" type="measure" ulx="462" uly="148" lrx="760" lry="2058"/>
+                <zone xml:id="zone_6dbe53a4-13c9-4cc6-9c09-410fb3329ed4" type="measure" ulx="720" uly="148" lrx="1120" lry="2058"/>
+                <zone xml:id="zone_8ac3fa8a-6521-4815-9035-e69a97788c49" type="measure" ulx="1080" uly="148" lrx="1248" lry="2058"/>
+                <zone xml:id="zone_02c94b9a-3f43-475f-addd-20377c6059e8" type="measure" ulx="1208" uly="148" lrx="1414" lry="2058"/>
+                <zone xml:id="zone_53e16755-56fd-4f7e-b703-eef4565109be" type="measure" ulx="1374" uly="148" lrx="1524" lry="2058"/>
+            </surface>
+            <surface xml:id="surface_cd6e9a6a-663c-4f45-bcf3-0d15589761d4" n="10" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_2f5d9316-1061-40ea-bed9-b431b293be04" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page10.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_8c8c649e-1a64-47af-82ec-45e76a5b85ef" type="measure" ulx="88" uly="136" lrx="382" lry="2060"/>
+                <zone xml:id="zone_e60b291f-6994-4fa2-8ae5-bb57398acf8d" type="measure" ulx="342" uly="136" lrx="530" lry="2060"/>
+                <zone xml:id="zone_ac0200d6-e6c6-4fd6-8e7c-d0442a7ef46b" type="measure" ulx="490" uly="136" lrx="674" lry="2060"/>
+                <zone xml:id="zone_9c7fb7fe-2384-49e0-a186-06d64f0676ee" type="measure" ulx="634" uly="136" lrx="830" lry="2060"/>
+                <zone xml:id="zone_f22ad2b9-563d-4660-843a-da8d079af514" type="measure" ulx="790" uly="136" lrx="984" lry="2060"/>
+                <zone xml:id="zone_0077c962-fb2c-436d-8341-c815237988ae" type="measure" ulx="944" uly="136" lrx="1128" lry="2060"/>
+                <zone xml:id="zone_58c604b7-9ca0-4719-a425-027823416ab0" type="measure" ulx="1088" uly="136" lrx="1278" lry="2060"/>
+                <zone xml:id="zone_513a1231-fa95-404b-bc5b-0f134c7ac4c3" type="measure" ulx="1238" uly="136" lrx="1528" lry="2060"/>
+            </surface>
+            <surface xml:id="surface_9e19a1a5-d2a9-415a-a670-fd34284f2776" n="11" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_e14667df-5603-4032-8bd8-fa01dc90be0c" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page11.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_12017d91-1491-48ab-b9e8-3644243082f1" type="measure" ulx="88" uly="144" lrx="358" lry="2074"/>
+                <zone xml:id="zone_eb3112e0-8800-4f81-a2f1-e3db5009c9ba" type="measure" ulx="318" uly="144" lrx="518" lry="2074"/>
+                <zone xml:id="zone_8ee20e82-29ea-4a95-9d3a-85880d576fa7" type="measure" ulx="478" uly="144" lrx="674" lry="2074"/>
+                <zone xml:id="zone_c813feae-bdfd-4412-9d78-ff04b5858a32" type="measure" ulx="634" uly="144" lrx="838" lry="2074"/>
+                <zone xml:id="zone_f9e87ffa-d889-4182-ac2d-83bb65c80952" type="measure" ulx="798" uly="144" lrx="984" lry="2074"/>
+                <zone xml:id="zone_ba1a978e-478f-4c12-98c3-dbf7ee7cab46" type="measure" ulx="944" uly="144" lrx="1106" lry="2074"/>
+                <zone xml:id="zone_cc3c874f-bc7a-4f3d-a46e-f1c0cb421b70" type="measure" ulx="1066" uly="144" lrx="1228" lry="2074"/>
+                <zone xml:id="zone_60087ef6-5d08-4aec-b1d3-af0b6f2b1329" type="measure" ulx="1188" uly="144" lrx="1366" lry="2074"/>
+                <zone xml:id="zone_55eea570-23d0-4d6e-a98f-9570615f3b09" type="measure" ulx="1326" uly="144" lrx="1532" lry="2074"/>
+            </surface>
+            <surface xml:id="surface_f949e53c-13ff-4bdd-9f64-f923ec3060ad" n="12" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_ee47c7cb-7ff8-4a71-99d9-b32552645f7a" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page12.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_b6b203e1-1666-4d94-9c9c-17765c24c721" type="measure" ulx="94" uly="146" lrx="408" lry="2090"/>
+                <zone xml:id="zone_fac2c81a-8120-42e0-8532-7fc9e8825b5b" type="measure" ulx="368" uly="146" lrx="526" lry="2090"/>
+                <zone xml:id="zone_8d0ec3f3-3afc-4771-ae0a-4b802f45247a" type="measure" ulx="486" uly="146" lrx="634" lry="2090"/>
+                <zone xml:id="zone_5648dc4a-89f1-464c-ac35-1dacf35b6616" type="measure" ulx="594" uly="146" lrx="782" lry="2090"/>
+                <zone xml:id="zone_4e9ff54a-9292-4cd5-a58e-351203703168" type="measure" ulx="742" uly="146" lrx="900" lry="2090"/>
+                <zone xml:id="zone_087f6fd1-98f5-4836-a17d-656ba6544d1f" type="measure" ulx="860" uly="146" lrx="1086" lry="2090"/>
+                <zone xml:id="zone_18f6c55a-f6db-4191-9d8f-bbc9033d5608" type="measure" ulx="1046" uly="146" lrx="1286" lry="2090"/>
+                <zone xml:id="zone_cbb508e2-7f04-4dbc-91e9-10dab708302c" type="measure" ulx="1246" uly="146" lrx="1538" lry="2090"/>
+            </surface>
+            <surface xml:id="surface_3ad975ce-f6bc-42e6-a052-b84ac36cfebd" n="13" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_f66634cd-31af-45e8-a35d-04f8d511e70b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page13.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f4b2818f-9318-45e2-bba2-6d2f501a98e7" type="measure" ulx="86" uly="140" lrx="430" lry="2084"/>
+                <zone xml:id="zone_682d336e-d304-4b7c-a231-36ac6b4c5aa5" type="measure" ulx="390" uly="140" lrx="624" lry="2084"/>
+                <zone xml:id="zone_79eb8cd1-be8a-40f2-8b45-5b9e3a8353b2" type="measure" ulx="584" uly="140" lrx="834" lry="2084"/>
+                <zone xml:id="zone_c2ec1393-9710-4e90-a4b8-f881bd27e949" type="measure" ulx="794" uly="140" lrx="1094" lry="2084"/>
+                <zone xml:id="zone_85f14805-5ded-4bb2-b707-2035ab79ad24" type="measure" ulx="1054" uly="140" lrx="1314" lry="2084"/>
+                <zone xml:id="zone_bd5c4cf9-6930-408d-8340-7a1da8a8a228" type="measure" ulx="1274" uly="140" lrx="1536" lry="2084"/>
+            </surface>
+            <surface xml:id="surface_faef6339-1dae-489a-850a-b016fcdee959" n="14" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_d3aa33f6-b479-479a-8d6b-7624d50ea33a" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page14.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_caa6d598-f3ec-4b3e-ad33-f0837f963d83" type="measure" ulx="98" uly="144" lrx="340" lry="2066"/>
+                <zone xml:id="zone_d547b25f-9a10-4177-b38d-137088eb9b79" type="measure" ulx="300" uly="144" lrx="490" lry="2066"/>
+                <zone xml:id="zone_74b47c14-46ff-4452-8e25-4112811b0ef6" type="measure" ulx="450" uly="144" lrx="596" lry="2066"/>
+                <zone xml:id="zone_5e361119-16d9-4c6d-9e3a-f40e5d780978" type="measure" ulx="556" uly="144" lrx="694" lry="2066"/>
+                <zone xml:id="zone_a154b4ff-a5fe-41a1-81dd-a3290dad76ed" type="measure" ulx="654" uly="144" lrx="926" lry="2066"/>
+                <zone xml:id="zone_d0e0c479-a2cf-4da0-bcaf-bd64ddb60375" type="measure" ulx="886" uly="144" lrx="1236" lry="2066"/>
+                <zone xml:id="zone_e380b2bf-f6f5-43c6-a7cc-2ea9f5db08e0" type="measure" ulx="1196" uly="144" lrx="1532" lry="2066"/>
+            </surface>
+            <surface xml:id="surface_4c2bcf93-fc63-4f16-b085-ae8c89004850" n="15" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_d73c16c7-6d04-4b0c-832b-8bff84c08eb8" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page15.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_275a3869-cf96-4a7c-8d8e-6d2db132feef" type="measure" ulx="94" uly="138" lrx="566" lry="2066"/>
+                <zone xml:id="zone_14af6b67-7e4c-4922-9dbf-c318faca1624" type="measure" ulx="526" uly="138" lrx="896" lry="2066"/>
+                <zone xml:id="zone_ffbf7419-3b02-472d-8c17-d407589e48ff" type="measure" ulx="856" uly="138" lrx="1036" lry="2066"/>
+                <zone xml:id="zone_20cac539-f53d-40ca-96b7-e6016c9d7ce8" type="measure" ulx="996" uly="138" lrx="1214" lry="2066"/>
+                <zone xml:id="zone_74b3026c-a08b-4d20-bcc1-d653456fdd59" type="measure" ulx="1174" uly="138" lrx="1380" lry="2066"/>
+                <zone xml:id="zone_fd809610-4fa5-4d3f-9f74-4fbe0a4d6bd3" type="measure" ulx="1340" uly="138" lrx="1532" lry="2066"/>
+            </surface>
+            <surface xml:id="surface_48fc4e92-00d3-45ff-8ce8-f09eef098e8d" n="16" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_926568ac-ac87-4bc6-b276-d50b1f6b44c8" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page16.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_d39f598a-6057-44d2-9b37-a106441dc961" type="measure" ulx="88" uly="142" lrx="406" lry="2048"/>
+                <zone xml:id="zone_122276f3-57e9-416c-8a8e-a81b3d882b47" type="measure" ulx="366" uly="142" lrx="586" lry="2048"/>
+                <zone xml:id="zone_a89dac0c-4ecb-4683-b538-2c0f2c85eec2" type="measure" ulx="546" uly="142" lrx="760" lry="2048"/>
+                <zone xml:id="zone_22f48eb1-c8a1-482e-91b2-724457b22bcf" type="measure" ulx="720" uly="142" lrx="962" lry="2048"/>
+                <zone xml:id="zone_d20b0d18-bb20-43d3-8a54-64d930e0ed7d" type="measure" ulx="922" uly="142" lrx="1110" lry="2048"/>
+                <zone xml:id="zone_907a2a3f-4fab-40e2-8928-1bec5c4fecb5" type="measure" ulx="1070" uly="142" lrx="1252" lry="2048"/>
+                <zone xml:id="zone_6e5772fe-d164-4e43-9331-9e5d2a02b014" type="measure" ulx="1212" uly="142" lrx="1386" lry="2048"/>
+                <zone xml:id="zone_0acd3e31-7193-4977-ac28-3c31325f48f8" type="measure" ulx="1346" uly="142" lrx="1534" lry="2048"/>
+            </surface>
+            <surface xml:id="surface_50f9c246-9ebd-4bcb-8bfb-b0b301954f2f" n="17" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_70fe1bf5-79a1-4f5a-b58d-18e1e6931cbb" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page17.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_c1265ca7-cf57-4cf6-b7c5-c160d8ababa0" type="measure" ulx="92" uly="130" lrx="436" lry="2054"/>
+                <zone xml:id="zone_dadd7dae-2cde-4406-9c8b-cd4c6eed606d" type="measure" ulx="396" uly="130" lrx="566" lry="2054"/>
+                <zone xml:id="zone_8b0a310e-17b1-419b-be5b-e3c7eea47841" type="measure" ulx="526" uly="130" lrx="714" lry="2054"/>
+                <zone xml:id="zone_2620babd-662d-4185-a500-b00cc705b676" type="measure" ulx="674" uly="130" lrx="850" lry="2054"/>
+                <zone xml:id="zone_03637ba4-5321-42ea-8727-dc7e524a096c" type="measure" ulx="810" uly="130" lrx="998" lry="2054"/>
+                <zone xml:id="zone_461acaec-90e9-4d26-80bf-0cc6177f2e4f" type="measure" ulx="958" uly="130" lrx="1176" lry="2054"/>
+                <zone xml:id="zone_b11cdc8a-1eeb-43f7-be0b-50edb82d5b25" type="measure" ulx="1136" uly="130" lrx="1354" lry="2054"/>
+                <zone xml:id="zone_67fc4663-d2cf-4a73-8df6-f5fe6a58d7cd" type="measure" ulx="1314" uly="130" lrx="1540" lry="2054"/>
+            </surface>
+            <surface xml:id="surface_e7f06d82-d38c-4c87-a309-1af8d6472e04" n="18" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_2d3d4d11-f658-436e-8257-6344d40f680b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page18.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_2f3f0d93-c124-4594-b3e7-146f6474b768" type="measure" ulx="86" uly="140" lrx="366" lry="2070"/>
+                <zone xml:id="zone_77c38daf-e505-4991-99e0-4e51aec9c718" type="measure" ulx="326" uly="140" lrx="508" lry="2070"/>
+                <zone xml:id="zone_71aeccc0-35ad-495b-9d79-340f533c7f34" type="measure" ulx="468" uly="140" lrx="672" lry="2070"/>
+                <zone xml:id="zone_52dfe286-4fe9-4594-827a-1872931af7a1" type="measure" ulx="632" uly="140" lrx="802" lry="2070"/>
+                <zone xml:id="zone_4cb4e506-d35f-49be-bb3d-8475b79ce7af" type="measure" ulx="762" uly="140" lrx="932" lry="2070"/>
+                <zone xml:id="zone_b6a5b187-3300-431b-9c9b-0f12440b9112" type="measure" ulx="892" uly="140" lrx="1086" lry="2070"/>
+                <zone xml:id="zone_89246ea0-0545-44da-a1b1-b012a304b965" type="measure" ulx="1046" uly="140" lrx="1244" lry="2070"/>
+                <zone xml:id="zone_c5da4e1a-69b7-4a81-9b27-aa8675e07ca6" type="measure" ulx="1204" uly="140" lrx="1406" lry="2070"/>
+                <zone xml:id="zone_b00d5982-af72-44a7-a570-03b711643394" type="measure" ulx="1366" uly="140" lrx="1560" lry="2070"/>
+            </surface>
+            <surface xml:id="surface_62ee2c1e-a149-4782-b3c2-cdc1b0059393" n="19" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_949cbe44-a210-473e-80c4-096c912a20db" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page19.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_0529c8f9-557b-4b9f-b3dc-705aaeab3588" type="measure" ulx="100" uly="260" lrx="396" lry="1078"/>
+                <zone xml:id="zone_fef5a4bf-fa4c-4b4a-a4b3-bd04347ec4a6" type="measure" ulx="356" uly="260" lrx="478" lry="1078"/>
+                <zone xml:id="zone_9621ead9-8828-4c7c-9c0d-72b401e04e11" type="measure" ulx="438" uly="260" lrx="556" lry="1078"/>
+                <zone xml:id="zone_bd01351d-d53b-4818-a7a9-d6832e61db86" type="measure" ulx="516" uly="260" lrx="636" lry="1078"/>
+                <zone xml:id="zone_0779d59f-4231-4281-a340-c11a520f7aaf" type="measure" ulx="596" uly="260" lrx="704" lry="1078"/>
+                <zone xml:id="zone_8c33f59c-5f7e-423d-9b8c-95e469b7265c" type="measure" ulx="664" uly="260" lrx="828" lry="1078"/>
+                <zone xml:id="zone_d57c482a-5493-46a9-b0ce-37c8cf2198b1" type="measure" ulx="788" uly="260" lrx="892" lry="1078"/>
+                <zone xml:id="zone_ad7dfddb-b467-4cde-9c78-449e641f49b7" type="measure" ulx="852" uly="260" lrx="970" lry="1078"/>
+                <zone xml:id="zone_ab416d1f-0c4e-4394-a212-cac1b8f726ce" type="measure" ulx="930" uly="260" lrx="1044" lry="1078"/>
+                <zone xml:id="zone_9cb174f2-c7d6-49d4-aac7-c9c942bc55bf" type="measure" ulx="1004" uly="260" lrx="1162" lry="1078"/>
+                <zone xml:id="zone_2ab6e939-659d-4b90-b8ec-499c57f76e0c" type="measure" ulx="1122" uly="260" lrx="1228" lry="1078"/>
+                <zone xml:id="zone_bb9c3a8d-55ca-43e6-b518-2e92ec840420" type="measure" ulx="1188" uly="260" lrx="1378" lry="1078"/>
+                <zone xml:id="zone_70c4c4c4-0a7c-497b-8e0e-78305fbd058a" type="measure" ulx="1338" uly="260" lrx="1528" lry="1078"/>
+                <zone xml:id="zone_e8c70f59-a807-44af-95af-1671bc565c97" type="measure" ulx="80" uly="1262" lrx="404" lry="2112"/>
+                <zone xml:id="zone_89d2e504-6441-461f-a405-a39b747e45ad" type="measure" ulx="364" uly="1262" lrx="564" lry="2112"/>
+                <zone xml:id="zone_4c410560-f908-4268-bb1c-49d1c5d33f1c" type="measure" ulx="524" uly="1262" lrx="746" lry="2112"/>
+                <zone xml:id="zone_0d9a3aba-0777-4480-b612-0a06af649b3b" type="measure" ulx="706" uly="1262" lrx="842" lry="2112"/>
+                <zone xml:id="zone_9d85d3e8-183e-4cb1-b04a-1abc6c47f40d" type="measure" ulx="802" uly="1262" lrx="964" lry="2112"/>
+                <zone xml:id="zone_485a4a8d-4e68-4631-9006-7678831b0596" type="measure" ulx="924" uly="1262" lrx="1034" lry="2112"/>
+                <zone xml:id="zone_855a3a40-e03f-48df-825c-a30846e7b7eb" type="measure" ulx="994" uly="1262" lrx="1138" lry="2112"/>
+                <zone xml:id="zone_55c0e8bf-86b3-4942-bdbd-e0b8a411cb53" type="measure" ulx="1098" uly="1262" lrx="1224" lry="2112"/>
+                <zone xml:id="zone_ef53411b-3bdc-4bcf-a334-d9033a17d051" type="measure" ulx="1184" uly="1262" lrx="1350" lry="2112"/>
+                <zone xml:id="zone_e75412e8-49fd-4cf4-b71d-4dca403b2c99" type="measure" ulx="1310" uly="1262" lrx="1458" lry="2112"/>
+                <zone xml:id="zone_88da4642-6643-4eee-9d79-d87c69126b36" type="measure" ulx="1418" uly="1262" lrx="1542" lry="2112"/>
+            </surface>
+            <surface xml:id="surface_6a581ebc-7961-4a00-9b4c-c400e9e40186" n="20" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_71fcdd02-dfbd-4fcd-b1f1-29b2c5e92ca7" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page20.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_531357f8-f126-47a5-8d14-37c214c4b761" type="measure" ulx="104" uly="390" lrx="390" lry="1970"/>
+                <zone xml:id="zone_7c23febd-164e-40a9-a50e-e665f692e636" type="measure" ulx="350" uly="390" lrx="562" lry="1970"/>
+                <zone xml:id="zone_c2b50059-5dcf-4616-8e7a-9787f5a10cc6" type="measure" ulx="522" uly="390" lrx="766" lry="1970"/>
+                <zone xml:id="zone_75b11eb0-5234-4076-bb6a-ce75e879e6da" type="measure" ulx="726" uly="390" lrx="936" lry="1970"/>
+                <zone xml:id="zone_1341f8d1-a4ca-4f9c-b1c5-d389e09b5b03" type="measure" ulx="896" uly="390" lrx="1150" lry="1970"/>
+                <zone xml:id="zone_2783ba4c-8385-4b17-83d8-028f5ddc6e36" type="measure" ulx="1110" uly="390" lrx="1350" lry="1970"/>
+                <zone xml:id="zone_cb78a4ca-1a19-43b2-b324-c689dc1d0357" type="measure" ulx="1310" uly="390" lrx="1530" lry="1970"/>
+            </surface>
+            <surface xml:id="surface_392ed085-333c-4e27-ac57-cea9ef7cc464" n="21" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_227394c3-df47-485a-af47-9262bec25e1d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page21.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_8cd61950-b6bf-4744-942b-8057ff8c7f4a" type="measure" ulx="76" uly="134" lrx="480" lry="1900"/>
+                <zone xml:id="zone_5c984638-3a52-4bbc-b424-8e2a7635365a" type="measure" ulx="440" uly="134" lrx="706" lry="1900"/>
+                <zone xml:id="zone_bb552d34-d66b-4dd4-8438-21d7f0e32aad" type="measure" ulx="666" uly="134" lrx="972" lry="1900"/>
+                <zone xml:id="zone_d7d32858-96d2-41de-9791-0470ec9980d4" type="measure" ulx="932" uly="134" lrx="1194" lry="1900"/>
+                <zone xml:id="zone_287d75e4-86d1-4cee-8d6d-1a96161fb826" type="measure" ulx="1154" uly="134" lrx="1428" lry="1900"/>
+                <zone xml:id="zone_c04ab5cb-b6ff-40ee-ab5d-d990e63626b7" type="measure" ulx="1388" uly="134" lrx="1556" lry="1900"/>
+            </surface>
+            <surface xml:id="surface_21c6d011-e859-4259-a09c-3d1eee98dddf" n="22" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_36da1a2f-8c3c-4cc6-947a-c62d77e1ce86" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page22.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_3214c0d4-171a-4c01-af53-4c703d367f51" type="measure" ulx="76" uly="278" lrx="458" lry="2036"/>
+                <zone xml:id="zone_b9bec7c3-f73c-4fb2-a69a-cb98f521a2f2" type="measure" ulx="418" uly="278" lrx="600" lry="2036"/>
+                <zone xml:id="zone_35cc54fb-39c4-4adb-9c90-3da200cbb486" type="measure" ulx="560" uly="278" lrx="732" lry="2036"/>
+                <zone xml:id="zone_dcc1ca9c-1332-457e-89f1-cf50df1ce46f" type="measure" ulx="692" uly="278" lrx="932" lry="2036"/>
+                <zone xml:id="zone_a5dd411e-78fe-49b9-a6fa-5ff1c98ef450" type="measure" ulx="892" uly="278" lrx="1124" lry="2036"/>
+                <zone xml:id="zone_195bc00a-1b7f-4d8a-99ce-c3c8d3195ef9" type="measure" ulx="1084" uly="278" lrx="1326" lry="2036"/>
+                <zone xml:id="zone_ef15d80f-4b8f-4399-820c-77f9b0eed9c4" type="measure" ulx="1286" uly="278" lrx="1536" lry="2036"/>
+            </surface>
+            <surface xml:id="surface_4b0afc71-88c1-4768-be75-7577eb30e8cd" n="23" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_c771b31c-8a15-4b4e-ae75-e075886ec129" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page23.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_c8943612-5b9f-43d3-94ac-24214c7c6051" type="measure" ulx="68" uly="138" lrx="430" lry="2016"/>
+                <zone xml:id="zone_36000a4f-5306-4a64-ae08-d587bc1e686c" type="measure" ulx="390" uly="138" lrx="636" lry="2016"/>
+                <zone xml:id="zone_5c614449-c661-4827-8db6-bb6cb0b7dec5" type="measure" ulx="596" uly="138" lrx="830" lry="2016"/>
+                <zone xml:id="zone_90504550-a278-4641-b8d3-30af39f062dd" type="measure" ulx="790" uly="138" lrx="1020" lry="2016"/>
+                <zone xml:id="zone_319b6692-3279-4c24-ac64-69281b339c99" type="measure" ulx="980" uly="138" lrx="1214" lry="2016"/>
+                <zone xml:id="zone_cd4f73f4-c20b-48c8-80ab-9976e6c24a9c" type="measure" ulx="1174" uly="138" lrx="1406" lry="2016"/>
+                <zone xml:id="zone_252a5d39-7653-4743-808c-8ce67ccd7633" type="measure" ulx="1366" uly="138" lrx="1532" lry="2016"/>
+            </surface>
+            <surface xml:id="surface_6610441b-4227-4a3e-9ed0-7f0059e4348a" n="24" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_cbe243fc-60b2-4dc8-8493-b598ed849fbe" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page24.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_ffce4e22-e053-4040-ab80-16ffa2a69b2d" type="measure" ulx="80" uly="132" lrx="378" lry="1994"/>
+                <zone xml:id="zone_77de44db-7b1a-4433-baa7-0f5aa2671a45" type="measure" ulx="338" uly="132" lrx="530" lry="1994"/>
+                <zone xml:id="zone_7f314489-ce2e-423c-90f1-39d9cb6c9a53" type="measure" ulx="490" uly="132" lrx="650" lry="1994"/>
+                <zone xml:id="zone_d9023e27-8790-413b-9ef9-198846ab135e" type="measure" ulx="610" uly="132" lrx="840" lry="1994"/>
+                <zone xml:id="zone_abe7545a-afdc-4d5d-a252-8d329e51bdea" type="measure" ulx="800" uly="132" lrx="1020" lry="1994"/>
+                <zone xml:id="zone_9ecee7b8-5628-4e2c-b648-db8a5cf97314" type="measure" ulx="980" uly="132" lrx="1192" lry="1994"/>
+                <zone xml:id="zone_99ac98e8-5dfd-4d8a-9b40-0e4a40767154" type="measure" ulx="1152" uly="132" lrx="1384" lry="1994"/>
+                <zone xml:id="zone_42f9d043-7f7f-4edc-83ee-723e085073d4" type="measure" ulx="1344" uly="132" lrx="1538" lry="1994"/>
+            </surface>
+            <surface xml:id="surface_401c0fd0-45d6-4d40-bf2e-b950688e1fff" n="25" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_d78e6f57-2ade-4a06-9dea-0d8f3a014d2b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page25.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_1725e255-c5bc-4588-ad74-6c4f1571a4a3" type="measure" ulx="72" uly="142" lrx="436" lry="2024"/>
+                <zone xml:id="zone_624ae0ba-8701-456b-83f1-4df393f771b3" type="measure" ulx="396" uly="142" lrx="546" lry="2024"/>
+                <zone xml:id="zone_f9dde7d2-4738-423d-8022-efd654e01e83" type="measure" ulx="506" uly="142" lrx="740" lry="2024"/>
+                <zone xml:id="zone_7e945699-b1a0-4cff-83e1-3509940441f7" type="measure" ulx="700" uly="142" lrx="840" lry="2024"/>
+                <zone xml:id="zone_e84a5c53-5db5-43ce-8f85-32125c8d2509" type="measure" ulx="800" uly="142" lrx="1010" lry="2024"/>
+                <zone xml:id="zone_dd1fd57a-9386-46e1-9fee-061ffe0dd38c" type="measure" ulx="970" uly="142" lrx="1180" lry="2024"/>
+                <zone xml:id="zone_8947752b-deff-4bc9-814b-4b03ca983dc5" type="measure" ulx="1140" uly="142" lrx="1344" lry="2024"/>
+                <zone xml:id="zone_f9c0dca6-9a6f-47da-991d-e2c3cf09da6f" type="measure" ulx="1304" uly="142" lrx="1540" lry="2024"/>
+            </surface>
+            <surface xml:id="surface_f048bad5-81ef-4e8c-9e7b-a35adfed9751" n="26" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_c2b44818-2cf1-459b-96e1-0c175851c68f" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page26.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_b6ad45ae-1c95-4105-b206-2e99763d25d3" type="measure" ulx="84" uly="124" lrx="384" lry="2006"/>
+                <zone xml:id="zone_535e711b-055a-457d-9a28-0f8e651123c9" type="measure" ulx="344" uly="124" lrx="586" lry="2006"/>
+                <zone xml:id="zone_5ebde699-5072-4451-b31b-a34a9a49ee1f" type="measure" ulx="546" uly="124" lrx="796" lry="2006"/>
+                <zone xml:id="zone_e4cac451-b85f-4395-b589-ca4c2eb12186" type="measure" ulx="756" uly="124" lrx="998" lry="2006"/>
+                <zone xml:id="zone_699573f0-885a-4b22-95ce-d18ce75ffae4" type="measure" ulx="958" uly="124" lrx="1164" lry="2006"/>
+                <zone xml:id="zone_0f7ea8d0-c09a-4336-8645-940f0f23df18" type="measure" ulx="1124" uly="124" lrx="1334" lry="2006"/>
+                <zone xml:id="zone_8e3df1b4-a79f-4dd4-b394-ff9d9da219d0" type="measure" ulx="1294" uly="124" lrx="1534" lry="2006"/>
+            </surface>
+            <surface xml:id="surface_d23570b7-c7d8-4cf4-b1b8-061c5cb6b15d" n="27" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_cd5c9d44-2dff-4bd5-be56-ba40466bd010" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page27.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_9330a4c0-e52f-4ae6-8d20-87ec3845e278" type="measure" ulx="84" uly="124" lrx="440" lry="2000"/>
+                <zone xml:id="zone_5fae3d64-1dfb-4682-aecc-7d20167c1bb1" type="measure" ulx="400" uly="124" lrx="642" lry="2000"/>
+                <zone xml:id="zone_55b155cc-f706-4ddc-94b0-6497aaec8f62" type="measure" ulx="602" uly="124" lrx="808" lry="2000"/>
+                <zone xml:id="zone_21b7ce3d-6750-4260-83af-e23e8d744686" type="measure" ulx="768" uly="124" lrx="956" lry="2000"/>
+                <zone xml:id="zone_cda7c8dc-beb3-412d-9c58-a1eb5b1d4054" type="measure" ulx="916" uly="124" lrx="1246" lry="2000"/>
+                <zone xml:id="zone_82cd1ae8-6b24-481d-b421-40b09fa93746" type="measure" ulx="1206" uly="124" lrx="1544" lry="2000"/>
+            </surface>
+            <surface xml:id="surface_475ba4a7-75af-47a6-883f-fca4581e0b7f" n="28" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_229e68c9-1626-41d7-bf02-2c2c401db358" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page28.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_5394a5cc-c586-41be-9987-b4e0a0ce6a50" type="measure" ulx="64" uly="134" lrx="512" lry="2002"/>
+                <zone xml:id="zone_79bcc3d0-d61f-468a-8591-a658f4f8ff3a" type="measure" ulx="472" uly="134" lrx="632" lry="2002"/>
+                <zone xml:id="zone_223a67fc-351d-479a-96b6-94f10a5060aa" type="measure" ulx="592" uly="134" lrx="894" lry="2002"/>
+                <zone xml:id="zone_3aa6dd31-8110-486e-995c-2946824f0f9c" type="measure" ulx="854" uly="134" lrx="1136" lry="2002"/>
+                <zone xml:id="zone_e83c814d-e87c-41e7-8f07-96019bf33ab1" type="measure" ulx="1096" uly="134" lrx="1268" lry="2002"/>
+                <zone xml:id="zone_3e7c8562-af46-4005-b955-1c9f1a8c8eb0" type="measure" ulx="1228" uly="134" lrx="1402" lry="2002"/>
+                <zone xml:id="zone_5f0eb3af-56a9-43b5-aace-203f8486cac5" type="measure" ulx="1362" uly="134" lrx="1536" lry="2002"/>
+            </surface>
+            <surface xml:id="surface_5ec38fac-f1b2-4643-96df-6d5b185f2298" n="29" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_a9c2e726-66a8-41b3-9db4-dbe63961b77e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page29.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_8f9070ca-733f-4162-9040-93a2f6680438" type="measure" ulx="72" uly="136" lrx="368" lry="2004"/>
+                <zone xml:id="zone_abcdb6f6-4e77-4d7c-8a7a-a8406a374156" type="measure" ulx="328" uly="136" lrx="482" lry="2004"/>
+                <zone xml:id="zone_ba2a3efb-ae74-4f67-82a1-a79bd456c28c" type="measure" ulx="442" uly="136" lrx="668" lry="2004"/>
+                <zone xml:id="zone_07986b98-5750-4457-98d5-72f64a75a6ac" type="measure" ulx="628" uly="136" lrx="840" lry="2004"/>
+                <zone xml:id="zone_283e325c-a28b-423d-9e41-e7f885f668c4" type="measure" ulx="800" uly="136" lrx="1010" lry="2004"/>
+                <zone xml:id="zone_88e57d90-2ebd-4b07-a243-39e57cc05890" type="measure" ulx="970" uly="136" lrx="1186" lry="2004"/>
+                <zone xml:id="zone_2804d9c8-fb55-46a4-bf5c-e39385ae75be" type="measure" ulx="1146" uly="136" lrx="1354" lry="2004"/>
+                <zone xml:id="zone_bba42f1e-2141-4561-8444-06aa0fcd6af9" type="measure" ulx="1314" uly="136" lrx="1538" lry="2004"/>
+            </surface>
+            <surface xml:id="surface_25c6f25e-042a-498d-9847-2fcf6bcee9c6" n="30" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_4f588386-7fb3-48c1-91a3-6048a686e800" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page30.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_004598a3-7f15-49e6-a559-eccbce35c347" type="measure" ulx="82" uly="132" lrx="352" lry="2002"/>
+                <zone xml:id="zone_73d154a1-35cd-44fc-83f5-805ffc77cec6" type="measure" ulx="312" uly="132" lrx="476" lry="2002"/>
+                <zone xml:id="zone_d6bb39d3-3f2d-4722-ae53-4dbc7a675c00" type="measure" ulx="436" uly="132" lrx="612" lry="2002"/>
+                <zone xml:id="zone_e96f0734-e550-4a32-8154-29d39e73faaf" type="measure" ulx="572" uly="132" lrx="728" lry="2002"/>
+                <zone xml:id="zone_7e57bcdd-8971-4051-a825-de169c1ab740" type="measure" ulx="688" uly="132" lrx="892" lry="2002"/>
+                <zone xml:id="zone_b2a3ffbd-8cdd-4d67-ae4c-1264ca28b169" type="measure" ulx="852" uly="132" lrx="1056" lry="2002"/>
+                <zone xml:id="zone_932fe5cb-d344-4c35-82fd-b076f932f60e" type="measure" ulx="1016" uly="132" lrx="1216" lry="2002"/>
+                <zone xml:id="zone_66659185-71ec-4539-839a-183c24e416bf" type="measure" ulx="1176" uly="132" lrx="1388" lry="2002"/>
+                <zone xml:id="zone_7b67c3c6-a97e-4baf-97e7-48aae76a1a83" type="measure" ulx="1348" uly="132" lrx="1530" lry="2002"/>
+            </surface>
+            <surface xml:id="surface_e14326c0-d35f-4551-93eb-3d6a4a3814b1" n="31" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_1dc623da-2c7b-4e30-8e9a-c12641ada096" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page31.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_90935af8-081c-4a47-b507-15730cb4004d" type="measure" ulx="86" uly="140" lrx="468" lry="2016"/>
+                <zone xml:id="zone_376ed5c7-5fe9-4c12-89f9-a647fd0098b5" type="measure" ulx="428" uly="140" lrx="568" lry="2016"/>
+                <zone xml:id="zone_9c74b995-a0e8-4783-9834-8d35ce8e0a27" type="measure" ulx="528" uly="140" lrx="746" lry="2016"/>
+                <zone xml:id="zone_7f1c6cc9-35b4-4248-a726-15d21f719f04" type="measure" ulx="706" uly="140" lrx="846" lry="2016"/>
+                <zone xml:id="zone_4d974bff-6a73-4440-82ff-29e07c133745" type="measure" ulx="806" uly="140" lrx="1032" lry="2016"/>
+                <zone xml:id="zone_26a83be4-8ab5-48dc-be05-3a52be156264" type="measure" ulx="992" uly="140" lrx="1188" lry="2016"/>
+                <zone xml:id="zone_4505ca74-0338-47c6-96ed-a159a40f09eb" type="measure" ulx="1148" uly="140" lrx="1382" lry="2016"/>
+                <zone xml:id="zone_485fc2db-56fe-49e8-b103-1153416cb35d" type="measure" ulx="1342" uly="140" lrx="1544" lry="2016"/>
+            </surface>
+            <surface xml:id="surface_116332c5-60e7-42bf-8541-6d05be26a010" n="32" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_4f097e2c-6474-4e3d-935f-a0bfa9737959" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page32.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_2a1b726a-a92a-4ba4-8848-75986ce33b34" type="measure" ulx="78" uly="142" lrx="394" lry="2014"/>
+                <zone xml:id="zone_f307b65a-bd2c-45c5-9732-75b547791019" type="measure" ulx="354" uly="142" lrx="552" lry="2014"/>
+                <zone xml:id="zone_8cbf0cae-4377-4fa0-85d7-c0c41048ba73" type="measure" ulx="512" uly="142" lrx="710" lry="2014"/>
+                <zone xml:id="zone_ec194839-89be-46f9-afb0-b0eae720b9b5" type="measure" ulx="670" uly="142" lrx="932" lry="2014"/>
+                <zone xml:id="zone_0290e83b-2012-440e-9547-3e2b4e9e172f" type="measure" ulx="892" uly="142" lrx="1090" lry="2014"/>
+                <zone xml:id="zone_e7754110-bd7e-4b1e-9391-e58dd36317ef" type="measure" ulx="1050" uly="142" lrx="1248" lry="2014"/>
+                <zone xml:id="zone_11a47007-dac5-41fe-a0b9-bfca693ca90a" type="measure" ulx="1208" uly="142" lrx="1424" lry="2014"/>
+                <zone xml:id="zone_857deaed-0164-404b-ba63-916b64113811" type="measure" ulx="1384" uly="142" lrx="1536" lry="2014"/>
+            </surface>
+            <surface xml:id="surface_18a1f6a3-8bad-48c3-8d3f-fda7f2b9ba81" n="33" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_af87385f-66ba-480c-bb13-c0aadce1b68e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page33.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_b33e91b8-8226-4c6a-868d-3ea52faf1575" type="measure" ulx="92" uly="246" lrx="466" lry="1216"/>
+                <zone xml:id="zone_62960ee6-ca17-4c19-903f-7375371e6e28" type="measure" ulx="426" uly="246" lrx="646" lry="1216"/>
+                <zone xml:id="zone_02161c38-69a0-4278-9aa8-5928664442c8" type="measure" ulx="606" uly="246" lrx="800" lry="1216"/>
+                <zone xml:id="zone_a27a4afa-0f14-4be9-863c-481658842fff" type="measure" ulx="760" uly="246" lrx="1016" lry="1216"/>
+                <zone xml:id="zone_634979b5-fe1a-4343-ae05-d2c85349bcf4" type="measure" ulx="976" uly="246" lrx="1148" lry="1216"/>
+                <zone xml:id="zone_e37bced1-136d-414e-86d3-39c5cedea122" type="measure" ulx="1108" uly="246" lrx="1326" lry="1216"/>
+                <zone xml:id="zone_446924bc-763a-485d-9251-d1244c962a47" type="measure" ulx="1286" uly="246" lrx="1530" lry="1216"/>
+                <zone xml:id="zone_9b608e44-8c60-4c4e-9713-caeb69655bcc" type="measure" ulx="80" uly="1250" lrx="482" lry="2194"/>
+                <zone xml:id="zone_13829500-749f-4a43-9206-e9ffb339a40d" type="measure" ulx="442" uly="1250" lrx="650" lry="2194"/>
+                <zone xml:id="zone_53cfcbc3-aa72-40ff-bc0d-ee4db1cdfeae" type="measure" ulx="610" uly="1250" lrx="844" lry="2194"/>
+                <zone xml:id="zone_e2fd6e37-5467-4b7d-8c90-1d393b37a913" type="measure" ulx="804" uly="1250" lrx="1018" lry="2194"/>
+                <zone xml:id="zone_383b4cdb-6219-4ee0-b5d0-6ac915cd3b78" type="measure" ulx="978" uly="1250" lrx="1212" lry="2194"/>
+                <zone xml:id="zone_c867f89d-0568-4973-9793-9de1e1841e0c" type="measure" ulx="1172" uly="1250" lrx="1368" lry="2194"/>
+                <zone xml:id="zone_23910309-fdab-4427-b5a6-0d4e4c1f6098" type="measure" ulx="1328" uly="1250" lrx="1532" lry="2194"/>
+            </surface>
+            <surface xml:id="surface_af8ce380-8beb-41ef-8964-56b5dfb58cf8" n="34" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_344a20b6-3eda-4ccb-ae32-cc613ceb9732" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page34.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f1d3ea3f-5b38-4e56-97d0-d25a900ef752" type="measure" ulx="74" uly="318" lrx="514" lry="2002"/>
+                <zone xml:id="zone_406b14cd-1b6e-4887-9da8-f609f8df6360" type="measure" ulx="474" uly="318" lrx="690" lry="2002"/>
+                <zone xml:id="zone_dfdb8986-d7a3-4d67-b173-d286066940d9" type="measure" ulx="650" uly="318" lrx="906" lry="2002"/>
+                <zone xml:id="zone_1f042cd2-c76c-467c-81bf-a50d2e06175c" type="measure" ulx="866" uly="318" lrx="1086" lry="2002"/>
+                <zone xml:id="zone_fd976e03-e8ff-4a48-991d-2489e53869ae" type="measure" ulx="1046" uly="318" lrx="1238" lry="2002"/>
+                <zone xml:id="zone_4ce1f866-baa6-426c-9caa-689ae0b8b37d" type="measure" ulx="1198" uly="318" lrx="1306" lry="2002"/>
+                <zone xml:id="zone_cdc5659c-a6e3-493c-b7ae-fe4db1b8fc15" type="measure" ulx="1266" uly="318" lrx="1394" lry="2002"/>
+                <zone xml:id="zone_9489b121-2f16-42c4-9b79-3c1e2d64e154" type="measure" ulx="1354" uly="318" lrx="1458" lry="2002"/>
+                <zone xml:id="zone_ba9b1f98-4909-42ad-9887-b5d27b1d21a6" type="measure" ulx="1418" uly="318" lrx="1550" lry="2002"/>
+            </surface>
+            <surface xml:id="surface_9cba7065-daee-43bd-97fc-2960f3157716" n="35" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_7ab6af30-b425-45e5-8734-6bbac4775ad5" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page35.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_e3450b99-1aa2-4409-95c1-b1470b530368" type="measure" ulx="68" uly="278" lrx="444" lry="2072"/>
+                <zone xml:id="zone_04204494-91f4-4f6f-814c-1482afdc267c" type="measure" ulx="404" uly="278" lrx="580" lry="2072"/>
+                <zone xml:id="zone_c6871cc3-691c-4948-9d80-37de48253649" type="measure" ulx="540" uly="278" lrx="748" lry="2072"/>
+                <zone xml:id="zone_0d23a94a-0d8e-47f0-8732-22ad687953df" type="measure" ulx="708" uly="278" lrx="874" lry="2072"/>
+                <zone xml:id="zone_4cb1bea7-7a79-4887-84fa-d12b15564723" type="measure" ulx="834" uly="278" lrx="996" lry="2072"/>
+                <zone xml:id="zone_7f030707-b16b-4ad5-8870-2cedda257307" type="measure" ulx="956" uly="278" lrx="1134" lry="2072"/>
+                <zone xml:id="zone_82ed3cd6-7af4-44d5-9245-35b437d67238" type="measure" ulx="1094" uly="278" lrx="1272" lry="2072"/>
+                <zone xml:id="zone_f552cc83-e942-4fda-8dcc-9eb2dfa24617" type="measure" ulx="1232" uly="278" lrx="1392" lry="2072"/>
+                <zone xml:id="zone_3f90c472-7d24-459a-92ee-e3798adb0748" type="measure" ulx="1352" uly="278" lrx="1464" lry="2072"/>
+                <zone xml:id="zone_86f9d12c-2b33-4120-95e8-fd60b20f60e5" type="measure" ulx="1424" uly="278" lrx="1542" lry="2072"/>
+            </surface>
+            <surface xml:id="surface_981f77fc-ff6d-4930-b819-a09f18198429" n="36" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_3f776224-95c2-4fb7-a84a-e36455cea6bf" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page36.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_34e7459e-ab4c-4d35-a65a-5974bca01425" type="measure" ulx="84" uly="144" lrx="306" lry="2036"/>
+                <zone xml:id="zone_cca1f5eb-73cb-4c76-8b28-95f277696bb5" type="measure" ulx="266" uly="144" lrx="422" lry="2036"/>
+                <zone xml:id="zone_d396211f-3dfa-429b-8cef-84ee6d5bfa55" type="measure" ulx="382" uly="144" lrx="580" lry="2036"/>
+                <zone xml:id="zone_8a7f2a5b-1af7-485c-86ea-fb13a278f34d" type="measure" ulx="540" uly="144" lrx="748" lry="2036"/>
+                <zone xml:id="zone_a396f379-a733-4397-9d2e-b92a0f120f0c" type="measure" ulx="708" uly="144" lrx="886" lry="2036"/>
+                <zone xml:id="zone_5cb528bb-8e9a-4eda-b165-a2b57de2cb85" type="measure" ulx="846" uly="144" lrx="1010" lry="2036"/>
+                <zone xml:id="zone_989a665e-1e95-4e2c-8442-ebd66111edd9" type="measure" ulx="970" uly="144" lrx="1148" lry="2036"/>
+                <zone xml:id="zone_83d49cf6-a45e-4838-9b3e-1996815ceab1" type="measure" ulx="1108" uly="144" lrx="1278" lry="2036"/>
+                <zone xml:id="zone_88904d79-bbcf-4458-8180-17451bd2b2d2" type="measure" ulx="1238" uly="144" lrx="1392" lry="2036"/>
+                <zone xml:id="zone_fba89ec7-142f-4866-a828-ab1c34e76d53" type="measure" ulx="1352" uly="144" lrx="1532" lry="2036"/>
+            </surface>
+            <surface xml:id="surface_04da809a-ed45-4d99-b9be-c26df7ffbb58" n="37" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_9b612465-9cf9-45bf-920e-c15183b979b9" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page37.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_000d26ab-1a53-42cb-9f8d-24d2b137ed01" type="measure" ulx="78" uly="140" lrx="420" lry="2042"/>
+                <zone xml:id="zone_c0294466-12de-4433-9011-32cdd8505e45" type="measure" ulx="380" uly="140" lrx="570" lry="2042"/>
+                <zone xml:id="zone_e2bcae80-fdec-4a10-9f14-2c7e93e12caa" type="measure" ulx="530" uly="140" lrx="702" lry="2042"/>
+                <zone xml:id="zone_b1c3ead4-fbee-46a9-b8fc-8b4ef4e7d925" type="measure" ulx="662" uly="140" lrx="832" lry="2042"/>
+                <zone xml:id="zone_76ce0ff6-4a04-4144-9299-fc81d18ea0b4" type="measure" ulx="792" uly="140" lrx="984" lry="2042"/>
+                <zone xml:id="zone_24a42fa0-b986-4bb8-adda-5457b19f3865" type="measure" ulx="944" uly="140" lrx="1130" lry="2042"/>
+                <zone xml:id="zone_ba259717-2314-48e7-8a27-5fbdef031b5f" type="measure" ulx="1090" uly="140" lrx="1248" lry="2042"/>
+                <zone xml:id="zone_a0cd5883-a0bc-4dba-a4a5-94ef905108ae" type="measure" ulx="1208" uly="140" lrx="1412" lry="2042"/>
+                <zone xml:id="zone_4f81dfc9-01a3-4599-9d5d-3463985fdd6d" type="measure" ulx="1372" uly="140" lrx="1534" lry="2042"/>
+            </surface>
+            <surface xml:id="surface_24f8d6b1-bcd3-4aa6-a324-808e48e4724c" n="38" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_069aeb11-3bbd-413e-a837-e174276ea4eb" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page38.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_c444e2c4-8923-4f4f-9c38-a7c367ee49be" type="measure" ulx="76" uly="142" lrx="354" lry="2036"/>
+                <zone xml:id="zone_c2866077-2b79-4e82-aa71-d2a8fccacd86" type="measure" ulx="314" uly="142" lrx="464" lry="2036"/>
+                <zone xml:id="zone_862c90d6-acda-439e-9192-2f3b340eac6f" type="measure" ulx="424" uly="142" lrx="588" lry="2036"/>
+                <zone xml:id="zone_337b59fe-be80-461d-93f7-860fe837278a" type="measure" ulx="548" uly="142" lrx="714" lry="2036"/>
+                <zone xml:id="zone_ab9dbd6e-d9c0-4f5e-851e-9a8e3194f68d" type="measure" ulx="674" uly="142" lrx="820" lry="2036"/>
+                <zone xml:id="zone_1dc4664f-305b-4f8d-ad0b-acdeaf87826d" type="measure" ulx="780" uly="142" lrx="942" lry="2036"/>
+                <zone xml:id="zone_6571eac8-83ab-45a0-81e0-50d3d952edbe" type="measure" ulx="902" uly="142" lrx="1056" lry="2036"/>
+                <zone xml:id="zone_dd6699d4-f80b-41da-84a4-f1b6b958c8a5" type="measure" ulx="1016" uly="142" lrx="1176" lry="2036"/>
+                <zone xml:id="zone_da2185d6-a692-426b-b4cd-ca3f835ac470" type="measure" ulx="1136" uly="142" lrx="1232" lry="2036"/>
+                <zone xml:id="zone_f32c1c5f-843c-403a-8690-9f88842da02c" type="measure" ulx="1192" uly="142" lrx="1296" lry="2036"/>
+                <zone xml:id="zone_9eeaf6bd-63c1-44b8-962e-b27de8ec47cb" type="measure" ulx="1256" uly="142" lrx="1360" lry="2036"/>
+                <zone xml:id="zone_79106477-8033-4600-bef6-71047967967f" type="measure" ulx="1320" uly="142" lrx="1546" lry="2036"/>
+            </surface>
+            <surface xml:id="surface_f7feb5b3-fd54-4826-b776-569c61ad54da" n="39" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_f844f8d4-a9bd-44c4-a1e3-c75dade57dd6" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page39.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_0b550924-8981-4b34-84be-b5757cabadcc" type="measure" ulx="86" uly="140" lrx="476" lry="2036"/>
+                <zone xml:id="zone_05c3256f-8521-4fc4-9f08-e5c480c1e25f" type="measure" ulx="436" uly="140" lrx="686" lry="2036"/>
+                <zone xml:id="zone_d1d6d067-fa71-4ba4-8882-421bbedcefd7" type="measure" ulx="646" uly="140" lrx="902" lry="2036"/>
+                <zone xml:id="zone_6dce6ec7-1462-4837-a238-28f79d417831" type="measure" ulx="862" uly="140" lrx="1106" lry="2036"/>
+                <zone xml:id="zone_e9d72218-7708-4a46-924d-6a51b0e1c3bd" type="measure" ulx="1066" uly="140" lrx="1320" lry="2036"/>
+                <zone xml:id="zone_8989c701-5af6-4c19-9579-3c92851d4c19" type="measure" ulx="1280" uly="140" lrx="1532" lry="2036"/>
+            </surface>
+            <surface xml:id="surface_340ddb15-69d7-412d-89ef-b68fee8489e6" n="40" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_5443a107-a10f-456d-9e8a-069c67adba01" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page40.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_b16237d9-92ef-4c44-bfda-022337f5700d" type="measure" ulx="82" uly="136" lrx="448" lry="2026"/>
+                <zone xml:id="zone_7581404d-b990-4086-b8af-d05830a68604" type="measure" ulx="408" uly="136" lrx="668" lry="2026"/>
+                <zone xml:id="zone_d15e8b2f-4bc5-4c5f-95bd-978566e36025" type="measure" ulx="628" uly="136" lrx="886" lry="2026"/>
+                <zone xml:id="zone_774b1b93-10ee-4d85-93bf-bc778cd9b2ff" type="measure" ulx="846" uly="136" lrx="1104" lry="2026"/>
+                <zone xml:id="zone_43116de7-80dc-4962-a5f2-44cff34a17ff" type="measure" ulx="1064" uly="136" lrx="1316" lry="2026"/>
+                <zone xml:id="zone_42e53e69-6fa3-4d2c-aaf0-7c12285717ca" type="measure" ulx="1276" uly="136" lrx="1542" lry="2026"/>
+            </surface>
+            <surface xml:id="surface_312f299d-b783-4b78-b58e-0b9841813ec6" n="41" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_c3e66cbc-00e2-4c77-bdc0-f9a4936d6f95" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page41.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f2f98bb5-a610-4d06-a35c-8250a21a8661" type="measure" ulx="78" uly="136" lrx="426" lry="2032"/>
+                <zone xml:id="zone_fcaa291c-3fd7-4c4e-b9a5-61b106b90765" type="measure" ulx="386" uly="136" lrx="628" lry="2032"/>
+                <zone xml:id="zone_fc2240c8-9aa9-4991-b4f8-26e84f4be1eb" type="measure" ulx="588" uly="136" lrx="822" lry="2032"/>
+                <zone xml:id="zone_2f24347f-5c83-43c8-bba6-6f4b5125e9fb" type="measure" ulx="782" uly="136" lrx="1028" lry="2032"/>
+                <zone xml:id="zone_3cb06ffb-f22a-4e4c-b45f-12e91430da22" type="measure" ulx="988" uly="136" lrx="1198" lry="2032"/>
+                <zone xml:id="zone_dc927209-ce9a-44a6-9814-3e4fe7f66e69" type="measure" ulx="1158" uly="136" lrx="1362" lry="2032"/>
+                <zone xml:id="zone_ad6db4f0-2b2b-4955-b992-22f86d720b60" type="measure" ulx="1322" uly="136" lrx="1536" lry="2032"/>
+            </surface>
+            <surface xml:id="surface_c5d00bd8-116e-4ec9-8b96-9e41d0abcb08" n="42" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_abdd17a4-a979-47c1-b63e-91c3416cb40d" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page42.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f1f7a1c4-15af-4de0-9014-d59fbeff6385" type="measure" ulx="74" uly="140" lrx="396" lry="2038"/>
+                <zone xml:id="zone_7961e2cc-56c9-4cc4-9a37-0c557939539e" type="measure" ulx="356" uly="140" lrx="590" lry="2038"/>
+                <zone xml:id="zone_8196bc88-3dd5-47df-be5f-6f8438d4a2de" type="measure" ulx="550" uly="140" lrx="784" lry="2038"/>
+                <zone xml:id="zone_33330d5d-ebcc-4131-a302-92612fa3f800" type="measure" ulx="744" uly="140" lrx="976" lry="2038"/>
+                <zone xml:id="zone_fcd0b17e-8f9e-412f-abfd-06b4916731fa" type="measure" ulx="936" uly="140" lrx="1174" lry="2038"/>
+                <zone xml:id="zone_c27140b1-cd71-4270-872c-9cf56e96023e" type="measure" ulx="1134" uly="140" lrx="1340" lry="2038"/>
+                <zone xml:id="zone_b1111673-e0e7-4c0b-92ca-8664c8e1827d" type="measure" ulx="1300" uly="140" lrx="1534" lry="2038"/>
+            </surface>
+            <surface xml:id="surface_da4b5645-92e0-419c-9583-bf1215b679b3" n="43" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_eade6a53-17c7-4d7c-91d8-f3db8d907a5b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page43.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_59fdd5d4-8c45-416b-8a54-03fa9b99b66c" type="measure" ulx="76" uly="136" lrx="456" lry="2050"/>
+                <zone xml:id="zone_383cb2da-72bd-4e0d-b831-1df5ccf633c6" type="measure" ulx="416" uly="136" lrx="670" lry="2050"/>
+                <zone xml:id="zone_2f60d21f-644d-45aa-9f4e-85800f1af22d" type="measure" ulx="630" uly="136" lrx="888" lry="2050"/>
+                <zone xml:id="zone_0d479b4e-9a97-4758-8550-3dceb2670feb" type="measure" ulx="848" uly="136" lrx="1100" lry="2050"/>
+                <zone xml:id="zone_a9799a53-7299-4f07-a2a2-bbe99f633a56" type="measure" ulx="1060" uly="136" lrx="1240" lry="2050"/>
+                <zone xml:id="zone_73a26366-bdf3-48bc-b63e-5ac099dda127" type="measure" ulx="1200" uly="136" lrx="1386" lry="2050"/>
+                <zone xml:id="zone_10043cc9-8e21-4109-a1b6-c141abd0106b" type="measure" ulx="1346" uly="136" lrx="1452" lry="2050"/>
+                <zone xml:id="zone_62af2d77-0bf0-4a74-9ea8-91bedb483c06" type="measure" ulx="1412" uly="136" lrx="1536" lry="2050"/>
+            </surface>
+            <surface xml:id="surface_8f2891c2-87b2-43b0-be0e-3c97ea64d5db" n="44" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_b100f367-3611-49b4-81b9-b370bcefa302" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page44.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_d547b7ed-836c-42a5-81d9-a7e3d4d817c5" type="measure" ulx="74" uly="134" lrx="360" lry="2042"/>
+                <zone xml:id="zone_26c01ba3-bdf6-4f54-a82d-a7528c83e79c" type="measure" ulx="320" uly="134" lrx="466" lry="2042"/>
+                <zone xml:id="zone_573a5236-e49e-4e72-b80b-144f949b11b3" type="measure" ulx="426" uly="134" lrx="662" lry="2042"/>
+                <zone xml:id="zone_03652be3-aa1c-4ae2-b3be-7b92f2e3a92f" type="measure" ulx="622" uly="134" lrx="818" lry="2042"/>
+                <zone xml:id="zone_289c0fa3-d155-4dba-a811-70cb13e87b52" type="measure" ulx="778" uly="134" lrx="988" lry="2042"/>
+                <zone xml:id="zone_78dd6984-2e57-49b4-84af-9ae410948a6a" type="measure" ulx="948" uly="134" lrx="1136" lry="2042"/>
+                <zone xml:id="zone_92f8d74e-1000-4afb-83be-47cbe43ecbf6" type="measure" ulx="1096" uly="134" lrx="1254" lry="2042"/>
+                <zone xml:id="zone_7dae774d-af32-4f7b-8499-97894fb49172" type="measure" ulx="1214" uly="134" lrx="1392" lry="2042"/>
+                <zone xml:id="zone_0305c38d-5b29-43f9-bbd0-6f82d36e21d0" type="measure" ulx="1352" uly="134" lrx="1540" lry="2042"/>
+            </surface>
+            <surface xml:id="surface_d32bed4a-5f4a-45e9-a55d-8577458745a0" n="45" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_78e83f0d-f6bb-40e0-8418-4ba5b43d6725" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page45.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_f872ad5a-d56a-4c90-90d0-765e93d40c43" type="measure" ulx="70" uly="134" lrx="354" lry="2040"/>
+                <zone xml:id="zone_64d1fcae-a6a9-4e9c-8b50-8d0e93c768a6" type="measure" ulx="314" uly="134" lrx="520" lry="2040"/>
+                <zone xml:id="zone_69f8bbe9-d6ee-48dd-8aa0-d1a3448e258b" type="measure" ulx="480" uly="134" lrx="694" lry="2040"/>
+                <zone xml:id="zone_07ac1249-38e2-407c-8c47-7ad82c823fec" type="measure" ulx="654" uly="134" lrx="864" lry="2040"/>
+                <zone xml:id="zone_4aa7da74-9a26-4ae7-a3e6-9ea828675317" type="measure" ulx="824" uly="134" lrx="1028" lry="2040"/>
+                <zone xml:id="zone_ba1b0c72-8a25-433e-a822-e802b503faf5" type="measure" ulx="988" uly="134" lrx="1194" lry="2040"/>
+                <zone xml:id="zone_cb238261-0710-4003-a017-05711aeea601" type="measure" ulx="1154" uly="134" lrx="1362" lry="2040"/>
+                <zone xml:id="zone_50649d95-2856-4c9e-b8ba-6911d37784ce" type="measure" ulx="1322" uly="134" lrx="1542" lry="2040"/>
+            </surface>
+            <surface xml:id="surface_61106fe6-78e0-4b1a-bb6b-bb02452fb81c" n="46" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_084f2039-ef60-4caf-81fd-a4cf65c259ef" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page46.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_2c0b3e04-c900-4d3f-b041-3545173737de" type="measure" ulx="72" uly="140" lrx="414" lry="2070"/>
+                <zone xml:id="zone_89be0c9e-b3d1-455a-be50-f715cf5be858" type="measure" ulx="374" uly="140" lrx="582" lry="2070"/>
+                <zone xml:id="zone_306c297f-c390-471d-8005-f31c43f9425d" type="measure" ulx="542" uly="140" lrx="764" lry="2070"/>
+                <zone xml:id="zone_c5314767-54e4-4ba8-adbe-6b7bee59b941" type="measure" ulx="724" uly="140" lrx="936" lry="2070"/>
+                <zone xml:id="zone_6a6a20d3-3934-48ca-ae3d-18be8bc3afb1" type="measure" ulx="896" uly="140" lrx="1112" lry="2070"/>
+                <zone xml:id="zone_040f289b-cffe-44cc-a9b4-89325cebaeeb" type="measure" ulx="1072" uly="140" lrx="1282" lry="2070"/>
+                <zone xml:id="zone_be9612fe-1465-40ca-a7b4-4cfa960422a5" type="measure" ulx="1242" uly="140" lrx="1456" lry="2070"/>
+                <zone xml:id="zone_de40a48b-f5df-4485-b902-3cd5aa0f85ee" type="measure" ulx="1416" uly="140" lrx="1540" lry="2070"/>
+            </surface>
+            <surface xml:id="surface_7de396d3-7ce5-48bc-a661-0831372a245b" n="47" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_c425f5bd-18f7-4043-8a7f-2ff072ea6707" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page47.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_1923ea90-4516-4a14-a1d1-78f4729b18ad" type="measure" ulx="104" uly="322" lrx="432" lry="2028"/>
+                <zone xml:id="zone_af914934-d54f-4ff1-bab6-4bb3c1f4152d" type="measure" ulx="392" uly="322" lrx="568" lry="2028"/>
+                <zone xml:id="zone_17252b72-ce20-4589-abe7-3dd539dc802b" type="measure" ulx="528" uly="322" lrx="692" lry="2028"/>
+                <zone xml:id="zone_9c01d142-dfb1-42bf-b73c-d5e63ffb70a9" type="measure" ulx="652" uly="322" lrx="818" lry="2028"/>
+                <zone xml:id="zone_f172e461-f936-431c-81b7-3558d5652158" type="measure" ulx="778" uly="322" lrx="954" lry="2028"/>
+                <zone xml:id="zone_6419ca5f-b966-4037-8d6f-4268295b23e4" type="measure" ulx="914" uly="322" lrx="1032" lry="2028"/>
+                <zone xml:id="zone_db755b92-4e88-4a39-9959-2265b83dd2d2" type="measure" ulx="992" uly="322" lrx="1134" lry="2028"/>
+                <zone xml:id="zone_20a6e01c-5489-47c2-8756-c8e486bfa5b5" type="measure" ulx="1094" uly="322" lrx="1258" lry="2028"/>
+                <zone xml:id="zone_e73edc82-3493-4ac6-bba2-444f41b9e86c" type="measure" ulx="1218" uly="322" lrx="1396" lry="2028"/>
+                <zone xml:id="zone_d177088d-9c61-4fe2-adf0-dd3533fad634" type="measure" ulx="1356" uly="322" lrx="1544" lry="2028"/>
+            </surface>
+            <surface xml:id="surface_d3f4a007-0de2-48a0-af0c-5c64d2a8e698" n="48" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_5787040a-4f8f-4e8f-a3b5-c20e12b512f8" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page48.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_544ffbb1-4157-48ba-b052-7e59e93c045f" type="measure" ulx="82" uly="142" lrx="324" lry="1970"/>
+                <zone xml:id="zone_be200171-f43b-40e8-b387-9f2b3838b03f" type="measure" ulx="284" uly="142" lrx="410" lry="1970"/>
+                <zone xml:id="zone_9a05fd16-2585-4f05-ab50-c340011eab84" type="measure" ulx="370" uly="142" lrx="498" lry="1970"/>
+                <zone xml:id="zone_e4466448-40f4-486e-8325-50b0564987fa" type="measure" ulx="458" uly="142" lrx="588" lry="1970"/>
+                <zone xml:id="zone_a16c0ad7-9b00-452a-9c5d-93d0b9a642f2" type="measure" ulx="548" uly="142" lrx="662" lry="1970"/>
+                <zone xml:id="zone_4bd89627-b885-4fda-9e1d-fe4b123c7470" type="measure" ulx="622" uly="142" lrx="788" lry="1970"/>
+                <zone xml:id="zone_06f75c66-255a-479a-82ee-28165ffc680e" type="measure" ulx="748" uly="142" lrx="860" lry="1970"/>
+                <zone xml:id="zone_591fe9a8-47d9-4973-a13f-f2694c765ef7" type="measure" ulx="820" uly="142" lrx="952" lry="1970"/>
+                <zone xml:id="zone_67d8900f-ca52-4bea-99d2-3386e251c492" type="measure" ulx="912" uly="142" lrx="1040" lry="1970"/>
+                <zone xml:id="zone_cd2b1c3e-bf52-448a-8fed-71bae8bdf8a0" type="measure" ulx="1000" uly="142" lrx="1162" lry="1970"/>
+                <zone xml:id="zone_02ec25da-c6f2-4cf8-a175-4c40b2dc457e" type="measure" ulx="1122" uly="142" lrx="1232" lry="1970"/>
+                <zone xml:id="zone_8dbf32d2-06eb-4c37-8948-7dcc536ba061" type="measure" ulx="1192" uly="142" lrx="1380" lry="1970"/>
+                <zone xml:id="zone_7fbfa1b0-b2dd-4fa7-be8d-d658b9124fea" type="measure" ulx="1340" uly="142" lrx="1538" lry="1970"/>
+            </surface>
+            <surface xml:id="surface_3df26f7e-29d1-46f9-8b7c-6c75a2cd07bf" n="49" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_3f7370b1-1426-4c79-975c-1a1b9cafa3e1" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page49.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_ce3a698e-5920-4408-9384-d9cb707370ff" type="measure" ulx="72" uly="140" lrx="404" lry="1974"/>
+                <zone xml:id="zone_8d49bbaf-2ca7-4d06-8b59-f128f5965508" type="measure" ulx="364" uly="140" lrx="568" lry="1974"/>
+                <zone xml:id="zone_da41d1f0-5f75-4c86-9bf1-2a77db2148be" type="measure" ulx="528" uly="140" lrx="738" lry="1974"/>
+                <zone xml:id="zone_48be2ddf-9014-4aff-9741-ef90af7696eb" type="measure" ulx="698" uly="140" lrx="838" lry="1974"/>
+                <zone xml:id="zone_89175a0b-66fe-4163-944b-ebec323fe237" type="measure" ulx="798" uly="140" lrx="964" lry="1974"/>
+                <zone xml:id="zone_cb9bfb8e-d549-46c0-aa75-4da5c9b77e6e" type="measure" ulx="924" uly="140" lrx="1030" lry="1974"/>
+                <zone xml:id="zone_2d1028f1-5c6b-426a-9718-5cee8a4dc32c" type="measure" ulx="990" uly="140" lrx="1134" lry="1974"/>
+                <zone xml:id="zone_5defbac2-560a-45bb-b021-7503abc314b7" type="measure" ulx="1094" uly="140" lrx="1216" lry="1974"/>
+                <zone xml:id="zone_a658fb4a-dd4c-4b09-a42c-c9c175dd065d" type="measure" ulx="1176" uly="140" lrx="1338" lry="1974"/>
+                <zone xml:id="zone_d06c0ccc-eadf-47a0-89af-d0f5c1540366" type="measure" ulx="1298" uly="140" lrx="1456" lry="1974"/>
+                <zone xml:id="zone_20e8bb8e-6f76-447c-a3e8-733c0cbea0d8" type="measure" ulx="1416" uly="140" lrx="1544" lry="1974"/>
+            </surface>
+            <surface xml:id="surface_4542e9ee-a22d-449a-a085-4b6f54696462" n="50" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_679f6089-1037-45e2-8528-2ba545fe359b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page50.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_e56d2cc3-3c55-4d30-bc37-d8966125b55d" type="measure" ulx="72" uly="300" lrx="434" lry="2056"/>
+                <zone xml:id="zone_e0f31ad9-04be-478f-8a7c-ed8c5fea7a22" type="measure" ulx="394" uly="300" lrx="546" lry="2056"/>
+                <zone xml:id="zone_afa346ca-c7ea-40de-8331-cff9d70e2aca" type="measure" ulx="506" uly="300" lrx="729" lry="2056"/>
+                <zone xml:id="zone_b618488c-db55-41d8-9618-1a12bbff441c" type="measure" ulx="689" uly="300" lrx="853" lry="2056"/>
+                <zone xml:id="zone_66f29353-dac5-4881-9da2-2ccca9b0d389" type="measure" ulx="813" uly="300" lrx="1027" lry="2056"/>
+                <zone xml:id="zone_98aad972-c744-45f3-ba74-36bb8193d016" type="measure" ulx="987" uly="300" lrx="1204" lry="2056"/>
+                <zone xml:id="zone_0b4c3426-f084-4b84-95f5-6d27660adc12" type="measure" ulx="1164" uly="300" lrx="1416" lry="2056"/>
+                <zone xml:id="zone_c562fc89-d984-4b56-8693-b001cc3280ed" type="measure" ulx="1376" uly="300" lrx="1534" lry="2056"/>
+            </surface>
+            <surface xml:id="surface_1bc91a2a-d2bf-43a2-8900-731c416e3081" n="51" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_954be438-a328-4b19-9e6a-b8190e65d869" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page51.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_57d97f0e-f9d0-4295-952f-a510e5dd838f" type="measure" ulx="75" uly="130" lrx="398" lry="1905"/>
+                <zone xml:id="zone_a11cb52f-7180-46b2-9489-18c138cc5a95" type="measure" ulx="358" uly="130" lrx="565" lry="1905"/>
+                <zone xml:id="zone_993a6226-a4c2-4c1a-a722-fb48bb8b0dac" type="measure" ulx="525" uly="130" lrx="644" lry="1905"/>
+                <zone xml:id="zone_80c1bfa8-4b29-4589-97b7-5146defecc16" type="measure" ulx="604" uly="130" lrx="750" lry="1905"/>
+                <zone xml:id="zone_9b8395c3-00a1-4cba-b1f4-6003df28aa67" type="measure" ulx="710" uly="130" lrx="833" lry="1905"/>
+                <zone xml:id="zone_814f7780-882a-4d31-a380-b77e1eddf428" type="measure" ulx="793" uly="130" lrx="964" lry="1905"/>
+                <zone xml:id="zone_e4d818e0-0be3-4331-bf6d-6c7a3d7d19a9" type="measure" ulx="924" uly="130" lrx="1104" lry="1905"/>
+                <zone xml:id="zone_606aa305-5926-4456-bf46-66f98b3fe48a" type="measure" ulx="1064" uly="130" lrx="1196" lry="1905"/>
+                <zone xml:id="zone_ca3697aa-c858-49ab-b9a6-486947f8dad1" type="measure" ulx="1156" uly="130" lrx="1282" lry="1905"/>
+                <zone xml:id="zone_0d4ff23f-9e75-4a97-b990-8c67535c5ea3" type="measure" ulx="1242" uly="130" lrx="1394" lry="1905"/>
+                <zone xml:id="zone_a827e867-7fdb-4871-8c3d-54c5ad934f34" type="measure" ulx="1354" uly="130" lrx="1459" lry="1905"/>
+                <zone xml:id="zone_d94524b6-6e8c-4759-935f-9a93e429a240" type="measure" ulx="1419" uly="130" lrx="1543" lry="1905"/>
+            </surface>
+            <surface xml:id="surface_2a4a6aa4-6ceb-4365-859d-8e1c5d0fc8c7" n="52" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_4ffa1c1b-ca35-4d68-b85c-b9b5d1b060a0" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page52.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_2001651e-7ea8-4dc4-ab66-e0eb6b82c651" type="measure" ulx="86" uly="203" lrx="530" lry="2196"/>
+                <zone xml:id="zone_494b85c8-f139-48b7-ac70-f3fe7f656af2" type="measure" ulx="490" uly="203" lrx="723" lry="2196"/>
+                <zone xml:id="zone_14fdb669-4b12-4422-8f65-8e21cc86467e" type="measure" ulx="683" uly="203" lrx="899" lry="2196"/>
+                <zone xml:id="zone_f8505ba4-09ec-4d30-a817-40491a7f0db4" type="measure" ulx="859" uly="203" lrx="1088" lry="2196"/>
+                <zone xml:id="zone_57970283-3ce1-46ac-b0be-1d4a7134120d" type="measure" ulx="1048" uly="203" lrx="1303" lry="2196"/>
+                <zone xml:id="zone_ceff8cca-17da-40b3-87e3-caed4a29c2c4" type="measure" ulx="1263" uly="203" lrx="1540" lry="2196"/>
+            </surface>
+            <surface xml:id="surface_3f11ece0-42d2-4a57-800f-9a9e915e0b12" n="53" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_fe2aa80d-4874-46da-aab6-8f9dbb618b6e" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page53.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_34e6360d-b2f0-40b8-8a95-ca3ff9bde5d6" type="measure" ulx="85" uly="132" lrx="436" lry="2194"/>
+                <zone xml:id="zone_0766ac4a-ce9e-4324-8d46-f123233dc605" type="measure" ulx="396" uly="132" lrx="635" lry="2194"/>
+                <zone xml:id="zone_6127a60b-f405-47e0-a049-e38a037c42bb" type="measure" ulx="595" uly="132" lrx="739" lry="2194"/>
+                <zone xml:id="zone_fa65127c-77e3-4bf8-a1aa-bb3243a2c9df" type="measure" ulx="699" uly="132" lrx="890" lry="2194"/>
+                <zone xml:id="zone_57075658-e564-49d5-8aa1-a304af02bad6" type="measure" ulx="850" uly="132" lrx="1084" lry="2194"/>
+                <zone xml:id="zone_44f2e9bf-1d04-46ac-a177-e04b06015094" type="measure" ulx="1044" uly="132" lrx="1154" lry="2194"/>
+                <zone xml:id="zone_c8683d02-a8a9-48a4-8126-15a07dcbae25" type="measure" ulx="1114" uly="132" lrx="1269" lry="2194"/>
+                <zone xml:id="zone_f1e879df-4e47-44ac-a3c3-92910572de1c" type="measure" ulx="1229" uly="132" lrx="1402" lry="2194"/>
+                <zone xml:id="zone_80eb2f12-f46e-41d6-99a1-f98f22a186b6" type="measure" ulx="1362" uly="132" lrx="1542" lry="2194"/>
+            </surface>
+            <surface xml:id="surface_3a4be171-5b97-46bd-9ad5-63ccdabfefb8" n="54" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_8625790e-8440-4848-818e-7f3176ba2e28" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page54.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_d863d853-277c-4596-b98a-92a357a2f408" type="measure" ulx="88" uly="134" lrx="403" lry="2171"/>
+                <zone xml:id="zone_ea80d07c-bcf2-4689-89f3-dc8bef41714b" type="measure" ulx="363" uly="134" lrx="595" lry="2171"/>
+                <zone xml:id="zone_48b8f1d8-8ef6-41f4-b873-4aa2054b8e82" type="measure" ulx="555" uly="134" lrx="748" lry="2171"/>
+                <zone xml:id="zone_c836ac47-80e2-4920-80d5-a937204ed305" type="measure" ulx="708" uly="134" lrx="889" lry="2171"/>
+                <zone xml:id="zone_eead39d3-dd5a-46c0-bc8c-ffe36e95f561" type="measure" ulx="849" uly="134" lrx="1082" lry="2171"/>
+                <zone xml:id="zone_435a378f-adf6-4f8d-9fa9-a001d336bc18" type="measure" ulx="1042" uly="134" lrx="1306" lry="2171"/>
+                <zone xml:id="zone_9ef39738-2304-4075-a181-63e087b09c11" type="measure" ulx="1266" uly="134" lrx="1538" lry="2171"/>
+            </surface>
+            <surface xml:id="surface_9323b9c4-bf90-4aa8-afc6-5ab14e1000d2" n="55" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_bec9abf8-4c67-46c2-9cc6-a7dcb98200b0" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page55.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_c675576b-8431-435e-b308-a2d37a7d9bc4" type="measure" ulx="82" uly="147" lrx="446" lry="2189"/>
+                <zone xml:id="zone_11f43f15-24dc-4cfa-972f-bfa2f10b1a9b" type="measure" ulx="406" uly="147" lrx="634" lry="2189"/>
+                <zone xml:id="zone_99fb633c-acb9-47b4-9881-107e613eae43" type="measure" ulx="594" uly="147" lrx="843" lry="2189"/>
+                <zone xml:id="zone_31452a28-bb3e-4f61-a247-cea53af86392" type="measure" ulx="803" uly="147" lrx="1075" lry="2189"/>
+                <zone xml:id="zone_f8ea4c5b-a0a0-4bba-983a-436e350dbda7" type="measure" ulx="1035" uly="147" lrx="1324" lry="2189"/>
+                <zone xml:id="zone_97bc62e2-0f1c-46c7-b898-189d38182b70" type="measure" ulx="1284" uly="147" lrx="1535" lry="2189"/>
+            </surface>
+            <surface xml:id="surface_6374f92d-a059-45df-9f37-8f6ff42c5e97" n="56" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_cb55705e-2f0b-4052-836d-3bcf3f784408" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page56.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_30c64be3-8cf1-47c6-9123-17d346bf56b0" type="measure" ulx="92" uly="137" lrx="444" lry="2177"/>
+                <zone xml:id="zone_91c3c36b-5851-4038-ad26-e58a78450bda" type="measure" ulx="404" uly="137" lrx="546" lry="2177"/>
+                <zone xml:id="zone_692c83fa-ab3f-46fa-bec8-77112a65cc8e" type="measure" ulx="506" uly="137" lrx="701" lry="2177"/>
+                <zone xml:id="zone_1f68e0b4-998c-4d85-bce0-3acd1cc7e907" type="measure" ulx="661" uly="137" lrx="891" lry="2177"/>
+                <zone xml:id="zone_1e1f66d4-aaeb-4e87-938f-f216abd4e48f" type="measure" ulx="851" uly="137" lrx="967" lry="2177"/>
+                <zone xml:id="zone_43b7d5e5-f5d0-45ee-9f33-7ed08ca9404a" type="measure" ulx="927" uly="137" lrx="1088" lry="2177"/>
+                <zone xml:id="zone_780d196c-d683-40a5-b08e-120e1faf47a5" type="measure" ulx="1048" uly="137" lrx="1219" lry="2177"/>
+                <zone xml:id="zone_5bdd5f94-5b94-4387-a630-f1c0a0411dba" type="measure" ulx="1179" uly="137" lrx="1354" lry="2177"/>
+                <zone xml:id="zone_302ab744-3a6a-40fe-84b4-ddc606ae94cb" type="measure" ulx="1314" uly="137" lrx="1539" lry="2177"/>
+            </surface>
+            <surface xml:id="surface_7fff47d0-a562-4dc4-baa4-efe968bcebc7" n="57" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_4a6eb35c-f78e-456f-8efd-f92409caba0b" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page57.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_1845e6d7-57e5-4662-9c98-4d9d4d76dadd" type="measure" ulx="83" uly="136" lrx="416" lry="2179"/>
+                <zone xml:id="zone_7704e9d1-25c5-4150-8589-65fa2ff36f02" type="measure" ulx="376" uly="136" lrx="564" lry="2179"/>
+                <zone xml:id="zone_56cd27e9-2b2e-4e48-bb0e-cf7a3a93e1f3" type="measure" ulx="524" uly="136" lrx="712" lry="2179"/>
+                <zone xml:id="zone_5bdd3e99-7206-4844-bcfc-369a7ce60527" type="measure" ulx="672" uly="136" lrx="900" lry="2179"/>
+                <zone xml:id="zone_36f8956d-d174-437f-851c-83e75a6c0268" type="measure" ulx="860" uly="136" lrx="1127" lry="2179"/>
+                <zone xml:id="zone_3264ec2a-93cb-4fe7-a7e6-af94bf2d489e" type="measure" ulx="1087" uly="136" lrx="1327" lry="2179"/>
+                <zone xml:id="zone_753b2e44-ac63-4114-ab1e-8cd25e4026bb" type="measure" ulx="1287" uly="136" lrx="1543" lry="2179"/>
+            </surface>
+            <surface xml:id="surface_1ea03538-1830-4ea8-9b20-7ed3b6a34e7d" n="58" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_b210ee09-2eda-41b5-b65b-5d7954e8fd63" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page58.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_73faa3c4-b961-4658-a624-8e41eaa0557a" type="measure" ulx="83" uly="141" lrx="465" lry="2178"/>
+                <zone xml:id="zone_cba8e942-2712-444e-8534-f513dcdc654a" type="measure" ulx="425" uly="141" lrx="707" lry="2178"/>
+                <zone xml:id="zone_bffb75d0-8b74-415a-9967-c4a981af2ed3" type="measure" ulx="667" uly="141" lrx="839" lry="2178"/>
+                <zone xml:id="zone_3bad1b56-80c4-432a-a947-290d7a9b8c92" type="measure" ulx="799" uly="141" lrx="1055" lry="2178"/>
+                <zone xml:id="zone_7012a9fb-8c84-40de-99be-926e2e03a3fa" type="measure" ulx="1015" uly="141" lrx="1286" lry="2178"/>
+                <zone xml:id="zone_56ebd0b7-3ce1-4a8a-8362-a0b2c403ca3c" type="measure" ulx="1246" uly="141" lrx="1533" lry="2178"/>
+            </surface>
+            <surface xml:id="surface_e9674b1f-7f00-473b-a19b-d918139bbc92" n="59" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_30f4ec00-c6a1-49e3-b9f1-3487b369b833" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page59.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_0ea19b6c-3a9a-48a6-9aa3-8f2d79a0ea23" type="measure" ulx="90" uly="147" lrx="463" lry="2195"/>
+                <zone xml:id="zone_a922e2a3-5a0e-43ee-898e-ddb74ebd1da4" type="measure" ulx="423" uly="147" lrx="578" lry="2195"/>
+                <zone xml:id="zone_f98471f6-4438-4c7c-958f-e2bf9a2af58a" type="measure" ulx="538" uly="147" lrx="704" lry="2195"/>
+                <zone xml:id="zone_a2639225-57a1-426d-ad90-6c95605a4363" type="measure" ulx="664" uly="147" lrx="872" lry="2195"/>
+                <zone xml:id="zone_edeb7c7c-2112-4023-b84e-7712a8151a33" type="measure" ulx="832" uly="147" lrx="1060" lry="2195"/>
+                <zone xml:id="zone_b34c34bc-2daa-4455-bee2-f6441b8ae1c9" type="measure" ulx="1020" uly="147" lrx="1294" lry="2195"/>
+                <zone xml:id="zone_14a504e3-dd8c-44ab-a3b2-bec7a5d15b92" type="measure" ulx="1254" uly="147" lrx="1535" lry="2195"/>
+            </surface>
+            <surface xml:id="surface_7bebc131-d10d-48dc-aed0-c6d6928311fa" n="60" ulx="0" uly="0" lrx="1654" lry="2339">
+                <graphic xml:id="graphic_3d8406bf-611e-475b-a706-206bd4c4a580" target="https://digilib.baumann-digital.de/BauDi/14/baudi-14-855dce96/DR-doctoral-thesis-part1-1-music-score-a4-page60.png?dh=1000" type="facsimile" width="1654" height="2339"/>
+                <zone xml:id="zone_bbec5da8-fe43-4b20-a24f-f8a5132a18a9" type="measure" ulx="84" uly="136" lrx="478" lry="2096"/>
+                <zone xml:id="zone_043557b2-f1da-4e9f-b655-c3d2708de46b" type="measure" ulx="438" uly="136" lrx="754" lry="2096"/>
+                <zone xml:id="zone_4d7b5251-f72e-4050-a2b4-57634c25ba43" type="measure" ulx="714" uly="136" lrx="993" lry="2096"/>
+                <zone xml:id="zone_3fdff09c-3b6a-43bf-b3df-9a61ef7eee1f" type="measure" ulx="953" uly="136" lrx="1214" lry="2096"/>
+                <zone xml:id="zone_44fb8f75-fd8d-40cb-b529-53fedff1145d" type="measure" ulx="1174" uly="136" lrx="1435" lry="2096"/>
+                <zone xml:id="zone_8742f12f-83ca-4a40-842b-26a3aab69789" type="measure" ulx="1395" uly="136" lrx="1542" lry="2096"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="page_97eac32a-7548-4d37-976b-34058a714139" n="1" label="Vorspiel">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_4d4ec8b6-ef10-4bcb-be67-4f25917ceb35" facs="#zone_f42147c3-ee4d-4400-80c2-aa080a076b7c"/>
+                        <measure n="2" label="2" xml:id="measure_b1f60284-5143-4043-9c2b-a91ee34ba465" facs="#zone_3d542d63-0179-4e76-bda8-d8d34c8afd46"/>
+                        <measure n="3" label="3" xml:id="measure_ed29d719-7c50-4793-b772-b85bfc0429e1" facs="#zone_b3ffffc0-5710-4904-82e5-f90842e60ee1"/>
+                        <measure n="4" label="4" xml:id="measure_7991a2b7-1b41-4795-a448-0a9d19649aad" facs="#zone_05c5cae6-e9aa-47e7-accf-4205fe30324b"/>
+                        <measure n="5" label="5" xml:id="measure_c9d56cd2-3233-46eb-b2a3-bcafe48c37d1" facs="#zone_974b719f-ce78-49ad-a27e-e008c035d70f"/>
+                        <measure n="6" label="6" xml:id="measure_89ee3612-9f83-4e5d-8efe-eb294734f60d" facs="#zone_9daae1ae-ec25-4d85-b16d-21ba2c36ac33"/>
+                        <measure n="7" label="7" xml:id="measure_604c71f3-3d30-42e3-b3ad-5c1d53467d60" facs="#zone_3fee0e40-477c-41e6-9172-48bbc83176e8"/>
+                        <measure n="8" label="8" xml:id="measure_9b6e1e58-50ca-40c4-a690-b9d597c01bcb" facs="#zone_c9a6ee68-6dcc-454c-95b0-df4c1dba1f04"/>
+                        <measure n="9" label="9" xml:id="measure_436b9f6a-71ae-4938-b78c-66cf94d60c9d" facs="#zone_7cc30ece-8e5a-47a1-9ea6-08ae9df43669"/>
+                        <measure n="10" label="10" xml:id="measure_89639e73-ca3f-476a-ae9d-b0f15a51f202" facs="#zone_4e36dd28-acd4-4649-8b98-c8813abfc5f8"/>
+                        <measure n="11" label="11" xml:id="measure_830cfad3-f8f3-4b62-ac53-baac420a64d4" facs="#zone_968f9820-a828-4fe4-b78c-0f9cc1394293"/>
+                        <measure n="12" label="12" xml:id="measure_5b0c2cba-dff5-47a3-a8cb-0478eddc690e" facs="#zone_96032650-cc85-4f25-88d4-77515a3eb699"/>
+                        <measure n="13" label="13" xml:id="measure_41d08d25-2284-4659-8db6-7bfdb6994f9e" facs="#zone_eb0f4c7b-be9e-4db9-ba46-8af09fc8aa31"/>
+                        <measure n="14" label="14" xml:id="measure_fbbaca49-e133-4b29-a7df-a1f79d295190" facs="#zone_de1234ba-e361-4cee-9aa4-341b5c20668a"/>
+                        <measure n="15" label="15" xml:id="measure_d71aa331-3118-47c2-8997-eff8b11f28e5" facs="#zone_98f93c04-b430-464c-9f89-954fff0f848d"/>
+                        <measure n="16" label="16" xml:id="measure_24ae904e-26de-4406-926a-31e06412dd74" facs="#zone_c82e692e-b8f1-44fb-a568-bb59fe5b9e75"/>
+                        <measure n="17" label="17" xml:id="measure_bc5feb4f-afd3-4f95-8df2-2a9cd4342b2f" facs="#zone_a57cda83-f58b-404e-8a5f-51c733fec4c4"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="18" label="18" xml:id="measure_3c0cfd4c-09ed-4a7c-9b65-eb42db4f26d8" facs="#zone_b6b1d85a-664a-4789-be2d-e233b90ee943"/>
+                        <measure n="19" label="19" xml:id="measure_7b47b75d-97bf-4cac-aa89-4525e8ce41b8" facs="#zone_3dc518ff-8cd1-4717-a5fa-561f3a53495a"/>
+                        <measure n="20" label="20" xml:id="measure_1634a557-01fd-4bdc-9ae9-4e036768fa46" facs="#zone_9d4fc13a-3f7e-466c-afda-6104c16b0ddf"/>
+                        <measure n="21" label="21" xml:id="measure_3e4b154a-100e-4ec1-a252-9b1cfbf55592" facs="#zone_7dab2036-3604-49dd-86a1-be1dcb3100c3"/>
+                        <measure n="22" label="22" xml:id="measure_d6dba3cb-6567-4751-9891-46832d54547c" facs="#zone_be73498e-221f-40c7-bd66-03426f147216"/>
+                        <measure n="23" label="23" xml:id="measure_73751a10-5e73-4c18-8f57-31b4b293fed3" facs="#zone_a2c7cc1e-9809-4bd5-a85b-7fc22dad9da9"/>
+                        <measure n="24" label="24" xml:id="measure_73ddca75-a3cb-4b4c-b53b-5e658ed77604" facs="#zone_3dd49de6-2b17-4c3e-8b10-0c50cc218686"/>
+                        <measure n="25" label="25" xml:id="measure_145123b4-fb65-4a94-885c-8d5e073d59ba" facs="#zone_cf335e85-786e-4a09-b8d7-24a0f99628b0"/>
+                        <measure n="26" label="26" xml:id="measure_409fb183-c06e-4832-838e-23bc8de30895" facs="#zone_512aaa49-ee2f-4da9-b9c8-209c1852fac5"/>
+                        <measure n="27" label="27" xml:id="measure_f3d7bb91-db8c-400a-9985-e5c2cdd66912" facs="#zone_c391bfc0-4024-4125-81c8-f14194d0d1b5"/>
+                        <measure n="28" label="28" xml:id="measure_56d90acc-9384-4d6a-90cb-381f1a66dd20" facs="#zone_3059e161-7213-4755-b02a-26f52a2efd42"/>
+                        <measure n="29" label="29" xml:id="measure_30d94a3b-7be4-479d-bf63-3b9e44f29727" facs="#zone_42a77cc9-b9ff-45bf-83aa-ea501103d358"/>
+                        <measure n="30" label="30" xml:id="measure_ed7ccca2-3537-484a-ad39-a5f362060949" facs="#zone_94bad485-a016-4704-bb10-82600465dbae"/>
+                        <measure n="31" label="31" xml:id="measure_50d25814-908e-46ba-bc00-9b552cd421c8" facs="#zone_05df4ab3-8c22-4268-99b0-85be050c8b7e"/>
+                        <measure n="32" label="32" xml:id="measure_13c38fe8-8002-4f41-a5f1-88ac5c82222f" facs="#zone_4a750dea-5df8-461b-966f-1d1e6fc7497c"/>
+                        <measure n="33" label="33" xml:id="measure_082fd3d4-863f-42e2-85d7-cbd3faa60267" facs="#zone_ae32a91a-4a00-4ddd-ac8e-dc71b9e26b6a"/>
+                        <measure n="34" label="34" xml:id="measure_0c225514-06e5-473e-b8d1-4696291b0b3a" facs="#zone_b3daa969-d951-4d8f-a899-a1c1bae5ba87"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="35" label="35" xml:id="measure_d8062d3b-8857-44a2-b68d-78407601a364" facs="#zone_66399477-5165-45f2-88bf-6e3df2305aae"/>
+                        <measure n="36" label="36" xml:id="measure_3bcc7d48-81c1-4c1c-b98b-b8d437179c7b" facs="#zone_f33357e0-ee22-4848-9ce2-04344d5381be"/>
+                        <measure n="37" label="37" xml:id="measure_7015bf89-cef1-4b72-aa2b-f93156f0e40c" facs="#zone_da7873a9-3898-4ad4-92df-aac0617cd37b"/>
+                        <measure n="38" label="38" xml:id="measure_c8a6d854-239d-4c1f-a117-242ce7e5fcbb" facs="#zone_09da8fb0-8cf9-4481-81ab-98212c1d2c35"/>
+                        <measure n="39" label="39" xml:id="measure_d94c95a0-7a93-4b38-a9ab-1aa3b6e8cee8" facs="#zone_aad3b8cd-b627-4fef-9669-e2101b5729a1"/>
+                        <measure n="40" label="40" xml:id="measure_ce5fa624-99ff-41d3-aa86-9afd9524a65a" facs="#zone_d8eb0436-40cb-4087-b3fc-d1f406f4d828"/>
+                        <measure n="41" label="41" xml:id="measure_9e74b3c0-8568-4672-b1a5-72df3df7b7ff" facs="#zone_d5a7ba3f-661c-4e7f-ae34-7f50481bd9ec"/>
+                        <measure n="42" label="42" xml:id="measure_49ae864e-b654-481f-ab02-0599a0a260c3" facs="#zone_dc1373cd-da62-46f9-887b-5ad285553d7c"/>
+                        <measure n="43" label="43" xml:id="measure_c9429d69-929c-4a61-9303-c2884b807e22" facs="#zone_f2d26d76-2390-4b68-af50-83cca49373e2"/>
+                        <measure n="44" label="44" xml:id="measure_dcd35469-76ca-4952-9f5a-4e0220da6902" facs="#zone_54ce767d-ab28-4a61-8347-0651c7f9c19f"/>
+                        <measure n="45" label="45" xml:id="measure_b8e70531-e4ad-4c14-aa56-70879c2870b3" facs="#zone_6a3c7f2b-a0f8-4036-b507-2340e48b531f"/>
+                        <measure n="46" label="46" xml:id="measure_2b6269a3-7c12-484b-9739-54e56e14ca8b" facs="#zone_daffcb9d-898d-44cb-96f2-b16e187dc6db"/>
+                        <measure n="47" label="47" xml:id="measure_15df5836-bc16-4e4d-b7f0-4d096b0ec011" facs="#zone_a0e56847-0f47-4fc9-9dad-cc0f2ae5f5ba"/>
+                        <measure n="48" label="48" xml:id="measure_2dc0f42e-c95d-4e2f-9ce7-657a1e04b27a" facs="#zone_16dc4213-5f83-4c42-a894-cb7d1f1beed5"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_6b8a18e6-2787-4999-b35f-913719e856e9" n="2" label="I">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_f299d519-5588-4a35-919f-0e31a546de09" facs="#zone_57d17b40-2769-4ddb-afb3-952f51ec25c8"/>
+                        <measure n="2" label="2" xml:id="measure_56519661-f81b-4655-baaa-cea7e6013c16" facs="#zone_94a90442-ea01-45f0-bc52-433fe17776ab"/>
+                        <measure n="3" label="3" xml:id="measure_350030c0-d662-40b0-bb5c-4e6986ac117f" facs="#zone_7aff68e8-da10-4ca6-a9ab-28c58566558d"/>
+                        <measure n="4" label="4" xml:id="measure_46a13ab8-88bb-45c9-be71-a083280902df" facs="#zone_d9b43a83-6a6c-441b-9a37-9c0b7d9df742"/>
+                        <measure n="5" label="5" xml:id="measure_3b6730ff-382e-4e1d-82cf-26fb71e0020e" facs="#zone_f512bfb1-0193-4ace-9e3d-35258589cd84"/>
+                        <measure n="6" label="6" xml:id="measure_79c0e76b-fb2e-48b5-8641-5d2925ae55ca" facs="#zone_f19e2962-a40d-4c6a-8458-11b419e495da"/>
+                        <measure n="7" label="7" xml:id="measure_0b1bf013-b3cf-40ab-9838-03509140d22e" facs="#zone_5c2afcc7-1e89-4854-9554-6678d05e51a2"/>
+                        <measure n="8" label="8" xml:id="measure_3ef42153-f69f-41fa-a937-6ea1f07772d0" facs="#zone_1ff9fbee-e3df-433d-9af5-140897a55bd6"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="9" label="9" xml:id="measure_f855edc7-9283-4ebc-8376-df2ed6b5f5be" facs="#zone_906f8f76-334e-4972-bc14-c7d3c20c37d2"/>
+                        <measure n="10" label="10" xml:id="measure_be33124e-a46c-4515-9f82-0bb30ab6adba" facs="#zone_5ca5d79a-440b-4bb4-b97a-f1fb00f0dbcb"/>
+                        <measure n="11" label="11" xml:id="measure_7be0e8a3-184c-4451-98a3-3b7e630f6e6a" facs="#zone_0d7e2620-49a6-4b0f-a659-2819fbf30c3e"/>
+                        <measure n="12" label="12" xml:id="measure_7b06ecee-b0b6-4c52-ae02-2973df258c26" facs="#zone_0b26c229-7a2e-44f4-9cc2-1d508154dbd7"/>
+                        <measure n="13" label="13" xml:id="measure_92d8ec6b-f8d4-41e9-9d6c-392673a5073c" facs="#zone_9087a226-aa08-4141-937a-f5e748fd64c0"/>
+                        <measure n="14" label="14" xml:id="measure_9d99a8dd-18b6-4d6a-9962-ab06f7b343af" facs="#zone_08fa010a-e4cc-4155-a4eb-514fd02fa71a"/>
+                        <measure n="15" label="15" xml:id="measure_ce255c37-9ce4-44a9-9940-6ea1d8252483" facs="#zone_29cd0c77-d104-4a07-ad3a-67a5ec923379"/>
+                        <measure n="16" label="16" xml:id="measure_0f1dfb78-1565-428a-86a9-6647f4e5624c" facs="#zone_2894cece-da74-455d-980e-ec90d40f2a37"/>
+                        <measure n="17" label="17" xml:id="measure_5160a3f9-3575-42f0-a435-02d0c0668f98" facs="#zone_2228bf8d-9da1-49fd-855d-bcabccd1bc95"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="18" label="18" xml:id="measure_bb644b62-0d9d-4196-ac2a-6c349d298d8e" facs="#zone_2dab06ff-4eb6-4178-89ef-5d64739cf603"/>
+                        <measure n="19" label="19" xml:id="measure_69ffaa1c-49c4-4489-a534-32b6fe6e4dbd" facs="#zone_b586effc-9aca-4932-a3e2-c15c0ea6581a"/>
+                        <measure n="20" label="20" xml:id="measure_f5eeac6f-f8b8-4e23-a55f-baee2248a06e" facs="#zone_4b161848-1e41-4f6f-bfeb-649efce26409"/>
+                        <measure n="21" label="21" xml:id="measure_b890f247-e135-4ad3-8181-91959e7789a8" facs="#zone_93026139-1f3e-4d65-abe9-7f9df7126e96"/>
+                        <measure n="22" label="22" xml:id="measure_35b89734-bf0b-4856-a644-89b236bff992" facs="#zone_4e7c44d2-347e-4538-a00b-32cbdcdee865"/>
+                        <measure n="23" label="23" xml:id="measure_45702434-86af-4866-bf96-73491b95273e" facs="#zone_f22224ef-0e93-4a3d-8069-c346454c882c"/>
+                        <measure n="24" label="24" xml:id="measure_8c2014e4-93c4-4aa6-9fbc-49afe417c90c" facs="#zone_f93efa41-1a91-4cd4-b3d9-33d1f2075fba"/>
+                        <measure n="25" label="25" xml:id="measure_d17da14e-c2c7-4e3a-bb3e-5bdd351fffef" facs="#zone_753cd08a-3807-4844-961a-46c23bbe7361"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="26" label="26" xml:id="measure_7eedbddc-3b1b-4f1f-a938-d4cfd6a84c12" facs="#zone_139c01ff-b019-40f9-b8c8-ab4a5808d3dc"/>
+                        <measure n="27" label="27" xml:id="measure_9a324f74-54d6-4e11-886c-1ddfda53c36b" facs="#zone_c1c2ec11-648f-44be-a7dc-c919fad78503"/>
+                        <measure n="28" label="28" xml:id="measure_932094d7-34a1-4d54-bd05-0430acffb4d5" facs="#zone_5906b002-07c6-4312-8a15-c03ca246490b"/>
+                        <measure n="29" label="29" xml:id="measure_d4f9d71d-0743-441c-88f5-4d00251cafdb" facs="#zone_ecdfcfed-d21b-45c6-ac3f-d0f6009c70b9"/>
+                        <measure n="30" label="30" xml:id="measure_6a94c2f1-1246-4bcb-913e-80cdcc6c7d64" facs="#zone_fe6e971a-8fbd-49a5-b1c2-53147566eb1c"/>
+                        <measure n="31" label="31" xml:id="measure_c6cf9e29-f868-43b0-b8f5-db6c32f15e20" facs="#zone_5cd25f5b-c3ed-46ad-a039-6782ea34d971"/>
+                        <measure n="32" label="32" xml:id="measure_2cd58b15-546e-4ae7-947a-5b0d8c77e645" facs="#zone_a1ecbb53-980a-46cf-9f33-a2da5be28c9b"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="33" label="33" xml:id="measure_6d1bd78a-b3c8-45a7-9d61-55221cb260e8" facs="#zone_f3e462c4-82b4-4170-93e6-f6c5dbacf423"/>
+                        <measure n="34" label="34" xml:id="measure_094e7a7c-15e4-433e-86e9-b0e63028d3f7" facs="#zone_9ad5d91a-ff28-405c-a8d2-0300e683648f"/>
+                        <measure n="35" label="35" xml:id="measure_30ecc6f9-b623-44cf-8759-d5141a7179bb" facs="#zone_6acf051e-8418-4402-a6d5-91e646ab219e"/>
+                        <measure n="36" label="36" xml:id="measure_e2aaa313-27a7-43d5-894c-bd9a9ae52415" facs="#zone_072e9d96-b883-46fb-8543-eec5ab29597f"/>
+                        <measure n="37" label="37" xml:id="measure_2ed99697-05cd-4880-aa49-ed46be0f00ba" facs="#zone_cad56a64-8cba-44b7-b22c-19f821309dc2"/>
+                        <measure n="38" label="38" xml:id="measure_690c2ae6-1be7-4340-9432-dedea71ff6c9" facs="#zone_509b465e-c2a2-4f28-ba8d-0ae33379cd91"/>
+                        <measure n="39" label="39" xml:id="measure_1aec06bc-354a-42ad-a8f4-06c7442fec90" facs="#zone_875bcdf8-4266-4fb9-bf24-4c6951301463"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="40" label="40" xml:id="measure_4fe0729d-cbe1-4ed6-b710-5e1c6a320fc7" facs="#zone_3b5f7eb4-d29a-4dc9-ba4a-d5bcb99b6881"/>
+                        <measure n="41" label="41" xml:id="measure_414f4369-934a-4de2-95a0-5d71a9730530" facs="#zone_f5d94158-a928-411f-84c2-128bc583f9f3"/>
+                        <measure n="42" label="42" xml:id="measure_103d59f5-72a7-4aeb-833b-3574dd37de35" facs="#zone_6dbe53a4-13c9-4cc6-9c09-410fb3329ed4"/>
+                        <measure n="43" label="43" xml:id="measure_67944741-645e-4553-921b-f1cedcdbf8f5" facs="#zone_8ac3fa8a-6521-4815-9035-e69a97788c49"/>
+                        <measure n="44" label="44" xml:id="measure_2e1723dd-7d49-4f14-a398-448390e04104" facs="#zone_02c94b9a-3f43-475f-addd-20377c6059e8"/>
+                        <measure n="45" label="45" xml:id="measure_d45809c1-9328-450d-8387-68f6fcbbf4f6" facs="#zone_53e16755-56fd-4f7e-b703-eef4565109be"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="46" label="46" xml:id="measure_87a47582-ec5b-4bd7-9db6-a7453f72e2b6" facs="#zone_8c8c649e-1a64-47af-82ec-45e76a5b85ef"/>
+                        <measure n="47" label="47" xml:id="measure_1816ed22-5e64-4fce-8fb0-3498da7f3e2c" facs="#zone_e60b291f-6994-4fa2-8ae5-bb57398acf8d"/>
+                        <measure n="48" label="48" xml:id="measure_d3056a6a-ad78-4c36-9db5-bd4ab012630a" facs="#zone_ac0200d6-e6c6-4fd6-8e7c-d0442a7ef46b"/>
+                        <measure n="49" label="49" xml:id="measure_e2f63499-b646-4970-b23e-4579fc69d89f" facs="#zone_9c7fb7fe-2384-49e0-a186-06d64f0676ee"/>
+                        <measure n="50" label="50" xml:id="measure_16d57454-a9ae-413c-973b-831a1cfbaa93" facs="#zone_f22ad2b9-563d-4660-843a-da8d079af514"/>
+                        <measure n="51" label="51" xml:id="measure_5a0a7edb-298c-4c20-b22e-b19a373ef7cc" facs="#zone_0077c962-fb2c-436d-8341-c815237988ae"/>
+                        <measure n="52" label="52" xml:id="measure_364862dc-906c-4818-873f-7fd7177545cc" facs="#zone_58c604b7-9ca0-4719-a425-027823416ab0"/>
+                        <measure n="53" label="53" xml:id="measure_7651286e-0ac8-448d-a86b-2245b15044a0" facs="#zone_513a1231-fa95-404b-bc5b-0f134c7ac4c3"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="54" label="54" xml:id="measure_ebfa539a-4c2f-4c06-9e04-e6962afe3f97" facs="#zone_12017d91-1491-48ab-b9e8-3644243082f1"/>
+                        <measure n="55" label="55" xml:id="measure_16256524-3aa6-4d71-9306-9ae54cfdf1b0" facs="#zone_eb3112e0-8800-4f81-a2f1-e3db5009c9ba"/>
+                        <measure n="56" label="56" xml:id="measure_f29d048f-20e1-46dc-b541-b7c15e421667" facs="#zone_8ee20e82-29ea-4a95-9d3a-85880d576fa7"/>
+                        <measure n="57" label="57" xml:id="measure_ea35046c-92a3-4ae7-b5f0-c37102ad2a10" facs="#zone_c813feae-bdfd-4412-9d78-ff04b5858a32"/>
+                        <measure n="58" label="58" xml:id="measure_e9aede50-0bd3-46a1-9490-466ffacc5f85" facs="#zone_f9e87ffa-d889-4182-ac2d-83bb65c80952"/>
+                        <measure n="59" label="59" xml:id="measure_f52b0617-fc07-4e94-b288-e6125c7240e9" facs="#zone_ba1a978e-478f-4c12-98c3-dbf7ee7cab46"/>
+                        <measure n="60" label="60" xml:id="measure_a6bbaf42-fba8-4e14-9494-e9b45e487be0" facs="#zone_cc3c874f-bc7a-4f3d-a46e-f1c0cb421b70"/>
+                        <measure n="61" label="61" xml:id="measure_f696afce-84f6-44ac-810e-2815047cdb68" facs="#zone_60087ef6-5d08-4aec-b1d3-af0b6f2b1329"/>
+                        <measure n="62" label="62" xml:id="measure_5a5fd30e-f159-4f6e-9300-4c71b40a79a5" facs="#zone_55eea570-23d0-4d6e-a98f-9570615f3b09"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="63" label="63" xml:id="measure_0fda85e6-a9fe-4a13-99dc-79657413b6ff" facs="#zone_b6b203e1-1666-4d94-9c9c-17765c24c721"/>
+                        <measure n="64" label="64" xml:id="measure_c01307fb-924a-460d-8d29-026e28c865c8" facs="#zone_fac2c81a-8120-42e0-8532-7fc9e8825b5b"/>
+                        <measure n="65" label="65" xml:id="measure_d674d66b-17da-41c2-acee-9425931a0f7d" facs="#zone_8d0ec3f3-3afc-4771-ae0a-4b802f45247a"/>
+                        <measure n="66" label="66" xml:id="measure_ad543087-d60b-4f49-b164-cd6b912e0fb0" facs="#zone_5648dc4a-89f1-464c-ac35-1dacf35b6616"/>
+                        <measure n="67" label="67" xml:id="measure_d333f28c-de4d-48d2-bb53-1438347423c5" facs="#zone_4e9ff54a-9292-4cd5-a58e-351203703168"/>
+                        <measure n="68" label="68" xml:id="measure_a191cfce-3984-4282-bdf2-91736a7170be" facs="#zone_087f6fd1-98f5-4836-a17d-656ba6544d1f"/>
+                        <measure n="69" label="69" xml:id="measure_d960550e-3129-4777-bedc-2388cde21b8b" facs="#zone_18f6c55a-f6db-4191-9d8f-bbc9033d5608"/>
+                        <measure n="70" label="70" xml:id="measure_53b69fed-8325-4d48-9136-d35022b9ce97" facs="#zone_cbb508e2-7f04-4dbc-91e9-10dab708302c"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="71" label="71" xml:id="measure_60211e78-4840-46b6-8350-010f9c03f052" facs="#zone_f4b2818f-9318-45e2-bba2-6d2f501a98e7"/>
+                        <measure n="72" label="72" xml:id="measure_44a7b22f-8d13-42fa-8b15-fc9b7b792be7" facs="#zone_682d336e-d304-4b7c-a231-36ac6b4c5aa5"/>
+                        <measure n="73" label="73" xml:id="measure_7833ff4e-665f-407a-b915-6aabbd48a77a" facs="#zone_79eb8cd1-be8a-40f2-8b45-5b9e3a8353b2"/>
+                        <measure n="74" label="74" xml:id="measure_2957ec2d-2e78-405f-8cb2-0ac8006aaaee" facs="#zone_c2ec1393-9710-4e90-a4b8-f881bd27e949"/>
+                        <measure n="75" label="75" xml:id="measure_706bd97f-f24e-4a64-abf7-75dd44490838" facs="#zone_85f14805-5ded-4bb2-b707-2035ab79ad24"/>
+                        <measure n="76" label="76" xml:id="measure_d8170838-feae-416e-8d32-121da43b3730" facs="#zone_bd5c4cf9-6930-408d-8340-7a1da8a8a228"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="77" label="77" xml:id="measure_f28c8b9f-6115-49c0-87f6-ba4f5ee4217a" facs="#zone_caa6d598-f3ec-4b3e-ad33-f0837f963d83"/>
+                        <measure n="78" label="78" xml:id="measure_2f1d534b-f228-4deb-b14e-23b808db233f" facs="#zone_d547b25f-9a10-4177-b38d-137088eb9b79"/>
+                        <measure n="79" label="79" xml:id="measure_babef8f9-da97-43bb-af30-92a349ea64f3" facs="#zone_74b47c14-46ff-4452-8e25-4112811b0ef6"/>
+                        <measure n="80" label="80" xml:id="measure_e40e0535-6b49-4302-b3a4-3ba50ea156e4" facs="#zone_5e361119-16d9-4c6d-9e3a-f40e5d780978"/>
+                        <measure n="81" label="81" xml:id="measure_8a5eb5a4-66ef-402a-b192-c145b81a00ba" facs="#zone_a154b4ff-a5fe-41a1-81dd-a3290dad76ed"/>
+                        <measure n="82" label="82" xml:id="measure_aaf294a0-7401-488c-a04e-80fcc7786d42" facs="#zone_d0e0c479-a2cf-4da0-bcaf-bd64ddb60375"/>
+                        <measure n="83" label="83" xml:id="measure_7d207463-1e2a-44f5-83a3-0f1b3ae6fdfa" facs="#zone_e380b2bf-f6f5-43c6-a7cc-2ea9f5db08e0"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="84" label="84" xml:id="measure_dd73b6db-e20a-47d7-b7b9-fdd95a26f97d" facs="#zone_275a3869-cf96-4a7c-8d8e-6d2db132feef"/>
+                        <measure n="85" label="85" xml:id="measure_5df86f97-2e71-44e1-ae13-86bbea6b275b" facs="#zone_14af6b67-7e4c-4922-9dbf-c318faca1624"/>
+                        <measure n="86" label="86" xml:id="measure_a98068ea-fde0-4c9f-9996-dda57847478b" facs="#zone_ffbf7419-3b02-472d-8c17-d407589e48ff"/>
+                        <measure n="87" label="87" xml:id="measure_1a89bec8-c8ec-4faa-bd1d-ea27bf200c4b" facs="#zone_20cac539-f53d-40ca-96b7-e6016c9d7ce8"/>
+                        <measure n="88" label="88" xml:id="measure_916970c8-f2ab-4957-8ba8-a847345de327" facs="#zone_74b3026c-a08b-4d20-bcc1-d653456fdd59"/>
+                        <measure n="89" label="89" xml:id="measure_4a5fcc6c-98a7-4c9e-8f2b-304822ef7895" facs="#zone_fd809610-4fa5-4d3f-9f74-4fbe0a4d6bd3"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="90" label="90" xml:id="measure_994133e8-4acd-4434-ab54-9f127601c58d" facs="#zone_d39f598a-6057-44d2-9b37-a106441dc961"/>
+                        <measure n="91" label="91" xml:id="measure_fc08d080-3fc8-4c4f-906a-508847180bae" facs="#zone_122276f3-57e9-416c-8a8e-a81b3d882b47"/>
+                        <measure n="92" label="92" xml:id="measure_6bca44bd-4ed5-4125-b4b7-5b821dd1d542" facs="#zone_a89dac0c-4ecb-4683-b538-2c0f2c85eec2"/>
+                        <measure n="93" label="93" xml:id="measure_55303906-6e5f-4d04-8bcd-da21189dacf5" facs="#zone_22f48eb1-c8a1-482e-91b2-724457b22bcf"/>
+                        <measure n="94" label="94" xml:id="measure_e107bc3f-5d8c-4d8b-8465-8a1080885964" facs="#zone_d20b0d18-bb20-43d3-8a54-64d930e0ed7d"/>
+                        <measure n="95" label="95" xml:id="measure_e7afc02f-ed06-4c05-9716-74ffb6bf2336" facs="#zone_907a2a3f-4fab-40e2-8928-1bec5c4fecb5"/>
+                        <measure n="96" label="96" xml:id="measure_3f3f0821-e686-4df3-8cd7-5995ed7002a7" facs="#zone_6e5772fe-d164-4e43-9331-9e5d2a02b014"/>
+                        <measure n="97" label="97" xml:id="measure_de9f3aee-aa81-43c7-81f8-3c6dfc8d09f6" facs="#zone_0acd3e31-7193-4977-ac28-3c31325f48f8"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="98" label="98" xml:id="measure_b041aa38-67bc-48f4-af47-518ee5ebab24" facs="#zone_c1265ca7-cf57-4cf6-b7c5-c160d8ababa0"/>
+                        <measure n="99" label="99" xml:id="measure_d4ad90c0-16a0-4af2-b759-a1ba13164d55" facs="#zone_dadd7dae-2cde-4406-9c8b-cd4c6eed606d"/>
+                        <measure n="100" label="100" xml:id="measure_58e0d67c-064f-4d2e-aae0-bfb339a311ad" facs="#zone_8b0a310e-17b1-419b-be5b-e3c7eea47841"/>
+                        <measure n="101" label="101" xml:id="measure_9d70dfd0-949f-449f-882d-327304f4b7a1" facs="#zone_2620babd-662d-4185-a500-b00cc705b676"/>
+                        <measure n="102" label="102" xml:id="measure_0d55127f-79ff-409b-925c-5e301003c204" facs="#zone_03637ba4-5321-42ea-8727-dc7e524a096c"/>
+                        <measure n="103" label="103" xml:id="measure_063c4624-ffab-4618-aa38-893eb4dabd3a" facs="#zone_461acaec-90e9-4d26-80bf-0cc6177f2e4f"/>
+                        <measure n="104" label="104" xml:id="measure_57c70dc2-c249-498f-af66-9b7f89c7e2bf" facs="#zone_b11cdc8a-1eeb-43f7-be0b-50edb82d5b25"/>
+                        <measure n="105" label="105" xml:id="measure_17a14a10-ec2e-46a5-b680-d00a26bab7ad" facs="#zone_67fc4663-d2cf-4a73-8df6-f5fe6a58d7cd"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="106" label="106" xml:id="measure_79022efe-84f4-4361-9918-8c17604db1c1" facs="#zone_2f3f0d93-c124-4594-b3e7-146f6474b768"/>
+                        <measure n="107" label="107" xml:id="measure_242b94b0-b4a5-4a1b-a627-95b02c022f07" facs="#zone_77c38daf-e505-4991-99e0-4e51aec9c718"/>
+                        <measure n="108" label="108" xml:id="measure_e0c761a8-8942-4381-a7d1-ce5e5e4481be" facs="#zone_71aeccc0-35ad-495b-9d79-340f533c7f34"/>
+                        <measure n="109" label="109" xml:id="measure_5c45a003-2f0e-4c4a-bf4c-878d6c24b1d1" facs="#zone_52dfe286-4fe9-4594-827a-1872931af7a1"/>
+                        <measure n="110" label="110" xml:id="measure_744429bc-9ee4-4f45-9508-287e5c90cba3" facs="#zone_4cb4e506-d35f-49be-bb3d-8475b79ce7af"/>
+                        <measure n="111" label="111" xml:id="measure_78c56ded-12cd-4eb1-bac5-456c7fc7fbf1" facs="#zone_b6a5b187-3300-431b-9c9b-0f12440b9112"/>
+                        <measure n="112" label="112" xml:id="measure_b7885c36-bf64-48a8-9123-24e4ff996803" facs="#zone_89246ea0-0545-44da-a1b1-b012a304b965"/>
+                        <measure n="113" label="113" xml:id="measure_ff276e0a-4853-4857-a796-8746b5739abe" facs="#zone_c5da4e1a-69b7-4a81-9b27-aa8675e07ca6"/>
+                        <measure n="114" label="114" xml:id="measure_ec54a2ee-e3f9-496f-a470-25ada7c4b5d1" facs="#zone_b00d5982-af72-44a7-a570-03b711643394"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_0d3d69a0-60f8-42e4-b968-5e656d0853e7" n="3" label="II">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_f2822c2b-43a8-4d48-8e34-89f66fcda241" facs="#zone_0529c8f9-557b-4b9f-b3dc-705aaeab3588"/>
+                        <measure n="2" label="2" xml:id="measure_45fa5036-c60f-4902-96da-1a537a0dd7b2" facs="#zone_fef5a4bf-fa4c-4b4a-a4b3-bd04347ec4a6"/>
+                        <measure n="3" label="3" xml:id="measure_c5c2633c-4779-4290-afa3-e9126ee12b80" facs="#zone_9621ead9-8828-4c7c-9c0d-72b401e04e11"/>
+                        <measure n="4" label="4" xml:id="measure_217c0e85-1f98-480b-9a28-44e20e0faa30" facs="#zone_bd01351d-d53b-4818-a7a9-d6832e61db86"/>
+                        <measure n="5" label="5" xml:id="measure_361edbe4-9ebd-43e5-9edf-a6385f209356" facs="#zone_0779d59f-4231-4281-a340-c11a520f7aaf"/>
+                        <measure n="6" label="6" xml:id="measure_ce8ad8f5-61fc-4fe3-91c0-b24830edfde0" facs="#zone_8c33f59c-5f7e-423d-9b8c-95e469b7265c"/>
+                        <measure n="7" label="7" xml:id="measure_9504dd0d-1b50-48ef-93d9-23898b8afce3" facs="#zone_d57c482a-5493-46a9-b0ce-37c8cf2198b1"/>
+                        <measure n="8" label="8" xml:id="measure_44de18fb-3720-467a-b54a-4221acd99304" facs="#zone_ad7dfddb-b467-4cde-9c78-449e641f49b7"/>
+                        <measure n="9" label="9" xml:id="measure_4a4cacfc-73da-427e-83fd-c166dd605575" facs="#zone_ab416d1f-0c4e-4394-a212-cac1b8f726ce"/>
+                        <measure n="10" label="10" xml:id="measure_53864c3e-89b3-4b21-8dc6-62476bce7393" facs="#zone_9cb174f2-c7d6-49d4-aac7-c9c942bc55bf"/>
+                        <measure n="11" label="11" xml:id="measure_136a5fe8-9d7b-4f5a-ba19-f8fdb7f42c84" facs="#zone_2ab6e939-659d-4b90-b8ec-499c57f76e0c"/>
+                        <measure n="12" label="12" xml:id="measure_2c4840ae-2f9d-4663-a3b2-ebcfd6880829" facs="#zone_bb9c3a8d-55ca-43e6-b518-2e92ec840420"/>
+                        <measure n="13" label="13" xml:id="measure_98275ec6-b184-4095-b710-7a8ca5b2f689" facs="#zone_70c4c4c4-0a7c-497b-8e0e-78305fbd058a"/>
+                        <measure n="14" label="14" xml:id="measure_d4fe16cd-4a3f-40b3-b7b4-5b8216e28443" facs="#zone_e8c70f59-a807-44af-95af-1671bc565c97"/>
+                        <measure n="15" label="15" xml:id="measure_828c780a-f0df-496f-9eaf-35a25cea5cd6" facs="#zone_89d2e504-6441-461f-a405-a39b747e45ad"/>
+                        <measure n="16" label="16" xml:id="measure_32507bed-5860-4a41-954c-3aba5fbd3ef7" facs="#zone_4c410560-f908-4268-bb1c-49d1c5d33f1c"/>
+                        <measure n="17" label="17" xml:id="measure_baf9162c-1aa4-4a3f-a490-98b4bb532e20" facs="#zone_0d9a3aba-0777-4480-b612-0a06af649b3b"/>
+                        <measure n="18" label="18" xml:id="measure_a5f0a3d9-5a70-487d-b24d-86413605f7bc" facs="#zone_9d85d3e8-183e-4cb1-b04a-1abc6c47f40d"/>
+                        <measure n="19" label="19" xml:id="measure_a88d9ca3-79ca-4ff6-9202-c0251f734053" facs="#zone_485a4a8d-4e68-4631-9006-7678831b0596"/>
+                        <measure n="20" label="20" xml:id="measure_b990d38a-544a-4644-9a23-c125af5638dd" facs="#zone_855a3a40-e03f-48df-825c-a30846e7b7eb"/>
+                        <measure n="21" label="21" xml:id="measure_0bdfc7de-a00e-4937-87a0-3eebc1544dca" facs="#zone_55c0e8bf-86b3-4942-bdbd-e0b8a411cb53"/>
+                        <measure n="22" label="22" xml:id="measure_8c03a7f5-e6ea-4bbc-8767-c3c9f8414685" facs="#zone_ef53411b-3bdc-4bcf-a334-d9033a17d051"/>
+                        <measure n="23" label="23" xml:id="measure_ebe2caed-8251-4fb0-8f39-f75e4c988999" facs="#zone_e75412e8-49fd-4cf4-b71d-4dca403b2c99"/>
+                        <measure n="24" label="24" xml:id="measure_b15a05b6-27b8-49eb-99b0-e405974ca06f" facs="#zone_88da4642-6643-4eee-9d79-d87c69126b36"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_b6a8cccb-e03c-4bd8-af65-1d4d3df5a1d0" n="4" label="III">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="0" xml:id="measure_920912bd-a973-4bf5-9af5-9e3fe0be556b" facs="#zone_531357f8-f126-47a5-8d14-37c214c4b761"/>
+                        <measure n="2" label="1" xml:id="measure_a67d34b9-fbc1-4612-8d3d-022605fd4f88" facs="#zone_7c23febd-164e-40a9-a50e-e665f692e636"/>
+                        <measure n="3" label="2" xml:id="measure_e3ce5771-f3cd-4c86-89c4-3d3544952cc4" facs="#zone_c2b50059-5dcf-4616-8e7a-9787f5a10cc6"/>
+                        <measure n="4" label="3" xml:id="measure_6f0e0602-3f1d-4822-9c6c-4496b9c55247" facs="#zone_75b11eb0-5234-4076-bb6a-ce75e879e6da"/>
+                        <measure n="5" label="4" xml:id="measure_ca65ef69-7236-4f13-9d26-4d926e450cd2" facs="#zone_1341f8d1-a4ca-4f9c-b1c5-d389e09b5b03"/>
+                        <measure n="6" label="5" xml:id="measure_de447493-0bca-4836-b61d-5b4a91efd55c" facs="#zone_2783ba4c-8385-4b17-83d8-028f5ddc6e36"/>
+                        <measure n="7" label="6" xml:id="measure_2996e68d-435b-41f3-b09b-f37e4dea7a8d" facs="#zone_cb78a4ca-1a19-43b2-b324-c689dc1d0357"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="8" label="7" xml:id="measure_d0bdc2bc-e45c-4d29-8bdd-76184cd25e96" facs="#zone_8cd61950-b6bf-4744-942b-8057ff8c7f4a"/>
+                        <measure n="9" label="8" xml:id="measure_670697af-2995-4d82-acfd-a3b3e29bf3ee" facs="#zone_5c984638-3a52-4bbc-b424-8e2a7635365a"/>
+                        <measure n="10" label="9" xml:id="measure_6d42ce74-cfcd-49dd-bb78-87b97bf39292" facs="#zone_bb552d34-d66b-4dd4-8438-21d7f0e32aad"/>
+                        <measure n="11" label="10" xml:id="measure_8f4a16dd-b670-4808-adc9-fe0007af1a46" facs="#zone_d7d32858-96d2-41de-9791-0470ec9980d4"/>
+                        <measure n="12" label="11" xml:id="measure_bdcc2b51-f260-49e4-8700-f757ee46a64e" facs="#zone_287d75e4-86d1-4cee-8d6d-1a96161fb826"/>
+                        <measure n="13" label="12" xml:id="measure_8b5c4afa-f62a-4b10-bce7-ac9f2f88cddf" facs="#zone_c04ab5cb-b6ff-40ee-ab5d-d990e63626b7"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_022dd1b3-9000-4939-a7cb-3e5e5317335e" n="5" label="V">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_6b9d9a60-6b01-4051-bef0-6ef8716c65a2" facs="#zone_b33e91b8-8226-4c6a-868d-3ea52faf1575"/>
+                        <measure n="2" label="2" xml:id="measure_c16eb711-3ab8-4e37-ace0-668ffc76fcc6" facs="#zone_62960ee6-ca17-4c19-903f-7375371e6e28"/>
+                        <measure n="3" label="3" xml:id="measure_d6493e6f-1395-4d92-891c-cdb02a392b69" facs="#zone_02161c38-69a0-4278-9aa8-5928664442c8"/>
+                        <measure n="4" label="4" xml:id="measure_3a3527c3-53dc-40d8-8938-d7a9e8cae4bd" facs="#zone_a27a4afa-0f14-4be9-863c-481658842fff"/>
+                        <measure n="5" label="5" xml:id="measure_d2cfbbfe-b03e-4ce5-86ee-19dc880e319a" facs="#zone_634979b5-fe1a-4343-ae05-d2c85349bcf4"/>
+                        <measure n="6" label="6" xml:id="measure_82bea61a-ad11-49f7-b94f-fa8bf037d431" facs="#zone_e37bced1-136d-414e-86d3-39c5cedea122"/>
+                        <measure n="7" label="7" xml:id="measure_5a0aeae2-1424-4baa-b09b-9acc323940cc" facs="#zone_446924bc-763a-485d-9251-d1244c962a47"/>
+                        <measure n="8" label="8" xml:id="measure_c01ab85a-8c8a-4091-9adf-a3abfd8e0089" facs="#zone_9b608e44-8c60-4c4e-9713-caeb69655bcc"/>
+                        <measure n="9" label="9" xml:id="measure_578b9149-0075-42cc-9c08-d55fa8bb87f2" facs="#zone_13829500-749f-4a43-9206-e9ffb339a40d"/>
+                        <measure n="10" label="10" xml:id="measure_026e7bcd-100d-4168-8ed6-bc1a47f2eb4b" facs="#zone_53cfcbc3-aa72-40ff-bc0d-ee4db1cdfeae"/>
+                        <measure n="11" label="11" xml:id="measure_2e37cf3d-aaea-4243-a491-79bcb66f0d9b" facs="#zone_e2fd6e37-5467-4b7d-8c90-1d393b37a913"/>
+                        <measure n="12" label="12" xml:id="measure_5c388e4b-7d93-47e2-883d-e04aa55e4231" facs="#zone_383b4cdb-6219-4ee0-b5d0-6ac915cd3b78"/>
+                        <measure n="13" label="13" xml:id="measure_d8245512-68c4-40d5-bb9e-c9f044b6ce47" facs="#zone_c867f89d-0568-4973-9793-9de1e1841e0c"/>
+                        <measure n="14" label="14" xml:id="measure_033662e8-dee0-4f62-a104-814318edcd78" facs="#zone_23910309-fdab-4427-b5a6-0d4e4c1f6098"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_cf47c356-2666-42e2-8468-199e57736540" n="6" label="IV">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_498bf0b6-306a-4f70-a67c-3a9e5cf475b0" facs="#zone_3214c0d4-171a-4c01-af53-4c703d367f51"/>
+                        <measure n="2" label="2" xml:id="measure_07c460ed-e978-49ef-bd6c-99502b5f50b8" facs="#zone_b9bec7c3-f73c-4fb2-a69a-cb98f521a2f2"/>
+                        <measure n="3" label="3" xml:id="measure_76980b97-0ca1-4ab0-94ed-e9b14f05e207" facs="#zone_35cc54fb-39c4-4adb-9c90-3da200cbb486"/>
+                        <measure n="4" label="4" xml:id="measure_7656a7d6-0f39-431a-a09b-061e93433bfd" facs="#zone_dcc1ca9c-1332-457e-89f1-cf50df1ce46f"/>
+                        <measure n="5" label="5" xml:id="measure_f99f0d1f-c77c-4e0b-b5ca-0688aa12e69c" facs="#zone_a5dd411e-78fe-49b9-a6fa-5ff1c98ef450"/>
+                        <measure n="6" label="6" xml:id="measure_84c41619-7c8c-4fa9-8374-8dfe219b3b0e" facs="#zone_195bc00a-1b7f-4d8a-99ce-c3c8d3195ef9"/>
+                        <measure n="7" label="7" xml:id="measure_d89c60a9-5bad-4ecd-b5f7-d95b857acce1" facs="#zone_ef15d80f-4b8f-4399-820c-77f9b0eed9c4"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="8" label="8" xml:id="measure_b73128c9-2a56-4162-901e-d469d7431531" facs="#zone_c8943612-5b9f-43d3-94ac-24214c7c6051"/>
+                        <measure n="9" label="9" xml:id="measure_523e8766-b89c-4cdc-9e7e-383de9a63620" facs="#zone_36000a4f-5306-4a64-ae08-d587bc1e686c"/>
+                        <measure n="10" label="10" xml:id="measure_8c88d73e-2ac4-45e5-835b-11925776e405" facs="#zone_5c614449-c661-4827-8db6-bb6cb0b7dec5"/>
+                        <measure n="11" label="11" xml:id="measure_72e0465e-2094-404f-acc3-f51cea1fd1c1" facs="#zone_90504550-a278-4641-b8d3-30af39f062dd"/>
+                        <measure n="12" label="12" xml:id="measure_a099214b-5edc-4f2b-9c17-689c4b6ef675" facs="#zone_319b6692-3279-4c24-ac64-69281b339c99"/>
+                        <measure n="13" label="13" xml:id="measure_022f13cb-d5ac-480e-b0c6-6da28500bf26" facs="#zone_cd4f73f4-c20b-48c8-80ab-9976e6c24a9c"/>
+                        <measure n="14" label="14" xml:id="measure_db6b7211-8779-4661-ac92-f83cff9fdd5b" facs="#zone_252a5d39-7653-4743-808c-8ce67ccd7633"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="15" label="15" xml:id="measure_fdee2c40-768a-4f8e-9d04-acc0f46b8161" facs="#zone_ffce4e22-e053-4040-ab80-16ffa2a69b2d"/>
+                        <measure n="16" label="16" xml:id="measure_4c8dfe20-67dc-4ecf-9278-e337bb7cc475" facs="#zone_77de44db-7b1a-4433-baa7-0f5aa2671a45"/>
+                        <measure n="17" label="17" xml:id="measure_04ea0334-473e-4832-ab4d-3f56d483e8aa" facs="#zone_7f314489-ce2e-423c-90f1-39d9cb6c9a53"/>
+                        <measure n="18" label="18" xml:id="measure_e7f618b9-d7b9-4e36-ac23-2ba543ee50de" facs="#zone_d9023e27-8790-413b-9ef9-198846ab135e"/>
+                        <measure n="19" label="19" xml:id="measure_36e512bb-7a6b-44f6-9abe-850aabce33bc" facs="#zone_abe7545a-afdc-4d5d-a252-8d329e51bdea"/>
+                        <measure n="20" label="20" xml:id="measure_89ad0a00-7a4c-46db-91b5-3a35abe405c7" facs="#zone_9ecee7b8-5628-4e2c-b648-db8a5cf97314"/>
+                        <measure n="21" label="21" xml:id="measure_c3477ce8-707e-4fde-9600-8374a5658295" facs="#zone_99ac98e8-5dfd-4d8a-9b40-0e4a40767154"/>
+                        <measure n="22" label="22" xml:id="measure_f16075a7-d32c-46e3-8ba2-034ca7cb1a49" facs="#zone_42f9d043-7f7f-4edc-83ee-723e085073d4"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="23" label="23" xml:id="measure_6efc642e-aaca-463c-aaef-623edc158a55" facs="#zone_1725e255-c5bc-4588-ad74-6c4f1571a4a3"/>
+                        <measure n="24" label="24" xml:id="measure_9b8b64eb-28cf-4f2e-95c3-42dd315e378a" facs="#zone_624ae0ba-8701-456b-83f1-4df393f771b3"/>
+                        <measure n="25" label="25" xml:id="measure_fe5b9e86-634c-4f2d-a4a0-3dfe34de168e" facs="#zone_f9dde7d2-4738-423d-8022-efd654e01e83"/>
+                        <measure n="26" label="26" xml:id="measure_cc90ba6a-2e5d-4a85-9056-b4a0d75d3f9b" facs="#zone_7e945699-b1a0-4cff-83e1-3509940441f7"/>
+                        <measure n="27" label="27" xml:id="measure_c71af6f2-2ac6-4c1e-ba0b-e674409f419d" facs="#zone_e84a5c53-5db5-43ce-8f85-32125c8d2509"/>
+                        <measure n="28" label="28" xml:id="measure_479c2a07-d0d0-4579-86e5-30da9f91c879" facs="#zone_dd1fd57a-9386-46e1-9fee-061ffe0dd38c"/>
+                        <measure n="29" label="29" xml:id="measure_07387353-d6cd-475a-b04e-c377d05271a6" facs="#zone_8947752b-deff-4bc9-814b-4b03ca983dc5"/>
+                        <measure n="30" label="30" xml:id="measure_8df6f4fc-f6d6-4ee2-878e-6bd6a5442318" facs="#zone_f9c0dca6-9a6f-47da-991d-e2c3cf09da6f"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="31" label="31" xml:id="measure_25b838d4-5ed5-4c3a-aed5-047fa665a50d" facs="#zone_b6ad45ae-1c95-4105-b206-2e99763d25d3"/>
+                        <measure n="32" label="32" xml:id="measure_b90a2094-6a89-4d9e-a1af-75c06765f9b5" facs="#zone_535e711b-055a-457d-9a28-0f8e651123c9"/>
+                        <measure n="33" label="33" xml:id="measure_6abd3d9e-33ef-46a7-ba9d-da6ff37de80b" facs="#zone_5ebde699-5072-4451-b31b-a34a9a49ee1f"/>
+                        <measure n="34" label="34" xml:id="measure_3404a04d-c20f-4433-9bee-8a42ac336fe9" facs="#zone_e4cac451-b85f-4395-b589-ca4c2eb12186"/>
+                        <measure n="35" label="35" xml:id="measure_95a50ac1-3e55-4a07-9f1e-99ab80c98bc3" facs="#zone_699573f0-885a-4b22-95ce-d18ce75ffae4"/>
+                        <measure n="36" label="36" xml:id="measure_b233980f-5b69-47a0-8d85-7c517fe4f8ed" facs="#zone_0f7ea8d0-c09a-4336-8645-940f0f23df18"/>
+                        <measure n="37" label="37" xml:id="measure_f08ca343-4935-45ca-8bde-989e9f045a76" facs="#zone_8e3df1b4-a79f-4dd4-b394-ff9d9da219d0"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="38" label="38" xml:id="measure_afdd62b3-af44-4338-96a2-53d9e7ce7976" facs="#zone_9330a4c0-e52f-4ae6-8d20-87ec3845e278"/>
+                        <measure n="39" label="39" xml:id="measure_fc596e0a-4667-4834-aede-02f7279b0200" facs="#zone_5fae3d64-1dfb-4682-aecc-7d20167c1bb1"/>
+                        <measure n="40" label="40" xml:id="measure_e12ff727-c537-4c49-811e-8d5f0ac2875b" facs="#zone_55b155cc-f706-4ddc-94b0-6497aaec8f62"/>
+                        <measure n="41" label="41" xml:id="measure_9c095c37-6ec3-4209-885e-02a5b3164107" facs="#zone_21b7ce3d-6750-4260-83af-e23e8d744686"/>
+                        <measure n="42" label="42" xml:id="measure_8fae2fde-d20b-47cc-84c5-58681486f3dd" facs="#zone_cda7c8dc-beb3-412d-9c58-a1eb5b1d4054"/>
+                        <measure n="43" label="43" xml:id="measure_040cfa9c-6315-4bfe-a198-91cd73eec0d9" facs="#zone_82cd1ae8-6b24-481d-b421-40b09fa93746"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="44" label="44" xml:id="measure_8798a40c-2cd6-4e1e-88cf-fe938a39f69a" facs="#zone_5394a5cc-c586-41be-9987-b4e0a0ce6a50"/>
+                        <measure n="45" label="45" xml:id="measure_3bd98732-5376-47e3-85b8-7596ecfef408" facs="#zone_79bcc3d0-d61f-468a-8591-a658f4f8ff3a"/>
+                        <measure n="46" label="46" xml:id="measure_532c0482-859b-4b99-b49f-14ba8a1f34cc" facs="#zone_223a67fc-351d-479a-96b6-94f10a5060aa"/>
+                        <measure n="47" label="47" xml:id="measure_403d4470-0eac-4e2b-9ecb-fcaa38005acb" facs="#zone_3aa6dd31-8110-486e-995c-2946824f0f9c"/>
+                        <measure n="48" label="48" xml:id="measure_7f1cd36d-e488-477d-a510-8a108e8a7bca" facs="#zone_e83c814d-e87c-41e7-8f07-96019bf33ab1"/>
+                        <measure n="49" label="49" xml:id="measure_bee567ca-119e-4fa1-8465-f9a3a3ccf705" facs="#zone_3e7c8562-af46-4005-b955-1c9f1a8c8eb0"/>
+                        <measure n="50" label="50" xml:id="measure_f721b385-c6b0-4757-aea9-f835da700c6f" facs="#zone_5f0eb3af-56a9-43b5-aace-203f8486cac5"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="51" label="51" xml:id="measure_cd4cef22-5140-4089-8ed5-302790db93a9" facs="#zone_8f9070ca-733f-4162-9040-93a2f6680438"/>
+                        <measure n="52" label="52" xml:id="measure_c8becff8-edb0-459d-96de-6bdd6745f1a4" facs="#zone_abcdb6f6-4e77-4d7c-8a7a-a8406a374156"/>
+                        <measure n="53" label="53" xml:id="measure_18c37979-953d-49e7-9b1c-b9d780769660" facs="#zone_ba2a3efb-ae74-4f67-82a1-a79bd456c28c"/>
+                        <measure n="54" label="54" xml:id="measure_f51e4909-86e9-4576-9595-0add0a69864d" facs="#zone_07986b98-5750-4457-98d5-72f64a75a6ac"/>
+                        <measure n="55" label="55" xml:id="measure_4ec9676f-5571-4ad9-a071-55e2cfeef501" facs="#zone_283e325c-a28b-423d-9e41-e7f885f668c4"/>
+                        <measure n="56" label="56" xml:id="measure_08629f5f-6569-4bd6-a1be-aff8d064a6fb" facs="#zone_88e57d90-2ebd-4b07-a243-39e57cc05890"/>
+                        <measure n="57" label="57" xml:id="measure_7e0feeb2-7e5b-44d5-b94a-17fc241b0c53" facs="#zone_2804d9c8-fb55-46a4-bf5c-e39385ae75be"/>
+                        <measure n="58" label="58" xml:id="measure_f497898c-1ebd-4251-bda6-567e365b198c" facs="#zone_bba42f1e-2141-4561-8444-06aa0fcd6af9"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="59" label="59" xml:id="measure_9d113f83-2cf3-4e05-ac08-653996503e71" facs="#zone_004598a3-7f15-49e6-a559-eccbce35c347"/>
+                        <measure n="60" label="60" xml:id="measure_5d8ad48f-6cb5-4d5e-a0dd-ca1feed2ce94" facs="#zone_73d154a1-35cd-44fc-83f5-805ffc77cec6"/>
+                        <measure n="61" label="61" xml:id="measure_f65de2bb-124d-47f3-a4e0-b1153e89f0da" facs="#zone_d6bb39d3-3f2d-4722-ae53-4dbc7a675c00"/>
+                        <measure n="62" label="62" xml:id="measure_86f0b93b-2748-4a46-bcde-5d7263014964" facs="#zone_e96f0734-e550-4a32-8154-29d39e73faaf"/>
+                        <measure n="63" label="63" xml:id="measure_a14fe730-daa8-4754-a7c5-6f963e8fd2c2" facs="#zone_7e57bcdd-8971-4051-a825-de169c1ab740"/>
+                        <measure n="64" label="64" xml:id="measure_f3dd6def-988b-4472-bc4e-19917b741718" facs="#zone_b2a3ffbd-8cdd-4d67-ae4c-1264ca28b169"/>
+                        <measure n="65" label="65" xml:id="measure_7581cbe7-b145-4cb0-9de8-0fe975d98459" facs="#zone_932fe5cb-d344-4c35-82fd-b076f932f60e"/>
+                        <measure n="66" label="66" xml:id="measure_9c44f240-8626-4864-a176-d0b3b1974b43" facs="#zone_66659185-71ec-4539-839a-183c24e416bf"/>
+                        <measure n="67" label="67" xml:id="measure_723d6881-15ac-46dd-ad6a-0395f7ebf9a2" facs="#zone_7b67c3c6-a97e-4baf-97e7-48aae76a1a83"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="68" label="68" xml:id="measure_3a5ed5f0-15e7-4cac-ad2e-ead1c4be4bef" facs="#zone_90935af8-081c-4a47-b507-15730cb4004d"/>
+                        <measure n="69" label="69" xml:id="measure_a55a684c-f786-4128-89b7-99f48b09ab6a" facs="#zone_376ed5c7-5fe9-4c12-89f9-a647fd0098b5"/>
+                        <measure n="70" label="70" xml:id="measure_b0a9d36a-9b72-4598-a6dc-8942b6c9598f" facs="#zone_9c74b995-a0e8-4783-9834-8d35ce8e0a27"/>
+                        <measure n="71" label="71" xml:id="measure_8fe02558-b315-4284-82c4-66ce206cbffe" facs="#zone_7f1c6cc9-35b4-4248-a726-15d21f719f04"/>
+                        <measure n="72" label="72" xml:id="measure_848e5494-31dd-468e-a87c-8b4bee8e34eb" facs="#zone_4d974bff-6a73-4440-82ff-29e07c133745"/>
+                        <measure n="73" label="73" xml:id="measure_cb84c5cf-8508-4de9-9635-7f12b076127a" facs="#zone_26a83be4-8ab5-48dc-be05-3a52be156264"/>
+                        <measure n="74" label="74" xml:id="measure_94f8a0de-0d2b-41ea-81af-3b5f48002ab3" facs="#zone_4505ca74-0338-47c6-96ed-a159a40f09eb"/>
+                        <measure n="75" label="75" xml:id="measure_0a73eab4-e709-4f6f-9f35-bad7075a0429" facs="#zone_485fc2db-56fe-49e8-b103-1153416cb35d"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="76" label="76" xml:id="measure_86fc93a9-1b7a-4450-a011-e918a8bad16a" facs="#zone_2a1b726a-a92a-4ba4-8848-75986ce33b34"/>
+                        <measure n="77" label="77" xml:id="measure_66577708-375a-4b2c-8133-ecbd80131dc0" facs="#zone_f307b65a-bd2c-45c5-9732-75b547791019"/>
+                        <measure n="78" label="78" xml:id="measure_4191a7f5-22a1-43e8-ad53-c0d946aa4f72" facs="#zone_8cbf0cae-4377-4fa0-85d7-c0c41048ba73"/>
+                        <measure n="79" label="79" xml:id="measure_21c196bc-4540-49a9-955f-2f57743da7d3" facs="#zone_ec194839-89be-46f9-afb0-b0eae720b9b5"/>
+                        <measure n="80" label="80" xml:id="measure_0cdc04ea-bb89-49f7-89e8-9051b8edc996" facs="#zone_0290e83b-2012-440e-9547-3e2b4e9e172f"/>
+                        <measure n="81" label="81" xml:id="measure_6743a556-af74-485d-984c-a95332853b06" facs="#zone_e7754110-bd7e-4b1e-9391-e58dd36317ef"/>
+                        <measure n="82" label="82" xml:id="measure_e7f8f9cd-ee4a-4e06-b8f2-79f9a510c3d7" facs="#zone_11a47007-dac5-41fe-a0b9-bfca693ca90a"/>
+                        <measure n="83" label="83" xml:id="measure_9e87f877-96d3-47b6-aaa8-f374777906a1" facs="#zone_857deaed-0164-404b-ba63-916b64113811"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_311b0168-28c6-4ac6-bb00-41552983137d" n="7" label="VI">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_71fad283-70a6-4098-acd8-b3baf6063d2b" facs="#zone_f1d3ea3f-5b38-4e56-97d0-d25a900ef752"/>
+                        <measure n="2" label="2" xml:id="measure_ae91c6ab-80f4-4b13-a3a1-3ab40132a763" facs="#zone_406b14cd-1b6e-4887-9da8-f609f8df6360"/>
+                        <measure n="3" label="3" xml:id="measure_2781e0d1-2abe-461d-9059-94f4c04f9bed" facs="#zone_dfdb8986-d7a3-4d67-b173-d286066940d9"/>
+                        <measure n="4" label="4" xml:id="measure_68f8a709-c118-44fb-87fd-6395df461175" facs="#zone_1f042cd2-c76c-467c-81bf-a50d2e06175c"/>
+                        <measure n="5" label="5" xml:id="measure_f129f08a-a7fe-4dbd-a4e8-14612522deba" facs="#zone_fd976e03-e8ff-4a48-991d-2489e53869ae"/>
+                        <measure n="6" label="6" xml:id="measure_7ff681f9-f3b0-4e5f-9e74-04640caff1c6" facs="#zone_4ce1f866-baa6-426c-9caa-689ae0b8b37d"/>
+                        <measure n="7" label="7" xml:id="measure_c30d3c09-e89a-41f9-a403-85b72ce5fe08" facs="#zone_cdc5659c-a6e3-493c-b7ae-fe4db1b8fc15"/>
+                        <measure n="8" label="8" xml:id="measure_5df3e7aa-c349-42a7-a338-5b63e90f68c3" facs="#zone_9489b121-2f16-42c4-9b79-3c1e2d64e154"/>
+                        <measure n="9" label="9" xml:id="measure_d15f14fc-4c8d-4269-8280-4a6e0d7c7837" facs="#zone_ba9b1f98-4909-42ad-9887-b5d27b1d21a6"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_30ad13b7-5165-4ef7-b5dc-7e25457d43b4" n="8" label="VII">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_1741709f-5dc2-4807-bafe-08ee86ea379e" facs="#zone_e3450b99-1aa2-4409-95c1-b1470b530368"/>
+                        <measure n="2" label="2" xml:id="measure_f466d250-fde5-40a4-941d-08d143474437" facs="#zone_04204494-91f4-4f6f-814c-1482afdc267c"/>
+                        <measure n="3" label="3" xml:id="measure_11baa288-75e2-4799-a475-991d3f2c7545" facs="#zone_c6871cc3-691c-4948-9d80-37de48253649"/>
+                        <measure n="4" label="4" xml:id="measure_ad4ffb74-7865-4444-ba69-7178ea9c5d81" facs="#zone_0d23a94a-0d8e-47f0-8732-22ad687953df"/>
+                        <measure n="5" label="5" xml:id="measure_52844a27-195a-4be2-95e8-7693f0c71f53" facs="#zone_4cb1bea7-7a79-4887-84fa-d12b15564723"/>
+                        <measure n="6" label="6" xml:id="measure_7a9f44f6-8882-4775-a9bb-33fd1820116d" facs="#zone_7f030707-b16b-4ad5-8870-2cedda257307"/>
+                        <measure n="7" label="7" xml:id="measure_daf8aa9c-8bd7-4ef4-999c-0feb9cd045e7" facs="#zone_82ed3cd6-7af4-44d5-9245-35b437d67238"/>
+                        <measure n="8" label="8" xml:id="measure_c9a52daf-b269-44e4-8789-c7c4a71744ec" facs="#zone_f552cc83-e942-4fda-8dcc-9eb2dfa24617"/>
+                        <measure n="9" label="9" xml:id="measure_ae375abe-ee49-4886-a25b-ce61e06d1869" facs="#zone_3f90c472-7d24-459a-92ee-e3798adb0748"/>
+                        <measure n="10" label="10" xml:id="measure_e9a4b6ef-2cd6-4d90-ba2b-05ec89f6beee" facs="#zone_86f9d12c-2b33-4120-95e8-fd60b20f60e5"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="11" label="11" xml:id="measure_3f66760f-06a7-4a8c-99fc-a1b42cd207ed" facs="#zone_34e7459e-ab4c-4d35-a65a-5974bca01425"/>
+                        <measure n="12" label="12" xml:id="measure_58a3b6e8-d6d4-4b77-838d-52083d2061d2" facs="#zone_cca1f5eb-73cb-4c76-8b28-95f277696bb5"/>
+                        <measure n="13" label="13" xml:id="measure_4e4d2209-350e-4c8e-8331-4b5fccff215a" facs="#zone_d396211f-3dfa-429b-8cef-84ee6d5bfa55"/>
+                        <measure n="14" label="14" xml:id="measure_12113a4b-5cde-4849-9994-0d8dc04d7121" facs="#zone_8a7f2a5b-1af7-485c-86ea-fb13a278f34d"/>
+                        <measure n="15" label="15" xml:id="measure_6a07e668-5c53-415d-bd7a-833d04ed608a" facs="#zone_a396f379-a733-4397-9d2e-b92a0f120f0c"/>
+                        <measure n="16" label="16" xml:id="measure_038a3495-1afd-46eb-81a6-95e502fe2c1c" facs="#zone_5cb528bb-8e9a-4eda-b165-a2b57de2cb85"/>
+                        <measure n="17" label="17" xml:id="measure_97f1e4b5-987d-4c05-9738-2bd804ab8b5c" facs="#zone_989a665e-1e95-4e2c-8442-ebd66111edd9"/>
+                        <measure n="18" label="18" xml:id="measure_1da585d2-2f0a-4f45-a548-69e22e033b73" facs="#zone_83d49cf6-a45e-4838-9b3e-1996815ceab1"/>
+                        <measure n="19" label="19" xml:id="measure_9cf48644-035f-4bf7-b3a1-7e5d96c5a1a2" facs="#zone_88904d79-bbcf-4458-8180-17451bd2b2d2"/>
+                        <measure n="20" label="20" xml:id="measure_2203eccd-79f2-434d-a8af-5c4d6511f56e" facs="#zone_fba89ec7-142f-4866-a828-ab1c34e76d53"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="21" label="21" xml:id="measure_66cd2748-ad30-482c-9d74-f6d1556ff1af" facs="#zone_000d26ab-1a53-42cb-9f8d-24d2b137ed01"/>
+                        <measure n="22" label="22" xml:id="measure_b142e542-847a-479f-8c3d-dc802450beb7" facs="#zone_c0294466-12de-4433-9011-32cdd8505e45"/>
+                        <measure n="23" label="23" xml:id="measure_464a763a-df7f-4fd4-a3ab-5132cc840732" facs="#zone_e2bcae80-fdec-4a10-9f14-2c7e93e12caa"/>
+                        <measure n="24" label="24" xml:id="measure_74ffbb76-eaf2-4a31-90e0-dd562a27ceb5" facs="#zone_b1c3ead4-fbee-46a9-b8fc-8b4ef4e7d925"/>
+                        <measure n="25" label="25" xml:id="measure_b686b36b-496d-412b-997c-cb629629574c" facs="#zone_76ce0ff6-4a04-4144-9299-fc81d18ea0b4"/>
+                        <measure n="26" label="26" xml:id="measure_bd26d4c3-c627-4d33-9965-c91ace71a909" facs="#zone_24a42fa0-b986-4bb8-adda-5457b19f3865"/>
+                        <measure n="27" label="27" xml:id="measure_59b6eb1e-f4ba-4a82-836b-6b2fce98a003" facs="#zone_ba259717-2314-48e7-8a27-5fbdef031b5f"/>
+                        <measure n="28" label="28" xml:id="measure_90bb5607-93a6-4f7f-92f0-df4e47368fb5" facs="#zone_a0cd5883-a0bc-4dba-a4a5-94ef905108ae"/>
+                        <measure n="29" label="29" xml:id="measure_4dd3e196-2d21-4f4e-8a9f-9c9060e8a956" facs="#zone_4f81dfc9-01a3-4599-9d5d-3463985fdd6d"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="30" label="30" xml:id="measure_913c68fe-9e7d-4a91-898d-42d9db30977a" facs="#zone_c444e2c4-8923-4f4f-9c38-a7c367ee49be"/>
+                        <measure n="31" label="31" xml:id="measure_c1ca503d-5751-46c8-be19-ec147c2c6f0c" facs="#zone_c2866077-2b79-4e82-aa71-d2a8fccacd86"/>
+                        <measure n="32" label="32" xml:id="measure_5fae1080-27a0-4b36-a899-47d6b7997b43" facs="#zone_862c90d6-acda-439e-9192-2f3b340eac6f"/>
+                        <measure n="33" label="33" xml:id="measure_54c270ad-9f9e-4df7-8cf1-3ba814a8e4bb" facs="#zone_337b59fe-be80-461d-93f7-860fe837278a"/>
+                        <measure n="34" label="34" xml:id="measure_31de95c9-8d33-455b-a1c4-3e56c26b7eb9" facs="#zone_ab9dbd6e-d9c0-4f5e-851e-9a8e3194f68d"/>
+                        <measure n="35" label="35" xml:id="measure_4d86b7f9-5a09-40a4-9cc1-0777bfc6c63a" facs="#zone_1dc4664f-305b-4f8d-ad0b-acdeaf87826d"/>
+                        <measure n="36" label="36" xml:id="measure_ede75974-b1ff-496f-a07d-13d4ced90ee7" facs="#zone_6571eac8-83ab-45a0-81e0-50d3d952edbe"/>
+                        <measure n="37" label="37" xml:id="measure_acc665f4-c12a-4390-a9af-782c9bb9c42e" facs="#zone_dd6699d4-f80b-41da-84a4-f1b6b958c8a5"/>
+                        <measure n="38" label="38" xml:id="measure_8a70aa95-f7ba-4b3f-8505-d484531936e5" facs="#zone_da2185d6-a692-426b-b4cd-ca3f835ac470"/>
+                        <measure n="39" label="39" xml:id="measure_652d05c2-a82d-4eb1-b331-abfccb035293" facs="#zone_f32c1c5f-843c-403a-8690-9f88842da02c"/>
+                        <measure n="40" label="40" xml:id="measure_f4a99170-1409-4c78-b83d-a67c2a673765" facs="#zone_9eeaf6bd-63c1-44b8-962e-b27de8ec47cb"/>
+                        <measure n="41" label="41" xml:id="measure_be21cd35-068c-4310-b235-430b95f8b92a" facs="#zone_79106477-8033-4600-bef6-71047967967f"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="42" label="42" xml:id="measure_0b3a461b-9aa2-4c6b-8aa8-142691fb4f4a" facs="#zone_0b550924-8981-4b34-84be-b5757cabadcc"/>
+                        <measure n="43" label="43" xml:id="measure_be8e34c4-b671-4949-a84b-aafec44f33df" facs="#zone_05c3256f-8521-4fc4-9f08-e5c480c1e25f"/>
+                        <measure n="44" label="44" xml:id="measure_a978fa3c-af9b-45aa-a3dc-226210472bcf" facs="#zone_d1d6d067-fa71-4ba4-8882-421bbedcefd7"/>
+                        <measure n="45" label="45" xml:id="measure_fae48679-df09-4b4f-a68c-0ea0a05e4d55" facs="#zone_6dce6ec7-1462-4837-a238-28f79d417831"/>
+                        <measure n="46" label="46" xml:id="measure_58d6fcd0-5e50-4829-9653-25397fc0d17d" facs="#zone_e9d72218-7708-4a46-924d-6a51b0e1c3bd"/>
+                        <measure n="47" label="47" xml:id="measure_766cb41a-77a2-4eb1-99f1-7412c7095007" facs="#zone_8989c701-5af6-4c19-9579-3c92851d4c19"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="48" label="48" xml:id="measure_04f1d7af-039c-4947-aede-28bc1e3dcf80" facs="#zone_b16237d9-92ef-4c44-bfda-022337f5700d"/>
+                        <measure n="49" label="49" xml:id="measure_d767dcdd-7762-4984-9c92-0a54128f4bde" facs="#zone_7581404d-b990-4086-b8af-d05830a68604"/>
+                        <measure n="50" label="50" xml:id="measure_4ad67bb4-d845-4e43-878d-f7f6f1a4b710" facs="#zone_d15e8b2f-4bc5-4c5f-95bd-978566e36025"/>
+                        <measure n="51" label="51" xml:id="measure_9c5b375e-df67-48d7-9e9f-54b2fda9b6b0" facs="#zone_774b1b93-10ee-4d85-93bf-bc778cd9b2ff"/>
+                        <measure n="52" label="52" xml:id="measure_da3c94d7-6a88-4978-9c37-8def5fcd9e25" facs="#zone_43116de7-80dc-4962-a5f2-44cff34a17ff"/>
+                        <measure n="53" label="53" xml:id="measure_04c3a8d5-91c5-4385-ac4c-68e1bb65e5f5" facs="#zone_42e53e69-6fa3-4d2c-aaf0-7c12285717ca"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="54" label="54" xml:id="measure_ecc4d249-98e8-4d2f-b18e-0023feca6593" facs="#zone_f2f98bb5-a610-4d06-a35c-8250a21a8661"/>
+                        <measure n="55" label="55" xml:id="measure_bd6aa1e3-5c8a-4272-bcc6-c0734410f7ac" facs="#zone_fcaa291c-3fd7-4c4e-b9a5-61b106b90765"/>
+                        <measure n="56" label="56" xml:id="measure_7c81f307-161c-44ad-a33d-2c99af076253" facs="#zone_fc2240c8-9aa9-4991-b4f8-26e84f4be1eb"/>
+                        <measure n="57" label="57" xml:id="measure_de719901-459c-4c02-a562-c3fd24e5436b" facs="#zone_2f24347f-5c83-43c8-bba6-6f4b5125e9fb"/>
+                        <measure n="58" label="58" xml:id="measure_847a3b4c-2438-44bc-9502-c7f8f4ea2da7" facs="#zone_3cb06ffb-f22a-4e4c-b45f-12e91430da22"/>
+                        <measure n="59" label="59" xml:id="measure_0999d32c-999f-4cbb-868d-378354980ab2" facs="#zone_dc927209-ce9a-44a6-9814-3e4fe7f66e69"/>
+                        <measure n="60" label="60" xml:id="measure_b8acef9c-b4fd-4b7f-94aa-31de62bd9a83" facs="#zone_ad6db4f0-2b2b-4955-b992-22f86d720b60"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="61" label="61" xml:id="measure_af163957-14fc-46e5-b7cb-701d82ee3a07" facs="#zone_f1f7a1c4-15af-4de0-9014-d59fbeff6385"/>
+                        <measure n="62" label="62" xml:id="measure_3bf69241-0ab4-446d-8603-66f846a06058" facs="#zone_7961e2cc-56c9-4cc4-9a37-0c557939539e"/>
+                        <measure n="63" label="63" xml:id="measure_e2bbf5fe-acb2-44a3-b5ce-f4289fba9f5b" facs="#zone_8196bc88-3dd5-47df-be5f-6f8438d4a2de"/>
+                        <measure n="64" label="64" xml:id="measure_70e374d7-d270-49e8-adc4-f824ae7bb2d6" facs="#zone_33330d5d-ebcc-4131-a302-92612fa3f800"/>
+                        <measure n="65" label="65" xml:id="measure_e9bbf726-065d-46ce-9c4a-ff37e32e3730" facs="#zone_fcd0b17e-8f9e-412f-abfd-06b4916731fa"/>
+                        <measure n="66" label="66" xml:id="measure_7463b5ae-adff-47a4-bddb-725699cfa971" facs="#zone_c27140b1-cd71-4270-872c-9cf56e96023e"/>
+                        <measure n="67" label="67" xml:id="measure_29b70924-515c-46b5-8001-28af90458c5d" facs="#zone_b1111673-e0e7-4c0b-92ca-8664c8e1827d"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="68" label="68" xml:id="measure_d38aa00e-27ca-4f6a-a39d-286a74e06ded" facs="#zone_59fdd5d4-8c45-416b-8a54-03fa9b99b66c"/>
+                        <measure n="69" label="69" xml:id="measure_bcb24855-702e-43f2-bdf8-a425121857b2" facs="#zone_383cb2da-72bd-4e0d-b831-1df5ccf633c6"/>
+                        <measure n="70" label="70" xml:id="measure_9ed485fb-e7d9-4585-b589-a3bf2aee2b64" facs="#zone_2f60d21f-644d-45aa-9f4e-85800f1af22d"/>
+                        <measure n="71" label="71" xml:id="measure_fe42a13a-215c-4313-9f03-9cfcbd7f269b" facs="#zone_0d479b4e-9a97-4758-8550-3dceb2670feb"/>
+                        <measure n="72" label="72" xml:id="measure_b94ae3d0-5d24-4ac1-860e-9519bb9cd084" facs="#zone_a9799a53-7299-4f07-a2a2-bbe99f633a56"/>
+                        <measure n="73" label="73" xml:id="measure_95ba06b0-15de-4440-9094-481c29391f90" facs="#zone_73a26366-bdf3-48bc-b63e-5ac099dda127"/>
+                        <measure n="74" label="74" xml:id="measure_44c7224a-d90d-40c5-ac0f-94c1a344cd9b" facs="#zone_10043cc9-8e21-4109-a1b6-c141abd0106b"/>
+                        <measure n="75" label="75" xml:id="measure_048c72da-7f63-4ee8-92ec-554c7d6e0933" facs="#zone_62af2d77-0bf0-4a74-9ea8-91bedb483c06"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="76" label="76" xml:id="measure_8a5da97d-c9f4-4a32-bd2b-d8f89b29b526" facs="#zone_d547b7ed-836c-42a5-81d9-a7e3d4d817c5"/>
+                        <measure n="77" label="77" xml:id="measure_5f845d30-8915-4962-9a3e-cf8d5bfb5142" facs="#zone_26c01ba3-bdf6-4f54-a82d-a7528c83e79c"/>
+                        <measure n="78" label="78" xml:id="measure_cd2cd52d-60fb-4b82-9857-be56c6c1397a" facs="#zone_573a5236-e49e-4e72-b80b-144f949b11b3"/>
+                        <measure n="79" label="79" xml:id="measure_de6b927a-7561-4e59-8f58-6b9549a2085a" facs="#zone_03652be3-aa1c-4ae2-b3be-7b92f2e3a92f"/>
+                        <measure n="80" label="80" xml:id="measure_4143db30-a3d0-4aa9-aaad-6f0773becaf2" facs="#zone_289c0fa3-d155-4dba-a811-70cb13e87b52"/>
+                        <measure n="81" label="81" xml:id="measure_8e7a6e91-f9d7-4c73-a860-2caa7619113e" facs="#zone_78dd6984-2e57-49b4-84af-9ae410948a6a"/>
+                        <measure n="82" label="82" xml:id="measure_583ac500-2487-4f0c-8126-bad9ae0eab6f" facs="#zone_92f8d74e-1000-4afb-83be-47cbe43ecbf6"/>
+                        <measure n="83" label="83" xml:id="measure_f593de2f-fab6-4397-bce9-974ddd8335fb" facs="#zone_7dae774d-af32-4f7b-8499-97894fb49172"/>
+                        <measure n="84" label="84" xml:id="measure_6784d4ff-c6e4-4d1f-9666-758809cd0ae0" facs="#zone_0305c38d-5b29-43f9-bbd0-6f82d36e21d0"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="85" label="85" xml:id="measure_260b5a79-4f92-497e-86d3-679a6b39375e" facs="#zone_f872ad5a-d56a-4c90-90d0-765e93d40c43"/>
+                        <measure n="86" label="86" xml:id="measure_86ff2ce9-a582-4208-9f8e-e162ec7aca09" facs="#zone_64d1fcae-a6a9-4e9c-8b50-8d0e93c768a6"/>
+                        <measure n="87" label="87" xml:id="measure_5fa15974-22b0-4fe5-ab71-79dcaefaea78" facs="#zone_69f8bbe9-d6ee-48dd-8aa0-d1a3448e258b"/>
+                        <measure n="88" label="88" xml:id="measure_a303210f-a03a-44f5-bb1e-c484d9abb69d" facs="#zone_07ac1249-38e2-407c-8c47-7ad82c823fec"/>
+                        <measure n="89" label="89" xml:id="measure_8f37f12c-7abd-4a7c-91d4-30b358588932" facs="#zone_4aa7da74-9a26-4ae7-a3e6-9ea828675317"/>
+                        <measure n="90" label="90" xml:id="measure_078f3fe6-7981-41b2-b8df-89c0a1f72231" facs="#zone_ba1b0c72-8a25-433e-a822-e802b503faf5"/>
+                        <measure n="91" label="91" xml:id="measure_c34f9a2a-7677-4f73-95c8-2f837744cf8f" facs="#zone_cb238261-0710-4003-a017-05711aeea601"/>
+                        <measure n="92" label="92" xml:id="measure_7f020963-2baa-4356-a3a3-b2000ab5b1bb" facs="#zone_50649d95-2856-4c9e-b8ba-6911d37784ce"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="93" label="93" xml:id="measure_748622d6-eb50-4a66-ae03-a7d1122e4430" facs="#zone_2c0b3e04-c900-4d3f-b041-3545173737de"/>
+                        <measure n="94" label="94" xml:id="measure_a4956a3f-5c30-4c06-bfd3-c91844f3d053" facs="#zone_89be0c9e-b3d1-455a-be50-f715cf5be858"/>
+                        <measure n="95" label="95" xml:id="measure_99116383-a7b2-4edc-9094-13aca7082cdc" facs="#zone_306c297f-c390-471d-8005-f31c43f9425d"/>
+                        <measure n="96" label="96" xml:id="measure_ee8fcfbf-6d5f-4f53-a7df-7d4bd7600e48" facs="#zone_c5314767-54e4-4ba8-adbe-6b7bee59b941"/>
+                        <measure n="97" label="97" xml:id="measure_948a1255-1be0-431f-b6b7-1e50bb889abc" facs="#zone_6a6a20d3-3934-48ca-ae3d-18be8bc3afb1"/>
+                        <measure n="98" label="98" xml:id="measure_5a9a20d9-f118-4eb8-96aa-85159fd6caa3" facs="#zone_040f289b-cffe-44cc-a9b4-89325cebaeeb"/>
+                        <measure n="99" label="99" xml:id="measure_b14c5349-e4ea-468c-93a5-e8f7bd599fb4" facs="#zone_be9612fe-1465-40ca-a7b4-4cfa960422a5"/>
+                        <measure n="100" label="100" xml:id="measure_8c34f572-afd8-49c7-97c8-504ee8a68609" facs="#zone_de40a48b-f5df-4485-b902-3cd5aa0f85ee"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_6c39e7c7-b13a-47b8-9b02-86a3384bee26" n="9" label="VIII">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_cf4ceab5-f647-45d3-949a-80c73450d367" facs="#zone_1923ea90-4516-4a14-a1d1-78f4729b18ad"/>
+                        <measure n="2" label="2" xml:id="measure_1d93c472-a507-4f9e-8b09-6c003af957fe" facs="#zone_af914934-d54f-4ff1-bab6-4bb3c1f4152d"/>
+                        <measure n="3" label="3" xml:id="measure_4a76a7db-5dda-437c-9df9-308a2a8a2a76" facs="#zone_17252b72-ce20-4589-abe7-3dd539dc802b"/>
+                        <measure n="4" label="4" xml:id="measure_741a38e0-6221-4281-92a3-4a943f3653b7" facs="#zone_9c01d142-dfb1-42bf-b73c-d5e63ffb70a9"/>
+                        <measure n="5" label="5" xml:id="measure_1e6a719e-f109-4f3a-a072-b6beb1e5cc5e" facs="#zone_f172e461-f936-431c-81b7-3558d5652158"/>
+                        <measure n="6" label="6" xml:id="measure_d98cfbb2-cb76-44a0-a574-f291cfccb9c4" facs="#zone_6419ca5f-b966-4037-8d6f-4268295b23e4"/>
+                        <measure n="7" label="7" xml:id="measure_970e2875-9c12-4946-9bea-fe1e16818981" facs="#zone_db755b92-4e88-4a39-9959-2265b83dd2d2"/>
+                        <measure n="8" label="8" xml:id="measure_f75e550e-2186-4f6b-adec-7367ac5c61a2" facs="#zone_20a6e01c-5489-47c2-8756-c8e486bfa5b5"/>
+                        <measure n="9" label="9" xml:id="measure_9de36966-ab2c-4ba2-bd9b-b0edffde31d4" facs="#zone_e73edc82-3493-4ac6-bba2-444f41b9e86c"/>
+                        <measure n="10" label="10" xml:id="measure_fa87e63d-0149-4054-ae04-7439b93dd6bd" facs="#zone_d177088d-9c61-4fe2-adf0-dd3533fad634"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="11" label="11" xml:id="measure_cff26dd1-7de5-4b75-bb96-ca6a81bab268" facs="#zone_544ffbb1-4157-48ba-b052-7e59e93c045f"/>
+                        <measure n="12" label="12" xml:id="measure_0c897463-b943-47d5-9348-44abb5e89ff0" facs="#zone_be200171-f43b-40e8-b387-9f2b3838b03f"/>
+                        <measure n="13" label="13" xml:id="measure_c10f3df2-d517-4dcd-8fd8-b2ea51d7769d" facs="#zone_9a05fd16-2585-4f05-ab50-c340011eab84"/>
+                        <measure n="14" label="14" xml:id="measure_d6fdc07a-278b-4472-924f-d7b23986333a" facs="#zone_e4466448-40f4-486e-8325-50b0564987fa"/>
+                        <measure n="15" label="15" xml:id="measure_b111e647-ea15-46d1-889e-f0d0d5458585" facs="#zone_a16c0ad7-9b00-452a-9c5d-93d0b9a642f2"/>
+                        <measure n="16" label="16" xml:id="measure_39f5345c-2f5b-47e3-8add-03b9a885b0fe" facs="#zone_4bd89627-b885-4fda-9e1d-fe4b123c7470"/>
+                        <measure n="17" label="17" xml:id="measure_ace2a8ce-2473-4740-8d64-777984de76f1" facs="#zone_06f75c66-255a-479a-82ee-28165ffc680e"/>
+                        <measure n="18" label="18" xml:id="measure_b8bd5d20-b88a-4c25-89e6-56ca564dcb45" facs="#zone_591fe9a8-47d9-4973-a13f-f2694c765ef7"/>
+                        <measure n="19" label="19" xml:id="measure_bc194da3-433e-4ff5-af47-09dc09b57fa2" facs="#zone_67d8900f-ca52-4bea-99d2-3386e251c492"/>
+                        <measure n="20" label="20" xml:id="measure_6ab5b9e3-f3ca-4487-afb7-10bfcdd32345" facs="#zone_cd2b1c3e-bf52-448a-8fed-71bae8bdf8a0"/>
+                        <measure n="21" label="21" xml:id="measure_09a7b1a4-142c-49c0-be7e-0f841e03ddfb" facs="#zone_02ec25da-c6f2-4cf8-a175-4c40b2dc457e"/>
+                        <measure n="22" label="22" xml:id="measure_58833725-81aa-43d1-aab3-042f58ce8e34" facs="#zone_8dbf32d2-06eb-4c37-8948-7dcc536ba061"/>
+                        <measure n="23" label="23" xml:id="measure_33a99071-42b3-4996-9f42-65bf7144a722" facs="#zone_7fbfa1b0-b2dd-4fa7-be8d-d658b9124fea"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="24" label="24" xml:id="measure_16106bf4-e701-45d7-b3d2-806f671fc11b" facs="#zone_ce3a698e-5920-4408-9384-d9cb707370ff"/>
+                        <measure n="25" label="25" xml:id="measure_30d3b080-82a4-40c5-9379-8fa2d8e6a47c" facs="#zone_8d49bbaf-2ca7-4d06-8b59-f128f5965508"/>
+                        <measure n="26" label="26" xml:id="measure_c921fec3-2eb5-4530-8eb3-0fe881cfff5b" facs="#zone_da41d1f0-5f75-4c86-9bf1-2a77db2148be"/>
+                        <measure n="27" label="27" xml:id="measure_ba69f5e2-868d-4360-b664-692ae66589ce" facs="#zone_48be2ddf-9014-4aff-9741-ef90af7696eb"/>
+                        <measure n="28" label="28" xml:id="measure_de919188-1133-4443-a01c-e7daf500939d" facs="#zone_89175a0b-66fe-4163-944b-ebec323fe237"/>
+                        <measure n="29" label="29" xml:id="measure_1379a4bb-e481-4cbc-a69f-c090259f208f" facs="#zone_cb9bfb8e-d549-46c0-aa75-4da5c9b77e6e"/>
+                        <measure n="30" label="30" xml:id="measure_b4afa686-bb0e-46a9-b94c-4f2751a504b2" facs="#zone_2d1028f1-5c6b-426a-9718-5cee8a4dc32c"/>
+                        <measure n="31" label="31" xml:id="measure_31fc15cc-d19a-4c25-9ca7-3eecdd45361f" facs="#zone_5defbac2-560a-45bb-b021-7503abc314b7"/>
+                        <measure n="32" label="32" xml:id="measure_b6057b8e-910d-42c3-9cff-ed4f678ac694" facs="#zone_a658fb4a-dd4c-4b09-a42c-c9c175dd065d"/>
+                        <measure n="33" label="33" xml:id="measure_5914b2ef-475b-4e1e-a75b-860f27ac634d" facs="#zone_d06c0ccc-eadf-47a0-89af-d0f5c1540366"/>
+                        <measure n="34" label="34" xml:id="measure_3aaac761-7534-4ae8-9173-22ff1305acf6" facs="#zone_20e8bb8e-6f76-447c-a3e8-733c0cbea0d8"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_374cff55-3c40-44f7-99cd-93a9a30f9c8a" n="10" label="IX">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_02e0175d-f888-41e3-818b-fb70cc77c992" facs="#zone_e56d2cc3-3c55-4d30-bc37-d8966125b55d"/>
+                        <measure n="2" label="2" xml:id="measure_8f99ff98-6642-4b0d-8dcd-863457e8e653" facs="#zone_e0f31ad9-04be-478f-8a7c-ed8c5fea7a22"/>
+                        <measure n="3" label="3" xml:id="measure_c6575b6a-b979-4df3-b113-757ec35c5f1a" facs="#zone_afa346ca-c7ea-40de-8331-cff9d70e2aca"/>
+                        <measure n="4" label="4" xml:id="measure_2ec690c6-e682-4dd9-a3df-fcc90476e234" facs="#zone_b618488c-db55-41d8-9618-1a12bbff441c"/>
+                        <measure n="5" label="5" xml:id="measure_ffb2ad6b-4808-4fdf-9c9c-be17975ed0a0" facs="#zone_66f29353-dac5-4881-9da2-2ccca9b0d389"/>
+                        <measure n="6" label="6" xml:id="measure_a6b76a2f-9f7b-4c19-9710-1220e797db10" facs="#zone_98aad972-c744-45f3-ba74-36bb8193d016"/>
+                        <measure n="7" label="7" xml:id="measure_e606877e-8aa8-4971-85e6-93a41d9990b7" facs="#zone_0b4c3426-f084-4b84-95f5-6d27660adc12"/>
+                        <measure n="8" label="8" xml:id="measure_aa99cc1c-1e18-483b-aba6-12dc1d07d166" facs="#zone_c562fc89-d984-4b56-8693-b001cc3280ed"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="9" label="9" xml:id="measure_13e560a3-54d0-4454-bb0b-e9a08dcb7902" facs="#zone_57d97f0e-f9d0-4295-952f-a510e5dd838f"/>
+                        <measure n="10" label="10" xml:id="measure_19c23bf7-359c-4597-8e26-3464981012b9" facs="#zone_a11cb52f-7180-46b2-9489-18c138cc5a95"/>
+                        <measure n="11" label="11" xml:id="measure_5a3870bd-e81f-4c16-a595-52fc2f8c001b" facs="#zone_993a6226-a4c2-4c1a-a722-fb48bb8b0dac"/>
+                        <measure n="12" label="12" xml:id="measure_a2b28b45-c20b-4bfb-b26f-58d13402a3f0" facs="#zone_80c1bfa8-4b29-4589-97b7-5146defecc16"/>
+                        <measure n="13" label="13" xml:id="measure_fd0bccc7-da15-4dd8-a2e7-9f0bc5ea706f" facs="#zone_9b8395c3-00a1-4cba-b1f4-6003df28aa67"/>
+                        <measure n="14" label="14" xml:id="measure_f461a341-cb90-4d95-9261-fb6a5b0a62a3" facs="#zone_814f7780-882a-4d31-a380-b77e1eddf428"/>
+                        <measure n="15" label="15" xml:id="measure_8a34bd56-d753-440a-bc2f-786587143be2" facs="#zone_e4d818e0-0be3-4331-bf6d-6c7a3d7d19a9"/>
+                        <measure n="16" label="16" xml:id="measure_58ddf91c-16aa-4691-94b5-689b5173f04e" facs="#zone_606aa305-5926-4456-bf46-66f98b3fe48a"/>
+                        <measure n="17" label="17" xml:id="measure_906dee39-4e2c-4685-82c3-2d1b2d19af4c" facs="#zone_ca3697aa-c858-49ab-b9a6-486947f8dad1"/>
+                        <measure n="18" label="18" xml:id="measure_14582331-87c2-44f9-9684-accaf78b7e5a" facs="#zone_0d4ff23f-9e75-4a97-b990-8c67535c5ea3"/>
+                        <measure n="19" label="19" xml:id="measure_5d39d6e1-8924-4e5f-b6eb-755537425ec1" facs="#zone_a827e867-7fdb-4871-8c3d-54c5ad934f34"/>
+                        <measure n="20" label="20" xml:id="measure_323529cb-a02b-4d76-849a-10623c802a59" facs="#zone_d94524b6-6e8c-4759-935f-9a93e429a240"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+            <mdiv xml:id="page_e6558569-a309-4e45-9a16-3d15d4a71244" n="11" label="X">
+                <score>
+                    <scoreDef/>
+                    <section>
+                        <pb/>
+                        <measure n="1" label="1" xml:id="measure_6b775ae0-c1c8-43ce-ac2b-1b4f130fa4c8" facs="#zone_2001651e-7ea8-4dc4-ab66-e0eb6b82c651"/>
+                        <measure n="2" label="2" xml:id="measure_a8bdb0c4-b938-40b7-96d7-4f90b4a5f007" facs="#zone_494b85c8-f139-48b7-ac70-f3fe7f656af2"/>
+                        <measure n="3" label="3" xml:id="measure_dc11e9e4-565a-43b6-9667-2ac9a74bf0f7" facs="#zone_14fdb669-4b12-4422-8f65-8e21cc86467e"/>
+                        <measure n="4" label="4" xml:id="measure_6503d039-e533-4911-ba20-101085189349" facs="#zone_f8505ba4-09ec-4d30-a817-40491a7f0db4"/>
+                        <measure n="5" label="5" xml:id="measure_c4879700-a9ab-42aa-8214-a1901b9a408d" facs="#zone_57970283-3ce1-46ac-b0be-1d4a7134120d"/>
+                        <measure n="6" label="6" xml:id="measure_5c7ce194-7695-48c9-aae6-38680aa9ac6f" facs="#zone_ceff8cca-17da-40b3-87e3-caed4a29c2c4"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="7" label="7" xml:id="measure_5bf7493f-b759-4f1d-bf1b-c9040afd853f" facs="#zone_34e6360d-b2f0-40b8-8a95-ca3ff9bde5d6"/>
+                        <measure n="8" label="8" xml:id="measure_aa3a3a43-a590-4f7d-bdda-5a70d394d084" facs="#zone_0766ac4a-ce9e-4324-8d46-f123233dc605"/>
+                        <measure n="9" label="9" xml:id="measure_8128578c-96bc-4e9f-8cfe-1df9305bf9b7" facs="#zone_6127a60b-f405-47e0-a049-e38a037c42bb"/>
+                        <measure n="10" label="10" xml:id="measure_0187cecc-bc49-477d-a0e9-ad2063cb7bdc" facs="#zone_fa65127c-77e3-4bf8-a1aa-bb3243a2c9df"/>
+                        <measure n="11" label="11" xml:id="measure_37eaa302-6c17-40bb-aeda-0c2d3db54df8" facs="#zone_57075658-e564-49d5-8aa1-a304af02bad6"/>
+                        <measure n="12" label="12" xml:id="measure_c67b1060-6e06-4cd4-97f7-b405fb6d7a9e" facs="#zone_44f2e9bf-1d04-46ac-a177-e04b06015094"/>
+                        <measure n="13" label="13" xml:id="measure_c6e1bef6-ea02-47f5-b0a5-b736a523ecbe" facs="#zone_c8683d02-a8a9-48a4-8126-15a07dcbae25"/>
+                        <measure n="14" label="14" xml:id="measure_647686a5-2070-46db-aa18-15dfa6fb566c" facs="#zone_f1e879df-4e47-44ac-a3c3-92910572de1c"/>
+                        <measure n="15" label="15" xml:id="measure_3b83b5ee-5bb3-4c76-9527-39c1675bc0ae" facs="#zone_80eb2f12-f46e-41d6-99a1-f98f22a186b6"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="16" label="16" xml:id="measure_7c9784db-ca7d-47ba-a8f2-4eae1566822d" facs="#zone_d863d853-277c-4596-b98a-92a357a2f408"/>
+                        <measure n="17" label="17" xml:id="measure_54504da7-67f9-4156-89e6-b2053bf83710" facs="#zone_ea80d07c-bcf2-4689-89f3-dc8bef41714b"/>
+                        <measure n="18" label="18" xml:id="measure_c584a4a6-ec96-49d9-b9fe-34711ddfefa4" facs="#zone_48b8f1d8-8ef6-41f4-b873-4aa2054b8e82"/>
+                        <measure n="19" label="19" xml:id="measure_3af5b922-f76d-4e84-a96a-8be40faa19bf" facs="#zone_c836ac47-80e2-4920-80d5-a937204ed305"/>
+                        <measure n="20" label="20" xml:id="measure_671d931c-7f7c-4929-b681-2acf6c043bff" facs="#zone_eead39d3-dd5a-46c0-bc8c-ffe36e95f561"/>
+                        <measure n="21" label="21" xml:id="measure_511540dc-02c2-48b4-9cd9-1425e9fdc8a2" facs="#zone_435a378f-adf6-4f8d-9fa9-a001d336bc18"/>
+                        <measure n="22" label="22" xml:id="measure_eb48d0d3-253b-4ce9-9e09-e9525c95c437" facs="#zone_9ef39738-2304-4075-a181-63e087b09c11"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="23" label="23" xml:id="measure_c81d9c20-1525-4488-b9a1-211776858558" facs="#zone_c675576b-8431-435e-b308-a2d37a7d9bc4"/>
+                        <measure n="24" label="24" xml:id="measure_f5cb3ac3-18e2-4b07-af6c-526dc3b54335" facs="#zone_11f43f15-24dc-4cfa-972f-bfa2f10b1a9b"/>
+                        <measure n="25" label="25" xml:id="measure_46da6449-9c21-4ba0-a1a1-56ded8c98660" facs="#zone_99fb633c-acb9-47b4-9881-107e613eae43"/>
+                        <measure n="26" label="26" xml:id="measure_bf5cd97a-20b4-4fdd-89a6-e76da12a0e6f" facs="#zone_31452a28-bb3e-4f61-a247-cea53af86392"/>
+                        <measure n="27" label="27" xml:id="measure_a4e0c924-16e0-45d3-a673-e942cca3cf0b" facs="#zone_f8ea4c5b-a0a0-4bba-983a-436e350dbda7"/>
+                        <measure n="28" label="28" xml:id="measure_b6bc9ee6-67bc-4ade-992f-8529a1cc776c" facs="#zone_97bc62e2-0f1c-46c7-b898-189d38182b70"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="29" label="29" xml:id="measure_f9aba6ed-2283-4d93-b6ad-b367f9ed32ef" facs="#zone_30c64be3-8cf1-47c6-9123-17d346bf56b0"/>
+                        <measure n="30" label="30" xml:id="measure_3558dee7-214f-4825-a024-35d29bb1ff39" facs="#zone_91c3c36b-5851-4038-ad26-e58a78450bda"/>
+                        <measure n="31" label="31" xml:id="measure_51645b59-8e85-4418-91db-fd166f6dba40" facs="#zone_692c83fa-ab3f-46fa-bec8-77112a65cc8e"/>
+                        <measure n="32" label="32" xml:id="measure_8adf70ee-f0cf-4229-bbbe-6ff6cb32a933" facs="#zone_1f68e0b4-998c-4d85-bce0-3acd1cc7e907"/>
+                        <measure n="33" label="33" xml:id="measure_a332eb1a-083a-4554-9848-859c7e9a051f" facs="#zone_1e1f66d4-aaeb-4e87-938f-f216abd4e48f"/>
+                        <measure n="34" label="34" xml:id="measure_5bfcf71d-54db-4b71-8961-2d68697fbfc7" facs="#zone_43b7d5e5-f5d0-45ee-9f33-7ed08ca9404a"/>
+                        <measure n="35" label="35" xml:id="measure_74bad2f4-555f-4e2c-bcce-85c34c1760df" facs="#zone_780d196c-d683-40a5-b08e-120e1faf47a5"/>
+                        <measure n="36" label="36" xml:id="measure_540a26ee-8dda-4506-a0e5-0006d24d9654" facs="#zone_5bdd5f94-5b94-4387-a630-f1c0a0411dba"/>
+                        <measure n="37" label="37" xml:id="measure_92cf8b19-38cc-4b1e-8c08-be4ea89c6aec" facs="#zone_302ab744-3a6a-40fe-84b4-ddc606ae94cb"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="38" label="38" xml:id="measure_20c3bdeb-db56-4092-a3e3-76239afcf3f4" facs="#zone_1845e6d7-57e5-4662-9c98-4d9d4d76dadd"/>
+                        <measure n="39" label="39" xml:id="measure_654dbeed-34c3-4729-b2a9-17cec93f3b6a" facs="#zone_7704e9d1-25c5-4150-8589-65fa2ff36f02"/>
+                        <measure n="40" label="40" xml:id="measure_ac51a455-5be1-4f9d-befa-aa4e00117e50" facs="#zone_56cd27e9-2b2e-4e48-bb0e-cf7a3a93e1f3"/>
+                        <measure n="41" label="41" xml:id="measure_70a37e3d-6fc6-46eb-bd52-61c3aee0598c" facs="#zone_5bdd3e99-7206-4844-bcfc-369a7ce60527"/>
+                        <measure n="42" label="42" xml:id="measure_c34cb03c-77fd-4059-8546-02424d41419a" facs="#zone_36f8956d-d174-437f-851c-83e75a6c0268"/>
+                        <measure n="43" label="43" xml:id="measure_a5238796-d92f-4274-bde2-541ab84c6090" facs="#zone_3264ec2a-93cb-4fe7-a7e6-af94bf2d489e"/>
+                        <measure n="44" label="44" xml:id="measure_51cb994e-b9e8-4627-9179-0356bda2ea3e" facs="#zone_753b2e44-ac63-4114-ab1e-8cd25e4026bb"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="45" label="45" xml:id="measure_495343f6-394a-4c46-bac6-fea6e0b464c3" facs="#zone_73faa3c4-b961-4658-a624-8e41eaa0557a"/>
+                        <measure n="46" label="46" xml:id="measure_31543be9-c652-4b0d-876f-0d6ba3211b71" facs="#zone_cba8e942-2712-444e-8534-f513dcdc654a"/>
+                        <measure n="47" label="47" xml:id="measure_bce28b86-be77-4223-aec6-ba68a3833215" facs="#zone_bffb75d0-8b74-415a-9967-c4a981af2ed3"/>
+                        <measure n="48" label="48" xml:id="measure_9231e7d9-e061-46ab-92dd-201ba1eb8529" facs="#zone_3bad1b56-80c4-432a-a947-290d7a9b8c92"/>
+                        <measure n="49" label="49" xml:id="measure_2e101d2f-f8e8-463c-9959-1836dd317269" facs="#zone_7012a9fb-8c84-40de-99be-926e2e03a3fa"/>
+                        <measure n="50" label="50" xml:id="measure_b50272c2-c36e-4f3b-9f4c-667959290307" facs="#zone_56ebd0b7-3ce1-4a8a-8362-a0b2c403ca3c"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="51" label="51" xml:id="measure_1e2a938a-eebd-4193-aa45-33ed5b69a95e" facs="#zone_0ea19b6c-3a9a-48a6-9aa3-8f2d79a0ea23"/>
+                        <measure n="52" label="52" xml:id="measure_1e9ee06a-4b69-46a5-a756-7929ca24b679" facs="#zone_a922e2a3-5a0e-43ee-898e-ddb74ebd1da4"/>
+                        <measure n="53" label="53" xml:id="measure_931809af-ff44-4e4d-82ac-631d86123b6b" facs="#zone_f98471f6-4438-4c7c-958f-e2bf9a2af58a"/>
+                        <measure n="54" label="54" xml:id="measure_c581ff50-5a01-43c7-9a04-23a219092ec8" facs="#zone_a2639225-57a1-426d-ad90-6c95605a4363"/>
+                        <measure n="55" label="55" xml:id="measure_dceb5a17-e341-41fe-ad8f-196924574c94" facs="#zone_edeb7c7c-2112-4023-b84e-7712a8151a33"/>
+                        <measure n="56" label="56" xml:id="measure_2e68a4d2-4b55-43e5-8124-6e8c2f1d6e8d" facs="#zone_b34c34bc-2daa-4455-bee2-f6441b8ae1c9"/>
+                        <measure n="57" label="57" xml:id="measure_622eeff9-e433-481a-9bd4-5c90cada62e2" facs="#zone_14a504e3-dd8c-44ab-a3b2-bec7a5d15b92"/>
+                        <sb/>
+                        <pb/>
+                        <measure n="58" label="58" xml:id="measure_a934259b-524f-4378-96a2-d8333b30b323" facs="#zone_bbec5da8-fe43-4b20-a24f-f8a5132a18a9"/>
+                        <measure n="59" label="59" xml:id="measure_7a1f441c-35c7-461d-b36f-524fb3d64ea6" facs="#zone_043557b2-f1da-4e9f-b655-c3d2708de46b"/>
+                        <measure n="60" label="60" xml:id="measure_8408380b-ba81-43f7-b179-4732bb17496d" facs="#zone_4d7b5251-f72e-4050-a2b4-57634c25ba43"/>
+                        <measure n="61" label="61" xml:id="measure_1bad1501-eab4-4a2d-89f9-98de000dac43" facs="#zone_3fdff09c-3b6a-43bf-b3df-9a61ef7eee1f"/>
+                        <measure n="62" label="62" xml:id="measure_e7356539-4fbf-46cc-bbab-c9bb788975c1" facs="#zone_44fb8f75-fd8d-40cb-b529-53fedff1145d"/>
+                        <measure n="63" label="63" xml:id="measure_2c33abae-de4d-4881-89d3-8c71fd6a5043" facs="#zone_8742f12f-83ca-4a40-842b-26a3aab69789"/>
+                        <sb/>
+                        <pb/>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
