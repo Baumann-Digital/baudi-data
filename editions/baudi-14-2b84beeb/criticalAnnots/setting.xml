@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<setting xmlns="http://baumann-digital.de/ns/crApp" xml:id="crApp-template-settings">
+    <language codedval="de"/>
+    <mdivs>
+        <!-- @no is used for the schema values but should be: Use 0 (Vorspiel), 1 (Chor) -->
+        <!--            <mdiv no="NUMBER">TITLE</mdiv>-->
+        <mdiv no="0">
+            <label xml:lang="de">Vorspiel</label>
+            <label xml:lang="en">Prelude</label>
+        </mdiv>
+        <mdiv no="1">
+            <label xml:lang="de">I</label>
+        </mdiv>
+        <mdiv no="2">
+            <label xml:lang="de">II</label>
+        </mdiv>
+        <mdiv no="3">
+            <label xml:lang="de">III</label>
+        </mdiv>
+        <mdiv no="4">
+            <label xml:lang="de">IV</label>
+        </mdiv>
+        <mdiv no="5">
+            <label xml:lang="de">V</label>
+        </mdiv>
+        <mdiv no="6">
+            <label xml:lang="de">VI</label>
+        </mdiv>
+        <mdiv no="7">
+            <label xml:lang="de">VII</label>
+        </mdiv>
+        <mdiv no="8">
+            <label xml:lang="de">VIII</label>
+        </mdiv>
+        <mdiv no="9">
+            <label xml:lang="de">IX</label>
+        </mdiv>
+        <mdiv no="10">
+            <label xml:lang="de">X</label>
+        </mdiv>
+    </mdivs>
+    <parts>
+        <!-- @codedval is used for the schema -->
+        <!-- <part codedval="instrumentName.PartNo">InstrumentName</part>-->
+        <partGrp codedval="woods">
+            <label xml:lang="de">Holz</label>
+            <partGrp codedval="flutes">
+                <label xml:lang="de">Flöten</label>
+                <part codedval="flute.i">
+                    <label xml:lang="de">Flöte I</label>
+                </part>
+                <part codedval="flute.ii">
+                    <label xml:lang="de">Flöte´II</label>
+                </part>
+            </partGrp>
+            <partGrp codedval="oboes">
+                <label xml:lang="de">Oboen</label>
+                <part codedval="oboe.i">
+                    <label xml:lang="de">Oboe I</label>
+                </part>
+                <part codedval="oboe.ii">
+                    <label xml:lang="de">Oboe II</label>
+                </part>
+            </partGrp>
+            <partGrp codedval="clarinets">
+                <label xml:lang="de">Klarinetten</label>
+                <part codedval="clarinet.i">
+                    <label xml:lang="de">Klarinette I</label>
+                </part>
+                <part codedval="clarinet.ii">
+                    <label xml:lang="de">Klarinette II</label>
+                </part>
+            </partGrp>
+            <partGrp codedval="bassoons">
+                <label xml:lang="de">Fagotte</label>
+                <part codedval="bassoon.i">
+                    <label xml:lang="de">Fagott I</label>
+                </part>
+                <part codedval="bassoon.ii">
+                    <label xml:lang="de">Fagott II</label>
+                </part>
+            </partGrp>
+        </partGrp>
+        <partGrp codedval="brass">
+            <label xml:lang="de">Blech</label>
+            <partGrp codedval="hornsFrench">
+                <label xml:lang="de">Hörner</label>
+                <part codedval="hornFrench.i">
+                    <label xml:lang="de">Horn I</label>
+                </part>
+                <part codedval="hornFrench.ii">
+                    <label xml:lang="de">Horn II</label>
+                </part>
+                <part codedval="hornFrench.iii">
+                    <label xml:lang="de">Horn III</label>
+                </part>
+                <part codedval="hornFrench.iV">
+                    <label xml:lang="de">Horn IV</label>
+                </part>
+            </partGrp>
+            <partGrp codedval="trumpets">
+                <label xml:lang="de">Trompeten</label>
+                <part codedval="trumpet.i">
+                    <label xml:lang="de">Trompete I</label>
+                </part>
+                <part codedval="trumpet.ii">
+                    <label xml:lang="de">Trompete II</label>
+                </part>
+            </partGrp>
+            <partGrp codedval="trombones">
+                <label xml:lang="de">Posaunen</label>
+                <part codedval="trombone.i">
+                    <label xml:lang="de">Posaune I</label>
+                </part>
+                <part codedval="trombone.ii">
+                    <label xml:lang="de">Posaune II</label>
+                </part>
+                <part codedval="trombone.iii">
+                    <label xml:lang="de">Posaune III</label>
+                </part>
+            </partGrp>
+            <part codedval="tuba">
+                <label xml:lang="de">Tuba</label>
+            </part>
+        </partGrp>
+        <partGrp codedval="percussion">
+            <label xml:lang="de">Schlagwerk</label>
+            <part codedval="timpani">
+                <label xml:lang="de">Pauken</label>
+            </part>
+            <part codedval="bells">
+                <label xml:lang="de">Glocken</label>
+            </part>
+        </partGrp>
+        <part codedval="solo">
+            <label xml:lang="de">Solo (Hohe Stimme)</label>
+        </part>
+        <partGrp codedval="choir">
+            <label xml:lang="de">Chor</label>
+            <partGrp codedval="choirFemale">
+                <label xml:lang="de">Frauenchor</label>
+                <partGrp codedval="soprano">
+                    <label xml:lang="de">Sporan</label>
+                    <part codedval="soprano.i">
+                        <label xml:lang="de">Sporan I</label>
+                    </part>
+                    <part codedval="soprano.ii">
+                        <label xml:lang="de">Sporan II</label>
+                    </part>
+                </partGrp>
+                <partGrp codedval="alto">
+                    <label xml:lang="de">Alt</label>
+                    <part codedval="alto.i">
+                        <label xml:lang="de">Alt I</label>
+                    </part>
+                    <part codedval="alto.ii">
+                        <label xml:lang="de">Alt II</label>
+                    </part>
+                </partGrp>
+            </partGrp>
+            <partGrp codedval="choirMale">
+                <label xml:lang="de">Männerchor</label>
+                <partGrp codedval="tenor">
+                    <label xml:lang="de">Tenor</label>
+                    <part codedval="tenor.i">
+                        <label xml:lang="de">Tenor I</label>
+                    </part>
+                    <part codedval="tenor.ii">
+                        <label xml:lang="de">Tenor II</label>
+                    </part>
+                </partGrp>
+                <partGrp codedval="bass">
+                    <label xml:lang="de">Bass</label>
+                    <part codedval="bass.i">
+                        <label xml:lang="de">Bass I</label>
+                    </part>
+                    <part codedval="bass.ii">
+                        <label xml:lang="de">Bass II</label>
+                    </part>
+                </partGrp>
+            </partGrp>
+        </partGrp>
+        <part codedval="harp">
+            <label xml:lang="de">Harfe</label>
+            <layer codedval="harp.right">
+                <label xml:lang="de">Harfe (rechte Hand)</label>
+            </layer>
+            <layer codedval="harp.left">
+                <label xml:lang="de">Harfe (linke Hand)</label>
+            </layer>
+        </part>
+        <part codedval="organ">
+            <label xml:lang="en">Organ</label>
+            <label xml:lang="de">Orgel</label>
+            <layerGrp codedval="organManuals">
+                <label xml:lang="en">Organ (manuals)</label>
+                <label xml:lang="de">Orgel (Manuale)</label>
+                <layer codedval="organ.left">
+                    <label xml:lang="en">Organ (l.h.)</label>
+                    <label xml:lang="de">Orgel (l.H.)</label>
+                </layer>
+                <layer codedval="organ.right">
+                    <label xml:lang="en">Organ (r.h.)</label>
+                    <label xml:lang="de">Orgel (r.H.)</label>
+                </layer>
+            </layerGrp>
+            <layer codedval="organPedals">
+                <label xml:lang="en">Organ (ped.)</label>
+                <label xml:lang="de">Orgel (Ped.)</label>
+            </layer>
+        </part>
+        <partGrp codedval="strings">
+            <label xml:lang="de">Streicher</label>
+            <partGrp codedval="violins">
+                <label xml:lang="de">Violinen</label>
+                <part codedval="violin.i">
+                    <label xml:lang="de">Violine I</label>
+                </part>
+                <part codedval="violin.ii">
+                    <label xml:lang="de">Violine II</label>
+                </part>
+            </partGrp>
+            <part codedval="viola">
+                <label xml:lang="de">Viola</label>
+            </part>
+            <part codedval="violoncello">
+                <label xml:lang="de">Violoncello</label>
+            </part>
+            <part codedval="doubleBass">
+                <label xml:lang="de">Kontrabass</label>
+            </part>
+        </partGrp>
+    </parts>
+    <relWorks>
+        <!-- can also be work components -->
+        <!-- needs an @xml:id, can have an @target -->
+        <work xml:id="baudi-02-aedbaef3"/>
+    </relWorks>
+    <relSources>
+        <!-- @siglum is used for the schema -->
+        <!-- <source siglum="SIG" sortNo="NUM" target="link/to/file.xml">Label of the source</source>-->
+        <source siglum="A-P1" sortNo="1">
+            <label xml:lang="de">Handschriftliche Partitur (Vorspiel)</label>
+        </source>
+        <source siglum="A-P2" sortNo="2">
+            <label xml:lang="de">Erstschrift (I, II) und Entwurf (IX)</label>
+        </source>
+        <source siglum="A-P3" sortNo="3">
+            <label xml:lang="de">Handschriftliche Partitur (Stichvorlage)</label>
+        </source>
+        <source siglum="A-St-Vl" sortNo="11">
+            <label xml:lang="de">Handschriftliche Violinstimmen (Spätere Bearbeitung)</label>
+        </source>
+        <source siglum="A-St-Orch" sortNo="4">
+            <label xml:lang="de">Handschriftliche Orchesterstimmen (Vorspiel)</label>
+        </source>
+        <source siglum="ED-KA1" sortNo="5">
+            <label xml:lang="de">Klavierauszug mit handschriftlichen Eintragungen (Handexemplar)</label>
+        </source>
+        <source siglum="ED-P" sortNo="7">
+            <label xml:lang="de">Erstdruck Partitur</label>
+        </source>
+        <source siglum="ED-KA2" sortNo="6">
+            <label xml:lang="de">Erstdruck Klavierauszug</label>
+        </source>
+        <source siglum="ED-St-Orch" sortNo="8">
+            <label xml:lang="de">Erstdruck Stimen (Orchester)</label>
+        </source>
+        <source siglum="ED-St-SSAA" sortNo="9">
+            <label xml:lang="de">Erstdruck Stimmen (SSAA)</label>
+        </source>
+        <source siglum="ED-St-TTBB" sortNo="10">
+            <label xml:lang="de">Erstdruck Stimmen (TTBB)</label>
+        </source>
+    </relSources>
+    <relEditions>
+        <!--<edition siglum="SIGLUM" sortNo="NUM" target="link/to/file.xml">Label of the edition</edition>-->
+        <edition siglum="BauDi-P">
+            <label xml:lang="de">BauDi Partitur</label>
+        </edition>
+        <edition siglum="BauDi-KA">
+            <label xml:lang="de">BauDi Klavierauszug</label>
+        </edition>
+        <edition siglum="BauDi-Harm">
+            <label xml:lang="de">BauDi Harmoniumstimme (Bearb.)</label>
+        </edition>
+        <edition siglum="BauDi-Vl">
+            <label xml:lang="de">BauDi Violinstimme (Bearb.)</label>
+        </edition>
+    </relEditions>
+    <classifications>
+        <classGrp label="Art">
+            <class codedval="Notentext">
+                <label xml:lang="de">Notentext</label>
+                <label xml:lang="en">Notentext</label>
+            </class>
+            <class codedval="Tondauer">
+                <label xml:lang="de">Tondauer</label>
+            </class>
+            <class codedval="Bogensetzung">
+                <label xml:lang="de">Bogensetzung</label>
+            </class>
+            <class codedval="Dynamik">
+                <label xml:lang="de">Dynamik</label>
+            </class>
+            <class codedval="Halsung">
+                <label xml:lang="de">Halsung</label>
+            </class>
+            <class codedval="Balkung">
+                <label xml:lang="de">Balkung</label>
+            </class>
+            <class codedval="Artikulation">
+                <label xml:lang="de">Artikulation</label>
+            </class>
+            <class codedval="Vortagsbezeichnung">
+                <label xml:lang="de">Vortagsbezeichnung</label>
+            </class>
+            <class codedval="Tempoangabe">
+                <label xml:lang="de">Tempoangabe</label>
+            </class>
+            <class codedval="Metrum">
+                <label xml:lang="de">Metrum</label>
+            </class>
+            <class codedval="Pausensetzung">
+                <label xml:lang="de">Pausensetzung</label>
+            </class>
+            <class codedval="Bemerkung">
+                <label xml:lang="de">Bemerkung</label>
+            </class>
+            <class codedval="Beschreibung">
+                <label xml:lang="de">Beschreibung</label>
+            </class>
+            <class codedval="Streichung">
+                <label xml:lang="de">Streichung</label>
+            </class>
+            <class codedval="Sonstige">
+                <label xml:lang="de">Sonstige</label>
+            </class>
+        </classGrp>
+    </classifications>
+</setting>
