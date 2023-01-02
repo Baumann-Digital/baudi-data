@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="crApp-file-ID">
     <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
     <remarks>
@@ -21,7 +23,7 @@
             </annots>
             <sources>
                 <source>ED-KA2</source>
-                <source>ED-KA</source>
+                <source>ED-KA1</source>
             </sources>
             <editions>
                 <edition/>
@@ -46,7 +48,7 @@
             </annots>
             <sources>
                 <source>ED-KA2</source>
-                <source>ED-KA</source>
+                <source>ED-KA1</source>
             </sources>
             <editions>
                 <edition/>
@@ -74,7 +76,7 @@
                 <source>A-P3</source>
                 <source>ED-KA2</source>
                 <source>ED-P</source>
-                <source>ED-KA</source>
+                <source>ED-KA1</source>
             </sources>
             <editions>
                 <edition/>
@@ -98,7 +100,7 @@
             <sources>
                 <source>A-P3</source>
                 <source>ED-KA2</source>
-                <source>ED-KA</source>
+                <source>ED-KA1</source>
             </sources>
             <editions>
                 <edition/>
