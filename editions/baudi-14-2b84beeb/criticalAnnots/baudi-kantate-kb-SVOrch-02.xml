@@ -1,61 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<criticalReport xmlns="http://www.baumann-digital.de/ns/criticalReport" work="baudi-02-aedbaef3">
-  <remark xml:id="baudi-30-8266d79b" type="reading">
-    <item category="Bemerkung"/>
-    <mdiv>2</mdiv>
-    <measureStart>4</measureStart>
-    <countTimeStart>3</countTimeStart>
-    <measureEnd/>
-    <countTimeEnd/>
-    <layer harmoniumI="true" clarinet="true" organI="true"/>
-    <voice/>
-    <note>Die Fußnote ist nur im Klavierauszug zu finden. Die Bezeichnung \enquote{Knabenchor} findet sich außerhalb dieser wohl im Korrekturvorgang nachgetragenen Fußnote nur noch auf dem Titelblatt. An allen anderen Stellen die der Schülerhcor hinsichtlich
-      des Geschlechts der Sänger*innen nicht spezifiziert. </note>
-    <note type="intern"/>
-    <sources sourceIX="true" sourceVIII="true"/>
-    <editions harmoniumVoice="true" pianoReduction="true"/>
-  </remark>
-  <remark xml:id="baudi-30-556b53ba" type="annot">
-    <item category="Notentext"/>
-    <mdiv>2</mdiv>
-    <measureStart>3</measureStart>
-    <countTimeStart>2</countTimeStart>
-    <measureEnd>3</measureEnd>
-    <countTimeEnd>3</countTimeEnd>
-    <layer harmoniumII="true"/>
-    <voice/>
-    <note>In den Quellen ist kein Schlüsselwechsel notiert, weshalb es in T. 4 Zz. 1 zu einer Dikrepanz kommt (siehe entsprechende Anmerkung)</note>
-    <note type="intern">In den KA aufnehmen?</note>
-    <sources sourceVIII="true" sourceIX="true"/>
-    <editions harmoniumVoice="true"/>
-  </remark>
-  <remark xml:id="baudi-30-9dee0c28" type="editorial">
-    <item category="Notentext"/>
-    <mdiv>2</mdiv>
-    <measureStart>4</measureStart>
-    <countTimeStart>1</countTimeStart>
-    <measureEnd>4</measureEnd>
-    <countTimeEnd>2</countTimeEnd>
-    <layer harmoniumI="true" harmoniumII="true" organI="true" organII="true"/>
-    <voice/>
-    <note>Dieser Anschlusstakt wurde so umgeschrieben, dass sowohl die Fassung mit als auch ohne wietere Orgel/Harmonium sichtbar wird. Endet die Orgel/ das Harmnium auf Zz. 1, wie in der Partitur (= A-P3, ED-P), so ist der Klang nach einem Viertelschlag
-      wegzunehmen. Spielt die ORgel/das Harmonium weiter, so ist in T. 4 Zz. 1 eine Oktavierung vorzunehmen, um den Anschluss zu ermöglichen.</note>
-    <note type="intern"/>
-    <sources sourceIX="true" sourceVIII="true" sourceVII="true" sourceI="true"/>
-    <editions harmoniumVoice="true"/>
-  </remark>
-  <remark xml:id="baudi-30-98fcc1bf" type="reading">
-    <item category="Bogensetzung"/>
-    <mdiv>2</mdiv>
-    <measureStart>12</measureStart>
-    <countTimeStart>1</countTimeStart>
-    <measureEnd>13</measureEnd>
-    <countTimeEnd>1</countTimeEnd>
-    <layer violin="true"/>
-    <voice/>
-    <note>Violinchor: Bogen in Chor-Violine II fälschlich bis T. 13 Zz. 1 geführt (=A-P3). In ED-KA und ED-KA2 zusätzlich Bogen der Oberstimme bis T. 13 Zz. 1 geführt. </note>
-    <note type="intern"/>
-    <sources sourceI="true" sourceVIII="true" sourceIX="true"/>
-    <editions pianoReduction="true" harmoniumVoice="true"/>
-  </remark>
-  </criticalReport>
+<crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="crApp-file-ID">
+    <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
+    <remarks>
+        <remark type="reading" xml:id="baudi-30-8266d79b">
+            <class>Bemerkung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="4" count="3"/>
+                    <range type="stop" measure="NaN" count="NaN"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet</part>
+                <part>harmonium.right</part>
+                <part>organ.right</part>
+            </parts>
+            <annots>
+                <annot>Die Fußnote ist nur im Klavierauszug zu finden. Die Bezeichnung \enquote{Knabenchor} findet sich außerhalb dieser wohl im Korrekturvorgang nachgetragenen Fußnote nur noch auf dem Titelblatt. An allen anderen Stellen die der Schülerhcor hinsichtlich des Geschlechts der Sänger*innen nicht spezifiziert.</annot>
+            </annots>
+            <sources>
+                <source>ED-KA2</source>
+                <source>ED-KA</source>
+            </sources>
+            <editions>
+                <edition/>
+                <edition/>
+            </editions>
+        </remark>
+        <remark type="annot" xml:id="baudi-30-556b53ba">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="3" count="2"/>
+                    <range type="stop" measure="3" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>harmonium.left</part>
+            </parts>
+            <annots>
+                <annot>In den Quellen ist kein Schlüsselwechsel notiert, weshalb es in T. 4 Zz. 1 zu einer Dikrepanz kommt (siehe entsprechende Anmerkung)</annot>
+                <annot type="intern">In den KA aufnehmen?</annot>
+            </annots>
+            <sources>
+                <source>ED-KA2</source>
+                <source>ED-KA</source>
+            </sources>
+            <editions>
+                <edition/>
+            </editions>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-9dee0c28">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="4" count="1"/>
+                    <range type="stop" measure="4" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>harmonium.right</part>
+                <part>harmonium.left</part>
+                <part>organ.right</part>
+                <part>organ.left</part>
+            </parts>
+            <annots>
+                <annot>Dieser Anschlusstakt wurde so umgeschrieben, dass sowohl die Fassung mit als auch ohne wietere Orgel/Harmonium sichtbar wird. Endet die Orgel/ das Harmnium auf Zz. 1, wie in der Partitur (= A-P3, ED-P), so ist der Klang nach einem Viertelschlag wegzunehmen. Spielt die ORgel/das Harmonium weiter, so ist in T. 4 Zz. 1 eine Oktavierung vorzunehmen, um den Anschluss zu ermöglichen.</annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+                <source>ED-KA2</source>
+                <source>ED-P</source>
+                <source>ED-KA</source>
+            </sources>
+            <editions>
+                <edition/>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-98fcc1bf">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="12" count="1"/>
+                    <range type="stop" measure="13" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin</part>
+            </parts>
+            <annots>
+                <annot>Violinchor: Bogen in Chor-Violine II fälschlich bis T. 13 Zz. 1 geführt (=A-P3). In ED-KA und ED-KA2 zusätzlich Bogen der Oberstimme bis T. 13 Zz. 1 geführt.</annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+                <source>ED-KA2</source>
+                <source>ED-KA</source>
+            </sources>
+            <editions>
+                <edition/>
+                <edition/>
+            </editions>
+        </remark>
+    </remarks>
+</crApp>

@@ -1,31 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<criticalReport xmlns="http://www.baumann-digital.de/ns/criticalReport" work="baudi-02-aedbaef3">
-    <remark xml:id="baudi-30-c3393a98" type="editorial">
-        <item category="Tondauer"/>
-        <mdiv>5</mdiv>
-        <measureStart>11</measureStart>
-        <countTimeStart>2</countTimeStart>
-        <measureEnd/>
-        <countTimeEnd/>
-        <layer pianoI="true"/>
-        <voice middle="true"/>
-        <note>Fehlende Punktierung an \note2 [des2]</note>
-        <note type="intern"/>
-        <sources sourceIX="true" sourceVIII="true"/>
-        <editions pianoReduction="true"/>
-    </remark>
-    <remark xml:id="baudi-30-cdf49b40" type="reading">
-        <item category="Notentext"/>
-        <mdiv>5</mdiv>
-        <measureStart>13</measureStart>
-        <countTimeStart>1</countTimeStart>
-        <measureEnd>13</measureEnd>
-        <countTimeEnd>4</countTimeEnd>
-        <layer pianoII="true"/>
-        <voice/>
-        <note>In SV ist trotz des Systemwechsels der linken Hand eine ganze Note a notiert. Diese Note wurde nicht in die Edition übernommen</note>
-        <note type="intern"/>
-        <sources sourceII="true"/>
-        <editions/>
-    </remark>
-</criticalReport>
+<crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="crApp-file-ID">
+    <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
+    <remarks>
+        <remark type="editorial" xml:id="baudi-30-c3393a98">
+            <class>Tondauer</class>
+            <mdiv>5</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="11" count="2"/>
+                    <range type="stop" measure="NaN" count="NaN"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot>Fehlende Punktierung an<note dur="2"/>[des2]</annot>
+            </annots>
+            <sources>
+                <source>ED-KA2</source>
+                <source>ED-KA</source>
+            </sources>
+            <editions>
+                <edition/>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-cdf49b40">
+            <class>Notentext</class>
+            <mdiv>5</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="13" count="1"/>
+                    <range type="stop" measure="13" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot>In SV ist trotz des Systemwechsels der linken Hand eine ganze Note a notiert. Diese Note wurde nicht in die Edition übernommen</annot>
+            </annots>
+            <sources>
+                <source>A-P3-KA</source>
+            </sources>
+            <editions/>
+        </remark>
+    </remarks>
+</crApp>
