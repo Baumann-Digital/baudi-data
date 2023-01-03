@@ -16,10 +16,29 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>A-P3 »E.H.«; ED-P ohne Angabe</annot>
+                <annot>Tonhöhenangabe <q>E.H.</q> nicht ausgeführt</annot>
             </annots>
             <sources>
-                <source>A-P3</source>
+                <source>A-P2</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-1">
+            <class>Tempoangabe</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="1" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>all</parts>
+            <annots>
+                <annot><ptr target="A-P2"/>Ohne <tempo/></annot>
+                <annot><ptr target="ED-P"/><tempo/> ohne <tempo type="vague" mm="60" mm.unit="4">etwa 60</tempo></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
                 <source>ED-P</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
@@ -29,18 +48,22 @@
             <mdiv>1</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="3" count="1"/>
-                    <range type="stop" measure="36" count="4"/>
+                    <range type="start" measure="3"/>
+                    <range type="stop" measure="36"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Stimme nicht ausnotiert (Anmerkung: »col Cello«); Faulenzer als Platzhalter mit blauem Farbstift (ab T. 7 mit schwarzer Tinte) notiert</annot>
+                <annot>Stimme nicht ausnotiert: <q>col Cello</q></annot>
+                <annot><ptr target="A-P3"/> Faulenzer ab Takt 4 mit blauem Farbstift, ab Takt 7 mit schwarzer Tinte notiert</annot>
+                <annot><ptr target="ED-P"/> Violoncello und Kontrabass im selben System zweistimmig notiert.</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
+                <source>A-P2</source>
+                <source>ED-P</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
@@ -54,14 +77,189 @@
             </occurances>
             <parts>
                 <part>violoncello</part>
+                <part>piano.left</part>
             </parts>
             <annots>
-                <annot>Bogen irrtümlich über die letzte Achtel hinausgehend (vgl. Kl)</annot>
+                <annot>Bogen wohl irrtümlich über die letzte Achtel hinausgehend (vgl. <ptr target="A-P3 piano.left"/>)</annot>
+                <annot>In <ptr target="A-P2"/> endet der Bogen zwar auf der letzte Achtel, ist in <ptr target="A-P3 piano.left"/> jedoch weitergehend notiert</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-2">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="5" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violoncello</part>
+            </parts>
+            <annots>
+                <annot><note pname="b" oct="2" dur="8"/> ohne <artic artic="stacc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-3">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="5" count="3"/>
+                    <range type="stop" measure="6" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot><ptr type="A-P3"/><slur/> über Zählzeit 1 neu angesetzt</annot>
+                <annot><ptr type="A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="A-P3 violoncello"/><ptr target="A-P2 violoncello"/><ptr target="ED-P violoncello doubleBass"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <!--<remark type="comment" xml:id="baudi-30-4">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="6" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot><ptr type="A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="A-P3 violoncello"/><ptr target="A-P2 violoncello"/><ptr target="ED-P violoncello doubleBass"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+            </sources>
+            <editions><edition>BauDi-KA</edition></editions>
+        </remark>-->
+        <remark type="reading" xml:id="baudi-30-5">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="7" count="4"/>
+                </occurance>
+                <occurance>
+                    <position measure="8" count="3"/>
+                </occurance>
+                <occurance>
+                    <position measure="9" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+                <part>violoncello</part>
+            </parts>
+            <annots>
+                <annot><ptr type="A-P2"/><slur/> endet erst in Takt 8 Zählzeit 1, dadurch beginnt der folgende <slur/> erst in Takt 8 Zählzeit 3 (statt T. 8 Zz. 1) und endet erst in Takt 9 Zählzeit 1</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-6">
+            <class>Bogensetzung</class>
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="9" count="3"/>
+                    <range type="stop" measure="9" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+                <part>violoncello</part>
+            </parts>
+            <annots>
+                <annot><ptr type="A-P2 piano.left violoncello"/><ptr type="A-P3 piano.left"/>Ohne <slur/></annot>
+                <annot><ptr type="A-P2 piano.left violoncello"/><ptr type="A-P3 piano.left"/>Ohne <artic artic="stacc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-7">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                <range type="start" measure="10" count="1"/>
+                <range type="stop" measure="10" count="3"/>
+                </occurance>
+                <occurance>
+                <range type="start" measure="11" count="1"/>
+                <range type="stop" measure="11" count="3"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="12" count="1"/>
+                    <range type="stop" measure="12" count="3"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="13" count="1"/>
+                    <range type="stop" measure="13" count="3"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="15" count="1"/>
+                    <range type="stop" measure="15" count="3"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="16" count="1"/>
+                    <range type="stop" measure="16" count="3"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="17" count="1"/>
+                    <range type="stop" measure="17" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+            <part>violoncello</part></parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-8">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="11" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>viola</part></parts>
+            <annots>
+                <annot>Ohne <dynam>pp</dynam></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-b0225592">
             <class>Beschreibung</class>
@@ -75,12 +273,165 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »Viola«</annot>
+                <annot><add type="pencil">Viola</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="annotation" xml:id="baudi-30-9">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="12" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>timpani</part>
+            </parts>
+            <annots>
+                <annot><add type="pencil">etc/dfa?</add></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-11">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="13" count="1"/>
+                    <range type="stop" measure="13" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>viola</part>
+            </parts>
+            <annots>
+                <annot>Zusätzlicher <slur/> von Zählzeit 1 zu Zählzeit 3 </annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-12">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="14" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>viola</part>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot><slur/> beginnt bereits in Takt 13 Zählzeit 4</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+                <edition>BauDi-KA</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-13">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="16" count="3"/>
+                    <range type="stop" measure="16" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot><slur/> beginnt bereits in Zählzeit 1</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-14">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="17" count="1"/>
+                    <range type="stop" measure="17" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot><slur/> von Zählzeit 1 zu 3 statt Zählzeit 3 zu 4</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-15">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="17" count="1"/>
+                    <range type="stop" measure="18" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-16">
+            <class>Beschreibung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="18" count="1"/>
+                    <range type="stop" measure="18" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot><ptr target="A-P3 piano.right"/> <ptr target="ED-KA1 piano.right"/> <ptr target="ED-KA2 piano.right"/> ohne <slur/>; <ptr target="BauDi-KA"/> folgt <ptr target="A-P2"/> (vgl. auch <ptr target="A-P3 viola"/>)</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+                <source>ED-KA1</source>
+                <source>ED-KA2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-53d46fb7">
             <class>Beschreibung</class>
@@ -94,7 +445,7 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »Viol. I«</annot>
+                <annot><add type="pencil">Viol. I</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -113,13 +464,118 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »V. II«</annot>
+                <annot><add type="pencil">V. II</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
+        <remark type="reading" xml:id="baudi-30-17">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                   <position measure="19" count="4"/>
+                </occurance>
+                <occurance>
+                    <position measure="20" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot>Erste Schlaghälfte mit <artic artic="stacc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-18">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="19" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot>Letzte <note pname="b" oct="4" dur="8"/> ohne <artic artic="stacc"/></annot>
+            </annots>
+            <sources>
+                <source>ED-P</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-19">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="19" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.ii</part>
+            </parts>
+            <annots>
+                <annot>Ohne <dynam>p</dynam></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-20">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="20" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot><note pname="d" oct="5" dur="8"/> ohne <accid accid="n" type="warn"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <!--<remark type="reading" xml:id="baudi-30-22">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="20" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot><note pname="d" oct="5" dur="8"/> ohne <accid accid="n" type="warn"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+            </sources>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
+        </remark>-->
         <remark type="annotation" xml:id="baudi-30-abe15bf4">
             <class>Beschreibung</class>
             <mdiv>1</mdiv>
@@ -132,7 +588,7 @@
                 <part>hornFrench.i</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »Hörner«</annot>
+                <annot><add type="pencil">Hörner</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -145,21 +601,83 @@
             <occurances>
                 <occurance>
                     <range type="start" measure="20" count="2"/>
+                    <range type="stop" measure="21" count="1"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="21" count="2"/>
+                    <range type="stop" measure="22" count="1"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="22" count="2"/>
                     <range type="stop" measure="23" count="1"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>hornFrench.i</part>
-                <part>hornFrench.ii</part>
                 <part>hornFrench.iii</part>
+            </parts>
+            <annots>
+                <annot><slur/> endet bereits mit Beginn der Haltenote; BauDi-P zum ender der Haltenote hin verlängert</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+                <source>ED-P</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-21">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="20" count="2"/>
+                    <range type="stop" measure="21" count="1"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="21" count="2"/>
+                    <range type="stop" measure="22" count="1"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="22" count="2"/>
+                    <range type="stop" measure="23" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>hornFrench.ii</part>
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>Jeweils einzelne Bögen (Phasierung und Haltebögen), T. 21, Zz. 2 bis T. 23, Z. 1 in Hrn2 und Hrn4 zusammengefasst</annot>
+                <annot>Bögen analog zu <ptr target="hornFrench.ii hornFrench.iv"/>, hier jedoch kein Wechsel von <slur/> und <tie/>; <ptr target="BauDi-P"/> Zusammenfassung der Bögen (vgl. auch <ptr target="hornFrench.ii hornFrench.iv"/>)</annot>
             </annots>
             <sources>
+                <source>A-P2</source>
                 <source>A-P3</source>
                 <source>ED-P</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-23">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="20" count="3"/>
+                    <range type="stop" measure="24" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot><dynam>cresc - cen - do</dynam></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
@@ -172,16 +690,18 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>doubleBass</part>
-                <part>violoncello</part>
-                <part>viola</part>
                 <part>violin.ii</part>
+                <part>viola</part>
+                <part>violoncello</part>
+                <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne »cresc.«, in Vla. mit Bleistift ergänzt</annot>
+                <annot>Ohne <dynam>cresc.</dynam>; <ptr target="BauDi-P"/> folgt <ptr target="ED-P"/></annot>
+                <annot><ptr target="A-P3 viola"/><add type="pencil">cresc.</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
@@ -198,10 +718,69 @@
                 <part>bassoon.ii</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »II Fag.«</annot>
+                <annot><add type="pencil">II Fag.</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-24">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="22" count="1"/>
+                    <range type="stop" measure="22" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>bassoons</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="cres"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-26">
+            <class>Tondauer</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="22" count="1"/>
+                    <range type="stop" measure="22" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>bassoons</partGrp>
+            </parts>
+            <annots>
+                <annot><note dur="2"/><note dur="8" dots="1"/><note dur="16"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-25">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="22" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot>Letzte <note pname="a" oct="5" dur="8"><artic artic="stacc"/></note></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
@@ -218,7 +797,7 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »Oboe«</annot>
+                <annot><add type="pencil">Oboe</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -238,27 +817,7 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot>Bleistiftanmerkung »Clar«</annot>
-            </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition>BauDi-P</edition></editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-5de62347">
-            <class>Artikulation</class>
-            <mdiv>1</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="23" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.i</part>
-                <part>violin.ii</part>
-            </parts>
-            <annots>
-                <annot><artic artic="acc"/>ergänz (vgl. Vla)</annot>
+                <annot><add type="pencil">Clar</add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -274,18 +833,41 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>doubleBass</part>
-                <part>violoncello</part>
+                <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne<artic artic="acc"/></annot>
+                <annot>Erste <note pname="b" oct="4" dur="8"/> ohne <artic artic="acc"/></annot>
             </annots>
             <sources>
-                <source>ED-P</source>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-3dabc920">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="23" count="2"/>
+                    </occurance><occurance>
+                    <position measure="23" count="4"/>
+                        </occurance><occurance>
+                    <position measure="24" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet.ii</part>
+                <part>oboe.ii</part>
+            </parts>
+            <annots>
+                <annot><artic artic="acc"/> nur in <ptr target="A-P3 oboe.i clarinet.i"/> ausgeführt; <ptr target="BauDi-P"/> folgt ED-P</annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-27">
             <class>Artikulation</class>
             <mdiv>1</mdiv>
             <occurances>
@@ -295,11 +877,31 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>clarinet.ii</part>
-                <part>oboe.ii</part>
+                <partGrp>flutes</partGrp>
+                <partGrp>clarinets</partGrp>
+                <partGrp>oboes</partGrp>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>jeweils nur für 1. Stimme ausgeführt, gemäß ED-P ergänzt</annot>
+                <annot>Ohne <artic artic="acc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="annotation" xml:id="baudi-30-28">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="23" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>clarinets</partGrp>
+            </parts>
+            <annots>
+                <annot><rest dur="8"/> zweistimmig ausgeführt</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -318,7 +920,54 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="ED-P"/>)</annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+                <source>A-P2</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-29">
+            <class>Streichung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="23" count="1"/>
+                    <range type="stop" measure="24" count="2"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="24" count="4"/>
+                    <range type="stop" measure="26"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>bassoons</partGrp>
+            </parts>
+            <annots>
+                <annot>Inhalt gestrichen, mit Verweis <q>siehe Cello</q></annot>
+                <annot>Takte 24–26 nicht in <ptr target="A-P3"/> übernommen</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-1d4579ee">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="23" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.ii</part>
+                <part>viola</part>
+            </parts>
+            <annots>
+                <annot><add type="pencil"><dynam>f</dynam></add></annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -326,22 +975,68 @@
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
-        <remark type="editorial" xml:id="baudi-30-1d4579ee">
+        <remark type="reading" xml:id="baudi-30-30">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="23" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>strings</partGrp>
+            </parts>
+            <annots>
+                <annot><ptr target="A-P2"/> ohne <dynam>f</dynam></annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-31">
             <class>Artikulation</class>
             <mdiv>1</mdiv>
             <occurances>
                 <occurance>
                     <position measure="24" count="1"/>
+                    </occurance>
+                <occurance>
+                    <position measure="24" count="4"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-32">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="23" count="2"/>
+                    <range type="stop" measure="26" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>hornFrench.ii</part>
+                <part>hornFrench.iv</part>
+            </parts>
+            <annots>
+                <annot><artic artic="acc"/> analog zu <ptr target="A-P3 hornFrench.i hornFrench.iii"/>ergänzt </annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+                <source>A-P2</source>
                 <source>ED-P</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
@@ -358,32 +1053,122 @@
                 <part>hornFrench.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
+                <source>A-P3</source>
+                <source>A-P2</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-33">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="24" count="1"/>
+                    <range type="stop" measure="24" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>oboe.ii</part>
+            </parts>
+            <annots>
+                <annot><slur/> ergänzt (=<ptr target="ED-P"/>, <ptr target="A-P2"/>)</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
                 <source>A-P3</source>
                 <source>ED-P</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
-        <remark type="editorial" xml:id="baudi-30-3f1cf649">
-            <class>Artikulation</class>
+        <remark type="editorial" xml:id="baudi-30-34">
+            <class>Bogensetzung</class>
             <mdiv>1</mdiv>
             <occurances>
+                <occurance>
+                    <range type="start" measure="24" count="1"/>
+                    <range type="stop" measure="24" count="2"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="24" count="3"/>
+                    <range type="stop" measure="24" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>oboe.i</part>
+                <part>clarinet.ii</part>
+            </parts>
+            <annots>
+                <annot>Ohne <slur/> (=<ptr target="ED-P"/>, <ptr target="A-P2"/>)</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-35">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="23" count="4"/>
+                    <range type="stop" measure="24" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot><slur/> für beide Stimmen gesetzt</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-36">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="24" count="1"/>
+                </occurance>
                 <occurance>
                     <position measure="24" count="4"/>
                 </occurance>
             </occurances>
             <parts>
-                <part>viola</part>
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot>zweite <note dur="8"><artic artic="stacc"/></note></annot>
             </annots>
             <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-3f1cf649">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="25" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>flutes</partGrp>
+            </parts>
+            <annots>
+                <annot><artic artic="acc"/></annot>
+                <annot>Ohne <dynam>ff</dynam></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
@@ -396,14 +1181,15 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>bassoon.i</part>
-                <part>bassoon.ii</part>
+                <partGrp>clarinets</partGrp>
+                <partGrp>bassoons</partGrp>
+                <part>hornFrench.iii</part>
+                <part>hornFrench.iv</part>
+                <partGrp>violins</partGrp>
                 <part>viola</part>
-                <part>violin.i</part>
-                <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><dynam>ff</dynam>ergänzt, vgl. Vlc (=ED-P)</annot>
+                <annot><dynam>ff</dynam>ergänzt, vgl. (=<ptr target="ED-P"/>, <ptr target="A-P3 flutes oboes hornFrench.i hornFrench.ii violoncello"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -411,25 +1197,122 @@
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
-        <remark type="editorial" xml:id="baudi-30-128739bf">
+        <remark type="reading" xml:id="baudi-30-37">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="25" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trumpets</partGrp>
+            </parts>
+            <annots>
+                <annot><ptr target="A-P2"/> <dynam>sf</dynam></annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-38">
+            <class>Dynamik</class>
             <class>Artikulation</class>
             <mdiv>1</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="25" count="2"/>
-                    <range type="stop" measure="25" count="3"/>
+                    <position measure="25" count="1"/>
                 </occurance>
             </occurances>
             <parts>
-                <part>doubleBass</part>
-                <part>violoncello</part>
+                <partGrp>trumpets</partGrp>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt, vgl. II (Kl)</annot>
+                <annot>Ohne <dynam>ff</dynam></annot>
+                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/></annot>
             </annots>
             <sources>
-                <source>A-P3</source>
-                <source>A-P3-KA</source>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-128739bf">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="25" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violoncello</part>
+                <part>doubleBass</part>
+            </parts>
+            <annots>
+                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-39">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="25" count="1"/>
+                    <range type="stop" measure="26" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trumpets</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <tie/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-40">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="26" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trumpets</partGrp>
+            </parts>
+            <annots>
+                <annot><artic artic="acc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-41">
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="26" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>hornsFrench</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <artic artic="acc"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
@@ -453,7 +1336,7 @@
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-c3ee8e93">
+        <remark type="editorial" xml:id="baudi-30-c3ee8e93">
             <class>Bogensetzung</class>
             <mdiv>1</mdiv>
             <occurances>
@@ -466,7 +1349,7 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Nur ein Phrasierungsbogen abgehend, jedoch keiner nach Systemumbruch ankommend; gemäß ED-P ergänzt</annot>
+                <annot>Nur ein <slur/> abgehend, jedoch nach <sb/> nicht ankommend; nach <ptr target="ED-P"/> ergänzt.</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -487,7 +1370,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>In A-P3 unterer Haltebogen, in ED-P beide Haltebögen nur ankommend</annot>
+                <annot><ptr target="A-P3"/> nur oberer <tie/> abgehend, aber zwei <tie/> nach <sb/> ankommend.</annot>
+                <annot><ptr target="ED-P"/> beide <tie/> nach <sb/> nur ankommend</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -551,7 +1435,7 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>Trillerschlange ergänzt (=ED-P)</annot>
+                <annot>Trillerschlange ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>ED-P</source>
@@ -652,7 +1536,7 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P), vgl. auch T. 32</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>), vgl. auch T. 32</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -672,7 +1556,7 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>Triller ergänzt (=ED-P)</annot>
+                <annot>Triller ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -716,7 +1600,7 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot><dynam>ff</dynam>ergänzt (=ED-P)</annot>
+                <annot><dynam>ff</dynam>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -778,7 +1662,7 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -861,7 +1745,7 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -903,7 +1787,7 @@
                 <part>trumpet.ii</part>
             </parts>
             <annots>
-                <annot>Triolenkennzeichnung ergänzt (=ED-P)</annot>
+                <annot>Triolenkennzeichnung ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -965,7 +1849,7 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>gemäß Hrn1&amp;2 ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>gemäß Hrn1&amp;2 ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -1006,7 +1890,7 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -1024,7 +1908,7 @@
             </occurances>
             <parts/>
             <annots>
-                <annot>Triolenkennzeichnung ergänzt (=ED-P)</annot>
+                <annot>Triolenkennzeichnung ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -1045,7 +1929,7 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -1127,7 +2011,7 @@
                 <part>bassoon.ii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>und<artic artic="stacc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="acc"/>und<artic artic="stacc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -1149,7 +2033,7 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="stacc"/>ergänzt (=ED-P)</annot>
+                <annot><artic artic="stacc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
@@ -1171,7 +2055,7 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/>ergänzt (=ED-P)</annot>
+                <annot><hairpin form="cres"/>ergänzt (=<ptr target="ED-P"/>)</annot>
             </annots>
             <sources>
                 <source>A-P3</source>
