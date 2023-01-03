@@ -184,32 +184,64 @@
         </partGrp>
         <part codedval="harp">
             <label xml:lang="de">Harfe</label>
-            <layer codedval="harp.right">
+            <part type="sys" codedval="harp.right">
                 <label xml:lang="de">Harfe (rechte Hand)</label>
-            </layer>
-            <layer codedval="harp.left">
+            </part>
+            <part type="sys" codedval="harp.left">
                 <label xml:lang="de">Harfe (linke Hand)</label>
-            </layer>
+            </part>
         </part>
         <part codedval="organ">
             <label xml:lang="en">Organ</label>
             <label xml:lang="de">Orgel</label>
-            <layerGrp codedval="organManuals">
+            <part type="sysGrp" codedval="organManuals">
                 <label xml:lang="en">Organ (manuals)</label>
                 <label xml:lang="de">Orgel (Manuale)</label>
-                <layer codedval="organ.left">
+                <part type="sys" codedval="organ.left">
                     <label xml:lang="en">Organ (l.h.)</label>
                     <label xml:lang="de">Orgel (l.H.)</label>
-                </layer>
-                <layer codedval="organ.right">
+                </part>
+                <part type="sys" codedval="organ.right">
                     <label xml:lang="en">Organ (r.h.)</label>
                     <label xml:lang="de">Orgel (r.H.)</label>
-                </layer>
-            </layerGrp>
-            <layer codedval="organPedals">
+                </part>
+            </part>
+                <part type="sys" codedval="organPedals">
                 <label xml:lang="en">Organ (ped.)</label>
                 <label xml:lang="de">Orgel (Ped.)</label>
-            </layer>
+                </part>
+        </part>
+        <part codedval="harmonium">
+            <label xml:lang="en">Harmonium</label>
+            <label xml:lang="de">Harmonium</label>
+            <part type="sysGrp" codedval="harmoniumManuals">
+                <label xml:lang="en">Harmonium (manuals)</label>
+                <label xml:lang="de">Harmonium (Manuale)</label>
+                <part type="sys" codedval="harmonium.left">
+                    <label xml:lang="en">Harmonium (l.h.)</label>
+                    <label xml:lang="de">Harmonium (l.H.)</label>
+                </part>
+                <part type="sys" codedval="harmonium.right">
+                    <label xml:lang="en">Harmonium (r.h.)</label>
+                    <label xml:lang="de">Harmonium (r.H.)</label>
+                </part>
+            </part>
+            <part type="sys" codedval="harmoniumPedals">
+                <label xml:lang="en">Harmonium (ped.)</label>
+                <label xml:lang="de">Harmonium (Ped.)</label>
+            </part>
+        </part>
+        <part codedval="piano">
+            <label xml:lang="en">Piano</label>
+            <label xml:lang="de">Klavier</label>
+            <part type="sys" codedval="piano.left">
+                    <label xml:lang="en">Piano (l.h.)</label>
+                    <label xml:lang="de">Klavier (l.H.)</label>
+                </part>
+            <part type="sys" codedval="piano.right">
+                    <label xml:lang="en">Piano (r.h.)</label>
+                    <label xml:lang="de">Klavier (r.H.)</label>
+            </part>
         </part>
         <partGrp codedval="strings">
             <label xml:lang="de">Streicher</label>
