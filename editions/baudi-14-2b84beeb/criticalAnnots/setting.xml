@@ -294,6 +294,7 @@
         <source siglum="ED-KA1" sortNo="5">
             <label xml:lang="de">Klavierauszug mit handschriftlichen Eintragungen (Handexemplar)</label>
         </source>
+        <!--<manifestation xml:id="ED-P"/>-->
         <source siglum="ED-P" sortNo="7">
             <label xml:lang="de">Erstdruck Partitur</label>
         </source>
@@ -326,7 +327,7 @@
         </edition>
     </relEditions>
     <classifications>
-        <classGrp label="Art">
+        <classGrp label="AnmerkungsArt">
             <class codedval="Notentext">
                 <label xml:lang="de">Notentext</label>
                 <label xml:lang="en">Notentext</label>
@@ -372,6 +373,13 @@
             </class>
             <class codedval="Sonstige">
                 <label xml:lang="de">Sonstige</label>
+            </class>
+        </classGrp>
+        <classGrp label="AnmerkungsArt">
+            <class xml:id="missing">
+                <!-- class="#missing" -->
+                <label xml:lang="de">Ohne/Fehlend</label>
+                <label xml:lang="en">without/missing</label>
             </class>
         </classGrp>
     </classifications>
