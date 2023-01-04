@@ -2804,7 +2804,148 @@
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
-        
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="36" count="4"/>
+                    <range type="stop" measure="37" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+                <part>violin.ii</part>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="cres"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="37" count="1"/>
+                    <range type="stop" measure="38" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet.i</part>
+                <part>clarinet.ii</part>
+            </parts>
+            <annots>
+                <annot><slur/> in Takt 26 Zählzeit 1 beginnend</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="36" count="1"/>
+                    <range type="stop" measure="37" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>viola</part>
+            </parts>
+            <annots>
+                <annot><tie/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="37" count="4"/>
+                    <range type="stop" measure="38" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>oboes</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="dim"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="37" count="1"/>
+                    <range type="stop" measure="37" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet.i</part>
+            </parts>
+            <annots>
+                <annot><note pname="d" accid="s" oct="5" dur="2" tie="i"/><note pname="d" accid="s" oct="5" dur="2" tie="t"/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="37" count="1"/>
+                    <range type="stop" measure="37" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+                <part>viola</part>
+            </parts>
+            <annots>
+                <annot><slur/></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="38"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>oboe.ii</part>
+            </parts>
+            <annots>
+                <annot>Ohne <mRest/></annot>
+            </annots>
+            <sources>
+                <source>A-P3</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
         <remark type="editorial" xml:id="baudi-30-6e3a8524">
             <class>Dynamik</class>
             <mdiv>1</mdiv>
@@ -2819,9 +2960,55 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/>ergänzt (=<ptr target="ED-P"/>)</annot>
+                <annot><hairpin form="cres"/> <ptr type="conjecture" target="ED-P"/> <ptr type="compare" target="A-P2"/></annot>
             </annots>
             <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <class>Artikulation</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="39" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot><ptr target="ED-P"/> <note pname="d" oct="5" dur="16" slur="i1"/><note pname="f" oct="5" dur="16" slur="t1"/></annot>
+                <annot><ptr target="A-P2"/> <note pname="d" oct="5" dur="16"><artic artic="stacc"/></note><note pname="f" oct="5" dur="16" slur="t1"><artic artic="stacc"/></note></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+                <source>A-P3</source>
+                <source>ED-P</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="annotation">
+            <class>Bemerkung</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="39" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.ii</part>
+            </parts>
+            <annots>
+                <annot><ptr target="A-P2"/><ptr target="A-P3"/> <q>geteilt</q></annot>
+                <annot><ptr target="ED-P"/> <q>get.</q></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
                 <source>A-P3</source>
                 <source>ED-P</source>
             </sources>
@@ -2832,21 +3019,239 @@
             <mdiv>1</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="39" count="4"/>
-                    <range type="stop" measure="40" count="1"/>
+                    <position measure="39" count="4"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>violin.ii</part>
+                <part>viola</part>
             </parts>
             <annots>
-                <annot>zusätzlicher Haltebogen(?) zwischen [d1]-[a]</annot>
+                <annot><slur/> beginnt erst in Takt 40 Zählzeit 1</annot>
             </annots>
             <sources>
-                <source></source>
+                <source>A-P2</source>
             </sources>
             <editions><edition>BauDi-P</edition></editions>
         </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="39" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>hornsFrench</partGrp>
+            </parts>
+            <annots>
+                <annot><hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions><edition>BauDi-P</edition></editions>
+        </remark>
+        <remark type="reading">
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                <position measure="39"/>
+                </occurance>
+            </occurances>
+            <parts>
+            <part>hornFrench.i</part>
+            <part>hornFrench.ii</part>
+            <part>hornFrench.iii</part>
+            <part>hornFrench.iv</part>
+            </parts>
+            <annots>
+                <annot><app>
+                    <lem source="A-P3 ED-P">
+                        <scoreDef xml:id="ssaa2zz">
+                            <staffGrp xml:id="s1rlawnz">
+                                <staffGrp xml:id="s1pp3ay5">
+                                    <grpSym xml:id="g1wwp8ur" symbol="bracket" />
+                                    <staffGrp xml:id="s1pc31s8">
+                                        <grpSym xml:id="g1ogne34" symbol="bracketsq" />
+                                        <staffDef xml:id="P1" n="1" lines="5" ppq="4" trans.diat="-4" trans.semi="-7">
+                                            <label xml:id="l1jc79a8">Horn in F I/II</label>
+                                            <labelAbbr xml:id="lal9eqo">Hrn. I/II</labelAbbr>
+                                            <instrDef xml:id="i14x1j1p" midi.channel="0" midi.instrnum="60" midi.volume="78.00%" />
+                                            <clef xml:id="c1wpd40a" shape="G" line="2" />
+                                            <keySig xml:id="ku6oml0" sig="2s" />
+                                            <meterSig xml:id="m1hnnd9d" count="4" unit="4" />
+                                        </staffDef>
+                                        <staffDef xml:id="P2" n="2" lines="5" ppq="4" trans.diat="-4" trans.semi="-7">
+                                            <label xml:id="l5kmv8w">Horn in F III/IV</label>
+                                            <labelAbbr xml:id="lq4xcyc">H7n. III/IV</labelAbbr>
+                                            <instrDef xml:id="iafbo9v" midi.channel="2" midi.instrnum="60" midi.volume="78.00%" />
+                                            <clef xml:id="c8xrn9l" shape="G" line="2" />
+                                            <keySig xml:id="k10ia6z8" sig="2s" />
+                                            <meterSig xml:id="m1kr2441" count="4" unit="4" />
+                                        </staffDef>
+                                    </staffGrp>
+                                </staffGrp>
+                            </staffGrp>
+                        </scoreDef>
+                        <section xml:id="sohhlao">
+                            <measure xml:id="m1n7naa" right="end" n="1">
+                                <staff xml:id="s1jy4yg" n="1">
+                                    <layer xml:id="l1u93j7o" n="1">
+                                        <note xml:id="ntlb44b" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up" />
+                                        <beam xml:id="b147zii7">
+                                            <note xml:id="n14k88xe" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up" />
+                                            <note xml:id="n1wyxnrg" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" />
+                                        </beam>
+                                        <beam xml:id="brmjl40">
+                                            <note xml:id="nr34dat" dots="1" dur.ppq="3" dur="8" oct="4" pname="a" stem.dir="up" />
+                                            <note xml:id="n1ohr5j2" dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="up" accid.ges="s" />
+                                        </beam>
+                                    </layer>
+                                    <layer xml:id="lmdbvva" n="2">
+                                        <note xml:id="n1hypsju" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="down" />
+                                        <beam xml:id="b1nlrk18">
+                                            <note xml:id="n19l0lix" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="down" />
+                                            <note xml:id="n1afoumm" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down" />
+                                        </beam>
+                                        <beam xml:id="b16m2ou1">
+                                            <note xml:id="n1o8hjo7" dots="1" dur.ppq="3" dur="8" oct="4" pname="c" stem.dir="down" accid.ges="s" />
+                                            <note xml:id="n18z7wgr" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down" />
+                                        </beam>
+                                    </layer>
+                                </staff>
+                                <staff xml:id="s123znum" n="2">
+                                    <layer xml:id="l1bq1vs5" n="1">
+                                        <note xml:id="nzhlpd6" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up" />
+                                        <beam xml:id="b1dif2mx">
+                                            <note xml:id="ni6unnh" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up" />
+                                            <note xml:id="ncut4w2" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" />
+                                        </beam>
+                                        <beam xml:id="btikgty">
+                                            <note xml:id="n17dsys1" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up" />
+                                            <note xml:id="nt8uu4w" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" />
+                                        </beam>
+                                    </layer>
+                                    <layer xml:id="l1itrjfn" n="2">
+                                        <note xml:id="n1lmb0cc" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="down" />
+                                        <beam xml:id="bm2eoyj">
+                                            <note xml:id="nak0y62" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="down" />
+                                            <note xml:id="n10qwqd4" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down" />
+                                        </beam>
+                                        <beam xml:id="bywk9y7">
+                                            <note xml:id="nmc0yf0" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="down" />
+                                            <note xml:id="n1wzzdg5" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down" />
+                                        </beam>
+                                    </layer>
+                                </staff>
+                                <dynam xml:id="dtbsta8" place="below" staff="1" tstamp="1.000000" val="49" vgrp="75">p</dynam>
+                                <hairpin xml:id="hnazxp" staff="1" tstamp="1.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="95" />
+                                <tie xml:id="t180r9kl" startid="#ntlb44b" endid="#n14k88xe" />
+                                <tie xml:id="tklmaor" startid="#n1hypsju" endid="#n19l0lix" />
+                                <dynam xml:id="d824puj" place="below" staff="2" tstamp="1.000000" val="49" vgrp="65">p</dynam>
+                                <hairpin xml:id="hoi50u7" staff="2" tstamp="1.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="85" />
+                                <tie xml:id="t15rlp3k" startid="#nzhlpd6" endid="#ni6unnh" />
+                                <tie xml:id="t167rqvf" startid="#n1lmb0cc" endid="#nak0y62" />
+                            </measure>
+                        </section>
+                    </lem>
+                    <rdg source="A-P2">
+                        <scoreDef xml:id="s1n9k162">
+                            <staffGrp xml:id="slg76pj">
+                                <staffGrp xml:id="s18pdees">
+                                    <grpSym xml:id="gzbpplb" symbol="bracket" />
+                                    <staffGrp xml:id="s8qqd1l">
+                                        <grpSym xml:id="gxwnxl0" symbol="bracketsq" />
+                                        <staffDef xml:id="P1" n="1" lines="5" ppq="4" trans.diat="-4" trans.semi="-7">
+                                            <label xml:id="l12u33i7">Horn in F I/II</label>
+                                            <labelAbbr xml:id="l1mstfu4">Hrn. I/II</labelAbbr>
+                                            <instrDef xml:id="i10j3kqk" midi.channel="0" midi.instrnum="60" midi.volume="78.00%" />
+                                            <clef xml:id="c1ela0kz" shape="G" line="2" />
+                                            <keySig xml:id="k3qvot7" sig="2s" />
+                                            <meterSig xml:id="mob16cb" count="4" unit="4" />
+                                        </staffDef>
+                                        <staffDef xml:id="P2" n="2" lines="5" ppq="4" trans.diat="-4" trans.semi="-7">
+                                            <label xml:id="lgoex52">Horn in F III/IV</label>
+                                            <labelAbbr xml:id="l1mf9w5r">Hrn. III/IV</labelAbbr>
+                                            <instrDef xml:id="i14xe4ds" midi.channel="2" midi.instrnum="60" midi.volume="78.00%" />
+                                            <clef xml:id="c1kyo5b1" shape="G" line="2" />
+                                            <keySig xml:id="k3atix9" sig="2s" />
+                                            <meterSig xml:id="mmrpyp8" count="4" unit="4" />
+                                        </staffDef>
+                                    </staffGrp>
+                                </staffGrp>
+                            </staffGrp>
+                        </scoreDef>
+                        <section xml:id="s1im5vzb">
+                            <measure xml:id="mjlqgg6" right="end" n="1">
+                                <staff xml:id="sp7sx5e" n="1">
+                                    <layer xml:id="l176wxkd" n="1">
+                                        <note xml:id="n1t3hcc4" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up" />
+                                        <beam xml:id="be2sq2l">
+                                            <note xml:id="n2uqsfo" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up" />
+                                            <note xml:id="nuhnhlm" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" />
+                                        </beam>
+                                        <beam xml:id="b17soyar">
+                                            <note xml:id="n1w6da5o" dots="1" dur.ppq="3" dur="8" oct="4" pname="a" stem.dir="up" />
+                                            <note xml:id="n1ohgdfk" dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="up" accid.ges="s" />
+                                        </beam>
+                                    </layer>
+                                    <layer xml:id="lvr9vd7" n="2">
+                                        <note xml:id="n1g0mank" dur.ppq="8" dur="2" oct="3" pname="a" stem.dir="down" />
+                                        <beam xml:id="b31g31z">
+                                            <note xml:id="nbctypo" dots="1" dur.ppq="3" dur="8" oct="3" pname="a" stem.dir="down" />
+                                            <note xml:id="nxiyecq" dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="down" />
+                                        </beam>
+                                        <beam xml:id="bn114hn">
+                                            <note xml:id="n1p9zhr3" dots="1" dur.ppq="3" dur="8" oct="4" pname="c" stem.dir="down" accid.ges="s" />
+                                            <note xml:id="nudkwja" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down" />
+                                        </beam>
+                                    </layer>
+                                </staff>
+                                <staff xml:id="s1wi1aw9" n="2">
+                                    <layer xml:id="l192jvi6" n="1">
+                                        <note xml:id="n1i23g9z" dur.ppq="8" dur="2" oct="4" pname="c" stem.dir="up" accid.ges="s" />
+                                        <beam xml:id="b10nke2p">
+                                            <note xml:id="n1669rgo" dots="1" dur.ppq="3" dur="8" oct="4" pname="c" stem.dir="up" accid.ges="s" />
+                                            <note xml:id="n1df0p1o" dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up" accid.ges="s" />
+                                        </beam>
+                                        <beam xml:id="b1ip4lkn">
+                                            <note xml:id="ntdfezw" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up" />
+                                            <note xml:id="nj4z38v" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" />
+                                        </beam>
+                                    </layer>
+                                    <layer xml:id="lv2rxn1" n="2">
+                                        <note xml:id="n1yif6k8" dur.ppq="8" dur="2" oct="3" pname="a" stem.dir="down" />
+                                        <beam xml:id="byce7xq">
+                                            <note xml:id="n1mrrbvu" dots="1" dur.ppq="3" dur="8" oct="3" pname="a" stem.dir="down" />
+                                            <note xml:id="n3oqj78" dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="down" />
+                                        </beam>
+                                        <beam xml:id="b9lxn2q">
+                                            <note xml:id="n61ifbt" dots="1" dur.ppq="3" dur="8" oct="3" pname="a" stem.dir="down" />
+                                            <note xml:id="n14axg98" dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="down" />
+                                        </beam>
+                                    </layer>
+                                </staff>
+                                <tie xml:id="t1sdoiuv" startid="#n1t3hcc4" endid="#n2uqsfo" />
+                                <hairpin xml:id="hrmo672" staff="1" tstamp="3.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="105" />
+                                <tie xml:id="tvu977d" startid="#n1g0mank" endid="#nbctypo" />
+                                <tie xml:id="t67ffvm" startid="#n1i23g9z" endid="#n1669rgo" />
+                                <hairpin xml:id="h607dog" staff="2" tstamp="3.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="105" />
+                                <tie xml:id="ts24ias" startid="#n1yif6k8" endid="#n1mrrbvu" />
+                            </measure>
+                        </section>
+                    </rdg>
+                </app></annot>
+            </annots>
+            <sources>
+                <source>A-P2</source>
+            </sources>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        
         <remark type="reading" xml:id="baudi-30-1af8c250">
             <class>Dynamik</class>
             <mdiv>1</mdiv>
