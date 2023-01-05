@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-02">
     <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
     <remarks>
-        <remark type="reading" xml:id="baudi-30-8266d79b">
-            <class>Bemerkung</class>
-            <mdiv>2</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="4" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>clarinet</part>
-                <part>harmonium.right</part>
-                <part>organ.right</part>
-            </parts>
-            <annots>
-                <annot>Die Fußnote ist nur im Klavierauszug zu finden. Die Bezeichnung \enquote{Knabenchor} findet sich außerhalb dieser wohl im Korrekturvorgang nachgetragenen Fußnote nur noch auf dem Titelblatt. An allen anderen Stellen die der Schülerhcor hinsichtlich des Geschlechts der Sänger*innen nicht spezifiziert.</annot>
-            </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
-            <editions>
-                <edition/>
-                <edition/>
-            </editions>
-        </remark>
         <remark type="annotation" xml:id="baudi-30-556b53ba">
             <class>Notentext</class>
             <mdiv>2</mdiv>
@@ -45,14 +20,15 @@
                 <annot>In den Quellen ist kein Schlüsselwechsel notiert, weshalb es in T. 4 Zz. 1 zu einer Dikrepanz kommt (siehe entsprechende Anmerkung)</annot>
                 <annot type="intern">In den KA aufnehmen?</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
-                <edition/>
+                <edition>BauDi-KA</edition>
             </editions>
         </remark>
+        
         <remark type="editorial" xml:id="baudi-30-9dee0c28">
             <class>Notentext</class>
             <mdiv>2</mdiv>
@@ -71,14 +47,39 @@
             <annots>
                 <annot>Dieser Anschlusstakt wurde so umgeschrieben, dass sowohl die Fassung mit als auch ohne wietere Orgel/Harmonium sichtbar wird. Endet die Orgel/ das Harmnium auf Zz. 1, wie in der Partitur (= A-P3, ED-P), so ist der Klang nach einem Viertelschlag wegzunehmen. Spielt die ORgel/das Harmonium weiter, so ist in T. 4 Zz. 1 eine Oktavierung vorzunehmen, um den Anschluss zu ermöglichen.</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-KA2</source>
-                <source>ED-P</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-P</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
-                <edition/>
+                <edition>BauDi-P</edition>
+                <edition>BauDi-KA</edition>
+            </editions>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-8266d79b">
+            <class>Bemerkung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet</part>
+                <part>harmonium.right</part>
+                <part>organ.right</part>
+            </parts>
+            <annots>
+                <annot>Die Fußnote ist nur im Klavierauszug zu finden. Die Bezeichnung \enquote{Knabenchor} findet sich außerhalb dieser wohl im Korrekturvorgang nachgetragenen Fußnote nur noch auf dem Titelblatt. An allen anderen Stellen die der Schülerhcor hinsichtlich des Geschlechts der Sänger*innen nicht spezifiziert.</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
             </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-98fcc1bf">
@@ -96,14 +97,631 @@
             <annots>
                 <annot>Violinchor: Bogen in Chor-Violine II fälschlich bis T. 13 Zz. 1 geführt (=A-P3). In ED-KA und ED-KA2 zusätzlich Bogen der Oberstimme bis T. 13 Zz. 1 geführt.</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
-                <edition/>
-                <edition/>
+                <edition>BauDi-KA</edition>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+    <remark type="reading">
+        <class>Dynamik</class>
+        <mdiv>2</mdiv>
+        <occurances>
+            <occurance><position measure="1" count="1"/></occurance>
+        </occurances>
+        <parts><part>organ</part></parts>
+        <annots>
+            <annot>Ohne <dynam>p</dynam></annot>
+        </annots>
+        <manifestationList>
+            <manifestation>A-P2</manifestation>
+        </manifestationList>
+        <editions>
+            <edition>BauDi-P</edition>
+        </editions>
+    </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                <range type="start" measure="1" count="1"/>
+                <range type="stop" measure="1" count="3"/>
+                </occurance>
+            </occurances>
+            <parts><part>organ.left</part></parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance><position measure="1" count="3"/></occurance>
+            </occurances>
+            <parts><part>organ.left</part></parts>
+            <annots>
+                <annot><note pname="g" oct="3" dur="2"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                <range type="start" measure="1" count="1"/>
+                <range type="stop" measure="1" count="3"/>
+                </occurance>
+            </occurances>
+            <parts><part>organ.right</part></parts>
+            <annots>
+                <annot><slur/> doppelt</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="2" count="1"/>
+                    <range type="stop" measure="2" count="3"/>
+                </occurance>
+            </occurances>
+            <parts><part>organ.left</part></parts>
+            <annots>
+                <annot>Ohne <slur/> (Oberstimme)</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="3" count="3"/>
+                    <range type="stop" measure="3" count="4"/>
+                </occurance>
+            </occurances>
+            <parts><part>organ.right</part></parts>
+            <annots>
+                <annot>Ohne <slur/> (Unterstimme)</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="1"/>
+                </occurance>
+            </occurances>
+            <parts><part>organ</part></parts>
+            <annots>
+                <annot><note dur="2"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="1"/>
+                </occurance>
+            </occurances>
+            <parts><partGrp>alto</partGrp></parts>
+            <annots>
+                <annot><ptr type="conjecture" target="#ED-P"/><dynam>p</dynam></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="1"/>
+                </occurance>
+            </occurances>
+            <parts><partGrp>alto</partGrp></parts>
+            <annots>
+                <annot>Ohne <dynam>p</dynam></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="annotation">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="1"/>
+                </occurance>
+            </occurances>
+            <parts><partGrp>choirViolin</partGrp></parts>
+            <annots>
+                <annot><dynam>pp</dynam> mittig für alle Stimmen notiert</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="4"/>
+                    <range type="stop" measure="8"/>
+                </occurance>
+            </occurances>
+            <parts><partGrp>choirViolin</partGrp></parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="6" count="1"/>
+                    <range type="stop" measure="8" count="4"/>
+                </occurance>
+            </occurances>
+            <parts><partGrp>choirViolin</partGrp></parts>
+            <annots>
+                <annot>Doppelt <ptr target="#A-P2" corresp="#choirFemale"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Gesangstext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="7"/>
+                </occurance>
+            </occurances>
+            <parts><partGrp>choirFemale</partGrp></parts>
+            <annots>
+                <annot><syl>To</syl><syl>ten!</syl></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="9" count="1"/>
+                    <range type="stop" measure="9" count="4"/>
+                </occurance>
+            </occurances>
+            <parts><part>choirViolin.iii</part></parts>
+            <annots>
+                <annot><note dur="2" dots="1"/><note dur="4"></note></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="10" count="1"/>
+                    <range type="stop" measure="10" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>choirViolin.iii</part>
+                <part>choirViolin.iv</part>
+            </parts>
+            <annots>
+                <annot><note dur="2"/><note dur="4" slur="i1"><artic artic="ten"/></note><note dur="4" slur="t1"><artic artic="ten"/></note></annot>
+                <annot><ptr target="#A-P2" corresp="#choirViolin.iii"/> <subst><del><note dur="4" dots="1"/></del><add><note dur="2"/></add></subst></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance><range type="start" measure="11" count="1"/>
+                <range type="stop" measure="11" count="3"/></occurance>
+            </occurances>
+            <parts><part>choirViolin.ii</part></parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="12" count="1"/>
+                    <range type="stop" measure="12" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>choirViolin.ii</part>
+            </parts>
+            <annots>
+                <annot><slur/> endet erst in Takt 13 Zählzeit 1</annot>
+                <annot><ptr type="conjecture" target="#A-P2"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="12" count="1"/>
+                    <range type="stop" measure="12" count="4"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="14" count="1"/>
+                    <range type="stop" measure="14" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>soprano</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="cres"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="13" count="1"/>
+                    <range type="stop" measure="13" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>alto</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="cres"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="13" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>alto.i</part>
+            </parts>
+            <annots>
+                <annot><subst><del><note dur="8"/></del><add><note dur="4"/></add></subst> (Fähnchen gestrichen)</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="14" count="1"/>
+                    <range type="stop" measure="14" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>choirViolin.ii</part>
+            </parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="16" count="1"/>
+                    <range type="stop" measure="15" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>choirViolin</partGrp>
+            </parts>
+            <annots>
+                <annot><note dur="2"/><note dur="4" slur="i1"><artic artic="ten"/></note><note dur="4" slur="t1"><artic artic="ten"/></note></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="16"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>choirFemale</part>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="cres"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark><remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    
+                </occurance>
+            </occurances>
+            <parts>
+                <part></part>
+            </parts>
+            <annots>
+                <annot></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
             </editions>
         </remark>
     </remarks>
