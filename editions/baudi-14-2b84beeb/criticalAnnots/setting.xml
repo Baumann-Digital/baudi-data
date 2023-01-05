@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<setting xmlns="http://baumann-digital.de/ns/crApp" xml:id="crApp-template-settings">
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<setting xmlns="http://baumann-digital.de/ns/crApp" xmlns:crapp="http://baumann-digital.de/ns/crApp" xml:id="crApp-template-settings">
     <language codedval="de"/>
     <mdivs>
         <!-- @no is used for the schema values but should be: Use 0 (Vorspiel), 1 (Chor) -->
@@ -270,59 +270,59 @@
         <!-- needs an @xml:id, can have an @target -->
         <work xml:id="baudi-02-aedbaef3"/>
     </relWorks>
-    <relSources>
-        <!-- @siglum is used for the schema -->
-        <!-- <source siglum="SIG" sortNo="NUM" target="link/to/file.xml">Label of the source</source>-->
-        <source siglum="A-P1" sortNo="1">
+    <manifestationList>
+        <!-- @xml:id is used for the schema -->
+        <!-- <source xml:id="SIG" sortNo="NUM" target="link/to/file.xml">Label of the source</source>-->
+        <manifestation sortNo="1" xml:id="A-P1">
             <label xml:lang="de">Handschriftliche Partitur (Vorspiel)</label>
-        </source>
-        <source siglum="A-P2" sortNo="2">
+        </manifestation>
+        <manifestation sortNo="2" xml:id="A-P2">
             <label xml:lang="de">Erstschrift (I, II) und Entwurf (IX)</label>
-        </source>
-        <source siglum="A-P3" sortNo="3">
+        </manifestation>
+        <manifestation sortNo="3" xml:id="A-P3">
             <label xml:lang="de">Handschriftliche Partitur (Stichvorlage)</label>
-        </source>
-        <source siglum="A-P3-KA" sortNo="3">
+        </manifestation>
+        <manifestation xml:id="A-P3-KA" sortNo="3">
             <label xml:lang="de">Handschriftliche Partitur (Stichvorlage)</label>
-        </source>
-        <source siglum="A-St-Vl" sortNo="11">
+        </manifestation>
+        <manifestation xml:id="A-St-Vl" sortNo="11">
             <label xml:lang="de">Handschriftliche Violinstimmen (Spätere Bearbeitung)</label>
-        </source>
-        <source siglum="A-St-Orch" sortNo="4">
+        </manifestation>
+        <manifestation xml:id="A-St-Orch" sortNo="4">
             <label xml:lang="de">Handschriftliche Orchesterstimmen (Vorspiel)</label>
-        </source>
-        <source siglum="ED-KA1" sortNo="5">
+        </manifestation>
+        <manifestation xml:id="ED-KA1" sortNo="5">
             <label xml:lang="de">Klavierauszug mit handschriftlichen Eintragungen (Handexemplar)</label>
-        </source>
+        </manifestation>
         <!--<manifestation xml:id="ED-P"/>-->
-        <source siglum="ED-P" sortNo="7">
+        <manifestation xml:id="ED-P" sortNo="7">
             <label xml:lang="de">Erstdruck Partitur</label>
-        </source>
-        <source siglum="ED-KA2" sortNo="6">
+        </manifestation>
+        <manifestation xml:id="ED-KA2" sortNo="6">
             <label xml:lang="de">Erstdruck Klavierauszug</label>
-        </source>
-        <source siglum="ED-St-Orch" sortNo="8">
+        </manifestation>
+        <manifestation xml:id="ED-St-Orch" sortNo="8">
             <label xml:lang="de">Erstdruck Stimen (Orchester)</label>
-        </source>
-        <source siglum="ED-St-SSAA" sortNo="9">
+        </manifestation>
+        <manifestation xml:id="ED-St-SSAA" sortNo="9">
             <label xml:lang="de">Erstdruck Stimmen (SSAA)</label>
-        </source>
-        <source siglum="ED-St-TTBB" sortNo="10">
+        </manifestation>
+        <manifestation xml:id="ED-St-TTBB" sortNo="10">
             <label xml:lang="de">Erstdruck Stimmen (TTBB)</label>
-        </source>
-    </relSources>
+        </manifestation>
+    </manifestationList>
     <relEditions>
-        <!--<edition siglum="SIGLUM" sortNo="NUM" target="link/to/file.xml">Label of the edition</edition>-->
-        <edition siglum="BauDi-P">
+        <!--<edition xml:id="SIGLUM" sortNo="NUM" target="link/to/file.xml">Label of the edition</edition>-->
+        <edition xml:id="BauDi-P">
             <label xml:lang="de">BauDi Partitur</label>
         </edition>
-        <edition siglum="BauDi-KA">
+        <edition xml:id="BauDi-KA">
             <label xml:lang="de">BauDi Klavierauszug</label>
         </edition>
-        <edition siglum="BauDi-Harm">
+        <edition xml:id="BauDi-Harm">
             <label xml:lang="de">BauDi Harmoniumstimme (Bearb.)</label>
         </edition>
-        <edition siglum="BauDi-Vl">
+        <edition xml:id="BauDi-Vl">
             <label xml:lang="de">BauDi Violinstimme (Bearb.)</label>
         </edition>
     </relEditions>
@@ -379,7 +379,7 @@
             </class>
         </classGrp>
         <classGrp label="AnmerkungsArt">
-            <class xml:id="missing">
+            <class codedval="missing" xml:id="missing">
                 <!-- class="#missing" -->
                 <label xml:lang="de">Ohne/Fehlend</label>
                 <label xml:lang="en">without/missing</label>
