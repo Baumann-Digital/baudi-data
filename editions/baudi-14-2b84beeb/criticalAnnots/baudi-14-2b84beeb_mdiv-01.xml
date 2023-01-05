@@ -18,10 +18,10 @@
             <annots>
                 <annot>Tonhöhenangabe <q>E.H.</q> nicht ausgeführt</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -36,13 +36,13 @@
             </occurances>
             <parts>all</parts>
             <annots>
-                <annot><ptr target="A-P2"/>Ohne <tempo/></annot>
-                <annot><ptr target="ED-P"/><tempo/> ohne <tempo type="vague" mm="60" mm.unit="4">etwa 60</tempo></annot>
+                <annot><ptr target="#A-P2"/>Ohne <tempo/></annot>
+                <annot><ptr target="#ED-P"/><tempo/> ohne <tempo type="vague" mm="60" mm.unit="4">etwa 60</tempo></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -61,14 +61,14 @@
             </parts>
             <annots>
                 <annot>Stimme nicht ausnotiert: <q>col Cello</q></annot>
-                <annot><ptr target="A-P3"/> Faulenzer ab Takt 4 mit blauem Farbstift, ab Takt 7 mit schwarzer Tinte notiert</annot>
-                <annot><ptr target="ED-P"/> Violoncello und Kontrabass im selben System zweistimmig notiert.</annot>
+                <annot><ptr target="#A-P3"/> Faulenzer ab Takt 4 mit blauem Farbstift, ab Takt 7 mit schwarzer Tinte notiert</annot>
+                <annot><ptr target="#ED-P"/> Violoncello und Kontrabass im selben System zweistimmig notiert.</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -86,12 +86,12 @@
                 <part>piano.left</part>
             </parts>
             <annots>
-                <annot>Bogen wohl irrtümlich über die letzte Achtel hinausgehend (vgl. <ptr target="A-P3 piano.left"/>)</annot>
-                <annot>In <ptr target="A-P2"/> endet der Bogen zwar auf der letzte Achtel, ist in <ptr target="A-P3 piano.left"/> jedoch weitergehend notiert</annot>
+                <annot>Bogen wohl irrtümlich über die letzte Achtel hinausgehend (vgl. <ptr target="#A-P3 piano.left"/>)</annot>
+                <annot>In <ptr target="#A-P2"/> endet der Bogen zwar auf der letzte Achtel, ist in <ptr target="#A-P3 piano.left"/> jedoch weitergehend notiert</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -110,9 +110,9 @@
             <annots>
                 <annot><note pname="b" oct="2" dur="8"/> ohne <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -130,12 +130,12 @@
                 <part>piano.left</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P3"/><slur/> über Zählzeit 1 neu angesetzt</annot>
-                <annot><ptr target="A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="A-P3 violoncello"/><ptr target="A-P2 violoncello"/><ptr target="ED-P violoncello doubleBass"/></annot>
+                <annot><ptr target="#A-P3"/><slur/> über Zählzeit 1 neu angesetzt</annot>
+                <annot><ptr target="#A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="#A-P3 violoncello"/><ptr target="#A-P2 violoncello"/><ptr target="#ED-P violoncello doubleBass"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -152,7 +152,7 @@
                 <part>piano.left</part>
             </parts>
             <annots>
-                <annot><ptr type="A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="A-P3 violoncello"/><ptr target="A-P2 violoncello"/><ptr target="ED-P violoncello doubleBass"/></annot>
+                <annot><ptr type="A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="#A-P3 violoncello"/><ptr target="#A-P2 violoncello"/><ptr target="#ED-P violoncello doubleBass"/></annot>
             </annots>
             <sources>
                 <source>A-P2</source>
@@ -179,11 +179,11 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P2"/><slur/> endet erst in Takt 8 Zählzeit 1, dadurch beginnt der folgende <slur/> erst in Takt 8 Zählzeit 3 (statt T. 8 Zz. 1) und endet erst in Takt 9 Zählzeit 1</annot>
+                <annot><ptr target="#A-P2"/><slur/> endet erst in Takt 8 Zählzeit 1, dadurch beginnt der folgende <slur/> erst in Takt 8 Zählzeit 3 (statt T. 8 Zz. 1) und endet erst in Takt 9 Zählzeit 1</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -203,13 +203,13 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P2 piano.left violoncello"/><ptr target="A-P3 piano.left"/>Ohne <slur/></annot>
-                <annot><ptr target="A-P2 piano.left violoncello"/><ptr target="A-P3 piano.left"/>Ohne <artic artic="stacc"/></annot>
+                <annot><ptr target="#A-P2 piano.left violoncello"/><ptr target="#A-P3 piano.left"/>Ohne <slur/></annot>
+                <annot><ptr target="#A-P2 piano.left violoncello"/><ptr target="#A-P3 piano.left"/>Ohne <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -253,9 +253,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -274,9 +274,9 @@
             <annots>
                 <annot>Ohne <dynam>pp</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -297,9 +297,9 @@
                     <add type="pencil">Viola</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -320,9 +320,9 @@
                     <add type="pencil">etc/dfa?</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -342,9 +342,9 @@
             <annots>
                 <annot>Zusätzlicher <slur/> von Zählzeit 1 zu Zählzeit 3 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -364,9 +364,9 @@
             <annots>
                 <annot><slur/> beginnt bereits in Takt 13 Zählzeit 4</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
                 <edition>BauDi-KA</edition>
@@ -387,9 +387,9 @@
             <annots>
                 <annot><slur/> beginnt bereits in Zählzeit 1</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-KA</edition>
             </editions>
@@ -409,9 +409,9 @@
             <annots>
                 <annot><slur/> von Zählzeit 1 zu 3 statt Zählzeit 3 zu 4</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-KA</edition>
             </editions>
@@ -431,9 +431,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-KA</edition>
             </editions>
@@ -451,16 +451,16 @@
                 <part>piano.right</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P3 piano.right"/>
-                    <ptr target="ED-KA1 piano.right"/>
-                    <ptr target="ED-KA2 piano.right"/> ohne <slur/>; <ptr target="BauDi-KA"/> folgt <ptr target="A-P2"/> (vgl. auch <ptr target="A-P3 viola"/>)</annot>
+                <annot><ptr target="#A-P3 piano.right"/>
+                    <ptr target="#ED-KA1 piano.right"/>
+                    <ptr target="#ED-KA2 piano.right"/> ohne <slur/>; <ptr target="BauDi-KA"/> folgt <ptr target="#A-P2"/> (vgl. auch <ptr target="#A-P3 viola"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-KA1</source>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-KA</edition>
             </editions>
@@ -481,9 +481,9 @@
                     <add type="pencil">Viol. I</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -504,9 +504,9 @@
                     <add type="pencil">V. II</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -529,9 +529,9 @@
             <annots>
                 <annot>Erste Schlaghälfte mit <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -550,9 +550,9 @@
             <annots>
                 <annot>Letzte <note pname="b" oct="4" dur="8"/> ohne <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -571,9 +571,9 @@
             <annots>
                 <annot>Ohne <dynam>p</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -592,9 +592,9 @@
             <annots>
                 <annot><note pname="d" oct="5" dur="8"/> ohne <accid accid="n" type="warn"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -636,9 +636,9 @@
                     <add type="pencil">Hörner</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -667,11 +667,11 @@
             <annots>
                 <annot><slur/> endet bereits mit Beginn der Haltenote; BauDi-P zum ender der Haltenote hin verlängert</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -700,11 +700,11 @@
             <annots>
                 <annot>Bögen analog zu <ptr target="hornFrench.ii hornFrench.iv"/>, hier jedoch kein Wechsel von <slur/> und <tie/>; <ptr target="BauDi-P"/> Zusammenfassung der Bögen (vgl. auch <ptr target="hornFrench.ii hornFrench.iv"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -726,9 +726,9 @@
                     <dynam>cresc - cen - do</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -748,16 +748,16 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>cresc.</dynam>; <ptr target="BauDi-P"/> folgt <ptr target="ED-P"/></annot>
+                <annot>Ohne <dynam>cresc.</dynam>; <ptr target="BauDi-P"/> folgt <ptr target="#ED-P"/></annot>
                 <annot>
-                    <ptr target="A-P3 viola"/>
+                    <ptr target="#A-P3 viola"/>
                     <add type="pencil">cresc.</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -779,9 +779,9 @@
                     <add type="pencil">II Fag.</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -801,9 +801,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -827,9 +827,9 @@
                     <note dur="16"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -848,9 +848,9 @@
             <annots>
                 <annot>Letzte <note pname="a" oct="5" dur="8"><artic artic="stacc"/></note></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -872,9 +872,9 @@
                     <add type="pencil">Oboe</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -896,9 +896,9 @@
                     <add type="pencil">Clar</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -917,9 +917,9 @@
             <annots>
                 <annot>Erste <note pname="b" oct="4" dur="8"/> ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -943,11 +943,11 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> nur in <ptr target="A-P3 oboe.i clarinet.i"/> ausgeführt; <ptr target="BauDi-P"/> folgt ED-P</annot>
+                <annot><artic artic="acc"/> nur in <ptr target="#A-P3 oboe.i clarinet.i"/> ausgeführt; <ptr target="BauDi-P"/> folgt ED-P</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -969,9 +969,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -990,9 +990,9 @@
             <annots>
                 <annot><rest dur="8"/> zweistimmig ausgeführt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1009,13 +1009,13 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="ED-P"/>)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1038,11 +1038,11 @@
             </parts>
             <annots>
                 <annot>Inhalt gestrichen, mit Verweis <q>siehe Cello</q></annot>
-                <annot>Takte 24–26 nicht in <ptr target="A-P3"/> übernommen</annot>
+                <annot>Takte 24–26 nicht in <ptr target="#A-P3"/> übernommen</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1066,10 +1066,10 @@
                     </add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1086,12 +1086,12 @@
                 <partGrp>strings</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="A-P2"/> ohne <dynam>f</dynam></annot>
+                <annot><ptr target="#A-P2"/> ohne <dynam>f</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1111,12 +1111,12 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=<ptr target="ED-P"/>)</annot>
+                <annot><artic artic="acc"/>ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1135,13 +1135,13 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> analog zu <ptr target="A-P3 hornFrench.i hornFrench.iii"/>ergänzt </annot>
+                <annot><artic artic="acc"/> analog zu <ptr target="#A-P3 hornFrench.i hornFrench.iii"/>ergänzt </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1158,13 +1158,13 @@
                 <part>hornFrench.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="ED-P"/>)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1182,13 +1182,13 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot><slur/> ergänzt (=<ptr target="ED-P"/>, <ptr target="A-P2"/>)</annot>
+                <annot><slur/> ergänzt (=<ptr target="#ED-P"/>, <ptr target="#A-P2"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1211,12 +1211,12 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/> (=<ptr target="ED-P"/>, <ptr target="A-P2"/>)</annot>
+                <annot>Ohne <slur/> (=<ptr target="#ED-P"/>, <ptr target="#A-P2"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1236,9 +1236,9 @@
             <annots>
                 <annot><slur/> für beide Stimmen gesetzt</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1260,9 +1260,9 @@
             <annots>
                 <annot>zweite <note dur="8"><artic artic="stacc"/></note></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1284,9 +1284,9 @@
                 </annot>
                 <annot>Ohne <dynam>ff</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1308,12 +1308,12 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><dynam>ff</dynam>ergänzt, vgl. (=<ptr target="ED-P"/>, <ptr target="A-P3 flutes oboes hornFrench.i hornFrench.ii violoncello"/>)</annot>
+                <annot><dynam>ff</dynam>ergänzt, vgl. (=<ptr target="#ED-P"/>, <ptr target="#A-P3 flutes oboes hornFrench.i hornFrench.ii violoncello"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1331,13 +1331,13 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P2"/>
+                    <ptr target="#A-P2"/>
                     <dynam>sf</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1358,9 +1358,9 @@
                 <annot>Ohne <dynam>ff</dynam></annot>
                 <annot>Beide <note dur="8"/> ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1380,10 +1380,10 @@
             <annots>
                 <annot>Beide <note dur="8"/> ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1403,9 +1403,9 @@
             <annots>
                 <annot>Ohne <tie/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1426,9 +1426,9 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1447,9 +1447,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1469,9 +1469,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1489,12 +1489,12 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Nur ein <slur/> abgehend, jedoch nach <sb/> nicht ankommend; nach <ptr target="ED-P"/> ergänzt.</annot>
+                <annot>Nur ein <slur/> abgehend, jedoch nach <sb/> nicht ankommend; nach <ptr target="#ED-P"/> ergänzt.</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1512,13 +1512,13 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P3"/> nur oberer <tie/> abgehend, aber zwei <tie/> nach <sb/> ankommend.</annot>
-                <annot><ptr target="ED-P"/> beide <tie/> nach <sb/> nur ankommend</annot>
+                <annot><ptr target="#A-P3"/> nur oberer <tie/> abgehend, aber zwei <tie/> nach <sb/> ankommend.</annot>
+                <annot><ptr target="#ED-P"/> beide <tie/> nach <sb/> nur ankommend</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1536,15 +1536,15 @@
                 <part>trombone.ii</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P3"/>, <ptr target="A-P2"/>
-                    <add type="ink">beide</add>; in <ptr target="ED-P"/>
+                <annot><ptr target="#A-P3"/>, <ptr target="#A-P2"/>
+                    <add type="ink">beide</add>; in <ptr target="#ED-P"/>
                     <q>a 2.</q></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1565,9 +1565,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1589,9 +1589,9 @@
             <annots>
                 <annot><slur/> statt <artic artic="acc"/> in Takt 27 Zählzeit 4 letzte <note dur="8"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1613,9 +1613,9 @@
                     <rest dur="8"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1632,18 +1632,18 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="A-P3"/>
-                    <add type="ink">beide</add> oberhalb <ptr target="A-P3 hornFrench.i"/></annot>
-                <annot><ptr target="A-P2"/>
-                    <add type="ink">beide</add> zwischen <ptr target="A-P3 hornFrench.ii hornFrench.iii"/></annot>
-                <annot><ptr target="ED-P"/>
-                    <q>a 2.</q> oberhalb <ptr target="A-P3 hornFrench.i hornFrench.iii"/></annot>
+                <annot><ptr target="#A-P3"/>
+                    <add type="ink">beide</add> oberhalb <ptr target="#A-P3 hornFrench.i"/></annot>
+                <annot><ptr target="#A-P2"/>
+                    <add type="ink">beide</add> zwischen <ptr target="#A-P3 hornFrench.ii hornFrench.iii"/></annot>
+                <annot><ptr target="#ED-P"/>
+                    <q>a 2.</q> oberhalb <ptr target="#A-P3 hornFrench.i hornFrench.iii"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1667,9 +1667,9 @@
                     <rest dur="2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1692,11 +1692,11 @@
                     <ptr type="conjecture" target="ED-StOrch"/>)</annot>
                 <annot><hairpin form="cres"/> bis Taktende verlängert (<ptr type="conjecture" target="ED-StOrch"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-                <source>ED-St-Orch</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+                <manifestation>ED-St-Orch</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1714,13 +1714,13 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="A-P3" corresp="violin.i"/>)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="#A-P3" corresp="#violin.i"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1740,12 +1740,12 @@
             </parts>
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
-                <annot><ptr target="A-P2"/> ohne <artic artic="acc"/> wegen ankommendem <slur/></annot>
+                <annot><ptr target="#A-P2"/> ohne <artic artic="acc"/> wegen ankommendem <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1764,12 +1764,12 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="ED-P">
+                        <lem source="#ED-P">
                             <bTrem unitdur="32">
                                 <note pname="g" oct="4" dur="8" stem.mod="2slash"/>
                             </bTrem>
                         </lem>
-                        <rdg source="A-P2 A-P3">
+                        <rdg source="#A-P2 #A-P3">
                             <bTrem unitdur="32">
                                 <note pname="g" oct="4" dur="8" stem.mod="3slash"/>
                             </bTrem>
@@ -1777,10 +1777,10 @@
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1800,10 +1800,10 @@
             <annots>
                 <annot><hairpin form="cres"/> nicht vollständig ausgeführt (<ptr type="compare" target="ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1820,12 +1820,12 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="ED-P"/>)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1845,9 +1845,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1869,9 +1869,9 @@
                     <mRest/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1894,9 +1894,9 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1916,9 +1916,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1937,20 +1937,20 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
-                    <ptr target="A-P2"/>
+                    <ptr target="#A-P3"/>
+                    <ptr target="#A-P2"/>
                     <add type="ink">beide</add>
                 </annot>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1970,10 +1970,10 @@
             <annots>
                 <annot><dynam>ff</dynam> (=<ptr type="conjecture" target="ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -1995,9 +1995,9 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2018,9 +2018,9 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2041,9 +2041,9 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2062,9 +2062,9 @@
             <annots>
                 <annot>Ohne <dynam/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2086,10 +2086,10 @@
                     <ptr type="conjecture" target="A-P3 piano.right"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2110,9 +2110,9 @@
                     <tuplet num.visible="false"/>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2132,9 +2132,9 @@
             <annots>
                 <annot>Ohne <ornam/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2152,12 +2152,12 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="ED-P"/>)</annot>
+                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2178,9 +2178,9 @@
                     <tuplet num.visible="false"/>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2203,10 +2203,10 @@
                     <ptr type="conjecture" target="A-P3 violin.i"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2224,16 +2224,16 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
+                    <ptr target="#A-P3"/>
                     <add type="ink">nach F. C</add>
                 </annot>
-                <annot><ptr target="A-P2"/><ptr target="ED-P"/> ohne Anmerkung zum umstimmen</annot>
+                <annot><ptr target="#A-P2"/><ptr target="#ED-P"/> ohne Anmerkung zum umstimmen</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2256,10 +2256,10 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2284,9 +2284,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2305,9 +2305,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2327,9 +2327,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2354,10 +2354,10 @@
                     <tuplet num.visible="true"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2382,9 +2382,9 @@
                     </bTrem>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2403,9 +2403,9 @@
             <annots>
                 <annot><dynam>mf</dynam>, dabei das <add type="ink">m</add> später hinzugefügt</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2424,21 +2424,21 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
+                    <ptr target="#A-P3"/>
                     <del>
                         <dynam>f</dynam>
                     </del>
                 </annot>
                 <annot>
-                    <ptr target="A-P2"/>
+                    <ptr target="#A-P2"/>
                     <dynam>mf</dynam>
                 </annot>
-                <annot><ptr target="ED-P"/> ohne <dynam/></annot>
-                <annot><ptr target="A-P3"/> ist das ursprüngliche <dynam>f</dynam> rasiert, jedoch nicht durch eine neue Angabe ersetzt worden. Sowohl in <ptr target="A-P3"/> als auch <ptr target="A-P2"/> (wenn dort auch <dynam>mf</dynam>) war die Dynamikstufe für Vlc und Kb mit Trp1 und Trp2 kongruent. Es ist naheliegend, dass sich Vlc und Kb dynamisch von den übrigen Streichern abheben sollen.</annot>
+                <annot><ptr target="#ED-P"/> ohne <dynam/></annot>
+                <annot><ptr target="#A-P3"/> ist das ursprüngliche <dynam>f</dynam> rasiert, jedoch nicht durch eine neue Angabe ersetzt worden. Sowohl in <ptr target="#A-P3"/> als auch <ptr target="#A-P2"/> (wenn dort auch <dynam>mf</dynam>) war die Dynamikstufe für Vlc und Kb mit Trp1 und Trp2 kongruent. Es ist naheliegend, dass sich Vlc und Kb dynamisch von den übrigen Streichern abheben sollen.</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2460,9 +2460,9 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2488,9 +2488,9 @@
                     </bTrem>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2510,9 +2510,9 @@
                 <annot>Ohne <dynam>p</dynam>
                     <ptr type="conjecture" target="ED-P"/></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2536,10 +2536,10 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2557,17 +2557,17 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
+                    <ptr target="#A-P3"/>
                     <bTrem unitdur="32">
                         <note pname="a" accid="f" oct="4" dur="8" stem.mod="3slash"/>
                     </bTrem>
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2586,9 +2586,9 @@
             <annots>
                 <annot>Ohne <dynam>ff</dynam></annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2609,9 +2609,9 @@
                     <dynam>ff</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2630,13 +2630,13 @@
             <annots>
                 <annot>
                 <app>
-                    <lem source="A-P3 ED-P"><note pname="f" accid="n" oct="5" dur="4"/></lem>
-                    <rdg source="A-P2"><note pname="f" oct="5" dur="4" accid.ges="s"/></rdg>
+                    <lem source="#A-P3 #ED-P"><note pname="f" accid="n" oct="5" dur="4"/></lem>
+                    <rdg source="#A-P2"><note pname="f" oct="5" dur="4" accid.ges="s"/></rdg>
                 </app></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2661,9 +2661,9 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2684,10 +2684,10 @@
             <annots>
                 <annot><artic artic="acc"/><ptr type="conjecture" target="ED-P hornFrench.i horn.French.ii"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2704,14 +2704,14 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><ptr target="A-P2"/><ptr target="A-P3"/><tuplet num.visible="false"/>
+                <annot><ptr target="#A-P2"/><ptr target="#A-P3"/><tuplet num.visible="false"/>
                     <ptr type="conjecture" target="ED-P"/>)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2733,9 +2733,9 @@
                     <mRest/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2755,9 +2755,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2780,9 +2780,9 @@
                 <annot>Ohne <artic artic="acc"/>
                     <ptr type="conjecture" target="ED-P"/></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2802,9 +2802,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2823,9 +2823,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2844,20 +2844,20 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
-                    <ptr target="A-P2"/>
+                    <ptr target="#A-P3"/>
+                    <ptr target="#A-P2"/>
                     <add type="ink">beide</add>
                 </annot>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2876,18 +2876,18 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="A-P2 A-P3">
+                        <lem source="#A-P2 #A-P3">
                             <note pname="a" accid="f" oct="4" dur="4"/>
                         </lem>
-                        <rdg source="ED-P">
+                        <rdg source="#ED-P">
                             <note pname="a" oct="4" dur="4"/>
                         </rdg>
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2909,10 +2909,10 @@
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2931,9 +2931,9 @@
             <annots>
                 <annot>Ohne<artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2954,9 +2954,9 @@
                     <tuplet num.visible="false"/>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -2974,17 +2974,17 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
-                    <ptr target="ED-P"/>
+                    <ptr target="#A-P3"/>
+                    <ptr target="#ED-P"/>
                     <tuplet num.visible="false"/>
                 </annot>
-                <annot><ptr target="A-P2"/> Ohne <ornam/></annot>
+                <annot><ptr target="#A-P2"/> Ohne <ornam/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3001,11 +3001,11 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>In <ptr target="A-P3"/><q>nach D. E.</q></annot>
+                <annot>In <ptr target="#A-P3"/><q>nach D. E.</q></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3027,10 +3027,10 @@
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3052,10 +3052,10 @@
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3077,10 +3077,10 @@
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3101,9 +3101,9 @@
                     <artic artic="stacc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3122,10 +3122,10 @@
             <annots>
                 <annot>Ohne <mRest/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3146,9 +3146,9 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3168,9 +3168,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3190,9 +3190,9 @@
             <annots>
                 <annot>Ohne <ornam/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3213,9 +3213,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3236,9 +3236,9 @@
             <annots>
                 <annot><slur/> in Takt 26 Zählzeit 1 beginnend</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3260,9 +3260,9 @@
                     <tie/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3282,9 +3282,9 @@
             <annots>
                 <annot>Ohne <hairpin form="dim"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3307,9 +3307,9 @@
                     <note pname="d" accid="s" oct="5" dur="2" tie="t"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3332,9 +3332,9 @@
                     <slur/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3353,9 +3353,9 @@
             <annots>
                 <annot>Ohne <mRest/></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3380,11 +3380,11 @@
                     <ptr type="compare" target="A-P2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3403,12 +3403,12 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <note pname="d" oct="5" dur="16" slur="i1"/>
                     <note pname="f" oct="5" dur="16" slur="t1"/>
                 </annot>
                 <annot>
-                    <ptr target="A-P2"/>
+                    <ptr target="#A-P2"/>
                     <note pname="d" oct="5" dur="16">
                         <artic artic="stacc"/>
                     </note>
@@ -3417,11 +3417,11 @@
                     </note>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3439,20 +3439,20 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P2"/>
-                    <ptr target="A-P3"/>
+                    <ptr target="#A-P2"/>
+                    <ptr target="#A-P3"/>
                     <q>geteilt</q>
                 </annot>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>get.</q>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3472,9 +3472,9 @@
             <annots>
                 <annot><slur/> beginnt erst in Takt 40 Zählzeit 1</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3493,9 +3493,9 @@
             <annots>
                 <annot><hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3517,7 +3517,7 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="A-P3 ED-P">
+                        <lem source="#A-P3 #ED-P">
                             <scoreDef xml:id="ssaa2zz">
                                 <staffGrp xml:id="s1rlawnz">
                                     <staffGrp xml:id="s1pp3ay5">
@@ -3603,7 +3603,7 @@
                                 </measure>
                             </section>
                         </lem>
-                        <rdg source="A-P2">
+                        <rdg source="#A-P2">
                             <scoreDef xml:id="s1n9k162">
                                 <staffGrp xml:id="slg76pj">
                                     <staffGrp xml:id="s18pdees">
@@ -3690,9 +3690,9 @@
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3714,13 +3714,13 @@
             </parts>
             <annots>
                 <annot><hairpin form="dim"/> verkürzt <ptr type="conjecture" target="ED-P"/></annot>
-                <annot><ptr target="A-P2"/> ohne <hairpin form="dim"/></annot>
+                <annot><ptr target="#A-P2"/> ohne <hairpin form="dim"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3741,9 +3741,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3766,9 +3766,9 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3789,11 +3789,11 @@
                     <q>I</q>
                 </annot>
                 <annot>Ohne <mRest/>
-                    <ptr target="A-P2 bassoon.ii"/></annot>
+                    <ptr target="#A-P2 bassoon.ii"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3814,9 +3814,9 @@
             <annots>
                 <annot>Ohne <dynam>p</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3835,11 +3835,11 @@
             <annots>
                 <annot>Nach <sb/> (Takt 39) <clef shape="F" line="4"/> vorgezeichnet, jedoch kein Schlüsselwechsel markiert</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3861,9 +3861,9 @@
             <annots>
                 <annot>Beginn der <hairpin form="cres"/> etwas später</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3882,9 +3882,9 @@
             <annots>
                 <annot>Ohne <mRest/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3904,11 +3904,11 @@
             <annots>
                 <annot>Nur ein <tie/> notiert <ptr type="conjecture" target="ED-P"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3928,9 +3928,9 @@
             <annots>
                 <annot><hairpin form="cres"/> beginnt etwas später</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3953,10 +3953,10 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -3978,9 +3978,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4001,9 +4001,9 @@
                     <dynam>p</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4024,9 +4024,9 @@
                 <annot>Ohne <slur/> von <note pname="b" oct="4" dur="16"/> zu <note pname="d" oct="5" dur="16"/></annot>
                 <annot>Ohne <artic artic="stacc"/> an <note pname="d" oct="5" dur="16"/>, dafür <tie/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4050,9 +4050,9 @@
                     <add type="pencil">rit</add>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4076,10 +4076,10 @@
                     <hairpin form="dim"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4099,10 +4099,10 @@
             <annots>
                 <annot><hairpin form="dim"/> beginnt (wohl aus Platzgründen) erst während der zweiten Zählzeit <ptr type="compare" target="A-P2"/></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4125,10 +4125,10 @@
                     <hairpin form="dim"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4150,9 +4150,9 @@
             <annots>
                 <annot><hairpin form="dim"/> aneinander angeglichen</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4176,11 +4176,11 @@
                     <ptr type="compare" target="A-P2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4197,13 +4197,13 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><q>zart</q> nur <ptr target="A-P2 A-P3 ED-P" corresp="hornFrench.i"/></annot>
+                <annot><q>zart</q> nur <ptr target="#A-P2 A-P3 ED-P" corresp="#hornFrench.i"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4223,9 +4223,9 @@
                 <annot><q>dolce</q> unterhalb notiert</annot>
                 <annot><q>dolce</q> aufgrund des abgenutzen Druckbildes schwer lesbar</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4243,16 +4243,16 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr type="conjecture" target="ED-StOrch" corresp="violin.ii"/>
+                    <ptr type="conjecture" target="#ED-StOrch" corresp="#violin.ii"/>
                     <q>dolce</q>
-                    <ptr type="compare" target="A-P2"/>
+                    <ptr type="compare" target="#A-P2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4273,9 +4273,9 @@
                     <q>dolce</q>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4295,9 +4295,9 @@
             <annots>
                 <annot><hairpin form="dim"/> in Takt 44 nicht abgehend, in Takt 45 aber für beide Horn-Systeme ankommend</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4316,9 +4316,9 @@
             <annots>
                 <annot><hairpin form="dim"/> beginnt erst in Zählzeit 2</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4337,9 +4337,9 @@
             <annots>
                 <annot><slur/> unterbrochen (neu angesetzt)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4358,9 +4358,9 @@
             <annots>
                 <annot>Ein <dynam>p</dynam> für alle Stimmen</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4382,9 +4382,9 @@
                     <dynam>pp</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4405,9 +4405,9 @@
                     <dynam>p</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4429,9 +4429,9 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4451,13 +4451,13 @@
             </parts>
             <annots>
                 <annot><hairpin form="cres"/> etwas später beginnend <ptr type="compare" target="A-P2 ED-P"/></annot>
-                <annot><hairpin form="cres"/> endet in <ptr target="A-P2 ED-P"/> bereits in Takt 48 Zählzeit 4</annot>
+                <annot><hairpin form="cres"/> endet in <ptr target="#A-P2 ED-P"/> bereits in Takt 48 Zählzeit 4</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4476,9 +4476,9 @@
             <annots>
                 <annot>Ohne <dynam>p</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4498,9 +4498,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4520,9 +4520,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4541,23 +4541,23 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3 ED-P"/>
+                    <ptr target="#A-P3 ED-P"/>
                     <note dur="1" tie="i"/>
                     <note dur="1" tie="t" slur="i1"/>
                     <note dur="2" slur="t1"/>
                 </annot>
                 <annot>
-                    <ptr target="A-P2"/>
+                    <ptr target="#A-P2"/>
                     <note dur="1" tie="i"/>
                     <note dur="1" tie="t"/>
                     <note dur="2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4580,9 +4580,9 @@
                     <slur/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4602,9 +4602,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4625,9 +4625,9 @@
             <annots>
                 <annot>Dehnungsstriche nach <dynam>cresc</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4648,9 +4648,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4671,9 +4671,9 @@
             <annots>
                 <annot>Ohne <dynam>f</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4695,10 +4695,10 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4718,9 +4718,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4740,9 +4740,9 @@
             <annots>
                 <annot><hairpin form="cres"/> endet erst in Zählzeit 2</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4764,9 +4764,9 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4785,11 +4785,11 @@
             <annots>
                 <annot><ptr type="conjecture" target="ED-P A-P2"/><slur/> endet bereits in Takt 55 Zählzeit 4</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4813,9 +4813,9 @@
                 <annot>Takte 56–57 leer</annot>
                 <annot>Takte 58–64 Faulenzer</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4840,11 +4840,11 @@
                     <tie/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4862,14 +4862,14 @@
                 <partGrp>woods</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="A-P3"/> Flöten ohne <hairpin form="dim"/></annot>
+                <annot><ptr target="#A-P3"/> Flöten ohne <hairpin form="dim"/></annot>
                 <annot><hairpin form="dim"/> Beginn und Ende der Gabeln uneinheitlich</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4889,9 +4889,9 @@
             <annots>
                 <annot><hairpin form="dim"/> beginnt er in Zählzeit 2</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4911,14 +4911,14 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="ED-P"/>
-                    <ptr target="A-P3" corresp="bassons"/> Zwei <hairpin form="dim"/> hintereinander (taktweise) <ptr type="compare" target="A-P2"/></annot>
+                    <ptr target="#ED-P"/>
+                    <ptr target="#A-P3" corresp="#bassoons"/> Zwei <hairpin form="dim"/> hintereinander (taktweise) <ptr type="compare" target="A-P2"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4938,9 +4938,9 @@
             <annots>
                 <annot>Eigenes <dynam>p</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4954,13 +4954,13 @@
             </occurances>
             <parts>all</parts>
             <annots>
-                <annot><hairpin form="dim"/> uneinheitlich an <ptr target="ED-P"/> orientiert</annot>
+                <annot><hairpin form="dim"/> uneinheitlich an <ptr target="#ED-P"/> orientiert</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -4983,10 +4983,10 @@
                     <tie/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5006,13 +5006,13 @@
             </parts>
             <annots>
                 <annot><slur/> in Takt 58 ankommend, aber vor <sb/> nicht abgehend <ptr type="compare" target="A-P2"/></annot>
-                <annot><ptr target="ED-P"/> ohne <slur/></annot>
+                <annot><ptr target="#ED-P"/> ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5031,9 +5031,9 @@
             <annots>
                 <annot><slur/> nicht ankommend</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5056,10 +5056,10 @@
                     <dynam>p</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5080,9 +5080,9 @@
             <annots>
                 <annot><dynam>p</dynam> erst in Zählzeit 2</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5100,18 +5100,18 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
+                    <ptr target="#A-P3"/>
                     <q>beide</q>
                 </annot>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5133,9 +5133,9 @@
                     <rest dur="2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5156,9 +5156,9 @@
                     <dynam>p</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5178,9 +5178,9 @@
             <annots>
                 <annot>Doppelung der Flöten</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5201,9 +5201,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5224,9 +5224,9 @@
             <annots>
                 <annot>Stimme nicht ausgeführt (fehlt)</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5249,9 +5249,9 @@
                     </note>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5273,10 +5273,10 @@
                     <accid accid="s"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5297,9 +5297,9 @@
                     <dynam>p</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5319,9 +5319,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5340,9 +5340,9 @@
             <annots>
                 <annot>Ohne <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5360,12 +5360,12 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="A-P2"/> ohne <hairpin form="cres"/></annot>
-                <annot><ptr target="ED-P"/> beginn der <hairpin form="cres"/> erst in Takt 63 Zählzeit 1</annot>
+                <annot><ptr target="#A-P2"/> ohne <hairpin form="cres"/></annot>
+                <annot><ptr target="#ED-P"/> beginn der <hairpin form="cres"/> erst in Takt 63 Zählzeit 1</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5384,7 +5384,7 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P3"/>
+                    <ptr target="#A-P3"/>
                     <beam>
                         <note dur="8"/>
                         <note dur="8"/>
@@ -5396,10 +5396,10 @@
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5418,9 +5418,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5441,9 +5441,9 @@
             <annots>
                 <annot>Ohne <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5464,9 +5464,9 @@
                     <artic artic="ten"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5491,9 +5491,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5515,9 +5515,9 @@
                     <artic artic="stacc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5536,9 +5536,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5568,10 +5568,10 @@
                     </beam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5597,9 +5597,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5621,9 +5621,9 @@
             <annots>
                 <annot>Ohne <artic artic="stacc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5642,9 +5642,9 @@
             <annots>
                 <annot><q>zus.</q>, im folgenden einstimmig notiert</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5665,9 +5665,9 @@
             <annots>
                 <annot>Ohne <slur/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5701,9 +5701,9 @@
                     <slur/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5724,9 +5724,9 @@
                     <dynam>p</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5747,9 +5747,9 @@
             <annots>
                 <annot>Stimme nicht ausgeführt</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5768,9 +5768,9 @@
             <annots>
                 <annot><hairpin form="cres"/> beginnt bereits in der Taktmitte</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5791,9 +5791,9 @@
                     <dynam>mf</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5812,15 +5812,15 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
-                <annot><ptr target="A-P3"/> Zweistimmig ausnotiert</annot>
+                <annot><ptr target="#A-P3"/> Zweistimmig ausnotiert</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5842,9 +5842,9 @@
                     <artic artic="stacc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5869,11 +5869,11 @@
                     <slur/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5896,11 +5896,11 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5918,16 +5918,16 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
-                <annot><ptr target="A-P2 A-P3"/> Zweistimmig ausgeführt</annot>
+                <annot><ptr target="#A-P2 A-P3"/> Zweistimmig ausgeführt</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5946,9 +5946,9 @@
             <annots>
                 <annot><dynam>f</dynam> erst für Zählzeit 4 vorgezeichnet</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5972,11 +5972,11 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -5997,9 +5997,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6019,9 +6019,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6043,10 +6043,10 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6066,9 +6066,9 @@
             <annots>
                 <annot>Keine Balken</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6086,16 +6086,16 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="ED-P"/>
+                    <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
-                <annot><ptr target="A-P2 A-P3"/> zweistimmig ausgeführt</annot>
+                <annot><ptr target="#A-P2 A-P3"/> zweistimmig ausgeführt</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6114,20 +6114,20 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="A-P3 ED-P">
+                        <lem source="#A-P3 #ED-P">
                             <syl>von</syl>
                         </lem>
-                        <rdg source="A-P2">
+                        <rdg source="#A-P2">
                             <syl>zu</syl>
                         </rdg>
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6147,12 +6147,12 @@
                 <annot>
                     <note pname="d" accid="s" oct="4" dur="4"/>
                 </annot>
-                <annot><ptr target="A-P3"/> Rasur vor <note pname="d" oct="4" dur="4"/></annot>
+                <annot><ptr target="#A-P3"/> Rasur vor <note pname="d" oct="4" dur="4"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6172,12 +6172,12 @@
                 <annot>
                     <note pname="d" accid="s" oct="4" dur="4"/>
                 </annot>
-                <annot><ptr target="A-P3"/> Rasur vor <note pname="f" oct="4" dur="4"/></annot>
+                <annot><ptr target="#A-P3"/> Rasur vor <note pname="f" oct="4" dur="4"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6200,11 +6200,11 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6224,9 +6224,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6248,9 +6248,9 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6271,9 +6271,9 @@
                     <artic artic="stacc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6295,9 +6295,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6315,15 +6315,15 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P2 ED-P"/>
+                    <ptr target="#A-P2 ED-P"/>
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6342,9 +6342,9 @@
             <annots>
                 <annot>Ohne <dynam>f</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6368,9 +6368,9 @@
                     <rest dur="2"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6389,9 +6389,9 @@
             <annots>
                 <annot>Wohl irrtümlich mit Hals <note dur="2"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6412,9 +6412,9 @@
                     <note pname="e" accid="s" oct="2" dur="2" dots="1"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6433,11 +6433,11 @@
             <annots>
                 <annot>Keine der Quellen weist eine Anmerkung zum Umstimmen auf.</annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6457,9 +6457,9 @@
             <annots>
                 <annot>Ohne <ornam/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6481,11 +6481,11 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6508,10 +6508,10 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6535,9 +6535,9 @@
                     <artic artic="acc"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6560,11 +6560,11 @@
                     <tuplet num.visible="false"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6583,9 +6583,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6604,9 +6604,9 @@
             <annots>
                 <annot>Ohne <ornam/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6627,9 +6627,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6651,9 +6651,9 @@
                     <bTrem><note/></bTrem>
                 </annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6677,11 +6677,11 @@
                     <hairpin form="cres"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6703,9 +6703,9 @@
             <annots>
                 <annot>Ohne <hairpin form="cres"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6724,9 +6724,9 @@
             <annots>
                 <annot>Ohne <dynam>p</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6751,10 +6751,10 @@
                     <dynam>f</dynam>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6772,18 +6772,18 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="A-P2 A-P3"/>
+                    <ptr target="#A-P2 A-P3"/>
                     <bTrem unitdur="32">
                         <note pname="e" accid="f" oct="4" dur="8" stem.mod="3slash"/>
                     </bTrem>
                     <ptr type="conjecture" target="ED-P"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6805,9 +6805,9 @@
             <annots>
                 <annot>Ohne <dynam>f</dynam></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6828,7 +6828,7 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="A-P3">
+                        <lem source="#A-P3">
                             <staff n="1">
                                 <layer n="1">
                                     <note pname="c" oct="3" dur="1"/>
@@ -6837,24 +6837,24 @@
                             <trill place="above" staff="1" tstamp="1"/>
                             <dynam staff="1" tstamp="1">f</dynam>
                         </lem>
-                        <rdg source="ED-P">
+                        <rdg source="#ED-P">
                             <staff n="1">
                                 <layer n="1">
                                     <note pname="c" oct="3" dur="1"/>
                                 </layer>
                             </staff>
                         </rdg>
-                        <rdg source="A-P2">
+                        <rdg source="#A-P2">
                             <mSpace dur="1"/>
                         </rdg>
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6891,9 +6891,10 @@
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source/>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6913,15 +6914,15 @@
             <annots>
                 <annot>
                     <app>
-                        <rdg source="ED-P">
+                        <rdg source="#ED-P">
                             <q>a 2.</q>
                         </rdg>
                     </app>
                 </annot>
             </annots>
-            <sources>
-                <source/>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6942,9 +6943,9 @@
                     <note pname="d" oct="6" dur="8"/>
                 </annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6963,9 +6964,9 @@
             <annots>
                 <annot>Ohne <artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -6983,11 +6984,11 @@
             </parts>
             <annots>
                 <annot><app>
-                    <rdg source="A-P2"><note pname="f" accid.ges="s" oct="2" dur="2" dots="1"/></rdg></app></annot>
+                    <rdg source="#A-P2"><note pname="f" accid.ges="s" oct="2" dur="2" dots="1"/></rdg></app></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7009,11 +7010,11 @@
             <annots>
                 <annot><artic artic="acc"/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7028,9 +7029,9 @@
             <annots>
                 <annot><mSpace/></annot>
             </annots>
-            <sources>
-                <source>A-P2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7045,11 +7046,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7064,11 +7065,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7083,11 +7084,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7102,11 +7103,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7121,11 +7122,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7140,11 +7141,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7159,11 +7160,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7178,11 +7179,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7197,11 +7198,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7216,11 +7217,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7235,11 +7236,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7254,11 +7255,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7273,11 +7274,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7292,11 +7293,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7311,11 +7312,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7330,11 +7331,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7349,11 +7350,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7368,11 +7369,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7387,11 +7388,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7406,11 +7407,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7425,11 +7426,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7444,11 +7445,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7463,11 +7464,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7482,11 +7483,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7501,11 +7502,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7520,11 +7521,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7538,11 +7539,11 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P2</source>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7563,9 +7564,9 @@
             <annots>
                 <annot>Überzählige Halbe Pause oberhalb der 1. Stimme getilgt</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7585,9 +7586,9 @@
             <annots>
                 <annot>Ohne Ganztaktpausen (leeres System)</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7607,9 +7608,9 @@
             <annots>
                 <annot>\enquote{col 8va} aufgrund enger Lage um zwei Oktaven versetzt.</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7629,9 +7630,9 @@
             <annots>
                 <annot>\enquote{col 8va} aufgrund enger Lage um zwei Oktaven versetzt; hier zusätzlich ohne Dehnungsstriche.</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7651,9 +7652,9 @@
             <annots>
                 <annot>Bogen erst in T. 80 Zz. 1 beginnend.</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7672,10 +7673,10 @@
             <annots>
                 <annot>In ED-KA als Viertel ausnotiert</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7696,10 +7697,10 @@
             <annots>
                 <annot>Anmerkung Baumanns: \enquote{Harm. die Mel. in der unteren 8\textsuperscript{va} mitspielen bis [O]}</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>A-St-Vl</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>A-St-Vl</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7720,10 +7721,10 @@
             <annots>
                 <annot>Ohne Haltebogen</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7743,9 +7744,9 @@
             <annots>
                 <annot>Ohne Generalakzidenzien notiert; diese folgen erst in T. 28 nach Seitenumbruch</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7766,9 +7767,9 @@
             <annots>
                 <annot>Ohne Generalakzidentien</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7788,9 +7789,9 @@
             <annots>
                 <annot>Ausnotierte Harmoniumstimme ohne Generalakzidens</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7810,9 +7811,9 @@
             <annots>
                 <annot>Im Autograph einstimmig notiert.</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7833,10 +7834,10 @@
             <annots>
                 <annot>Bis auf T. 25 (\fortissimo), hier keine Dynamik zusätzlich notiert. Die gezeigte Dynamik entstammt dem Klavierauszug (=ED, ED-KA).</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
                 <edition>BauDi-P</edition>
@@ -7856,9 +7857,9 @@
             <annots>
                 <annot>Achtel e mit Bleistift nachgetragen</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7877,9 +7878,9 @@
             <annots>
                 <annot/>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7899,9 +7900,9 @@
             <annots>
                 <annot>SV ohne Pausensetzung</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7920,9 +7921,9 @@
             <annots>
                 <annot>In SV getrennte Notenköpfe für h1</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7942,9 +7943,9 @@
             <annots>
                 <annot>In SV ist nur der obere Intervallton mit der Angabe »col 8va« (und Dehnungsstrichen) notiert.</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7964,9 +7965,9 @@
             <annots>
                 <annot>SV ohne Ritardando-Angabe für Klaviersatz, vgl. jedoch Orch.</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -7986,9 +7987,9 @@
                 <annot>SV ohne \lilyStaccato\,</annot>
                 <annot type="intern">SV fälschlich ohne? (Fehlt der punkt?)</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -8007,9 +8008,9 @@
             <annots>
                 <annot>Bogen nach Seitenumbruch ankommend, in T. 98 jedoch nicht abgehend notiert.</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -8029,9 +8030,9 @@
                 <annot>Punktierte Halbe c1 statt cis1, mit Bleistift nachgetragen.</annot>
                 <annot type="intern">Durch Baumann, oder den Lektor?</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -8051,9 +8052,9 @@
             <annots>
                 <annot>Sv ohne Bogen, vgl. jedoch Trp. 1+2 und Pos. 1+2; an Blechbäser angeglichen</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -8073,9 +8074,9 @@
             <annots>
                 <annot>Sv ohne \lilyStaccato\,</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
@@ -8095,9 +8096,9 @@
             <annots>
                 <annot>In SV sind die Pausen zweistimmig notiert</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>

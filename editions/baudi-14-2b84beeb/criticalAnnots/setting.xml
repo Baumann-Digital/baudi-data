@@ -42,225 +42,225 @@
         </mdiv>
     </mdivs>
     <parts>
-        <!-- @codedval is used for the schema -->
-        <!-- <part codedval="instrumentName.PartNo">InstrumentName</part>-->
-        <partGrp codedval="woods">
+        <!-- @xml:id is used for the schema -->
+        <!-- <part xml:id="instrumentName.PartNo">InstrumentName</part>-->
+        <partGrp xml:id="woods">
             <label xml:lang="de">Holz</label>
-            <partGrp codedval="flutes">
+            <partGrp xml:id="flutes">
                 <label xml:lang="de">Flöten</label>
-                <part codedval="flute.i">
+                <part xml:id="flute.i">
                     <label xml:lang="de">Flöte I</label>
                 </part>
-                <part codedval="flute.ii">
+                <part xml:id="flute.ii">
                     <label xml:lang="de">Flöte´II</label>
                 </part>
             </partGrp>
-            <partGrp codedval="oboes">
+            <partGrp xml:id="oboes">
                 <label xml:lang="de">Oboen</label>
-                <part codedval="oboe.i">
+                <part xml:id="oboe.i">
                     <label xml:lang="de">Oboe I</label>
                 </part>
-                <part codedval="oboe.ii">
+                <part xml:id="oboe.ii">
                     <label xml:lang="de">Oboe II</label>
                 </part>
             </partGrp>
-            <partGrp codedval="clarinets">
+            <partGrp xml:id="clarinets">
                 <label xml:lang="de">Klarinetten</label>
-                <part codedval="clarinet.i">
+                <part xml:id="clarinet.i">
                     <label xml:lang="de">Klarinette I</label>
                 </part>
-                <part codedval="clarinet.ii">
+                <part xml:id="clarinet.ii">
                     <label xml:lang="de">Klarinette II</label>
                 </part>
             </partGrp>
-            <partGrp codedval="bassoons">
+            <partGrp xml:id="bassoons">
                 <label xml:lang="de">Fagotte</label>
-                <part codedval="bassoon.i">
+                <part xml:id="bassoon.i">
                     <label xml:lang="de">Fagott I</label>
                 </part>
-                <part codedval="bassoon.ii">
+                <part xml:id="bassoon.ii">
                     <label xml:lang="de">Fagott II</label>
                 </part>
             </partGrp>
         </partGrp>
-        <partGrp codedval="brass">
+        <partGrp xml:id="brass">
             <label xml:lang="de">Blech</label>
-            <partGrp codedval="hornsFrench">
+            <partGrp xml:id="hornsFrench">
                 <label xml:lang="de">Hörner</label>
-                <part codedval="hornFrench.i">
+                <part xml:id="hornFrench.i">
                     <label xml:lang="de">Horn I</label>
                 </part>
-                <part codedval="hornFrench.ii">
+                <part xml:id="hornFrench.ii">
                     <label xml:lang="de">Horn II</label>
                 </part>
-                <part codedval="hornFrench.iii">
+                <part xml:id="hornFrench.iii">
                     <label xml:lang="de">Horn III</label>
                 </part>
-                <part codedval="hornFrench.iv">
+                <part xml:id="hornFrench.iv">
                     <label xml:lang="de">Horn IV</label>
                 </part>
             </partGrp>
-            <partGrp codedval="trumpets">
+            <partGrp xml:id="trumpets">
                 <label xml:lang="de">Trompeten</label>
-                <part codedval="trumpet.i">
+                <part xml:id="trumpet.i">
                     <label xml:lang="de">Trompete I</label>
                 </part>
-                <part codedval="trumpet.ii">
+                <part xml:id="trumpet.ii">
                     <label xml:lang="de">Trompete II</label>
                 </part>
             </partGrp>
-            <partGrp codedval="trombones">
+            <partGrp xml:id="trombones">
                 <label xml:lang="de">Posaunen</label>
-                <part codedval="trombone.i">
+                <part xml:id="trombone.i">
                     <label xml:lang="de">Posaune I</label>
                 </part>
-                <part codedval="trombone.ii">
+                <part xml:id="trombone.ii">
                     <label xml:lang="de">Posaune II</label>
                 </part>
-                <part codedval="trombone.iii">
+                <part xml:id="trombone.iii">
                     <label xml:lang="de">Posaune III</label>
                 </part>
             </partGrp>
-            <part codedval="tuba">
+            <part xml:id="tuba">
                 <label xml:lang="de">Tuba</label>
             </part>
         </partGrp>
-        <partGrp codedval="percussion">
+        <partGrp xml:id="percussion">
             <label xml:lang="de">Schlagwerk</label>
-            <part codedval="timpani">
+            <part xml:id="timpani">
                 <label xml:lang="de">Pauken</label>
             </part>
-            <part codedval="bells">
+            <part xml:id="bells">
                 <label xml:lang="de">Glocken</label>
             </part>
         </partGrp>
-        <part codedval="solo">
+        <part xml:id="solo">
             <label xml:lang="de">Solo (Hohe Stimme)</label>
         </part>
-        <partGrp codedval="choir">
+        <partGrp xml:id="choir">
             <label xml:lang="de">Chor</label>
-            <partGrp codedval="choirFemale">
+            <partGrp xml:id="choirFemale">
                 <label xml:lang="de">Frauenchor</label>
-                <partGrp codedval="soprano">
+                <partGrp xml:id="soprano">
                     <label xml:lang="de">Sporan</label>
-                    <part codedval="soprano.i">
+                    <part xml:id="soprano.i">
                         <label xml:lang="de">Sporan I</label>
                     </part>
-                    <part codedval="soprano.ii">
+                    <part xml:id="soprano.ii">
                         <label xml:lang="de">Sporan II</label>
                     </part>
                 </partGrp>
-                <partGrp codedval="alto">
+                <partGrp xml:id="alto">
                     <label xml:lang="de">Alt</label>
-                    <part codedval="alto.i">
+                    <part xml:id="alto.i">
                         <label xml:lang="de">Alt I</label>
                     </part>
-                    <part codedval="alto.ii">
+                    <part xml:id="alto.ii">
                         <label xml:lang="de">Alt II</label>
                     </part>
                 </partGrp>
             </partGrp>
-            <partGrp codedval="choirMale">
+            <partGrp xml:id="choirMale">
                 <label xml:lang="de">Männerchor</label>
-                <partGrp codedval="tenor">
+                <partGrp xml:id="tenor">
                     <label xml:lang="de">Tenor</label>
-                    <part codedval="tenor.i">
+                    <part xml:id="tenor.i">
                         <label xml:lang="de">Tenor I</label>
                     </part>
-                    <part codedval="tenor.ii">
+                    <part xml:id="tenor.ii">
                         <label xml:lang="de">Tenor II</label>
                     </part>
                 </partGrp>
-                <partGrp codedval="bass">
+                <partGrp xml:id="bass">
                     <label xml:lang="de">Bass</label>
-                    <part codedval="bass.i">
+                    <part xml:id="bass.i">
                         <label xml:lang="de">Bass I</label>
                     </part>
-                    <part codedval="bass.ii">
+                    <part xml:id="bass.ii">
                         <label xml:lang="de">Bass II</label>
                     </part>
                 </partGrp>
             </partGrp>
         </partGrp>
-        <part codedval="harp">
+        <part xml:id="harp">
             <label xml:lang="de">Harfe</label>
-            <part type="sys" codedval="harp.right">
+            <part type="sys" xml:id="harp.right">
                 <label xml:lang="de">Harfe (rechte Hand)</label>
             </part>
-            <part type="sys" codedval="harp.left">
+            <part type="sys" xml:id="harp.left">
                 <label xml:lang="de">Harfe (linke Hand)</label>
             </part>
         </part>
-        <part codedval="organ">
+        <part xml:id="organ">
             <label xml:lang="en">Organ</label>
             <label xml:lang="de">Orgel</label>
-            <part type="sysGrp" codedval="organManuals">
+            <part type="sysGrp" xml:id="organManuals">
                 <label xml:lang="en">Organ (manuals)</label>
                 <label xml:lang="de">Orgel (Manuale)</label>
-                <part type="sys" codedval="organ.left">
+                <part type="sys" xml:id="organ.left">
                     <label xml:lang="en">Organ (l.h.)</label>
                     <label xml:lang="de">Orgel (l.H.)</label>
                 </part>
-                <part type="sys" codedval="organ.right">
+                <part type="sys" xml:id="organ.right">
                     <label xml:lang="en">Organ (r.h.)</label>
                     <label xml:lang="de">Orgel (r.H.)</label>
                 </part>
             </part>
-                <part type="sys" codedval="organPedals">
+                <part type="sys" xml:id="organPedals">
                 <label xml:lang="en">Organ (ped.)</label>
                 <label xml:lang="de">Orgel (Ped.)</label>
                 </part>
         </part>
-        <part codedval="harmonium">
+        <part xml:id="harmonium">
             <label xml:lang="en">Harmonium</label>
             <label xml:lang="de">Harmonium</label>
-            <part type="sysGrp" codedval="harmoniumManuals">
+            <part type="sysGrp" xml:id="harmoniumManuals">
                 <label xml:lang="en">Harmonium (manuals)</label>
                 <label xml:lang="de">Harmonium (Manuale)</label>
-                <part type="sys" codedval="harmonium.left">
+                <part type="sys" xml:id="harmonium.left">
                     <label xml:lang="en">Harmonium (l.h.)</label>
                     <label xml:lang="de">Harmonium (l.H.)</label>
                 </part>
-                <part type="sys" codedval="harmonium.right">
+                <part type="sys" xml:id="harmonium.right">
                     <label xml:lang="en">Harmonium (r.h.)</label>
                     <label xml:lang="de">Harmonium (r.H.)</label>
                 </part>
             </part>
-            <part type="sys" codedval="harmoniumPedals">
+            <part type="sys" xml:id="harmoniumPedals">
                 <label xml:lang="en">Harmonium (ped.)</label>
                 <label xml:lang="de">Harmonium (Ped.)</label>
             </part>
         </part>
-        <part codedval="piano">
+        <part xml:id="piano">
             <label xml:lang="en">Piano</label>
             <label xml:lang="de">Klavier</label>
-            <part type="sys" codedval="piano.left">
+            <part type="sys" xml:id="piano.left">
                     <label xml:lang="en">Piano (l.h.)</label>
                     <label xml:lang="de">Klavier (l.H.)</label>
                 </part>
-            <part type="sys" codedval="piano.right">
+            <part type="sys" xml:id="piano.right">
                     <label xml:lang="en">Piano (r.h.)</label>
                     <label xml:lang="de">Klavier (r.H.)</label>
             </part>
         </part>
-        <partGrp codedval="strings">
+        <partGrp xml:id="strings">
             <label xml:lang="de">Streicher</label>
-            <partGrp codedval="violins">
+            <partGrp xml:id="violins">
                 <label xml:lang="de">Violinen</label>
-                <part codedval="violin.i">
+                <part xml:id="violin.i">
                     <label xml:lang="de">Violine I</label>
                 </part>
-                <part codedval="violin.ii">
+                <part xml:id="violin.ii">
                     <label xml:lang="de">Violine II</label>
                 </part>
             </partGrp>
-            <part codedval="viola">
+            <part xml:id="viola">
                 <label xml:lang="de">Viola</label>
             </part>
-            <part codedval="violoncello">
+            <part xml:id="violoncello">
                 <label xml:lang="de">Violoncello</label>
             </part>
-            <part codedval="doubleBass">
+            <part xml:id="doubleBass">
                 <label xml:lang="de">Kontrabass</label>
             </part>
         </partGrp>
@@ -294,7 +294,6 @@
         <manifestation xml:id="ED-KA1" sortNo="5">
             <label xml:lang="de">Klavierauszug mit handschriftlichen Eintragungen (Handexemplar)</label>
         </manifestation>
-        <!--<manifestation xml:id="ED-P"/>-->
         <manifestation xml:id="ED-P" sortNo="7">
             <label xml:lang="de">Erstdruck Partitur</label>
         </manifestation>
