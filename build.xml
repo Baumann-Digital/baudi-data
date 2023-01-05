@@ -15,8 +15,6 @@
     <target name="clean" if="${build.dir}">
         <delete includeemptydirs="true">
             <fileset dir="${build.dir}" defaultexcludes="false">
-                <!--<include name="*.xml"/>
-                <include name="*.txt"/>-->
                 <include name="**/*"/>
                 <exclude name="*.xar"/>
                 <exclude name="*.tar.gz"/>
@@ -70,46 +68,11 @@
                 <exclude name="build/**"/>
                 <exclude name="blob/"/>
                 <exclude name="**/__contents__.xml"/>
+                <exclude name="submodules/**/*.*"/>
+                <exclude name="*.xar"/>
+                <exclude name="*.tar.gz"/>
             </fileset>
         </zip>
-    </target>
-    
-    <!-- Deploy directly to localhost -->
-    <target name="deploy" depends="clean, data-package">
-        <path id="classpath.eXist">
-            <fileset dir="${exist.libs}" erroronmissingdir="no">
-                <include name="*.jar"/>
-            </fileset>
-        </path>
-        <typedef resource="org/exist/ant/antlib.xml" uri="http://exist-db.org/ant">
-            <classpath refid="classpath.eXist"/>
-        </typedef>
-        
-        <!-- store xar-file in eXist-db -->
-        <xdb:store xmlns:xdb="http://exist-db.org/ant"
-            uri="${exist.db}/tmp"
-            createcollection="true"
-            createsubcollections="true"
-            user="${exist.user}"
-            password="${exist.pass}"
-            failonerror="true">
-            <fileset file="${build.dir}/${project.app}-${local.revision}.xar"/>
-        </xdb:store>
-        
-        <!-- Deploy the xar -->
-        <xdb:xquery  xmlns:xdb="http://exist-db.org/ant"
-            uri="${exist.db}"
-            user="${exist.user}"
-            password="${exist.pass}">
-            (
-            if("${project.url}" = repo:list()) then (
-            repo:undeploy("${project.url}"),
-            repo:remove("${project.url}")
-            )
-            else (),
-            repo:install-and-deploy-from-db("/db/tmp/${project.app}-${local.revision}.xar")
-            )
-        </xdb:xquery>
     </target>
     
 </project>
