@@ -36,8 +36,13 @@
             </occurances>
             <parts>all</parts>
             <annots>
-                <annot><ptr target="#A-P2"/>Ohne <tempo/></annot>
-                <annot><ptr target="#ED-P"/><tempo/> ohne <tempo type="vague" mm="60" mm.unit="4">etwa 60</tempo></annot>
+                <annot>
+                    <ptr target="#A-P2"/>Ohne <tempo/>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/>
+                    <tempo/> ohne <tempo type="vague" mm="60" mm.unit="4">etwa 60</tempo>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -60,9 +65,12 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Stimme nicht ausnotiert: <dir>col Cello</dir></annot>
-                <annot><ptr target="#A-P3"/> Faulenzer ab Takt 4 mit blauem Farbstift, ab Takt 7 mit schwarzer Tinte notiert</annot>
-                <annot><ptr target="#ED-P"/> Violoncello und Kontrabass im selben System zweistimmig notiert.</annot>
+                <annot>Stimme nicht ausnotiert: <dir>col Cello</dir>
+                </annot>
+                <annot>
+                    <ptr target="#A-P3"/> Faulenzer ab Takt 4 mit blauem Farbstift, ab Takt 7 mit schwarzer Tinte notiert</annot>
+                <annot>
+                    <ptr target="#ED-P"/> Violoncello und Kontrabass im selben System zweistimmig notiert.</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -108,7 +116,9 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><note pname="b" oct="2" dur="8"/> ohne <artic artic="stacc"/></annot>
+                <annot>
+                    <note pname="b" oct="2" dur="8"/> ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -130,8 +140,15 @@
                 <part>piano.left</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/><slur/> über Zählzeit 1 neu angesetzt</annot>
-                <annot><ptr target="#A-P2"/><slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="#A-P3 violoncello"/><ptr target="#A-P2 violoncello"/><ptr target="#ED-P violoncello doubleBass"/></annot>
+                <annot>
+                    <ptr target="#A-P3"/>
+                    <slur/> über Zählzeit 1 neu angesetzt</annot>
+                <annot>
+                    <ptr target="#A-P2"/>
+                    <slur/> nur bis Zählzeit 3, vgl. jedoch <ptr target="#A-P3 violoncello"/>
+                    <ptr target="#A-P2 violoncello"/>
+                    <ptr target="#ED-P violoncello doubleBass"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -179,7 +196,9 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2"/><slur/> endet erst in Takt 8 Zählzeit 1, dadurch beginnt der folgende <slur/> erst in Takt 8 Zählzeit 3 (statt T. 8 Zz. 1) und endet erst in Takt 9 Zählzeit 1</annot>
+                <annot>
+                    <ptr target="#A-P2"/>
+                    <slur/> endet erst in Takt 8 Zählzeit 1, dadurch beginnt der folgende <slur/> erst in Takt 8 Zählzeit 3 (statt T. 8 Zz. 1) und endet erst in Takt 9 Zählzeit 1</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -203,8 +222,14 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2 piano.left violoncello"/><ptr target="#A-P3 piano.left"/>Ohne <slur/></annot>
-                <annot><ptr target="#A-P2 piano.left violoncello"/><ptr target="#A-P3 piano.left"/>Ohne <artic artic="stacc"/></annot>
+                <annot>
+                    <ptr target="#A-P2 piano.left violoncello"/>
+                    <ptr target="#A-P3 piano.left"/>Ohne <slur/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2 piano.left violoncello"/>
+                    <ptr target="#A-P3 piano.left"/>Ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -251,7 +276,8 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -272,7 +298,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>pp</dynam></annot>
+                <annot>Ohne <dynam>pp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -362,7 +389,8 @@
                 <part>piano.right</part>
             </parts>
             <annots>
-                <annot><slur/> beginnt bereits in Takt 13 Zählzeit 4</annot>
+                <annot>
+                    <slur/> beginnt bereits in Takt 13 Zählzeit 4</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -385,7 +413,8 @@
                 <part>piano.right</part>
             </parts>
             <annots>
-                <annot><slur/> beginnt bereits in Zählzeit 1</annot>
+                <annot>
+                    <slur/> beginnt bereits in Zählzeit 1</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -407,7 +436,8 @@
                 <part>piano.right</part>
             </parts>
             <annots>
-                <annot><slur/> von Zählzeit 1 zu 3 statt Zählzeit 3 zu 4</annot>
+                <annot>
+                    <slur/> von Zählzeit 1 zu 3 statt Zählzeit 3 zu 4</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -429,7 +459,8 @@
                 <part>piano.left</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -451,7 +482,8 @@
                 <part>piano.right</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3 piano.right"/>
+                <annot>
+                    <ptr target="#A-P3 piano.right"/>
                     <ptr target="#ED-KA1 piano.right"/>
                     <ptr target="#ED-KA2 piano.right"/> ohne <slur/>; <ptr target="BauDi-KA"/> folgt <ptr target="#A-P2"/> (vgl. auch <ptr target="#A-P3 viola"/>)</annot>
             </annots>
@@ -527,7 +559,8 @@
                 <part>piano.right</part>
             </parts>
             <annots>
-                <annot>Erste Schlaghälfte mit <artic artic="stacc"/></annot>
+                <annot>Erste Schlaghälfte mit <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -548,7 +581,8 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Letzte <note pname="b" oct="4" dur="8"/> ohne <artic artic="stacc"/></annot>
+                <annot>Letzte <note pname="b" oct="4" dur="8"/> ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -569,7 +603,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>p</dynam></annot>
+                <annot>Ohne <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -590,7 +625,9 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><note pname="d" oct="5" dur="8"/> ohne <accid accid="n" type="warn"/></annot>
+                <annot>
+                    <note pname="d" oct="5" dur="8"/> ohne <accid accid="n" type="warn"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -665,7 +702,8 @@
                 <part>hornFrench.iii</part>
             </parts>
             <annots>
-                <annot><slur/> endet bereits mit Beginn der Haltenote; BauDi-P zum ender der Haltenote hin verlängert</annot>
+                <annot>
+                    <slur/> endet bereits mit Beginn der Haltenote; BauDi-P zum ender der Haltenote hin verlängert</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -748,7 +786,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>cresc.</dynam>; <ptr target="BauDi-P"/> folgt <ptr target="#ED-P"/></annot>
+                <annot>Ohne <dynam>cresc.</dynam>; <ptr target="BauDi-P"/> folgt <ptr target="#ED-P"/>
+                </annot>
                 <annot>
                     <ptr target="#A-P3 viola"/>
                     <add type="pencil">cresc.</add>
@@ -799,7 +838,8 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -848,7 +888,8 @@
             <annots>
                 <annot>Letzte <note pname="a" oct="5" dur="8">
                         <artic artic="stacc"/>
-                    </note></annot>
+                    </note>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -917,7 +958,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Erste <note pname="b" oct="4" dur="8"/> ohne <artic artic="acc"/></annot>
+                <annot>Erste <note pname="b" oct="4" dur="8"/> ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -945,7 +987,8 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> nur in <ptr target="#A-P3 oboe.i clarinet.i"/> ausgeführt; <ptr target="BauDi-P"/> folgt ED-P</annot>
+                <annot>
+                    <artic artic="acc"/> nur in <ptr target="#A-P3 oboe.i clarinet.i"/> ausgeführt; <ptr target="BauDi-P"/> folgt ED-P</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -969,7 +1012,8 @@
                 <partGrp>oboes</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -990,7 +1034,8 @@
                 <partGrp>clarinets</partGrp>
             </parts>
             <annots>
-                <annot><rest dur="8"/> zweistimmig ausgeführt</annot>
+                <annot>
+                    <rest dur="8"/> zweistimmig ausgeführt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1011,7 +1056,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
+                <annot>
+                    <artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1039,7 +1085,8 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot>Inhalt gestrichen, mit Verweis <q>siehe Cello</q></annot>
+                <annot>Inhalt gestrichen, mit Verweis <q>siehe Cello</q>
+                </annot>
                 <annot>Takte 24–26 nicht in <ptr target="#A-P3"/> übernommen</annot>
             </annots>
             <manifestationList>
@@ -1088,7 +1135,9 @@
                 <partGrp>strings</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2"/> ohne <dynam>f</dynam></annot>
+                <annot>
+                    <ptr target="#A-P2"/> ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1113,7 +1162,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/>ergänzt (=<ptr target="#ED-P"/>)</annot>
+                <annot>
+                    <artic artic="acc"/>ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1137,7 +1187,8 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> analog zu <ptr target="#A-P3 hornFrench.i hornFrench.iii"/>ergänzt </annot>
+                <annot>
+                    <artic artic="acc"/> analog zu <ptr target="#A-P3 hornFrench.i hornFrench.iii"/>ergänzt </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1160,7 +1211,8 @@
                 <part>hornFrench.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
+                <annot>
+                    <artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1184,7 +1236,8 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot><slur/> ergänzt (=<ptr target="#ED-P"/>, <ptr target="#A-P2"/>)</annot>
+                <annot>
+                    <slur/> ergänzt (=<ptr target="#ED-P"/>, <ptr target="#A-P2"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1236,7 +1289,8 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><slur/> für beide Stimmen gesetzt</annot>
+                <annot>
+                    <slur/> für beide Stimmen gesetzt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1262,7 +1316,8 @@
             <annots>
                 <annot>zweite <note dur="8">
                         <artic artic="stacc"/>
-                    </note></annot>
+                    </note>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1286,7 +1341,8 @@
                 <annot>
                     <artic artic="acc"/>
                 </annot>
-                <annot>Ohne <dynam>ff</dynam></annot>
+                <annot>Ohne <dynam>ff</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1312,7 +1368,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><dynam>ff</dynam>ergänzt, vgl. (=<ptr target="#ED-P"/>, <ptr target="#A-P3 flutes oboes hornFrench.i hornFrench.ii violoncello"/>)</annot>
+                <annot>
+                    <dynam>ff</dynam>ergänzt, vgl. (=<ptr target="#ED-P"/>, <ptr target="#A-P3 flutes oboes hornFrench.i hornFrench.ii violoncello"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1359,8 +1416,10 @@
                 <partGrp>trumpets</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <dynam>ff</dynam></annot>
-                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/></annot>
+                <annot>Ohne <dynam>ff</dynam>
+                </annot>
+                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1382,7 +1441,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/></annot>
+                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1405,7 +1465,8 @@
                 <partGrp>trumpets</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <tie/></annot>
+                <annot>Ohne <tie/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1449,7 +1510,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1471,7 +1533,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -1516,8 +1579,10 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/> nur oberer <tie/> abgehend, aber zwei <tie/> nach <sb/> ankommend.</annot>
-                <annot><ptr target="#ED-P"/> beide <tie/> nach <sb/> nur ankommend</annot>
+                <annot>
+                    <ptr target="#A-P3"/> nur oberer <tie/> abgehend, aber zwei <tie/> nach <sb/> ankommend.</annot>
+                <annot>
+                    <ptr target="#ED-P"/> beide <tie/> nach <sb/> nur ankommend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1540,9 +1605,11 @@
                 <part>trombone.ii</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/>, <ptr target="#A-P2"/>
+                <annot>
+                    <ptr target="#A-P3"/>, <ptr target="#A-P2"/>
                     <add type="ink">beide</add>; in <ptr target="#ED-P"/>
-                    <q>a 2.</q></annot>
+                    <q>a 2.</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1567,7 +1634,8 @@
                 <partGrp>clarinets</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1591,7 +1659,9 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><slur/> statt <artic artic="acc"/> in Takt 27 Zählzeit 4 letzte <note dur="8"/></annot>
+                <annot>
+                    <slur/> statt <artic artic="acc"/> in Takt 27 Zählzeit 4 letzte <note dur="8"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1636,12 +1706,18 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/>
-                    <add type="ink">beide</add> oberhalb <ptr target="#A-P3 hornFrench.i"/></annot>
-                <annot><ptr target="#A-P2"/>
-                    <add type="ink">beide</add> zwischen <ptr target="#A-P3 hornFrench.ii hornFrench.iii"/></annot>
-                <annot><ptr target="#ED-P"/>
-                    <q>a 2.</q> oberhalb <ptr target="#A-P3 hornFrench.i hornFrench.iii"/></annot>
+                <annot>
+                    <ptr target="#A-P3"/>
+                    <add type="ink">beide</add> oberhalb <ptr target="#A-P3 hornFrench.i"/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2"/>
+                    <add type="ink">beide</add> zwischen <ptr target="#A-P3 hornFrench.ii hornFrench.iii"/>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/>
+                    <q>a 2.</q> oberhalb <ptr target="#A-P3 hornFrench.i hornFrench.iii"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1694,7 +1770,8 @@
             <annots>
                 <annot>Trillerschlange ergänzt (<ptr type="compare" target="ED-P"/>
                     <ptr type="conjecture" target="ED-StOrch"/>)</annot>
-                <annot><hairpin form="cres"/> bis Taktende verlängert (<ptr type="conjecture" target="ED-StOrch"/>)</annot>
+                <annot>
+                    <hairpin form="cres"/> bis Taktende verlängert (<ptr type="conjecture" target="ED-StOrch"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1718,7 +1795,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="#A-P3" corresp="#violin.i"/>)</annot>
+                <annot>
+                    <artic artic="acc"/> ergänzt (=<ptr target="#A-P3" corresp="#violin.i"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1743,8 +1821,11 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
-                <annot><ptr target="#A-P2"/> ohne <artic artic="acc"/> wegen ankommendem <slur/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2"/> ohne <artic artic="acc"/> wegen ankommendem <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1802,7 +1883,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> nicht vollständig ausgeführt (<ptr type="compare" target="ED-P"/>)</annot>
+                <annot>
+                    <hairpin form="cres"/> nicht vollständig ausgeführt (<ptr type="compare" target="ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1824,7 +1906,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
+                <annot>
+                    <artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1847,7 +1930,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1918,7 +2002,8 @@
                 <partGrp>trombones</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -1972,7 +2057,8 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><dynam>ff</dynam> (=<ptr type="conjecture" target="ED-P"/>)</annot>
+                <annot>
+                    <dynam>ff</dynam> (=<ptr type="conjecture" target="ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2064,7 +2150,8 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <dynam/></annot>
+                <annot>Ohne <dynam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2134,7 +2221,8 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Ohne <ornam/></annot>
+                <annot>Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2156,7 +2244,8 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
+                <annot>
+                    <artic artic="acc"/> ergänzt (=<ptr target="#ED-P"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2231,7 +2320,9 @@
                     <ptr target="#A-P3"/>
                     <add type="ink">nach F. C</add>
                 </annot>
-                <annot><ptr target="#A-P2"/><ptr target="#ED-P"/> ohne Anmerkung zum umstimmen</annot>
+                <annot>
+                    <ptr target="#A-P2"/>
+                    <ptr target="#ED-P"/> ohne Anmerkung zum umstimmen</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2286,7 +2377,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2307,7 +2399,8 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2329,7 +2422,8 @@
                 <part>trumpet.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -2405,7 +2499,8 @@
                 <partGrp>trumpets</partGrp>
             </parts>
             <annots>
-                <annot><dynam>mf</dynam>, dabei das <add type="ink">m</add> später hinzugefügt</annot>
+                <annot>
+                    <dynam>mf</dynam>, dabei das <add type="ink">m</add> später hinzugefügt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2437,8 +2532,11 @@
                     <ptr target="#A-P2"/>
                     <dynam>mf</dynam>
                 </annot>
-                <annot><ptr target="#ED-P"/> ohne <dynam/></annot>
-                <annot><ptr target="#A-P3"/> ist das ursprüngliche <dynam>f</dynam> rasiert, jedoch nicht durch eine neue Angabe ersetzt worden. Sowohl in <ptr target="#A-P3"/> als auch <ptr target="#A-P2"/> (wenn dort auch <dynam>mf</dynam>) war die Dynamikstufe für Vlc und Kb mit Trp1 und Trp2 kongruent. Es ist naheliegend, dass sich Vlc und Kb dynamisch von den übrigen Streichern abheben sollen.</annot>
+                <annot>
+                    <ptr target="#ED-P"/> ohne <dynam/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P3"/> ist das ursprüngliche <dynam>f</dynam> rasiert, jedoch nicht durch eine neue Angabe ersetzt worden. Sowohl in <ptr target="#A-P3"/> als auch <ptr target="#A-P2"/> (wenn dort auch <dynam>mf</dynam>) war die Dynamikstufe für Vlc und Kb mit Trp1 und Trp2 kongruent. Es ist naheliegend, dass sich Vlc und Kb dynamisch von den übrigen Streichern abheben sollen.</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2512,7 +2610,8 @@
             </parts>
             <annots>
                 <annot>Ohne <dynam>p</dynam>
-                    <ptr type="conjecture" target="ED-P"/></annot>
+                    <ptr type="conjecture" target="ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2588,7 +2687,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>ff</dynam></annot>
+                <annot>Ohne <dynam>ff</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -2634,9 +2734,14 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="#A-P3 #ED-P"><note pname="f" accid="n" oct="5" dur="4"/></lem>
-                        <rdg source="#A-P2"><note pname="f" oct="5" dur="4" accid.ges="s"/></rdg>
-                    </app></annot>
+                        <lem source="#A-P3 #ED-P">
+                            <note pname="f" accid="n" oct="5" dur="4"/>
+                        </lem>
+                        <rdg source="#A-P2">
+                            <note pname="f" oct="5" dur="4" accid.ges="s"/>
+                        </rdg>
+                    </app>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2686,7 +2791,9 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><artic artic="acc"/><ptr type="conjecture" target="ED-P hornFrench.i horn.French.ii"/>)</annot>
+                <annot>
+                    <artic artic="acc"/>
+                    <ptr type="conjecture" target="ED-P hornFrench.i horn.French.ii"/>)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2708,7 +2815,10 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2"/><ptr target="#A-P3"/><tuplet num.visible="false"/>
+                <annot>
+                    <ptr target="#A-P2"/>
+                    <ptr target="#A-P3"/>
+                    <tuplet num.visible="false"/>
                     <ptr type="conjecture" target="ED-P"/>)</annot>
             </annots>
             <manifestationList>
@@ -2757,7 +2867,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2782,7 +2893,8 @@
             </parts>
             <annots>
                 <annot>Ohne <artic artic="acc"/>
-                    <ptr type="conjecture" target="ED-P"/></annot>
+                    <ptr type="conjecture" target="ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2804,7 +2916,8 @@
                 <partGrp>trombones</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2825,7 +2938,8 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2933,7 +3047,8 @@
                 <partGrp>trombones</partGrp>
             </parts>
             <annots>
-                <annot>Ohne<artic artic="acc"/></annot>
+                <annot>Ohne<artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -2982,7 +3097,9 @@
                     <ptr target="#ED-P"/>
                     <tuplet num.visible="false"/>
                 </annot>
-                <annot><ptr target="#A-P2"/> Ohne <ornam/></annot>
+                <annot>
+                    <ptr target="#A-P2"/> Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3005,7 +3122,9 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>In <ptr target="#A-P3"/><q>nach D. E.</q></annot>
+                <annot>In <ptr target="#A-P3"/>
+                    <q>nach D. E.</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -3124,7 +3243,8 @@
                 <part>tuba</part>
             </parts>
             <annots>
-                <annot>Ohne <mRest/></annot>
+                <annot>Ohne <mRest/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3170,7 +3290,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3192,7 +3313,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <ornam/></annot>
+                <annot>Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3215,7 +3337,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3238,7 +3361,8 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot><slur/> in Takt 26 Zählzeit 1 beginnend</annot>
+                <annot>
+                    <slur/> in Takt 26 Zählzeit 1 beginnend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3284,7 +3408,8 @@
                 <partGrp>oboes</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="dim"/></annot>
+                <annot>Ohne <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3355,7 +3480,8 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <mRest/></annot>
+                <annot>Ohne <mRest/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -3474,7 +3600,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><slur/> beginnt erst in Takt 40 Zählzeit 1</annot>
+                <annot>
+                    <slur/> beginnt erst in Takt 40 Zählzeit 1</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3495,7 +3622,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
+                <annot>
+                    <hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3550,58 +3678,180 @@
                                 <measure xml:id="m1n7naa" right="end" n="1">
                                     <staff xml:id="s1jy4yg" n="1">
                                         <layer xml:id="l1u93j7o" n="1">
-                                            <note xml:id="ntlb44b" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up"/>
+                                            <note xml:id="ntlb44b"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="4"
+                                                  pname="e"
+                                                  stem.dir="up"/>
                                             <beam xml:id="b147zii7">
-                                                <note xml:id="n14k88xe" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up"/>
-                                                <note xml:id="n1wyxnrg" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up"/>
+                                                <note xml:id="n14k88xe"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
+                                                <note xml:id="n1wyxnrg"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
                                             </beam>
                                             <beam xml:id="brmjl40">
-                                                <note xml:id="nr34dat" dots="1" dur.ppq="3" dur="8" oct="4" pname="a" stem.dir="up"/>
-                                                <note xml:id="n1ohr5j2" dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="up" accid.ges="s"/>
+                                                <note xml:id="nr34dat"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="a"
+                                                      stem.dir="up"/>
+                                                <note xml:id="n1ohr5j2"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="5"
+                                                      pname="c"
+                                                      stem.dir="up"
+                                                      accid.ges="s"/>
                                             </beam>
                                         </layer>
                                         <layer xml:id="lmdbvva" n="2">
-                                            <note xml:id="n1hypsju" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="down"/>
+                                            <note xml:id="n1hypsju"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="4"
+                                                  pname="e"
+                                                  stem.dir="down"/>
                                             <beam xml:id="b1nlrk18">
-                                                <note xml:id="n19l0lix" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="down"/>
-                                                <note xml:id="n1afoumm" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down"/>
+                                                <note xml:id="n19l0lix"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
+                                                <note xml:id="n1afoumm"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="b16m2ou1">
-                                                <note xml:id="n1o8hjo7" dots="1" dur.ppq="3" dur="8" oct="4" pname="c" stem.dir="down" accid.ges="s"/>
-                                                <note xml:id="n18z7wgr" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down"/>
+                                                <note xml:id="n1o8hjo7"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="c"
+                                                      stem.dir="down"
+                                                      accid.ges="s"/>
+                                                <note xml:id="n18z7wgr"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
                                             </beam>
                                         </layer>
                                     </staff>
                                     <staff xml:id="s123znum" n="2">
                                         <layer xml:id="l1bq1vs5" n="1">
-                                            <note xml:id="nzhlpd6" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up"/>
+                                            <note xml:id="nzhlpd6"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="4"
+                                                  pname="e"
+                                                  stem.dir="up"/>
                                             <beam xml:id="b1dif2mx">
-                                                <note xml:id="ni6unnh" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up"/>
-                                                <note xml:id="ncut4w2" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up"/>
+                                                <note xml:id="ni6unnh"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
+                                                <note xml:id="ncut4w2"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
                                             </beam>
                                             <beam xml:id="btikgty">
-                                                <note xml:id="n17dsys1" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up"/>
-                                                <note xml:id="nt8uu4w" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up"/>
+                                                <note xml:id="n17dsys1"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
+                                                <note xml:id="nt8uu4w"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="a"
+                                                      stem.dir="up"/>
                                             </beam>
                                         </layer>
                                         <layer xml:id="l1itrjfn" n="2">
-                                            <note xml:id="n1lmb0cc" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="down"/>
+                                            <note xml:id="n1lmb0cc"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="4"
+                                                  pname="e"
+                                                  stem.dir="down"/>
                                             <beam xml:id="bm2eoyj">
-                                                <note xml:id="nak0y62" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="down"/>
-                                                <note xml:id="n10qwqd4" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down"/>
+                                                <note xml:id="nak0y62"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
+                                                <note xml:id="n10qwqd4"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="bywk9y7">
-                                                <note xml:id="nmc0yf0" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="down"/>
-                                                <note xml:id="n1wzzdg5" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down"/>
+                                                <note xml:id="nmc0yf0"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
+                                                <note xml:id="n1wzzdg5"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
                                             </beam>
                                         </layer>
                                     </staff>
                                     <dynam xml:id="dtbsta8" place="below" staff="1" tstamp="1.000000">p</dynam>
-                                    <hairpin xml:id="hnazxp" staff="1" tstamp="1.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="95"/>
+                                    <hairpin xml:id="hnazxp"
+                                             staff="1"
+                                             tstamp="1.000000"
+                                             tstamp2="0m+4.5000"
+                                             form="cres"
+                                             place="below"
+                                             vgrp="95"/>
                                     <tie xml:id="t180r9kl" startid="#ntlb44b" endid="#n14k88xe"/>
                                     <tie xml:id="tklmaor" startid="#n1hypsju" endid="#n19l0lix"/>
                                     <dynam xml:id="d824puj" place="below" staff="2" tstamp="1.000000">p</dynam>
-                                    <hairpin xml:id="hoi50u7" staff="2" tstamp="1.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="85"/>
+                                    <hairpin xml:id="hoi50u7"
+                                             staff="2"
+                                             tstamp="1.000000"
+                                             tstamp2="0m+4.5000"
+                                             form="cres"
+                                             place="below"
+                                             vgrp="85"/>
                                     <tie xml:id="t15rlp3k" startid="#nzhlpd6" endid="#ni6unnh"/>
                                     <tie xml:id="t167rqvf" startid="#n1lmb0cc" endid="#nak0y62"/>
                                 </measure>
@@ -3636,57 +3886,182 @@
                                 <measure xml:id="mjlqgg6" right="end" n="1">
                                     <staff xml:id="sp7sx5e" n="1">
                                         <layer xml:id="l176wxkd" n="1">
-                                            <note xml:id="n1t3hcc4" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up"/>
+                                            <note xml:id="n1t3hcc4"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="4"
+                                                  pname="e"
+                                                  stem.dir="up"/>
                                             <beam xml:id="be2sq2l">
-                                                <note xml:id="n2uqsfo" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up"/>
-                                                <note xml:id="nuhnhlm" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up"/>
+                                                <note xml:id="n2uqsfo"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
+                                                <note xml:id="nuhnhlm"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
                                             </beam>
                                             <beam xml:id="b17soyar">
-                                                <note xml:id="n1w6da5o" dots="1" dur.ppq="3" dur="8" oct="4" pname="a" stem.dir="up"/>
-                                                <note xml:id="n1ohgdfk" dur.ppq="1" dur="16" oct="5" pname="c" stem.dir="up" accid.ges="s"/>
+                                                <note xml:id="n1w6da5o"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="a"
+                                                      stem.dir="up"/>
+                                                <note xml:id="n1ohgdfk"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="5"
+                                                      pname="c"
+                                                      stem.dir="up"
+                                                      accid.ges="s"/>
                                             </beam>
                                         </layer>
                                         <layer xml:id="lvr9vd7" n="2">
-                                            <note xml:id="n1g0mank" dur.ppq="8" dur="2" oct="3" pname="a" stem.dir="down"/>
+                                            <note xml:id="n1g0mank"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="3"
+                                                  pname="a"
+                                                  stem.dir="down"/>
                                             <beam xml:id="b31g31z">
-                                                <note xml:id="nbctypo" dots="1" dur.ppq="3" dur="8" oct="3" pname="a" stem.dir="down"/>
-                                                <note xml:id="nxiyecq" dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="down"/>
+                                                <note xml:id="nbctypo"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="a"
+                                                      stem.dir="down"/>
+                                                <note xml:id="nxiyecq"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="a"
+                                                      stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="bn114hn">
-                                                <note xml:id="n1p9zhr3" dots="1" dur.ppq="3" dur="8" oct="4" pname="c" stem.dir="down" accid.ges="s"/>
-                                                <note xml:id="nudkwja" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="down"/>
+                                                <note xml:id="n1p9zhr3"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="c"
+                                                      stem.dir="down"
+                                                      accid.ges="s"/>
+                                                <note xml:id="nudkwja"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="down"/>
                                             </beam>
                                         </layer>
                                     </staff>
                                     <staff xml:id="s1wi1aw9" n="2">
                                         <layer xml:id="l192jvi6" n="1">
-                                            <note xml:id="n1i23g9z" dur.ppq="8" dur="2" oct="4" pname="c" stem.dir="up" accid.ges="s"/>
+                                            <note xml:id="n1i23g9z"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="4"
+                                                  pname="c"
+                                                  stem.dir="up"
+                                                  accid.ges="s"/>
                                             <beam xml:id="b10nke2p">
-                                                <note xml:id="n1669rgo" dots="1" dur.ppq="3" dur="8" oct="4" pname="c" stem.dir="up" accid.ges="s"/>
-                                                <note xml:id="n1df0p1o" dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up" accid.ges="s"/>
+                                                <note xml:id="n1669rgo"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="c"
+                                                      stem.dir="up"
+                                                      accid.ges="s"/>
+                                                <note xml:id="n1df0p1o"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="c"
+                                                      stem.dir="up"
+                                                      accid.ges="s"/>
                                             </beam>
                                             <beam xml:id="b1ip4lkn">
-                                                <note xml:id="ntdfezw" dots="1" dur.ppq="3" dur="8" oct="4" pname="e" stem.dir="up"/>
-                                                <note xml:id="nj4z38v" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up"/>
+                                                <note xml:id="ntdfezw"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
+                                                <note xml:id="nj4z38v"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="a"
+                                                      stem.dir="up"/>
                                             </beam>
                                         </layer>
                                         <layer xml:id="lv2rxn1" n="2">
-                                            <note xml:id="n1yif6k8" dur.ppq="8" dur="2" oct="3" pname="a" stem.dir="down"/>
+                                            <note xml:id="n1yif6k8"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="3"
+                                                  pname="a"
+                                                  stem.dir="down"/>
                                             <beam xml:id="byce7xq">
-                                                <note xml:id="n1mrrbvu" dots="1" dur.ppq="3" dur="8" oct="3" pname="a" stem.dir="down"/>
-                                                <note xml:id="n3oqj78" dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="down"/>
+                                                <note xml:id="n1mrrbvu"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="a"
+                                                      stem.dir="down"/>
+                                                <note xml:id="n3oqj78"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="a"
+                                                      stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="b9lxn2q">
-                                                <note xml:id="n61ifbt" dots="1" dur.ppq="3" dur="8" oct="3" pname="a" stem.dir="down"/>
-                                                <note xml:id="n14axg98" dur.ppq="1" dur="16" oct="3" pname="a" stem.dir="down"/>
+                                                <note xml:id="n61ifbt"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="a"
+                                                      stem.dir="down"/>
+                                                <note xml:id="n14axg98"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="a"
+                                                      stem.dir="down"/>
                                             </beam>
                                         </layer>
                                     </staff>
                                     <tie xml:id="t1sdoiuv" startid="#n1t3hcc4" endid="#n2uqsfo"/>
-                                    <hairpin xml:id="hrmo672" staff="1" tstamp="3.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="105"/>
+                                    <hairpin xml:id="hrmo672"
+                                             staff="1"
+                                             tstamp="3.000000"
+                                             tstamp2="0m+4.5000"
+                                             form="cres"
+                                             place="below"
+                                             vgrp="105"/>
                                     <tie xml:id="tvu977d" startid="#n1g0mank" endid="#nbctypo"/>
                                     <tie xml:id="t67ffvm" startid="#n1i23g9z" endid="#n1669rgo"/>
-                                    <hairpin xml:id="h607dog" staff="2" tstamp="3.000000" tstamp2="0m+4.5000" form="cres" place="below" vgrp="105"/>
+                                    <hairpin xml:id="h607dog"
+                                             staff="2"
+                                             tstamp="3.000000"
+                                             tstamp2="0m+4.5000"
+                                             form="cres"
+                                             place="below"
+                                             vgrp="105"/>
                                     <tie xml:id="ts24ias" startid="#n1yif6k8" endid="#n1mrrbvu"/>
                                 </measure>
                             </section>
@@ -3717,8 +4092,12 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> verkürzt <ptr type="conjecture" target="ED-P"/></annot>
-                <annot><ptr target="#A-P2"/> ohne <hairpin form="dim"/></annot>
+                <annot>
+                    <hairpin form="dim"/> verkürzt <ptr type="conjecture" target="ED-P"/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2"/> ohne <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3743,7 +4122,8 @@
                 <partGrp>clarinets</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3793,7 +4173,8 @@
                     <q>I</q>
                 </annot>
                 <annot>Ohne <mRest/>
-                    <ptr target="#A-P2 bassoon.ii"/></annot>
+                    <ptr target="#A-P2 bassoon.ii"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3816,7 +4197,8 @@
                 <part>bassoon.i</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>p</dynam></annot>
+                <annot>Ohne <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3884,7 +4266,8 @@
                 <part>flute.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <mRest/></annot>
+                <annot>Ohne <mRest/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3906,7 +4289,8 @@
                 <part>hornFrench.ii</part>
             </parts>
             <annots>
-                <annot>Nur ein <tie/> notiert <ptr type="conjecture" target="ED-P"/></annot>
+                <annot>Nur ein <tie/> notiert <ptr type="conjecture" target="ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -3930,7 +4314,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> beginnt etwas später</annot>
+                <annot>
+                    <hairpin form="cres"/> beginnt etwas später</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -3980,7 +4365,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4025,8 +4411,10 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/> von <note pname="b" oct="4" dur="16"/> zu <note pname="d" oct="5" dur="16"/></annot>
-                <annot>Ohne <artic artic="stacc"/> an <note pname="d" oct="5" dur="16"/>, dafür <tie/></annot>
+                <annot>Ohne <slur/> von <note pname="b" oct="4" dur="16"/> zu <note pname="d" oct="5" dur="16"/>
+                </annot>
+                <annot>Ohne <artic artic="stacc"/> an <note pname="d" oct="5" dur="16"/>, dafür <tie/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4101,7 +4489,9 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> beginnt (wohl aus Platzgründen) erst während der zweiten Zählzeit <ptr type="compare" target="A-P2"/></annot>
+                <annot>
+                    <hairpin form="dim"/> beginnt (wohl aus Platzgründen) erst während der zweiten Zählzeit <ptr type="compare" target="A-P2"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -4152,7 +4542,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> aneinander angeglichen</annot>
+                <annot>
+                    <hairpin form="dim"/> aneinander angeglichen</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -4201,7 +4592,9 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><q>zart</q> nur <ptr target="#A-P2 A-P3 ED-P" corresp="#hornFrench.i"/></annot>
+                <annot>
+                    <q>zart</q> nur <ptr target="#A-P2 A-P3 ED-P" corresp="#hornFrench.i"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4224,8 +4617,10 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><q>dolce</q> unterhalb notiert</annot>
-                <annot><q>dolce</q> aufgrund des abgenutzen Druckbildes schwer lesbar</annot>
+                <annot>
+                    <q>dolce</q> unterhalb notiert</annot>
+                <annot>
+                    <q>dolce</q> aufgrund des abgenutzen Druckbildes schwer lesbar</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -4297,7 +4692,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> in Takt 44 nicht abgehend, in Takt 45 aber für beide Horn-Systeme ankommend</annot>
+                <annot>
+                    <hairpin form="dim"/> in Takt 44 nicht abgehend, in Takt 45 aber für beide Horn-Systeme ankommend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4318,7 +4714,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> beginnt erst in Zählzeit 2</annot>
+                <annot>
+                    <hairpin form="dim"/> beginnt erst in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -4339,7 +4736,8 @@
                 <part>hornFrench.iii</part>
             </parts>
             <annots>
-                <annot><slur/> unterbrochen (neu angesetzt)</annot>
+                <annot>
+                    <slur/> unterbrochen (neu angesetzt)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -4454,8 +4852,11 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> etwas später beginnend <ptr type="compare" target="A-P2 ED-P"/></annot>
-                <annot><hairpin form="cres"/> endet in <ptr target="#A-P2 ED-P"/> bereits in Takt 48 Zählzeit 4</annot>
+                <annot>
+                    <hairpin form="cres"/> etwas später beginnend <ptr type="compare" target="A-P2 ED-P"/>
+                </annot>
+                <annot>
+                    <hairpin form="cres"/> endet in <ptr target="#A-P2 ED-P"/> bereits in Takt 48 Zählzeit 4</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4478,7 +4879,8 @@
                 <part>hornFrench.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>p</dynam></annot>
+                <annot>Ohne <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4500,7 +4902,8 @@
                 <part>trumpet.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4522,7 +4925,8 @@
                 <part>trombone.i</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -4604,7 +5008,8 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4627,7 +5032,8 @@
                 <part>tuba</part>
             </parts>
             <annots>
-                <annot>Dehnungsstriche nach <dynam>cresc</dynam></annot>
+                <annot>Dehnungsstriche nach <dynam>cresc</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4650,7 +5056,8 @@
                 <part>tuba</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4673,7 +5080,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4720,7 +5128,8 @@
                 <part>trumpet.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4742,7 +5151,8 @@
                 <part>tuba</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> endet erst in Zählzeit 2</annot>
+                <annot>
+                    <hairpin form="cres"/> endet erst in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -4787,7 +5197,9 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="ED-P A-P2"/><slur/> endet bereits in Takt 55 Zählzeit 4</annot>
+                <annot>
+                    <ptr type="conjecture" target="ED-P A-P2"/>
+                    <slur/> endet bereits in Takt 55 Zählzeit 4</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4866,8 +5278,11 @@
                 <partGrp>woods</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/> Flöten ohne <hairpin form="dim"/></annot>
-                <annot><hairpin form="dim"/> Beginn und Ende der Gabeln uneinheitlich</annot>
+                <annot>
+                    <ptr target="#A-P3"/> Flöten ohne <hairpin form="dim"/>
+                </annot>
+                <annot>
+                    <hairpin form="dim"/> Beginn und Ende der Gabeln uneinheitlich</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4891,7 +5306,8 @@
                 <part>trumpet.i</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> beginnt er in Zählzeit 2</annot>
+                <annot>
+                    <hairpin form="dim"/> beginnt er in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -4916,7 +5332,8 @@
             <annots>
                 <annot>
                     <ptr target="#ED-P"/>
-                    <ptr target="#A-P3" corresp="#bassoons"/> Zwei <hairpin form="dim"/> hintereinander (taktweise) <ptr type="compare" target="A-P2"/></annot>
+                    <ptr target="#A-P3" corresp="#bassoons"/> Zwei <hairpin form="dim"/> hintereinander (taktweise) <ptr type="compare" target="A-P2"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -4940,7 +5357,8 @@
                 <part>tuba</part>
             </parts>
             <annots>
-                <annot>Eigenes <dynam>p</dynam></annot>
+                <annot>Eigenes <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -4960,7 +5378,8 @@
             </occurances>
             <parts>all</parts>
             <annots>
-                <annot><hairpin form="dim"/> uneinheitlich an <ptr target="#ED-P"/> orientiert</annot>
+                <annot>
+                    <hairpin form="dim"/> uneinheitlich an <ptr target="#ED-P"/> orientiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5011,8 +5430,12 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><slur/> in Takt 58 ankommend, aber vor <sb/> nicht abgehend <ptr type="compare" target="A-P2"/></annot>
-                <annot><ptr target="#ED-P"/> ohne <slur/></annot>
+                <annot>
+                    <slur/> in Takt 58 ankommend, aber vor <sb/> nicht abgehend <ptr type="compare" target="A-P2"/>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/> ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5035,7 +5458,8 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><slur/> nicht ankommend</annot>
+                <annot>
+                    <slur/> nicht ankommend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -5084,7 +5508,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><dynam>p</dynam> erst in Zählzeit 2</annot>
+                <annot>
+                    <dynam>p</dynam> erst in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5205,7 +5630,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5323,7 +5749,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5344,7 +5771,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="stacc"/></annot>
+                <annot>Ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5366,8 +5794,11 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2"/> ohne <hairpin form="cres"/></annot>
-                <annot><ptr target="#ED-P"/> beginn der <hairpin form="cres"/> erst in Takt 63 Zählzeit 1</annot>
+                <annot>
+                    <ptr target="#A-P2"/> ohne <hairpin form="cres"/>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/> beginn der <hairpin form="cres"/> erst in Takt 63 Zählzeit 1</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5422,7 +5853,8 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5445,7 +5877,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="stacc"/></annot>
+                <annot>Ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5495,7 +5928,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5540,7 +5974,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5601,7 +6036,8 @@
                 <part>bassoon.i</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5625,7 +6061,8 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="stacc"/></annot>
+                <annot>Ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5646,7 +6083,8 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><q>zus.</q>, im folgenden einstimmig notiert</annot>
+                <annot>
+                    <q>zus.</q>, im folgenden einstimmig notiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -5669,7 +6107,8 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5772,7 +6211,8 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> beginnt bereits in der Taktmitte</annot>
+                <annot>
+                    <hairpin form="cres"/> beginnt bereits in der Taktmitte</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5821,7 +6261,8 @@
                     <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
-                <annot><ptr target="#A-P3"/> Zweistimmig ausnotiert</annot>
+                <annot>
+                    <ptr target="#A-P3"/> Zweistimmig ausnotiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -5927,7 +6368,8 @@
                     <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
-                <annot><ptr target="#A-P2 A-P3"/> Zweistimmig ausgeführt</annot>
+                <annot>
+                    <ptr target="#A-P2 A-P3"/> Zweistimmig ausgeführt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -5950,7 +6392,8 @@
                 <part>trombone.iii</part>
             </parts>
             <annots>
-                <annot><dynam>f</dynam> erst für Zählzeit 4 vorgezeichnet</annot>
+                <annot>
+                    <dynam>f</dynam> erst für Zählzeit 4 vorgezeichnet</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6001,7 +6444,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6023,7 +6467,8 @@
                 <partGrp>woods</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6095,7 +6540,8 @@
                     <ptr target="#ED-P"/>
                     <q>a 2.</q>
                 </annot>
-                <annot><ptr target="#A-P2 A-P3"/> zweistimmig ausgeführt</annot>
+                <annot>
+                    <ptr target="#A-P2 A-P3"/> zweistimmig ausgeführt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6153,7 +6599,9 @@
                 <annot>
                     <note pname="d" accid="s" oct="4" dur="4"/>
                 </annot>
-                <annot><ptr target="#A-P3"/> Rasur vor <note pname="d" oct="4" dur="4"/></annot>
+                <annot>
+                    <ptr target="#A-P3"/> Rasur vor <note pname="d" oct="4" dur="4"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6178,7 +6626,9 @@
                 <annot>
                     <note pname="d" accid="s" oct="4" dur="4"/>
                 </annot>
-                <annot><ptr target="#A-P3"/> Rasur vor <note pname="f" oct="4" dur="4"/></annot>
+                <annot>
+                    <ptr target="#A-P3"/> Rasur vor <note pname="f" oct="4" dur="4"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6228,7 +6678,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6299,7 +6750,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6346,7 +6798,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6393,7 +6846,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Wohl irrtümlich mit Hals <note dur="2"/></annot>
+                <annot>Wohl irrtümlich mit Hals <note dur="2"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6461,7 +6915,8 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Ohne <ornam/></annot>
+                <annot>Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6587,7 +7042,8 @@
                 <partGrp>strings</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6608,7 +7064,8 @@
                 <partGrp>violins</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <ornam/></annot>
+                <annot>Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6631,7 +7088,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -6709,7 +7167,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6730,7 +7189,8 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>p</dynam></annot>
+                <annot>Ohne <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6811,7 +7271,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6970,7 +7431,8 @@
                 <partGrp>woods</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -6991,9 +7453,13 @@
                 <part>bassoon.i</part>
             </parts>
             <annots>
-                <annot><app>
-                        <rdg source="#A-P2"><note pname="f" accid.ges="s" oct="2" dur="2" dots="1"/></rdg>
-                    </app></annot>
+                <annot>
+                    <app>
+                        <rdg source="#A-P2">
+                            <note pname="f" accid.ges="s" oct="2" dur="2" dots="1"/>
+                        </rdg>
+                    </app>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7017,7 +7483,9 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><artic artic="acc"/></annot>
+                <annot>
+                    <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7036,9 +7504,13 @@
                     <position measure="74"/>
                 </occurance>
             </occurances>
-            <parts><part>timpani</part></parts>
+            <parts>
+                <part>timpani</part>
+            </parts>
             <annots>
-                <annot><mSpace/></annot>
+                <annot>
+                    <mSpace/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7067,7 +7539,10 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><artic artic="acc"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7091,7 +7566,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7113,7 +7589,8 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7139,7 +7616,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <ornam/></annot>
+                <annot>Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7157,9 +7635,12 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>violin.i</part></parts>
+                <part>violin.i</part>
+            </parts>
             <annots>
-                <annot><dynam>f</dynam></annot>
+                <annot>
+                    <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7176,9 +7657,13 @@
                     <position measure="75" count="1"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>bassoons</partGrp></parts>
+            <parts>
+                <partGrp>bassoons</partGrp>
+            </parts>
             <annots>
-                <annot><dynam>p</dynam></annot>
+                <annot>
+                    <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7205,7 +7690,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7227,11 +7713,21 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/> <mRpt/> (<dir>col Cello vgl. Takt 54</dir>) impliziert <note pname="c" accid="s" oct="2" dur="4"/></annot>
-                <annot><app>
-                        <lem source="#A-P2 #ED-P"><note pname="c" accid="s" oct="3" dur="4"/><note pname="c" accid="s" oct="3" dur="4"/></lem>
-                        <rdg source="#A-P3"><mRpt/></rdg>
-                    </app></annot>
+                <annot>
+                    <ptr target="#A-P3"/>
+                    <mRpt/> (<dir>col Cello vgl. Takt 54</dir>) impliziert <note pname="c" accid="s" oct="2" dur="4"/>
+                </annot>
+                <annot>
+                    <app>
+                        <lem source="#A-P2 #ED-P">
+                            <note pname="c" accid="s" oct="3" dur="4"/>
+                            <note pname="c" accid="s" oct="3" dur="4"/>
+                        </lem>
+                        <rdg source="#A-P3">
+                            <mRpt/>
+                        </rdg>
+                    </app>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7255,7 +7751,9 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><q>pizz</q></annot>
+                <annot>
+                    <q>pizz</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7277,8 +7775,13 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2" corresp="#violoncello"/><q>arco</q></annot>
-                <annot><ptr target="#A-P2" corresp="#doubleBass"/>Ohne <q>arco</q></annot>
+                <annot>
+                    <ptr target="#A-P2" corresp="#violoncello"/>
+                    <q>arco</q>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2" corresp="#doubleBass"/>Ohne <q>arco</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7301,11 +7804,16 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/> Ohne <hairpin form="dim"/> und <dynam>pp</dynam>
-                    <ptr type="conjecture" target="#A-P3" corresp="#violin.i"/></annot>
-                <annot><ptr target="#A-P2 #ED-P"/>
+                <annot>
+                    <ptr target="#A-P3"/> Ohne <hairpin form="dim"/> und <dynam>pp</dynam>
+                    <ptr type="conjecture" target="#A-P3" corresp="#violin.i"/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2 #ED-P"/>
                     <hairpin form="dim"/>Beginnt erst in Takt 77 Zählzeit 1</annot>
-                <annot><ptr target="#ED-P" corresp="#viola"/> Ohne <dynam>pp</dynam></annot>
+                <annot>
+                    <ptr target="#ED-P" corresp="#viola"/> Ohne <dynam>pp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7328,11 +7836,14 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3"/>
+                <annot>
+                    <ptr target="#A-P3"/>
                     <hairpin form="dim"/> beginnt bereits in Zählzeit 3</annot>
-                <annot><ptr target="#A-P2 #ED-P"/>
+                <annot>
+                    <ptr target="#A-P2 #ED-P"/>
                     <hairpin form="dim"/> beginnt erst in Takt 77 Zählzeit 1</annot>
-                <annot><ptr target="#BauDi-P"/> an Phrasenbeginn angeglichen</annot>
+                <annot>
+                    <ptr target="#BauDi-P"/> an Phrasenbeginn angeglichen</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7355,7 +7866,8 @@
                 <part>trumpet.i</part>
             </parts>
             <annots>
-                <annot><slur/> nicht ankommend</annot>
+                <annot>
+                    <slur/> nicht ankommend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7377,8 +7889,13 @@
                 <part>hornFrench.i</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2 #A-P3"/> Ohne <tie/></annot>
-                <annot><ptr type="conjecture" target="#ED-P"/><tie/></annot>
+                <annot>
+                    <ptr target="#A-P2 #A-P3"/> Ohne <tie/>
+                </annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <tie/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -7396,11 +7913,19 @@
                     <position measure="78" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part></parts>
+            <parts>
+                <part>violin.i</part>
+            </parts>
             <annots>
-                <annot><ptr target="#A-P3 #ED-P"/><slur/> endet bereits in Takt 77 Zählzeit 1</annot>
-                <annot><ptr type="conjecture" target="#A-P2"/>
-                    <ptr type="compare" target="#A-P2 #A-P3 #ED-P" corresp="#violin.ii #viola"/></annot>
+                <annot>
+                    <ptr target="#A-P3 #ED-P"/>
+                    <slur/> endet bereits in Takt 77 Zählzeit 1</annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2"/>
+                    <ptr type="compare"
+                         target="#A-P2 #A-P3 #ED-P"
+                         corresp="#violin.ii #viola"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7419,9 +7944,12 @@
                     <position measure="78" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part></parts>
+            <parts>
+                <part>violoncello</part>
+            </parts>
             <annots>
-                <annot>Ohne <clef shape="C" line="4"/></annot>
+                <annot>Ohne <clef shape="C" line="4"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -7438,10 +7966,12 @@
                     <position measure="79" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part>
+            <parts>
+                <part>violoncello</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/> endet bereits in Zählzeit 1</annot>
+                <annot>
+                    <hairpin form="cres"/> endet bereits in Zählzeit 1</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -7458,9 +7988,12 @@
                     <position measure="80" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part></parts>
+            <parts>
+                <part>violoncello</part>
+            </parts>
             <annots>
-                <annot><hairpin form="dim"/> über den Taktstrich hinausgehend</annot>
+                <annot>
+                    <hairpin form="dim"/> über den Taktstrich hinausgehend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7478,9 +8011,13 @@
                     <range type="stop" measure="82"/>
                 </occurance>
             </occurances>
-            <parts><part>timpani</part></parts>
+            <parts>
+                <part>timpani</part>
+            </parts>
             <annots>
-                <annot><mSpace/></annot>
+                <annot>
+                    <mSpace/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7498,9 +8035,13 @@
                     <range type="stop" measure="81" count="4"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>trumpets</partGrp></parts>
+            <parts>
+                <partGrp>trumpets</partGrp>
+            </parts>
             <annots>
-                <annot>Ohne <dynam>p</dynam><hairpin form="cres"/></annot>
+                <annot>Ohne <dynam>p</dynam>
+                    <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7524,10 +8065,16 @@
                     <range type="stop" measure="85" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>clarinet.ii</part></parts>
+            <parts>
+                <part>clarinet.ii</part>
+            </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7548,7 +8095,9 @@
             </occurances>
             <parts>none</parts>
             <annots>
-                <annot><tempo>Etwas lebhafter</tempo></annot>
+                <annot>
+                    <tempo>Etwas lebhafter</tempo>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7571,7 +8120,9 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/></annot>
+                <annot>
+                    <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7593,8 +8144,16 @@
                 <part>bassoon.i</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><dynam>mf</dynam></annot>
-                <annot><ptr target="#A-P3" corresp="#bassoon.i"/><add type="pencil"><dynam>mf</dynam></add></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <dynam>mf</dynam>
+                </annot>
+                <annot>
+                    <ptr target="#A-P3" corresp="#bassoon.i"/>
+                    <add type="pencil">
+                        <dynam>mf</dynam>
+                    </add>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7619,9 +8178,15 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>mf</dynam><hairpin form="cres"/></annot>
-                <annot><ptr type="conjecture" target="#ED-P" corresp="#hornsFrench"/></annot>
-                <annot><ptr target="#A-P2"/><hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
+                <annot>Ohne <dynam>mf</dynam>
+                    <hairpin form="cres"/>
+                </annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P" corresp="#hornsFrench"/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2"/>
+                    <hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7646,9 +8211,13 @@
                 <part>bass.ii</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/>
-                    <hairpin form="cres"/></annot>
-                <annot><ptr target="#A-P2"/> Ohne <hairpin form="cres"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <hairpin form="cres"/>
+                </annot>
+                <annot>
+                    <ptr target="#A-P2"/> Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7691,25 +8260,80 @@
                                 <measure xml:id="m5f9qfd" right="end" n="1">
                                     <staff xml:id="s14gnza6" n="1">
                                         <layer xml:id="l1jv0244" n="1">
-                                            <note xml:id="n1rc32r3" dur.ppq="8" dur="2" oct="3" pname="b" stem.dir="up"/>
+                                            <note xml:id="n1rc32r3"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="3"
+                                                  pname="b"
+                                                  stem.dir="up"/>
                                             <beam xml:id="bgext9d">
-                                                <note xml:id="n175qxhv" dots="1" dur.ppq="3" dur="8" oct="3" pname="b" stem.dir="up"/>
-                                                <note xml:id="n1gd8h8l" dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="up"/>
+                                                <note xml:id="n175qxhv"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="up"/>
+                                                <note xml:id="n1gd8h8l"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="up"/>
                                             </beam>
                                             <beam xml:id="bon58sn">
-                                                <note xml:id="n149erxs" dots="1" dur.ppq="3" dur="8" oct="3" pname="b" stem.dir="up"/>
-                                                <note xml:id="n1mfffbb" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up"/>
+                                                <note xml:id="n149erxs"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="up"/>
+                                                <note xml:id="n1mfffbb"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
                                             </beam>
                                         </layer>
                                         <layer xml:id="l1t1uaul" n="2">
-                                            <note xml:id="n1sy4cge" dur.ppq="8" dur="2" oct="3" pname="b" stem.dir="down"/>
+                                            <note xml:id="n1sy4cge"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="3"
+                                                  pname="b"
+                                                  stem.dir="down"/>
                                             <beam xml:id="b12avrdq">
-                                                <note xml:id="nm17dv6" dots="1" dur.ppq="3" dur="8" oct="3" pname="b" stem.dir="down"/>
-                                                <note xml:id="naazndk" dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="down"/>
+                                                <note xml:id="nm17dv6"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="down"/>
+                                                <note xml:id="naazndk"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="bktjon9">
-                                                <note xml:id="n1cf1pud" dots="1" dur.ppq="3" dur="8" oct="3" pname="g" stem.dir="down" accid="s"/>
-                                                <note xml:id="n6lq7k2" dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="down"/>
+                                                <note xml:id="n1cf1pud"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="g"
+                                                      stem.dir="down"
+                                                      accid="s"/>
+                                                <note xml:id="n6lq7k2"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="down"/>
                                             </beam>
                                         </layer>
                                     </staff>
@@ -7734,25 +8358,80 @@
                                 <measure xml:id="mteg75c" right="end" n="1">
                                     <staff xml:id="sq87nas" n="2">
                                         <layer xml:id="liryz2p" n="1">
-                                            <note xml:id="nxrrgwq" dur.ppq="8" dur="2" oct="3" pname="g" stem.dir="up"/>
+                                            <note xml:id="nxrrgwq"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="3"
+                                                  pname="g"
+                                                  stem.dir="up"/>
                                             <beam xml:id="b1kgrulu">
-                                                <note xml:id="nnhpulp" dots="1" dur.ppq="3" dur="8" oct="3" pname="g" stem.dir="up"/>
-                                                <note xml:id="n1bcejjf" dur.ppq="1" dur="16" oct="3" pname="g" stem.dir="up"/>
+                                                <note xml:id="nnhpulp"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="g"
+                                                      stem.dir="up"/>
+                                                <note xml:id="n1bcejjf"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="g"
+                                                      stem.dir="up"/>
                                             </beam>
                                             <beam xml:id="b1xptrdt">
-                                                <note xml:id="n1vrfiat" dots="1" dur.ppq="3" dur="8" oct="3" pname="b" stem.dir="up"/>
-                                                <note xml:id="npgd3vw" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up"/>
+                                                <note xml:id="n1vrfiat"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="up"/>
+                                                <note xml:id="npgd3vw"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="4"
+                                                      pname="e"
+                                                      stem.dir="up"/>
                                             </beam>
                                         </layer>
                                         <layer xml:id="lsy7gym" n="2">
-                                            <note xml:id="n1uy7li8" dur.ppq="8" dur="2" oct="3" pname="e" stem.dir="down"/>
+                                            <note xml:id="n1uy7li8"
+                                                  dur.ppq="8"
+                                                  dur="2"
+                                                  oct="3"
+                                                  pname="e"
+                                                  stem.dir="down"/>
                                             <beam xml:id="bwiqbtu">
-                                                <note xml:id="n9puo6p" dots="1" dur.ppq="3" dur="8" oct="3" pname="e" stem.dir="down"/>
-                                                <note xml:id="nurduhs" dur.ppq="1" dur="16" oct="3" pname="e" stem.dir="down"/>
+                                                <note xml:id="n9puo6p"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="e"
+                                                      stem.dir="down"/>
+                                                <note xml:id="nurduhs"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="e"
+                                                      stem.dir="down"/>
                                             </beam>
                                             <beam xml:id="bt26fl1">
-                                                <note xml:id="n1avoy64" dots="1" dur.ppq="3" dur="8" oct="3" pname="g" stem.dir="down" accid="s"/>
-                                                <note xml:id="n1gx21x" dur.ppq="1" dur="16" oct="3" pname="b" stem.dir="down"/>
+                                                <note xml:id="n1avoy64"
+                                                      dots="1"
+                                                      dur.ppq="3"
+                                                      dur="8"
+                                                      oct="3"
+                                                      pname="g"
+                                                      stem.dir="down"
+                                                      accid="s"/>
+                                                <note xml:id="n1gx21x"
+                                                      dur.ppq="1"
+                                                      dur="16"
+                                                      oct="3"
+                                                      pname="b"
+                                                      stem.dir="down"/>
                                             </beam>
                                         </layer>
                                     </staff>
@@ -7781,7 +8460,10 @@
                     <position measure="82"/>
                 </occurance>
             </occurances>
-            <parts><part>bass.i</part><part>bass.ii</part></parts>
+            <parts>
+                <part>bass.i</part>
+                <part>bass.ii</part>
+            </parts>
             <annots>
                 <annot>Ursprünglich tiefer gesetzt, jedoch gestrichen.</annot>
             </annots>
@@ -7796,11 +8478,16 @@
             <class>Dynamik</class>
             <mdiv>1</mdiv>
             <occurances>
-                <occurance><position measure="82" count="1"/> </occurance>
+                <occurance>
+                    <position measure="82" count="1"/>
+                </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp></parts>
+            <parts>
+                <partGrp>choirMale</partGrp>
+            </parts>
             <annots>
-                <annot>Ohne <dynam>mf</dynam></annot>
+                <annot>Ohne <dynam>mf</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7817,10 +8504,18 @@
                     <position measure="82" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>doubleBass</part></parts>
+            <parts>
+                <part>doubleBass</part>
+            </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2"/><ptr type="compare" target="#A-P3" corresp="#doubleBass"/><q>pizz</q></annot>
-                <annot><ptr target="#ED-P"/> ohne <q>pizz</q></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2"/>
+                    <ptr type="compare" target="#A-P3" corresp="#doubleBass"/>
+                    <q>pizz</q>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/> ohne <q>pizz</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7839,11 +8534,15 @@
                     <position measure="82" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part></parts>
+            <parts>
+                <part>violoncello</part>
+            </parts>
             <annots>
-                <annot><ptr target="#A-P3"/>
+                <annot>
+                    <ptr target="#A-P3"/>
                     <hairpin form="cres"/> aus Platzgründen später beginnend</annot>
-                <annot><ptr target="#A-P2"/>
+                <annot>
+                    <ptr target="#A-P2"/>
                     <hairpin form="cres"/> beginnt erst in Zählzeit 3</annot>
             </annots>
             <manifestationList>
@@ -7863,10 +8562,15 @@
                     <range type="stop" measure="82" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>doubleBass</part>
+            <parts>
+                <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><ptr type="compare" target="#A-P3" corresp="#violoncello"/><hairpin form="cres"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <ptr type="compare" target="#A-P3" corresp="#violoncello"/>
+                    <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -7889,7 +8593,8 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7910,7 +8615,11 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><ptr type="compare" target="#A-P3" corresp="#violoncello"/><dynam>f</dynam></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <ptr type="compare" target="#A-P3" corresp="#violoncello"/>
+                    <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -7928,7 +8637,9 @@
                     <position measure="83" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part></parts>
+            <parts>
+                <part>viola</part>
+            </parts>
             <annots>
                 <annot>Mit (kurzer) Trillerschlange</annot>
             </annots>
@@ -7951,7 +8662,8 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7972,7 +8684,8 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -7993,7 +8706,11 @@
                 <partGrp>bass</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><dynam>f</dynam><ptr type="compare" target="#A-P3" corresp="#tenor"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <dynam>f</dynam>
+                    <ptr type="compare" target="#A-P3" corresp="#tenor"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -8015,7 +8732,8 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <dynam>f</dynam></annot>
+                <annot>Ohne <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8036,7 +8754,9 @@
                 <part>bass.i</part>
             </parts>
             <annots>
-                <annot><note pname="a" oct="3" dur="2"/></annot>
+                <annot>
+                    <note pname="a" oct="3" dur="2"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8060,7 +8780,8 @@
                 <partGrp>flutes</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="stacc"/></annot>
+                <annot>Ohne <artic artic="stacc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8084,7 +8805,8 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8107,7 +8829,10 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/><dynam>f</dynam></annot>
+                <annot>
+                    <hairpin form="cres"/>
+                    <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8130,8 +8855,12 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="#A-P2 #ED-P"><syl>stärker denn die</syl></lem>
-                        <rdg source="#A-P3"><syl>stärker, denn die</syl></rdg>
+                        <lem source="#A-P2 #ED-P">
+                            <syl>stärker denn die</syl>
+                        </lem>
+                        <rdg source="#A-P3">
+                            <syl>stärker, denn die</syl>
+                        </rdg>
                     </app>
                 </annot>
             </annots>
@@ -8152,10 +8881,12 @@
                     <position measure="84" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part>
+            <parts>
+                <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Ohne <q>arco</q></annot>
+                <annot>Ohne <q>arco</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8172,10 +8903,13 @@
                     <position measure="84" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part>
+            <parts>
+                <part>viola</part>
             </parts>
             <annots>
-                <annot><note pname="c" accid.ges="s" oct="4" dur="16"/> ohne <accid accid="s"/></annot>
+                <annot>
+                    <note pname="c" accid.ges="s" oct="4" dur="16"/> ohne <accid accid="s"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8218,8 +8952,10 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P3 #ED-P"/>
-                    <slur/> nach <sb/> ankommend, aber nicht abgehend <ptr type="conjecture" target="#A-P2"/></annot>
+                <annot>
+                    <ptr target="#A-P3 #ED-P"/>
+                    <slur/> nach <sb/> ankommend, aber nicht abgehend <ptr type="conjecture" target="#A-P2"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8238,9 +8974,14 @@
                     <position measure="85" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part></parts>
+            <parts>
+                <part>violin.i</part>
+            </parts>
             <annots>
-                <annot><tempo>rit</tempo> erst in Zählzeit 4 <ptr type="compare" target="#A-P3" corresp="#flutes #trumpets"/><ptr type="compare" target="#A-P2 #ED-P"/></annot>
+                <annot>
+                    <tempo>rit</tempo> erst in Zählzeit 4 <ptr type="compare" target="#A-P3" corresp="#flutes #trumpets"/>
+                    <ptr type="compare" target="#A-P2 #ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8264,7 +9005,9 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/></annot>
+                <annot>
+                    <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8287,7 +9030,10 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><dynam>f</dynam></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <dynam>f</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8311,7 +9057,10 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><dynam>p</dynam></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -8334,7 +9083,8 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>Ohne ><dynam>p</dynam></annot>
+                <annot>Ohne &gt;<dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8355,11 +9105,18 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="#A-P3 #A-P2"><tempo>Tempo I</tempo></lem>
-                        <rdg source="#ED-P"><tempo>Tempo 1</tempo></rdg>
+                        <lem source="#A-P3 #A-P2">
+                            <tempo>Tempo I</tempo>
+                        </lem>
+                        <rdg source="#ED-P">
+                            <tempo>Tempo 1</tempo>
+                        </rdg>
                     </app>
                 </annot>
-                <annot><ptr target="#A-P3" corresp="#choirMale"/><tempo>Tempo</tempo></annot>
+                <annot>
+                    <ptr target="#A-P3" corresp="#choirMale"/>
+                    <tempo>Tempo</tempo>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8382,7 +9139,10 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2"/><q>dolce</q></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2"/>
+                    <q>dolce</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8404,7 +9164,10 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><artic artic="arco"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <artic artic="arco"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8426,7 +9189,9 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><dynam>pp</dynam></annot>
+                <annot>
+                    <dynam>pp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -8443,9 +9208,12 @@
                     <position measure="87" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>hornFrench.ii</part></parts>
+            <parts>
+                <part>hornFrench.ii</part>
+            </parts>
             <annots>
-                <annot><slur/> unterbrochen (neu angesetzt)</annot>
+                <annot>
+                    <slur/> unterbrochen (neu angesetzt)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8467,7 +9235,10 @@
                 <part>tenor.ii</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><slur/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8486,12 +9257,20 @@
                     <position measure="88" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part></parts>
+            <parts>
+                <part>violoncello</part>
+            </parts>
             <annots>
-                <annot><subst>
-                        <del><note pname="e" oct="3" dur="2" tie="t"/></del>
-                        <add><note pname="e" oct="2" dur="2" tie="t"/></add>
-                    </subst></annot>
+                <annot>
+                    <subst>
+                        <del>
+                            <note pname="e" oct="3" dur="2" tie="t"/>
+                        </del>
+                        <add>
+                            <note pname="e" oct="2" dur="2" tie="t"/>
+                        </add>
+                    </subst>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8508,10 +9287,12 @@
                     <position measure="89" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>doubleBass</part>
+            <parts>
+                <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="pizz"/></annot>
+                <annot>Ohne <artic artic="pizz"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -8532,7 +9313,9 @@
                 <partGrp>bass</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8551,12 +9334,20 @@
                     <position measure="90" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part>
+            <parts>
+                <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2"/>Ohne Anweisung</annot>
-                <annot><ptr target="#A-P"/><q>geteilt</q></annot>
-                <annot><ptr target="#ED-P"/><q>div.</q></annot>
+                <annot>
+                    <ptr target="#A-P2"/>Ohne Anweisung</annot>
+                <annot>
+                    <ptr target="#A-P"/>
+                    <q>geteilt</q>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/>
+                    <q>div.</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8576,10 +9367,12 @@
                     <range type="stop" measure="91" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part>
+            <parts>
+                <part>violoncello</part>
             </parts>
             <annots>
-                <annot><slur/> (Unterstimme)</annot>
+                <annot>
+                    <slur/> (Unterstimme)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8598,10 +9391,12 @@
                     <position measure="91" count="2"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>tenor</partGrp>
+            <parts>
+                <partGrp>tenor</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <accid accid="s"/></annot>
+                <annot>Ohne <accid accid="s"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8620,10 +9415,13 @@
                     <position measure="93" count="2"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part><part>violoncello</part>
+            <parts>
+                <part>violin.i</part>
+                <part>violoncello</part>
             </parts>
             <annots>
-                <annot><slur/> durchgehend bis Taktende</annot>
+                <annot>
+                    <slur/> durchgehend bis Taktende</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8641,10 +9439,12 @@
                     <range type="stop" measure="93" count="3"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp>
+            <parts>
+                <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8662,10 +9462,12 @@
                     <range type="stop" measure="93" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part>
+            <parts>
+                <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8688,7 +9490,9 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><dynam>p</dynam></annot>
+                <annot>
+                    <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8706,10 +9510,14 @@
                     <position measure="94" count="1"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp>
+            <parts>
+                <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><syl>dir.</syl></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <syl>dir.</syl>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8729,10 +9537,12 @@
                     <range type="stop" measure="95" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>bassoon.ii</part>
+            <parts>
+                <part>bassoon.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8750,10 +9560,12 @@
                     <range type="stop" measure="94" count="2"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp>
+            <parts>
+                <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="dim"/></annot>
+                <annot>Ohne <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8775,7 +9587,11 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2"/><hairpin form="cres"/><hairpin form="dim"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2"/>
+                    <hairpin form="cres"/>
+                    <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8798,7 +9614,10 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/><hairpin form="dim"/></annot>
+                <annot>
+                    <hairpin form="cres"/>
+                    <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8820,7 +9639,10 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2"/><hairpin form="cres"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2"/>
+                    <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8843,7 +9665,8 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> beginnt bereits in Zählzeit 2</annot>
+                <annot>
+                    <hairpin form="dim"/> beginnt bereits in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8867,7 +9690,8 @@
                 <part>hornFrench.i</part>
             </parts>
             <annots>
-                <annot>Doppelt <ptr target="#A-P2" corresp="#oboe.i"/></annot>
+                <annot>Doppelt <ptr target="#A-P2" corresp="#oboe.i"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8891,8 +9715,14 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><slur/><tie/></annot>
-                <annot><ptr type="conjecture" target="#ED-P"/><slur/></annot>
+                <annot>
+                    <slur/>
+                    <tie/>
+                </annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -8915,8 +9745,13 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><slur/><tie/></annot>
-                <annot><slur/></annot>
+                <annot>
+                    <slur/>
+                    <tie/>
+                </annot>
+                <annot>
+                    <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -8940,7 +9775,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><tie/> nur ankommend</annot>
+                <annot>
+                    <tie/> nur ankommend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8959,9 +9795,13 @@
             </occurances>
             <parts>
                 <part>violin.i</part>
-                <part>violin.ii</part><part>viola</part></parts>
+                <part>violin.ii</part>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot><dynam>ppp</dynam></annot>
+                <annot>
+                    <dynam>ppp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8978,9 +9818,14 @@
                     <position measure="95" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part></parts>
+            <parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><dynam>pp</dynam></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <dynam>pp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -8998,9 +9843,11 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>violoncello</part></parts>
+                <part>violoncello</part>
+            </parts>
             <annots>
-                <annot><slur/> beginnt bereits in Takt 94 Zählzeit 4</annot>
+                <annot>
+                    <slur/> beginnt bereits in Takt 94 Zählzeit 4</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9021,9 +9868,14 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>oboe.ii</part><part>clarinet.ii</part></parts>
+                <part>oboe.ii</part>
+                <part>clarinet.ii</part>
+            </parts>
             <annots>
-                <annot><note pname="e" dur="2" slur="t1"/><note pname="e" dur="4" slur="i1"/></annot>
+                <annot>
+                    <note pname="e" dur="2" slur="t1"/>
+                    <note pname="e" dur="4" slur="i1"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9046,7 +9898,9 @@
                 <partGrp>bassoons</partGrp>
             </parts>
             <annots>
-                <annot><slur/> nach <sb/> nicht ankommend, in Takt 96 Zählzeit 1 beginnt neuer <slur/></annot>
+                <annot>
+                    <slur/> nach <sb/> nicht ankommend, in Takt 96 Zählzeit 1 beginnt neuer <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9064,10 +9918,13 @@
                     <range type="stop" measure="97" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part>
+            <parts>
+                <part>violoncello</part>
             </parts>
             <annots>
-                <annot><slur/></annot>
+                <annot>
+                    <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9084,9 +9941,12 @@
                     <position measure="96" count="3"/>
                 </occurance>
             </occurances>
-            <parts><part>clarinet.i</part></parts>
+            <parts>
+                <part>clarinet.i</part>
+            </parts>
             <annots>
-                <annot>Ohne <accid accid="s"/></annot>
+                <annot>Ohne <accid accid="s"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9105,10 +9965,15 @@
                     <position measure="97" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>violoncello</part>
+            <parts>
+                <part>violoncello</part>
             </parts>
             <annots>
-                <annot><del><accid accid="s"/></del></annot>
+                <annot>
+                    <del>
+                        <accid accid="s"/>
+                    </del>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9131,7 +9996,10 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><hairpin form="dim"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <hairpin form="dim"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -9156,7 +10024,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><hairpin form="dim"/> beginnt erst in Zählzeit 4</annot>
+                <annot>
+                    <hairpin form="dim"/> beginnt erst in Zählzeit 4</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9173,11 +10042,18 @@
                     <position measure="98" count="2"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part>
+            <parts>
+                <part>viola</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2 #A-P3"/><q>geteilt</q></annot>
-                <annot><ptr target="#ED-P"/><q>div.</q></annot>
+                <annot>
+                    <ptr target="#A-P2 #A-P3"/>
+                    <q>geteilt</q>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/>
+                    <q>div.</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9196,11 +10072,18 @@
                     <position measure="98" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part>
+            <parts>
+                <part>violin.i</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2 #A-P3"/><q>geteilt</q></annot>
-                <annot><ptr target="#ED-P"/><q>div.</q></annot>
+                <annot>
+                    <ptr target="#A-P2 #A-P3"/>
+                    <q>geteilt</q>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/>
+                    <q>div.</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9219,11 +10102,18 @@
                     <position measure="99" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.ii</part>
+            <parts>
+                <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><ptr target="#A-P2 #A-P3"/><q>geteilt</q></annot>
-                <annot><ptr target="#ED-P"/><q>div.</q></annot>
+                <annot>
+                    <ptr target="#A-P2 #A-P3"/>
+                    <q>geteilt</q>
+                </annot>
+                <annot>
+                    <ptr target="#ED-P"/>
+                    <q>div.</q>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9242,9 +10132,12 @@
                     <position measure="99" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.i</part></parts>
+            <parts>
+                <part>violin.i</part>
+            </parts>
             <annots>
-                <annot>Ohne <dynam>ppp</dynam></annot>
+                <annot>Ohne <dynam>ppp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9263,9 +10156,13 @@
                     <position measure="99"/>
                 </occurance>
             </occurances>
-            <parts><part>doubleBass</part></parts>
+            <parts>
+                <part>doubleBass</part>
+            </parts>
             <annots>
-                <annot><dir>col Cello</dir></annot>
+                <annot>
+                    <dir>col Cello</dir>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9282,9 +10179,12 @@
                     <position measure="102" count="1"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>hornsFrench</partGrp></parts>
+            <parts>
+                <partGrp>hornsFrench</partGrp>
+            </parts>
             <annots>
-                <annot><dynam>sf</dynam> mittig für alle Stimmen notiert</annot>
+                <annot>
+                    <dynam>sf</dynam> mittig für alle Stimmen notiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9301,12 +10201,14 @@
                     <position measure="102" count="1"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>hornsFrench</partGrp>
+            <parts>
+                <partGrp>hornsFrench</partGrp>
                 <part>violin.i</part>
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>sf</dynam></annot>
+                <annot>Ohne <dynam>sf</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9328,7 +10230,11 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P3" corresp="#hornFrench.i"/><artic artic="acc"/><ptr type="compare" target="#A-P2"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P3" corresp="#hornFrench.i"/>
+                    <artic artic="acc"/>
+                    <ptr type="compare" target="#A-P2"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9347,9 +10253,12 @@
                     <position measure="102" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part></parts>
+            <parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot>Ohne <ornam/></annot>
+                <annot>Ohne <ornam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9371,7 +10280,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9394,7 +10304,9 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres"/></annot>
+                <annot>
+                    <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9436,10 +10348,15 @@
                     <range type="stop" measure="103" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>trombone.ii</part>
+            <parts>
+                <part>trombone.ii</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><slur/><ptr type="compare" target="#A-P3" corresp="#trombone.i"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <slur/>
+                    <ptr type="compare" target="#A-P3" corresp="#trombone.i"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -9462,7 +10379,9 @@
                 <part>tuba</part>
             </parts>
             <annots>
-                <annot><dynam>p</dynam></annot>
+                <annot>
+                    <dynam>p</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9483,7 +10402,8 @@
                 <part>timpani</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam/></annot>
+                <annot>Ohne <dynam/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9501,10 +10421,14 @@
                     <range type="stop" measure="105" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>trombone.i</part>
+            <parts>
+                <part>trombone.i</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><tie/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <tie/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9524,10 +10448,14 @@
                     <range type="stop" measure="105" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>trombone.iii</part>
-                <part>tuba</part></parts>
+            <parts>
+                <part>trombone.iii</part>
+                <part>tuba</part>
+            </parts>
             <annots>
-                <annot><tie/></annot>
+                <annot>
+                    <tie/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9548,7 +10476,8 @@
                 <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><dir>zus.</dir>; im folgenden einstimmig notiert</annot>
+                <annot>
+                    <dir>zus.</dir>; im folgenden einstimmig notiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -9565,10 +10494,12 @@
                     <position measure="105" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>violin.ii</part>
+            <parts>
+                <part>violin.ii</part>
             </parts>
             <annots>
-                <annot><slur/> unterbrochen; neuer <slur/> beginnt</annot>
+                <annot>
+                    <slur/> unterbrochen; neuer <slur/> beginnt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9590,7 +10521,9 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9609,10 +10542,13 @@
                     <position measure="107"/>
                 </occurance>
             </occurances>
-            <parts><part>doubleBass</part>
+            <parts>
+                <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><dir>col Cello</dir></annot>
+                <annot>
+                    <dir>col Cello</dir>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -9629,10 +10565,15 @@
                     <position measure="107" count="4"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>bass</partGrp>
+            <parts>
+                <partGrp>bass</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><hairpin form="cres"/><ptr type="compare" target="#A-P3" corresp="#tenor"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <hairpin form="cres"/>
+                    <ptr type="compare" target="#A-P3" corresp="#tenor"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -9664,7 +10605,8 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9682,9 +10624,11 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>viola</part></parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot><hairpin form="cres"/> beginnt erst in Zählzeit 2</annot>
+                <annot>
+                    <hairpin form="cres"/> beginnt erst in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -9701,11 +10645,15 @@
                     <position measure="107" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part></parts>
+            <parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot><note pname="f" accid.ges="s" oct="4" dur="16">
+                <annot>
+                    <note pname="f" accid.ges="s" oct="4" dur="16">
                         <artic artic="stacc"/>
-                    </note></annot>
+                    </note>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9725,11 +10673,15 @@
                     <position measure="106" count="2"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part></parts>
+            <parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot><note dur="4">
+                <annot>
+                    <note dur="4">
                         <artic artic="stacc"/>
-                    </note></annot>
+                    </note>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9747,9 +10699,12 @@
                     <range type="stop" measure="106" count="2"/>
                 </occurance>
             </occurances>
-            <parts><part>viola</part></parts>
+            <parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot>Ohne <slur/></annot>
+                <annot>Ohne <slur/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9766,9 +10721,16 @@
                     <position measure="108"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp></parts>
+            <parts>
+                <partGrp>choirMale</partGrp>
+            </parts>
             <annots>
-                <annot><syl>schla</syl><syl>gen</syl><syl>und</syl><syl>die</syl></annot>
+                <annot>
+                    <syl>schla</syl>
+                    <syl>gen</syl>
+                    <syl>und</syl>
+                    <syl>die</syl>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -9785,10 +10747,14 @@
                     <position measure="108" count="4"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>bass</partGrp>
+            <parts>
+                <partGrp>bass</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><hairpin form="cres"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <hairpin form="cres"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9807,10 +10773,14 @@
                     <position measure="108" count="1"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>bass</partGrp>
+            <parts>
+                <partGrp>bass</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#ED-P"/><artic artic="acc"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#ED-P"/>
+                    <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -9828,10 +10798,12 @@
                     <position measure="108" count="1"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp>
+            <parts>
+                <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9848,10 +10820,15 @@
                     <position measure="109"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp>
+            <parts>
+                <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><syl>Strei</syl><syl>ter,</syl><syl>im</syl></annot>
+                <annot>
+                    <syl>Strei</syl>
+                    <syl>ter,</syl>
+                    <syl>im</syl>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -9872,7 +10849,10 @@
                 <partGrp>bass</partGrp>
             </parts>
             <annots>
-                <annot><ptr type="conjecture" target="#A-P2 #ED-P"/><artic artic="acc"/></annot>
+                <annot>
+                    <ptr type="conjecture" target="#A-P2 #ED-P"/>
+                    <artic artic="acc"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9896,7 +10876,8 @@
                 <part>bassoon.i</part>
             </parts>
             <annots>
-                <annot>Ohne <accid accid="n"/></annot>
+                <annot>Ohne <accid accid="n"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9916,9 +10897,12 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>viola</part></parts>
+                <part>viola</part>
+            </parts>
             <annots>
-                <annot><dynam>pp</dynam></annot>
+                <annot>
+                    <dynam>pp</dynam>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -9935,10 +10919,14 @@
                     <position measure="111"/>
                 </occurance>
             </occurances>
-            <parts><partGrp>choirMale</partGrp>
+            <parts>
+                <partGrp>choirMale</partGrp>
             </parts>
             <annots>
-                <annot><syl>fal</syl><syl>len</syl></annot>
+                <annot>
+                    <syl>fal</syl>
+                    <syl>len</syl>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9956,12 +10944,16 @@
                     <position measure="112" count="4"/>
                 </occurance>
             </occurances>
-            <parts><part>timpani</part>
+            <parts>
+                <part>timpani</part>
             </parts>
             <annots>
-                <annot><rest dur="8"/><note pname="e" oct="3" dur="8">
+                <annot>
+                    <rest dur="8"/>
+                    <note pname="e" oct="3" dur="8">
                         <artic artic="stacc"/>
-                    </note></annot>
+                    </note>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
@@ -9979,12 +10971,18 @@
                     <position measure="113" count="1"/>
                 </occurance>
             </occurances>
-            <parts><part>timpani</part>
+            <parts>
+                <part>timpani</part>
             </parts>
             <annots>
-                <annot><del><note pname="e" oct="3" dur="8">
+                <annot>
+                    <del>
+                        <note pname="e" oct="3" dur="8">
                             <artic artic="stacc"/>
-                        </note><note pname="e" oct="3" dur="8"/></del></annot>
+                        </note>
+                        <note pname="e" oct="3" dur="8"/>
+                    </del>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
