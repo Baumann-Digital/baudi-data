@@ -362,15 +362,16 @@
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="7" count="2"/>
-                    <range type="stop" measure="8" count="1"/>
+                    <range type="start" measure="7" count="1"/>
+                    <range type="stop" measure="7" count="4"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>Dynamik gemäß ED-P ergänzt</annot>
+                <annot>Ohne <hairpin form="cres"/></annot>
+                <annot><ptr type="emendation" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -412,20 +413,43 @@
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
-                    <position measure="8"/>
+                    <position measure="8" count="2"/>
                 </occurance>
             </occurances>
             <parts>
-                <part>doubleBass</part>
-                <part>violoncello</part>
-                <part>viola</part>
                 <part>violin.ii</part>
+                <part>viola</part>
+                <part>violoncello</part>
+                <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>A-P3 ohne pp-Angabe</annot>
+                <annot>Ohne <dynam>pp</dynam></annot>
+                <annot><ptr type="emendation" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>9</mdiv>
+            <occurances>
+                <occurance>
+                <position measure="7" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+            <part>viola</part>
+                <part>violoncello</part>
+            </parts>
+            <annots>
+                <annot><hairpin form="cres"/> Beginn etwas später</annot>
+            </annots>
+            <manifestationList>
                 <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
@@ -441,12 +465,11 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>hornFrench.ii</part>
-                <part>hornFrench.iv</part>
                 <part>trumpet.ii</part>
             </parts>
             <annots>
-                <annot>Akzent gemäß ED-P ergänzt</annot>
+                <annot>Ohne <artic artic="acc"/></annot>
+                <annot><ptr type="emendation" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -457,19 +480,41 @@
             </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-d8365c94">
-            <class>Vortragsbezeichnung</class>
+            <class>Tempoangabe</class>
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
                     <position measure="8" count="1"/>
                 </occurance>
             </occurances>
-            <parts/>
+            <parts>none</parts>
             <annots>
-                <annot>Tempoangabe: In A-P3 "Langsam, Rec.", in ED-P "Recit."</annot>
+                <annot><ptr type="compare" target="#A-P3"/><tempo>Langsamer, Rec.</tempo></annot>
+                <annot><ptr type="compare" target="#ED-P" corresp="#flute"/><tempo>Langsamer, Recit.</tempo></annot>
             </annots>
             <manifestationList>
-                <manifestation/>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Tempoangabe</class>
+            <mdiv>9</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="6" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>none</parts>
+            <annots>
+                <annot><tempo>Langsamer, Rec.</tempo></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
