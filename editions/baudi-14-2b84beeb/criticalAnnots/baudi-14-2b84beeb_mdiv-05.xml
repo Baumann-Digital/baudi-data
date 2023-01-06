@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-05">
     <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
     <remarks>
@@ -18,12 +18,12 @@
             <annots>
                 <annot>Fehlende Punktierung an<note dur="2"/>[des2]</annot>
             </annots>
-            <sources>
-                <source>ED-KA2</source>
-                <source>ED-KA1</source>
-            </sources>
+            <manifestationList>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
             <editions>
-                <edition/>
+                <edition>BauDi-KA</edition>
             </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-cdf49b40">
@@ -41,10 +41,10 @@
             <annots>
                 <annot>In SV ist trotz des Systemwechsels der linken Hand eine ganze Note a notiert. Diese Note wurde nicht in die Edition übernommen</annot>
             </annots>
-            <sources>
-                <source>A-P3-KA</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editions><edition>BauDi-KA</edition></editions>
         </remark>
     </remarks>
 </crApp>
