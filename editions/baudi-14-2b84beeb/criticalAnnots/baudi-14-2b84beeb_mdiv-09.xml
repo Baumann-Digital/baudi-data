@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../submodules/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-09">
     <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
     <remarks>
-        <remark type="" xml:id="baudi-30-7c95c31c">
+        <remark type="editorial" xml:id="baudi-30-7c95c31c">
             <class>Dynamik</class>
             <mdiv>9</mdiv>
             <occurances>
@@ -20,11 +20,13 @@
             <annots>
                 <annot><hairpin form="cres"/>gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-7521f423">
             <class>Dynamik</class>
@@ -41,11 +43,13 @@
             <annots>
                 <annot><dynam>ff</dynam>gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-6aef50dc">
             <class>Tondauer</class>
@@ -62,10 +66,12 @@
             <annots>
                 <annot>Punktierung fehlt</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-0c306ee1">
             <class>Artikulation</class>
@@ -76,19 +82,21 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.ii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.ii</part>
+                <part>hornFrench.iv</part>
                 <part>trombone.ii</part>
                 <part>trumpet.ii</part>
             </parts>
             <annots>
                 <annot>\lilyStaccato\, gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-21e138c1">
             <class>Artikulation</class>
@@ -99,8 +107,8 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.ii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.ii</part>
+                <part>hornFrench.iv</part>
                 <part>trombone.ii</part>
                 <part>trumpet.i</part>
                 <part>trumpet.ii</part>
@@ -108,11 +116,13 @@
             <annots>
                 <annot>Akzente gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-6e7d3ca9">
             <class>Artikulation</class>
@@ -123,17 +133,19 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.iii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.iii</part>
+                <part>hornFrench.iv</part>
             </parts>
             <annots>
                 <annot>\lilyStaccato\, gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-56021c35">
             <class>Notentext</class>
@@ -150,10 +162,12 @@
             <annots>
                 <annot>In A-P3 nicht ausnotiert ("col Cello")</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-4f0401c2">
             <class>Notentext</class>
@@ -170,10 +184,12 @@
             <annots>
                 <annot>In A-P3 nicht ausnotiert ("col Cello")</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-b81d6bc8">
             <class>Notentext</class>
@@ -190,10 +206,12 @@
             <annots>
                 <annot>Notentext (ohne Artikulation) mit Bleistift nachgetragen (Zz. 4 ist oktaviert, sonst wie Vc.)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-e526c80c">
             <class>Dynamik</class>
@@ -210,11 +228,13 @@
             <annots>
                 <annot>Dynamik gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-3da4559e">
             <class>Artikulation</class>
@@ -225,25 +245,27 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.ii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.ii</part>
+                <part>hornFrench.iv</part>
                 <part>trumpet.ii</part>
             </parts>
             <annots>
                 <annot>Akzent gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-6d52a397">
             <class>Dynamik</class>
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
-                    <position measure="8" count="NaN"/>
+                    <position measure="8"/>
                 </occurance>
             </occurances>
             <parts>
@@ -255,11 +277,13 @@
             <annots>
                 <annot>A-P3 ohne pp-Angabe</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-1480c938">
             <class>Artikulation</class>
@@ -271,20 +295,22 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.iii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.iii</part>
+                <part>hornFrench.iv</part>
             </parts>
             <annots>
                 <annot>\lilyStaccato\, gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-d8365c94">
-            <class>Vortagsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
@@ -295,8 +321,12 @@
             <annots>
                 <annot>Tempoangabe: In A-P3 "Langsam, Rec.", in ED-P "Recit."</annot>
             </annots>
-            <sources/>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation></manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-7d9a9aa9">
             <class>Notentext</class>
@@ -312,10 +342,12 @@
             <annots>
                 <annot>ED-P ohne Tremolo (32stel)</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-72e2a5a0">
             <class>Artikulation</class>
@@ -331,11 +363,13 @@
             <annots>
                 <annot>\lilyStaccato\, gemäß Blechbläsern ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-9efa2913">
             <class>Notentext</class>
@@ -355,10 +389,12 @@
             <annots>
                 <annot>ED-P als ganze Note mit Tremolo notiert</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-41b1dd76">
             <class>Notentext</class>
@@ -376,10 +412,12 @@
             <annots>
                 <annot>ED-P als ganze Note mit Tremolo notiert</annot>
             </annots>
-            <sources>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-1b5c9a07">
             <class>Notentext</class>
@@ -397,11 +435,13 @@
             <annots>
                 <annot>Tremplo gemäß Vl1&amp;2 und Vla ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-b537a6ae">
             <class>Dynamik</class>
@@ -412,17 +452,19 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.iii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.iii</part>
+                <part>hornFrench.iv</part>
             </parts>
             <annots>
                 <annot>p-angabe gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-8a2e97d9">
             <class>Bogensetzung</class>
@@ -434,17 +476,19 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.ii</part>
-                <part>corno.iv</part>
+                <part>hornFrench.ii</part>
+                <part>hornFrench.iv</part>
             </parts>
             <annots>
                 <annot>In A-P3 und ED-P Haltebogen nur ankommend</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-ce00d8a5">
             <class>Bogensetzung</class>
@@ -462,11 +506,13 @@
             <annots>
                 <annot>Haltebogen nur abgehend</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-9574faf7">
             <class>Notentext</class>
@@ -477,16 +523,18 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.ii</part>
+                <part>hornFrench.ii</part>
             </parts>
             <annots>
                 <annot>In A-P3 sind nach Seitenumbruch keine Generalakzidenzien mehr notiert, daher hier Warnakzidenz</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-a04675aa">
             <class>Notentext</class>
@@ -497,16 +545,18 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.ii</part>
+                <part>hornFrench.ii</part>
             </parts>
             <annots>
                 <annot>In A-P3 sind nach Seitenumbruch keine Generalakzidenzien mehr notiert, daher hier Warnakzidenz</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-ccacc39c">
             <class>Dynamik</class>
@@ -523,11 +573,13 @@
             <annots>
                 <annot>In ED-P beginnen die<hairpin form="cres"/>bereits in T. 16 Zz. 4</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-fa7bc3a2">
             <class>Dynamik</class>
@@ -545,11 +597,13 @@
             <annots>
                 <annot><hairpin form="cres"/>gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-5be536f4">
             <class>Dynamik</class>
@@ -565,11 +619,13 @@
             <annots>
                 <annot>In A-P3 nur eine f-Angabe für alle Posaunen</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-904253e5">
             <class>Notentext</class>
@@ -580,16 +636,18 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>corno.i</part>
+                <part>hornFrench.i</part>
             </parts>
             <annots>
                 <annot>In A-P3 sind nach Seitenumbruch keine Generalakzidenzien mehr notiert, daher hier Warnakzidenz</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-fa68d07f">
             <class>Dynamik</class>
@@ -606,14 +664,16 @@
             <annots>
                 <annot>p-Angabe gemäß ED-P ergänzt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>ED-P</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-a03afa8a">
-            <class>Vortagsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
@@ -625,16 +685,21 @@
             <annots>
                 <annot>In A-P3 und ED-P Fermaten nicht vollständig ausgeführt</annot>
             </annots>
-            <sources/>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-5b57b2cf">
             <class>Notentext</class>
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="1" count="NaN"/>
-                    <range type="stop" measure="5" count="NaN"/>
+                    <range type="start" measure="1"/>
+                    <range type="stop" measure="5"/>
                 </occurance>
             </occurances>
             <parts>
@@ -643,8 +708,12 @@
             <annots>
                 <annot>In SV ist nur der obere Oktavton mit der Anweisung »col. 8va« notiert.</annot>
             </annots>
-            <sources/>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation></manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-21b89481">
             <class>Tondauer</class>
@@ -661,10 +730,12 @@
             <annots>
                 <annot>In SV irrtümlich viertel statt halbe Note</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-6937565d">
             <class>Bogensetzung</class>
@@ -681,10 +752,12 @@
             <annots>
                 <annot>Haltebogen mit Bleistift nachgetragen</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-a70c0040">
             <class>Dynamik</class>
@@ -702,11 +775,13 @@
             <annots>
                 <annot>In SV beginnt die<hairpin form="cres"/>erst am Ende von Zz. 1 und endet bereits mit dem Beginn von Zz. 4</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-                <source>A-P3-KA</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-00d0b31f">
             <class>Dynamik</class>
@@ -722,10 +797,12 @@
             <annots>
                 <annot>Doppelte Dynamikangabe</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-9e7103f1">
             <class>Bogensetzung</class>
@@ -742,10 +819,12 @@
             <annots>
                 <annot>Bogen mit roter Tinte gezogen</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-8a14059a">
             <class>Bogensetzung</class>
@@ -762,10 +841,12 @@
             <annots>
                 <annot>Bogen in SV T. 13 weiterführend notiert, in T. 12 (vor Seitenumbruch) jedoch nicht beginnend</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-9870da15">
             <class>Bogensetzung</class>
@@ -781,8 +862,12 @@
             <annots>
                 <annot>SV: In T. 12 beginnender Bogen in T. 13 nach Seitenumbruch nicht weitergeführt</annot>
             </annots>
-            <sources/>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-a626b33e">
             <class>Notentext</class>
@@ -799,10 +884,12 @@
             <annots>
                 <annot>In SV nur oberer Oktavton mit Anweisung: »col. 8va«. Dehnungsstriche nur bis Ende T. 14. Für den Kb. (in SV »col Cello« notiert) ist T. 17f. mit Bleistift ergänzt. Die Anweisung »col 8va« endet in T. 18 Zz. 1 (vgl. Kb.), ist jedoch in T. 17 Zz. 4 zu ignorieren. Für den Kb. ist auf Zz. 4 die gleiche Lage wie im Vlc. notiert ist. Die Unteroktave ist auf einem üblich gestimmten Kb. nicht spielbar</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-8395ee80">
             <class>Halsung</class>
@@ -818,10 +905,12 @@
             <annots>
                 <annot>In SV halbe Note gis1 zur Unterstimme gehalst. Zur verbesserten Lesbarkeit hier der Oberstimme zugeordnet.</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="editorial" xml:id="baudi-30-5ac13b52">
             <class>Artikulation</class>
@@ -838,10 +927,12 @@
             <annots>
                 <annot>In SV ohne \lilyStaccato\,</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-6edfb2fd">
             <class>Notentext</class>
@@ -857,10 +948,12 @@
             <annots>
                 <annot>In SV fälschlich E statt D. Notenkopf für D mit Bleistift nachgetragen, Korrektur jedoch nicht vollständig ausgeführt</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
         <remark type="reading" xml:id="baudi-30-9d777b0b">
             <class>Dynamik</class>
@@ -877,10 +970,12 @@
             <annots>
                 <annot>Doppelte Dynamikangabe (mit roter Tinte eingetragen)</annot>
             </annots>
-            <sources>
-                <source>A-P3</source>
-            </sources>
-            <editions><edition/></editions>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-KA</edition>
+            </editions>
         </remark>
     </remarks>
 </crApp>
