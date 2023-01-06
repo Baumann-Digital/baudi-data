@@ -4,22 +4,361 @@
 <crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-06">
     <include xmlns="http://www.w3.org/2001/XInclude" href="setting.xml"/>
     <remarks>
-    <remark type="">
-        <class></class>
-        <mdiv></mdiv>
+    <remark type="annotation">
+        <class>Dynamik</class>
+        <mdiv>6</mdiv>
         <occurances>
-            <occurance></occurance>
+            <occurance><position measure="1" count="2"/></occurance>
         </occurances>
-        <parts></parts>
+        <parts><partGrp>trombones</partGrp></parts>
         <annots>
-            <annot></annot>
+            <annot><dynam>p</dynam> mittig für alle Stimmen notiert</annot>
         </annots>
         <manifestationList>
-            <manifestation></manifestation>
+            <manifestation>A-P3</manifestation>
         </manifestationList>
         <editions>
-            <edition></edition>
+            <edition>BauDi-P</edition>
         </editions>
     </remark>
+        <remark type="annotation">
+            <class>Vortragsbezeichnung</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="1" count="3"/></occurance>
+            </occurances>
+            <parts><part>solo</part></parts>
+            <annots>
+                <annot><anchoredText>Solo</anchoredText></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Gesangstext</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="1" count="4"/></occurance>
+            </occurances>
+            <parts><part>solo</part></parts>
+            <annots>
+                <annot><syl>Har</syl><syl>re</syl><syl><corr><del>des</del><add type="pencil">auf</add></corr></syl></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Beschreibung</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="1" count="1"/></occurance>
+            </occurances>
+            <parts><part>timpani</part></parts>
+            <annots>
+                <annot>Keine Angabe zur Tonhöhe <anchoredText>D.A.</anchoredText></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Tondauer</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="1" count="1"/></occurance>
+            </occurances>
+            <parts><part>violin.ii</part></parts>
+            <annots>
+                <annot>Ohne <dot/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                <range type="start" measure="1" count="1"/>
+                <range type="stop" measure="1" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+                <part>violin.ii</part>
+            </parts>
+            <annots>
+                <annot><hairpin form="cres"/> mittig für alle Stimmen notiert</annot>
+                <annot><hairpin form="cres" tstamp2="3"/> endet bereits in Zählzeit 3</annot>
+                <annot><ptr type="conjecture" target="#ED-P"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="2" count="2"/></occurance>
+            </occurances>
+            <parts><partGrp>trumpets</partGrp><part>timpani</part></parts>
+            <annots>
+                <annot><hairpin form="cres" tstamp="1"/> Beginn in Zählzeit 1</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Gesangstext</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="4" count="2"/></occurance>
+            </occurances>
+            <parts><part>solo</part></parts>
+            <annots>
+                <annot><ptr type="emendation"/><syl>ken,</syl><syl>daß</syl></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Vortragsbezeichnung</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="4" count="1"/></occurance>
+            </occurances>
+            <parts>
+                <part>violoncello</part>
+                <part>doubleBass</part>
+            </parts>
+            <annots>
+                <annot>Ohne <artic artic="arco"/></annot>
+                <annot><ptr type="emendation" target="#ED-P"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Gesangstext</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance><position measure="4" count="1"/></occurance>
+            </occurances>
+            <parts>
+                <part>violoncello</part>
+                <part>doubleBass</part>
+            </parts>
+            <annots>
+                <annot><dynam>pp</dynam> mittig für alle Stimmen notiert</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Bogensetzung</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="6" count="3"/>
+                    <range type="stop" measure="7" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>flute.ii</part>
+                <part>oboe.ii</part>
+            </parts>
+            <annots>
+                <annot>Ohne <slur/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="6" count="3"/>
+                    <range type="stop" measure="7" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>flutes</partGrp>
+            </parts>
+            <annots>
+                <annot>Ohne <tie/></annot>
+                <annot><ptr type="emendation" target="#ED-P"/><ptr type="compare" target="#A-P3" corresp="#flutes"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Tondauer</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="9"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>flutes</partGrp>
+                <partGrp>oboes</partGrp>
+                <partGrp>clarinets</partGrp>
+            </parts>
+            <annots>
+                <annot><fermata/> nur für Oberstimme notiert</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Tondauer</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="9"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trumpets</partGrp>
+                <part>timpani</part>
+                <part>solo</part>
+                <part>violin.i</part>
+                <part>doubleBass</part>
+            </parts>
+            <annots>
+                <annot>Ohne <fermata/></annot>
+                <annot><ptr type="emendation" target="#ED-P"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="annotation">
+            <class>Dynamik</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="8"/>
+                    <range type="stop" measure="9"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trombones</partGrp>
+            </parts>
+            <annots>
+                <annot><hairpin form="dim"/> Rasur nicht ausgeführt</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="9" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>flutes</partGrp>
+                <partGrp>oboes</partGrp>
+                <partGrp>clarinets</partGrp>
+            </parts>
+            <annots>
+                <annot><hairpin form="dim"/> Ende kurz nach dem Taktstrich (vor der Zählzeit)</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>6</mdiv>
+            <occurances>
+                <occurance>
+                <range type="start" measure="7" count="1"/>
+                    <range type="stop" measure="7" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+            <part>violin.ii</part>
+            <part>viola</part>
+            <part>doubleBass</part>
+            </parts>
+            <annots>
+                <annot>Ohne <hairpin form="dim"/></annot>
+                <annot><ptr type="emendation" target="#ED-P"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation></manifestation>
+            </manifestationList>
+            <editions>
+                <edition></edition>
+            </editions>
+        </remark>
     </remarks>
 </crApp>
