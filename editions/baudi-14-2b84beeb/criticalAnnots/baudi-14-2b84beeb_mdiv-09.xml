@@ -16,7 +16,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><dynam>p</dynam> mittig für alle Stimmen notiert</annot>
+                <annot>
+                    <dynam>p</dynam> mittig für alle Stimmen notiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -37,7 +38,8 @@
                 <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
-                <annot><dynam>molto cresc.</dynam> mittig für alle Stimmen notiert</annot>
+                <annot>
+                    <dynam>molto cresc.</dynam> mittig für alle Stimmen notiert</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -61,9 +63,16 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot>Ohne <hairpin form="cres"/></annot>
-                <annot><ptr type="emendation" target="#A-P3" corresp="#violin.i #violin.ii #viola"/></annot>
-                <annot><ptr type="compare" target="#ED-P"/></annot>
+                <annot>Ohne <hairpin form="cres"/>
+                </annot>
+                <annot>
+                    <ptr type="emendation"
+                         target="#A-P3"
+                         corresp="#violin.i #violin.ii #viola"/>
+                </annot>
+                <annot>
+                    <ptr type="compare" target="#ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -86,7 +95,8 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot><hairpin form="cres" tstamp2="2"/> Ende in Zählzeit 2</annot>
+                <annot>
+                    <hairpin form="cres" tstamp2="2"/> Ende in Zählzeit 2</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -108,8 +118,11 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot>Ohne <dynam>ff</dynam></annot>
-                <annot><ptr type="emendation" target="#ED-P"/></annot>
+                <annot>Ohne <dynam>ff</dynam>
+                </annot>
+                <annot>
+                    <ptr type="emendation" target="#ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -132,7 +145,8 @@
                 <part>violoncello</part>
             </parts>
             <annots>
-                <annot>Ohne <dot/></annot>
+                <annot>Ohne <dot/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -146,17 +160,21 @@
             <mdiv>9</mdiv>
             <occurances>
                 <occurance>
-                <position measure="5" count="1"/>
+                    <position measure="5" count="1"/>
                 </occurance>
             </occurances>
             <parts>
-            <part>violin.i</part>
-            <part>violoncello</part>
-            <part>doubleBass</part>
+                <part>violin.i</part>
+                <part>violoncello</part>
+                <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><note dur="2" dots="1" stem.mod="2slash"/></annot>
-                <annot><ptr type="emendation" target="#ED-P"/></annot>
+                <annot>
+                    <note dur="2" dots="1" stem.mod="2slash"/>
+                </annot>
+                <annot>
+                    <ptr type="emendation" target="#ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -181,8 +199,11 @@
                 <part>trombone.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="stacc"/></annot>
-                <annot><ptr type="emendation" target="#ED-P"/></annot>
+                <annot>Ohne <artic artic="stacc"/>
+                </annot>
+                <annot>
+                    <ptr type="emendation" target="#ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -207,8 +228,11 @@
                 <part>trombone.ii</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="acc"/></annot>
-                <annot><ptr type="emendation" target="#ED-P"/></annot>
+                <annot>Ohne <artic artic="acc"/>
+                </annot>
+                <annot>
+                    <ptr type="emendation" target="#ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -231,8 +255,11 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>Ohne <artic artic="stacc"/></annot>
-                <annot><ptr type="emendation" target="#ED-P"/></annot>
+                <annot>Ohne <artic artic="stacc"/>
+                </annot>
+                <annot>
+                    <ptr type="emendation" target="#ED-P"/>
+                </annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -255,7 +282,9 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot><anchoredText>col Cello</anchoredText></annot>
+                <annot>
+                    <anchoredText>col Cello</anchoredText>
+                </annot>
                 <annot>Stimme nicht ausnotiert</annot>
             </annots>
             <manifestationList>
@@ -265,7 +294,6 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        
         <remark type="annotation" xml:id="baudi-30-b81d6bc8">
             <class>Notentext</class>
             <mdiv>9</mdiv>
