@@ -1664,17 +1664,21 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="">
-            <class></class>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
-                43
+                <range type="start" measure="22" count="1"/>
+                    <range type="end" measure="23" count="4"/>
                 </occurance>
             </occurances>
-            <parts></parts>
+            <parts>
+            <partGrp>hornsFrench</partGrp>
+            </parts>
             <annots>
-                <annot></annot>
+                <annot type="notRel"><slur/></annot>
+                <annot>In Wiederholungsklammer I ohne <slur/>, in <ptr target="#A-P3 #ED-P" corresp="#mdiv-10_m-23"/> (Wiederholung von <ptr target="#A-P3 #ED-P" corresp="#mdiv-10_m-2"/>) jedoch ankommend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1684,6 +1688,54 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="43" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>woods</partGrp>
+            </parts>
+            <annots>
+                <annot type="notRel"><slur/></annot>
+                <annot>Wiederholungsklammer II: <slur/> nicht ankommend, in <ptr target="#A-P3 #ED-P" corresp="#mdiv-10_m-42"/> (Wiederholung von <ptr target="#A-P3 #ED-P" corresp="#mdiv-10_m-21"/>) jedoch abgehend</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="43" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>bassoon.ii</part>
+            </parts>
+            <annots>
+                <annot type="notRel"><tie/></annot>
+                <annot>Wiederholungsklammer II: <tie/> nicht ankommend, in <ptr target="#ED-P" corresp="#mdiv-10_m-42"/> (Wiederholung von <ptr target="#ED-P" corresp="#mdiv-10_m-21"/>) jedoch abgehend</annot>
+                <annot><ptr type="compare" corresp="#baudi-30-096acc31"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        
         <remark type="annotation" xml:id="baudi-30-b7df639a">
             <class>Notentext</class>
             <mdiv>10</mdiv>
