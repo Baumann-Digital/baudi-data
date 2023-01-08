@@ -1215,7 +1215,31 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot type="ediInt"><tie/><ptr type="follow" target="#ED-P"/></annot>
+                <annot type="ediAdd"><tie/><ptr type="follow" target="#ED-P"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="15" count="1"/>
+                    <range type="end" measure="17" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet.ii</part>
+            </parts>
+            <annots>
+                <annot type="finding"><note dur="1" slur="i1"/><note dur="1" slur="t1" tie="i"/><note dur="1" tie="t"/></annot>
+                <annot type="ediInt"><note dur="1" slur="i1"/><note dur="1" tie="i"/><note dur="1" slur="t1" tie="t"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1251,7 +1275,7 @@
             </editions>
         </remark>
         <remark type="editorial">
-            <class>Bogensetzung</class>
+            <class>Pausensetzung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
@@ -1260,14 +1284,58 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>violin.ii</part>
+                <part>flute.i</part>
+                <part>oboe.i</part>
             </parts>
             <annots>
-                <annot>In A-P3 und ED-P endet der Bogen erst mit Zz. 3, vgl. jedoch Vl1</annot>
+                <annot type="finding"><rest dur="4" dots="2"/></annot>
+                <annot type="finding"><rest dur="4"/><rest dur="8" dots="1"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
                 <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="annotation">
+            <class>Gesangstext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="17"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>choir</partGrp>
+            </parts>
+            <annots>
+                <annot type="finding">Der Strich auf Höhe des Textes für die erste Strophe könnte als Komma interpretiert werden, der Herausgeber hält dies jedoch aufgrund des Abstandes zum Wort und der gespiegelten Strichrichtung für wenig wahrscheinlich</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="annotation">
+            <class>Streichung</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="18" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>oboe.ii</part>
+            </parts>
+            <annots>
+                <annot type="finding"><subst><del><note pname="f" oct="4" dur="4"/></del><add><note pname="a" oct="4" dur="4"/></add></subst></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
@@ -1278,14 +1346,39 @@
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
-                    <position measure="19" count="2"/>
+                    <range type="start" measure="19" count="1"/>
+                    <range type="end" measure="20" count="1"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>In A-P3 und ED-P endet der Bogen erst mit Zz. 3, vgl. jedoch Vl1</annot>
+                <annot type="finding"><slur/><ptr type="end" target="#A-P3 #ED-P" corresp="#mdiv-10_m-19_c-3"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="19" count="1"/>
+                    <range type="end" measure="20" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.ii</part>
+            </parts>
+            <annots>
+                <annot type="finding"><slur/><ptr type="end" target="#A-P3 #ED-P" corresp="#mdiv-10_m-19_c-2"/></annot>
+                <annot type="ediInt"><slur/><ptr type="adapt" target="#A-P3" corresp="#flutes #oboes"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -1300,7 +1393,7 @@
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="19" count="2"/>
+                    <range type="start" measure="19" count="3"/>
                     <range type="end" measure="20" count="1"/>
                 </occurance>
             </occurances>
@@ -1310,7 +1403,7 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot>Haltebogen gemäß ED-P ergänzt</annot>
+                <annot type="ediAdd"><tie/> <ptr type="follow" target="#ED-P"/><ptr type="compare" target="#A-P3" corresp="#oboe.i #violins"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
