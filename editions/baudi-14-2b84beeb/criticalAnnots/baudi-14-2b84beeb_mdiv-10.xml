@@ -3217,27 +3217,37 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="annotation" xml:id="baudi-30-6058d19b">
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance><range type="start" measure="60" count="3"/><range type="end" measure="61" count="3"/></occurance>
+            </occurances>
+            <parts>
+                <part>timpani</part>
+            </parts>
+            <annots>
+                <annot><hairpin form="dim"/><ptr type="start" target="#ED-P" corresp="#mdiv-10_m-61_c-1"/><ptr type="end" target="#ED-P" corresp="#mdiv-10_m-62_c-2"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        
+        <remark type="reading" xml:id="baudi-30-6058d19b">
             <class>Vortragsbezeichnung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
-                    <position measure="63" count="1"/>
+                    <position measure="63"/>
                 </occurance>
             </occurances>
-            <parts>
-                <part>bassoon.ii</part>
-                <part>clarinet.ii</part>
-                <part>hornFrench.ii</part>
-                <part>hornFrench.iv</part>
-                <part>flute.ii</part>
-                <part>oboe.ii</part>
-                <part>trombone.ii</part>
-                <part>trumpet.ii</part>
-                <part>tuba</part>
-            </parts>
+            <parts>all</parts>
             <annots>
-                <annot>Fermaten in A-P3 und ED-P jeweils nur für 1. Stimme notiert</annot>
+                <annot>Nur eine <fermata/> je System</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
