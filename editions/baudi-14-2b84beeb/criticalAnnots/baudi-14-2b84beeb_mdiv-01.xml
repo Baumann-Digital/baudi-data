@@ -2523,23 +2523,18 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="#A-P3"/>
-                    <del>
-                        <dynam>f</dynam>
-                    </del>
+                    <app>
+                        <rdg source="#A-P3"><del><dynam>mf</dynam></del></rdg>
+                        <rdg source="#A-P2"><dynam>mf</dynam></rdg>
+                        <rdg source="#ED-P"></rdg>
+                    </app>
                 </annot>
-                <annot>
-                    <ptr target="#A-P2"/>
-                    <dynam>mf</dynam>
-                </annot>
-                <annot>
-                    <ptr target="#ED-P"/> ohne <dynam/>
-                </annot>
-                <annot>
-                    <ptr target="#A-P3"/> ist das ursprüngliche <dynam>f</dynam> rasiert, jedoch nicht durch eine neue Angabe ersetzt worden. Sowohl in <ptr target="#A-P3"/> als auch <ptr target="#A-P2"/> (wenn dort auch <dynam>mf</dynam>) war die Dynamikstufe für Vlc und Kb mit Trp1 und Trp2 kongruent. Es ist naheliegend, dass sich Vlc und Kb dynamisch von den übrigen Streichern abheben sollen.</annot>
+                <annot>Rasur in <ptr target="#A-P3"/>; zuvor offenbar (wie in <ptr target="#A-P2"/>) <dynam>mf</dynam> notiert.</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P2</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
@@ -4929,7 +4924,31 @@
                 </annot>
             </annots>
             <manifestationList>
-                <manifestation>A-P3</manifestation>
+                <manifestation>A-P2</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>1</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="50" count="1"/>
+                    <range type="stop" measure="50" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trombones</partGrp>
+                <part>tuba</part>
+            </parts>
+            <annots>
+                <annot>Ohne <slur/>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P2</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
