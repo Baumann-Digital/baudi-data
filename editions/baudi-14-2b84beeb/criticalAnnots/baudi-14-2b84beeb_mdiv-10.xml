@@ -739,6 +739,27 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="8" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>oboe.i</part>
+            </parts>
+            <annots>
+                <annot type="ediAdd"><dynam>p</dynam><ptr type="adapt" target="#A-P3" corresp="#oboe.ii #mdiv-10_m-8_c-1"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
         <remark type="reading" xml:id="baudi-30-51d797fa">
             <class>Dynamik</class>
             <mdiv>10</mdiv>
@@ -1341,6 +1362,31 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
+        <remark type="editorial">
+            <class>Notentext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="18" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+            </parts>
+            <annots>
+                <annot><app>
+                    <lem source="#ED-St-Orch"><note pname="g" oct="4" dur="4" dots="2"/></lem>
+                    <rdg source="#A-P3 #ED-P"><note pname="f" oct="4" dur="4" dots="2"/></rdg>
+                </app></annot>
+                <annot><ptr type="follow" corresp="#ED-St-Orch"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
         <remark type="editorial" xml:id="baudi-30-b5c30ecc">
             <class>Bogensetzung</class>
             <mdiv>10</mdiv>
@@ -1594,6 +1640,36 @@
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Gesangstext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="22" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>choir</partGrp>
+            </parts>
+            <annots>
+                <annot type="ediAdd">Semikolon ergänzt</annot>
+                <annot>In Gesangsbüchern, die zu Lebzeiten Baumanns herausgegeben wurden, folgt auf das Wort <quote>Leben</quote> ein Semikolon. Vgl. <q>Gesangbuch für die evangelisch-protestantische Kirche des Großherzogtums Baden</q> (Lahr 1884); <q>Vierstimmiges Choralbuch zum Gesangbuch für die evangelisch-protestantische Kirche des Großherzogtums Baden für gemischten Chor und zum Gebrauch im Hause</q> (3. Auflage, Lahr 1888); <q>Gesangbuch für die evangelisch-protestantische Kirche in Baden</q> (Taschenausgabe, 14. Auflage Lahr 1928) </annot>
+                <annot>In der Johann Crügers und Martin Luthers <q>Praxis Pietatis Melica</q> (Berlin 1653) steht nach dem Wort <quote>Leben</quote> ein Doppelpunkt, in heute üblichen Übertragungen (EG 526) ein Punkt.</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-St-SSAA</manifestation>
+                <manifestation>ED-St-TTBB</manifestation>
+                <manifestation>A-P-X</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+                <edition>BauDi-KA</edition>
             </editions>
         </remark>
         <remark type="annotation" xml:id="baudi-30-3747f8f7">
