@@ -791,7 +791,6 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        
         <remark type="editorial" xml:id="baudi-30-64b9e76c">
             <class>Dynamik</class>
             <mdiv>7</mdiv>
@@ -842,7 +841,7 @@
             <mdiv>7</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="13" count="4"/>
+                    <range type="start" measure="13" count="3"/>
                     <range type="end" measure="14" count="1"/>
                 </occurance>
             </occurances>
@@ -850,7 +849,75 @@
                 <part>violin.ii</part>
             </parts>
             <annots>
-                <annot>A-P3 ohne Haltebogen h=h</annot>
+                <annot type="no"><tie/><ptr type="follow" target="#ED-P"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Streichung</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="13" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>tenor</partGrp>
+            </parts>
+            <annots>
+                <annot><note pname="c" oct="3" dur="4"/><del><rest dur="8"/></del></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="14" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>tenor</partGrp>
+            </parts>
+            <annots>
+                <annot><accid accid="s"/> mit Bleistift ausgeführt und mit Tinte überschrieben</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Beschreibung</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="16" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>flute.i</part>
+                <part>clarinet.i</part>
+            </parts>
+            <annots>
+                <annot><app>
+                    <rdg source="#A-P3"><anchoredText>I</anchoredText></rdg>
+                    <rdg source="#ED-P" corresp="#flute.i"><anchoredText>1.</anchoredText></rdg>
+                    <rdg source="#ED-P" corresp="#clarinet.i"></rdg>
+                </app></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -871,7 +938,7 @@
                 <part>flute.i</part>
             </parts>
             <annots>
-                <annot>A-P3 ohne Bogen (=ED-P), vgl. auch Klar1</annot>
+                <annot><slur/> <ptr type="follow" target="#ED-P"/><ptr type="compare" target="#A-P3 #ED-P" corresp="#clarinet.i"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -895,7 +962,8 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>In A-P3 Haltebogen nach Systemumbruch nur ankommend, in ED-P ohne Haltebogen</annot>
+                <annot><ptr target="#A-P3"/><tie/> nur ankommend</annot>
+                <annot type="no"><ptr target="#ED-P"/><tie/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -905,42 +973,21 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-3d6a5892">
-            <class>Dynamik</class>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
             <mdiv>7</mdiv>
             <occurances>
                 <occurance>
-                    <range type="start" measure="18" count="3"/>
-                    <range type="end" measure="19" count="1"/>
+                    <range type="start" measure="17" count="1"/>
+                    <range type="end" measure="18" count="1"/>
                 </occurance>
             </occurances>
             <parts>
-                <part>doubleBass</part>
-                <part>piano.right</part>
+                <part>hornFrench.ii</part>
+                <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>In SV steht<dynam>p</dynam>über dem Taktstrich zwischen den Systemen von Kb und I. Vermutlich ist dieses \piano, sofern es sich nicht um eine irrtümlich gesetze Angabe handelt, KB zuzuordnen, da dieser in T. 19 neu einsetzt.</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-a23a1c0f">
-            <class>Gesangstext</class>
-            <mdiv>7</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="19" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <partGrp>tenor</partGrp>
-            </parts>
-            <annots>
-                <annot>A-P3 und ED-P ohne Komma</annot>
+                <annot><slur/><ptr type="end" target="#A-P3" corresp="#mdiv-7_m-17_c-2"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -962,7 +1009,7 @@
                 <partGrp>tenor</partGrp>
             </parts>
             <annots>
-                <annot>ED-P ohne Apostroph</annot>
+                <annot type="no">Apostroph</annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -984,7 +1031,7 @@
                 <part>hornFrench.iv</part>
             </parts>
             <annots>
-                <annot>A-P3 ohne separate<hairpin form="cres"/>(=ED-P)</annot>
+                <annot type="no"><hairpin form="cres"/><ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
