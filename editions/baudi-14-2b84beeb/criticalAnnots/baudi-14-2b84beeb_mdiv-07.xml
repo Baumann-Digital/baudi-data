@@ -2145,6 +2145,94 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="32" count="1"/>
+                    <range type="end" measure="35" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>hornFrench.iii</part>
+            </parts>
+            <annots>
+                <annot><slur/> zusammengefasst</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="33" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>hornFrench.iv</part>
+            </parts>
+            <annots>
+                <annot><dynam>p</dynam></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Notentext</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="33"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>viola</part>
+            </parts>
+            <annots>
+                <annot><clef shape="C"/> erst im nächsten Takt notiert</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Bogensetzung</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="33" count="3"/>
+                    <range type="end" measure="37" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>oboe.i</part>
+            </parts>
+            <annots>
+                <annot><slur/> <ptr type="end" target="#A-P3 #ED-P" corresp="#mdiv-7_m-35_c-1"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
         <remark type="reading" xml:id="baudi-30-c8a08804">
             <class>Bogensetzung</class>
             <mdiv>7</mdiv>
@@ -2157,9 +2245,64 @@
                 <part>hornFrench.ii</part>
             </parts>
             <annots>
-                <annot>Bogen nur bis T. 35 Zz. 3, letztes Achtel</annot>
+                <annot><slur/> nur bis <ptr target="#ED-P" corresp="#mdiv-7_m-35_c-3"/> (letztes Achtel) ausgeführt</annot>
             </annots>
             <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Notentext</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="38" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>bassoons</partGrp>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <lem source="#BauDi-P"><note pname="c" accid="n"/></lem>
+                        <rdg source="#A-P3 #ED-P"><note pname="c" accid.ges="s"/></rdg>
+                    </app>
+                </annot>
+                <annot><ptr type="compare" target="#BauDi-P #ED-P" corresp="#trombones"/><ptr type="compare" target="#A-P3" corresp="#piano.left"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Notentext</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="38" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>trombone.ii</part>
+                <part>trombone.iii</part>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <lem source="#ED-P"><note pname="c" accid="n"/></lem>
+                        <rdg source="#A-P3"><note pname="c" accid.ges="s"/></rdg>
+                    </app></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
                 <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
@@ -2175,15 +2318,80 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>bassoon.i</part>
-                <part>bassoon.ii</part>
-                <part>clarinet.i</part>
+                <partGrp>bassoons</partGrp>
+                <partGrp>clarinets</partGrp>
+            </parts>
+            <annots>
+                <annot><hairpin form="dim"/> <ptr type="start" corresp="#mdiv-7_m-39_c-1"/></annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="reading">
+            <class>Dynamik</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="38" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <partGrp>trombones</partGrp>
+            </parts>
+            <annots>
+                <annot><hairpin form="dim"/> Beginn etwas später</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="38" count="1"/>
+                    <range type="end" measure="41" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>trombone.iii</part>
+            </parts>
+            <annots>
+                <annot type="no"><hairpin form="dim"/> </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editions>
+                <edition>BauDi-P</edition>
+            </editions>
+        </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="40" count="1"/>
+                    <range type="end" measure="41" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot>In ED-P beginnt das Decrescendo erst in T. 39, vgl. jedoch Pos1, Pos2 und Pos3</annot>
+                <annot type="no"><tie/><ptr type="follow" target="#ED-P"/> </annot>
             </annots>
             <manifestationList>
+                <manifestation>A-P3</manifestation>
                 <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
@@ -2212,7 +2420,7 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-3bcd2783">
+        <remark type="editorial" xml:id="baudi-30-3bcd2783">
             <class>Dynamik</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2221,14 +2429,14 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>tenor.i</part>
-                <part>tenor.ii</part>
+                <partGrp>tenor</partGrp>
             </parts>
             <annots>
-                <annot>In SV steht<dynam>p</dynam>erst in T. 42 auf Zz. 1 (nach Seitenumbruch), vgl. jedoch Trp. 1+2</annot>
+                <annot><dynam>p</dynam> erst in <ptr corresp="#mdiv-7_m-42_c-1"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
