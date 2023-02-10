@@ -620,8 +620,8 @@
             <annots>
                 <annot><app>
                     <lem source="#BauDi-P"><hairpin form="dim"/> <ptr type="start" corresp="#mdiv-7_m-10_c-1"/><ptr type="end" corresp="#mdiv-7_m-11_c-1"/></lem>
-                    <rdg source="#A-P3" corresp="#violin.ii #viola"><hairpin form="dim"/> <ptr type="start" corresp="#barline"/><ptr type="end" corresp="#mdiv-7_m-11_c-1"/></rdg>
-                    <rdg source="#A-P3" corresp="#violoncello"><hairpin form="dim"/> <ptr type="start" corresp="#mdiv-7_m-10_c-1"/><ptr type="end" corresp="#mdiv-7_m-11_barline"/></rdg>
+                    <rdg source="#A-P3" corresp="#violin.ii #viola"><hairpin form="dim" tstamp="10m+0" tstamp2="11m+1"/> <!--<ptr type="start" corresp="#barline"/><ptr type="end" corresp="#mdiv-7_m-11_c-1"/>--></rdg>
+                	<rdg source="#A-P3" corresp="#violoncello"><hairpin form="dim"/> <ptr type="start" corresp="#mdiv-7_m-10_c-1"/><ptr type="end" corresp="#mdiv-7_m-11_c-4"/><!-- end at barline --></rdg>
                     <rdg source="#ED-P" corresp="#violin.ii #viola #violoncello"><hairpin form="dim"/> <ptr type="start" corresp="#mdiv-7_m-9_c-3"/></rdg>
                 </app></annot>
             </annots>
@@ -2530,8 +2530,58 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        
-    	<remark type="reading" xml:id="baudi-30-6bcf7435">
+    	<remark type="editorial" xml:id="baudi-30-e6adfae9">
+        	<class>Dynamik</class>
+        	<mdiv>7</mdiv>
+        	<occurances>
+        		<occurance>
+        		<position measure="45" count="1"/>
+        		</occurance>
+        	</occurances>
+        	<parts>
+        	<part>trombone.ii</part>
+        	</parts>
+        	<annots>
+        		<annot type="no"><dynam>p</dynam></annot>
+        		<annot>
+        			<app>
+        				<lem source="#BauDi-P"><dynam part="#trombone.i">p</dynam></lem>
+        				<rdg source="#A-P3"><dynam part="#trombone.i">p</dynam></rdg>
+        				<rdg source="#ED-P"><dynam part="#trombone.ii">p</dynam></rdg>
+        		</app>
+        		</annot>
+        	</annots>
+        	<manifestationList>
+        		<manifestation>A-P3</manifestation>
+        		<manifestation>ED-P</manifestation>
+        	</manifestationList>
+        	<editions>
+        		<edition>BauDi-P</edition>
+        	</editions>
+        </remark>
+    	<remark type="editorial" xml:id="baudi-30-d8fdb6e9">
+    		<class>Dynamik</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="45" count="1"/>
+    				<range type="end" measure="46" count="1"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>clarinet.ii</part>
+    		</parts>
+    		<annots>
+    			<annot><slur type="ediAdd" sameas="#ED-P"/></annot> 
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="editorial" xml:id="baudi-30-6bcf7435">
             <class>Dynamik</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2541,15 +2591,31 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>bassoon.i</part>
-                <part>bassoon.ii</part>
                 <part>clarinet.i</part>
                 <part>clarinet.ii</part>
+                <part>bassoon.i</part>
+                <part>bassoon.ii</part>
             </parts>
             <annots>
-                <annot>In ED-P beginnen die<hairpin form="cres"/>etwas später und enden etwas früher.</annot>
+                <annot>
+                	<app>
+                		<lem>
+                			<hairpin part="#clarinets #bassoons" form="cres" tstamp="45m+1" tstamp2="46m+1"/>
+                		</lem>
+                		<rdg source="#A-P3">
+                			<hairpin part="#clarinets" form="cres" tstamp="45m+1" tstamp2="46m+1"/>
+                			<hairpin part="#bassoons" form="cres" tstamp="45m+2" tstamp2="46m+1"/>
+                		</rdg>
+                		<rdg source="#ED-P">
+                			<hairpin part="#clarinets" form="cres" tstamp="45m+1.5" tstamp2="45m+4.5"/>
+                			<hairpin part="#bassoons" form="cres" tstamp="45m+1.5" tstamp2="45m+4.5"/>
+                		</rdg>
+                	</app>
+                	</annot>
+            	<annot type="intern">In ED-P beginnen die <hairpin form="cres"/> etwas später und enden etwas früher.</annot>
             </annots>
             <manifestationList>
+                <manifestation>A-P3</manifestation>
                 <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
@@ -2568,7 +2634,7 @@
                 <part>doubleBass</part>
             </parts>
             <annots>
-                <annot>Piano gemäß ED-P ergänzt</annot>
+                <annot type="ediInt"><dynam>p</dynam><ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2578,7 +2644,7 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-6e0ae0a1">
+        <remark type="editorial" xml:id="baudi-30-6e0ae0a1">
             <class>Bogensetzung</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2591,16 +2657,39 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot>A-P3 ohne Bogen</annot>
+                <annot type="ediInt"><slur/><ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-b3b4ce9a">
+    	<remark type="reading">
+    		<class>Bogensetzung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="47" count="2"/>
+    				<range type="end" measure="49" count="1"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    		<part>clarinet.i</part>
+    		</parts>
+    		<annots>
+    			<annot>In <ptr corresp="#mdiv-7_m-47"/> einstimmig notiert, daher nur ein Bogen abgehend; ab <ptr corresp="#mdiv-7_m-48"/> nach <pb/> zwei Bögen weitergeführt, da zweistimmig notiert</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="reading" xml:id="baudi-30-b3b4ce9a">
             <class>Halsung</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2631,11 +2720,10 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>clarinet.i</part>
-                <part>clarinet.ii</part>
+                <partGrp>clarinets</partGrp>
             </parts>
             <annots>
-                <annot>Textverlust in ED-P, der Bogen war ursprünglich scheinbar vollständig ausgeführt</annot>
+                <annot>Textverlust; <slur/> scheinbar analog zu <ptr target="#A-P3"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
