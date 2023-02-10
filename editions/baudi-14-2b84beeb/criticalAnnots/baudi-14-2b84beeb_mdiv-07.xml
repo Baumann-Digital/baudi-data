@@ -2745,7 +2745,7 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot>Haltebogen gemäß ED-P ergänzt</annot>
+                <annot type="ediInt"><tie/><ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2777,7 +2777,55 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-1df69a64">
+    	<remark type="reading">
+    		<class>Dynamik</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="52" count="1"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<partGrp>violins</partGrp>
+    		</parts>
+    		<annots>
+    			<annot><dynam tstamp="52m+0">pp</dynam></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>  
+    	<remark type="annotation">
+    		<class>Beschreibung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="53" count="1"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>flute.i</part>
+    		</parts>
+    		<annots>
+    			<annot>
+    				<app>
+    					<rdg source="#A-P3"><dir>I.</dir></rdg>
+    					<rdg source="#ED-P"><dir>1.</dir></rdg>
+    				</app>
+    			</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="reading" xml:id="baudi-30-1df69a64">
             <class>Artikulation</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2789,16 +2837,61 @@
                 <part>oboe.ii</part>
             </parts>
             <annots>
-                <annot>In A-P3 ohne \lilyStaccato\,</annot>
+                <annot><app>
+                	<lem source="#ED-P"><artic artic="stacc"/></lem>
+                	<rdg source="#A-P3"/>
+                </app></annot>
+            	<annot type="intern">A-P3 ohne Staccato; BauDi-P folgt ED-P</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-f61a199a">
+    	<remark type="editorial">
+    		<class>Dynamik</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="51" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<partGrp>oboes</partGrp>
+    			<part>hornFrench.i</part>
+    			<part>hornFrench.ii</part>
+    		</parts>
+    		<annots>
+    			<annot>
+    				<app>
+    					<lem>
+    						<dynam part="#oboes">p</dynam>
+    						<dynam part="#hornFrench.i #hornFrench.ii">mf</dynam>
+    					</lem>
+    					<rdg source="#A-P3">
+    						<dynam part="#oboe.i">p</dynam>
+    						<dynam part="#hornFrench.i">mf</dynam>
+    					</rdg>
+    					<rdg source="#ED-P">
+    						<dynam part="#oboe.ii">p</dynam>
+    						<dynam part="#hornFrench.ii">mf</dynam>
+    					</rdg>
+    				</app>
+    			</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	
+        <remark type="editorial" xml:id="baudi-30-f61a199a">
             <class>Artikulation</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2811,7 +2904,10 @@
                 <part>clarinet.ii</part>
             </parts>
             <annots>
-                <annot>In A-P3 ohne \lilyStaccato\,</annot>
+                <annot><app>
+                	<lem source="#ED-P"><artic artic="stacc"/></lem>
+                	<rdg source="#A-P3"><artic artic="stacc" part="#clarinet.i #bassoon.i"/></rdg>
+                </app></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2820,7 +2916,97 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-c0a94278">
+    	<remark type="editorial">
+    		<class>Pausensetzung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="54" count="2"/>
+    				<range type="end" measure="54" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>viola</part>
+    		</parts>
+    		<annots>
+    			<annot><app>
+    				<lem source="#ED-P"><rest dur="4"/><rest dur="2"/></lem>
+    				<rdg source="#A-P3"><space dur="2" dots="1"/></rdg>
+    			</app></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="annotation">
+    		<class>Bogensetzung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    			<range type="start" measure="54"/>
+    				<range type="end" measure="56" count="1"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    		<partGrp>oboes</partGrp>
+    		</parts>
+    		<annots>
+    			<annot>In <ptr corresp="#mdiv-7_m-54_c-1"/> zweistimmig notiert, daher <slur/> für Ober- und Unterstimme abgehend; ab <ptr corresp="#mdiv-7_m-54_c-1"/> (nach <pb/>) einstimmig notiert und nur noch ein Bogen weitergeführt</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="annotation">
+    		<class>Bogensetzung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="56" count="2"/>
+    				<range type="end" measure="56" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<partGrp>oboes</partGrp>
+    		</parts>
+    		<annots>
+    			<annot>Einstimmig notiert, jedoch <slur/> für Ober- und Unterstimme einzeln ausgeführt</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="reading">
+    		<class>Bogensetzung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="56" count="3"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>violin.ii</part>
+    		</parts>
+    		<annots>
+    			<annot><slur tstamp2="56m+2.5"/></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="reading" xml:id="baudi-30-c0a94278">
             <class>Notentext</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2833,7 +3019,9 @@
                 <part>viola</part>
             </parts>
             <annots>
-                <annot>In ED-P als Abbreviatur notiert</annot>
+                <annot><app>
+                	<rdg source="#ED-P"><fTrem unitdur="8" beams="1"><note pname="a" oct="4" dur="2"/><note pname="a" oct="3" dur="2"/></fTrem></rdg>
+                </app></annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -2855,7 +3043,7 @@
                 <part>flute.i</part>
             </parts>
             <annots>
-                <annot>Bogen gemäß ED-P ergänzt</annot>
+                <annot><slur/> <ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2878,7 +3066,12 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>In ED-P als Abbreviatur notiert</annot>
+            	<annot><app>
+            		<rdg source="#ED-P">
+            			<fTrem unitdur="8" beams="1"><note pname="a" oct="5" dur="2" slur="i1"/><note pname="a" oct="4" dur="2"/></fTrem>
+            			<fTrem unitdur="8" beams="1"><note pname="a" oct="5" dur="2"/><note pname="a" oct="4" dur="2" slur="t1"/></fTrem>
+            		</rdg>
+            	</app></annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -2887,7 +3080,61 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="reading" xml:id="baudi-30-adae18ba">
+    	<remark type="reading" xml:id="baudi-30-5aa98f3f">
+    		<class>Dynamik</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="58" count="2"/>
+    				<range type="end" measure="58" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<partGrp>clarinets</partGrp>
+    		</parts>
+    		<annots>
+    			<annot>
+    			<app>
+    				<rdg source="#A-P3 #ED-P"><hairpin form="cres" part="#clarinets"/></rdg>
+    				<rdg source="#A-P3" cert="medium"><hairpin form="cres" part="#clarinets #bassoons"/></rdg>
+    			</app>
+    			</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="editorial">
+    		<class>Notentext</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="58"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>viola</part>
+    		</parts>
+    		<annots>
+    			<annot>
+    				<app>
+    					<lem source="#ED-P"><clef tstamp="58m+5" shape="C" line="3"/></lem>
+    					<rdg source="#A-P3"></rdg>
+    				</app>
+    			</annot>
+    			<annot><ptr target="#A-P3"/> <clef tstamp="62m+0" shape="C" line="3"/> nach <pb/> wieder vorgezeichnet</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="reading" xml:id="baudi-30-adae18ba">
             <class>Dynamik</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -2901,7 +3148,13 @@
                 <part>hornFrench.ii</part>
             </parts>
             <annots>
-                <annot>In ED-P ist die<dynam>p</dynam>von Zählzeit 2 mit der<dynam>f</dynam>zusammengezogen worden (daher \fortepiano)</annot>
+            	<annot>
+            	<app>
+            		<lem source="#A-P3"><dynam tstamp="60m+1">f</dynam><dynam tstamp="60m+2">p</dynam></lem>
+            		<rdg source="#ED-P"><dynam tstamp="60m+1">fp</dynam></rdg>
+            	</app>
+            	</annot>
+                <annot type="intern">In ED-P ist die<dynam>p</dynam>von Zählzeit 2 mit der<dynam>f</dynam>zusammengezogen worden (daher \fortepiano)</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -2921,11 +3174,10 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>flute.i</part>
-                <part>flute.ii</part>
+                <partGrp>flutes</partGrp>
             </parts>
             <annots>
-                <annot>In ED-P oktaviert mit Oktav-Klammer notiert</annot>
+            	<annot>Eine Oktave tiefer notiert und mit <octave dis="8" dis.place="above" tstamp="60m+2" tstamp2="61m+5"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -2948,35 +3200,11 @@
                 <part>hornFrench.ii</part>
             </parts>
             <annots>
-                <annot>ED-P ohne<hairpin form="cres"/>
+                <annot type="no"><hairpin form="cres"/>
                 </annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-8b0247e3">
-            <class>Dynamik</class>
-            <mdiv>7</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="61" count="1"/>
-                    <range type="end" measure="61" count="4"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>bassoon.i</part>
-                <part>bassoon.ii</part>
-            </parts>
-            <annots>
-                <annot>
-                    <hairpin form="cres"/>in A-P3 weiterführend notiert, im Folgetakt jedoch Pause auf Zz. 1</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
@@ -2991,25 +3219,41 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>clarinet.i</part>
-                <part>clarinet.ii</part>
-                <part>flute.i</part>
-                <part>flute.ii</part>
-                <part>oboe.i</part>
-                <part>oboe.ii</part>
+               <partGrp>flutes</partGrp>
+            	 <partGrp>oboes</partGrp>
             </parts>
             <annots>
-                <annot>In ED-P beginnen die<hairpin form="cres"/>bereits jeweils eine Zählzeit früher</annot>
+                <annot><hairpin form="cres" tstamp="-0m+1"/></annot>
             </annots>
             <manifestationList>
-                <manifestation>A-P3</manifestation>
                 <manifestation>ED-P</manifestation>
             </manifestationList>
             <editions>
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="editorial" xml:id="baudi-30-5e061933">
+    	<remark type="reading">
+    		<class>Dynamik</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="61" count="2"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<partGrp>clarinets</partGrp>
+    		</parts>
+    		<annots>
+    			<annot><hairpin form="cres" tstamp="-0m+1"/></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>  
+    	<remark type="editorial" xml:id="baudi-30-5e061933">
             <class>Dynamik</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -3019,14 +3263,12 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>flute.i</part>
-                <part>flute.ii</part>
-                <part>oboe.i</part>
-                <part>oboe.ii</part>
+                <partGrp>flutes</partGrp>
+                <partGrp>oboes</partGrp>
             </parts>
             <annots>
-                <annot>
-                    <hairpin form="cres"/>verlängert; In A-P3 und ED-P (Ob) weiterführend notiert, jedoch nicht in T. 62 ankommend</annot>
+                <annot><hairpin form="cres"/> weiterführend notiert, nach <pb/> jedoch nciht ankommendverlängert; In A-P3 und ED-P (Ob) weiterführend notiert, jedoch nicht in  T. 62 ankommend</annot>
+            	<annot><ptr target="#ED-P"/><hairpin form="cres" tstamp2="61m+5"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -3036,32 +3278,31 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="editorial" xml:id="baudi-30-c0a4fcbe">
-            <class>Dynamik</class>
-            <mdiv>7</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="61" count="3"/>
-                    <range type="end" measure="62" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>clarinet.i</part>
-                <part>clarinet.ii</part>
-            </parts>
-            <annots>
-                <annot>
-                    <hairpin form="cres"/>an Fl &amp; Ob angeglichen</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
-                <manifestation>ED-P</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-5bf95df4">
+    	<remark type="reading">
+    		<class>Dynamik</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="61" count="1"/>
+    				<range type="end" measure="61" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>hornFrench.i</part>
+    			<part>hornFrench.ii</part>
+    		</parts>
+    		<annots>
+    			<annot type="no"><hairpin form="cres"/></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>  
+    	
+    	<remark type="editorial" xml:id="baudi-30-5bf95df4">
             <class>Artikulation</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -3088,14 +3329,15 @@
             <mdiv>7</mdiv>
             <occurances>
                 <occurance>
-                    <position measure="62" count="3"/>
+                    <range type="start" measure="62" count="1"/>
+                    <range type="end" measure="62" count="4"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>Bogen zunächst irrtümlich früher endend, Rasurt nach Verlängerung nicht ausgeführt</annot>
+            	<annot><slur/> zunächst bis <ptr corresp="#mdiv-7_m-62_c-4"/>, jedoch in <ptr corresp="#mdiv-7_m-62_c-3"/> neu angesetzt und bis zum Ende des Taktes geführt</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -3104,6 +3346,61 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
+    	<remark type="editorial">
+    		<class>Artikulation</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="62" count="1"/>
+    				<range type="end" measure="62" count="2"/>
+    			</occurance>
+    			<occurance>
+    				<range type="start" measure="63" count="1"/>
+    				<range type="end" measure="63" count="2"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>bassoon.ii</part>
+    			<part>hornFrench.iv</part>
+    		</parts>
+    		<annots>
+    			<annot><app>
+    				<lem source="#ED-P"><artic artic="stacc" part="#bassoons #hornFrench.iii #hornFrench.iv"/></lem>
+    				<rdg source="#A-P3"><artic artic="stacc" part="#bassoon.i #hornFrench.iii"/></rdg>
+    			</app></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	<remark type="reading">
+    		<class>Notentext</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="62"/>
+    				<range type="end" measure="65"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>hornFrench.iii</part>
+    			<part>hornFrench.iv</part>
+    		</parts>
+    		<annots>
+    			<annot><dir tstamp="62m+1.5">a 2.</dir></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	
         <remark type="editorial" xml:id="baudi-30-e5c94356">
             <class>Artikulation</class>
             <mdiv>7</mdiv>
@@ -3126,7 +3423,30 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="editorial" xml:id="baudi-30-b494c666">
+    	<remark type="annotation">
+    		<class>Streichung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<range type="start" measure="63" count="3"/>
+    				<range type="end" measure="63" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>flute.i</part>
+    		</parts>
+    		<annots>
+    			<annot><slur/> durch Rasur geteilt</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>  
+    	<remark type="editorial" xml:id="baudi-30-b494c666">
             <class>Bogensetzung</class>
             <mdiv>7</mdiv>
             <occurances>
@@ -3139,7 +3459,7 @@
                 <part>flute.ii</part>
             </parts>
             <annots>
-                <annot>Haltebogen gemäß ED-P ergänzt</annot>
+                <annot><tie/><ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -3162,7 +3482,9 @@
                 <part>violin.i</part>
             </parts>
             <annots>
-                <annot>In ED-P als Abbreviatur notiert</annot>
+                <annot><app>
+                	<rdg source="#ED-P"><fTrem unitdur="8" beams="1"><note pname="d" oct="4" dur="2"/><note pname="d" oct="5" dur="2"/></fTrem></rdg>
+                </app></annot>
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
@@ -3181,11 +3503,10 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>clarinet.i</part>
-                <part>clarinet.ii</part>
+                <partGrp>clarinets</partGrp>
             </parts>
             <annots>
-                <annot>Haltebögen gemäß ED-P ergänzt</annot>
+            	<annot><tie/><ptr type="follow" target="#ED-P"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
@@ -3195,7 +3516,35 @@
                 <edition>BauDi-P</edition>
             </editions>
         </remark>
-        <remark type="annotation" xml:id="baudi-30-255c65c3">
+    	<remark type="editorial">
+    		<class>Bogensetzung</class>
+    		<mdiv>7</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="64" count="4"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>trumpet.ii</part>
+    			<part>trombone.i</part>
+    		</parts>
+    		<annots>
+    			<annot><app>
+    				<lem><dynam part="#trumpets #trombones">p</dynam></lem>
+    				<rdg source="#ED-P"><dynam part="#trumpet.ii #trombone.ii">p</dynam></rdg>
+    				<rdg source="#A-P3"><dynam part="#trumpet.i #trombone.ii">p</dynam></rdg>
+    			</app></annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>A-P3</manifestation>
+    			<manifestation>ED-P</manifestation>
+    		</manifestationList>
+    		<editions>
+    			<edition>BauDi-P</edition>
+    		</editions>
+    	</remark>
+    	
+    	<remark type="annotation" xml:id="baudi-30-255c65c3">
             <class>Notentext</class>
             <mdiv>7</mdiv>
             <occurances>
