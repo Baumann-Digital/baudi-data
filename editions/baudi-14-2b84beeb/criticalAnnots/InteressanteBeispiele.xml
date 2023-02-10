@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- baudi-30-67ee1fca, tstamp2 -->
-<!--  -->
+<comments>
+	<comment>
+		baudi-30-67ee1fca, tstamp2
+		see also MEI data.BEAT (problem mit negativen Werten)
+		Idee: Zusammenlegung von data.MERASUREBEAT (tstamp2) und data.BEAT(tstamp) und data.MEASUREBEATOFFSET (@origin.tstamp)
+		z.B. add data.beat to @tstamp2 or create tstamp2.pos (positioning, absolute value or before/after)
+		check: baudi-30-18f5d05d
+	</comment>
+
+	<comment>
+		<!-- baudi-30-e6adfae9, app (dynamik nur in einer Stimme) ; Grenze von MEI in diesem Kontext? in Bezug auf Layer?-->
+	</comment>
+
+	<comment>
+		<!-- baudi-30-d8fdb6e9, <slur type="ediAdd" sameas="#ED-P"/>,
+		Klassifizierung (hinzufügung, "folgen" mit Verweis) -->
+	</comment>
+	
+	<comment>
+		<!-- baudi-30-6bcf7435, Beginn und Ende von Crescendo-Gabeln in unterschiedlichen Stimmen in einem app -->
+	</comment>
+	
+	<comment>
+		<!-- Weitere Möglichkeiten der Attributnutzung -->
+		<!-- same as: folgen -->
+		<!-- corresp: vergleiche oder Ähnlichkeitsbezug -->
+	</comment>
+
+</comments>
