@@ -1,1397 +1,1404 @@
-<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-00">
-    <setting>
-        <language codedval="de"/>
-        <mdivs>
-            <mdiv no="0">
-                <label xml:lang="de">Vorspiel</label>
-                <label xml:lang="en">Prelude</label>
-            </mdiv>
-        </mdivs>
-        <parts>
-            <partGrp xml:id="woods">
-                <label xml:lang="de">Holz</label>
-                <partGrp xml:id="flutes">
-                    <label xml:lang="de">Flöten</label>
-                    <part xml:id="flute.i">
-                        <label xml:lang="de">Flöte I</label>
-                    </part>
-                    <part xml:id="flute.ii">
-                        <label xml:lang="de">Flöte II</label>
-                    </part>
-                </partGrp>
-                <partGrp xml:id="oboes">
-                    <label xml:lang="de">Oboen</label>
-                    <part xml:id="oboe.i">
-                        <label xml:lang="de">Oboe I</label>
-                    </part>
-                    <part xml:id="oboe.ii">
-                        <label xml:lang="de">Oboe II</label>
-                    </part>
-                </partGrp>
-                <partGrp xml:id="clarinets">
-                    <label xml:lang="de">Klarinetten</label>
-                    <part xml:id="clarinet.i">
-                        <label xml:lang="de">Klarinette I</label>
-                    </part>
-                    <part xml:id="clarinet.ii">
-                        <label xml:lang="de">Klarinette II</label>
-                    </part>
-                </partGrp>
-                <partGrp xml:id="bassoons">
-                    <label xml:lang="de">Fagotte</label>
-                    <part xml:id="bassoon.i">
-                        <label xml:lang="de">Fagott I</label>
-                    </part>
-                    <part xml:id="bassoon.ii">
-                        <label xml:lang="de">Fagott II</label>
-                    </part>
-                </partGrp>
-            </partGrp>
-            <partGrp xml:id="brass">
-                <label xml:lang="de">Blech</label>
-                <partGrp xml:id="hornsFrench">
-                    <label xml:lang="de">Hörner</label>
-                    <part xml:id="hornFrench.i">
-                        <label xml:lang="de">Horn I</label>
-                    </part>
-                    <part xml:id="hornFrench.ii">
-                        <label xml:lang="de">Horn II</label>
-                    </part>
-                    <part xml:id="hornFrench.iii">
-                        <label xml:lang="de">Horn III</label>
-                    </part>
-                    <part xml:id="hornFrench.iv">
-                        <label xml:lang="de">Horn IV</label>
-                    </part>
-                </partGrp>
-                <partGrp xml:id="trumpets">
-                    <label xml:lang="de">Trompeten</label>
-                    <part xml:id="trumpet.i">
-                        <label xml:lang="de">Trompete I</label>
-                    </part>
-                    <part xml:id="trumpet.ii">
-                        <label xml:lang="de">Trompete II</label>
-                    </part>
-                </partGrp>
-                <partGrp xml:id="trombones">
-                    <label xml:lang="de">Posaunen</label>
-                    <part xml:id="trombone.i">
-                        <label xml:lang="de">Posaune I</label>
-                    </part>
-                    <part xml:id="trombone.ii">
-                        <label xml:lang="de">Posaune II</label>
-                    </part>
-                    <part xml:id="trombone.iii">
-                        <label xml:lang="de">Posaune III</label>
-                    </part>
-                </partGrp>
-                <part xml:id="tuba">
-                    <label xml:lang="de">Tuba</label>
-                </part>
-            </partGrp>
-            <partGrp xml:id="percussion">
-                <label xml:lang="de">Schlagwerk</label>
-                <part xml:id="timpani">
-                    <label xml:lang="de">Pauken</label>
-                </part>
-            </partGrp>
-            <partGrp xml:id="choir">
-                <label xml:lang="de">Chor</label>
-                <partGrp xml:id="choirFemale">
-                    <label xml:lang="de">Frauenchor</label>
-                    <partGrp xml:id="soprano">
-                        <label xml:lang="de">Sporan</label>
-                        <part xml:id="soprano.i">
-                            <label xml:lang="de">Sporan I</label>
-                        </part>
-                        <part xml:id="soprano.ii">
-                            <label xml:lang="de">Sporan II</label>
-                        </part>
-                    </partGrp>
-                    <partGrp xml:id="alto">
-                        <label xml:lang="de">Alt</label>
-                        <part xml:id="alto.i">
-                            <label xml:lang="de">Alt I</label>
-                        </part>
-                        <part xml:id="alto.ii">
-                            <label xml:lang="de">Alt II</label>
-                        </part>
-                    </partGrp>
-                </partGrp>
-                <partGrp xml:id="choirMale">
-                    <label xml:lang="de">Männerchor</label>
-                    <partGrp xml:id="tenor">
-                        <label xml:lang="de">Tenor</label>
-                        <part xml:id="tenor.i">
-                            <label xml:lang="de">Tenor I</label>
-                        </part>
-                        <part xml:id="tenor.ii">
-                            <label xml:lang="de">Tenor II</label>
-                        </part>
-                    </partGrp>
-                    <partGrp xml:id="bass">
-                        <label xml:lang="de">Bass</label>
-                        <part xml:id="bass.i">
-                            <label xml:lang="de">Bass I</label>
-                        </part>
-                        <part xml:id="bass.ii">
-                            <label xml:lang="de">Bass II</label>
-                        </part>
-                    </partGrp>
-                </partGrp>
-            </partGrp>
-            <part xml:id="organ">
-                <label xml:lang="en">Organ</label>
-                <label xml:lang="de">Orgel</label>
-                <part type="sysGrp" xml:id="organManuals">
-                    <label xml:lang="en">Organ (manuals)</label>
-                    <label xml:lang="de">Orgel (Manuale)</label>
-                    <part type="sys" xml:id="organ.left">
-                        <label xml:lang="en">Organ (l.h.)</label>
-                        <label xml:lang="de">Orgel (l.H.)</label>
-                    </part>
-                    <part type="sys" xml:id="organ.right">
-                        <label xml:lang="en">Organ (r.h.)</label>
-                        <label xml:lang="de">Orgel (r.H.)</label>
-                    </part>
-                </part>
-                <part type="sys" xml:id="organPedals">
-                    <label xml:lang="en">Organ (ped.)</label>
-                    <label xml:lang="de">Orgel (Ped.)</label>
-                </part>
+<?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-00">
+  <setting>
+    <language codedval="de"/>
+    <mdivs>
+      <mdiv no="0">
+        <label xml:lang="de">Vorspiel</label>
+        <label xml:lang="en">Prelude</label>
+      </mdiv>
+    </mdivs>
+    <parts>
+      <partGrp xml:id="woods">
+        <label xml:lang="de">Holz</label>
+        <partGrp xml:id="flutes">
+          <label xml:lang="de">Flöten</label>
+          <part xml:id="flute.i">
+            <label xml:lang="de">Flöte I</label>
+          </part>
+          <part xml:id="flute.ii">
+            <label xml:lang="de">Flöte II</label>
+          </part>
+        </partGrp>
+        <partGrp xml:id="oboes">
+          <label xml:lang="de">Oboen</label>
+          <part xml:id="oboe.i">
+            <label xml:lang="de">Oboe I</label>
+          </part>
+          <part xml:id="oboe.ii">
+            <label xml:lang="de">Oboe II</label>
+          </part>
+        </partGrp>
+        <partGrp xml:id="clarinets">
+          <label xml:lang="de">Klarinetten</label>
+          <part xml:id="clarinet.i">
+            <label xml:lang="de">Klarinette I</label>
+          </part>
+          <part xml:id="clarinet.ii">
+            <label xml:lang="de">Klarinette II</label>
+          </part>
+        </partGrp>
+        <partGrp xml:id="bassoons">
+          <label xml:lang="de">Fagotte</label>
+          <part xml:id="bassoon.i">
+            <label xml:lang="de">Fagott I</label>
+          </part>
+          <part xml:id="bassoon.ii">
+            <label xml:lang="de">Fagott II</label>
+          </part>
+        </partGrp>
+      </partGrp>
+      <partGrp xml:id="brass">
+        <label xml:lang="de">Blech</label>
+        <partGrp xml:id="hornsFrench">
+          <label xml:lang="de">Hörner</label>
+          <part xml:id="hornFrench.i">
+            <label xml:lang="de">Horn I</label>
+          </part>
+          <part xml:id="hornFrench.ii">
+            <label xml:lang="de">Horn II</label>
+          </part>
+          <part xml:id="hornFrench.iii">
+            <label xml:lang="de">Horn III</label>
+          </part>
+          <part xml:id="hornFrench.iv">
+            <label xml:lang="de">Horn IV</label>
+          </part>
+        </partGrp>
+        <partGrp xml:id="trumpets">
+          <label xml:lang="de">Trompeten</label>
+          <part xml:id="trumpet.i">
+            <label xml:lang="de">Trompete I</label>
+          </part>
+          <part xml:id="trumpet.ii">
+            <label xml:lang="de">Trompete II</label>
+          </part>
+        </partGrp>
+        <partGrp xml:id="trombones">
+          <label xml:lang="de">Posaunen</label>
+          <part xml:id="trombone.i">
+            <label xml:lang="de">Posaune I</label>
+          </part>
+          <part xml:id="trombone.ii">
+            <label xml:lang="de">Posaune II</label>
+          </part>
+          <part xml:id="trombone.iii">
+            <label xml:lang="de">Posaune III</label>
+          </part>
+        </partGrp>
+        <part xml:id="tuba">
+          <label xml:lang="de">Tuba</label>
+        </part>
+      </partGrp>
+      <partGrp xml:id="percussion">
+        <label xml:lang="de">Schlagwerk</label>
+        <part xml:id="timpani">
+          <label xml:lang="de">Pauken</label>
+        </part>
+      </partGrp>
+      <partGrp xml:id="choir">
+        <label xml:lang="de">Chor</label>
+        <partGrp xml:id="choirFemale">
+          <label xml:lang="de">Frauenchor</label>
+          <partGrp xml:id="soprano">
+            <label xml:lang="de">Sporan</label>
+            <part xml:id="soprano.i">
+              <label xml:lang="de">Sporan I</label>
             </part>
-            <part xml:id="harmonium">
-                <label xml:lang="en">Harmonium</label>
-                <label xml:lang="de">Harmonium</label>
-                <part type="sysGrp" xml:id="harmoniumManuals">
-                    <label xml:lang="en">Harmonium (manuals)</label>
-                    <label xml:lang="de">Harmonium (Manuale)</label>
-                    <part type="sys" xml:id="harmonium.left">
-                        <label xml:lang="en">Harmonium (l.h.)</label>
-                        <label xml:lang="de">Harmonium (l.H.)</label>
-                    </part>
-                    <part type="sys" xml:id="harmonium.right">
-                        <label xml:lang="en">Harmonium (r.h.)</label>
-                        <label xml:lang="de">Harmonium (r.H.)</label>
-                    </part>
-                </part>
-                <part type="sys" xml:id="harmoniumPedals">
-                    <label xml:lang="en">Harmonium (ped.)</label>
-                    <label xml:lang="de">Harmonium (Ped.)</label>
-                </part>
+            <part xml:id="soprano.ii">
+              <label xml:lang="de">Sporan II</label>
             </part>
-            <part xml:id="piano">
-                <label xml:lang="en">Piano</label>
-                <label xml:lang="de">Klavier</label>
-                <part type="sys" xml:id="piano.left">
-                    <label xml:lang="en">Piano (l.h.)</label>
-                    <label xml:lang="de">Klavier (l.H.)</label>
-                </part>
-                <part type="sys" xml:id="piano.right">
-                    <label xml:lang="en">Piano (r.h.)</label>
-                    <label xml:lang="de">Klavier (r.H.)</label>
-                </part>
+          </partGrp>
+          <partGrp xml:id="alto">
+            <label xml:lang="de">Alt</label>
+            <part xml:id="alto.i">
+              <label xml:lang="de">Alt I</label>
             </part>
-            <partGrp xml:id="strings">
-                <label xml:lang="de">Streicher</label>
-                <partGrp xml:id="violins">
-                    <label xml:lang="de">Violinen</label>
-                    <part xml:id="violin.i">
-                        <label xml:lang="de">Violine I</label>
-                    </part>
-                    <part xml:id="violin.ii">
-                        <label xml:lang="de">Violine II</label>
-                    </part>
-                </partGrp>
-                <part xml:id="viola">
-                    <label xml:lang="de">Viola</label>
-                </part>
-                <part xml:id="violoncello">
-                    <label xml:lang="de">Violoncello</label>
-                </part>
-                <part xml:id="doubleBass">
-                    <label xml:lang="de">Kontrabass</label>
-                </part>
-            </partGrp>
-        </parts>
-        <work xml:id="baudi-02-aedbaef3">
-            <measures total="48" upbeat="false" startNo="1"/>
-            <meter count="3" unit="4"></meter>
-        </work>
-        <manifestationList>
-            <manifestation sortNo="1" xml:id="A-P1">
-                <label xml:lang="de">Handschriftliche Partitur (Vorspiel)</label>
-            </manifestation>
-            <manifestation xml:id="A-St-Orch" sortNo="4">
-                <label xml:lang="de">Handschriftliche Orchesterstimmen (Vorspiel)</label>
-            </manifestation>
-            <manifestation xml:id="ED-KA1" sortNo="5">
-                <label xml:lang="de">Klavierauszug mit handschriftlichen Eintragungen (Handexemplar)</label>
-            </manifestation>
-            <manifestation xml:id="ED-KA2" sortNo="6">
-                <label xml:lang="de">Erstdruck Klavierauszug</label>
-            </manifestation>
-        </manifestationList>
-        <relEditions>
-            <edition xml:id="BauDi-P">
-                <label xml:lang="de">BauDi Partitur</label>
-            </edition>
-        </relEditions>
-        <classifications>
-            <classGrp label="AnmerkungsArt">
-                <class xml:id="Notentext">
-                    <label xml:lang="de">Notentext</label>
-                    <label xml:lang="en">Notentext (en)</label>
-                </class>
-                <class xml:id="Tondauer">
-                    <label xml:lang="de">Tondauer</label>
-                    <label xml:lang="en">Tondauer (en)</label>
-                </class>
-                <class xml:id="Rhythmus">
-                    <label xml:lang="de">Rhythmus</label>
-                    <label xml:lang="en">Rhythmus (en)</label>
-                </class>
-                <class xml:id="Bogensetzung">
-                    <label xml:lang="de">Bogensetzung</label>
-                    <label xml:lang="en">Bogensetzung (en)</label>
-                </class>
-                <class xml:id="Dynamik">
-                    <label xml:lang="de">Dynamik</label>
-                    <label xml:lang="en">Dynamik (en)</label>
-                </class>
-                <class xml:id="Halsung">
-                    <label xml:lang="de">Halsung</label>
-                    <label xml:lang="en">Halsung (en)</label>
-                </class>
-                <class xml:id="Balkung">
-                    <label xml:lang="de">Balkung</label>
-                    <label xml:lang="en">Balkung (en)</label>
-                </class>
-                <class xml:id="Artikulation">
-                    <label xml:lang="de">Artikulation</label>
-                    <label xml:lang="en">Artikulation (en)</label>
-                </class>
-                <class xml:id="Gesangstext">
-                    <label xml:lang="de">Gesangstext</label>
-                    <label xml:lang="en">Gesangstext (en)</label>
-                </class>
-                <class xml:id="Vortragsbezeichnung">
-                    <label xml:lang="de">Vortragsbezeichnung</label>
-                    <label xml:lang="en">Vortragsbezeichnung (en)</label>
-                </class>
-                <class xml:id="Tempoangabe">
-                    <label xml:lang="de">Tempoangabe</label>
-                    <label xml:lang="en">Tempoangabe (en)</label>
-                </class>
-                <class xml:id="Metrum">
-                    <label xml:lang="de">Metrum</label>
-                    <label xml:lang="en">Metrum (en)</label>
-                </class>
-                <class xml:id="Pausensetzung">
-                    <label xml:lang="de">Pausensetzung</label>
-                    <label xml:lang="en">Pausensetzung (en)</label>
-                </class>
-                <class xml:id="Bemerkung">
-                    <label xml:lang="de">Bemerkung</label>
-                    <label xml:lang="en">Bemerkung (en)</label>
-                </class>
-                <class xml:id="Beschreibung">
-                    <label xml:lang="de">Beschreibung</label>
-                    <label xml:lang="en">Beschreibung (en)</label>
-                </class>
-                <class xml:id="Streichung">
-                    <label xml:lang="de">Streichung</label>
-                    <label xml:lang="en">Streichung (en)</label>
-                </class>
-                <class xml:id="Sonstige">
-                    <label xml:lang="de">Sonstige</label>
-                    <label xml:lang="en">Sonstige (en)</label>
-                </class>
-            </classGrp>
-        </classifications>
-    </setting>
-    <remarks>
-        <remark type="editorial" xml:id="baudi-30-dc7a4a67">
-            <class>Notentext</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="4" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.right</part>
-            </parts>
-            <annots>
-                <annot>In ED-KA c2 statt ces2, in ED-KA2<accid accid="f"/>mit Bleistift nachgetragen (vgl. auch Hrn. I in A-P1)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-e30e9672">
-            <class>Pausensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="6" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.left</part>
-            </parts>
-            <annots>
-                <annot>ED-KA ohne<rest dur="4"/>(Leerstelle)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-c9d79110">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="6" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>oboe.i</part>
-                <part>oboe.ii</part>
-            </parts>
-            <annots>
-                <annot>In A-P1 beginnt die<hairpin form="cres"/>bereits auf Zz. 1</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-a4211878">
-            <class>Artikulation</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="7" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>flute.ii</part>
-            </parts>
-            <annots>
-                <annot>In A-P1 Akzent nur für Oberstimme (Fl. 1)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-3b395bd4">
-            <class>Artikulation</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="7" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>hornFrench.iii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Akzent</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-536f1501">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="7" count="1"/>
-                    <range type="end" measure="8" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>hornFrench.iii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Decrescendo</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-97137f7a">
-            <class>Pausensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="9" count="1"/>
-                    <range type="end" measure="9" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.right</part>
-            </parts>
-            <annots>
-                <annot>Alle Quellen ohne<rest dur="1"/>(Leerstelle)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-ab3be38e">
-            <class>Pausensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="9" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organPedals</part>
-            </parts>
-            <annots>
-                <annot>ED-KA ohne \crotchetRest (Leerstelle)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="annotation" xml:id="baudi-30-674e594d">
-            <class>Beschreibung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="10" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.right</part>
-                <part>organ.left</part>
-                <part>organPedals</part>
-            </parts>
-            <annots>
-                <annot>Die Hinweise zur Registrierung stammen aus dem Handexemplar des Komponisten und rühren vermutlich aus einer späteren Aufführung her</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-427ca785">
-            <class>Notentext</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="13" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>clarinet.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 und A-StOrch ohne Haltebogen, dadurch f1 statt fis1 (vgl. aber Vl. 2 )</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-32bc127d">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="14" count="1"/>
-                    <range type="end" measure="15" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>trombone.i</part>
-                <part>trombone.ii</part>
-                <part>trombone.iii</part>
-                <part>tuba</part>
-            </parts>
-            <annots>
-                <annot>In A-P1 nur eine Grescendo-Gabel für Pos./Tb notiert und eine Zz. verzögert; die Ausgabe folgt A-StOrch (Pos. I jedoch ohne Crescendo)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-b9be6e9b">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="15" count="1"/>
-                    <range type="end" measure="16" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>trumpet.i</part>
-                <part>trumpet.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 Crescendo in T. 15 beginnend, in T. 16 nach Seitenumbruch jedoch nicht weitergeführt; in A-StOrch nur für Trp. I ausgeführt</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-05e887b4">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="17" count="1"/>
-                    <range type="end" measure="18" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.left</part>
-            </parts>
-            <annots>
-                <annot>In ED-KA ist ein Haltebogen von dis1 zu d1 notiert</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-2ef4f24c">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="21" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>trombone.i</part>
-            </parts>
-            <annots>
-                <annot>In A-StOrch reicht der Bogen bis Zz. 4</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-1c1bee42">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="24" count="1"/>
-                    <range type="end" measure="27" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <partGrp>bassoons</partGrp>
-                <partGrp>clarinets</partGrp>
-                <partGrp>flutes</partGrp>
-                <partGrp>oboes</partGrp>
-            </parts>
-            <annots>
-                <annot>In A-P1 Dynamikanweisung aus Platzgründen nur dreimal notiert; in A-StOrch z.T. sehr unterschiedlich ausgeführt</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-f72ba829">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="25" count="1"/>
-                    <range type="end" measure="26" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.left</part>
-            </parts>
-            <annots>
-                <annot>In ED-KA reicht der Bogen nur bis T. 25 Zz. 3</annot>
-            </annots>
-            <manifestationList><manifestation>A-P1</manifestation></manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-6c372f7f">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="25" count="2"/>
-                    <range type="end" measure="28" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>viola</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Dynamik-Anweisung; in A-StOrch beginnt das Crescendo für Va. erst T. 26 Zz. 3</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-7044cfdb">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="25" count="3"/>
-                    <range type="end" measure="27" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \decrescHairpin, vgl. jedoch Vc. und A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-f587e096">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="26" count="3"/>
-                    <range type="end" measure="27" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>trombone.i</part>
-                <part>trombone.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Haltebögen (vgl. aber A-StOrch Pos2)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-b6023616">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="26" count="3"/>
-                    <range type="end" measure="28" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>trombone.i</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Bögen, vgl. jedoch Pos2 und hohes Holz</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-1df4e5b7">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="27" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-            </parts>
-            <annots>
-                <annot>In A-P1 wird das<dynam>p</dynam>etwas früher erreicht (vgl. A-StOrch)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-f5566ea8">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="28" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1<dynam>p</dynam>bereits in T. 27 Zz. 3</annot>
-            </annots>
-            <manifestationList><manifestation>A-P1</manifestation></manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-249f4dde">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="28" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>viola</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \piano, vgl. jedoch Vl1–2 und A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-4e139c9a">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="29" count="3"/>
-                    <range type="end" measure="30" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>flute.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Haltebogen; die Ausgabe folgt A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-95af289d">
-            <class>Artikulation</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="34" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>bassoon.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Akzent</annot>
-            </annots>
-            <manifestationList><manifestation>A-P1</manifestation></manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-03606f49">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="34" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \sforzato, vgl. jedoch A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-994a517b">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="35" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-                <part>violoncello</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne<dynam>p</dynam>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-b02470f5">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="35" count="1"/>
-                    <range type="end" measure="35" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>hornFrench.iii</part>
-                <part>hornFrench.iv</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Bögen, vgl. jedoch A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-e8798f2b">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="35" count="1"/>
-                    <range type="end" measure="36" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.i</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Dynamik-Angabe, vgl. jedoch A-StOrch und Vl2</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-6df9d0aa">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="36" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \sforzato, vgl. jedoch A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-9133222c">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="36" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-                <part>viola</part>
-                <part>violin.i</part>
-                <part>violin.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Akzent, vgl. Vc und T. 38, sowie teilw. A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-599909f1">
-            <class>Artikulation</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="36" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>bassoon.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Akzent, vgl. jedoch A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-15d630ad">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="36" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>clarinet.i</part>
-                <part>clarinet.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne<dynam>p</dynam>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-5218ac29">
-            <class>Notentext</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="36" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>bassoon.i</part>
-                <part>bassoon.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 C bzw. c statt Cis bzw. cis, vgl. jedoch A-StOrch Fg2</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-d8536878">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="37" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \piano, vgl. jedoch A-StOrch sowie übrige Streicher</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-85323a3e">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="37" count="1"/>
-                    <range type="end" measure="37" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>hornFrench.ii</part>
-                <part>hornFrench.iii</part>
-                <part>hornFrench.iv</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Bögen, vgl. jedoch A-StOrch (Hrn2 auch in A-StOrch ohne Bogen)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-76b8c838">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="37" count="1"/>
-                    <range type="end" measure="38" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Dynamik Angabe, vgl. jedoch Vc und A-StOrch (ohne \forte)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-1d5a0d53">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="37" count="1"/>
-                    <range type="end" measure="39" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>flute.i</part>
-                <part>flute.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Haltebögen a2=a2=a2, dafür Bogen von b2 zu a2 (T. 36 auf 37), A-StOrch Bögen nur in Fl2 ausgeführt</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-877f07ba">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="38" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violoncello</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \forte, vgl. jedoch A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-05cee1d2">
-            <class>Artikulation</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="38" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>doubleBass</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Akzent, vgl. A-StOrch, sowie übrige Streicher</annot>
-            </annots>
-            <manifestationList><manifestation>A-P1</manifestation></manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-56b81df2">
-            <class>Notentext</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="38" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>bassoon.i</part>
-                <part>bassoon.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 D bzw. d statt Dis bzw. dis, vgl.jedoch A-StOrch Fg2, dort auf Zz. 1 wiederholtes<accid accid="s"/>notiert</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-49162cbb">
-            <class>Artikulation</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="40" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organPedals</part>
-            </parts>
-            <annots>
-                <annot>ED-KA ohne Fermate</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-fbd43d20">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="40" count="1"/>
-                    <range type="end" measure="41" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.i</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne Haltebogen, vgl. jedoch Vl2</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-80f8e359">
-            <class>Vortragsbezeichnung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="41" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violoncello</part>
-            </parts>
-            <annots>
-                <annot>A-P1 und A-StOrch ohne arco-Anweisung</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-72489fad">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="42" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 ohne \pianossimo, vgl. jedoch A-StOrch</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-9808ae7e">
-            <class>Dynamik</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="42" count="1"/>
-                    <range type="end" measure="45" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.ii</part>
-            </parts>
-            <annots>
-                <annot>A-P1 und A-StOrch ohne \decrescHairpin, vgl. jedoch Vl1</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P1</manifestation>
-                <manifestation>A-St-Orch</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-d4668ba7">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="45" count="1"/>
-                    <range type="end" measure="48" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.right</part>
-            </parts>
-            <annots>
-                <annot>In ED-KA irrtümlich Haltebögen gis/h=a/c1=gis/h, vgl. Orgel (II, Ped)</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-d4457147">
-            <class>Bogensetzung</class>
-            <mdiv>0</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="48" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>organ.left</part>
-            </parts>
-            <annots>
-                <annot>In ED-KA reicht der Bogen nur bis T. 47 Zz. 1</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editions>
-                <edition>BauDi-P</edition>
-            </editions>
-        </remark>
-    </remarks>
+            <part xml:id="alto.ii">
+              <label xml:lang="de">Alt II</label>
+            </part>
+          </partGrp>
+        </partGrp>
+        <partGrp xml:id="choirMale">
+          <label xml:lang="de">Männerchor</label>
+          <partGrp xml:id="tenor">
+            <label xml:lang="de">Tenor</label>
+            <part xml:id="tenor.i">
+              <label xml:lang="de">Tenor I</label>
+            </part>
+            <part xml:id="tenor.ii">
+              <label xml:lang="de">Tenor II</label>
+            </part>
+          </partGrp>
+          <partGrp xml:id="bass">
+            <label xml:lang="de">Bass</label>
+            <part xml:id="bass.i">
+              <label xml:lang="de">Bass I</label>
+            </part>
+            <part xml:id="bass.ii">
+              <label xml:lang="de">Bass II</label>
+            </part>
+          </partGrp>
+        </partGrp>
+      </partGrp>
+      <part xml:id="organ">
+        <label xml:lang="en">Organ</label>
+        <label xml:lang="de">Orgel</label>
+        <part type="sysGrp" xml:id="organManuals">
+          <label xml:lang="en">Organ (manuals)</label>
+          <label xml:lang="de">Orgel (Manuale)</label>
+          <part type="sys" xml:id="organ.left">
+            <label xml:lang="en">Organ (l.h.)</label>
+            <label xml:lang="de">Orgel (l.H.)</label>
+          </part>
+          <part type="sys" xml:id="organ.right">
+            <label xml:lang="en">Organ (r.h.)</label>
+            <label xml:lang="de">Orgel (r.H.)</label>
+          </part>
+        </part>
+        <part type="sys" xml:id="organPedals">
+          <label xml:lang="en">Organ (ped.)</label>
+          <label xml:lang="de">Orgel (Ped.)</label>
+        </part>
+      </part>
+      <part xml:id="harmonium">
+        <label xml:lang="en">Harmonium</label>
+        <label xml:lang="de">Harmonium</label>
+        <part type="sysGrp" xml:id="harmoniumManuals">
+          <label xml:lang="en">Harmonium (manuals)</label>
+          <label xml:lang="de">Harmonium (Manuale)</label>
+          <part type="sys" xml:id="harmonium.left">
+            <label xml:lang="en">Harmonium (l.h.)</label>
+            <label xml:lang="de">Harmonium (l.H.)</label>
+          </part>
+          <part type="sys" xml:id="harmonium.right">
+            <label xml:lang="en">Harmonium (r.h.)</label>
+            <label xml:lang="de">Harmonium (r.H.)</label>
+          </part>
+        </part>
+        <part type="sys" xml:id="harmoniumPedals">
+          <label xml:lang="en">Harmonium (ped.)</label>
+          <label xml:lang="de">Harmonium (Ped.)</label>
+        </part>
+      </part>
+      <part xml:id="piano">
+        <label xml:lang="en">Piano</label>
+        <label xml:lang="de">Klavier</label>
+        <part type="sys" xml:id="piano.left">
+          <label xml:lang="en">Piano (l.h.)</label>
+          <label xml:lang="de">Klavier (l.H.)</label>
+        </part>
+        <part type="sys" xml:id="piano.right">
+          <label xml:lang="en">Piano (r.h.)</label>
+          <label xml:lang="de">Klavier (r.H.)</label>
+        </part>
+      </part>
+      <partGrp xml:id="strings">
+        <label xml:lang="de">Streicher</label>
+        <partGrp xml:id="violins">
+          <label xml:lang="de">Violinen</label>
+          <part xml:id="violin.i">
+            <label xml:lang="de">Violine I</label>
+          </part>
+          <part xml:id="violin.ii">
+            <label xml:lang="de">Violine II</label>
+          </part>
+        </partGrp>
+        <part xml:id="viola">
+          <label xml:lang="de">Viola</label>
+        </part>
+        <part xml:id="violoncello">
+          <label xml:lang="de">Violoncello</label>
+        </part>
+        <part xml:id="doubleBass">
+          <label xml:lang="de">Kontrabass</label>
+        </part>
+      </partGrp>
+    </parts>
+    <work xml:id="baudi-02-aedbaef3">
+      <measures total="48" upbeat="false" startNo="1"/>
+      <meter count="3" unit="4"/>
+    </work>
+    <manifestationList>
+      <manifestation sortNo="1" xml:id="A-P1">
+        <label xml:lang="de">Handschriftliche Partitur (Vorspiel)</label>
+      </manifestation>
+      <manifestation xml:id="A-St-Orch" sortNo="4">
+        <label xml:lang="de">Handschriftliche Orchesterstimmen (Vorspiel)</label>
+      </manifestation>
+      <manifestation xml:id="ED-KA1" sortNo="5">
+        <label xml:lang="de">Klavierauszug mit handschriftlichen Eintragungen (Handexemplar)</label>
+      </manifestation>
+      <manifestation xml:id="ED-KA2" sortNo="6">
+        <label xml:lang="de">Erstdruck Klavierauszug</label>
+      </manifestation>
+    </manifestationList>
+    <relEditions>
+      <edition xml:id="BauDi-P">
+        <label xml:lang="de">BauDi Partitur</label>
+      </edition>
+    </relEditions>
+    <classifications>
+      <classGrp label="AnmerkungsArt">
+        <class xml:id="Notentext">
+          <label xml:lang="de">Notentext</label>
+          <label xml:lang="en">Notentext (en)</label>
+        </class>
+        <class xml:id="Tondauer">
+          <label xml:lang="de">Tondauer</label>
+          <label xml:lang="en">Tondauer (en)</label>
+        </class>
+        <class xml:id="Rhythmus">
+          <label xml:lang="de">Rhythmus</label>
+          <label xml:lang="en">Rhythmus (en)</label>
+        </class>
+        <class xml:id="Bogensetzung">
+          <label xml:lang="de">Bogensetzung</label>
+          <label xml:lang="en">Bogensetzung (en)</label>
+        </class>
+        <class xml:id="Dynamik">
+          <label xml:lang="de">Dynamik</label>
+          <label xml:lang="en">Dynamik (en)</label>
+        </class>
+        <class xml:id="Halsung">
+          <label xml:lang="de">Halsung</label>
+          <label xml:lang="en">Halsung (en)</label>
+        </class>
+        <class xml:id="Balkung">
+          <label xml:lang="de">Balkung</label>
+          <label xml:lang="en">Balkung (en)</label>
+        </class>
+        <class xml:id="Artikulation">
+          <label xml:lang="de">Artikulation</label>
+          <label xml:lang="en">Artikulation (en)</label>
+        </class>
+        <class xml:id="Gesangstext">
+          <label xml:lang="de">Gesangstext</label>
+          <label xml:lang="en">Gesangstext (en)</label>
+        </class>
+        <class xml:id="Vortragsbezeichnung">
+          <label xml:lang="de">Vortragsbezeichnung</label>
+          <label xml:lang="en">Vortragsbezeichnung (en)</label>
+        </class>
+        <class xml:id="Tempoangabe">
+          <label xml:lang="de">Tempoangabe</label>
+          <label xml:lang="en">Tempoangabe (en)</label>
+        </class>
+        <class xml:id="Metrum">
+          <label xml:lang="de">Metrum</label>
+          <label xml:lang="en">Metrum (en)</label>
+        </class>
+        <class xml:id="Pausensetzung">
+          <label xml:lang="de">Pausensetzung</label>
+          <label xml:lang="en">Pausensetzung (en)</label>
+        </class>
+        <class xml:id="Bemerkung">
+          <label xml:lang="de">Bemerkung</label>
+          <label xml:lang="en">Bemerkung (en)</label>
+        </class>
+        <class xml:id="Beschreibung">
+          <label xml:lang="de">Beschreibung</label>
+          <label xml:lang="en">Beschreibung (en)</label>
+        </class>
+        <class xml:id="Streichung">
+          <label xml:lang="de">Streichung</label>
+          <label xml:lang="en">Streichung (en)</label>
+        </class>
+        <class xml:id="Sonstige">
+          <label xml:lang="de">Sonstige</label>
+          <label xml:lang="en">Sonstige (en)</label>
+        </class>
+      </classGrp>
+    </classifications>
+  </setting>
+  <remarks>
+    <remark type="editorial" xml:id="baudi-30-dc7a4a67">
+      <class>Notentext</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="4" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.right</part>
+      </parts>
+      <annots>
+        <annot>In ED-KA c2 statt ces2, in ED-KA2<accid accid="f"/>mit Bleistift nachgetragen (vgl. auch Hrn. I in A-P1)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-e30e9672">
+      <class>Pausensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="6" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.left</part>
+      </parts>
+      <annots>
+        <annot>ED-KA ohne<rest dur="4"/>(Leerstelle)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-c9d79110">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="6" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>oboe.i</part>
+        <part>oboe.ii</part>
+      </parts>
+      <annots>
+        <annot>In A-P1 beginnt die<hairpin form="cres"/>bereits auf Zz. 1</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-a4211878">
+      <class>Artikulation</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="7" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>flute.ii</part>
+      </parts>
+      <annots>
+        <annot>In A-P1 Akzent nur für Oberstimme (Fl. 1)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-3b395bd4">
+      <class>Artikulation</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="7" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>hornFrench.iii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Akzent</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-536f1501">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="7" count="1"/>
+          <range type="end" measure="8" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>hornFrench.iii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Decrescendo</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-97137f7a">
+      <class>Pausensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="9" count="1"/>
+          <range type="end" measure="9" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.right</part>
+      </parts>
+      <annots>
+        <annot>Alle Quellen ohne<rest dur="1"/>(Leerstelle)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-ab3be38e">
+      <class>Pausensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="9" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organPedals</part>
+      </parts>
+      <annots>
+        <annot>ED-KA ohne \crotchetRest (Leerstelle)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="annotation" xml:id="baudi-30-674e594d">
+      <class>Beschreibung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="10" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.right</part>
+        <part>organ.left</part>
+        <part>organPedals</part>
+      </parts>
+      <annots>
+        <annot>Die Hinweise zur Registrierung stammen aus dem Handexemplar des Komponisten und rühren vermutlich aus einer späteren Aufführung her</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-427ca785">
+      <class>Notentext</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="13" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>clarinet.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 und A-StOrch ohne Haltebogen, dadurch f1 statt fis1 (vgl. aber Vl. 2 )</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-32bc127d">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="14" count="1"/>
+          <range type="end" measure="15" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>trombone.i</part>
+        <part>trombone.ii</part>
+        <part>trombone.iii</part>
+        <part>tuba</part>
+      </parts>
+      <annots>
+        <annot>In A-P1 nur eine Grescendo-Gabel für Pos./Tb notiert und eine Zz. verzögert; die Ausgabe folgt A-StOrch (Pos. I jedoch ohne Crescendo)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-b9be6e9b">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="15" count="1"/>
+          <range type="end" measure="16" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>trumpet.i</part>
+        <part>trumpet.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 Crescendo in T. 15 beginnend, in T. 16 nach Seitenumbruch jedoch nicht weitergeführt; in A-StOrch nur für Trp. I ausgeführt</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-05e887b4">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="17" count="1"/>
+          <range type="end" measure="18" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.left</part>
+      </parts>
+      <annots>
+        <annot>In ED-KA ist ein Haltebogen von dis1 zu d1 notiert</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-2ef4f24c">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="21" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>trombone.i</part>
+      </parts>
+      <annots>
+        <annot>In A-StOrch reicht der Bogen bis Zz. 4</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-1c1bee42">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="24" count="1"/>
+          <range type="end" measure="27" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <partGrp>bassoons</partGrp>
+        <partGrp>clarinets</partGrp>
+        <partGrp>flutes</partGrp>
+        <partGrp>oboes</partGrp>
+      </parts>
+      <annots>
+        <annot>In A-P1 Dynamikanweisung aus Platzgründen nur dreimal notiert; in A-StOrch z.T. sehr unterschiedlich ausgeführt</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-f72ba829">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="25" count="1"/>
+          <range type="end" measure="26" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.left</part>
+      </parts>
+      <annots>
+        <annot>In ED-KA reicht der Bogen nur bis T. 25 Zz. 3</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-6c372f7f">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="25" count="2"/>
+          <range type="end" measure="28" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>viola</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Dynamik-Anweisung; in A-StOrch beginnt das Crescendo für Va. erst T. 26 Zz. 3</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-7044cfdb">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="25" count="3"/>
+          <range type="end" measure="27" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \decrescHairpin, vgl. jedoch Vc. und A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-f587e096">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="26" count="3"/>
+          <range type="end" measure="27" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>trombone.i</part>
+        <part>trombone.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Haltebögen (vgl. aber A-StOrch Pos2)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-b6023616">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="26" count="3"/>
+          <range type="end" measure="28" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>trombone.i</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Bögen, vgl. jedoch Pos2 und hohes Holz</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-1df4e5b7">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="27" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+      </parts>
+      <annots>
+        <annot>In A-P1 wird das<dynam>p</dynam>etwas früher erreicht (vgl. A-StOrch)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-f5566ea8">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="28" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1<dynam>p</dynam>bereits in T. 27 Zz. 3</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-249f4dde">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="28" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>viola</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \piano, vgl. jedoch Vl1–2 und A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-4e139c9a">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="29" count="3"/>
+          <range type="end" measure="30" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>flute.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Haltebogen; die Ausgabe folgt A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-95af289d">
+      <class>Artikulation</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="34" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>bassoon.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Akzent</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-03606f49">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="34" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \sforzato, vgl. jedoch A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-994a517b">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="35" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+        <part>violoncello</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne<dynam>p</dynam>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-b02470f5">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="35" count="1"/>
+          <range type="end" measure="35" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>hornFrench.iii</part>
+        <part>hornFrench.iv</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Bögen, vgl. jedoch A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-e8798f2b">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="35" count="1"/>
+          <range type="end" measure="36" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.i</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Dynamik-Angabe, vgl. jedoch A-StOrch und Vl2</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-6df9d0aa">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="36" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \sforzato, vgl. jedoch A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-9133222c">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="36" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+        <part>viola</part>
+        <part>violin.i</part>
+        <part>violin.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Akzent, vgl. Vc und T. 38, sowie teilw. A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-599909f1">
+      <class>Artikulation</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="36" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>bassoon.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Akzent, vgl. jedoch A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-15d630ad">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="36" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>clarinet.i</part>
+        <part>clarinet.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne<dynam>p</dynam>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-5218ac29">
+      <class>Notentext</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="36" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>bassoon.i</part>
+        <part>bassoon.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 C bzw. c statt Cis bzw. cis, vgl. jedoch A-StOrch Fg2</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-d8536878">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="37" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \piano, vgl. jedoch A-StOrch sowie übrige Streicher</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-85323a3e">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="37" count="1"/>
+          <range type="end" measure="37" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>hornFrench.ii</part>
+        <part>hornFrench.iii</part>
+        <part>hornFrench.iv</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Bögen, vgl. jedoch A-StOrch (Hrn2 auch in A-StOrch ohne Bogen)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-76b8c838">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="37" count="1"/>
+          <range type="end" measure="38" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Dynamik Angabe, vgl. jedoch Vc und A-StOrch (ohne \forte)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-1d5a0d53">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="37" count="1"/>
+          <range type="end" measure="39" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>flute.i</part>
+        <part>flute.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Haltebögen a2=a2=a2, dafür Bogen von b2 zu a2 (T. 36 auf 37), A-StOrch Bögen nur in Fl2 ausgeführt</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-877f07ba">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="38" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violoncello</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \forte, vgl. jedoch A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-05cee1d2">
+      <class>Artikulation</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="38" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>doubleBass</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Akzent, vgl. A-StOrch, sowie übrige Streicher</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-56b81df2">
+      <class>Notentext</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="38" count="3"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>bassoon.i</part>
+        <part>bassoon.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 D bzw. d statt Dis bzw. dis, vgl.jedoch A-StOrch Fg2, dort auf Zz. 1 wiederholtes<accid accid="s"/>notiert</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-49162cbb">
+      <class>Artikulation</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="40" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organPedals</part>
+      </parts>
+      <annots>
+        <annot>ED-KA ohne Fermate</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-fbd43d20">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="40" count="1"/>
+          <range type="end" measure="41" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.i</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne Haltebogen, vgl. jedoch Vl2</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-80f8e359">
+      <class>Vortragsbezeichnung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="41" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violoncello</part>
+      </parts>
+      <annots>
+        <annot>A-P1 und A-StOrch ohne arco-Anweisung</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-72489fad">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="42" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 ohne \pianossimo, vgl. jedoch A-StOrch</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-9808ae7e">
+      <class>Dynamik</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="42" count="1"/>
+          <range type="end" measure="45" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.ii</part>
+      </parts>
+      <annots>
+        <annot>A-P1 und A-StOrch ohne \decrescHairpin, vgl. jedoch Vl1</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-P1</manifestation>
+        <manifestation>A-St-Orch</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-d4668ba7">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="45" count="1"/>
+          <range type="end" measure="48" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.right</part>
+      </parts>
+      <annots>
+        <annot>In ED-KA irrtümlich Haltebögen gis/h=a/c1=gis/h, vgl. Orgel (II, Ped)</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+    <remark type="reading" xml:id="baudi-30-d4457147">
+      <class>Bogensetzung</class>
+      <mdiv>0</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="48" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>organ.left</part>
+      </parts>
+      <annots>
+        <annot>In ED-KA reicht der Bogen nur bis T. 47 Zz. 1</annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-P</edition>
+      </editions>
+    </remark>
+  </remarks>
 </crApp>
