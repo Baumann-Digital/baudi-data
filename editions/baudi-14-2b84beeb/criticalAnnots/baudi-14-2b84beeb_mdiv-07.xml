@@ -6989,7 +6989,7 @@
       </editions>
     </remark>
     <remark type="editorial" xml:id="baudi-30-53775946">
-      <class>Vortragsbezeichnung</class>
+      <class>Notentext</class>
       <mdiv>7</mdiv>
       <occurances>
         <occurance>
@@ -6997,16 +6997,22 @@
         </occurance>
       </occurances>
       <parts>
-        <part>clarinet.i</part>
+        <partGrp>clarinets</partGrp>
       </parts>
       <annots>
         <annot>
           <app>
             <lem>
-              <note pname="f" accid.ges="s" oct="5" dur="2" dots="1"/>
+              <layer n="1">
+              	<note pname="f" accid.ges="s" oct="5" dur="2" dots="1"/>
+              </layer>
+            	<layer n="2">
+              	<note pname="f" accid.ges="s" oct="4" dur="2" dots="1"/>
+            	</layer>
             </lem>
             <rdg source="#A-P3">
-              <corr>
+              <layer n="1">
+              	<corr>
                 <del hand="#hand.4">
                   <note pname="e" oct="5" dur="2" dots="1"/>
                 </del>
@@ -7014,9 +7020,18 @@
                   <note pname="f" accid.ges="s" oct="5" dur="1"/>
                 </add>
               </corr>
+              </layer>
+            	<layer n="2">
+            		<note pname="e" oct="4" dur="2" dots="1"/>
+            	</layer>
             </rdg>
             <rdg source="#ED-P">
+            	<layer n="1">
               <note pname="e" oct="5" dur="2" dots="1"/>
+            	</layer>
+            	<layer n="2">
+            		<note pname="e" oct="4" dur="2" dots="1"/>
+            	</layer>
             </rdg>
           </app>
         </annot>
