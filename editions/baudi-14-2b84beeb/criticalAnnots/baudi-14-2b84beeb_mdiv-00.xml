@@ -246,6 +246,9 @@
       <manifestation xml:id="ED-KA2" sortNo="6">
         <label xml:lang="de">Erstdruck Klavierauszug</label>
       </manifestation>
+      <manifestation xml:id="A-St-Vl" sortNo="6">
+        <label xml:lang="de">Handschriftliche Vl.-Stimmen (Einrichtung)</label>
+      </manifestation>
     </manifestationList>
     <relEditions>
       <edition xml:id="BauDi-P">
@@ -253,6 +256,9 @@
       </edition>
       <edition xml:id="BauDi-KA">
         <label xml:lang="de">BauDi Klavierauszug</label>
+      </edition>
+      <edition xml:id="BauDi-Viol">
+        <label xml:lang="de">BauDi Violinstimmen (Einrichtung)</label>
       </edition>
     </relEditions>
     <classifications>
@@ -2698,6 +2704,32 @@
   			<edition>BauDi-P</edition>
   		</editions>
   	</remark>
-  	
+  	<remark type="editorial">
+  		<class>Dynamik</class>
+  		<mdiv>0</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="14" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.1</part>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  			<app>
+  				<lem><hairpin form="cres" tstamp="14m+2" tstamp2="15m+4" part="#violin.i.2"/></lem>
+  				<rdg><hairpin form="cres" tstamp="14m+3" tstamp2="15m+3" part="#violin.i.1"/></rdg>
+  			</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Viol</edition>
+  		</editions>
+  	</remark>
   </remarks>
 </crApp>
