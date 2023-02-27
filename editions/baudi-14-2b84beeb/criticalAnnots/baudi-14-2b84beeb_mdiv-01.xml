@@ -300,9 +300,37 @@
           <label xml:lang="en">Sonstige (en)</label>
         </class>
       </classGrp>
+    	<classGrp label="editorialClassifications">
+    		<class xml:id="noStart">
+    			<label xml:lang="de">Nur beginnend</label>
+    			<label xml:lang="en">Only initiating</label>
+    		</class>
+    		<class xml:id="noEnd">
+    			<label xml:lang="de">Nur endend</label>
+    			<label xml:lang="en">Only terminating</label>
+    		</class>
+    		<class xml:id="without">
+    			<label xml:lang="de">ohne</label>
+    			<label xml:lang="en">without</label>
+    		</class>
+    		<class xml:id="ediAdd">
+    			<label xml:lang="de">Hinzufügung</label>
+    			<label xml:lang="en">Addition</label>
+    		</class>
+    		<class xml:id="ediDel">
+    			<label xml:lang="de">Tilgung</label>
+    			<label xml:lang="en">Deletion</label>
+    		</class>
+    		<class xml:id="ediInt">
+    			<label xml:lang="de">Eingriff (Hg.)</label>
+    			<label xml:lang="en">Intervention (Ed.)</label>
+    		</class>
+    	</classGrp>
     </classifications>
   	<handList>
-  		<hand/>
+  		<hand xml:id="hand.1" medium="ink.black"/>
+  		<hand xml:id="hand.2" medium="pencil"/>
+  		<hand xml:id="hand.3" medium="pencil.blue"/>
   	</handList>
   </setting>
   <remarks>
@@ -11557,6 +11585,255 @@
   				<lem><dynam part="#violin.i.2">p</dynam></lem>
   				<rdg><dynam part="#violin.i.1" class="#without">p</dynam></rdg>
   			</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="reading">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="39" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.1</part>
+  		</parts>
+  		<annots>
+  			<annot><tempo>Lebhafter;</tempo></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Dynamik</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="43" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.1</part>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  			<app>
+  				<lem><dynam part="#violin.i.2">p</dynam></lem>
+  				<rdg><dynam part="#violin.i.1" class="#without">p</dynam></rdg>
+  			</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="reading">
+  		<class>Dynamik</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="43" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot><note pname="g" oct="5" dur="16"><accid accid="n" class="#without"/></note></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Dynamik</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="45" count="1"/>
+  				<range type="end" measure="45" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<lem><slur part="#violin.i.2"/></lem>
+  				<rdg><slur part="#violin.i.1" class="#without"/></rdg>
+  			</app></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="annotation">
+  		<class>Notentext</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="50" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot>Notenhals rasiert</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="51" count="1"/>
+  				<range type="end" measure="51" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.1</part>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem><hairpin form="cres" tstamp="51m+1" tstamp2="52m+3.5" part="#violin.i.2"/></lem>
+  					<rdg><hairpin form="cres" tstamp="51m+2" tstamp2="52m+3.5" part="#violin.i.1"/></rdg>
+  				</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="reading">
+  		<class>Dynamik</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="51" count="1"/>
+  				<range type="end" measure="51" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot><hairpin form="cres" tstamp="53m+1" tstamp2="54m+0.5"/></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="reading">
+  		<class>Dynamik</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="74" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot><dynam class="#without">f</dynam></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Bogensetzung</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="75" count="2"/>
+  				<range type="end" measure="75" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.1</part>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  			<app>
+  				<lem><add hand="#hand.3"><slur tstamp="75m+3" tstamp2="75m+3.5"/></add></lem>
+  				<rdg><slur tstamp="75m+2" tstamp2="75m+3.5"/></rdg>
+  			</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-St-Vl</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Bogensetzung</class>
+  		<mdiv>1</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="102" count="1"/>
+  				<range type="end" measure="103" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>violin.i.1</part>
+  			<part>violin.i.2</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem>
+  						<hairpin form="dim" tstamp="102m+1" tstamp2="102m+3"/>
+  						<dynam tstamp="103m+1" class="#ediInt">pp</dynam>
+  					</lem>
+  					<rdg>
+  						<hairpin form="dim" tstamp="102m+1" tstamp2="102m+3" part="#violin.i.1"/>
+  						<hairpin form="dim" tstamp="102m+1" tstamp2="102m+2" part="#violin.i.2"/>
+  						<dynam tstamp="102m+4">pp</dynam>
+  					</rdg>
+  				</app>
   			</annot>
   		</annots>
   		<manifestationList>
