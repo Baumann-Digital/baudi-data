@@ -1786,6 +1786,53 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>4</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="24" count="3"/>
+  				<range type="end" measure="26" count="3"/>
+  			</occurance>
+  			<occurance>
+  				<range type="start" measure="69" count="3"/>
+  				<range type="end" measure="71" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot><clef class="#without"/><keySig class="#without"/></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>4</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="75"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium.right</part>
+  		</parts>
+  		<annots>
+  			<annot>Notentext endet nach Zählzeit 2; Notenlinien bis zum Systemende ausgeführt</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-a66fac61">
       <class>Bogensetzung</class>
       <mdiv>4</mdiv>
@@ -1799,15 +1846,37 @@
         <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>Kein Haltebogen an a1-a1</annot>
+        <annot>Nur ein <tie/></annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+      	<edition>BauDi-Harm</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Halsung</class>
+  		<mdiv>4</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="32" count="3"/>
+  				<range type="end" measure="33" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium.right</part>
+  		</parts>
+  		<annots>
+  			<annot>Zweistimmig notiert</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-1a162830">
       <class>Notentext</class>
       <mdiv>4</mdiv>
@@ -2280,29 +2349,6 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-b269065b">
-      <class>Dynamik</class>
-      <mdiv>4</mdiv>
-      <occurances>
-        <occurance>
-          <position measure="45" count="2"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.right</part>
-        <part>harmonium.left</part>
-      </parts>
-      <annots>
-        <annot>
-          <dynam>mf</dynam>bereits auf Zz. 1 notiert</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
     <remark type="reading" xml:id="baudi-30-9133b77b">
       <class>Vortragsbezeichnung</class>
       <mdiv>4</mdiv>
@@ -2556,13 +2602,13 @@
         <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>Die Achtel des1 ist kurz vor dem SChlag notiert; trotz der Halsung in Richtung der Oberstimme ist dies enicht der ersten Achtel zugeordnet, weshalb es sich hierbei auch um eine stehengebliebene oder versehentliche Notaiton handeln könnte.</annot>
+        <annot><note pname="d" accid.ges="f" oct="4" tstamp="-0m+0.5"/></annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
     <remark type="editorial" xml:id="baudi-30-9302e42f">
@@ -2828,7 +2874,7 @@
         <edition>BauDi-KA</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-442467bb">
+    <remark type="annotation" xml:id="baudi-30-442467bb">
       <class>Tondauer</class>
       <mdiv>4</mdiv>
       <occurances>
@@ -2841,13 +2887,13 @@
         <part>piano.right</part>
       </parts>
       <annots>
-        <annot>Dieser Akkord steht auf einer Rasur. Durch das leicht zerflossene Notenbild lässt sich die Tondauer nicht eindeutig bestimmen, vgl. jedoch Klav (I).</annot>
+        <annot>Takt steht auf Rasuer (Tondauer <ptr type="compare" target="#ED-KA1" corresp="#piano.right"/>)</annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
     <remark type="editorial" xml:id="baudi-30-7cef03f3">
@@ -3954,27 +4000,6 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="editorial" xml:id="baudi-30-5ec86dbe">
-      <class>Bogensetzung</class>
-      <mdiv>4</mdiv>
-      <occurances>
-        <occurance>
-          <position measure="74" count="1"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.right</part>
-      </parts>
-      <annots>
-        <annot>Ohne Haltebogen an [f1]-[f1]</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
     <remark type="reading" xml:id="baudi-30-e8880b28">
       <class>Balkung</class>
       <mdiv>4</mdiv>
@@ -4056,20 +4081,21 @@
       <mdiv>4</mdiv>
       <occurances>
         <occurance>
-          <position measure="75" count="3"/>
+          <range type="start" measure="75" count="3"/>
+        	<range type="end" measure="77" count="3"/>
         </occurance>
       </occurances>
       <parts>
         <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>Ohne \pause4, Takt unvollständig</annot>
+        <annot><space/></annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
     <remark type="reading" xml:id="baudi-30-8e0548d1">
