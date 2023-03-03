@@ -383,7 +383,8 @@
   		<hand xml:id="hand.1" medium="ink.black" initial="true" cert="high">
   			<name>Ludwig Baumann</name>
   		</hand>
-  		<hand xml:id="hand.2" medium="pencil" cert="high"/>
+  		<hand xml:id="hand.2" medium="pencil"/>
+  		<hand xml:id="hand.3" medium="ink.red"/>
   	</handList>
   </setting>
   <remarks>
@@ -1618,52 +1619,76 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Bemerkung</class>
+  		<mdiv>10</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="12" count="1"/>
+  			</occurance>
+  			<occurance>
+  				<position measure="33" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot><add hand="#hand.3"><dir place="between">hier setzt Harmn. ein bis Ø [T. 22/43]</dir></add></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Bemerkung</class>
+  		<mdiv>10</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="47" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot><add hand="#hand.3"><dir place="between">hier setzt Harmn. wieder ein, aber 8<rend rend="sup">va</rend> tiefer bis § [T. 57]</dir></add></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-976ae563">
       <class>Notentext</class>
       <mdiv>10</mdiv>
       <occurances>
         <occurance>
-          <position measure="12" count="1"/>
+          <position measure="12"/>
         </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.left</part>
-      </parts>
-      <annots>
-        <annot>In ED-KA, ED-KA2 eine Oktave höher notiert</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
-        <manifestation>ED-KA1</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
-    <remark type="editorial" xml:id="baudi-30-e941ada6">
-      <class>Dynamik</class>
-      <mdiv>10</mdiv>
-      <occurances>
         <occurance>
-          <position measure="12" count="1"/>
+          <position measure="33"/>
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
         <part>harmonium.left</part>
       </parts>
       <annots>
-        <annot>In ED-KA, ED-KA2 und A-P3-KA ohne Dynamikangabe für Harmonium/Klavier, vgl. jedoch Orchester (Holz, Str.)</annot>
+      	<annot><clef shape="G" line="2" class="#without"/><note pname="g" oct="4" dur="1"/><clef shape="F" line="4" class="#without"/></annot>
       </annots>
       <manifestationList>
-        <manifestation>A-P3</manifestation>
-        <manifestation>A-P3-KA</manifestation>
-        <manifestation>ED-KA2</manifestation>
         <manifestation>ED-KA1</manifestation>
+        <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
     <remark type="reading" xml:id="baudi-30-7937c37b">
@@ -2222,25 +2247,45 @@
       <mdiv>10</mdiv>
       <occurances>
         <occurance>
-          <range type="start" measure="22" count="1"/>
-          <range type="end" measure="22" count="3"/>
+          <position measure="22"/>
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
-        <part>harmonium.left</part>
+        <part>harmonium</part>
       </parts>
       <annots>
-        <annot>Der vom Komponisten definierte Endpunkt der Harmoniumbegleitung (vgl. Fußnote zu T. 12) ist für Takt 22 Zählzeit 1 vorgesehen. Es ist jedoch vorstellbar, dass dieser Klang erst auf Zz. 3 weggenommen wird, sodass er nicht sofort abreist, jedoch den Auftakt zur Wiederholung nicht überlagert.</annot>
+        <annot>Tondauer an Chor angegelichen</annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
         <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Tondauer</class>
+  		<mdiv>10</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="43"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>Tondauer an Chor angegelichen</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="reading" xml:id="baudi-30-7134666a">
       <class>Artikulation</class>
       <mdiv>10</mdiv>
@@ -2359,51 +2404,6 @@
       </annots>
       <manifestationList>
         <manifestation>A-P3-KA</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
-    <remark type="editorial" xml:id="baudi-30-79920fe3">
-      <class>Tondauer</class>
-      <mdiv>10</mdiv>
-      <occurances>
-        <occurance>
-          <position measure="33" count="1"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.left</part>
-      </parts>
-      <annots>
-        <annot>siehe T. 12</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
-        <manifestation>ED-KA1</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
-    <remark type="editorial" xml:id="baudi-30-4d99eb90">
-      <class>Notentext</class>
-      <mdiv>10</mdiv>
-      <occurances>
-        <occurance>
-          <range type="start" measure="43" count="1"/>
-          <range type="end" measure="43" count="4"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.right</part>
-        <part>harmonium.left</part>
-      </parts>
-      <annots>
-        <annot>Der vom Komponisten definierte Endpunkt der Harmoniumbegleitung ist in ED-KA2 für Zz. 1 in der 1. Klammer notiert. In der Annahme, dass das Harmonium auch in der zweiten Strophe begleitet, wurde [c1] in I (Harm) beibehalten bzw. aus dem Akkord in I (Klav) herausgelöst und der Grundton [c] in II (Harm) aus II (Klav) übernommen. Die Tondauer<note dur="4"/>wurde aus der ersten Klammer übernommen. An dieser Stelle ist eine Verlängerung des Notenwertes nicht denkbar, da sonst der veränderte Rhythmus im Orchester kontakariert würde.</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editions>
         <edition>BauDi-P</edition>
@@ -2862,18 +2862,17 @@
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
-        <part>harmonium.left</part>
+        <part>harmonium</part>
       </parts>
       <annots>
-        <annot>Die an dieser Stelle geltende Dynamikangabe (\forte) wird im Klavierauszug bereits in T. 43 vorgezeichnet. Da das Harmonium an dieser Stelle jedoch pausiert, wurde die<dynam>f</dynam>an dieser Stelle eingefügt.</annot>
+        <annot><dynam tstamp="43m+3" part="#piano">f</dynam></annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
         <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
     <remark type="editorial" xml:id="baudi-30-55861078">
@@ -3591,27 +3590,28 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="editorial" xml:id="baudi-30-1b662688">
-      <class>Tondauer</class>
-      <mdiv>10</mdiv>
-      <occurances>
-        <occurance>
-          <position measure="57" count="1"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.right</part>
-      </parts>
-      <annots>
-        <annot>Der vom Komponisten definierte Endpunkt der Harmoniumbegleitung ist in ED-KA2 für Zz. 1 notiert. Die Tondauer<note dur="4"/>wurde gewählt, um den Rhythmus im Orchester nicht zu kontakarieren.</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
+  	<remark type="editorial">
+  		<class>Tondauer</class>
+  		<mdiv>10</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="57"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>Tondauer gekürzt</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="reading" xml:id="baudi-30-dfa97d77">
       <class>Dynamik</class>
       <mdiv>10</mdiv>
@@ -3871,15 +3871,14 @@
       <mdiv>10</mdiv>
       <occurances>
         <occurance>
-          <position measure="59" count="3"/>
+          <position measure="57" count="1"/>
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
         <part>harmonium.left</part>
       </parts>
       <annots>
-        <annot>Die an dieser Stelle geltende Dynamikangabe (\piano) wird im Klavierauszug in der ersten Takthälfte vorgezeichnet. Da das Harmonium an dieser Stelle pausiert, wurde<dynam>p</dynam>an dieser Stelle eingefügt.</annot>
+        <annot><add hand="#hand.3"><dir>$ Harm. hält dsa c im Bass aus bis Schluss.</dir></add></annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
@@ -3889,6 +3888,56 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
+  	<remark type="reading">
+  		<class>Halsung</class>
+  		<mdiv>10</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="59" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium.right</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<rdg>
+  					<layer n="1"><note pname="a" accid="f" oct="4" dur="2" stem.dir="up"/></layer>
+  					<layer n="2"><note pname="c" oct="5" dur="2" stem.dir="down"/></layer>
+  				</rdg>
+  			</app></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Halsung</class>
+  		<mdiv>10</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="62" count="1"/>
+  				<range type="end" measure="63" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium.right</part>
+  		</parts>
+  		<annots>
+  			<annot><tie class="#without"/> (<note pname="g" oct="4" dur="1"/>)</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-5ba014a7">
       <class>Bogensetzung</class>
       <mdiv>10</mdiv>
