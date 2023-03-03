@@ -229,7 +229,44 @@
           <label xml:lang="en">Sonstige (en)</label>
         </class>
       </classGrp>
+    	<classGrp label="editorialClassifications">
+    		<class xml:id="noStart">
+    			<label xml:lang="de">Nur beginnend</label>
+    			<label xml:lang="en">Only initiating</label>
+    		</class>
+    		<class xml:id="noEnd">
+    			<label xml:lang="de">Nur endend</label>
+    			<label xml:lang="en">Only terminating</label>
+    		</class>
+    		<class xml:id="without">
+    			<label xml:lang="de">ohne</label>
+    			<label xml:lang="en">without</label>
+    		</class>
+    		<class xml:id="ediAdd">
+    			<label xml:lang="de">Hinzufügung</label>
+    			<label xml:lang="en">Addition</label>
+    		</class>
+    		<class xml:id="ediDel">
+    			<label xml:lang="de">Tilgung</label>
+    			<label xml:lang="en">Deletion</label>
+    		</class>
+    		<class xml:id="ediInt">
+    			<label xml:lang="de">Eingriff (Hg.)</label>
+    			<label xml:lang="en">Intervention (Ed.)</label>
+    		</class>
+    	</classGrp>
+    	<classGrp label="editor">
+    		<class xml:id="DR">
+    			<label xml:lang="de">Dennis Ried</label>
+    		</class>
+    	</classGrp>
     </classifications>
+  	<handList>
+  	<hand xml:id="hand.1" medium="ink.black"/>
+  	<hand xml:id="hand.2" medium="pencil"/>
+  	<hand xml:id="hand.3" medium="ink.red"/>
+  	<hand xml:id="hand.4" medium="ink.blue"/>
+  	</handList>
   </setting>
   <remarks>
     <remark type="reading" xml:id="baudi-30-4c0782a8">
@@ -264,21 +301,163 @@
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
-        <part>harmonium.left</part>
+        <part>harmonium</part>
       </parts>
       <annots>
-        <annot>Die geltende Dynamikangabe \pianissimo ist in ED-KA, ED-KA2 bereits in T. 1 Zz. 1 notiert. Da das Harmonium dort pausiert, wurde<dynam>pp</dynam>hier wiederholt.</annot>
+        <annot><dynam tstamp="1m+1" part="#piano">pp</dynam></annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
         <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
-        <edition>BauDi-KA</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="4" count="4"/>
+  				<range type="end" measure="6"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<add hand="#hand.4" place="above"><dir>Horn Echo<lb/>Diapason<lb/>Bourdon.</dir></add>
+  				<add hand="#hand.4" place="topmar rightmar"><dir>Melod. 8<lb/>Clarionet 16'</dir></add>
+  				<add hand="#hand.4" place="below"><dir>+ Ob. Schalmei V.c.</dir></add></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="9" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<add hand="#hand.4" place="above"><dir>-( Clar. 16'<lb/>Bourdon 16)</dir></add>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="17" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<add hand="#hand.4" place="above"><dir tstamp="16m+4">+Bourdon</dir></add>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="21" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<add hand="#hand.4" place="above"><dir>-Bourdon</dir></add>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="11"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<add hand="#hand.2" place="rightmar"><dir>Disk. for<lb/>Fl.<lb/>Ob.<lb/>V. c.<lb/>Viol.<lb/>Diap<lb/>Subb.</dir></add>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Bemerkung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="4" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot><add hand="#hand.3"><dir>Diese Melodie wird <add hand="hand.3" place="above">nur</add> vom Harm. gespielt</dir></add></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="reading" xml:id="baudi-30-214d78a0">
       <class>Sonstige</class>
       <mdiv>8</mdiv>
@@ -388,16 +567,31 @@
       <parts>
         <part>harmonium.left</part>
         <part>piano.left</part>
+        <part>organ.left</part>
       </parts>
       <annots>
-        <annot>In SV , ED-KA, ED-KA2 ohne Haltebogen A=A, vgl. jedoch Harm./Org.</annot>
+        <annot>
+        <app>
+        	<rdg source="#A-P3">
+        		<tie tstamp="11m+1" tstamp2="11m+3" part="#organ"/>
+        		<tie tstamp="11m+1" tstamp2="11m+3" part="#piano" class="#without"/>
+        		<tie tstamp="11m+3" tstamp2="12m+1" part="#organ"/>
+        		<tie tstamp="11m+3" tstamp2="12m+1" part="#piano"/>
+        	</rdg>
+        	<rdg source="#ED-KA1 #ED-KA2">
+        		<tie tstamp="11m+1" tstamp2="11m+3" part="#piano" class="#without"/>
+        		<tie tstamp="11m+3" tstamp2="12m+1" part="#piano" class="#without"/>
+        	</rdg>
+        </app>
+        </annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
-        <manifestation>ED-KA2</manifestation>
         <manifestation>ED-KA1</manifestation>
+        <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editions>
+        <edition>BauDi-Harm</edition>
         <edition>BauDi-P</edition>
         <edition>BauDi-KA</edition>
       </editions>
@@ -683,7 +877,7 @@
         <edition>BauDi-KA</edition>
       </editions>
     </remark>
-    <remark type="annotation" xml:id="baudi-30-779b06a4">
+    <remark type="editorial" xml:id="baudi-30-779b06a4">
       <class>Notentext</class>
       <mdiv>8</mdiv>
       <occurances>
@@ -696,16 +890,14 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>In ED-KA, ED-KA2 ist nach Systemumbruch fälschlich ein \clefFInline\, vorgezeichnet.</annot>
+        <annot>Irrtümlich <clef shape="F" line="4"/></annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
         <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
-        <edition>BauDi-KA</edition>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
         <edition>BauDi-KA</edition>
       </editions>
     </remark>
@@ -849,7 +1041,7 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-c68670d9">
+    <remark type="editorial" xml:id="baudi-30-c68670d9">
       <class>Bogensetzung</class>
       <mdiv>8</mdiv>
       <occurances>
@@ -860,16 +1052,22 @@
       </occurances>
       <parts>
         <part>harmonium.right</part>
+      	<part>piano.right</part>
       </parts>
       <annots>
-        <annot>ED-KA, ED-KA2 ohne Haltebogen</annot>
+        <annot><app>
+        	<lem source="#A-P3 #ED-P"><tie/></lem>
+        	<rdg source="#ED-KA1 #ED-KA2"><tie class="#without"/></rdg>
+        </app></annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>A-P3</manifestation>
+        <manifestation>ED-P</manifestation>
         <manifestation>ED-KA1</manifestation>
+        <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
         <edition>BauDi-KA</edition>
       </editions>
     </remark>
