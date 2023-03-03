@@ -341,6 +341,9 @@
       <hand xml:id="hand.7" medium="pen.red" cert="medium">
         <name>Ludwig Baumann</name>
       </hand>
+    	<hand xml:id="hand.8" medium="ink.red" cert="medium">
+    		<name>Ludwig Baumann</name>
+    	</hand>
     </handList>
   </setting>
   <remarks>
@@ -2713,7 +2716,28 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="editorial" xml:id="baudi-30-73960de2">
+  	<remark type="editorial">
+  		<class>Pausensetzung</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="29" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium.left</part>
+  		</parts>
+  		<annots>
+  			<annot>In Klavierstimme <note pname="d" oct="3"/> gehalten.</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="editorial" xml:id="baudi-30-73960de2">
       <class>Tondauer</class>
       <mdiv>7</mdiv>
       <occurances>
@@ -2722,19 +2746,41 @@
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
+        <part>harmonium</part>
       </parts>
       <annots>
-        <annot>[g]/[b] ohne Punktierung,<note dur="2"/>statt<note dur="2" dots="1"/>
+        <annot><chord dur="2"><note pname="g" oct="3"><dot class="#without"/></note><note pname="b" accid="f" oct="3"><dot class="#without"/></note></chord>
         </annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
         <edition>BauDi-P</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Pausensetzung</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="41"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot>Leerstelle in der autographen Harmoniumstimme. Im Klavierauszug ist der Akkord punktiert.</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-7848c792">
       <class>Dynamik</class>
       <mdiv>7</mdiv>
@@ -4566,7 +4612,50 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-adca0bde">
+  	<remark type="annotation">
+  		<class>Streichung</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="60"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot><subst><del hand="#hand.8"><clef shape="G" line="2"/></del><add><clef shape="G" line="4"/></add></subst></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="reading">
+  		<class>Bogensetzung</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="63" count="1"/>
+  				<range type="end" measure="63" count="3"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot><slur/> doppelt ausgeführt</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
+  	<remark type="reading" xml:id="baudi-30-adca0bde">
       <class>Notentext</class>
       <mdiv>7</mdiv>
       <occurances>
@@ -4578,15 +4667,41 @@
         <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>[c1] ist in Richtung der Oberstimme gehalst, jedoch nicht an diese angebunden.</annot>
+        <annot><note pname="c" oct="4" stem.dir="up"/> ist in Richtung der Oberstimme gehalst, jedoch mit separatem Notenhals</annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Tempoangabe</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="72" count="2"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot><tempo class="#without">rit.</tempo><ptr type="adapt" target="#A-P3 #ED-P"/></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-P</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  			<edition>BauDi-KA</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-a1e7e863">
       <class>Dynamik</class>
       <mdiv>7</mdiv>
@@ -5617,13 +5732,13 @@
         <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>Ohne Haltebogen an [f1], vgl. jedoch I (Klav)</annot>
+        <annot><tie class="#without"/><ptr type="adapt" target="#ED-KA1" corresp="#piano.right"/></annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
     <remark type="editorial" xml:id="baudi-30-0a7c7e73">
@@ -5687,7 +5802,7 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-403ca721">
+    <remark type="editorial" xml:id="baudi-30-403ca721">
       <class>Halsung</class>
       <mdiv>7</mdiv>
       <occurances>
@@ -5699,7 +5814,7 @@
         <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>Kein Hals für<note dur="4"/>[a] notiert; aufgrund der Position wohl eher der Oberstimme zugedacht.</annot>
+        <annot><note pname="a" oct="3" dur="4" stem.len="0"/>/annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
@@ -5951,27 +6066,27 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-f3175256">
-      <class>Halsung</class>
-      <mdiv>7</mdiv>
-      <occurances>
-        <occurance>
-          <position measure="91" count="1"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.left</part>
-      </parts>
-      <annots>
-        <annot>Kein separater Hals (\note4) an ausgefülltem Notenkopf [c1], vgl. jedoch II (Klav)</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
+  	<remark type="editorial">
+  		<class>Halsung</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="91" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium.right</part>
+  		</parts>
+  		<annots>
+  			<annot type="finding"><note pname="c" oct="3" dur="4" stem.len="0"/><ptr type="adapt" target="#ED-KA1" corresp="#piano.left"/></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-P</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-b1a25d75">
       <class>Bogensetzung</class>
       <mdiv>7</mdiv>
@@ -6002,27 +6117,6 @@
       <manifestationList>
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
-      </manifestationList>
-      <editions>
-        <edition>BauDi-P</edition>
-      </editions>
-    </remark>
-    <remark type="editorial" xml:id="baudi-30-673bac03">
-      <class>Halsung</class>
-      <mdiv>7</mdiv>
-      <occurances>
-        <occurance>
-          <position measure="91" count="2"/>
-        </occurance>
-      </occurances>
-      <parts>
-        <part>harmonium.left</part>
-      </parts>
-      <annots>
-        <annot>[d1] ursprünglich der rechten Hand zugeordnet, vgl. jedoch II (Klav)</annot>
-      </annots>
-      <manifestationList>
-        <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editions>
         <edition>BauDi-P</edition>
@@ -6452,7 +6546,7 @@
         <edition>BauDi-P</edition>
       </editions>
     </remark>
-    <remark type="reading" xml:id="baudi-30-83423ab9">
+    <remark type="editorial">
       <class>Notentext</class>
       <mdiv>7</mdiv>
       <occurances>
@@ -6462,18 +6556,42 @@
         </occurance>
       </occurances>
       <parts>
-        <part>harmonium.right</part>
+        <part>piano.right</part>
       </parts>
       <annots>
-        <annot>In I (Klav) ist b als<note dur="2"/>statt als zwei gebundene<note dur="4"/>notiert</annot>
+        <annot type="finding"><note pname="b" oct="4" dur="2"/></annot>
       </annots>
       <manifestationList>
+        <manifestation>ED-KA1</manifestation>
         <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editions>
-        <edition>BauDi-P</edition>
+        <edition>BauDi-Harm</edition>
       </editions>
     </remark>
+  	<remark type="editorial">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>7</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="94"/>
+  				<range type="end" measure="96"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  		</parts>
+  		<annots>
+  			<annot type="finding"><add hand="#hand.8"><dir>mit Klavier, 8<rend rend="sup">va</rend> tiefer.</dir></add></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editions>
+  			<edition>BauDi-Harm</edition>
+  		</editions>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-0849dbfd">
       <class>Notentext</class>
       <mdiv>7</mdiv>
