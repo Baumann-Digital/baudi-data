@@ -12,7 +12,10 @@ declare option saxon:output "omit-xml-declaration=no";
 declare option saxon:output "indent=yes";
 declare option saxon:output "saxon:line-length=10000";
 
-let $file := doc('../sources/music/cantatas/baudi-01-5f9f9f33.xml')
+let $coll := collection('../sources/music/cantatas?select=*.xml;recurse=yes')
+
+for $file in $coll
+let $file := doc(document-uri($file)) 
 
 for $multiRest at $z in $file//mei:multiRest
     let $measure := $multiRest/ancestor::mei:measure
