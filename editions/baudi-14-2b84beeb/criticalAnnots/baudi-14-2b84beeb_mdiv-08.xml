@@ -229,44 +229,44 @@
           <label xml:lang="en">Sonstige (en)</label>
         </class>
       </classGrp>
-    	<classGrp label="editorialClassifications">
-    		<class xml:id="noStart">
-    			<label xml:lang="de">Nur beginnend</label>
-    			<label xml:lang="en">Only initiating</label>
-    		</class>
-    		<class xml:id="noEnd">
-    			<label xml:lang="de">Nur endend</label>
-    			<label xml:lang="en">Only terminating</label>
-    		</class>
-    		<class xml:id="without">
-    			<label xml:lang="de">ohne</label>
-    			<label xml:lang="en">without</label>
-    		</class>
-    		<class xml:id="ediAdd">
-    			<label xml:lang="de">Hinzufügung</label>
-    			<label xml:lang="en">Addition</label>
-    		</class>
-    		<class xml:id="ediDel">
-    			<label xml:lang="de">Tilgung</label>
-    			<label xml:lang="en">Deletion</label>
-    		</class>
-    		<class xml:id="ediInt">
-    			<label xml:lang="de">Eingriff (Hg.)</label>
-    			<label xml:lang="en">Intervention (Ed.)</label>
-    		</class>
-    	</classGrp>
-    	<classGrp label="editor">
-    		<class xml:id="DR">
-    			<label xml:lang="de">Dennis Ried</label>
-    		</class>
-    	</classGrp>
+      <classGrp label="editorialClassifications">
+        <class xml:id="noStart">
+          <label xml:lang="de">Nur beginnend</label>
+          <label xml:lang="en">Only initiating</label>
+        </class>
+        <class xml:id="noEnd">
+          <label xml:lang="de">Nur endend</label>
+          <label xml:lang="en">Only terminating</label>
+        </class>
+        <class xml:id="without">
+          <label xml:lang="de">ohne</label>
+          <label xml:lang="en">without</label>
+        </class>
+        <class xml:id="ediAdd">
+          <label xml:lang="de">Hinzufügung</label>
+          <label xml:lang="en">Addition</label>
+        </class>
+        <class xml:id="ediDel">
+          <label xml:lang="de">Tilgung</label>
+          <label xml:lang="en">Deletion</label>
+        </class>
+        <class xml:id="ediInt">
+          <label xml:lang="de">Eingriff (Hg.)</label>
+          <label xml:lang="en">Intervention (Ed.)</label>
+        </class>
+      </classGrp>
+      <classGrp label="editor">
+        <class xml:id="DR">
+          <label xml:lang="de">Dennis Ried</label>
+        </class>
+      </classGrp>
     </classifications>
-  	<handList>
-  	<hand xml:id="hand.1" medium="ink.black"/>
-  	<hand xml:id="hand.2" medium="pencil"/>
-  	<hand xml:id="hand.3" medium="ink.red"/>
-  	<hand xml:id="hand.4" medium="ink.blue"/>
-  	</handList>
+    <handList>
+      <hand xml:id="hand.1" medium="ink.black"/>
+      <hand xml:id="hand.2" medium="pencil"/>
+      <hand xml:id="hand.3" medium="ink.red"/>
+      <hand xml:id="hand.4" medium="ink.blue"/>
+    </handList>
   </setting>
   <remarks>
     <remark type="reading" xml:id="baudi-30-4c0782a8">
@@ -304,7 +304,9 @@
         <part>harmonium</part>
       </parts>
       <annots>
-        <annot><dynam tstamp="1m+1" part="#piano">pp</dynam></annot>
+        <annot>
+          <dynam tstamp="1m+1" part="#piano">pp</dynam>
+        </annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
@@ -314,150 +316,169 @@
         <edition>BauDi-Harm</edition>
       </editions>
     </remark>
-  	<remark type="editorial">
-  		<class>Vortragsbezeichnung</class>
-  		<mdiv>8</mdiv>
-  		<occurances>
-  			<occurance>
-  				<range type="start" measure="4" count="4"/>
-  				<range type="end" measure="6"/>
-  			</occurance>
-  		</occurances>
-  		<parts>
-  			<part>harmonium</part>
-  		</parts>
-  		<annots>
-  			<annot>
-  				<add hand="#hand.4" place="above"><dir>Horn Echo<lb/>Diapason<lb/>Bourdon.</dir></add>
-  				<add hand="#hand.4" place="topmar rightmar"><dir>Melod. 8<lb/>Clarionet 16'</dir></add>
-  				<add hand="#hand.4" place="below"><dir>+ Ob. Schalmei V.c.</dir></add></annot>
-  		</annots>
-  		<manifestationList>
-  			<manifestation>ED-KA2</manifestation>
-  			<manifestation>ED-KA1</manifestation>
-  		</manifestationList>
-  		<editions>
-  			<edition>BauDi-Harm</edition>
-  		</editions>
-  	</remark>
-  	<remark type="editorial">
-  		<class>Vortragsbezeichnung</class>
-  		<mdiv>8</mdiv>
-  		<occurances>
-  			<occurance>
-  				<position measure="9" count="1"/>
-  			</occurance>
-  		</occurances>
-  		<parts>
-  			<part>harmonium</part>
-  		</parts>
-  		<annots>
-  			<annot>
-  				<add hand="#hand.4" place="above"><dir>-( Clar. 16'<lb/>Bourdon 16)</dir></add>
-  			</annot>
-  		</annots>
-  		<manifestationList>
-  			<manifestation>ED-KA2</manifestation>
-  			<manifestation>ED-KA1</manifestation>
-  		</manifestationList>
-  		<editions>
-  			<edition>BauDi-Harm</edition>
-  		</editions>
-  	</remark>
-  	<remark type="editorial">
-  		<class>Vortragsbezeichnung</class>
-  		<mdiv>8</mdiv>
-  		<occurances>
-  			<occurance>
-  				<position measure="17" count="1"/>
-  			</occurance>
-  		</occurances>
-  		<parts>
-  			<part>harmonium</part>
-  		</parts>
-  		<annots>
-  			<annot>
-  				<add hand="#hand.4" place="above"><dir tstamp="16m+4">+Bourdon</dir></add>
-  			</annot>
-  		</annots>
-  		<manifestationList>
-  			<manifestation>ED-KA2</manifestation>
-  			<manifestation>ED-KA1</manifestation>
-  		</manifestationList>
-  		<editions>
-  			<edition>BauDi-Harm</edition>
-  		</editions>
-  	</remark>
-  	<remark type="editorial">
-  		<class>Vortragsbezeichnung</class>
-  		<mdiv>8</mdiv>
-  		<occurances>
-  			<occurance>
-  				<position measure="21" count="1"/>
-  			</occurance>
-  		</occurances>
-  		<parts>
-  			<part>harmonium</part>
-  		</parts>
-  		<annots>
-  			<annot>
-  				<add hand="#hand.4" place="above"><dir>-Bourdon</dir></add>
-  			</annot>
-  		</annots>
-  		<manifestationList>
-  			<manifestation>ED-KA2</manifestation>
-  			<manifestation>ED-KA1</manifestation>
-  		</manifestationList>
-  		<editions>
-  			<edition>BauDi-Harm</edition>
-  		</editions>
-  	</remark>
-  	<remark type="editorial">
-  		<class>Vortragsbezeichnung</class>
-  		<mdiv>8</mdiv>
-  		<occurances>
-  			<occurance>
-  				<position measure="11"/>
-  			</occurance>
-  		</occurances>
-  		<parts>
-  			<part>harmonium</part>
-  		</parts>
-  		<annots>
-  			<annot>
-  				<add hand="#hand.2" place="rightmar"><dir>Disk. for<lb/>Fl.<lb/>Ob.<lb/>V. c.<lb/>Viol.<lb/>Diap<lb/>Subb.</dir></add>
-  			</annot>
-  		</annots>
-  		<manifestationList>
-  			<manifestation>ED-KA2</manifestation>
-  			<manifestation>ED-KA1</manifestation>
-  		</manifestationList>
-  		<editions>
-  			<edition>BauDi-Harm</edition>
-  		</editions>
-  	</remark>
-  	<remark type="editorial">
-  		<class>Bemerkung</class>
-  		<mdiv>8</mdiv>
-  		<occurances>
-  			<occurance>
-  				<position measure="4" count="4"/>
-  			</occurance>
-  		</occurances>
-  		<parts>
-  			<part>harmonium</part>
-  		</parts>
-  		<annots>
-  			<annot><add hand="#hand.3"><dir>Diese Melodie wird <add hand="hand.3" place="above">nur</add> vom Harm. gespielt</dir></add></annot>
-  		</annots>
-  		<manifestationList>
-  			<manifestation>ED-KA2</manifestation>
-  			<manifestation>ED-KA1</manifestation>
-  		</manifestationList>
-  		<editions>
-  			<edition>BauDi-Harm</edition>
-  		</editions>
-  	</remark>
+    <remark type="editorial" xml:id="baudi-30-ce58dcd8">
+      <class>Vortragsbezeichnung</class>
+      <mdiv>8</mdiv>
+      <occurances>
+        <occurance>
+          <range type="start" measure="4" count="4"/>
+          <range type="end" measure="6"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>harmonium</part>
+      </parts>
+      <annots>
+        <annot>
+          <add hand="#hand.4" place="above">
+            <dir>Horn Echo<lb/>Diapason<lb/>Bourdon.</dir>
+          </add>
+          <add hand="#hand.4" place="topmar rightmar">
+            <dir>Melod. 8<lb/>Clarionet 16'</dir>
+          </add>
+          <add hand="#hand.4" place="below">
+            <dir>+ Ob. Schalmei V.c.</dir>
+          </add>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-Harm</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-7f9e0e41">
+      <class>Vortragsbezeichnung</class>
+      <mdiv>8</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="9" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>harmonium</part>
+      </parts>
+      <annots>
+        <annot>
+          <add hand="#hand.4" place="above">
+            <dir>-( Clar. 16'<lb/>Bourdon 16)</dir>
+          </add>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-Harm</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-24e78d54">
+      <class>Vortragsbezeichnung</class>
+      <mdiv>8</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="17" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>harmonium</part>
+      </parts>
+      <annots>
+        <annot>
+          <add hand="#hand.4" place="above">
+            <dir tstamp="16m+4">+Bourdon</dir>
+          </add>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-Harm</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-bdc2f901">
+      <class>Vortragsbezeichnung</class>
+      <mdiv>8</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="21" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>harmonium</part>
+      </parts>
+      <annots>
+        <annot>
+          <add hand="#hand.4" place="above">
+            <dir>-Bourdon</dir>
+          </add>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-Harm</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-d3600d7a">
+      <class>Vortragsbezeichnung</class>
+      <mdiv>8</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="11"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>harmonium</part>
+      </parts>
+      <annots>
+        <annot>
+          <add hand="#hand.2" place="rightmar">
+            <dir>Disk. for<lb/>Fl.<lb/>Ob.<lb/>V. c.<lb/>Viol.<lb/>Diap<lb/>Subb.</dir>
+          </add>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-Harm</edition>
+      </editions>
+    </remark>
+    <remark type="editorial" xml:id="baudi-30-44f0272f">
+      <class>Bemerkung</class>
+      <mdiv>8</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="4" count="4"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>harmonium</part>
+      </parts>
+      <annots>
+        <annot>
+          <add hand="#hand.3">
+            <dir>Diese Melodie wird <add hand="hand.3" place="above">nur</add> vom Harm. gespielt</dir>
+          </add>
+        </annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-KA2</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      </manifestationList>
+      <editions>
+        <edition>BauDi-Harm</edition>
+      </editions>
+    </remark>
     <remark type="reading" xml:id="baudi-30-214d78a0">
       <class>Sonstige</class>
       <mdiv>8</mdiv>
@@ -571,18 +592,18 @@
       </parts>
       <annots>
         <annot>
-        <app>
-        	<rdg source="#A-P3">
-        		<tie tstamp="11m+1" tstamp2="11m+3" part="#organ"/>
-        		<tie tstamp="11m+1" tstamp2="11m+3" part="#piano" class="#without"/>
-        		<tie tstamp="11m+3" tstamp2="12m+1" part="#organ"/>
-        		<tie tstamp="11m+3" tstamp2="12m+1" part="#piano"/>
-        	</rdg>
-        	<rdg source="#ED-KA1 #ED-KA2">
-        		<tie tstamp="11m+1" tstamp2="11m+3" part="#piano" class="#without"/>
-        		<tie tstamp="11m+3" tstamp2="12m+1" part="#piano" class="#without"/>
-        	</rdg>
-        </app>
+          <app>
+            <rdg source="#A-P3">
+              <tie tstamp="11m+1" tstamp2="11m+3" part="#organ"/>
+              <tie tstamp="11m+1" tstamp2="11m+3" part="#piano" class="#without"/>
+              <tie tstamp="11m+3" tstamp2="12m+1" part="#organ"/>
+              <tie tstamp="11m+3" tstamp2="12m+1" part="#piano"/>
+            </rdg>
+            <rdg source="#ED-KA1 #ED-KA2">
+              <tie tstamp="11m+1" tstamp2="11m+3" part="#piano" class="#without"/>
+              <tie tstamp="11m+3" tstamp2="12m+1" part="#piano" class="#without"/>
+            </rdg>
+          </app>
         </annot>
       </annots>
       <manifestationList>
@@ -890,7 +911,8 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>Irrtümlich <clef shape="F" line="4"/></annot>
+        <annot>Irrtümlich <clef shape="F" line="4"/>
+        </annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
@@ -1052,13 +1074,19 @@
       </occurances>
       <parts>
         <part>harmonium.right</part>
-      	<part>piano.right</part>
+        <part>piano.right</part>
       </parts>
       <annots>
-        <annot><app>
-        	<lem source="#A-P3 #ED-P"><tie/></lem>
-        	<rdg source="#ED-KA1 #ED-KA2"><tie class="#without"/></rdg>
-        </app></annot>
+        <annot>
+          <app>
+            <lem source="#A-P3 #ED-P">
+              <tie/>
+            </lem>
+            <rdg source="#ED-KA1 #ED-KA2">
+              <tie class="#without"/>
+            </rdg>
+          </app>
+        </annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
