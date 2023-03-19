@@ -2,7 +2,7 @@
   <setting xmlns="http://baumann-digital.de/ns/crApp" xmlns:crapp="http://baumann-digital.de/ns/crApp" xml:id="crApp-template-settings" xml:base="setting.xml">
     <language codedval="de"/>
     <mdivs>
-      <mdiv no="3">
+      <mdiv num="3">
         <label xml:lang="de">III</label>
       </mdiv>
     </mdivs>
@@ -108,10 +108,10 @@
         </part>
       </partGrp>
     </parts>
-    <work xml:id="baudi-02-aedbaef3">
+    <relWork xml:id="baudi-02-aedbaef3">
       <measures total="12" upbeat="true" startNo="0"/>
       <meter count="4" unit="4"/>
-    </work>
+    </relWork>
     <manifestationList>
       <manifestation sortNo="3" xml:id="A-P3">
         <label xml:lang="de">Handschriftliche Partitur (Stichvorlage)</label>
@@ -216,6 +216,10 @@
         </class>
       </classGrp>
     </classifications>
+  	<handList>
+  		<hand xml:id="hand.1" medium="ink.black"/>
+  		<hand xml:id="hand.2" medium="pencil"/>
+  	</handList>
   </setting>
   <remarks>
     <remark type="reading" xml:id="baudi-30-19674afe">
@@ -237,9 +241,9 @@
       <manifestationList>
         <manifestation>A-P3</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-4fb32795">
       <class>Halsung</class>
@@ -258,9 +262,9 @@
       <manifestationList>
         <manifestation>A-P3-KA</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-KA</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-334a4fbf">
       <class>Notentext</class>
@@ -283,9 +287,9 @@
       <manifestationList>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-b27871a6">
       <class>Gesangstext</class>
@@ -309,9 +313,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-4297fbf6">
       <class>Notentext</class>
@@ -334,9 +338,9 @@
       <manifestationList>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-08048832">
       <class>Dynamik</class>
@@ -360,9 +364,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-fe275463">
       <class>Dynamik</class>
@@ -388,9 +392,9 @@
       <manifestationList>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-3b9f43b6">
       <class>Dynamik</class>
@@ -413,9 +417,9 @@
       <manifestationList>
         <manifestation>A-P3</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-8c697a30">
       <class>Dynamik</class>
@@ -441,9 +445,9 @@
       <manifestationList>
         <manifestation>A-P3</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-755a2b9e">
       <class>Dynamik</class>
@@ -468,9 +472,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-66322ac5">
       <class>Bogensetzung</class>
@@ -495,9 +499,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-8889818d">
       <class>Dynamik</class>
@@ -524,9 +528,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-9e879286">
       <class>Dynamik</class>
@@ -553,9 +557,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-0538227b">
       <class>Dynamik</class>
@@ -577,9 +581,9 @@
       <manifestationList>
         <manifestation>A-P3</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-8d8e4235">
       <class>Dynamik</class>
@@ -599,9 +603,9 @@
       <manifestationList>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-0a0ab411">
       <class>Tondauer</class>
@@ -622,9 +626,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-eb6b0a82">
       <class>Dynamik</class>
@@ -648,9 +652,9 @@
         <manifestation>A-P3</manifestation>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-05e1e692">
       <class>Dynamik</class>
@@ -672,9 +676,9 @@
       <manifestationList>
         <manifestation>ED-P</manifestation>
       </manifestationList>
-      <editions>
+      <editionList>
         <edition>BauDi-P</edition>
-      </editions>
+      </editionList>
     </remark>
   </remarks>
 </crApp>
