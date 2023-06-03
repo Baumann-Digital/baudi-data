@@ -9,63 +9,102 @@
             </titleStmt>
             <pubStmt/> 
         </fileDesc>
+        <encodingDesc>
+            <classDecls>
+                <taxonomy label="locations">
+                    <taxonomy>
+                        <category xml:id="N">
+                            <label>North</label>
+                            <desc>The item described is oriented at the top (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="NE">
+                            <label>North eastern</label>
+                            <desc>The item described is oriented next to the upper right corner.</desc>
+                        </category>
+                        <category xml:id="E">
+                            <label>Eastern</label>
+                            <desc>The item described is oriented at middle (valign) of the page right margin (halign).</desc>
+                        </category>
+                        <category xml:id="SE">
+                            <label>South eastern</label>
+                            <desc>The item described is oriented next to the lower right corner.</desc>
+                        </category>
+                        <category xml:id="S">
+                            <label>Southern</label>
+                            <desc>The item described is oriented at the bottom (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="SW">
+                            <label>South western</label>
+                            <desc>The item described is oriented next to the lower left corner.</desc>
+                        </category>
+                        <category xml:id="W">
+                            <label>Western</label>
+                            <desc>The item described is oriented at middle (valign) of the page left margin (halign).</desc>
+                        </category>
+                        <category xml:id="NW">
+                            <label>North western</label>
+                            <desc>The item described is oriented at the upper left corner.</desc>
+                        </category>
+                        <category xml:id="C">
+                            <label>Central</label>
+                            <desc>The item described is oriented at the middle of the page (valign and halign).</desc>
+                        </category>
+                    </taxonomy>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
         <workList>
             <work>
-                <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de">Den Gefallenen zum Gedächtnis, den Trauernden zum Trost Kantate</titlePart>
-                    <titlePart type="subordinate" xml:lang="de"/>
-                    <titlePart type="desc" xml:lang="de"/>
-                </title>
+                <title>Kantate. Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
                 <key pname="e" mode="minor"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Schnell</tempo>
                 <incip> </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes label="violin.i" xml:id="part_01"/>
-                        <perfRes label="violin.ii" xml:id="part_02"/>
-                        <perfRes label="vila" xml:id="part_03"/>
-                        <perfRes label="violoncello" xml:id="part_04"/>
-                        <perfRes label="doubleBass" xml:id="part_05"/>
-                        <perfRes label="flute.i" xml:id="part_06"/>
-                        <perfRes label="flute.ii" xml:id="part_07"/>
-                        <perfRes label="oboe.i" xml:id="part_08"/>
-                        <perfRes label="oboe.ii" xml:id="part_09"/>
-                        <perfRes label="clarinet.i" xml:id="part_10"/>
-                        <perfRes label="clarinet.ii" xml:id="part_11"/>
-                        <perfRes label="bassoon.i" xml:id="part_12"/>
-                        <perfRes label="bassoon.ii" xml:id="part_13"/>
-                        <perfRes label="hornFrench.i" xml:id="part_14"/>
-                        <perfRes label="hornFrench.ii" xml:id="part_15"/>
-                        <perfRes label="hornFrench.iii" xml:id="part_16"/>
-                        <perfRes label="hornFrench.iv" xml:id="part_17"/>
-                        <perfRes label="trumpet.i" xml:id="part_18"/>
-                        <perfRes label="trumpet.ii" xml:id="part_19"/>
-                        <perfRes label="trombone.i" xml:id="part_20"/>
-                        <perfRes label="trombone.ii" xml:id="part_21"/>
-                        <perfRes label="trombone.iii" xml:id="part_22"/>
-                        <perfRes label="tuba" xml:id="part_23"/>
-                        <perfRes label="timpani" xml:id="part_24"/>
+                        <perfRes label="flute.i"/>
+                        <perfRes label="flute.ii"/>
+                        <perfRes label="oboe.i"/>
+                        <perfRes label="oboe.ii"/>
+                        <perfRes label="clarinet.i"/>
+                        <perfRes label="clarinet.ii"/>
+                        <perfRes label="bassoon.i"/>
+                        <perfRes label="bassoon.ii"/>
+                        <perfRes label="hornFrench.i"/>
+                        <perfRes label="hornFrench.ii"/>
+                        <perfRes label="hornFrench.iii"/>
+                        <perfRes label="hornFrench.iv"/>
+                        <perfRes label="trumpet.i"/>
+                        <perfRes label="trumpet.ii"/>
+                        <perfRes label="trombone.i"/>
+                        <perfRes label="trombone.ii"/>
+                        <perfRes label="trombone.iii"/>
+                        <perfRes label="tuba"/>
+                        <perfRes label="timpani"/>
+                        <perfRes label="harp"/>
+                        <perfRes label="organ"/>
+                        <perfRes label="choirMixed"/>
+                        <perfRes label="choirMale"/>
+                        <perfRes label="choirFemale"/>
+                        <perfRes label="violin.i"/>
+                        <perfRes label="violin.ii"/>
+                        <perfRes label="vila"/>
+                        <perfRes label="violoncello"/>
+                        <perfRes label="doubleBass"/>
+                        <perfRes label="bells"/>
                     </perfResList>
                 </perfMedium>
-                <contents>
-                    <p decls="songtext">
-                        <lg n="1">
-                            <l n="1"/>
-                        </lg>
-                    </p>
-                </contents>
             </work>
         </workList>
         <manifestationList>
             <manifestation>
-                <head>Interner Titel, z.B. Stimmenmaterial</head>
-                <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: M 302, PART</identifier>
-                <identifier type="siglum">ED-P</identifier>
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">M 302, PART</identifier>
+                <identifier type="siglum" auth="BauDi">ED-P</identifier>
                 <titleStmt>
                     <title>
                         <titlePart type="main">Kantate</titlePart>
-                        <titlePart type="subordinate">Den Gefallenen</titlePart>
+                        <titlePart type="subordinate">Den Gefallenen zum Gedächtnis, den Trauernden zum Trost von Ludwig Baumann.</titlePart>
+                        <titlePart type="subsubordinate">Komponiert für Männerchor, Tenor- oder Sopran-Solo, Knaben- oder Frauenchor, Orchester und Orgel ad libitum.</titlePart>
                         <titlePart type="ediromSourceWindow">Erstdruck Partitur</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ed0d187e-composer">
@@ -73,6 +112,35 @@
                     </composer>
                     <lyricist xml:id="baudi-01-ed0d187e-lyricist">[Bibeltexte]</lyricist>
                 </titleStmt>
+                <editionStmt>
+                    <edition>Verlag und Eigentum für alle Länder Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B.<lb/> Copyright 1928 by Fritz Müller, Süddeutscher Musikverlag, Karlsruhe i/B</edition>
+                </editionStmt>
+                <physDesc>
+                    <extent unit="folio">30</extent>
+                    <extent unit="page">59</extent>
+                    <dimensions>
+                        <width unit="mm">262</width>
+                        <height unit="mm">334</height>
+                    </dimensions>
+                    <handList>
+                        <hand xml:id="manifest-01-hand-02" medium="pencil">Bibliothekarische Vermerke</hand>
+                    </handList>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                        <corpName>Badische Landesbibliothek</corpName>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
+                    </repository>
+                </physLoc>
+                <creation>1928</creation>
+                <langUsage>
+                    <language codedval="de"/>
+                </langUsage>
+                <notesStmt>
+                    <annot>Autographie: <persName>Karl Lahn</persName>, <settlement>Karlsruhe</settlement>.</annot>
+                </notesStmt>
                 <classification>
                     <termList>
                         <term type="source">print</term>
