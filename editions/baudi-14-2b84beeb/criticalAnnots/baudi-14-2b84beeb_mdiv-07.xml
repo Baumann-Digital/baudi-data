@@ -295,12 +295,12 @@
       </classGrp>
       <classGrp label="editorialClassifications">
         <class xml:id="noStart">
-          <label xml:lang="de">Nur beginnend</label>
-          <label xml:lang="en">Only initiating</label>
-        </class>
-        <class xml:id="noEnd">
           <label xml:lang="de">Nur endend</label>
           <label xml:lang="en">Only terminating</label>
+        </class>
+        <class xml:id="noEnd">
+          <label xml:lang="de">Nur beginnend</label>
+          <label xml:lang="en">Only initiating</label>
         </class>
         <class xml:id="without">
           <label xml:lang="de">ohne</label>
@@ -3130,8 +3130,7 @@
               <hairpin part="#bassoons" form="cres" tstamp="45m+2" tstamp2="46m+1"/>
             </rdg>
             <rdg source="#ED-P">
-              <hairpin part="#clarinets" form="cres" tstamp="45m+1.5" tstamp2="45m+4.5"/>
-              <hairpin part="#bassoons" form="cres" tstamp="45m+1.5" tstamp2="45m+4.5"/>
+            	<hairpin part="#clarinets #bassoons" form="cres" tstamp="45m+1.5" tstamp2="45m+4.5"/>
             </rdg>
           </app>
         </annot>
