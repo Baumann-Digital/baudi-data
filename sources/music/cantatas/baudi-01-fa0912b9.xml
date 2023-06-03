@@ -9,21 +9,164 @@
             </titleStmt>
             <pubStmt/>
         </fileDesc>
+        <encodingDesc>
+            <classDecls>
+                <taxonomy label="locations">
+                    <taxonomy>
+                        <category xml:id="N">
+                            <label>North</label>
+                            <desc>The item described is oriented at the top (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="NE">
+                            <label>North eastern</label>
+                            <desc>The item described is oriented next to the upper right corner.</desc>
+                        </category>
+                        <category xml:id="E">
+                            <label>Eastern</label>
+                            <desc>The item described is oriented at middle (valign) of the page right margin (halign).</desc>
+                        </category>
+                        <category xml:id="SE">
+                            <label>South eastern</label>
+                            <desc>The item described is oriented next to the lower right corner.</desc>
+                        </category>
+                        <category xml:id="S">
+                            <label>Southern</label>
+                            <desc>The item described is oriented at the bottom (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="SW">
+                            <label>South western</label>
+                            <desc>The item described is oriented next to the lower left corner.</desc>
+                        </category>
+                        <category xml:id="W">
+                            <label>Western</label>
+                            <desc>The item described is oriented at middle (valign) of the page left margin (halign).</desc>
+                        </category>
+                        <category xml:id="NW">
+                            <label>North western</label>
+                            <desc>The item described is oriented at the upper left corner.</desc>
+                        </category>
+                        <category xml:id="C">
+                            <label>Central</label>
+                            <desc>The item described is oriented at the middle of the page (valign and halign).</desc>
+                        </category>
+                    </taxonomy>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title>Kantate: Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
+                        <key pname="e" mode="minor"/>
+                        <meter count="4" unit="4"/>
+                        <tempo/>
+                        <perfMedium>
+                            <perfResList>
+                                <perfRes label="flute.i"/>
+                                <perfRes label="flute.ii"></perfRes>
+                                <perfRes label="oboe.i"></perfRes>
+                                <perfRes label="oboe.ii"></perfRes>
+                                <perfRes label="clarinet.i"></perfRes>
+                                <perfRes label="clarinet.ii"></perfRes>
+                                <perfRes label="bassoon.i"></perfRes>
+                                <perfRes label="bassoon.ii"></perfRes>
+                                <perfRes label="hornFrench.i"></perfRes>
+                                <perfRes label="hornFrench.ii"></perfRes>
+                                <perfRes label="hornFrench.iii"></perfRes>
+                                <perfRes label="hornFrench.iv"></perfRes>
+                                <perfRes label="trumpet.i"></perfRes>
+                                <perfRes label="trumpet.ii"></perfRes>
+                                <perfRes label="trombone.i"></perfRes>
+                                <perfRes label="trombone.ii"></perfRes>
+                                <perfRes label="trombone.iii"></perfRes>
+                                <perfRes label="tuba"></perfRes>
+                                <perfRes label="timpani"></perfRes>
+                                <perfRes label="choirMale"></perfRes>
+                                <perfRes label="choirFemale"></perfRes>
+                                <perfRes label="choirMixed"></perfRes>
+                                <perfRes label="violin.i"></perfRes>
+                                <perfRes label="violin.ii"></perfRes>
+                                <perfRes label="viola"></perfRes>
+                                <perfRes label="violoncello"></perfRes>
+                                <perfRes label="doublebass"></perfRes>
+                                <perfRes label="piano"></perfRes>
+                            </perfResList>
+                        </perfMedium>
+            </work>
+        </workList>
         <manifestationList>
             <manifestation singleton="true">
-                <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: Mus. H. 1274a</identifier>
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">Mus. Hs. 1274a</identifier>
                 <identifier type="siglum">A-P2</identifier>
                 <titleStmt>
                     <title>
                         <titlePart type="main">Kantate</titlePart>
-                        <titlePart type="subordinate">Den Gefallenen</titlePart>
                         <titlePart type="ediromSourceWindow">Autographe Partitur (Erstschrift Nr. 1 &amp; 2, sowie Entwurf zu Nr. 9)</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ed0d187e-composer">
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
-                    <lyricist xml:id="baudi-01-ed0d187e-lyricist"> Die Bibel </lyricist>
+                    <lyricist xml:id="baudi-01-ed0d187e-lyricist">[Bibeltexte]</lyricist>
                 </titleStmt>
+                <physDesc>
+                    <dimensions corresp="#fol1r #fol1v #fol2r #fol2v #fol3r #fol3v #fol4r #fol4v #fol5r #fol5v #fol6r #fol6v #fol7r #fol7v #fol8r #fol8v">
+                        <height unit="mm">325</height>
+                        <width unit="mm">252</width>
+                    </dimensions>
+                    <dimensions corresp="#fol9r #fol9v #fol10r #fol10v">
+                        <height unit="mm">328</height>
+                        <width unit="mm">262</width>
+                    </dimensions>
+                    <extent unit="folio">10</extent>
+                    <extent unit="page">20</extent>
+                    <foliaDesc>
+                        <bifolium>
+                            <bifolium>
+                                <bifolium>
+                                    <bifolium/>
+                                </bifolium>
+                            </bifolium>
+                        </bifolium>
+                        <bifolium/>
+                    </foliaDesc>
+                    <supportDesc>
+                        <locusGrp>
+                            <locus xml:id="fol1r">1r</locus>
+                            <locus xml:id="fol1v">1v</locus>
+                            <locus xml:id="fol2r">2r</locus>
+                            <locus xml:id="fol2v">2v</locus>
+                            <locus xml:id="fol3r">3r</locus>
+                            <locus xml:id="fol3v">3v</locus>
+                            <locus xml:id="fol4r">4r</locus>
+                            <locus xml:id="fol4v">4v</locus>
+                            <locus xml:id="fol5r">5r</locus>
+                            <locus xml:id="fol5v">5v</locus>
+                            <locus xml:id="fol6r">6r</locus>
+                            <locus xml:id="fol6v">6v</locus>
+                            <locus xml:id="fol7r">7r</locus>
+                            <locus xml:id="fol7v">7v</locus>
+                            <locus xml:id="fol8r">8r</locus>
+                            <locus xml:id="fol8v">8v</locus>
+                            <locus xml:id="fol9r">9r</locus>
+                            <locus xml:id="fol9v">9v</locus>
+                            <locus xml:id="fol10r">10r</locus>
+                            <locus xml:id="fol10v">10v</locus>
+                        </locusGrp>
+                    </supportDesc>
+                    <handList>
+                        <hand medium="ink.black"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
+                        <hand medium="pencil">Bibliothekarische Vermerke</hand>
+                        <hand medium="pencil.blue"></hand>
+                    </handList>
+                    <physMedium>Handrastriertes Papier, 24 Systeme, beschrieben mit schwarzer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                        <corpName>Badische Landesbibliothek</corpName>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
+                    </repository>
+                </physLoc>
                 <classification>
                     <termList>
                         <term type="source">manuscript</term>
