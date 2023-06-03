@@ -9,32 +9,140 @@
             </titleStmt>
             <pubStmt/>
         </fileDesc>
+        <encodingDesc>
+            <classDecls>
+                <taxonomy label="locations">
+                    <taxonomy>
+                        <category xml:id="N">
+                            <label>North</label>
+                            <desc>The item described is oriented at the top (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="NE">
+                            <label>North eastern</label>
+                            <desc>The item described is oriented next to the upper right corner.</desc>
+                        </category>
+                        <category xml:id="E">
+                            <label>Eastern</label>
+                            <desc>The item described is oriented at middle (valign) of the page right margin (halign).</desc>
+                        </category>
+                        <category xml:id="SE">
+                            <label>South eastern</label>
+                            <desc>The item described is oriented next to the lower right corner.</desc>
+                        </category>
+                        <category xml:id="S">
+                            <label>Southern</label>
+                            <desc>The item described is oriented at the bottom (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="SW">
+                            <label>South western</label>
+                            <desc>The item described is oriented next to the lower left corner.</desc>
+                        </category>
+                        <category xml:id="W">
+                            <label>Western</label>
+                            <desc>The item described is oriented at middle (valign) of the page left margin (halign).</desc>
+                        </category>
+                        <category xml:id="NW">
+                            <label>North western</label>
+                            <desc>The item described is oriented at the upper left corner.</desc>
+                        </category>
+                        <category xml:id="C">
+                            <label>Central</label>
+                            <desc>The item described is oriented at the middle of the page (valign and halign).</desc>
+                        </category>
+                    </taxonomy>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
         <workList>
             <work>
-                <title>Den Gefallenen</title>
+                <title>Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
                 <componentList>
                     <work xml:id="baudi-02-aedbaef3_comp_001">
                         <title xml:lang="de">Vorspiel</title>
                         <title xml:lang="en">Prelude</title>
+                        <key pname="c" mode="major"/>
+                        <meter count="3" unit="4"/>
+                        <tempo>Langsam.</tempo>
+                        <perfMedium>
+                            <perfResList>
+                                <perfRes label="flute.i"/>
+                                <perfRes label="flute.ii"></perfRes>
+                                <perfRes label="oboe.i"></perfRes>
+                                <perfRes label="oboe.ii"></perfRes>
+                                <perfRes label="clarinet.i"></perfRes>
+                                <perfRes label="clarinet.ii"></perfRes>
+                                <perfRes label="bassoon.i"></perfRes>
+                                <perfRes label="bassoon.ii"></perfRes>
+                                <perfRes label="hornFrench.i"></perfRes>
+                                <perfRes label="hornFrench.ii"></perfRes>
+                                <perfRes label="hornFrench.iii"></perfRes>
+                                <perfRes label="hornFrench.iv"></perfRes>
+                                <perfRes label="trumpet.i"></perfRes>
+                                <perfRes label="trumpet.ii"></perfRes>
+                                <perfRes label="trombone.i"></perfRes>
+                                <perfRes label="trombone.ii"></perfRes>
+                                <perfRes label="trombone.iii"></perfRes>
+                                <perfRes label="tuba"></perfRes>
+                                <perfRes label="timpani"></perfRes>
+                                <perfRes label="violin.i"></perfRes>
+                                <perfRes label="violin.ii"></perfRes>
+                                <perfRes label="viola"></perfRes>
+                                <perfRes label="violoncello"></perfRes>
+                                <perfRes label="doublebass"></perfRes>
+                            </perfResList>
+                        </perfMedium>
                     </work>
                 </componentList>
             </work>
         </workList>
         <manifestationList>
             <manifestation singleton="true">
-                <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: Mus. Hs. 1274</identifier>
-                <identifier type="siglum">A-P1</identifier>
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">Mus. Hs. 1274</identifier>
+                <identifier type="siglum" auth="BauDi">A-P1</identifier>
                 <titleStmt>
                     <title>
-                        <titlePart type="main">Kantate</titlePart>
-                        <titlePart type="subordinate">Den Gefallenen</titlePart>
-                        <titlePart type="ediromSourceWindow">Autographe Partitur (Vorspiel)</titlePart>
+                        <titlePart type="main">Vorspiel zur „Kantate“.</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ed0d187e-composer">
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
-                    <lyricist xml:id="baudi-01-ed0d187e-lyricist"> Die Bibel </lyricist>
+                    <lyricist xml:id="baudi-01-ed0d187e-lyricist">Liturgie (kath.)</lyricist>
                 </titleStmt>
+                <physDesc>
+                    <dimensions>
+                        <height unit="mm">338</height>
+                        <width unit="m">270</width>
+                    </dimensions>
+                    <extent unit="folio">2</extent>
+                    <extent unit="page">4</extent>
+                <foliaDesc>
+                    <bifolium outer.recto="#surface_80bf92be-4537-451e-a1ef-1adebd676cda" inner.verso="#surface_9b1dae0d-a34b-42b6-b05d-020c5135e98c" inner.recto="#surface_ec46c08d-609a-4e42-962f-b720d716f5f4" outer.verso="#surface_97558203-36e4-4765-827e-0a973eeb5ade"/>
+                </foliaDesc>
+                    <supportDesc>
+                    <locusGrp>
+                        <locus xml:id="fol1r">1r</locus>
+                        <locus xml:id="fol1v">1v</locus>
+                        <locus xml:id="fol2r">2r</locus>
+                        <locus xml:id="fol2v">2v</locus>
+                    </locusGrp>
+                    </supportDesc>
+                    <handList>
+                        <hand medium="ink.black"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
+                        <hand medium="pencil">Bibliothekarische Vermerke</hand>
+                    </handList>
+                    <physMedium>Vorrastriertes Papier.</physMedium>
+                </physDesc>
+                <physLoc>
+                 <repository>
+                     <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                     <corpName>Badische Landesbibliothek</corpName>
+                     <settlement>Karlsruhe</settlement>
+                     <country codedval="de">Deutschland</country>
+                 </repository>
+                </physLoc>
+                <notesStmt>
+                    <annot type="papermark" plist="#SE #fol1r">Sünova Nr. 8 – 20 zeilig</annot>
+                </notesStmt>
                 <classification>
                     <termList>
                         <term type="source">manuscript</term>

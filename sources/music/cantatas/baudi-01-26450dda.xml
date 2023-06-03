@@ -5,7 +5,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Männerchor-Stimmen, Erstdruck</title>
+                <title>Erstdruck, Männerchor-Stimmen</title>
             </titleStmt>
             <pubStmt/>
         </fileDesc>
@@ -69,18 +69,22 @@
         </encodingDesc>
         <workList>
             <work>
-                <title>Kantate</title>
+                <title>Kantate. Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
+                <key pname="e" mode="minor"/>
+                <meter count="4" unit="4"/>
+                <tempo>Ernst gemessen.</tempo>
                 <perfMedium>
                     <perfResList>
-                        <perfRes label="tenor" xml:id="rwa_part_01"/>
-                        <perfRes label="bass" xml:id="rwa_part_02"/>
+                        <perfRes label="tenor" xml:id="part_01"/>
+                        <perfRes label="bass" xml:id="part_02"/>
                     </perfResList>
                 </perfMedium>
             </work>
         </workList>
         <manifestationList>
             <manifestation>
-                <identifier type="siglum">ED-St-TTBB</identifier>
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">M 302,KLAV</identifier>
+                <identifier type="siglum" auth="BauDi">ED-St-TTBB</identifier>
                 <titleStmt>
                     <title>
                         <titlePart type="main">Kantate:</titlePart>
@@ -104,8 +108,16 @@
                         <height unit="mm">268</height>
                     </dimensions>
                     <foliaDesc>
-                        <bifolium outer.recto="baudi-21-35bd3d96" inner.verso="baudi-21-a8063065" inner.recto="baudi-21-e7282edc" outer.verso="baudi-21-6f78c67d"/>
+                        <bifolium outer.recto="#baudi-21-35bd3d96" inner.verso="#baudi-21-a8063065" inner.recto="#baudi-21-e7282edc" outer.verso="#baudi-21-6f78c67d"/>
                     </foliaDesc>
+                    <supportDesc>
+                        <locusGrp>
+                            <locus xml:id="fol1r">1r</locus>
+                            <locus xml:id="fol1v">1v</locus>
+                            <locus xml:id="fol2r">2r</locus>
+                            <locus xml:id="fol2v">2v</locus>
+                        </locusGrp>
+                    </supportDesc>
                     <handList>
                         <hand xml:id="manifest-01-hand-01" medium="pencil">Unknown</hand>
                         <hand xml:id="manifest-01-hand-02" medium="pencil">Bibliothekarische Vermerke</hand>
@@ -115,28 +127,19 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <identifier>M 302, Tenor</identifier>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
                         <corpName>Badische Landesbibliothek</corpName>
-                        <address>
-                            <street>Erbprinzenstraße <num>15</num>
-                            </street>
-                            <postCode>76133</postCode>
-                            <settlement>Karlsruhe</settlement>
-                            <country codedval="de">Deutschland</country>
-                        </address>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
                     </repository>
                 </physLoc>
                 <creation>1928</creation>
-                <!--<history>
-                    <p>Der Druck entstand im Jahr der Komposition, 1928.</p>
-                    <provenance>Gesangverein Badenia Karlsurhe, später Badische Landesbibliothek Karlsruhe.</provenance>
-                </history>-->
                 <langUsage>
                     <language codedval="de"/>
                 </langUsage>
-                <!--<notesStmt>
-                    <annot plist="#hand-02 NE-oriented">Bibliothekarische Zählung der Exemplare (oben rechts)</annot>
-                </notesStmt>-->
+                <notesStmt>
+                    <annot plist="#hand-02 #NE">Bibliothekarische Zählung der Exemplare</annot>
+                </notesStmt>
                 <classification>
                     <termList>
                         <term type="sourceType">print</term>
@@ -3449,7 +3452,7 @@
             <mdiv xml:id="baudi-20-d2295207" label="I">
                 <parts>
                     <part xml:id="baudi-11-67319096" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -4049,7 +4052,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-994b16ed" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -4653,7 +4656,7 @@
             <mdiv xml:id="baudi-20-b67d8c8f" label="II">
                 <parts>
                     <part xml:id="baudi-11-c8340f49" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -4829,7 +4832,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-83c18e0e" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -5009,7 +5012,7 @@
             <mdiv xml:id="baudi-20-a21b2975" label="III">
                 <parts>
                     <part xml:id="baudi-11-5b0f1460" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -5108,7 +5111,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-4a2c2698" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -5211,7 +5214,7 @@
             <mdiv xml:id="baudi-20-2c7de640" label="IV">
                 <parts>
                     <part xml:id="baudi-11-cf429965" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -5800,7 +5803,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ecc1fc37" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -6393,7 +6396,7 @@
             <mdiv xml:id="baudi-20-fde8f982" label="V">
                 <parts>
                     <part xml:id="baudi-11-75b5e02b" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -6499,7 +6502,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-c0649190" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -6609,7 +6612,7 @@
             <mdiv xml:id="baudi-20-464e45ec" label="VI">
                 <parts>
                     <part xml:id="baudi-11-18bff61f" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -6681,7 +6684,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-9e5f9a90" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -6757,7 +6760,7 @@
             <mdiv xml:id="baudi-20-0598a10c" label="VII">
                 <parts>
                     <part xml:id="baudi-11-e66faeb8" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -7073,7 +7076,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-82dc1edf" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -7417,7 +7420,7 @@
             <mdiv xml:id="baudi-20-cb77ed20" label="VIII">
                 <parts>
                     <part xml:id="baudi-11-b98a9069" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -7663,7 +7666,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-315629b1" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -7913,7 +7916,7 @@
             <mdiv xml:id="baudi-20-e581915d" label="IX">
                 <parts>
                     <part xml:id="baudi-11-80f35858" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -8062,7 +8065,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-b18cf72b" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <reg>
@@ -8215,7 +8218,7 @@
             <mdiv xml:id="baudi-20-60b2be18" label="X">
                 <parts>
                     <part xml:id="baudi-11-6420b646" label="Tenor">
-                        <staffDef decls="#rwa_part_01" n="1" lines="5"/>
+                        <staffDef decls="#part_01" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_db8ab15e-08cd-4f4a-b833-9f919fc141a7" facs="#zone_9a851747-3464-4c53-b1ad-77dfe6eb6840"/>
@@ -8416,7 +8419,7 @@
                         </section>
                     </part>
                     <part xml:id="baudi-11-ae3d2e74" label="Bass">
-                        <staffDef decls="#rwa_part_02" n="1" lines="5"/>
+                        <staffDef decls="#part_02" n="1" lines="5"/>
                         <section>
                             <pb/>
                             <measure n="1" label="1" xml:id="measure_7ec1c22d-1de7-430c-8551-1fb791494777" facs="#zone_07cf4572-f0b6-49da-b9bd-186a332a2228"/>
