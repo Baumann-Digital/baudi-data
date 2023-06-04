@@ -5,13 +5,59 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Autographe Violin-Stimmen (spätere Fassung)</title>
+                <title>Autographe Violin-Stimmen zu späterer Einrichtung</title>
             </titleStmt>
             <pubStmt/>
         </fileDesc>
+        <encodingDesc>
+            <classDecls>
+                <taxonomy label="locations">
+                    <taxonomy>
+                        <category xml:id="N">
+                            <label>North</label>
+                            <desc>The item described is oriented at the top (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="NE">
+                            <label>North eastern</label>
+                            <desc>The item described is oriented next to the upper right corner.</desc>
+                        </category>
+                        <category xml:id="E">
+                            <label>Eastern</label>
+                            <desc>The item described is oriented at middle (valign) of the page right margin (halign).</desc>
+                        </category>
+                        <category xml:id="SE">
+                            <label>South eastern</label>
+                            <desc>The item described is oriented next to the lower right corner.</desc>
+                        </category>
+                        <category xml:id="S">
+                            <label>Southern</label>
+                            <desc>The item described is oriented at the bottom (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="SW">
+                            <label>South western</label>
+                            <desc>The item described is oriented next to the lower left corner.</desc>
+                        </category>
+                        <category xml:id="W">
+                            <label>Western</label>
+                            <desc>The item described is oriented at middle (valign) of the page left margin (halign).</desc>
+                        </category>
+                        <category xml:id="NW">
+                            <label>North western</label>
+                            <desc>The item described is oriented at the upper left corner.</desc>
+                        </category>
+                        <category xml:id="C">
+                            <label>Central</label>
+                            <desc>The item described is oriented at the middle of the page (valign and halign).</desc>
+                        </category>
+                    </taxonomy>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
         <workList>
             <work>
-                <title>Kantate</title>
+                <title>Kantate. Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
+                <key pname="a" mode="minor"/>
+                <meter count="3" unit="4"/>
                 <perfMedium>
                     <perfResList>
                         <perfRes label="violin.i.1" xml:id="rwa_part_01"/>
@@ -21,19 +67,118 @@
             </work>
         </workList>
         <manifestationList>
-            <manifestation singleton="true">
-                <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: Mus. Hs. 1274</identifier>
-                <identifier type="siglum">A-St-Vl</identifier>
+            <manifestation singleton="true" xml:id="manifest-01">
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">Mus. Hs. 1274</identifier>
+                <identifier type="siglum" auth="BauDi">A-St-Vl</identifier>
                 <titleStmt>
                     <title>
-                        <titlePart type="main">Kantate</titlePart>
-                        <titlePart type="subordinate">Den Gefallenen</titlePart>
-                        <titlePart type="ediromSourceWindow">Autographe Violinstimme</titlePart>
+                        <titlePart type="main">Kantate.</titlePart>
+                        <titlePart type="ediromSourceWindow">Autographe Violinstimme [Einr.]</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ed0d187e-composer">
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                 </titleStmt>
+                <physDesc>
+                    <extent unit="folio">2</extent>
+                    <extent unit="page">4</extent>
+                    <dimensions>
+                        <width unit="mm">340</width>
+                        <height unit="mm">271</height>
+                    </dimensions>
+                    <foliaDesc>
+                        <bifolium outer.recto="#baudi-21-7e4eda95" inner.verso="#baudi-21-148c9c2d" inner.recto="#baudi-21-71c97f44" outer.verso="#baudi-21-7b2d00c4"/>
+                    </foliaDesc>
+                    <supportDesc>
+                        <locusGrp>
+                            <locus xml:id="manif1-fol1r">1r</locus>
+                            <locus xml:id="manif1-fol1v">1v</locus>
+                            <locus xml:id="manif1-fol2r">2r</locus>
+                            <locus xml:id="manif1-fol2v">2v</locus>
+                        </locusGrp>
+                    </supportDesc>
+                    <handList>
+                        <hand xml:id="manifest-01-hand-01" medium="ink.black"><persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
+                        <hand xml:id="manifest-01-hand-02" medium="pencil">Bibliothekarische Vermerke</hand>
+                        <hand xml:id="manifest-01-hand-03" medium="pencil.blue"/>
+                    </handList>
+                    <physMedium>Vorrastriertes Papier.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                        <corpName>Badische Landesbibliothek</corpName>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
+                    </repository>
+                </physLoc>
+                <notesStmt>
+                    <annot plist="#manifest-01-hand-02 #N #manif1-fol1r">zu Mus. Hs. 1274</annot>
+                    <annot type="papermark" plist="#manif1-fol1r #SW">»Sünova« Nr. 4 - 12 zeilig</annot>
+                    <annot plist="#manifest-01-hand-03 #manif1-fol1r #manif1-fol1v #manif1-fol2r">Diverse Eintragungen</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="source">part</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">cantata</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-aedbaef3"/>
+                    <relation rel="isEmbodimentOf" target="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp4" type="edirom"/>
+                </relationList>
+            </manifestation>
+            <manifestation singleton="true" xml:id="manifest-02">
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">Mus. Hs. 1274</identifier>
+                <identifier type="siglum" auth="BauDi">A-St-Vl</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main">Kantate.</titlePart>
+                        <titlePart type="ediromSourceWindow">Autographe Violinstimme [Einr.]</titlePart>
+                    </title>
+                    <composer>
+                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                </titleStmt>
+                <physDesc>
+                    <extent unit="folio">2</extent>
+                    <extent unit="page">4</extent>
+                    <dimensions>
+                        <width unit="mm">339</width>
+                        <height unit="mm">270</height>
+                    </dimensions>
+                    <foliaDesc>
+                        <bifolium outer.recto="#baudi-21-6f4984e1" inner.verso="#baudi-21-2387a568" inner.recto="#baudi-21-5806da2b" outer.verso="#baudi-21-550cd354"/>
+                    </foliaDesc>
+                    <supportDesc>
+                        <locusGrp>
+                            <locus xml:id="manif2-fol1r">1r</locus>
+                            <locus xml:id="manif2-fol1v">1v</locus>
+                            <locus xml:id="manif2-fol2r">2r</locus>
+                            <locus xml:id="manif2-fol2v">2v</locus>
+                        </locusGrp>
+                    </supportDesc>
+                    <handList>
+                        <hand xml:id="manifest-02-hand-01" medium="ink.black"><persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
+                        <hand xml:id="manifest-02-hand-02" medium="pencil">Bibliothekarische Vermerke</hand>
+                        <hand xml:id="manifest-02-hand-03" medium="pencil.blue"/>
+                    </handList>
+                    <physMedium>Vorrastriertes Papier.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                        <corpName>Badische Landesbibliothek</corpName>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
+                    </repository>
+                </physLoc>
+                <notesStmt>
+                    <annot plist="#manifest-01-hand-02 #N #manif1-fol1r">zu Mus. Hs. 1274</annot>
+                    <annot plist="#manifest-01-hand-03 #manif1-fol1r #manif1-fol1v #manif1-fol2r">Diverse Eintragungen</annot>
+                </notesStmt>
                 <classification>
                     <termList>
                         <term type="source">manuscript</term>

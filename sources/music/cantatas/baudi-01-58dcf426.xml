@@ -9,9 +9,56 @@
             </titleStmt>
             <pubStmt/>
         </fileDesc>
+        <encodingDesc>
+            <classDecls>
+                <taxonomy label="locations">
+                    <taxonomy>
+                        <category xml:id="N">
+                            <label>North</label>
+                            <desc>The item described is oriented at the top (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="NE">
+                            <label>North eastern</label>
+                            <desc>The item described is oriented next to the upper right corner.</desc>
+                        </category>
+                        <category xml:id="E">
+                            <label>Eastern</label>
+                            <desc>The item described is oriented at middle (valign) of the page right margin (halign).</desc>
+                        </category>
+                        <category xml:id="SE">
+                            <label>South eastern</label>
+                            <desc>The item described is oriented next to the lower right corner.</desc>
+                        </category>
+                        <category xml:id="S">
+                            <label>Southern</label>
+                            <desc>The item described is oriented at the bottom (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="SW">
+                            <label>South western</label>
+                            <desc>The item described is oriented next to the lower left corner.</desc>
+                        </category>
+                        <category xml:id="W">
+                            <label>Western</label>
+                            <desc>The item described is oriented at middle (valign) of the page left margin (halign).</desc>
+                        </category>
+                        <category xml:id="NW">
+                            <label>North western</label>
+                            <desc>The item described is oriented at the upper left corner.</desc>
+                        </category>
+                        <category xml:id="C">
+                            <label>Central</label>
+                            <desc>The item described is oriented at the middle of the page (valign and halign).</desc>
+                        </category>
+                    </taxonomy>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
         <workList>
             <work>
-                <title>Kantate</title>
+                <title>Kantate. Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
+                <key pname="a" mode="minor"/>
+                <meter count="3" unit="4"/>
+                <tempo>Langsam</tempo>
                 <perfMedium>
                     <perfResList>
                         <perfRes label="flute.i" xml:id="part_10"/>
@@ -47,18 +94,47 @@
         </workList>
         <manifestationList>
             <manifestation singleton="true">
-                <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: Mus. Hs. 1274</identifier>
-                <identifier type="siglum">A-St</identifier>
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">Mus. Hs. 1274</identifier>
+                <identifier type="siglum" auth="BauDi">A-St-Orch</identifier>
                 <titleStmt>
                     <title>
-                        <titlePart type="main">Kantate</titlePart>
-                        <titlePart type="subordinate">Den Gefallenen</titlePart>
+                        <titlePart type="main">Vorspiel zur Kantate!</titlePart>
                         <titlePart type="ediromSourceWindow">Autographe Orchesterstimmen (Vorspiel)</titlePart>
                     </title>
-                    <composer xml:id="baudi-01-ed0d187e-composer">
+                    <composer>
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                 </titleStmt>
+                <physDesc>
+                    <extent unit="folio">1</extent>
+                    <extent unit="page">1</extent>
+                    <dimensions>
+                        <height unit="mm">268</height>
+                        <width unit="mm">170</width>
+                    </dimensions>
+                    <foliaDesc>
+                        <folium/>
+                    </foliaDesc>
+                    <handList>
+                        <hand xml:id="hand-01" medium="ink.black"><persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
+                        <hand xml:id="hand-02" medium="pencil">Bibliothekarische Vermerke</hand>
+                        <hand xml:id="hand-03" medium="pencil"/>
+                        <hand xml:id="hand-04" medium="pencil.blue"/>
+                        <hand xml:id="hand-05" medium="pencil.red"/>
+                    </handList>
+                    <physMedium>Vorrastriertes Papier.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                        <corpName>Badische Landesbibliothek</corpName>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
+                    </repository>
+                </physLoc>
+                <notesStmt>
+                    <annot type="papermark" plist="#SW">»Sünova« Nr. 52 - 10 zeilig</annot>
+                </notesStmt>
                 <classification>
                     <termList>
                         <term type="source">manuscript</term>
@@ -66,6 +142,272 @@
                         <term type="genre">cantata</term>
                     </termList>
                 </classification>
+                <componentList>
+                    <manifestation singleton="true" xml:id="manifest-part_10">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Flöte 1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_11">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Flöte 2.</titlePart>
+                            </title>
+                        </titleStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_12">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Oboie 1.</titlePart>
+                            </title>
+                        </titleStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_13">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Oboie 2.</titlePart>
+                            </title>
+                        </titleStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_14">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Clar.1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_15">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Clar.2.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_16">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Fag.1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_17">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Fag.2.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_22">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Tromp.1.in B.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_23">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Tromp. 2 in B.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_18">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Horn 1. in F</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_19">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Horn 2 in F</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_20">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">FlHorn 3.in F.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_21">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Horn 4.in F. 1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_24">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Posaune.1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_25">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Posaune 2.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_26">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">PPosaune 3.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_27">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Tuba</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_01">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Viol.1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-02">zu Mus. Hs. 1274</annot>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                            <annot plist="#hand-04">Eintragungen im Notentext</annot>
+                            <annot plist="#hand-05">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_02">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Viol.1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_03">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Viol.1.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_04">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Viol.2.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_05">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Viol.2.</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_06">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Viola</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_07">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Cello</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_08">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Cello</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                    <manifestation singleton="true" xml:id="manifest-part_09">
+                        <titleStmt>
+                            <title>
+                                <titlePart type="subordinate">Bass</titlePart>
+                            </title>
+                        </titleStmt>
+                        <notesStmt>
+                            <annot plist="#hand-03">Eintragungen im Notentext</annot>
+                        </notesStmt>
+                    </manifestation>
+                </componentList>
                 <relationList>
                     <relation rel="isEmbodimentOf" corresp="baudi-02-aedbaef3"/>
                     <relation rel="isEmbodimentOf" target="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml#baudi-02-aedbaef3_exp1" type="edirom"/>

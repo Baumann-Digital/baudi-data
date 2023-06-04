@@ -5,40 +5,125 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Frauchenchor-Stimmen, Erstdruck</title>
+                <title>Erstdruck, Frauchenchor-Stimmen</title>
             </titleStmt>
-            <pubStmt> </pubStmt>
+            <pubStmt/> 
         </fileDesc>
+        <encodingDesc>
+            <classDecls>
+                <taxonomy label="locations">
+                    <taxonomy>
+                        <category xml:id="N">
+                            <label>North</label>
+                            <desc>The item described is oriented at the top (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="NE">
+                            <label>North eastern</label>
+                            <desc>The item described is oriented next to the upper right corner.</desc>
+                        </category>
+                        <category xml:id="E">
+                            <label>Eastern</label>
+                            <desc>The item described is oriented at middle (valign) of the page right margin (halign).</desc>
+                        </category>
+                        <category xml:id="SE">
+                            <label>South eastern</label>
+                            <desc>The item described is oriented next to the lower right corner.</desc>
+                        </category>
+                        <category xml:id="S">
+                            <label>Southern</label>
+                            <desc>The item described is oriented at the bottom (valign) of the page and centered (halign).</desc>
+                        </category>
+                        <category xml:id="SW">
+                            <label>South western</label>
+                            <desc>The item described is oriented next to the lower left corner.</desc>
+                        </category>
+                        <category xml:id="W">
+                            <label>Western</label>
+                            <desc>The item described is oriented at middle (valign) of the page left margin (halign).</desc>
+                        </category>
+                        <category xml:id="NW">
+                            <label>North western</label>
+                            <desc>The item described is oriented at the upper left corner.</desc>
+                        </category>
+                        <category xml:id="C">
+                            <label>Central</label>
+                            <desc>The item described is oriented at the middle of the page (valign and halign).</desc>
+                        </category>
+                    </taxonomy>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title>Kantate. Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</title>
+                <key pname="a" accid="f" mode="major"/>
+                <meter count="4" unit="4"/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes label="soprano"/>
+                        <perfRes label="alto"/>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
         <manifestationList>
             <manifestation>
-                <identifier type="shelfmark">Badische Landesbibliothek Karlsruhe, Signatur: M 302, STI</identifier>
-                <identifier type="siglum">ED-St-SSAA</identifier>
+                <identifier type="shelfmark" auth="BLB" auth.uri="https://www.blb-karlsruhe.de">M 302, STI</identifier>
+                <identifier type="siglum" auth="BauDi">ED-St-SSAA</identifier>
                 <titleStmt>
                     <title>
-                        <titlePart type="main">Kantate</titlePart>
-                        <titlePart type="subordinate">Den Gefallenen</titlePart>
+                        <titlePart type="main">Kantate.</titlePart>
+                        <titlePart type="subordinate">Den Gefallenen zum Gedächtnis, den Trauernden zum Trost.</titlePart>
+                        <titlePart type="subsubordinate">Frauen- (oder Knaben-) Chor.</titlePart>
                         <titlePart type="ediromSourceWindow">Erstdruck Chorstimmen (SSAA)</titlePart>
                     </title>
-                    <composer xml:id="baudi-01-ed0d187e-composer">
+                    <composer>
                         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
-                    <lyricist xml:id="baudi-01-ed0d187e-lyricist">[Bibeltexte]</lyricist>
+                    <lyricist>[Bibeltexte]</lyricist>
                 </titleStmt>
                 <editionStmt>
                     <edition>
-                        <title>Kantate. Den Gefallenen zum Gedächtnis, den Trauernden zum Trost.</title>
-                        <bibl>
-                            <publisher>
-                                <corpName auth="baudi-05-0e61675c">Fritz Müller, Süddeutscher Musikverlag</corpName>
-                            </publisher>
-                            <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe i. B.</settlement>
-                            </pubPlace>
-                            <date/>
-                            <dedicatee/>
-                        </bibl>
+                        <corpName auth="baudi-05-0e61675c">Fritz Müller, Süddeutscher Musikverlag</corpName> <settlement auth="baudi-06-ba166af7">Karlsruhe i. B.</settlement>
                     </edition>
                 </editionStmt>
+                <physDesc>
+                    <extent unit="folio">1</extent>
+                    <extent unit="page">2</extent>
+                    <dimensions>
+                        <width unit="mm">182</width>
+                        <height unit="mm">273</height>
+                    </dimensions>
+                    <foliaDesc>
+                        <folium recto="#baudi-21-e3f89153" verso="#baudi-21-934de69a"/>
+                    </foliaDesc>
+                    <supportDesc>
+                        <locusGrp>
+                            <locus xml:id="fol1r">1r</locus>
+                            <locus xml:id="fol1v">1v</locus>
+                        </locusGrp>
+                    </supportDesc>
+                    <handList>
+                        <hand xml:id="hand-01" medium="pencil">Bibliothekarische Vermerke</hand>
+                        <hand xml:id="hand-02" medium="pencil"/>
+                    </handList>
+                    <physMedium>Autographierter Notendruck, einfarbig (schwarz).</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
+                        <corpName>Badische Landesbibliothek</corpName>
+                        <settlement>Karlsruhe</settlement>
+                        <country codedval="de">Deutschland</country>
+                    </repository>
+                </physLoc>
+                <creation>1928</creation>
+                <langUsage>
+                    <language codedval="de"/>
+                </langUsage>
+                <notesStmt>
+                    <annot plist="#hand-01 #NE">M 302, STI</annot>
+                </notesStmt>
                 <classification>
                     <termList>
                         <term type="sourceType">print</term>
