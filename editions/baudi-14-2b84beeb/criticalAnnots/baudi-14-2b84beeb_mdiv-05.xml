@@ -273,7 +273,6 @@
         <manifestation>ED-KA1</manifestation>
       </manifestationList>
       <editionList>
-        <edition>BauDi-KA</edition>
         <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
@@ -380,12 +379,14 @@
       <parts>
         <part>harmonium</part>
         <part>organ</part>
+        <part>piano</part>
       </parts>
       <annots>
-        <annot>Klammer in <ptr target="#ED-KA1"/> mit Bleistift nachgetragen.</annot>
+        <annot>Klammer in <ptr target="#ED-KA1" corresp="#harmonium"/> mit Bleistift nachgetragen</annot>
+      	<annot>Klammer bzw. Stimmführungslinie in <ptr target="#BauDi-Harm #BauDi-KA" corresp="#harmonium #piano"/> übernommen</annot>
       </annots>
       <manifestationList>
-        <manifestation>A-P3</manifestation>
+        <manifestation>A-P3-KA</manifestation>
         <manifestation>ED-P</manifestation>
         <manifestation>ED-KA1</manifestation>
         <manifestation>ED-KA2</manifestation>
@@ -393,6 +394,7 @@
       <editionList>
         <edition>BauDi-P</edition>
         <edition>BauDi-Harm</edition>
+        <edition>BauDi-KA</edition>
       </editionList>
     </remark>
     <remark type="annotation" xml:id="baudi-30-1fba7c23">
@@ -456,6 +458,60 @@
         <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
+  	<remark type="editorial">
+  		<class>Dynamik</class>
+  		<mdiv>5</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="6" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem source="#BauDi-KA"><dynam tstamp="6m+1">pp</dynam></lem>
+  					<rdg source="#ED-KA1 #ED-KA2 #A-P3"><dynam class="#without">pp</dynam></rdg>
+  				</app>
+  			</annot>
+  			<annot>
+  				<ptr type="compare" target="#woods"/>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="reading">
+  		<class>Notentext</class>
+  		<mdiv>5</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="9" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.left</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<rdg source="#A-P3-KA"><chord><note pname="b" accid="ff" dur="1"/><note pname="b" accid="ff" dur="1"/></chord></rdg>
+  			</app></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3-KA</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-7362bebf">
       <class>Dynamik</class>
       <mdiv>5</mdiv>
@@ -503,6 +559,33 @@
         <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
+  	<remark type="editorial">
+  		<class>Dynamik</class>
+  		<mdiv>5</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="11" count="1"/>
+  				<range type="end" measure="11" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<hairpin form="cres"/> mit Bleistift nachgetragen (<ptr type="adapt" target="#A-P3-KA" corresp="#organ"/>, <ptr type="compare" target="#baudi-30-7362bebf"/>)
+  			</annot>
+  			<annot><ptr target="#ED-KA1 #ED-KA2"/> <hairpin form="cres" class="#without"/></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3-KA</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
     <remark type="reading" xml:id="baudi-30-cab5c3e7">
       <class>Bogensetzung</class>
       <mdiv>5</mdiv>
@@ -514,7 +597,6 @@
       </occurances>
       <parts>
         <part>harmonium.right</part>
-        <part>piano.right</part>
       </parts>
       <annots>
         <annot>
@@ -528,7 +610,6 @@
         <manifestation>A-P3</manifestation>
       </manifestationList>
       <editionList>
-        <edition>BauDi-KA</edition>
         <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
@@ -620,14 +701,16 @@
         <part>piano.right</part>
       </parts>
       <annots>
-        <annot>Fehlende Punktierung an<note dur="2"/>[des2]</annot>
+        <annot>Punktierung (<note pname="d" accid.ges="f" dur="2"><dot/></note>) kollidiert mit <tie/>)</annot>
       </annots>
       <manifestationList>
-        <manifestation>ED-KA2</manifestation>
+        <manifestation>A-P3-KA</manifestation>
         <manifestation>ED-KA1</manifestation>
+        <manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editionList>
         <edition>BauDi-KA</edition>
+        <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
     <remark type="reading" xml:id="baudi-30-3761314f">
@@ -641,7 +724,6 @@
       </occurances>
       <parts>
         <part>harmonium.right</part>
-        <part>piano.right</part>
       </parts>
       <annots>
         <annot>
@@ -655,7 +737,6 @@
         <manifestation>A-P3</manifestation>
       </manifestationList>
       <editionList>
-        <edition>BauDi-KA</edition>
         <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
@@ -694,7 +775,7 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>In SV ist trotz des Systemwechsels der linken Hand eine ganze Note a notiert. Diese Note wurde nicht in die Edition übernommen</annot>
+        <annot><ptr target="#A-P3-KA"/> trotz des Wechsels der linken Hand in das obere System ist <note pname="a" oct="3" dur="1"/> notiert</annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3-KA</manifestation>
@@ -751,5 +832,88 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>5</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="14" count="3"/>
+  				<range type="end" measure="14" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>harmonium</part>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot>Stimmführungslinie ergänzt</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-Harm</edition>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="reading">
+  		<class>Streichung</class>
+  		<mdiv>5</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="14" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot><note pname="b" accid="ff" oct="4" dur="4"/> (überzählig)</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3-KA</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>5</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="14" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.right</part>
+  			<part>harmonium.right</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<lem source="#A-P3-KA">
+  					<note pname="b" accid="ff" oct="4" dur="4" layer="1"/>
+  					<note pname="g" accid="f" oct="4" dur="4" layer="1"/>
+  					<note pname="d" accid="f" oct="4" dur="4" layer="1"/>
+  				</lem>
+  				<rdg source="#ED-KA1 #ED-KA2">
+  					<note pname="b" accid="ff" oct="4" dur="4" layer="1"/>
+  					<note pname="g" accid="f" oct="4" dur="4" layer="2"/>
+  					<note pname="d" accid="f" oct="4" dur="4" layer="2"/>
+  				</rdg>
+  			</app></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3-KA</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-Harm</edition>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
   </remarks>
 </crApp>
