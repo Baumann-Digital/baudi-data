@@ -230,6 +230,32 @@
           <label xml:lang="en">Sonstige (en)</label>
         </class>
       </classGrp>
+    	<classGrp label="editorialClassifications">
+    		<class xml:id="noStart">
+    			<label xml:lang="de">Nur beginnend</label>
+    			<label xml:lang="en">Only initiating</label>
+    		</class>
+    		<class xml:id="noEnd">
+    			<label xml:lang="de">Nur endend</label>
+    			<label xml:lang="en">Only terminating</label>
+    		</class>
+    		<class xml:id="without">
+    			<label xml:lang="de">ohne</label>
+    			<label xml:lang="en">without</label>
+    		</class>
+    		<class xml:id="ediAdd">
+    			<label xml:lang="de">Hinzufügung</label>
+    			<label xml:lang="en">Addition</label>
+    		</class>
+    		<class xml:id="ediDel">
+    			<label xml:lang="de">Tilgung</label>
+    			<label xml:lang="en">Deletion</label>
+    		</class>
+    		<class xml:id="ediInt">
+    			<label xml:lang="de">Eingriff (Hg.)</label>
+    			<label xml:lang="en">Intervention (Ed.)</label>
+    		</class>
+    	</classGrp>
     </classifications>
   	<handList>
   		<hand xml:id="hand.1" medium="ink.black"/>
@@ -409,6 +435,62 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
+  	<remark type="reading">
+  		<class>Notentext</class>
+  		<mdiv>6</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="2" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.left</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem source="#ED-KA1 #ED-KA2"><note dur="8"/><note dur="8"/></lem>
+  					<rdg source="#A-P3-KA"><note dur="8" dots="1"/><note dur="16"/></rdg>
+  				</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>A-P3-KA</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>6</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="2" count="2"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem source="#A-P3-KA"><dynam>pp</dynam></lem>
+  					<rdg source="#ED-KA1 #ED-KA2"><dynam class="#without">pp</dynam></rdg>
+  				</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>A-P3-KA</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-P</edition>
+  		</editionList>
+  	</remark>
     <remark type="editorial" xml:id="baudi-30-31deb5f0">
       <class>Vortragsbezeichnung</class>
       <mdiv>6</mdiv>
@@ -668,5 +750,58 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
+  	<remark type="annotation">
+  		<class>Vortragsbezeichnung</class>
+  		<mdiv>6</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="9"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot><fermata/> mit Bleistift nachgetragen</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3-KA</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Dynamik</class>
+  		<mdiv>6</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="7" count="3"/>
+  				<range type="end" measure="9" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem source="#A-P3">
+  						<hairpin form="dim" corresp="#woods #strings"/>
+  						<hairpin form="dim" corresp="#piano" class="#without"/>
+  					</lem>
+  					<rdg source="#ED-KA1 #ED-KA2">
+  						<hairpin form="dim" class="#without"/>
+  					</rdg>
+  				</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>ED-P</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-P</edition>
+  		</editionList>
+  	</remark>
   </remarks>
 </crApp>

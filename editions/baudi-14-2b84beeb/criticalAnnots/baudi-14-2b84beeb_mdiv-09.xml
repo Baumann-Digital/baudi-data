@@ -233,6 +233,32 @@
           <label xml:lang="en">Sonstige (en)</label>
         </class>
       </classGrp>
+    	<classGrp label="editorialClassifications">
+    		<class xml:id="noStart">
+    			<label xml:lang="de">Nur beginnend</label>
+    			<label xml:lang="en">Only initiating</label>
+    		</class>
+    		<class xml:id="noEnd">
+    			<label xml:lang="de">Nur endend</label>
+    			<label xml:lang="en">Only terminating</label>
+    		</class>
+    		<class xml:id="without">
+    			<label xml:lang="de">ohne</label>
+    			<label xml:lang="en">without</label>
+    		</class>
+    		<class xml:id="ediAdd">
+    			<label xml:lang="de">Hinzufügung</label>
+    			<label xml:lang="en">Addition</label>
+    		</class>
+    		<class xml:id="ediDel">
+    			<label xml:lang="de">Tilgung</label>
+    			<label xml:lang="en">Deletion</label>
+    		</class>
+    		<class xml:id="ediInt">
+    			<label xml:lang="de">Eingriff (Hg.)</label>
+    			<label xml:lang="en">Intervention (Ed.)</label>
+    		</class>
+    	</classGrp>
     </classifications>
   	<handList>
   		<hand xml:id="hand.1" medium="ink.black"/>
@@ -240,7 +266,7 @@
   	</handList>
   </setting>
   <remarks>
-    <remark type="editorial" xml:id="baudi-30-5b57b2cf">
+    <remark type="reading" xml:id="baudi-30-5b57b2cf">
       <class>Notentext</class>
       <mdiv>9</mdiv>
       <occurances>
@@ -253,7 +279,7 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>In SV ist nur der obere Oktavton mit der Anweisung »col. 8va« notiert.</annot>
+      	<annot><dir>col. 8va</dir></annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
@@ -374,7 +400,12 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>In SV irrtümlich viertel statt halbe Note</annot>
+        <annot>
+        <app>
+        	<lem source="#A-P3-KA"><note dur="4"/></lem>
+        	<rdg source="#ED-KA1 #ED-KA2"><note dur="4"/></rdg>
+        </app>
+        </annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
