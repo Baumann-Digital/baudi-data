@@ -468,6 +468,7 @@
   		</occurances>
   		<parts>
   			<part>piano</part>
+  			<part>harmonium</part>
   		</parts>
   		<annots>
   			<annot>
@@ -487,6 +488,7 @@
   		</manifestationList>
   		<editionList>
   			<edition>BauDi-KA</edition>
+  			<edition>BauDi-Harm</edition>
   		</editionList>
   	</remark>
   	<remark type="reading">
@@ -699,9 +701,16 @@
       </occurances>
       <parts>
         <part>piano.right</part>
+        <part>harmonium.right</part>
       </parts>
       <annots>
-        <annot>Punktierung (<note pname="d" accid.ges="f" dur="2"><dot/></note>) kollidiert mit <tie/>)</annot>
+        <annot>
+        <app>
+        	<lem source="#A-P3-KA"><note pname="d" accid.ges="f" dur="2"><dot/></note></lem>
+        	<rdg source="#ED-KA1 #ED-KA2"><note pname="d" accid.ges="f" dur="2"><dot class="#without"/></note></rdg>
+        </app>
+        </annot>
+      	<annot>Möglicherweise kollidiert der Haltebogen mit dem Verlängerungspunkt und ist daher nicht sichtbar</annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3-KA</manifestation>
