@@ -375,7 +375,33 @@
         <edition>BauDi-Harm</edition>
       </editionList>
     </remark>
-    <remark type="reading" xml:id="baudi-30-214d78a0">
+  	<remark type="editorial">
+  		<class>Bogensetzung</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="5" count="3"/>
+  				<range type="end" measure="5" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.left</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<lem source="#A-P3"><slur/></lem>
+  				<rdg source="#ED-KA1 #ED-KA2"><slur class="#without"/></rdg>
+  			</app></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-P</edition>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="reading" xml:id="baudi-30-214d78a0">
       <class>Sonstige</class>
       <mdiv>8</mdiv>
       <occurances>
@@ -397,7 +423,7 @@
         <edition>BauDi-KA</edition>
       </editionList>
     </remark>
-    <remark type="editorial" xml:id="baudi-30-fbc73162">
+    <remark type="reading" xml:id="baudi-30-fbc73162">
       <class>Bogensetzung</class>
       <mdiv>8</mdiv>
       <occurances>
@@ -410,13 +436,13 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>SV ohne Bogensetzung, vgl. jedoch Vlc.</annot>
+        <annot><ptr target="#A-P3"/> ohne Bogensetzung</annot>
+        <annot>Bogensetzung in <ptr target="#A-P3" corresp="#violoncello"/> abweichend</annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
       </manifestationList>
       <editionList>
-        <edition>BauDi-P</edition>
         <edition>BauDi-KA</edition>
       </editionList>
     </remark>
@@ -459,13 +485,15 @@
         <part>piano.right</part>
       </parts>
       <annots>
-        <annot>SV ohne Bogensetzung, an Vl. 1+2 angeglichen</annot>
+        <annot><ptr target="#A-P3 #ED-KA1 #ED-KA2"/> ohne Bogensetzung</annot>
+      	<annot><ptr type="adapt" target="#A-P3" corresp="#violin.i #violin.ii"/></annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      	<manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editionList>
-        <edition>BauDi-P</edition>
         <edition>BauDi-KA</edition>
       </editionList>
     </remark>
@@ -565,6 +593,71 @@
         <edition>BauDi-KA</edition>
       </editionList>
     </remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<position measure="11" count="1"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.left</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem source="#A-P3">
+  						<chord dur="2"><note pname="a" accid.ges="f" oct="2"/><note pname="e" accid.ges="f" oct="3"/></chord>
+  					</lem>
+  					<rdg source="#ED-KA1 #ED-KA2">
+  						<note pname="a" accid.ges="f" oct="2" dur="2"/>
+  					</rdg>
+  				</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
+  	<remark type="editorial">
+  		<class>Notentext</class>
+  		<mdiv>8</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="12" count="1"/>
+  				<range type="end" measure="12" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.left</part>
+  		</parts>
+  		<annots>
+  			<annot>
+  				<app>
+  					<lem source="#A-P3">
+  						<slur/>
+  					</lem>
+  					<rdg source="#ED-KA1 #ED-KA2">
+  						<slur class="#without"/>
+  					</rdg>
+  				</app>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
     <remark type="reading" xml:id="baudi-30-add22c21">
       <class>Notentext</class>
       <mdiv>8</mdiv>
@@ -682,9 +775,10 @@
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
+        <manifestation>ED-KA1</manifestation>
+      	<manifestation>ED-KA2</manifestation>
       </manifestationList>
       <editionList>
-        <edition>BauDi-P</edition>
         <edition>BauDi-KA</edition>
       </editionList>
     </remark>
@@ -834,7 +928,7 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>In SV zwei Achtel, die mit Bleistift nachträglich zusammengebalkt wurden. Korrektur nicht vollständig ausgeführt.</annot>
+      	<annot><add hand="#hand.2"><beam tstamp="23m+2"/></add></annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
@@ -911,8 +1005,8 @@
         <part>piano.left</part>
       </parts>
       <annots>
-        <annot>Irrtümlich <clef shape="F" line="4"/>
-        </annot>
+        <annot><clef shape="F" line="4"/></annot>
+      	<annot>Wohl irrtümlich vorgezeichnet</annot>
       </annots>
       <manifestationList>
         <manifestation>ED-KA2</manifestation>
@@ -996,7 +1090,6 @@
       </manifestationList>
       <editionList>
         <edition>BauDi-P</edition>
-        <edition>BauDi-KA</edition>
       </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-64082923">
@@ -1074,7 +1167,6 @@
       </occurances>
       <parts>
         <part>harmonium.right</part>
-        <part>piano.right</part>
       </parts>
       <annots>
         <annot>
@@ -1096,7 +1188,6 @@
       </manifestationList>
       <editionList>
         <edition>BauDi-Harm</edition>
-        <edition>BauDi-KA</edition>
       </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-fffbf485">
@@ -1124,7 +1215,6 @@
       </manifestationList>
       <editionList>
         <edition>BauDi-P</edition>
-        <edition>BauDi-KA</edition>
       </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-e7a4dbd1">

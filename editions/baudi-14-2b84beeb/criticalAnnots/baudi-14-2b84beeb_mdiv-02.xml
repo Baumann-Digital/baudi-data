@@ -336,11 +336,10 @@
         <part>piano</part>
       </parts>
       <annots>
-        <annot>Ohne <dynam>p</dynam>
-          <ptr type="follow" target="#A-P3" corresp="#organ"/>
-        </annot>
+        <annot><dynam class="#without">p</dynam><ptr type="follow" target="#A-P3" corresp="#organ"/></annot>
       </annots>
       <manifestationList>
+        <manifestation>A-P2</manifestation>
         <manifestation>A-P3</manifestation>
         <manifestation>ED-KA1</manifestation>
         <manifestation>ED-KA2</manifestation>
@@ -386,14 +385,19 @@
       <parts>
         <part>organ.left</part>
         <part>harmonium.left</part>
+        <part>piano.left</part>
       </parts>
       <annots>
-        <annot>Ohne <slur/>
-          <ptr type="follow" target="#A-P3" corresp="#organ"/>
-        </annot>
+        <annot>
+        	<app>
+        		<lem source="#A-P3 #ED-KA1 #ED-KA2"></lem>
+        		<rdg source="#A-P2"><slur class="#without"/></rdg>
+        	</app>
+        	</annot>
       </annots>
       <manifestationList>
         <manifestation>A-P3</manifestation>
+        <manifestation>A-P2</manifestation>
         <manifestation>ED-KA1</manifestation>
         <manifestation>ED-KA2</manifestation>
       </manifestationList>
@@ -814,9 +818,10 @@
         <part>organ.left</part>
       </parts>
       <annots>
-        <annot>Dieser Anschlusstakt wurde so umgeschrieben, dass sowohl die Fassung mit als auch ohne wietere Orgel/Harmonium sichtbar wird. Endet die Orgel/ das Harmnium auf Zz. 1, wie in der Partitur (= A-P3, ED-P), so ist der Klang nach einem Viertelschlag wegzunehmen. Spielt die ORgel/das Harmonium weiter, so ist in T. 4 Zz. 1 eine Oktavierung vorzunehmen, um den Anschluss zu ermöglichen.</annot>
+        <annot>Dieser Anschlusstakt wurde so umgeschrieben, dass sowohl die Fassung mit als auch ohne wietere Orgel/Harmonium sichtbar wird. Endet die Orgel/ das Harmnium auf Zz. 1, wie in der Partitur (= A-P3, ED-P), so ist der Klang nach einem Viertelschlag wegzunehmen. Spielt die Orgel/das Harmonium weiter, so ist in T. 4 Zz. 1 eine Oktavierung vorzunehmen, um den Anschluss zu ermöglichen.</annot>
       </annots>
       <manifestationList>
+        <manifestation>A-P2</manifestation>
         <manifestation>A-P3</manifestation>
         <manifestation>ED-KA2</manifestation>
         <manifestation>ED-P</manifestation>
@@ -836,7 +841,6 @@
         </occurance>
       </occurances>
       <parts>
-<!--                <part>clarinet</part>-->
         <part>harmonium.right</part>
         <part>organ.right</part>
       </parts>
@@ -1001,8 +1005,7 @@
         <part>choirViolin.ii</part>
       </parts>
       <annots>
-        <annot>
-          <slur/> endet erst in Takt 13 Zählzeit 1</annot>
+        <annot><slur tstamp2="13m+1"/></annot>
         <annot>
           <ptr type="follow" target="#A-P2"/>
         </annot>
@@ -1014,6 +1017,38 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
+  	<remark type="editorial">
+  		<class>Bogensetzung</class>
+  		<mdiv>2</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="12" count="1"/>
+  				<range type="end" measure="12" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano.right</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<lem source="#A-P3"><slur tstamp2="12m+4"/> (Oberstimme)</lem>
+  				<rdg source="#A-P3"><slur tstamp2="13m+1"/> (Unterstimme)</rdg>
+  				<rdg source="#ED-KA1 #ED-KA2"><slur tstamp2="13m+1"/></rdg>
+  			</app></annot>
+  			<annot>
+  				<ptr type="compare" target="#A-P2" corresp="#choirViolin"/>
+  				<ptr type="compare" target="#ED-KA1 #ED-KA2 #A-P3" corresp="#mdiv-2_m-13 #mdiv-2_m-14 #mdiv-2_m-15"/>
+  			</annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-P</edition>
+  		</editionList>
+  	</remark>
     <remark type="reading" xml:id="baudi-30-801a8c65">
       <class>Dynamik</class>
       <mdiv>2</mdiv>
@@ -1577,5 +1612,32 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
+  	<remark type="editorial">
+  		<class>Bogensetzung</class>
+  		<mdiv>2</mdiv>
+  		<occurances>
+  			<occurance>
+  				<range type="start" measure="8" count="1"/>
+  				<range type="end" measure="8" count="4"/>
+  			</occurance>
+  		</occurances>
+  		<parts>
+  			<part>piano</part>
+  		</parts>
+  		<annots>
+  			<annot><app>
+  				<lem source="#A-P3"><slur/></lem>
+  				<rdg source="#ED-KA1 #ED-KA2"><slur class="#without"/></rdg>
+  			</app></annot>
+  		</annots>
+  		<manifestationList>
+  			<manifestation>A-P3</manifestation>
+  			<manifestation>ED-KA2</manifestation>
+  			<manifestation>ED-KA1</manifestation>
+  		</manifestationList>
+  		<editionList>
+  			<edition>BauDi-KA</edition>
+  		</editionList>
+  	</remark>
   </remarks>
 </crApp>
