@@ -1,5 +1,4 @@
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-aedbaef3">
     <title type="uniform" xml:lang="de">
         <titlePart type="main">Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</titlePart>
@@ -39,7 +38,7 @@
                     </ambitus>
                 </perfRes>
             </perfResList>
-            <perfResList auth="choir.men">
+            <perfResList label="choirMale">
                 <perfRes label="tenor.i">
                     <ambitus>
                         <ambNote pname="b" oct="2" type="lowest"/>
@@ -66,7 +65,7 @@
                 </perfRes>
             </perfResList>
             <perfResList type="choose">
-                <perfResList auth="choir.children">
+                <perfResList label="choirChildren">
                     <perfRes label="soprano.i">
                         <ambitus>
                             <ambNote pname="a" accid="f" oct="4" type="lowest"/>
@@ -92,7 +91,7 @@
                         </ambitus>
                     </perfRes>
                 </perfResList>
-                <perfResList auth="choir.women">
+                <perfResList label="choirFemale">
                     <perfRes label="soprano.i">
                         <ambitus>
                             <ambNote pname="a" accid="f" oct="4" type="lowest"/>
@@ -119,7 +118,7 @@
                     </perfRes>
                 </perfResList>
             </perfResList>
-            <perfRes label="choir.mixed">
+            <perfRes label="choirMixed">
                 <perfRes label="soprano.i">
                     <ambitus>
                         <ambNote pname="c" oct="4" type="lowest"/>
@@ -178,10 +177,10 @@
                 <perfRes label="clarinet.ii"/>
                 <perfRes label="bassoon.i"/>
                 <perfRes label="bassoon.ii"/>
-                <perfRes label="horn.french.i"/>
-                <perfRes label="horn.french.ii"/>
-                <perfRes label="horn.french.iii"/>
-                <perfRes label="horn.french.iv"/>
+                <perfRes label="hornFrench.i"/>
+                <perfRes label="hornFrench.ii"/>
+                <perfRes label="hornFrench.iii"/>
+                <perfRes label="hornFrench.iv"/>
                 <perfRes label="trumpet.i"/>
                 <perfRes label="trumpet.ii"/>
                 <perfRes label="trombone.i"/>
@@ -189,7 +188,8 @@
                 <perfRes label="trombone.iii"/>
                 <perfRes label="tuba"/>
                 <perfRes label="timpani"/>
-                <perfRes adLib="true" label="bells">Glocken</perfRes>
+                <perfRes adLib="true" label="harp"/>
+                <perfRes adLib="true" label="bells"/>
                 <perfRes label="violin.i"/>
                 <perfRes label="violin.ii"/>
                 <perfRes label="viola"/>
