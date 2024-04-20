@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="data-package" name="baudiData" basedir="." xmlns:unless="ant:unless">
+<project default="update-baudi-docker" name="baudiData" basedir="." xmlns:unless="ant:unless">
     <dirname property="baudiData.basedir" file="${ant.file.baudiData}"/>
     
     <!-- import default properties from file -->
@@ -12,14 +12,8 @@
         <delete file="repo.xml"/>
     </target>
     
-    <target name="clean" if="${build.dir}">
-        <delete includeemptydirs="true">
-            <fileset dir="${build.dir}" defaultexcludes="false">
-                <include name="**/*"/>
-                <exclude name="*.xar"/>
-                <exclude name="*.tar.gz"/>
-            </fileset>
-        </delete>
+    <target name="clean">
+        <delete dir="${build.dir}" includeemptydirs="true"/>
     </target>
     
     <target name="init" depends="get-current-hash-of-HEAD">
@@ -49,13 +43,9 @@
             <filterset>
                 <filter token="data.target" value="${project.app}"/>
                 <filter token="project.name" value="${project.name}"/>
-                <filter token="db.user.name" value="${db.user.name}"/>
-                <filter token="db.user.password" value="${db.user.password}"/>
-                <filter token="db.user.group" value="${db.user.group}"/>
-                <filter token="db.user.permissions" value="${db.user.permissions}"/>
             </filterset>
         </copy>
-        <zip destfile="${build.dir}/${project.app}-${local.revision}.xar">
+        <zip destfile="${dist.dir}/${project.app}-${local.revision}.xar">
             <fileset dir=".">
                 <include name="**/*.*"/>
                 <exclude name="**/baudi-06-dummy.xml"/>
@@ -65,7 +55,8 @@
                 <exclude name="*.tmpl"/>
                 <exclude name="*.xpr"/>
                 <exclude name="*.properties"/>
-                <exclude name="build/**"/>
+                <exclude name="${build.dir}/"/>
+                <exclude name="${dist.dir}/"/>
                 <exclude name="blob/"/>
                 <exclude name="**/__contents__.xml"/>
                 <exclude name="submodules/**/*.*"/>
@@ -73,6 +64,19 @@
                 <exclude name="*.tar.gz"/>
             </fileset>
         </zip>
+        <antcall target="clean"/>
+    </target>
+    
+    <!-- Copy xar package to baudi-docker repo (autodeploy) -->
+    <target name="update-baudi-docker" depends="data-package">
+        <echo>Delete old packages</echo>
+        <delete>
+            <fileset dir="${baudiData.basedir}/../baudi-docker/autodeploy">
+                <include name="${project.app}-*.xar"/>
+            </fileset>
+        </delete>
+        <echo>Add new package</echo>
+        <copy file="${dist.dir}/${project.app}-${local.revision}.xar" todir="${baudiData.basedir}/../baudi-docker/autodeploy" overwrite="yes"/>
     </target>
     
 </project>
