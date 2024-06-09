@@ -712,7 +712,7 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
-    <remark type="editorial" xml:id="baudi-30-39a7a180">
+    <remark type="reading" xml:id="baudi-30-39a7a180">
       <class>Dynamik</class>
       <mdiv>7</mdiv>
       <occurances>
@@ -1176,6 +1176,31 @@
       </manifestationList>
       <editionList>
         <edition>BauDi-P</edition>
+      </editionList>
+    </remark>
+    <remark type="editorial">
+      <class>Dynamik</class>
+      <mdiv>7</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="16" count="2"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.i.1</part>
+        <part>violin.i.2</part>
+      </parts>
+      <annots>
+        <annot>
+          <dynam part="#violin.i.1" class="#without">p</dynam>
+        </annot>
+        <annot><ptr type="compare" target="#mdiv-7_m-82"/></annot>
+      </annots>
+      <manifestationList>
+        <manifestation>A-St-Vl</manifestation>
+      </manifestationList>
+      <editionList>
+        <edition>BauDi-Viol</edition>
       </editionList>
     </remark>
     <remark type="editorial" xml:id="baudi-30-85cb4ce5">

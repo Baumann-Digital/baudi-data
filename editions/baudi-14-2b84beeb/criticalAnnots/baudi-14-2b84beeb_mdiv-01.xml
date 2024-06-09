@@ -2415,7 +2415,7 @@
       <annots>
         <annot>
           <add hand="#hand.4">
-            <dir>Zur Beachtung: <rend color="black" corresp="#hand.1">Die Harmoniumstimme, die hier des Raumes wegen nur auf <rend rend="underline">ein</rend>
+            <dir>Zur Beachtung: <rend color="black" corresp="#hand.1">Die Harmoniumstimme, die des Raumes wegen nur auf <rend rend="underline">ein</rend>
                 <lb/>System geschrieben werden konnte, kann, namentlich bei Forte-Stellen, verstärkt<lb/>werden, besonders durch Verdoppelung.</rend>
             </dir>
           </add>
@@ -4118,7 +4118,7 @@
       </parts>
       <annots>
         <annot>
-          <slur tstamp="35m+2"/>
+          <slur tstamp="35m+2" tstamp2="25m+4"/>
         </annot>
       </annots>
       <manifestationList>
@@ -8251,6 +8251,27 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
+    <remark type="editorial">
+      <class>Notentext</class>
+      <mdiv>1</mdiv>
+      <occurances>
+        <occurance>
+          <position measure="71" count="1"/>
+        </occurance>
+      </occurances>
+      <parts>
+        <part>violin.i.1</part>
+      </parts>
+      <annots>
+        <annot>Bezifferung <ptr type="follow" target="#A-St-Vl" corresp="#violin.i.2"/>, <ptr type="compare" corresp="#mdiv-1_m-70_c-3"/></annot>
+      </annots>
+      <manifestationList>
+        <manifestation>ED-P</manifestation>
+      </manifestationList>
+      <editionList>
+        <edition>BauDi-P</edition>
+      </editionList>
+    </remark>
     <remark type="reading" xml:id="baudi-30-2fec4465">
       <class>Notentext</class>
       <class>Artikulation</class>
@@ -11677,7 +11698,7 @@
         <edition>BauDi-P</edition>
       </editionList>
     </remark>
-    <remark type="rerading" xml:id="baudi-30-bd5cd0e0">
+    <remark type="reading" xml:id="baudi-30-bd5cd0e0">
       <class>Bogensetzung</class>
       <mdiv>1</mdiv>
       <occurances>
