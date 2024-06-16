@@ -12,37 +12,38 @@
                     <names>
                         <name>Werkkontext</name>
                     </names>
-                    <navigatorItem xml:id="navItem-0-2" sortNo="1" targets="xmldb:exist:///db/apps/baudiApp/index.html">
+                    <navigatorItem xml:id="navItem-4" sortNo="9" targets="http://baumann-digital.de/index.html">
                         <names>
-                            <name>Besetzung</name>
+                            <name>Zum Online-Portal</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem xml:id="navItem-0-3" sortNo="2" targets="http://baumann-digital.de/index.html">
+                    <navigatorSeparator sortNo="1"/>
+                    <!--<navigatorItem xml:id="navItem-0-1" sortNo="2" targets="http://baumann-digital.de/index.html">
                         <names>
                             <name>Gesangstexte</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem xml:id="navItem-0-1" sortNo="3" targets="http://baumann-digital.de/index.html">
+                    <navigatorItem xml:id="navItem-0-2" sortNo="3" targets="http://baumann-digital.de/index.html">
                         <names>
-                            <name>Uraufführung</name>
+                            <name>Entstehung</name>
                         </names>
                     </navigatorItem>
-                    <navigatorItem xml:id="navItem-0-4" sortNo="4" targets="http://baumann-digital.de/index.html">
+                    <navigatorItem xml:id="navItem-0-3" sortNo="3" targets="http://baumann-digital.de/index.html">
                         <names>
-                            <name>Werkeinführung</name>
+                            <name>Rezeption</name>
                         </names>
-                    </navigatorItem>
+                    </navigatorItem>-->
                 </navigatorCategory>
                 <navigatorSeparator sortNo="2"/>
-                <navigatorCategory xml:id="navCategory-1" sortNo="3">
+                <!--<navigatorCategory xml:id="navCategory-1" sortNo="3">
                     <names>
                         <name>Edition</name>
                     </names>
-                    <!--<navigatorItem xml:id="navItem-1-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml[width:900]">
+                    <!-\-<navigatorItem xml:id="navItem-1-1" sortNo="1" targets="xmldb:exist:///db/apps/baudiData/works/baudi-02-aedbaef3.xml[width:900]">
                         <names>
                             <name>Kritischer Bericht</name>
                         </names>
-                    </navigatorItem>-->
+                    </navigatorItem>-\->
                     <navigatorItem xml:id="navItem-1-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-855dce96.xml">
                         <names>
                             <name>Orchesterpartitur | BauDi<sup xmlns="http://www.w3.org/1999/xhtml">P</sup>
@@ -57,7 +58,7 @@
                     </navigatorItem>
                     <navigatorCategory xml:id="navCategory-1-4" sortNo="4">
                         <names>
-                            <name>Bearbeitungen</name>
+                            <name>Einrichtungen</name>
                         </names>
                         <navigatorItem xml:id="navItem-1-4-1" sortNo="5" targets="xmldb:exist:///db/apps/baudiData/editions/baudi-14-2b84beeb/baudi-14-4e1c16e3.xml">
                             <names>
@@ -73,7 +74,7 @@
                         </navigatorItem>
                     </navigatorCategory>
                 </navigatorCategory>
-                <navigatorSeparator sortNo="4"/>
+                <navigatorSeparator sortNo="4"/>-->
                 <navigatorCategory xml:id="navCategory-2" sortNo="5">
                     <names>
                         <name>Handschriften &amp; Drucke mit Eintragungen</name>
@@ -146,12 +147,12 @@
                                 </name>
                             </names>
                         </navigatorItem>
-                        <navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-604d6b0b.xml">
+                        <!--<navigatorItem xml:id="navItem-2-5-2" sortNo="2" targets="xmldb:exist:///db/apps/baudiData/sources/music/cantatas/baudi-01-604d6b0b.xml">
                             <names>
                                 <name>Jesus meine Zuversicht | A<sup xmlns="http://www.w3.org/1999/xhtml">St-X</sup>
                                 </name>
                             </names>
-                        </navigatorItem>
+                        </navigatorItem>-->
                     </navigatorCategory>
                 </navigatorCategory>
                 <navigatorSeparator sortNo="6"/>
@@ -200,12 +201,6 @@
                         </navigatorItem>
                     </navigatorCategory>
                 </navigatorCategory>
-                <navigatorSeparator sortNo="8"/>
-                <navigatorItem xml:id="navItem-4" sortNo="9" targets="http://baumann-digital.de/index.html">
-                    <names>
-                        <name>Zum Online-Portal</name>
-                    </names>
-                </navigatorItem>
             </navigatorDefinition>
             <searchWindowConfig/>
             <concordances>
