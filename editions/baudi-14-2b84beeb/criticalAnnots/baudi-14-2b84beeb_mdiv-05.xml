@@ -276,6 +276,43 @@
                 <edition>BauDi-Harm</edition>
             </editionList>
         </remark>
+        <remark type="editorial" xml:id="baudi-30-da0779e4">
+            <class>Dynamik</class>
+            <mdiv>5</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="6" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano</part>
+                <part>harmonium</part>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <lem source="#BauDi-KA">
+                            <dynam tstamp="6m+1">pp</dynam>
+                        </lem>
+                        <rdg source="#ED-KA1 #ED-KA2 #A-P3">
+                            <dynam class="#without">pp</dynam>
+                        </rdg>
+                    </app>
+                </annot>
+                <annot>
+                    <ptr type="compare" target="#woods"/>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+                <edition>BauDi-Harm</edition>
+            </editionList>
+        </remark>
         <remark type="reading" xml:id="baudi-30-221af927">
             <class>Vortragsbezeichnung</class>
             <mdiv>5</mdiv>
@@ -455,43 +492,6 @@
                 <manifestation>ED-KA1</manifestation>
             </manifestationList>
             <editionList>
-                <edition>BauDi-Harm</edition>
-            </editionList>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-da0779e4">
-            <class>Dynamik</class>
-            <mdiv>5</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="6" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano</part>
-                <part>harmonium</part>
-            </parts>
-            <annots>
-                <annot>
-                    <app>
-                        <lem source="#BauDi-KA">
-                            <dynam tstamp="6m+1">pp</dynam>
-                        </lem>
-                        <rdg source="#ED-KA1 #ED-KA2 #A-P3">
-                            <dynam class="#without">pp</dynam>
-                        </rdg>
-                    </app>
-                </annot>
-                <annot>
-                    <ptr type="compare" target="#woods"/>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
-                <manifestation>ED-KA1</manifestation>
-                <manifestation>ED-KA2</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
                 <edition>BauDi-Harm</edition>
             </editionList>
         </remark>
@@ -840,30 +840,6 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
-        <remark type="annotation" xml:id="baudi-30-c82a579b">
-            <class>Notentext</class>
-            <mdiv>5</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="14" count="4"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>violin.i</part>
-                <part>violin.ii</part>
-                <part>viola</part>
-            </parts>
-            <annots>
-                <annot>Enharmonische Umdeutung der letzten Note als Lesehilfe für die Folgetonart <key pname="d" mode="major"/> angegeben</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
-                <manifestation>ED-P</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
         <remark type="editorial" xml:id="baudi-30-330a433e">
             <class>Notentext</class>
             <mdiv>5</mdiv>
@@ -888,6 +864,30 @@
             <editionList>
                 <edition>BauDi-Harm</edition>
                 <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
+        <remark type="annotation" xml:id="baudi-30-c82a579b">
+            <class>Notentext</class>
+            <mdiv>5</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="14" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>violin.i</part>
+                <part>violin.ii</part>
+                <part>viola</part>
+            </parts>
+            <annots>
+                <annot>Enharmonische Umdeutung der letzten Note als Lesehilfe für die Folgetonart <key pname="d" mode="major"/> angegeben</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-7f63d9f5">

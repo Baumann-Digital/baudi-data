@@ -907,6 +907,39 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
+        <remark type="editorial" xml:id="baudi-30-55e73153">
+            <class>Bogensetzung</class>
+            <mdiv>2</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="8" count="1"/>
+                    <range type="end" measure="8" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano</part>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <lem source="#A-P3">
+                            <slur/>
+                        </lem>
+                        <rdg source="#ED-KA1 #ED-KA2">
+                            <slur class="#without"/>
+                        </rdg>
+                    </app>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-KA2</manifestation>
+                <manifestation>ED-KA1</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
         <remark type="reading" xml:id="baudi-30-2033f9ab">
             <class>Notentext</class>
             <mdiv>2</mdiv>
@@ -1623,39 +1656,6 @@
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-55e73153">
-            <class>Bogensetzung</class>
-            <mdiv>2</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="8" count="1"/>
-                    <range type="end" measure="8" count="4"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano</part>
-            </parts>
-            <annots>
-                <annot>
-                    <app>
-                        <lem source="#A-P3">
-                            <slur/>
-                        </lem>
-                        <rdg source="#ED-KA1 #ED-KA2">
-                            <slur class="#without"/>
-                        </rdg>
-                    </app>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
-                <manifestation>ED-KA2</manifestation>
-                <manifestation>ED-KA1</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
     </remarks>

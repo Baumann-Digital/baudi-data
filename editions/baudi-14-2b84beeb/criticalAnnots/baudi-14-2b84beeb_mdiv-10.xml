@@ -545,6 +545,37 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
+        <remark type="editorial" xml:id="baudi-30-62b48874">
+            <class>Notentext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="1" count="1"/>
+                    <range type="end" measure="3" count="4"/>
+                </occurance>
+                <occurance>
+                    <range type="start" measure="22" count="1"/>
+                    <range type="end" measure="24" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot type="ediDel">
+                    <ptr target="#ED-KA1 #ED-KA2"/>
+                    <dir>col 8va</dir>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
         <remark type="annotation" xml:id="baudi-30-13c565ae">
             <class>Notentext</class>
             <mdiv>10</mdiv>
@@ -815,6 +846,31 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
+        <remark type="reading" xml:id="baudi-30-65bb1b31">
+            <class>Notentext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="1"/>
+                </occurance>
+                <occurance>
+                    <position measure="25" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot>
+                    <dir>col 8va</dir> erst auf Zz. 2</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
         <remark type="reading" xml:id="baudi-30-47d455f2">
             <class>Notentext</class>
             <mdiv>10</mdiv>
@@ -893,6 +949,31 @@
             </manifestationList>
             <editionList>
                 <edition>BauDi-Viol</edition>
+            </editionList>
+        </remark>
+        <remark type="reading" xml:id="baudi-30-b35fd48f">
+            <class>Notentext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="4" count="3"/>
+                </occurance>
+                <occurance>
+                    <position measure="25" count="3"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot>
+                    <hairpin form="cres"/> endet bereits zu Beginn der Zählzeit</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-7d03ce87">
@@ -1011,6 +1092,43 @@
             </annots>
             <manifestationList>
                 <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
+            </editionList>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-1c8fc1a1">
+            <class>Dynamik</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="6" count="1"/>
+                </occurance>
+                <occurance>
+                    <position measure="27" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.right</part>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <lem source="#A-P3-KA">
+                            <note pname="g" oct="5">
+                                <dot/>
+                            </note>
+                        </lem>
+                        <rdg source="#ED-KA1 #ED-KA2">
+                            <note pname="g" oct="5">
+                                <dot class="#without"/>
+                            </note>
+                        </rdg>
+                    </app>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
@@ -1389,6 +1507,41 @@
                 <edition>BauDi-Viol</edition>
             </editionList>
         </remark>
+        <remark type="editorial" xml:id="baudi-30-21805d6c">
+            <class>Dynamik</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="8" count="1"/>
+                </occurance>
+                <occurance>
+                    <position measure="29" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano</part>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <lem source="#A-P3-KA">
+                            <dynam tstamp="0m+1">p</dynam>
+                        </lem>
+                        <rdg source="#ED-KA1 #ED-KA2">
+                            <dynam tstamp="0m+2">p</dynam>
+                        </rdg>
+                    </app>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
         <remark type="annotation" xml:id="baudi-30-89de1bcd">
             <class>Vortragsbezeichnung</class>
             <mdiv>10</mdiv>
@@ -1458,159 +1611,6 @@
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-62b48874">
-            <class>Notentext</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="1" count="1"/>
-                    <range type="end" measure="3" count="4"/>
-                </occurance>
-                <occurance>
-                    <range type="start" measure="22" count="1"/>
-                    <range type="end" measure="24" count="4"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.left</part>
-            </parts>
-            <annots>
-                <annot type="ediDel">
-                    <ptr target="#ED-KA1 #ED-KA2"/>
-                    <dir>col 8va</dir>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-                <manifestation>ED-KA1</manifestation>
-                <manifestation>ED-KA2</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-65bb1b31">
-            <class>Notentext</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="4" count="1"/>
-                </occurance>
-                <occurance>
-                    <position measure="25" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.left</part>
-            </parts>
-            <annots>
-                <annot>
-                    <dir>col 8va</dir> erst auf Zz. 2</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-b35fd48f">
-            <class>Notentext</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="4" count="3"/>
-                </occurance>
-                <occurance>
-                    <position measure="25" count="3"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.left</part>
-            </parts>
-            <annots>
-                <annot>
-                    <hairpin form="cres"/> endet bereits zu Beginn der Zählzeit</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
-            </editionList>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-1c8fc1a1">
-            <class>Dynamik</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="6" count="1"/>
-                </occurance>
-                <occurance>
-                    <position measure="27" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.right</part>
-            </parts>
-            <annots>
-                <annot>
-                    <app>
-                        <lem source="#A-P3-KA">
-                            <note pname="g" oct="5">
-                                <dot/>
-                            </note>
-                        </lem>
-                        <rdg source="#ED-KA1 #ED-KA2">
-                            <note pname="g" oct="5">
-                                <dot class="#without"/>
-                            </note>
-                        </rdg>
-                    </app>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-21805d6c">
-            <class>Dynamik</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="8" count="1"/>
-                </occurance>
-                <occurance>
-                    <position measure="29" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano</part>
-            </parts>
-            <annots>
-                <annot>
-                    <app>
-                        <lem source="#A-P3-KA">
-                            <dynam tstamp="0m+1">p</dynam>
-                        </lem>
-                        <rdg source="#ED-KA1 #ED-KA2">
-                            <dynam tstamp="0m+2">p</dynam>
-                        </rdg>
-                    </app>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-                <manifestation>ED-KA1</manifestation>
-                <manifestation>ED-KA2</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-51d797fa">
@@ -2504,6 +2504,28 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
+        <remark type="reading" xml:id="baudi-30-c73bc202">
+            <class>Notentext</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="19" count="3"/>
+                    <range type="end" measure="19" count="4"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot>Notenhals nciht durchgehend</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
         <remark type="editorial" xml:id="baudi-30-7bf400f6">
             <class>Bogensetzung</class>
             <mdiv>10</mdiv>
@@ -2644,28 +2666,6 @@
                 <annot>
                     <artic artic="stacc" class="#without"/>
                 </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-c73bc202">
-            <class>Notentext</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="19" count="3"/>
-                    <range type="end" measure="19" count="4"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.left</part>
-            </parts>
-            <annots>
-                <annot>Notenhals nciht durchgehend</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3-KA</manifestation>
@@ -4199,6 +4199,34 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
+        <remark type="reading" xml:id="baudi-30-1bf9ba55">
+            <class>Dynamik</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="57" count="3"/>
+                    <range type="end" measure="59" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano</part>
+            </parts>
+            <annots>
+                <annot>
+                    <app>
+                        <rdg source="#A-P3-KA" hand="#hand.2">
+                            <hairpin form="dim" tstamp="57m+3" tstamp2="59m+1"/>
+                        </rdg>
+                    </app>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
         <remark type="reading" xml:id="baudi-30-fab057ac">
             <class>Dynamik</class>
             <mdiv>10</mdiv>
@@ -4344,6 +4372,59 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
+        <remark type="reading" xml:id="baudi-30-6dbe6576">
+            <class>Dynamik</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="59" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano</part>
+            </parts>
+            <annots>
+                <annot>
+                    <add hand="#hand.2">
+                        <dynam>p</dynam>
+                    </add>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+            </editionList>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-1a817f14">
+            <class>Pausensetzung</class>
+            <mdiv>10</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="59" count="1"/>
+                    <range type="end" measure="59" count="2"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>piano.left</part>
+            </parts>
+            <annots>
+                <annot>
+                    <rest dur="4" class="#without"/>
+                    <rest dur="8" dots="1" class="#without"/>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3-KA</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-KA</edition>
+                <edition>BauDi-Harm</edition>
+            </editionList>
+        </remark>
         <remark type="editorial" xml:id="baudi-30-783c89d6">
             <class>Pausensetzung</class>
             <mdiv>10</mdiv>
@@ -4375,59 +4456,6 @@
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-1bf9ba55">
-            <class>Dynamik</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="57" count="3"/>
-                    <range type="end" measure="59" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano</part>
-            </parts>
-            <annots>
-                <annot>
-                    <app>
-                        <rdg source="#A-P3-KA" hand="#hand.2">
-                            <hairpin form="dim" tstamp="57m+3" tstamp2="59m+1"/>
-                        </rdg>
-                    </app>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-6dbe6576">
-            <class>Dynamik</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="59" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano</part>
-            </parts>
-            <annots>
-                <annot>
-                    <add hand="#hand.2">
-                        <dynam>p</dynam>
-                    </add>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-2cc1f84a">
@@ -4610,34 +4638,6 @@
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="editorial" xml:id="baudi-30-1a817f14">
-            <class>Pausensetzung</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <range type="start" measure="59" count="1"/>
-                    <range type="end" measure="59" count="2"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.left</part>
-            </parts>
-            <annots>
-                <annot>
-                    <rest dur="4" class="#without"/>
-                    <rest dur="8" dots="1" class="#without"/>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-                <manifestation>ED-KA1</manifestation>
-                <manifestation>ED-KA2</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
-                <edition>BauDi-Harm</edition>
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-988a4b07">
