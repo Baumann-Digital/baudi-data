@@ -215,6 +215,28 @@
                     <label xml:lang="en">Sonstige (en)</label>
                 </class>
             </classGrp>
+            <classGrp label="editorialClassifications">
+                <class xml:id="noStart">
+                    <label xml:lang="de">Nur beginnend</label>
+                    <label xml:lang="en">Only initiating</label>
+                </class>
+                <class xml:id="noEnd">
+                    <label xml:lang="de">Nur endend</label>
+                    <label xml:lang="en">Only terminating</label>
+                </class>
+                <class xml:id="without">
+                    <label xml:lang="de">ohne</label>
+                    <label xml:lang="en">without</label>
+                </class>
+                <class xml:id="ediAdd">
+                    <label xml:lang="de">Hinzufügung</label>
+                    <label xml:lang="en">Addition</label>
+                </class>
+                <class xml:id="ediDel">
+                    <label xml:lang="de">Tilgung</label>
+                    <label xml:lang="en">Deletion</label>
+                </class>
+            </classGrp>
         </classifications>
         <handList>
             <hand xml:id="hand.1" medium="ink.black"/>
