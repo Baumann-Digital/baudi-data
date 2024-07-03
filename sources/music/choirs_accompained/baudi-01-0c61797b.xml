@@ -34,39 +34,39 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes auth="soprano" solo="true" xml:id="baudi-01-0c61797b-perfRes-0001">
+                  <perfRes solo="true" xml:id="baudi-01-0c61797b-perfRes-0001" codedval="soprano">
                      <range corresp="baudi-01-0c61797b-perfRes-0001">
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="g" oct="5" type="highest"/>
                      </range>
                   </perfRes>
-                  <perfRes auth="baritone" solo="true" xml:id="baudi-01-0c61797b-perfRes-0002">
+                  <perfRes solo="true" xml:id="baudi-01-0c61797b-perfRes-0002" codedval="baritone">
                      <range corresp="baudi-01-0c61797b-perfRes-0002">
                         <rangeNote pname="d" oct="3" type="lowest"/>
                         <rangeNote pname="e" oct="4" type="highest"/>
                         <rangeNote pname="g" oct="4" type="highestAlt"/>
                      </range>
                   </perfRes>
-                  <perfResList auth="choirMen">
-                     <perfRes auth="tenor.i" xml:id="baudi-01-0c61797b-perfRes-0003">
+                  <perfResList codedval="choirMen">
+                     <perfRes xml:id="baudi-01-0c61797b-perfRes-0003" codedval="tenor.i">
                         <range corresp="baudi-01-0c61797b-perfRes-0003">
                            <rangeNote pname="e" oct="4" type="lowest"/>
                            <rangeNote pname="b" oct="5" type="highest"/>
                         </range>
                      </perfRes>
-                     <perfRes auth="tenor.ii" xml:id="baudi-01-0c61797b-perfRes-0004">
+                     <perfRes xml:id="baudi-01-0c61797b-perfRes-0004" codedval="tenor.ii">
                         <range corresp="baudi-01-0c61797b-perfRes-0004">
                            <rangeNote pname="f" oct="4" type="lowest"/>
                            <rangeNote pname="f" accid="s" oct="5" type="highest"/>
                         </range>
                      </perfRes>
-                     <perfRes auth="bass.i" xml:id="baudi-01-0c61797b-perfRes-0005">
+                     <perfRes xml:id="baudi-01-0c61797b-perfRes-0005" codedval="bass.i">
                         <range corresp="baudi-01-0c61797b-perfRes-0005">
                            <rangeNote pname="e" oct="3" type="lowest"/>
                            <rangeNote pname="f" oct="4" type="highest"/>
                         </range>
                      </perfRes>
-                     <perfRes auth="bass.ii" xml:id="baudi-01-0c61797b-perfRes-0006">
+                     <perfRes xml:id="baudi-01-0c61797b-perfRes-0006" codedval="bass.ii">
                         <range corresp="baudi-01-0c61797b-perfRes-0006">
                            <rangeNote pname="f" oct="2" type="lowest"/>
                            <rangeNote pname="f" oct="4" type="highest"/>
@@ -89,11 +89,11 @@
                      Orchester- oder Klavierbegleitung</titlePart>
                </title>
                <composer xml:id="baudi-01-0c61797b-composer">
-                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                  <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                </composer>
                <arranger xml:id="baudi-01-0c61797b-arranger"/>
                <lyricist xml:id="baudi-01-0c61797b-lyricist">
-                  <persName auth="baudi-04-0f27b561">Herzog, Albert</persName>
+                  <persName codedval="baudi-04-0f27b561">Herzog, Albert</persName>
                </lyricist>
             </titleStmt>
             <physDesc>
@@ -144,7 +144,7 @@
                         xml:id="baudi-01-6b488120-hand-0001"/>
                </handList>
                <addDesc>
-                  <p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
+                  <p type="copyright">Copyright <date type="copyright">1908</date> by <corpName codedval="">C.F.W. Siegel's
                         Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>
                </addDesc>
                <condition n="1">
@@ -184,7 +184,7 @@
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
-               <language auth="de"/>
+               <language codedval="de"/>
             </langUsage>
             <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
     							<list

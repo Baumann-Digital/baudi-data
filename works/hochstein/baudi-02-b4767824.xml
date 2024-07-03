@@ -2,8 +2,8 @@
 <work xmlns="http://www.music-encoding.org/ns/mei" status="checked" xml:id="baudi-02-b4767824">
     <identifier type="baudi-copy">CMVS-HH-23</identifier>
     <title type="uniform" xml:id="baudi-02-b4767824-title"><titlePart type="main" xml:id="baudi-02-b4767824-titleMain">Halleluja,
-            Kind Jesus</titlePart><titlePart type="number" auth="opus">89</titlePart><titlePart type="mainSort">Halleluja Kind Jesus</titlePart></title>
-    <composer xml:id="baudi-02-b4767824-composer"><persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
+            Kind Jesus</titlePart><titlePart type="number" codedval="opus">89</titlePart><titlePart type="mainSort">Halleluja Kind Jesus</titlePart></title>
+    <composer xml:id="baudi-02-b4767824-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
     
     <lyricist xml:id="baudi-02-b4767824-lyricist"><persName>Nach einem englischen Text: Child Jesus</persName></lyricist>
     <key pname="f" mode="major"/>
@@ -14,15 +14,15 @@
     <history/>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
-        <language auth="de"/>
+        <language codedval="de"/>
     </langUsage>
     <perfMedium>
-        <perfResList auth="choir5voices">
-            <perfRes auth="soprano.i"/>
-            <perfRes auth="soprano.ii"/>
-            <perfRes auth="alto"/>
-            <perfRes auth="tenor"/>
-            <perfRes auth="bass"/>
+        <perfResList codedval="choir5voices">
+            <perfRes codedval="soprano.i"/>
+            <perfRes codedval="soprano.ii"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
         </perfResList>
     </perfMedium>
     <audience/>

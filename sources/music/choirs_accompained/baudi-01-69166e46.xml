@@ -22,7 +22,7 @@
                           xml:lang="de"
                           xml:id="baudi-01-69166e46-titleUniformMainDE">Grenzen der
                         Menschheit</titlePart>
-                    <titlePart type="number" label="opus" auth="woo"/>
+                    <titlePart type="number" label="opus" codedval="woo"/>
                     <titlePart type="perf">für Männerchor, Blasorchester und Orgel- und oder Klavierbegleitung</titlePart>
                     <titlePart type="dedication">Dem »Karlsruher Liederkranz« uns deinem Präsidente, Herr Gustav Vollmer Direktor
                         der Lehrerbildungsanstalt, Karlsruhe, zum 90jährigen Vereinsjubiläum gewidmet</titlePart>
@@ -34,17 +34,17 @@
                 <perfMedium>
                     <perfResList>
                         <perfRes count="2">Flöte</perfRes>
-                        <perfRes auth="" count="2">Oboe</perfRes>
-                        <perfRes auth="" count="2">Klarinette in B</perfRes>
-                        <perfRes auth="" count="2">Fagott</perfRes>
-                        <perfRes auth="" count="4">Horn</perfRes>
-                        <perfRes auth="" count="3">Trompete</perfRes>
-                        <perfRes auth="" count="3">Posaune</perfRes>
-                        <perfRes auth="" count="1">Tuba</perfRes>
-                        <perfRes auth="" count="1">Pauken</perfRes>
-                        <perfRes auth="baudi-09-7314d24f" count="1">Männerchor</perfRes>
-                        <perfRes auth="baudi-09-5f4e900d" count="1">Orgel</perfRes>
-                        <perfRes auth="baudi-09-32aa6522" count="1">Piano</perfRes>
+                        <perfRes count="2" codedval="">Oboe</perfRes>
+                        <perfRes count="2" codedval="">Klarinette in B</perfRes>
+                        <perfRes count="2" codedval="">Fagott</perfRes>
+                        <perfRes count="4" codedval="">Horn</perfRes>
+                        <perfRes count="3" codedval="">Trompete</perfRes>
+                        <perfRes count="3" codedval="">Posaune</perfRes>
+                        <perfRes count="1" codedval="">Tuba</perfRes>
+                        <perfRes count="1" codedval="">Pauken</perfRes>
+                        <perfRes count="1" codedval="baudi-09-7314d24f">Männerchor</perfRes>
+                        <perfRes count="1" codedval="baudi-09-5f4e900d">Orgel</perfRes>
+                        <perfRes count="1" codedval="baudi-09-32aa6522">Piano</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -63,7 +63,7 @@
                         <persName>Johann Wolfgang Goethe</persName>
                     </lyricist>
                     <composer xml:id="baudi-01-69166e46-composer">
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                 </titleStmt>
                 <physDesc>
@@ -89,7 +89,7 @@
                   <hand type="other" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                </handList>
                     <addDesc>
-                        <p xmlns="" type="copyright">Copyright <date type="copyright">1931</date> by <corpName auth="baudi-05-0e61675c">Süddeutscher Musikverlag</corpName> • Karlsruhe.</p>
+                        <p xmlns="" type="copyright">Copyright <date type="copyright">1931</date> by <corpName codedval="baudi-05-0e61675c">Süddeutscher Musikverlag</corpName> • Karlsruhe.</p>
                     </addDesc>
                     <condition n="1" resp="dried" type="desc">
                         <date isodate="2019-08-21" type="desc" resp="dried"/>
@@ -119,7 +119,7 @@
                 </physLoc>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList/>

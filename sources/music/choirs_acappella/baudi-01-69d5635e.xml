@@ -22,7 +22,7 @@
                     <titlePart type="perfmedium" xml:id="baudi-02-69d5635e-titleDesc"/>
                 </title>
                 <composer xml:id="baudi-02-69d5635e-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist xml:id="baudi-02-69d5635e-lyricist">
                     <persName>M. Schneider</persName>
@@ -32,11 +32,11 @@
                 <tempo>Getragen</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor" xml:id="baudi-02-69d5635e-perfRes-0001"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-69d5635e-perfRes-0002"/>
-                        <perfRes auth="bass" xml:id="baudi-02-69d5635e-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-69d5635e-perfRes-0004"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes xml:id="baudi-02-69d5635e-perfRes-0001" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-69d5635e-perfRes-0002" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-69d5635e-perfRes-0003" codedval="bass"/>
+                        <perfRes xml:id="baudi-02-69d5635e-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -54,12 +54,12 @@
                         <titlePart type="subordinate" xml:id="baudi-01-69d5635e-titleSub"/>
                     </title>
                     <composer xml:id="baudi-01-69d5635e-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-69d5635e-lyricist">
-                        <persName auth="baudi-04-35c9a190">
+                        <persName codedval="baudi-04-35c9a190">
                             <persName>M. Schneider</persName>
                         </persName>
                     </lyricist>
@@ -71,10 +71,10 @@
                         <bibl>
                             <identifier>ANDRÉ 16694</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date>1914</date>
                             <dedicatee/>
@@ -110,7 +110,7 @@
                 <creation>Erschienen 1914</creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>

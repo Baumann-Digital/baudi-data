@@ -22,7 +22,7 @@
                     <titlePart type="perfmedium" xml:id="baudi-02-f98568da-titleDesc"/>
                 </title>
                 <composer xml:id="baudi-02-f98568da-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist xml:id="baudi-02-f98568da-lyricist">
                     <persName>Rud. Löwenstein (1+2Str.)</persName>
@@ -32,11 +32,11 @@
                 <tempo>Mäßig bewegt</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor" xml:id="baudi-02-f98568da-perfRes-0001"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-f98568da-perfRes-0002"/>
-                        <perfRes auth="bass" xml:id="baudi-02-f98568da-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-f98568da-perfRes-0004"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes xml:id="baudi-02-f98568da-perfRes-0001" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-f98568da-perfRes-0002" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-f98568da-perfRes-0003" codedval="bass"/>
+                        <perfRes xml:id="baudi-02-f98568da-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -54,12 +54,12 @@
                         <titlePart type="subordinate" xml:id="baudi-01-f98568da-titleSub"/>
                     </title>
                     <composer xml:id="baudi-01-f98568da-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-f98568da-lyricist">
-                        <persName auth="baudi-04-35c9a190">
+                        <persName codedval="baudi-04-35c9a190">
                             <persName>Rud. Löwenstein (1+2Str.)</persName>
                         </persName>
                     </lyricist>
@@ -72,10 +72,10 @@
                         <bibl>
                             <identifier>H. 2044 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date>1924</date>
                             <dedicatee>Dem Gewerbegesangverein Gaggenau freundlichst zugeeignet.</dedicatee>
@@ -111,7 +111,7 @@
                 <creation>Erschienen 1924</creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>

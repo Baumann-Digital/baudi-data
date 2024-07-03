@@ -14,7 +14,7 @@
             <work>
                 <title type="uniform" xml:lang="de" xml:id="baudi-01-3c1eaec1-titleUniformDE">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-3c1eaec1-titleUniformMainDE">Heimat</titlePart>
-                    <titlePart type="number" label="opus" auth="woo"/>
+                    <titlePart type="number" label="opus" codedval="woo"/>
                     <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-3c1eaec1-titleUniformDescDE">Ein Zyklus nach
                         Gedichten von Erich Langer († 27.12.32)</titlePart>
                     <titlePart type="subordinate">Aus dem Gedichtwerk »Aus deutschem Herzen«</titlePart>
@@ -26,15 +26,15 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfResList auth="choirMixed">
-                            <perfRes auth="soprano" xml:id="baudi-01-3c1eaec1-perfRes-0001"/>
-                            <perfRes auth="alto" xml:id="baudi-01-3c1eaec1-perfRes-0002"/>
-                            <perfRes auth="tenor" xml:id="baudi-01-3c1eaec1-perfRes-0003"/>
-                            <perfRes auth="bass" xml:id="baudi-01-3c1eaec1-perfRes-0004"/>
+                        <perfResList codedval="choirMixed">
+                            <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0001" codedval="soprano"/>
+                            <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0002" codedval="alto"/>
+                            <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0003" codedval="tenor"/>
+                            <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0004" codedval="bass"/>
                         </perfResList>
-                        <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-                        <perfRes auth="baudi-09-b66b7de3">Violine</perfRes>
-                        <perfRes auth="baudi-09-b3ad53dc">Cello</perfRes>
+                        <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+                        <perfRes codedval="baudi-09-b66b7de3">Violine</perfRes>
+                        <perfRes codedval="baudi-09-b3ad53dc">Cello</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -53,7 +53,7 @@
                         <titlePart type="perf">Für gemischen Chor, Klavier, Violine und Cello; Rezitation</titlePart>
                     </title>
                     <composer xml:id="baudi-01-3c1eaec1-composer">
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                 </titleStmt>
                 <physDesc>
@@ -78,7 +78,7 @@
                     <plateNum>H. 3090 H.</plateNum>
                     <addDesc>
                         <p xmlns="" type="copyright">
-                            <corpName auth="baudi-05-0f1d6827">Verlag von Karl Hochstein</corpName>, Heidelberg.</p>
+                            <corpName codedval="baudi-05-0f1d6827">Verlag von Karl Hochstein</corpName>, Heidelberg.</p>
                     </addDesc>
                     <condition n="1" resp="dried" type="desc">
                         <date isodate="2019-08-21" type="desc" resp="dried"/>
@@ -101,7 +101,7 @@
                 </physLoc>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList/>

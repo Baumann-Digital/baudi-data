@@ -36,9 +36,9 @@
                 <incip/>
 
                 <perfMedium>
-                    <perfResList auth="choir">
-                        <perfRes auth="Universitätsdruckerei H. Stürtz A. G."/>
-                        <perfRes auth=" Würzburg"/>
+                    <perfResList codedval="choir">
+                        <perfRes codedval="Universitätsdruckerei H. Stürtz A. G."/>
+                        <perfRes codedval=" Würzburg"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -71,10 +71,10 @@
                         <bibl>
                             <identifier>muspr</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement key="baudi-06-5541661c" codedval="baudi-06-a1ca746a">Heidelberg</settlement>
                             </pubPlace>
                             <date>2755</date>
                             <dedicatee>Der <corpName>»Sängervereinigung Jahn«, <settlement>Paderborn</settlement>
@@ -113,7 +113,7 @@
             </creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>

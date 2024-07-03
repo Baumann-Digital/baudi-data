@@ -30,10 +30,10 @@
                     <titlePart type="perf" xml:lang="de">für Singstimme und Klavier</titlePart>
                 </title>
                 <composer>
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist>
-                    <persName auth="baudi-04-f7902fb2">Willi Birger</persName>
+                    <persName codedval="baudi-04-f7902fb2">Willi Birger</persName>
                 </lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
@@ -41,14 +41,14 @@
                 <!-- incip moved to work -->
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="voice" xml:id="baudi-01-6b488120-perfRes-0001">
+                        <perfRes xml:id="baudi-01-6b488120-perfRes-0001" codedval="voice">
                             <ambitus>
                                 <ambNote pname="d" oct="4" type="lowest"/>
                                 <ambNote pname="f" accid="s" oct="5" type="highest"/>
                                 <ambNote pname="a" accid="s" oct="5" type="highestAlt"/>
                             </ambitus>
                         </perfRes>
-                        <perfRes auth="piano" xml:id="baudi-01-6b488120-perfRes-0002"/>
+                        <perfRes xml:id="baudi-01-6b488120-perfRes-0002" codedval="piano"/>
                     </perfResList>
                 </perfMedium>
                 <contents/>
@@ -64,10 +64,10 @@
                         <titlePart type="subordinate" xml:id="baudi-01-6b488120-titleSub"/>
                </title>
                     <composer>
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                     <lyricist>
-                        <persName auth="baudi-04-f7902fb2">Willi Birger</persName>
+                        <persName codedval="baudi-04-f7902fb2">Willi Birger</persName>
                     </lyricist>
                 </titleStmt>
                 <physDesc>
@@ -107,14 +107,14 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName auth="baudi-05-46886fd2" label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">Mus. Hs. 1312</identifier>
                     </repository>
                 </physLoc>
                 <history><!-- <eventList/> --></history>
                 <langUsage>
                     <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList/>

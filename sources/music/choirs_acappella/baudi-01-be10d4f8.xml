@@ -22,7 +22,7 @@
                     <titlePart type="perfmedium" xml:id="baudi-02-be10d4f8-titleDesc"/>
                 </title>
                 <composer xml:id="baudi-02-be10d4f8-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist xml:id="baudi-02-be10d4f8-lyricist">
                     <persName>Otto Hausmann</persName>
@@ -32,11 +32,11 @@
                 <tempo>Leicht im Vortrag, aber nicht zu schnell</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano" xml:id="baudi-02-be10d4f8-perfRes-0001"/>
-                        <perfRes auth="alto" xml:id="baudi-02-be10d4f8-perfRes-0002"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-be10d4f8-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-be10d4f8-perfRes-0004"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes xml:id="baudi-02-be10d4f8-perfRes-0001" codedval="soprano"/>
+                        <perfRes xml:id="baudi-02-be10d4f8-perfRes-0002" codedval="alto"/>
+                        <perfRes xml:id="baudi-02-be10d4f8-perfRes-0003" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-be10d4f8-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -54,12 +54,12 @@
                         <titlePart type="subordinate" xml:id="baudi-01-be10d4f8-titleSub"/>
                     </title>
                     <composer xml:id="baudi-01-be10d4f8-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-be10d4f8-lyricist">
-                        <persName auth="baudi-04-35c9a190">
+                        <persName codedval="baudi-04-35c9a190">
                             <persName>Otto Hausmann</persName>
                         </persName>
                     </lyricist>
@@ -71,10 +71,10 @@
                         <bibl>
                             <identifier>92</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
@@ -110,7 +110,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>

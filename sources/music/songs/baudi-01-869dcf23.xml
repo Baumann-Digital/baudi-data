@@ -36,12 +36,12 @@
 				        <incip/>
 				        <perfMedium>
 					          <perfResList>
-						            <perfRes auth="voice" xml:id="baudi-01-869dcf23-perfRes-0001">Singstimme<range corresp="baudi-01-869dcf23-perfRes-0001">
+						            <perfRes xml:id="baudi-01-869dcf23-perfRes-0001" codedval="voice">Singstimme<range corresp="baudi-01-869dcf23-perfRes-0001">
                         <rangeNote type="lowest" pname="c" oct="4"/>
                         <rangeNote type="highest" pname="e" accid="f" oct="5"/>
                      </range>
                   </perfRes>
-						            <perfRes auth="piano">Klavier</perfRes>
+						            <perfRes codedval="piano">Klavier</perfRes>
 					          </perfResList>
 				        </perfMedium>
 				        <!--<notesStmt>
@@ -113,7 +113,7 @@
 				        <history><!-- <eventList/> --></history>
 				        <langUsage>
 					<!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-					          <language auth="de"/>
+					          <language codedval="de"/>
 				        </langUsage>
 				        <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list

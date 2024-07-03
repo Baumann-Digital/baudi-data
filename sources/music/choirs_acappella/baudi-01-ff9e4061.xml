@@ -25,7 +25,7 @@
                     <titlePart type="perfmedium" xml:id="baudi-02-ff9e4061-titleDesc"/>
                 </title>
                 <composer xml:id="baudi-02-ff9e4061-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist xml:id="baudi-02-ff9e4061-lyricist">
                     <persName>Georg Türk</persName>
@@ -35,11 +35,11 @@
                 <tempo>Einfach, ruhige Bewegung</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano" xml:id="baudi-02-ff9e4061-perfRes-0001"/>
-                        <perfRes auth="alto" xml:id="baudi-02-ff9e4061-perfRes-0002"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-ff9e4061-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-ff9e4061-perfRes-0004"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes xml:id="baudi-02-ff9e4061-perfRes-0001" codedval="soprano"/>
+                        <perfRes xml:id="baudi-02-ff9e4061-perfRes-0002" codedval="alto"/>
+                        <perfRes xml:id="baudi-02-ff9e4061-perfRes-0003" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-ff9e4061-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -58,12 +58,12 @@
                             Hand</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ff9e4061-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-ff9e4061-lyricist">
-                        <persName auth="baudi-04-35c9a190">
+                        <persName codedval="baudi-04-35c9a190">
                             <persName>Georg Türk</persName>
                         </persName>
                     </lyricist>
@@ -75,10 +75,10 @@
                         <bibl>
                             <identifier>H. 2102 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
@@ -114,7 +114,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>

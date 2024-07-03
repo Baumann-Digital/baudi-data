@@ -35,12 +35,12 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="violin.i">Violine I</perfRes>
-                        <perfRes auth="violin.ii">Violine II</perfRes>
-                        <perfRes auth="viola">Viola</perfRes>
-                        <perfRes auth="cello">Violoncello</perfRes>
-                        <perfRes auth="doubleBass">Kontrabass</perfRes>
-                        <perfRes auth="organ">Orgel</perfRes>
+                        <perfRes codedval="violin.i">Violine I</perfRes>
+                        <perfRes codedval="violin.ii">Violine II</perfRes>
+                        <perfRes codedval="viola">Viola</perfRes>
+                        <perfRes codedval="cello">Violoncello</perfRes>
+                        <perfRes codedval="doubleBass">Kontrabass</perfRes>
+                        <perfRes codedval="organ">Orgel</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -57,7 +57,7 @@
                         <titlePart type="desc" xml:id="baudi-01-ad5eee0f-titleDesc">für Streichorchester und Orgel</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ad5eee0f-composer">
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                     <arranger xml:id="baudi-01-ad5eee0f-arranger"/>
                     <lyricist xml:id="baudi-01-ad5eee0f-lyricist"/>
@@ -114,7 +114,7 @@
                 <history><!-- <eventList/> --></history>
                 <langUsage>
                     <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
