@@ -436,7 +436,7 @@
             </editionList>
         </remark>
         <remark type="editorial" xml:id="baudi-30-37e7c793">
-            <class>Notentext</class>
+            <class>Dynamik</class>
             <mdiv>6</mdiv>
             <occurances>
                 <occurance>
@@ -450,10 +450,10 @@
                 <annot>
                     <app>
                         <lem source="#A-P3-KA">
-                            <dynam>pp</dynam>
+                            <dynam>f</dynam>
                         </lem>
                         <rdg source="#ED-KA1 #ED-KA2">
-                            <dynam class="#without">pp</dynam>
+                            <dynam class="#without"/>
                         </rdg>
                     </app>
                 </annot>
@@ -464,10 +464,42 @@
                 <manifestation>A-P3-KA</manifestation>
             </manifestationList>
             <editionList>
-                <edition>BauDi-P</edition>
+                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
-        <remark type="reading" xml:id="baudi-30-b0fd506d">
+    	<remark type="editorial">
+    		<class>Dynamik</class>
+    		<mdiv>6</mdiv>
+    		<occurances>
+    			<occurance>
+    				<position measure="2" count="2"/>
+    			</occurance>
+    		</occurances>
+    		<parts>
+    			<part>piano</part>
+    		</parts>
+    		<annots>
+    			<annot>
+    				<app>
+    					<lem source="#A-P3-KA">
+    						<anchoredText>Tromp. P.</anchoredText>
+    					</lem>
+    					<rdg source="#ED-KA1 #ED-KA2">
+    						<anchoredText class="#without"/>
+    					</rdg>
+    				</app>
+    			</annot>
+    		</annots>
+    		<manifestationList>
+    			<manifestation>ED-KA1</manifestation>
+    			<manifestation>ED-KA2</manifestation>
+    			<manifestation>A-P3-KA</manifestation>
+    		</manifestationList>
+    		<editionList>
+    			<edition>BauDi-KA</edition>
+    		</editionList>
+    	</remark>  
+    	<remark type="reading" xml:id="baudi-30-b0fd506d">
             <class>Notentext</class>
             <mdiv>6</mdiv>
             <occurances>
@@ -684,10 +716,12 @@
                 </annot>
             </annots>
             <manifestationList>
-                <manifestation>ED-P</manifestation>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-KA1</manifestation>
+                <manifestation>ED-KA2</manifestation>
             </manifestationList>
             <editionList>
-                <edition>BauDi-P</edition>
+                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-b96f56a0">

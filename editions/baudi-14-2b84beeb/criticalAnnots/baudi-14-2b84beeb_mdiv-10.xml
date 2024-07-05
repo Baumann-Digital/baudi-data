@@ -551,21 +551,30 @@
             <occurances>
                 <occurance>
                     <range type="start" measure="1" count="1"/>
-                    <range type="end" measure="3" count="4"/>
+                    <range type="end" measure="7" count="4"/>
                 </occurance>
                 <occurance>
                     <range type="start" measure="22" count="1"/>
-                    <range type="end" measure="24" count="4"/>
+                    <range type="end" measure="28" count="4"/>
                 </occurance>
             </occurances>
             <parts>
                 <part>piano.left</part>
             </parts>
             <annots>
-                <annot type="ediDel">
-                    <ptr target="#ED-KA1 #ED-KA2"/>
-                    <dir>col 8va</dir>
-                </annot>
+            	<annot>
+            	<app>
+            		<rdg source="#ED-KA1 #ED-KA2">
+            			<octave dis="8" dis.place="below" coll="coll" tstamp="1m+1" tstamp2="3m+4">col 8va</octave>
+            			<octave dis="8" dis.place="below" coll="coll" tstamp="22m+1" tstamp2="24m+4">col 8va</octave>
+            		</rdg>
+            		<rdg source="#A-P3-KA">
+            			<octave dis="8" dis.place="below" coll="coll" tstamp="4m+2" tstamp2="7m+4">col 8va</octave>
+            			<octave dis="8" dis.place="below" coll="coll" tstamp="25m+2" tstamp2="28m+4">col 8va</octave>
+            		</rdg>
+            	</app>
+            	</annot>
+            	<annot>Die Oktavierungsangabe »col 8va« reicht in <ptr corresp="#ED-KA1 #ED-KA2"/> bis Takt 3 und ist ab Takt 4 ausnotiert. Vergleicht man die Passage mit Vlc. und Kb. so fällt auf, dass diese in den Takten 1–2 und 5 jedoch auf gleicher Tonhöhe gesetzt sind und dass Kb. folglich nur in den Takten 3–4 und 6–7 oktaviert.</annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3-KA</manifestation>
@@ -844,31 +853,6 @@
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-65bb1b31">
-            <class>Notentext</class>
-            <mdiv>10</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="4" count="1"/>
-                </occurance>
-                <occurance>
-                    <position measure="25" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <part>piano.left</part>
-            </parts>
-            <annots>
-                <annot>
-                    <dir>col 8va</dir> erst auf Zz. 2</annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3-KA</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-KA</edition>
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-47d455f2">
