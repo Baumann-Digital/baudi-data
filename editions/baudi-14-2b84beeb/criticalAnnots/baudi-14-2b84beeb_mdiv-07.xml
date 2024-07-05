@@ -223,72 +223,68 @@
             </edition>
         </relEditions>
         <classifications>
-            <classGrp label="AnmerkungsArt">
-                <class xml:id="Notentext">
-                    <label xml:lang="de">Notentext</label>
-                    <label xml:lang="en">Notentext (en)</label>
-                </class>
-                <class xml:id="Tondauer">
-                    <label xml:lang="de">Tondauer</label>
-                    <label xml:lang="en">Tondauer (en)</label>
-                </class>
-                <class xml:id="Bogensetzung">
-                    <label xml:lang="de">Bogensetzung</label>
-                    <label xml:lang="en">Bogensetzung (en)</label>
-                </class>
-                <class xml:id="Dynamik">
-                    <label xml:lang="de">Dynamik</label>
-                    <label xml:lang="en">Dynamik (en)</label>
-                </class>
-                <class xml:id="Halsung">
-                    <label xml:lang="de">Halsung</label>
-                    <label xml:lang="en">Halsung (en)</label>
-                </class>
-                <class xml:id="Balkung">
-                    <label xml:lang="de">Balkung</label>
-                    <label xml:lang="en">Balkung (en)</label>
-                </class>
-                <class xml:id="Artikulation">
-                    <label xml:lang="de">Artikulation</label>
-                    <label xml:lang="en">Artikulation (en)</label>
-                </class>
-                <class xml:id="Gesangstext">
-                    <label xml:lang="de">Gesangstext</label>
-                    <label xml:lang="en">Gesangstext (en)</label>
-                </class>
-                <class xml:id="Vortragsbezeichnung">
-                    <label xml:lang="de">Vortragsbezeichnung</label>
-                    <label xml:lang="en">Vortragsbezeichnung (en)</label>
-                </class>
-                <class xml:id="Tempoangabe">
-                    <label xml:lang="de">Tempoangabe</label>
-                    <label xml:lang="en">Tempoangabe (en)</label>
-                </class>
-                <class xml:id="Metrum">
-                    <label xml:lang="de">Metrum</label>
-                    <label xml:lang="en">Metrum (en)</label>
-                </class>
-                <class xml:id="Pausensetzung">
-                    <label xml:lang="de">Pausensetzung</label>
-                    <label xml:lang="en">Pausensetzung (en)</label>
-                </class>
-                <class xml:id="Bemerkung">
-                    <label xml:lang="de">Bemerkung</label>
-                    <label xml:lang="en">Bemerkung (en)</label>
-                </class>
-                <class xml:id="Beschreibung">
-                    <label xml:lang="de">Beschreibung</label>
-                    <label xml:lang="en">Beschreibung (en)</label>
-                </class>
-                <class xml:id="Streichung">
-                    <label xml:lang="de">Streichung</label>
-                    <label xml:lang="en">Streichung (en)</label>
-                </class>
-                <class xml:id="Sonstige">
-                    <label xml:lang="de">Sonstige</label>
-                    <label xml:lang="en">Sonstige (en)</label>
-                </class>
-            </classGrp>
+        	<classGrp label="AnmerkungsArt">
+        		<class xml:id="Notentext">
+        			<label xml:lang="de">Notentext</label>
+        			<label xml:lang="en">Music text</label>
+        		</class>
+        		<class xml:id="Tondauer">
+        			<label xml:lang="de">Tondauer</label>
+        			<label xml:lang="en">Note duration</label>
+        		</class>
+        		<class xml:id="Bogensetzung">
+        			<label xml:lang="de">Bogensetzung</label>
+        			<label xml:lang="en">Arching</label>
+        		</class>
+        		<class xml:id="Dynamik">
+        			<label xml:lang="de">Dynamik</label>
+        			<label xml:lang="en">Dynamics</label>
+        		</class>
+        		<class xml:id="Halsung">
+        			<label xml:lang="de">Halsung</label>
+        			<label xml:lang="en">Stem assignment</label>
+        		</class>
+        		<class xml:id="Balkung">
+        			<label xml:lang="de">Balkung</label>
+        			<label xml:lang="en">Beaming</label>
+        		</class>
+        		<class xml:id="Artikulation">
+        			<label xml:lang="de">Artikulation</label>
+        			<label xml:lang="en">Articulation</label>
+        		</class>
+        		<class xml:id="Gesangstext">
+        			<label xml:lang="de">Gesangstext</label>
+        			<label xml:lang="en">Lyrics</label>
+        		</class>
+        		<class xml:id="Vortragsbezeichnung">
+        			<label xml:lang="de">Vortragsbezeichnung</label>
+        			<label xml:lang="en">Directives</label>
+        		</class>
+        		<class xml:id="Tempoangabe">
+        			<label xml:lang="de">Tempoangabe</label>
+        			<label xml:lang="en">Tempo indication</label>
+        		</class>
+        		<class xml:id="Pausensetzung">
+        			<label xml:lang="de">Pausensetzung</label>
+        			<label xml:lang="en">Rest setting</label>
+        		</class>
+        		<class xml:id="Bemerkung">
+        			<label xml:lang="de">Bemerkung d. Hg.</label>
+        			<label xml:lang="en">Annotation by Ed.</label>
+        		</class>
+        		<class xml:id="Beschreibung">
+        			<label xml:lang="de">Beschreibung</label>
+        			<label xml:lang="en">Description</label>
+        		</class>
+        		<class xml:id="Streichung">
+        			<label xml:lang="de">Streichung</label>
+        			<label xml:lang="en">Deletion</label>
+        		</class>
+        		<class xml:id="Sonstige">
+        			<label xml:lang="de">Sonstige</label>
+        			<label xml:lang="en">Other</label>
+        		</class>
+        	</classGrp>
             <classGrp label="editorialClassifications">
                 <class xml:id="noStart">
                     <label xml:lang="de">Nur endend</label>
