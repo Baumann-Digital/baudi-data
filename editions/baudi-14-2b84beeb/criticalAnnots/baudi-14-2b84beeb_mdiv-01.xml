@@ -1829,67 +1829,18 @@
             <parts>
                 <partGrp>clarinets</partGrp>
                 <partGrp>bassoons</partGrp>
+                <part>hornFrench.i</part>
                 <part>hornFrench.iii</part>
-                <part>hornFrench.iv</part>
                 <partGrp>violins</partGrp>
                 <part>viola</part>
             </parts>
             <annots>
                 <annot>
-                    <dynam>ff</dynam>ergänzt, vgl. <ptr target="#ED-P"/>, <ptr target="#A-P3 flutes oboes hornFrench.i hornFrench.ii violoncello"/></annot>
+                    <dynam>ff</dynam>ergänzt, vgl. <ptr target="#ED-P"/>, <ptr target="#A-P3" corresp="#flutes #oboes #hornFrench.ii #hornFrench.iv #violoncello"/></annot>
             </annots>
             <manifestationList>
                 <manifestation>A-P3</manifestation>
                 <manifestation>ED-P</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-37">
-            <class>Dynamik</class>
-            <mdiv>1</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="25" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <partGrp>trumpets</partGrp>
-            </parts>
-            <annots>
-                <annot>
-                    <ptr target="#A-P2"/>
-                    <dynam>sf</dynam>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P3</manifestation>
-            </manifestationList>
-            <editionList>
-                <edition>BauDi-P</edition>
-            </editionList>
-        </remark>
-        <remark type="reading" xml:id="baudi-30-38">
-            <class>Dynamik</class>
-            <class>Artikulation</class>
-            <mdiv>1</mdiv>
-            <occurances>
-                <occurance>
-                    <position measure="25" count="1"/>
-                </occurance>
-            </occurances>
-            <parts>
-                <partGrp>trumpets</partGrp>
-            </parts>
-            <annots>
-                <annot>Ohne <dynam>ff</dynam>
-                </annot>
-                <annot>Beide <note dur="8"/> ohne <artic artic="acc"/>
-                </annot>
-            </annots>
-            <manifestationList>
-                <manifestation>A-P2</manifestation>
             </manifestationList>
             <editionList>
                 <edition>BauDi-P</edition>
@@ -4549,18 +4500,23 @@
             </parts>
             <annots>
                 <annot>
-                    <ptr target="#ED-P"/>
-                    <note pname="d" oct="5" dur="16" slur="i1"/>
-                    <note pname="f" oct="5" dur="16" slur="t1"/>
-                </annot>
-                <annot>
-                    <ptr target="#A-P2"/>
-                    <note pname="d" oct="5" dur="16">
+                	<app>
+                		<lem source="#ED-P">
+                    	<note pname="d" oct="5" dur="16" slur="i1"/>
+                    	<note pname="f" accid.ges="s" oct="5" dur="16" slur="t1"/>
+                		</lem>
+                		<rdg source="#A-P3">
+                			<note pname="d" oct="5" dur="16"/>
+                			<note pname="f" accid.ges="s" oct="5" dur="16"/>
+                		</rdg>
+										<rdg source="#A-P2">
+											<note pname="d" oct="5" dur="16">
                         <artic artic="stacc"/>
                     </note>
                     <note pname="f" oct="5" dur="16" slur="t1">
                         <artic artic="stacc"/>
-                    </note>
+                    </note></rdg>
+                	</app>
                 </annot>
             </annots>
             <manifestationList>
@@ -4954,13 +4910,15 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>hornFrench.iii</part>
-                <part>hornFrench.iv</part>
+                <partGrp>hornsFrench</partGrp>
             </parts>
             <annots>
                 <annot>
-                    <ptr type="follow" target="ED-P"/>
-                    <hairpin form="dim"/>
+                	<app>
+                		<lem source="#BauDi-P"><hairpin form="dim" part="#hornsFrench"/></lem>
+                		<rdg source="#A-P3"><hairpin form="dim" part="#hornFrench.i"/></rdg>
+                		<rdg source="#ED-P"><hairpin form="dim" part="#hornFrench.ii #hornFrench.iv"/></rdg>
+                	</app>
                 </annot>
             </annots>
             <manifestationList>

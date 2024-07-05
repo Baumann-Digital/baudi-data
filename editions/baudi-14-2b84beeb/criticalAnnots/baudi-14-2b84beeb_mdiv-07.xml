@@ -2300,14 +2300,39 @@
                 </occurance>
             </occurances>
             <parts>
-                <part>doubleBass</part>
                 <partGrp>bassoons</partGrp>
+                <part>doubleBass</part>
             </parts>
             <annots>
                 <annot type="no">
-                    <hairpin form="cres"/>
+                	<hairpin form="cres"/> <dynam>f</dynam>
                 </annot>
                 <annot>Die Dynamik Angaben des darüberliegenden Instrumentes sind mittig notiert und gelten analog <ptr type="follow" target="#ED-P"/>
+                </annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
+            </editionList>
+        </remark>
+        <remark type="editorial">
+            <class>Dynamik</class>
+            <mdiv>7</mdiv>
+            <occurances>
+                <occurance>
+                    <range type="start" measure="29" count="1"/>
+                    <range type="end" measure="30" count="1"/>
+                </occurance>
+            </occurances>
+            <parts>
+                <part>clarinet.i</part>
+            </parts>
+            <annots>
+                <annot type="no">
+                    <hairpin form="cres"/> <dynam>f</dynam> <ptr type="compare" target="#A-P3 #ED-P" corresp="#clarinet.ii"/>
                 </annot>
             </annots>
             <manifestationList>
