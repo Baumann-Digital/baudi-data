@@ -1,5 +1,5 @@
 <?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-10">
-    <setting xmlns="http://baumann-digital.de/ns/crApp" xmlns:crapp="http://baumann-digital.de/ns/crApp" xml:id="crApp-template-settings" xml:base="setting.xml">
+    <setting xmlns:crapp="http://baumann-digital.de/ns/crApp" xml:id="crApp-template-settings" xml:base="setting.xml">
         <language codedval="de"/>
         <mdivs>
             <mdiv num="10">
@@ -325,10 +325,7 @@
         			<label xml:lang="de">Bemerkung d. Hg.</label>
         			<label xml:lang="en">Annotation by Ed.</label>
         		</class>
-        		<class xml:id="Beschreibung">
-        			<label xml:lang="de">Beschreibung</label>
-        			<label xml:lang="en">Description</label>
-        		</class>
+        		
         		<class xml:id="Streichung">
         			<label xml:lang="de">Streichung</label>
         			<label xml:lang="en">Deletion</label>
@@ -953,7 +950,7 @@
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-7d03ce87">
-            <class>Beschreibung</class>
+        	<class>Vortragsbezeichnung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
@@ -1973,7 +1970,7 @@
             </editionList>
         </remark>
         <remark type="editorial" xml:id="baudi-30-6da693bc">
-            <class>Bemerkung</class>
+        	<class>Vortragsbezeichnung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
@@ -3173,7 +3170,7 @@
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-90d3eed3">
-            <class>Beschreibung</class>
+            <class>Bemerkung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
@@ -3261,7 +3258,7 @@
             </editionList>
         </remark>
         <remark type="editorial" xml:id="baudi-30-957e4c6a">
-            <class>Bemerkung</class>
+        	<class>Vortragsbezeichnung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>
@@ -4560,7 +4557,7 @@
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-16e71b48">
-            <class>Beschreibung</class>
+        	<class>Vortragsbezeichnung</class>
             <mdiv>10</mdiv>
             <occurances>
                 <occurance>

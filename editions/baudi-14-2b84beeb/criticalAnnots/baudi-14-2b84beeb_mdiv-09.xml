@@ -1,5 +1,5 @@
 <?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../../../../private/crApp/resources/schema/crApp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><crApp xmlns="http://baumann-digital.de/ns/crApp" xml:id="baudi-14-2b84beeb_mdiv-09">
-    <setting xmlns="http://baumann-digital.de/ns/crApp" xmlns:crapp="http://baumann-digital.de/ns/crApp">
+    <setting xmlns:crapp="http://baumann-digital.de/ns/crApp">
         <language codedval="de"/>
         <mdivs>
             <mdiv num="9">
@@ -212,10 +212,7 @@
         			<label xml:lang="de">Bemerkung d. Hg.</label>
         			<label xml:lang="en">Annotation by Ed.</label>
         		</class>
-        		<class xml:id="Beschreibung">
-        			<label xml:lang="de">Beschreibung</label>
-        			<label xml:lang="en">Description</label>
-        		</class>
+        		
         		<class xml:id="Streichung">
         			<label xml:lang="de">Streichung</label>
         			<label xml:lang="en">Deletion</label>
