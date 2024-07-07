@@ -181,65 +181,64 @@
             </edition>
         </relEditions>
         <classifications>
-        	<classGrp label="AnmerkungsArt">
-        		<class xml:id="Notentext">
-        			<label xml:lang="de">Notentext</label>
-        			<label xml:lang="en">Music text</label>
-        		</class>
-        		<class xml:id="Tondauer">
-        			<label xml:lang="de">Tondauer</label>
-        			<label xml:lang="en">Note duration</label>
-        		</class>
-        		<class xml:id="Bogensetzung">
-        			<label xml:lang="de">Bogensetzung</label>
-        			<label xml:lang="en">Arching</label>
-        		</class>
-        		<class xml:id="Dynamik">
-        			<label xml:lang="de">Dynamik</label>
-        			<label xml:lang="en">Dynamics</label>
-        		</class>
-        		<class xml:id="Halsung">
-        			<label xml:lang="de">Halsung</label>
-        			<label xml:lang="en">Stem assignment</label>
-        		</class>
-        		<class xml:id="Balkung">
-        			<label xml:lang="de">Balkung</label>
-        			<label xml:lang="en">Beaming</label>
-        		</class>
-        		<class xml:id="Artikulation">
-        			<label xml:lang="de">Artikulation</label>
-        			<label xml:lang="en">Articulation</label>
-        		</class>
-        		<class xml:id="Gesangstext">
-        			<label xml:lang="de">Gesangstext</label>
-        			<label xml:lang="en">Lyrics</label>
-        		</class>
-        		<class xml:id="Vortragsbezeichnung">
-        			<label xml:lang="de">Vortragsbezeichnung</label>
-        			<label xml:lang="en">Directives</label>
-        		</class>
-        		<class xml:id="Tempoangabe">
-        			<label xml:lang="de">Tempoangabe</label>
-        			<label xml:lang="en">Tempo indication</label>
-        		</class>
-        		<class xml:id="Pausensetzung">
-        			<label xml:lang="de">Pausensetzung</label>
-        			<label xml:lang="en">Rest setting</label>
-        		</class>
-        		<class xml:id="Bemerkung">
-        			<label xml:lang="de">Bemerkung d. Hg.</label>
-        			<label xml:lang="en">Annotation by Ed.</label>
-        		</class>
-        		
-        		<class xml:id="Streichung">
-        			<label xml:lang="de">Streichung</label>
-        			<label xml:lang="en">Deletion</label>
-        		</class>
-        		<class xml:id="Sonstige">
-        			<label xml:lang="de">Sonstige</label>
-        			<label xml:lang="en">Other</label>
-        		</class>
-        	</classGrp>
+            <classGrp label="AnmerkungsArt">
+                <class xml:id="Notentext">
+                    <label xml:lang="de">Notentext</label>
+                    <label xml:lang="en">Music text</label>
+                </class>
+                <class xml:id="Tondauer">
+                    <label xml:lang="de">Tondauer</label>
+                    <label xml:lang="en">Note duration</label>
+                </class>
+                <class xml:id="Bogensetzung">
+                    <label xml:lang="de">Bogensetzung</label>
+                    <label xml:lang="en">Arching</label>
+                </class>
+                <class xml:id="Dynamik">
+                    <label xml:lang="de">Dynamik</label>
+                    <label xml:lang="en">Dynamics</label>
+                </class>
+                <class xml:id="Halsung">
+                    <label xml:lang="de">Halsung</label>
+                    <label xml:lang="en">Stem assignment</label>
+                </class>
+                <class xml:id="Balkung">
+                    <label xml:lang="de">Balkung</label>
+                    <label xml:lang="en">Beaming</label>
+                </class>
+                <class xml:id="Artikulation">
+                    <label xml:lang="de">Artikulation</label>
+                    <label xml:lang="en">Articulation</label>
+                </class>
+                <class xml:id="Gesangstext">
+                    <label xml:lang="de">Gesangstext</label>
+                    <label xml:lang="en">Lyrics</label>
+                </class>
+                <class xml:id="Vortragsbezeichnung">
+                    <label xml:lang="de">Vortragsbezeichnung</label>
+                    <label xml:lang="en">Directives</label>
+                </class>
+                <class xml:id="Tempoangabe">
+                    <label xml:lang="de">Tempoangabe</label>
+                    <label xml:lang="en">Tempo indication</label>
+                </class>
+                <class xml:id="Pausensetzung">
+                    <label xml:lang="de">Pausensetzung</label>
+                    <label xml:lang="en">Rest setting</label>
+                </class>
+                <class xml:id="Bemerkung">
+                    <label xml:lang="de">Bemerkung d. Hg.</label>
+                    <label xml:lang="en">Annotation by Ed.</label>
+                </class>
+                <class xml:id="Streichung">
+                    <label xml:lang="de">Streichung</label>
+                    <label xml:lang="en">Deletion</label>
+                </class>
+                <class xml:id="Sonstige">
+                    <label xml:lang="de">Sonstige</label>
+                    <label xml:lang="en">Other</label>
+                </class>
+            </classGrp>
             <classGrp label="editorialClassifications">
                 <class xml:id="noStart">
                     <label xml:lang="de">Nur beginnend</label>
@@ -274,40 +273,44 @@
         </handList>
     </setting>
     <remarks>
-    	<remark type="editorial">
-    		<class>Bemerkung</class>
-    		<mdiv>4</mdiv>
-    		<occurances>
-    			<occurance><position measure="0" count="0"/></occurance>
-    		</occurances>
-    		<parts>all</parts>
-    		<annots>
-    			<annot>Partituranordnung, jeweils auf einem System: 2 Fl., 2. Ob., 2. Klar [B], 1 Fg., 2. Trp., 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], [1 leeres System], Vl. I, Vl. II, Vla., Vlc. [„Cello“], Kb. [„Baß“], Klavierauszug auf zwei Systemen</annot>
-    		</annots>
-    		<manifestationList>
-    			<manifestation>A-P3</manifestation>
-    		</manifestationList>
-    		<editionList>
-    			<edition>BauDi-P</edition>
-    		</editionList>
-    	</remark>
-    	<remark type="editorial">
-    		<class>Bemerkung</class>
-    		<mdiv>4</mdiv>
-    		<occurances>
-    			<occurance><position measure="0" count="0"/></occurance>
-    		</occurances>
-    		<parts>all</parts>
-    		<annots>
-    			<annot>Partituranordnung, jeweils auf einem System: 2 Fl., 2. Ob., 2. Klar [B], 1 Fg., 2. Trp., 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], Vl. I, Vl. II, Vla., Vlc. [„Cello“], Kb. [„Baß“]</annot>
-    		</annots>
-    		<manifestationList>
-    			<manifestation>ED-P</manifestation>
-    		</manifestationList>
-    		<editionList>
-    			<edition>BauDi-P</edition>
-    		</editionList>
-    	</remark>
+        <remark type="editorial" xml:id="baudi-30-d5ac1967">
+            <class>Bemerkung</class>
+            <mdiv>4</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="0" count="0"/>
+                </occurance>
+            </occurances>
+            <parts>all</parts>
+            <annots>
+                <annot>Partituranordnung, jeweils auf einem System: 2 Fl., 2. Ob., 2. Klar [B], 1 Fg., 2. Trp., 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], [1 leeres System], Vl. I, Vl. II, Vla., Vlc. [„Cello“], Kb. [„Baß“], Klavierauszug auf zwei Systemen</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
+            </editionList>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-d58379d7">
+            <class>Bemerkung</class>
+            <mdiv>4</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="0" count="0"/>
+                </occurance>
+            </occurances>
+            <parts>all</parts>
+            <annots>
+                <annot>Partituranordnung, jeweils auf einem System: 2 Fl., 2. Ob., 2. Klar [B], 1 Fg., 2. Trp., 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], Vl. I, Vl. II, Vla., Vlc. [„Cello“], Kb. [„Baß“]</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
+            </editionList>
+        </remark>
         <remark type="reading" xml:id="baudi-30-94de8d77">
             <class>Dynamik</class>
             <mdiv>4</mdiv>
@@ -1432,7 +1435,7 @@
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-66b446c1">
-        	<class>Bogensetzung</class>
+            <class>Bogensetzung</class>
             <mdiv>4</mdiv>
             <occurances>
                 <occurance>
@@ -1528,7 +1531,7 @@
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-20c59b9b">
-        	<class>Vortragsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>4</mdiv>
             <occurances>
                 <occurance>
@@ -1654,7 +1657,7 @@
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-e435578b">
-        	<class>Vortragsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>4</mdiv>
             <occurances>
                 <occurance>
@@ -3857,7 +3860,7 @@
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-aee6ef37">
-        	<class>Vortragsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>4</mdiv>
             <occurances>
                 <occurance>
@@ -4622,7 +4625,7 @@
             </editionList>
         </remark>
         <remark type="annotation" xml:id="baudi-30-da662be7">
-        	<class>Vortragsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>4</mdiv>
             <occurances>
                 <occurance>
@@ -5814,7 +5817,7 @@
                 <edition>BauDi-P</edition>
             </editionList>
         </remark>
-        <remark type="editorial">
+        <remark type="editorial" xml:id="baudi-30-da05b316">
             <class>Notentext</class>
             <mdiv>4</mdiv>
             <occurances>
@@ -5826,8 +5829,12 @@
             <annots>
                 <annot>
                     <app>
-                        <lem source="#A-P3 #ED-P #A-St-Vl"><barLine form="dbl"/></lem>
-                        <rdg source="#ED-KA1 #ED-KA2"><barLine form="end"/></rdg>
+                        <lem source="#A-P3 #ED-P #A-St-Vl">
+                            <barLine form="dbl"/>
+                        </lem>
+                        <rdg source="#ED-KA1 #ED-KA2">
+                            <barLine form="end"/>
+                        </rdg>
                     </app>
                 </annot>
             </annots>

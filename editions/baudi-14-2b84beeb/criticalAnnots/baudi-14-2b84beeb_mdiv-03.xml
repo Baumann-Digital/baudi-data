@@ -145,65 +145,64 @@
             </edition>
         </relEditions>
         <classifications>
-        	<classGrp label="AnmerkungsArt">
-        		<class xml:id="Notentext">
-        			<label xml:lang="de">Notentext</label>
-        			<label xml:lang="en">Music text</label>
-        		</class>
-        		<class xml:id="Tondauer">
-        			<label xml:lang="de">Tondauer</label>
-        			<label xml:lang="en">Note duration</label>
-        		</class>
-        		<class xml:id="Bogensetzung">
-        			<label xml:lang="de">Bogensetzung</label>
-        			<label xml:lang="en">Arching</label>
-        		</class>
-        		<class xml:id="Dynamik">
-        			<label xml:lang="de">Dynamik</label>
-        			<label xml:lang="en">Dynamics</label>
-        		</class>
-        		<class xml:id="Halsung">
-        			<label xml:lang="de">Halsung</label>
-        			<label xml:lang="en">Stem assignment</label>
-        		</class>
-        		<class xml:id="Balkung">
-        			<label xml:lang="de">Balkung</label>
-        			<label xml:lang="en">Beaming</label>
-        		</class>
-        		<class xml:id="Artikulation">
-        			<label xml:lang="de">Artikulation</label>
-        			<label xml:lang="en">Articulation</label>
-        		</class>
-        		<class xml:id="Gesangstext">
-        			<label xml:lang="de">Gesangstext</label>
-        			<label xml:lang="en">Lyrics</label>
-        		</class>
-        		<class xml:id="Vortragsbezeichnung">
-        			<label xml:lang="de">Vortragsbezeichnung</label>
-        			<label xml:lang="en">Directives</label>
-        		</class>
-        		<class xml:id="Tempoangabe">
-        			<label xml:lang="de">Tempoangabe</label>
-        			<label xml:lang="en">Tempo indication</label>
-        		</class>
-        		<class xml:id="Pausensetzung">
-        			<label xml:lang="de">Pausensetzung</label>
-        			<label xml:lang="en">Rest setting</label>
-        		</class>
-        		<class xml:id="Bemerkung">
-        			<label xml:lang="de">Bemerkung d. Hg.</label>
-        			<label xml:lang="en">Annotation by Ed.</label>
-        		</class>
-        		
-        		<class xml:id="Streichung">
-        			<label xml:lang="de">Streichung</label>
-        			<label xml:lang="en">Deletion</label>
-        		</class>
-        		<class xml:id="Sonstige">
-        			<label xml:lang="de">Sonstige</label>
-        			<label xml:lang="en">Other</label>
-        		</class>
-        	</classGrp>
+            <classGrp label="AnmerkungsArt">
+                <class xml:id="Notentext">
+                    <label xml:lang="de">Notentext</label>
+                    <label xml:lang="en">Music text</label>
+                </class>
+                <class xml:id="Tondauer">
+                    <label xml:lang="de">Tondauer</label>
+                    <label xml:lang="en">Note duration</label>
+                </class>
+                <class xml:id="Bogensetzung">
+                    <label xml:lang="de">Bogensetzung</label>
+                    <label xml:lang="en">Arching</label>
+                </class>
+                <class xml:id="Dynamik">
+                    <label xml:lang="de">Dynamik</label>
+                    <label xml:lang="en">Dynamics</label>
+                </class>
+                <class xml:id="Halsung">
+                    <label xml:lang="de">Halsung</label>
+                    <label xml:lang="en">Stem assignment</label>
+                </class>
+                <class xml:id="Balkung">
+                    <label xml:lang="de">Balkung</label>
+                    <label xml:lang="en">Beaming</label>
+                </class>
+                <class xml:id="Artikulation">
+                    <label xml:lang="de">Artikulation</label>
+                    <label xml:lang="en">Articulation</label>
+                </class>
+                <class xml:id="Gesangstext">
+                    <label xml:lang="de">Gesangstext</label>
+                    <label xml:lang="en">Lyrics</label>
+                </class>
+                <class xml:id="Vortragsbezeichnung">
+                    <label xml:lang="de">Vortragsbezeichnung</label>
+                    <label xml:lang="en">Directives</label>
+                </class>
+                <class xml:id="Tempoangabe">
+                    <label xml:lang="de">Tempoangabe</label>
+                    <label xml:lang="en">Tempo indication</label>
+                </class>
+                <class xml:id="Pausensetzung">
+                    <label xml:lang="de">Pausensetzung</label>
+                    <label xml:lang="en">Rest setting</label>
+                </class>
+                <class xml:id="Bemerkung">
+                    <label xml:lang="de">Bemerkung d. Hg.</label>
+                    <label xml:lang="en">Annotation by Ed.</label>
+                </class>
+                <class xml:id="Streichung">
+                    <label xml:lang="de">Streichung</label>
+                    <label xml:lang="en">Deletion</label>
+                </class>
+                <class xml:id="Sonstige">
+                    <label xml:lang="de">Sonstige</label>
+                    <label xml:lang="en">Other</label>
+                </class>
+            </classGrp>
             <classGrp label="editorialClassifications">
                 <class xml:id="noStart">
                     <label xml:lang="de">Nur beginnend</label>
@@ -233,41 +232,45 @@
         </handList>
     </setting>
     <remarks>
-    	<remark type="editorial">
-    		<class>Bemerkung</class>
-    		<mdiv>3</mdiv>
-    		<occurances>
-    			<occurance><position measure="0" count="0"/></occurance>
-    		</occurances>
-    		<parts>all</parts>
-    		<annots>
-    			<annot>Partituranordnung bis Takt 5, jeweils auf einem System: Vl. I, Vl. II, Vla., Vlc. [„Cello“] und Kb. [„Bass“], Orgel auf zwei Systemen, 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], Klavierauszug auf zwei Systemen</annot>
-    			<annot>Partituranordnung ab Takt 5, jeweils auf einem System: Ob. I, Klar. I [B], Vl. I, Vl. II, Vla., Vlc. [„Cello“] und Kb. [„Bass“], Orgel auf zwei Systemen, 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], Klavierauszug auf zwei Systemen</annot>
-    		</annots>
-    		<manifestationList>
-    			<manifestation>A-P3</manifestation>
-    		</manifestationList>
-    		<editionList>
-    			<edition>BauDi-P</edition>
-    		</editionList>
-    	</remark>
-    	<remark type="editorial">
-    		<class>Bemerkung</class>
-    		<mdiv>3</mdiv>
-    		<occurances>
-    			<occurance><position measure="0" count="0"/></occurance>
-    		</occurances>
-    		<parts>all</parts>
-    		<annots>
-    			<annot>Partituranordnung, jeweils auf einem System: Ob. I, Klar. I [B], 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Orgel auf zwei Systemen, Solo [„Tenor Solo“], Vl. I, Vl. II, Vla., Vlc. [„Cello“] und Kb. [„Bass“]</annot>
-    		</annots>
-    		<manifestationList>
-    			<manifestation>ED-P</manifestation>
-    		</manifestationList>
-    		<editionList>
-    			<edition>BauDi-P</edition>
-    		</editionList>
-    	</remark>
+        <remark type="editorial" xml:id="baudi-30-94936db3">
+            <class>Bemerkung</class>
+            <mdiv>3</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="0" count="0"/>
+                </occurance>
+            </occurances>
+            <parts>all</parts>
+            <annots>
+                <annot>Partituranordnung bis Takt 5, jeweils auf einem System: Vl. I, Vl. II, Vla., Vlc. [„Cello“] und Kb. [„Bass“], Orgel auf zwei Systemen, 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], Klavierauszug auf zwei Systemen</annot>
+                <annot>Partituranordnung ab Takt 5, jeweils auf einem System: Ob. I, Klar. I [B], Vl. I, Vl. II, Vla., Vlc. [„Cello“] und Kb. [„Bass“], Orgel auf zwei Systemen, 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Solo [„Tenor-Solo“], Klavierauszug auf zwei Systemen</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>A-P3</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
+            </editionList>
+        </remark>
+        <remark type="editorial" xml:id="baudi-30-0bf206ac">
+            <class>Bemerkung</class>
+            <mdiv>3</mdiv>
+            <occurances>
+                <occurance>
+                    <position measure="0" count="0"/>
+                </occurance>
+            </occurances>
+            <parts>all</parts>
+            <annots>
+                <annot>Partituranordnung, jeweils auf einem System: Ob. I, Klar. I [B], 3 Pos. auf zwei Systemen (Pos. 1/2, Pos. 3), Orgel auf zwei Systemen, Solo [„Tenor Solo“], Vl. I, Vl. II, Vla., Vlc. [„Cello“] und Kb. [„Bass“]</annot>
+            </annots>
+            <manifestationList>
+                <manifestation>ED-P</manifestation>
+            </manifestationList>
+            <editionList>
+                <edition>BauDi-P</edition>
+            </editionList>
+        </remark>
         <remark type="editorial" xml:id="baudi-30-c5463d5c">
             <class>Vortragsbezeichnung</class>
             <mdiv>3</mdiv>
@@ -348,7 +351,7 @@
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-599aecef">
-        	<class>Vortragsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>3</mdiv>
             <occurances>
                 <occurance>
@@ -544,7 +547,7 @@
             </editionList>
         </remark>
         <remark type="reading" xml:id="baudi-30-a16e26f0">
-        	<class>Vortragsbezeichnung</class>
+            <class>Vortragsbezeichnung</class>
             <mdiv>3</mdiv>
             <occurances>
                 <occurance>
