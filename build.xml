@@ -35,7 +35,7 @@
             <filterset>
                 <filter token="project.app" value="${project.app}"/>
                 <filter token="project.name" value="${project.name}"/>
-                <filter token="project.version" value="${local.revision}"/>
+                <filter token="project.version" value="${project.version}-${local.revision}"/>
                 <filter token="project.url" value="${project.url}"/>
             </filterset>
         </copy>
@@ -45,7 +45,7 @@
                 <filter token="project.name" value="${project.name}"/>
             </filterset>
         </copy>
-        <zip destfile="${dist.dir}/${project.app}-${local.revision}.xar">
+        <zip destfile="${dist.dir}/${project.app}-${project.version}-${local.revision}.xar">
             <fileset dir=".">
                 <include name="**/*.*"/>
                 <exclude name="**/baudi-06-dummy.xml"/>
@@ -76,7 +76,7 @@
             </fileset>
         </delete>
         <echo>Add new package</echo>
-        <copy file="${dist.dir}/${project.app}-${local.revision}.xar" todir="${baudiData.basedir}/../baudi-docker/autodeploy" overwrite="yes"/>
+        <copy file="${dist.dir}/${project.app}-${project.version}-${local.revision}.xar" todir="${baudiData.basedir}/../baudi-docker/autodeploy" overwrite="yes"/>
     </target>
     
 </project>
