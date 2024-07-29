@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
+     meiversion="5.0"
      xml:id="baudi-01-ede79baf"
-     status="created">
+     status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -46,13 +46,11 @@
                             page.rightmar="12.7mm"
                             page.topmar="12.7mm"
                             page.width="210mm"
-                            ppq="256"
                             text.name="Plantin MT Std">
                             <staffGrp xml:id="m-27">
                                 <staffDef xml:id="m-28"
                                   clef.line="2"
                                   clef.shape="G"
-                                  key.mode="minor"
                                   key.sig="3f"
                                   label="Stimme"
                                   lines="5"
@@ -64,7 +62,6 @@
                                     <staffDef xml:id="m-31"
                                      clef.line="2"
                                      clef.shape="G"
-                                     key.mode="minor"
                                      key.sig="3f"
                                      label="Klavier"
                                      lines="5"
@@ -75,7 +72,6 @@
                                     <staffDef xml:id="m-34"
                                      clef.line="4"
                                      clef.shape="F"
-                                     key.mode="minor"
                                      key.sig="3f"
                                      label="Klavier"
                                      lines="5"

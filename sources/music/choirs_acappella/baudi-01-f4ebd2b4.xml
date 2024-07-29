@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
+     meiversion="5.0"
      xml:id="baudi-01-f4ebd2b4"
-     status="created">
+     status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -71,7 +71,7 @@
                             <persName>Ehrenfried Liebich?</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-f4ebd2b4-respStmtDed"/>
+                    <contributor xml:id="baudi-01-f4ebd2b4-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -88,9 +88,9 @@
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck von C.G.Röder G. m. b. H., Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

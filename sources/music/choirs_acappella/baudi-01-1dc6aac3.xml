@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-1dc6aac3" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-1dc6aac3" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -64,8 +64,8 @@
                             <persName>unbekannt, Baumann?</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-1dc6aac3-respStmtDed">Der »Liedertafel Heidelberg« und ihrem Dirigenten Herrn Walch
-                        gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-1dc6aac3-contributorDed">Der »Liedertafel Heidelberg« und ihrem Dirigenten Herrn Walch
+                        gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -82,9 +82,9 @@
                             <dedicatee>Der »Liedertafel Heidelberg« und ihrem Dirigenten Herrn Walch gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Berliner Musikalien-Druckerei G.m.b.H. Berlin</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     
@@ -102,7 +102,7 @@
                    							              <symbol class="suenova-001"/>
                    						            </locus>
                    					          </physMedium>-->
-                    <plateNum n=""/>
+                    <plateNum/>
                 </physDesc>
                 <physLoc>
                     <repository>

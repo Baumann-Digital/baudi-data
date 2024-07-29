@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-5ab6a2b9" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-5ab6a2b9" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -64,8 +64,8 @@
                             <persName>Fr. Kinkel</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-5ab6a2b9-respStmtDed">Dem »Sängerkranz Mannheim« und seinem verdienstvollen
-                        Dirigenten, Herrn Gustav Reuther, gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-5ab6a2b9-contributorDed">Dem »Sängerkranz Mannheim« und seinem verdienstvollen
+                        Dirigenten, Herrn Gustav Reuther, gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -83,9 +83,9 @@
                                 gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Paris &amp; CO., Berlin Nr [?]</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     
@@ -103,7 +103,7 @@
                    							              <symbol class="suenova-001"/>
                    						            </locus>
                    					          </physMedium>-->
-                    <plateNum n=""/>
+                    <plateNum/>
                 </physDesc>
                 <physLoc>
                     <repository>

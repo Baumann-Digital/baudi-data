@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-e3990049" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-e3990049" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -64,8 +64,8 @@
                             <persName>A. Strodtmann</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-e3990049-respStmtDed">Dem Protektor des Sängerfestes in Neustadt a. d. Haart, Herrn
-                        Wirklichen Geheimen Rat Dr. ALBERT BÜRKLIN, Exzellenz hochachtungsvoll gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-e3990049-contributorDed">Dem Protektor des Sängerfestes in Neustadt a. d. Haart, Herrn
+                        Wirklichen Geheimen Rat Dr. ALBERT BÜRKLIN, Exzellenz hochachtungsvoll gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -83,9 +83,9 @@
                                 ALBERT BÜRKLIN, Exzellenz hochachtungsvoll gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Berliner Musikalien-Druckerei G.m.b.H. Berlin S.W.63</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

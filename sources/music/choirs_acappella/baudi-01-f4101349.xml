@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-    xml:id="baudi-01-f4101349" status="created">
+
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0"
+    xml:id="baudi-01-f4101349" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -63,7 +63,7 @@
                             <persName>Ludwig Baumann</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-f4101349-respStmtDed">Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues Herrn Albert Schultheiß in St. Georgen i. Schw. gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-f4101349-contributorDed">Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues Herrn Albert Schultheiß in St. Georgen i. Schw. gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -80,9 +80,9 @@
                             <dedicatee>Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues Herrn Albert Schultheiß in St. Georgen i. Schw. gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck der Universitätsdruckerei H. Stürtz A. G., Würzburg</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
+     meiversion="5.0"
      xml:id="baudi-01-028c31ae"
-     status="created">
+     status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -30,8 +30,8 @@
                 <lyricist>
                     <persName>Ludwig Baumann</persName>
                 </lyricist>
-                <key pname="" mode="d"/>
-                <meter count="minor" unit="4"/>
+                <key pname="d" mode="minor"/>
+<!--                <meter count="?" unit="4"/>-->
                 <tempo/>
                 <incip/>
 
@@ -74,7 +74,7 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement key="baudi-06-5541661c" codedval="baudi-06-a1ca746a">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
                             </pubPlace>
                             <date>2755</date>
                             <dedicatee>Der <corpName>»Sängervereinigung Jahn«, <settlement>Paderborn</settlement>
@@ -102,7 +102,7 @@
                    							              <symbol class="suenova-001"/>
                    						            </locus>
                    					          </physMedium>-->
-                    <plateNum n="H. 2755 H.">2755</plateNum>
+                    <plateNum n="2755">H. 2755 H.</plateNum>
                 </physDesc>
                 <physLoc>
                     <repository>

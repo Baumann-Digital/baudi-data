@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-3807dae9" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-3807dae9" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,14 +31,14 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="baudi-09-b66b7de3">Violine
-                  </perfRes>
-                  <perfRes codedval="baudi-09-f0a0dd20">Gesang (Sopran)<range>
+                  <perfRes codedval="violin"/>
+                  <perfRes codedval="soprano">
+                     <range>
                         <rangeNote pname="b" oct="3" type="lowest"/>
                         <rangeNote pname="g" accid="f" oct="5" type="highest"/>
                      </range>
                   </perfRes>
-                  <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+                  <perfRes codedval="piano"/>
                </perfResList>
             </perfMedium>
             <contents/>
@@ -159,12 +159,7 @@
       </revisionDesc>
    </meiHead>
    <music>
-      <facsimile>
-         <ambitus>
-            <ambNote pname="b" oct="3" type="lowest"/>
-            <ambNote pname="g" accid="f" oct="5" type="highest"/>
-         </ambitus>
-      </facsimile>
+      <facsimile/>
       <body>
          <mdiv xml:id="baudi_20_c661567b" label="Die drei Zigeuner">
             <score>

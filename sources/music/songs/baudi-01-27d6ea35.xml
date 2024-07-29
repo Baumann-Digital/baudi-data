@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-27d6ea35" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-27d6ea35" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,9 +31,13 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="baudi-09-82e86ea7">Stimme<range/>
+                  <perfRes codedval="voice">
+                     <range>
+                        <rangeNote pname="c" oct="4" type="lowest"/>             
+                        <rangeNote pname="e" oct="5" type="highest"/>             
+                     </range>
                   </perfRes>
-                  <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+                  <perfRes codedval="piano"/>
                </perfResList>
             </perfMedium>
             <contents/>
@@ -158,12 +162,7 @@
       <body>
          <mdiv xml:id="baudi_20_71fc9892" label="Wo ist Gott?">
             <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambnote pname="c" oct="4" type="lowest"/>             
-                     <ambnote pname="e" oct="5" type="highest"/>             
-                  </ambitus>
-               </scoreDef>
+               <scoreDef/>
                <section/>
             </score>
          </mdiv>

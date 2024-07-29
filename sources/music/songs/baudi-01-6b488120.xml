@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../baudiResources/data/schema/mei_baudi-1.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     status="checked"
+     meiversion="5.0"
+     status="proposed"
      xml:id="baudi-01-6b488120">
     <meiHead>
         <fileDesc>
@@ -42,11 +41,11 @@
                 <perfMedium>
                     <perfResList>
                         <perfRes xml:id="baudi-01-6b488120-perfRes-0001" codedval="voice">
-                            <ambitus>
-                                <ambNote pname="d" oct="4" type="lowest"/>
-                                <ambNote pname="f" accid="s" oct="5" type="highest"/>
-                                <ambNote pname="a" accid="s" oct="5" type="highestAlt"/>
-                            </ambitus>
+                            <range>
+                                <rangeNote pname="d" oct="4" type="lowest"/>
+                                <rangeNote pname="f" accid="s" oct="5" type="highest"/>
+                                <rangeNote pname="a" accid="s" oct="5" type="highestAlt"/>
+                            </range>
                         </perfRes>
                         <perfRes xml:id="baudi-01-6b488120-perfRes-0002" codedval="piano"/>
                     </perfResList>

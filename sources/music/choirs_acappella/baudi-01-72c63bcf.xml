@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-72c63bcf" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-72c63bcf" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -70,7 +70,7 @@
                             <persName>Ferdinand Dietz</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-72c63bcf-respStmtDed"/>
+                    <contributor xml:id="baudi-01-72c63bcf-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -87,9 +87,9 @@
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing"/>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

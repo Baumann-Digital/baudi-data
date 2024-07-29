@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../baudiResources/data/schema/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
+     meiversion="5.0"
      xml:id="baudi-01-ef87c799"
-     status="created">
+     status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -40,7 +40,7 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes xml:id="baudi-01-ef87c799-perfRes-0001" codedval="baudi-09-82e86ea7">Singstimme<range corresp="baudi-01-ef87c799-perfRes-0001">
+                        <perfRes xml:id="baudi-01-ef87c799-perfRes-0001" codedval="baudi-09-82e86ea7">Singstimme<range>
                         <rangeNote type="lowest" pname="e" oct="4"/>
                         <rangeNote type="highest" pname="f" accid="s" oct="5"/>
                      </range>
