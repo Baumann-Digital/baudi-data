@@ -34,7 +34,8 @@
                <perfResList>
                   <perfRes codedval="violin">Violine
                   </perfRes>
-                  <perfRes codedval="voiceHigh">Hohe Stimme<range>
+                  <perfRes codedval="voice.high">
+                     <range>
                         <rangeNote pname="e" accid="f" oct="4" type="lowest"/>
                         <rangeNote pname="a" accid="f" oct="5" type="highest"/>
                      </range>
@@ -199,15 +200,6 @@
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_577d59d3" label="Lied eines siebenbürgischen Wanderzigeuners">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="e" accid="f" oct="4" type="lowest"/>
-                     <ambNote pname="a" accid="f" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

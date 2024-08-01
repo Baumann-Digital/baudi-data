@@ -31,7 +31,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voice">Stimme<range>
+                  <perfRes codedval="voice">
+                     <range>
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="f" accid="s" oct="5" type="highest"/>
                      </range>
@@ -158,15 +159,6 @@
       <facsimile/>
       <body>
          <mdiv xml:id="baudi_20_b0225413" label="Werbung">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="d" oct="4" type="lowest"/>
-                     <ambNote pname="f" accid="s" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

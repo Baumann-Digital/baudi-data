@@ -33,7 +33,8 @@
                <perfResList>
                   <perfRes codedval="violin">Violine
                   </perfRes>
-                  <perfRes codedval="soprano">Gesang (Sopran)<range>
+                  <perfRes codedval="soprano">
+                     <range>
                         <rangeNote pname="b" oct="3" type="lowest"/>
                         <rangeNote pname="g" accid="f" oct="5" type="highest"/>
                      </range>
@@ -161,17 +162,7 @@
    <music>
       <facsimile/>
       <body>
-         <mdiv xml:id="baudi_20_fb3a1692" label="Die drei Zigeuner">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="b" oct="3" type="lowest"/>
-                     <ambNote pname="g" accid="f" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
-         </mdiv>
+         <mdiv xml:id="baudi_20_fb3a1692" label="Die drei Zigeuner"/>
       </body>
    </music>
 </mei>

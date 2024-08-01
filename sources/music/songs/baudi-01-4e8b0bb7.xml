@@ -31,7 +31,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voiceHigh">Hohe Stimme<range>
+                  <perfRes codedval="voice.high">
+                     <range>
                         <rangeNote type="lowest" pname="f" oct="4"/>
                         <rangeNote type="highest" pname="g" oct="5"/>
                      </range>
@@ -155,17 +156,7 @@
          <!-- https://digital.blb-karlsruhe.de/blbihd/content/pageview/3296139 -->
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_dad4d1ec" label="Heiliges Feuer">
-            <score>
-               <scoreDef>
-                  <ambitus corresp="baudi-01-a563a93e-perfRes-0001">
-                     <ambNote type="lowest" pname="f" oct="4"/>
-                     <ambNote type="highest" pname="g" oct="5"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
-         </mdiv>
+         <mdiv xml:id="baudi_20_dad4d1ec" label="Heiliges Feuer"/>
       </body>
    </music>
 </mei>

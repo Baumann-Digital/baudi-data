@@ -31,7 +31,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes solo="true" count="1" codedval="voice">Stimme<range>
+                  <perfRes solo="true" count="1" codedval="voice">
+                     <range>
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="g" oct="5" type="highest"/>
                      </range>
@@ -166,15 +167,6 @@
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_2f7889e3" label="Tanzlied">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="d" oct="4" type="lowest"/>
-                     <ambNote pname="g" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

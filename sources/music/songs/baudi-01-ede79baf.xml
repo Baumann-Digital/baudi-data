@@ -33,7 +33,7 @@
                 <key pname="c" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Stormily moved. (Stürmisch bewegt.)</tempo>
-                <!--<incip>
+                <incip>
                     <score xml:id="m-25">
                         <scoreDef xml:id="m-26"
                             lyric.name="Plantin MT Std"
@@ -51,33 +51,27 @@
                                 <staffDef xml:id="m-28"
                                   clef.line="2"
                                   clef.shape="G"
-                                  key.sig="3f"
                                   label="Stimme"
                                   lines="5"
                                   n="1">
-                                    <!-\- voice.ensemble.ah -\->
-                                    <instrDef xml:id="m-30" midi.channel="1" midi.pan="63" midi.volume="100"/>
+                                    <!-- voice.ensemble.ah -->
                                 </staffDef>
                                 <staffGrp xml:id="m-37" n="1" symbol="brace">
                                     <staffDef xml:id="m-31"
                                      clef.line="2"
                                      clef.shape="G"
-                                     key.sig="3f"
                                      label="Klavier"
                                      lines="5"
                                      n="2">
-                                        <!-\- keyboard.piano.grand -\->
-                                        <instrDef xml:id="m-33" midi.channel="1" midi.pan="53" midi.volume="100"/>
+                                        <!-- keyboard.piano.grand -->
                                     </staffDef>
                                     <staffDef xml:id="m-34"
                                      clef.line="4"
                                      clef.shape="F"
-                                     key.sig="3f"
                                      label="Klavier"
                                      lines="5"
                                      n="3">
-                                        <!-\- keyboard.piano.grand -\->
-                                        <instrDef xml:id="m-36" midi.channel="1" midi.pan="53" midi.volume="100"/>
+                                        <!-- keyboard.piano.grand -->
                                     </staffDef>
                                 </staffGrp>
                             </staffGrp>
@@ -251,9 +245,7 @@
                                     </layer>
                                 </staff>
                                 <slur xml:id="m-93" layer="1" staff="3" tstamp="4" tstamp2="1m+1"/>
-                                <tempo xml:id="m-101">
-                                    <anchoredText xml:id="m-102">Stormily moved. (Stürmisch bewegt.)</anchoredText>
-                                </tempo>
+                                <tempo xml:id="m-101">Stormily moved. (Stürmisch bewegt.)</tempo>
                             </measure>
                             <measure xml:id="m-103" n="2">
                                 <staff xml:id="m-104" n="1">
@@ -1835,7 +1827,7 @@
                             </measure>
                         </section>
                     </score>
-                </incip>-->
+                </incip>
                 <perfMedium>
                     <perfResList>
                         <perfRes count="1" solo="true" codedval="voice">
@@ -2018,13 +2010,6 @@
         <body>
             <mdiv xml:id="baudi_20_d83d0412" label="The Distand Strand">
                 <score>
-                    <scoreDef>
-                        <ambitus>
-                     <ambNote pname="c" oct="4" type="lowest"/>
-                        <ambNote pname="e" oct="5" type="highest"/>
-                        <ambNote pname="f" oct="5" type="highestAlt"/>
-                  </ambitus>
-                    </scoreDef>
                     <section/>
                     <div type="songtext" xml:lang="en">
                         <lg label="title">

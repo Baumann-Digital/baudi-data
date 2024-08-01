@@ -32,7 +32,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voice">Stimme<range>
+                  <perfRes codedval="voice">
+                     <range>
                         <rangeNote pname="e" accid="f" oct="4" type="lowest"/>
                         <rangeNote pname="a" accid="f" oct="5" type="highest"/>
                         <rangeNote pname="b" accid="f" oct="5" type="highestAlt"/>
@@ -185,16 +186,6 @@
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_090d15b2" label="Lied eines siebenbürgischen Wanderzigeuners">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="e" accid="f" oct="4" type="lowest"/>
-                     <ambNote pname="a" accid="f" oct="5" type="highest"/>
-                     <ambNote pname="b" accid="f" oct="5" type="highestAlt"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

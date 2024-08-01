@@ -31,7 +31,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voiceHigh">Hohe Stimme<range>
+                  <perfRes codedval="voice.high">
+                     <range>
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="e" accid="f" oct="5" type="highest"/>
                      </range>
@@ -151,15 +152,6 @@
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_1154c9b3" label="Das fleissige Sternlein">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="d" oct="4" type="lowest"/>
-                     <ambNote pname="e" accid="f" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

@@ -32,7 +32,8 @@
                <perfResList>
                   <perfRes codedval="violin">Violine
                   </perfRes>
-                  <perfRes codedval="soprano">Gesang (Sopran)<range>
+                  <perfRes codedval="soprano">
+                     <range>
                         <rangeNote pname="b" oct="3" type="lowest"/>
                         <rangeNote pname="g" accid="f" oct="5" type="highest"/>
                      </range>
@@ -126,7 +127,7 @@
                </repository>
                <identifier analog="marc:852$c" type="shelfmark">Mus. Hs. 1308</identifier>
                <history>
-                  <acquisition>19XX wurde der musikalsiche Nachlass von Ludwig Baumann in die BLB überführt.</acquisition>
+                  <acquisition>19XX wurde der musikalische Nachlass von Ludwig Baumann in die BLB überführt.</acquisition>
 
                </history>
             </physLoc>
@@ -161,8 +162,6 @@
             <classification>
                <termList>
                   <term type="source">manuscript</term>
-                  <!--                     <term type="source">Manuskript</term>  Durch @class in source ersetzt.-->
-
                   <term type="workGroup">vocal</term>
                   <term type="genre">song</term>
                   <term type="keyword">trio</term>
@@ -208,17 +207,7 @@
    <music>
       <facsimile/>
       <body>
-         <mdiv xml:id="baudi_20_23432f2b" label="Die drei Zigeuner">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="b" oct="3" type="lowest"/>
-                     <ambNote pname="g" accid="f" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
-         </mdiv>
+         <mdiv xml:id="baudi_20_23432f2b" label="Die drei Zigeuner"/>
       </body>
    </music>
 </mei>

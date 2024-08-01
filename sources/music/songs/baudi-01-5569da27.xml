@@ -31,7 +31,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voice">Singstimme<range>
+                  <perfRes codedval="voice">
+                     <range>
                         <rangeNote pname="f" oct="4" type="lowest"/>
                         <rangeNote pname="a" oct="5" type="highest"/>
                      </range>
@@ -156,15 +157,6 @@
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_e28c24db" label="Wiegenlied">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="f" oct="4" type="lowest"/>
-                     <ambNote pname="a" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

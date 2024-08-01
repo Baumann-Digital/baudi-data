@@ -30,7 +30,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voice">Stimme<range>
+                  <perfRes codedval="voice">
+                     <range>
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="g" oct="5" type="highest"/>
                      </range>
@@ -160,17 +161,7 @@
 <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299265-->
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_7f97656b" label="Tanzlied">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="d" oct="4" type="lowest"/>
-                     <ambNote pname="g" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
-         </mdiv>
+         <mdiv xml:id="baudi_20_7f97656b" label="Tanzlied"/>
       </body>
    </music>
 </mei>

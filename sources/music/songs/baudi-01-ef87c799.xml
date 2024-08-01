@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../baudiResources/data/schema/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      meiversion="5.0"
      xml:id="baudi-01-ef87c799"
@@ -40,7 +39,8 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes xml:id="baudi-01-ef87c799-perfRes-0001" codedval="voice">Singstimme<range>
+                        <perfRes xml:id="baudi-01-ef87c799-perfRes-0001" codedval="voice">
+                            <range>
                         <rangeNote type="lowest" pname="e" oct="4"/>
                         <rangeNote type="highest" pname="f" accid="s" oct="5"/>
                      </range>
@@ -70,18 +70,19 @@
                     <titlePage>
                         <p decls="titlePage">
                             <rend halign="center">
-                                <rend rend="box">Trüber<lb/>Abschied</rend>rend&gt;<lb/>
+                                <rend rend="box">Trüber<lb/>Abschied</rend>rend&gt;
                             </rend>
-                            <rend rend="right">Lied<lb/>
-                                <rend rend="smcaps">Für Eine Singstimme &amp;<lb/>Klavierbegleitung</rend>
-                            </rend>
-                            <rend rend="left">Komponiert</rend>
-                            <rend rend="center">von<lb/>LUDWIG BAUMANN</rend>
-                            <rend rend="left">Verlags N<rend rend="sup dblu">o</rend> 17229</rend>
-                            <rend rend="right">Preis Mk. 1._.</rend>
-                            <rend rend="center">Verlag und Eigentum für alle Länder<lb/>von<lb/>
-                                <rend rend="smcaps">Johann Andrè, Offenbach A.M.</rend>
-                            </rend>
+                            <lb/>Lied
+                            <lb/><rend rend="smcaps">Für Eine Singstimme &amp;
+                            <lb/>Klavierbegleitung</rend>
+                            <lb/>Komponiert von
+                            <lb/>LUDWIG BAUMANN
+                            <lb/>Verlags N<rend rend="sup"><rend rend="underline(2)">o</rend></rend> 17229
+                            <lb/>Preis Mk. 1._.
+                            <lb/>Verlag und Eigentum für alle Länder
+                            <lb/>von
+                            <lb/><rend rend="smcaps">Johann Andrè, Offenbach A.M.</rend>
+                            
                         </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">314</dimensions>
@@ -108,8 +109,8 @@
                     </addDesc>
                     <condition n="1" resp="dried" type="desc">
                         <date isodate="2020-05-14" type="desc" resp="dried"/>
-                        <p type="statusReport">An den Rändern brüchig, Leichte Gebrauchsspuren. Im Fals verstärkt. Mit
-                            Fadenheftung in einen Kartonumschlag eingebunden.</p>
+                        An den Rändern brüchig, Leichte Gebrauchsspuren. Im Fals verstärkt. Mit
+                            Fadenheftung in einen Kartonumschlag eingebunden.
                     </condition>
                     <physMedium xml:id="baudi-01-ef87c799-physMedium"><!-- Lagenordnung -->
                         <stamp>
@@ -192,12 +193,6 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
-                        <ambitus corresp="baudi-01-ef87c799-perfRes-0001">
-                            <ambNote type="lowest" pname="e" oct="4"/>
-                            <ambNote type="highest" pname="f" accid="s" oct="5"/>
-                        </ambitus>
-                    </scoreDef>
                     <section/>
                     <div type="songtext">
                         <lg>

@@ -35,7 +35,8 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes xml:id="baudi-01-a563a93e-perfRes-0001" codedval="voice">Singstimme<range>
+                        <perfRes xml:id="baudi-01-a563a93e-perfRes-0001" codedval="voice">
+                            <range>
                         <rangeNote type="lowest" pname="e" accid="f" oct="4"/>
                         <rangeNote type="highest" pname="f" oct="5"/>
                      </range>
@@ -160,15 +161,7 @@
         <facsimile/>
         <body>
             <mdiv>
-                <score>
-                    <scoreDef>
-                        <ambitus corresp="baudi-01-a563a93e-perfRes-0001">
-                            <ambNote type="lowest" pname="e" accid="f" oct="4"/>
-                            <ambNote type="highest" pname="f" oct="5"/>
-                        </ambitus>
-                    </scoreDef>
-                    <section/>
-                </score>
+
             </mdiv>
         </body>
     </music>

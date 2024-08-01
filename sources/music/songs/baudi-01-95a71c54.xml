@@ -30,7 +30,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="soprano">Sopran<range>
+                  <perfRes codedval="soprano">
+                     <range>
                         <rangeNote pname="c" accid="s" oct="4" type="lowest"/>
                         <rangeNote pname="g" accid="s" oct="5" type="highest"/>
                      </range>
@@ -161,15 +162,7 @@
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_2d8b6d21" label="Mondnacht am Meer">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="c" accid="s" oct="4" type="lowest"/>
-                     <ambNote pname="g" accid="s" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
+            
          </mdiv>
       </body>
    </music>

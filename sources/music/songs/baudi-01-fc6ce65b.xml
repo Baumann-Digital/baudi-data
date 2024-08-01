@@ -31,7 +31,8 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="voice">Singstimme<range>
+                  <perfRes codedval="voice">
+                     <range>
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="f" oct="5" type="highest"/>
                         <rangeNote pname="e" accid="f" oct="5" type="highestAlt"/>
@@ -165,16 +166,6 @@
       <facsimile/>
       <body>
          <mdiv xml:id="baudi_20_0b5e0334" label="Rosenduft">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="d" oct="4" type="lowest"/>
-                     <ambNote pname="f" oct="5" type="highest"/>
-                     <ambNote pname="e" accid="f" oct="5" type="highestAlt"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
          </mdiv>
       </body>
    </music>

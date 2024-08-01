@@ -37,8 +37,15 @@
 				        <perfMedium>
 					          <perfResList>
 						<!-- StandardInstrumentName -->
-						            <perfRes codedval="violin">Violine<range/>
-                  </perfRes>
+						            <perfRes codedval="violin">Violine</perfRes>
+					          	<perfRes codedval="voice.high">
+					          		<range>
+					          			<rangeNote pname="d" accid="s" oct="4" type="lowest"/>
+					          			<rangeNote pname="f" accid="s" oct="5" type="highest"/>
+					          			<rangeNote pname="b" oct="5" type="highestAlt"/>
+					          	</range>
+					          	</perfRes>
+						            <perfRes codedval="piano"></perfRes>
 					          </perfResList>
 				        </perfMedium>
 				        <contents/>
@@ -170,19 +177,6 @@
 			      <mdiv xml:id="baudi_20_4c7fe388" label="Nun ist der Lenz gekommen">
 				        <parts>
 					          <part xml:id="baudi-01-a1cd6c8b-part001" label="voiceHigh">
-						            <staffDef>
-							              <ambitus>
-								                <ambnote pname="d" accid="s" oct="4" type="lowest"/>
-								                <ambnote pname="f" accid="s" oct="5" type="highest"/>
-								                <ambnote pname="b" oct="5" type="highestAlt"/>
-							              </ambitus>
-							              <label>Diplomatische Stimmenangabe</label>
-							              <keySig>
-								                <keyAccid/>
-							              </keySig>
-							              <clef/>
-							              <meterSig/>
-						            </staffDef>
 						            <section>
 							              <div>
 								                <lg n="1">
@@ -209,27 +203,6 @@
 						            </section>
 					          </part>
 					          <part xml:id="baudi-01-a1cd6c8b-part002" label="Klavier">
-						            <scoreDef>
-							              <staffGrp>
-								                <label>Diplomatische Stimmenangabe</label>
-								                <staffDef>
-									                  <label>Diplomatische Stimmenangabe</label>
-									                  <keySig>
-										                    <keyAccid/>
-									                  </keySig>
-									                  <clef/>
-									                  <meterSig/>
-								                </staffDef>
-								                <staffDef>
-									                  <label>Diplomatische Stimmenangabe</label>
-									                  <keySig>
-										                    <keyAccid/>
-									                  </keySig>
-									                  <clef/>
-									                  <meterSig/>
-								                </staffDef>
-							              </staffGrp>
-						            </scoreDef>
 						            <section>
 							              <div>
 								                <lg n="1">
@@ -256,14 +229,6 @@
 						            </section>
 					          </part>
 					          <part xml:id="baudi-01-a1cd6c8b-part003" label="Violine">
-						            <staffDef>
-							              <label>Diplomatische Stimmenangabe</label>
-							              <keySig>
-								                <keyAccid/>
-							              </keySig>
-							              <clef/>
-							              <meterSig/>
-						            </staffDef>
 						            <section/>
 					          </part>
 				        </parts>
