@@ -1,18 +1,22 @@
-<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ed8cbc07" status="proposed">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ed8cbc07" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-ed8cbc07-titleUniMainDE">Knospende Liebe</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-ed8cbc07-titleUniDescDE">für hohe Stimme und Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-ed8cbc07-titleUniDescDE">für hohe Stimme und
+                  Klavier</titlePart>
             </title>
-         </titleStmt>
-         <pubStmt> </pubStmt>
+         <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+         <pubStmt>
+            
+         </pubStmt>
+
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
+
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -20,6 +24,7 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
+
             <key pname="f" mode="major"/>
             <meter count="4" unit="4"/>
             <tempo/>
@@ -48,6 +53,7 @@
                <lyricist xml:id="baudi-01-ed8cbc07-lyricist">
                   <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                </lyricist>
+
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -55,6 +61,7 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
+
                   <p decls="titlePage">Knospende Liebe.<lb/>Lied für hohe Stimme u. Klavier.<lb/>Ludwig Baumann<lb/>
                      <lb/>Richard Graebener<lb/>
                   </p>
@@ -85,6 +92,7 @@
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1394,33</identifier>
                </repository>
+
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -104,7 +112,8 @@
 						<bibl type="notice"/>--></biblList>
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-01-31" label="dried">Beiliegend zwei fotografische Reproduktionen des Manuskripts (Mus. Hs. 1394,33a und 1394,33b)</annot>
+               <annot n="1" when="2018-01-31" label="dried">Beiliegend zwei fotografische Reproduktionen des Manuskripts (Mus. Hs.
+                  1394,33a und 1394,33b)</annot>
                <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-ed8cbc07-physMedium">»Sünova« Nr. 2 - 4 Systeme</annot>
             </notesStmt>
             <classification>

@@ -1,18 +1,22 @@
-<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-d4981579" status="proposed">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-d4981579" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-d4981579-titleUniMainDE">Du schönes Weltenall</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-d4981579-titleUniDescDE">für hohe Stimme und Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-d4981579-titleUniDescDE">für hohe Stimme und
+                  Klavier</titlePart>
             </title>
-         </titleStmt>
-         <pubStmt> </pubStmt>
+         <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+         <pubStmt>
+            
+         </pubStmt>
+
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
+
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -20,6 +24,7 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
+
             <key pname="b" accid="s" mode="major"/>
             <meter count="4" unit="4"/>
             <tempo>Leicht bewegt.</tempo>
@@ -40,7 +45,8 @@
             <titleStmt>
                <title>
                   <titlePart type="main" xml:id="baudi-01-d4981579-titleMain">Du schönes Weltenall.</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-d4981579-titleSub">Für hohe Stimme und Klavier.</titlePart>
+                  <titlePart type="subordinate" xml:id="baudi-01-d4981579-titleSub">Für hohe Stimme und
+                  Klavier.</titlePart>
                </title>
                <composer xml:id="baudi-01-d4981579-composer">
                   <ref target="baudi-04-5e3ed698">Ludwig Baumann</ref>
@@ -49,6 +55,7 @@
                <lyricist xml:id="baudi-01-d4981579-lyricist">
                   <ref target="baudi-04-35c9a190">Richard Graebener</ref>
                </lyricist>
+
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -56,7 +63,9 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-                  <p decls="titlePage"> Du schönes Weltenall.<lb/> Für hohe Stimme und Klavier.<lb/> Ludwig Baumann<lb/> Richard Graebener </p>
+
+                  <p decls="titlePage"> Du schönes Weltenall.<lb/> Für hohe Stimme und Klavier.<lb/> Ludwig Baumann<lb/> Richard
+                     Graebener </p>
                </titlePage>
                <dimensions label="height" unit="mm">340</dimensions>
                <dimensions label="width" unit="mm">270</dimensions>
@@ -77,13 +86,15 @@
                   <date isodate="2018-01-31" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-d4981579-physMedium">Maschinell rastriert. Beschrieben mit hellblauer Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-d4981579-physMedium">Maschinell rastriert. Beschrieben mit hellblauer
+                  Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1394,50</identifier>
                </repository>
+
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -103,7 +114,8 @@
 						<bibl type="notice"/>--></biblList>
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-01-31" label="dried">Lage auf dem Kopf beschreiben. Titel in schwarz-grüner Tinte geschrieben.</annot>
+               <annot n="1" when="2018-01-31" label="dried">Lage auf dem Kopf beschreiben. Titel in schwarz-grüner Tinte
+                  geschrieben.</annot>
                <annot plist="paperTypeNote NE-oriented" corresp="#baudi-01-d4981579-physMedium">»Sünova« Nr. 4 - 12 zeilig</annot>
             </notesStmt>
             <classification>
