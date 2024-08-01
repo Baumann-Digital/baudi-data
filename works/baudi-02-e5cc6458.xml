@@ -1,4 +1,5 @@
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-e5cc6458">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-e5cc6458">
     <title type="uniform" xml:id="baudi-02-e5cc6458-title">
         <titlePart type="main" xml:id="baudi-02-e5cc6458-titleMain">Zwei treue Augen</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Zwei treue Augen</titlePart>
@@ -12,7 +13,11 @@
     <key pname="b" accid="f" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Schlicht und mit Empfindung</tempo>
-    <incip><incipText><p>Mir fiel kein Stern hernieder</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Mir fiel kein Stern hernieder</p>
+        </incipText>
+    </incip>
     <creation/>
     <history/>
     <langUsage>

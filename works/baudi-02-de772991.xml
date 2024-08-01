@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-de772991">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-de772991">
     <identifier type="baudi-copy">CMVS-HH-50</identifier>
-    <title type="uniform" xml:id="baudi-02-de772991-title"><titlePart type="main" xml:id="baudi-02-de772991-titleMain">Mein ist
-            die Welt</titlePart><titlePart type="mainSort" xml:id="baudi-02-de772991-titleMainSort">Mein ist die
-            Welt</titlePart></title>
+    <title type="uniform" xml:id="baudi-02-de772991-title">
+        <titlePart type="main" xml:id="baudi-02-de772991-titleMain">Mein ist die Welt</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-de772991-titleMainSort">Mein ist die Welt</titlePart></title>
     <composer xml:id="baudi-02-de772991-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    
     <lyricist xml:id="baudi-02-de772991-lyricist"><persName codedval="baudi-04-bb046865">Jul. Gersdorff</persName></lyricist>
     <key pname="b" accid="f" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Breit, wuchtig.</tempo>
     <incip/>
-    <creation></creation>
-    <history><p>Erschienen <date isodate="1920">1920</date></p></history>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1920">1920</date></p>
+    </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>
@@ -26,13 +28,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal"/>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

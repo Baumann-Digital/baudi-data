@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-f926f388">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-f926f388">
     <identifier type="baudi-copy">none</identifier>
     <title type="uniform" xml:id="baudi-02-f926f388-title">
         <titlePart type="main" xml:id="baudi-02-f926f388-titleMain">Der 13. Psalm</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-f926f388-titleMainSort">13. Psalm</titlePart>
-        
-        
     </title>
     <composer xml:id="baudi-02-f926f388-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -16,7 +15,11 @@
     <key pname="f" mode="minor"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Allegro. Maestoso</tempo>
-    <incip><incipText><p>Herr, wie lange willst du meiner vergessen,</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Herr, wie lange willst du meiner vergessen,</p>
+        </incipText>
+    </incip>
     <creation>Stebbach 1885</creation>
     <history/>
     <perfMedium>
@@ -31,13 +34,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal">BLB: Mus. Hs. 1294a (https://digital.blb-karlsruhe.de/blbihd/content/pageview/3295083)</annot>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

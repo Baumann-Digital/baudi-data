@@ -1,60 +1,48 @@
-   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-b6b60f11" status="proposed">
-      <title type="uniform" xml:id="baudi-02-b6b60f11-title">
-         <titlePart type="main" xml:id="baudi-02-b6b60f11-titleMain">
-            Nächtlicher Wald
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Nächtlicher Wald</titlePart>
-         
-         
-      </title>
-      <composer xml:id="baudi-02-b6b60f11-composer">
-         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-b6b60f11-lyricist">
-         <persName codedval="baudi-04-abc247c4">Heinz Stadelmann</persName>
-      </lyricist>
-      
-      <key pname="b" accid="f" mode="minor"/>
-      <meter count="6" unit="8"/>
-      <tempo>Andante (Getragen)</tempo>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language codedval="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes codedval="voice.low">Tiefe Stimme</perfRes>
-            <perfRes codedval="piano">Klavier</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      
-      
-      <classification>
-         
-         <termList>
-            
-            <term type="workGroup">vocal</term>
-            <term type="genre">song</term>
-         </termList>
-      </classification>
-      <!--		
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-b6b60f11" status="proposed">
+   <title type="uniform" xml:id="baudi-02-b6b60f11-title">
+      <titlePart type="main" xml:id="baudi-02-b6b60f11-titleMain"> Nächtlicher Wald </titlePart>
+      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Nächtlicher Wald</titlePart>
+   </title>
+   <composer xml:id="baudi-02-b6b60f11-composer">
+      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+   </composer>
+   <lyricist xml:id="baudi-02-b6b60f11-lyricist">
+      <persName codedval="baudi-04-abc247c4">Heinz Stadelmann</persName>
+   </lyricist>
+   <key pname="b" accid="f" mode="minor"/>
+   <meter count="6" unit="8"/>
+   <tempo>Andante (Getragen)</tempo>
+   <incip/>
+   <creation/>
+   <history/>
+   <langUsage>
+      <head>In der Quelle verwendete Sprache(n)</head>
+      <language codedval="de"/>
+   </langUsage>
+   <perfMedium>
+      <perfResList>
+         <perfRes codedval="voice.low">Tiefe Stimme</perfRes>
+         <perfRes codedval="piano">Klavier</perfRes>
+      </perfResList>
+   </perfMedium>
+   <audience/>
+   <classification>
+      <termList>
+         <term type="workGroup">vocal</term>
+         <term type="genre">song</term>
+      </termList>
+   </classification>
+   <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" target="baudi-01-7a8a3cd6"/>
-         <relation rel="hasEmbodiment" target="baudi-01-b85db8ef"/>
-      </relationList>
-   </work>
-
-
-
-
-
+   <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+      <relation rel="hasEmbodiment" target="baudi-01-7a8a3cd6"/>
+      <relation rel="hasEmbodiment" target="baudi-01-b85db8ef"/>
+   </relationList>
+</work>

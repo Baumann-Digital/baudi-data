@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-11e94e4e">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-11e94e4e">
     <identifier type="baudi-copy">CMVS-HH-45</identifier>
     <title type="uniform" xml:id="baudi-02-11e94e4e-title">
         <titlePart type="main" xml:id="baudi-02-11e94e4e-titleMain">Der brave Küferknecht</titlePart>
@@ -12,8 +13,10 @@
     <meter count="4" unit="4" sym="common"/>
     <tempo>Frisch und munter.</tempo>
     <incip/>
-    <creation></creation>
-    <history><p>Erschienen <date isodate="1914">1914</date></p></history>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1914">1914</date></p>
+    </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>
@@ -27,13 +30,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal">In der gedruckten Quelle ist kein Komponist genannt</annot>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

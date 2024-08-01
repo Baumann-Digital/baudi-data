@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-546d2578">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-546d2578">
     <identifier type="baudi-copy">none</identifier>
     <title type="uniform" xml:id="baudi-02-546d2578-title">
         <titlePart type="main" xml:id="baudi-02-546d2578-titleMain">Quartett (Canon)</titlePart>
@@ -8,20 +9,23 @@
     <composer xml:id="baudi-02-546d2578-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
-    <lyricist>
-    </lyricist>
+    <lyricist> </lyricist>
     <key pname="g" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Moderato</tempo>
-    <incip><incipText><p>Danket dem Herrn, denn er ist freundlich</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Danket dem Herrn, denn er ist freundlich</p>
+        </incipText>
+    </incip>
     <creation>Stebbach 1885</creation>
     <history/>
     <perfMedium>
         <perfResList>
-                <perfRes codedval="soprano"/>
-                <perfRes codedval="alto"/>
-                <perfRes codedval="tenor"/>
-                <perfRes codedval="bass"/>
+            <perfRes codedval="soprano"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
         </perfResList>
     </perfMedium>
     <audience/>

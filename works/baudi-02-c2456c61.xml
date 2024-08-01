@@ -1,59 +1,47 @@
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-c2456c61" status="proposed">
-      <title type="uniform" xml:id="baudi-02-c2456c61-title">
-         <titlePart type="main" xml:id="baudi-02-c2456c61-titleMain">
-            Wanderlust
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Wanderlust</titlePart>
-         
-         
-      </title>
-      <composer xml:id="baudi-02-c2456c61-composer">
-         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-c2456c61-lyricist">
-         <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
-      </lyricist>
-      
-      <key pname="g" mode="major"/>
-      <meter count="4" unit="4"/>
-      <tempo/>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language codedval="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes codedval="voice">Singstimme</perfRes>
-            <perfRes codedval="piano">Klavier</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      
-      
-      <classification>
-         
-         <termList>
-            
-            <term type="workGroup">vocal</term>
-            <term type="genre">song</term>
-         </termList>
-      </classification>
-      <!--		
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-c2456c61" status="proposed">
+   <title type="uniform" xml:id="baudi-02-c2456c61-title">
+      <titlePart type="main" xml:id="baudi-02-c2456c61-titleMain"> Wanderlust </titlePart>
+      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Wanderlust</titlePart>
+   </title>
+   <composer xml:id="baudi-02-c2456c61-composer">
+      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+   </composer>
+   <lyricist xml:id="baudi-02-c2456c61-lyricist">
+      <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
+   </lyricist>
+   <key pname="g" mode="major"/>
+   <meter count="4" unit="4"/>
+   <tempo/>
+   <incip/>
+   <creation/>
+   <history/>
+   <langUsage>
+      <head>In der Quelle verwendete Sprache(n)</head>
+      <language codedval="de"/>
+   </langUsage>
+   <perfMedium>
+      <perfResList>
+         <perfRes codedval="voice">Singstimme</perfRes>
+         <perfRes codedval="piano">Klavier</perfRes>
+      </perfResList>
+   </perfMedium>
+   <audience/>
+   <classification>
+      <termList>
+         <term type="workGroup">vocal</term>
+         <term type="genre">song</term>
+      </termList>
+   </classification>
+   <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" target="baudi-01-a3dfc3f9"/>
-      </relationList>
-   </work>
-
-
-
-
-
+   <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+      <relation rel="hasEmbodiment" target="baudi-01-a3dfc3f9"/>
+   </relationList>
+</work>

@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei"
-      status="proposed"
-      xml:id="baudi-02-0c4bc407">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-0c4bc407">
     <identifier type="baudi-copy">CMVS-HH-65</identifier>
     <title type="uniform" xml:id="baudi-02-0c4bc407-title">
-      <titlePart type="main" xml:id="baudi-02-0c4bc407-titleMain">Jungferngebet</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-0c4bc407-titleMainSort">Jungferngebet</titlePart>
-      
-      
-        <titlePart type="dedication">Dem <corpName>»Sängerbund <settlement>Großsachen</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-e5500e56">Herrn Robert Englert</persName>
-                                gewidmet.</titlePart>
-   </title>
+        <titlePart type="main" xml:id="baudi-02-0c4bc407-titleMain">Jungferngebet</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-0c4bc407-titleMainSort">Jungferngebet</titlePart>
+        <titlePart type="dedication">Dem <corpName>»Sängerbund <settlement>Großsachen</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-e5500e56">Herrn Robert Englert</persName> gewidmet.</titlePart>
+    </title>
     <composer xml:id="baudi-02-0c4bc407-composer">Österreichisches Volkslied</composer>
     <arranger xml:id="baudi-02-0c4bc407-arranger">
-      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-   </arranger>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
     <lyricist xml:id="baudi-02-0c4bc407-lyricist">Österreichisches Volkslied</lyricist>
     <key pname="g" mode="major"/>
     <meter count="2" unit="4"/>
     <tempo>Gemütliche Bewegung, mit Humor.</tempo>
     <incip/>
-    <creation></creation>
-    <history><p>Erschienen <date isodate="1928">1928</date></p></history>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1928">1928</date></p>
+    </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>
@@ -35,13 +33,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal"/>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

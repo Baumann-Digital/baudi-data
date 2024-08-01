@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-20015884">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-20015884">
     <identifier type="baudi-copy">BLB-Andre-2</identifier>
     <title type="uniform" xml:id="baudi-02-20015884-title">
         <titlePart type="main" xml:id="baudi-02-20015884-titleMain">Der Csikos</titlePart>
         <titlePart type="number" codedval="opus">110 Nr. 3</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-20015884-titleMainSort">Csikos</titlePart>
-        
-        
     </title>
     <composer xml:id="baudi-02-20015884-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -20,7 +19,11 @@
     <key pname="f" mode="major"/>
     <meter count="2" unit="4"/>
     <tempo>Mit Feuer, aber nicht hastig</tempo>
-    <incip><incipText><p>Komm' Zigeuner</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Komm' Zigeuner</p>
+        </incipText>
+    </incip>
     <creation/>
     <history/>
     <langUsage>
@@ -36,13 +39,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal"/>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

@@ -1,54 +1,45 @@
-   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-a023982a" status="proposed">
-      <title type="uniform" xml:id="baudi-02-a023982a-title">
-         <titlePart type="main" xml:id="baudi-02-a023982a-titleMain">
-            Nun ist der Lenz gekommen
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Nun ist der Lenz gekommen</titlePart>
-         
-      </title>
-      <composer xml:id="baudi-02-a023982a-composer">
-         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-a023982a-lyricist">
-         <persName>Ernst Klein</persName>
-      </lyricist>
-      
-      <key pname="e" mode="major"/>
-      <meter count="3" unit="4"/>
-      <meter count="9" unit="8" label="roundBrackets"/>
-      <tempo>Jubelnd, lebhaft</tempo>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language codedval="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes codedval="voice">Singstimme</perfRes>
-            <perfRes codedval="piano">Klavier</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      <contents/>
-      
-      <classification>
-         
-         <termList>
-            
-            <term type="workGroup">vocal</term>
-            <term type="genre">song</term>
-         </termList>
-      </classification>
-      <componentList/>
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" type="part" target="baudi-01-44a09848"/>
-         <relation rel="hasEmbodiment" type="part" target="baudi-01-de893ae8"/>
-         <relation rel="hasEmbodiment" type="part" target="baudi-01-a1cd6c8b"/>
-      </relationList>
-   </work>
-
-
-
-
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-a023982a" status="proposed">
+   <title type="uniform" xml:id="baudi-02-a023982a-title">
+      <titlePart type="main" xml:id="baudi-02-a023982a-titleMain"> Nun ist der Lenz gekommen </titlePart>
+      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Nun ist der Lenz gekommen</titlePart>
+   </title>
+   <composer xml:id="baudi-02-a023982a-composer">
+      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+   </composer>
+   <lyricist xml:id="baudi-02-a023982a-lyricist">
+      <persName>Ernst Klein</persName>
+   </lyricist>
+   <key pname="e" mode="major"/>
+   <meter count="3" unit="4"/>
+   <meter count="9" unit="8" label="roundBrackets"/>
+   <tempo>Jubelnd, lebhaft</tempo>
+   <incip/>
+   <creation/>
+   <history/>
+   <langUsage>
+      <head>In der Quelle verwendete Sprache(n)</head>
+      <language codedval="de"/>
+   </langUsage>
+   <perfMedium>
+      <perfResList>
+         <perfRes codedval="voice">Singstimme</perfRes>
+         <perfRes codedval="piano">Klavier</perfRes>
+      </perfResList>
+   </perfMedium>
+   <audience/>
+   <contents/>
+   <classification>
+      <termList>
+         <term type="workGroup">vocal</term>
+         <term type="genre">song</term>
+      </termList>
+   </classification>
+   <componentList/>
+   <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+      <relation rel="hasEmbodiment" type="part" target="baudi-01-44a09848"/>
+      <relation rel="hasEmbodiment" type="part" target="baudi-01-de893ae8"/>
+      <relation rel="hasEmbodiment" type="part" target="baudi-01-a1cd6c8b"/>
+   </relationList>
+</work>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-0e1853c6">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-0e1853c6">
     <identifier type="baudi-copy">BLB-Andre-5</identifier>
     <title type="uniform" xml:id="baudi-02-0e1853c6-title">
         <titlePart type="main" xml:id="baudi-02-0e1853c6-titleMain">Waldeinsamkeit</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-0e1853c6-titleMainSort">Waldeinsamkeit</titlePart>
-        
-        
     </title>
     <composer xml:id="baudi-02-0e1853c6-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -19,7 +18,11 @@
     <key pname="e" accid="f" mode="major"/>
     <meter count="4" unit="4"/>
     <tempo>Getragen, aber nicht schleppend</tempo>
-    <incip><incipText><p>Waldeinsamkeit! Die Sonn' allein spielt</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Waldeinsamkeit! Die Sonn' allein spielt</p>
+        </incipText>
+    </incip>
     <creation/>
     <history/>
     <langUsage>
@@ -35,13 +38,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal"/>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

@@ -1,61 +1,50 @@
-   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-c2188eed" status="proposed">
-      <title type="uniform" xml:id="baudi-02-c2188eed-title">
-         <titlePart type="main" xml:id="baudi-02-c2188eed-titleMain">
-            Mondnacht am Meer
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Mondnacht am Meer</titlePart>
-         
-         
-      </title>
-      <composer xml:id="baudi-02-c2188eed-composer">
-         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-c2188eed-lyricist">
-         <persName>[unbekannt]</persName>
-      </lyricist>
-      
-      <key pname="e" mode="major"/>
-      <meter count="9" unit="8"/>
-      <tempo/>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language codedval="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes codedval="voice.high">Hohe Stimme</perfRes>
-            <perfRes codedval="piano">Klavier</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      
-      
-      <classification>
-         
-         <termList>
-            
-            <term type="workGroup">vocal</term>
-            <term type="genre">song</term>
-         </termList>
-      </classification>
-      <!--		
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-c2188eed" status="proposed">
+   <title type="uniform" xml:id="baudi-02-c2188eed-title">
+      <titlePart type="main" xml:id="baudi-02-c2188eed-titleMain"> Mondnacht am Meer </titlePart>
+      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Mondnacht am Meer</titlePart>
+   </title>
+   <composer xml:id="baudi-02-c2188eed-composer">
+      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+   </composer>
+   <lyricist xml:id="baudi-02-c2188eed-lyricist">
+      <persName>[unbekannt]</persName>
+   </lyricist>
+   <key pname="e" mode="major"/>
+   <meter count="9" unit="8"/>
+   <tempo/>
+   <incip/>
+   <creation/>
+   <history/>
+   <langUsage>
+      <head>In der Quelle verwendete Sprache(n)</head>
+      <language codedval="de"/>
+   </langUsage>
+   <perfMedium>
+      <perfResList>
+         <perfRes codedval="voice.high">Hohe Stimme</perfRes>
+         <perfRes codedval="piano">Klavier</perfRes>
+      </perfResList>
+   </perfMedium>
+   <audience/>
+   <classification>
+      <termList>
+         <term type="workGroup">vocal</term>
+         <term type="genre">song</term>
+      </termList>
+   </classification>
+   <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" target="baudi-01-a0314ca5"/>
-         <relation rel="hasEmbodiment" target="baudi-01-d421fbe4"/>
-         <relation rel="hasEmbodiment" target="baudi-01-80483766"/>
-         <relation rel="hasAlternate" target="baudi-01-95a71c54"/>
-      </relationList>
-   </work>
-
-
-
-
+   <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+      <relation rel="hasEmbodiment" target="baudi-01-a0314ca5"/>
+      <relation rel="hasEmbodiment" target="baudi-01-d421fbe4"/>
+      <relation rel="hasEmbodiment" target="baudi-01-80483766"/>
+      <relation rel="hasAlternate" target="baudi-01-95a71c54"/>
+   </relationList>
+</work>

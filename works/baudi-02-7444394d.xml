@@ -1,4 +1,5 @@
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-7444394d">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-7444394d">
     <title type="uniform" xml:id="baudi-02-7444394d-title">
         <titlePart type="main" xml:id="baudi-02-7444394d-titleMain">Wanderers Nachtlied</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-7444394d-titleMainSort">Wanderers Nachtlied</titlePart>
@@ -13,13 +14,19 @@
     <key/>
     <meter/>
     <tempo/>
-    <incip><incipText><p>Der du von dem Himmel bist</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Der du von dem Himmel bist</p>
+        </incipText>
+    </incip>
     <creation><date notafter="1914"/></creation>
-    <history><eventList>
-        <event>
-            <desc><annot>Verlagswerbung von Johann André, Offenbach (1914), BLB M311, I, 19</annot></desc>
-        </event>
-    </eventList></history>
+    <history>
+        <eventList>
+            <event>
+                <desc><annot>Verlagswerbung von Johann André, Offenbach (1914), BLB M311, I, 19</annot></desc>
+            </event>
+        </eventList>
+    </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-089dcb9f">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-089dcb9f">
     <identifier type="baudi-copy">CMVS-HH-82</identifier>
     <title type="uniform" xml:id="baudi-02-089dcb9f-title">
-      <titlePart type="main" xml:id="baudi-02-089dcb9f-titleMain">Abendfeier</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-089dcb9f-titleMainSort">Abendfeier</titlePart>
-      <titlePart type="dedication">Dem <corpName>M. G. V. »Frohsinn« <settlement>B. Baden</settlement>
-         </corpName> und seinem Dirigenten <persName role="conductor">Otto Schäfer</persName> gewidmet.</titlePart>
-   </title>
+        <titlePart type="main" xml:id="baudi-02-089dcb9f-titleMain">Abendfeier</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-089dcb9f-titleMainSort">Abendfeier</titlePart>
+        <titlePart type="dedication">Dem <corpName>M. G. V. »Frohsinn« <settlement>B. Baden</settlement>
+            </corpName> und seinem Dirigenten <persName role="conductor">Otto Schäfer</persName> gewidmet.</titlePart>
+    </title>
     <composer xml:id="baudi-02-089dcb9f-composer">
-      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-   </composer>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
     <lyricist xml:id="baudi-02-089dcb9f-lyricist">
         <persName codedval="baudi-04-8bcd5d19">Inge Karsten</persName>
-   </lyricist>
+    </lyricist>
     <key pname="a" accid="f" mode="minor"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Weihevoll, nicht zu langsam</tempo>
@@ -32,7 +33,6 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
     <!--<notesStmt>
         <annot type="internal"/>
     </notesStmt>-->

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-e7067e8f">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-e7067e8f">
     <identifier type="baudi-copy">CMVS-HH-19</identifier>
-    <title type="uniform" xml:id="baudi-02-e7067e8f-title"><titlePart type="main" xml:id="baudi-02-e7067e8f-titleMain">Mein Lieb
-            am Rhein</titlePart><titlePart type="number" codedval="opus">83</titlePart><titlePart type="mainSort"
-            xml:id="baudi-02-e7067e8f-titleMainSort">Mein Lieb am Rhein</titlePart></title>
+    <title type="uniform" xml:id="baudi-02-e7067e8f-title">
+        <titlePart type="main" xml:id="baudi-02-e7067e8f-titleMain">Mein Lieb am Rhein</titlePart>
+        <titlePart type="number" codedval="opus">83</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-e7067e8f-titleMainSort">Mein Lieb am Rhein</titlePart></title>
     <composer xml:id="baudi-02-e7067e8f-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    
     <lyricist xml:id="baudi-02-e7067e8f-lyricist"><persName codedval="baudi-04-33dadc94">Emil Sauer</persName></lyricist>
     <key pname="d" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Schwungvoll.</tempo>
     <incip/>
-    <creation></creation>
-    <history><p>Erschienen <date isodate="1909">1909</date></p></history>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1909">1909</date></p>
+    </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>
@@ -26,13 +29,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal">Pflichtchor in Heddesheim 1909</annot>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

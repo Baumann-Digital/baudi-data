@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei"
-      status="proposed"
-      xml:id="baudi-02-a090a248">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-a090a248">
     <title type="uniform" xml:id="baudi-02-a090a248-title">
         <titlePart type="main" xml:id="baudi-02-a090a248-titleMain">Herzigs Schatzerl</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Herzigs Schatzerl</titlePart>
-        
-        
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Herzigs Schatzerl</titlePart>
         <titlePart type="number" codedval="opus">96b</titlePart>
-      <titlePart type="dedication">
-          <persName role="musicalDirector" codedval="baudi-04-84fbfcc5">Herrn
-                                Musikdirektor Louis Baldas</persName> freundlichst gewidmet.</titlePart>
-   </title>
+        <titlePart type="dedication">
+            <persName role="musicalDirector" codedval="baudi-04-84fbfcc5">Herrn Musikdirektor Louis Baldas</persName> freundlichst gewidmet.</titlePart>
+    </title>
     <arranger>
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </arranger>
@@ -24,8 +20,6 @@
     <incip/>
     <creation/>
     <history/>
-        
-    
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>
@@ -39,10 +33,7 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

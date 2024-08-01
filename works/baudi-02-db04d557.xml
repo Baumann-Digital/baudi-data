@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei"
-      status="proposed"
-      xml:id="baudi-02-db04d557">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-db04d557">
     <identifier type="baudi-copy">CMVS-HH-69</identifier>
     <title type="uniform" xml:id="baudi-02-db04d557-title">
-      <titlePart type="main" xml:id="baudi-02-db04d557-titleMain">Liedessegen</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-db04d557-titleMainSort">Liedessegen</titlePart>
-      <titlePart type="subordinate" xml:id="baudi-02-db04d557-titleSub">»Lieder sind gleich guten
-            Taten« Aus: Deutscher Parnass</titlePart>
-      
-      <titlePart type="dedication">Der <corpName>Schneider’schen Chorvereinigung <settlement>Stuttgart</settlement>
-      </corpName> und ihrem Leiter, <persName role="director" codedval="baudi-04-e5f37504">Herrn Musikdirektor
-                                Schneider</persName> gewidmet.</titlePart>
-   </title>
+        <titlePart type="main" xml:id="baudi-02-db04d557-titleMain">Liedessegen</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-db04d557-titleMainSort">Liedessegen</titlePart>
+        <titlePart type="subordinate" xml:id="baudi-02-db04d557-titleSub">»Lieder sind gleich guten Taten« Aus: Deutscher Parnass</titlePart>
+        <titlePart type="dedication">Der <corpName>Schneider’schen Chorvereinigung <settlement>Stuttgart</settlement>
+            </corpName> und ihrem Leiter, <persName role="director" codedval="baudi-04-e5f37504">Herrn Musikdirektor Schneider</persName> gewidmet.</titlePart>
+    </title>
     <composer xml:id="baudi-02-db04d557-composer">
-      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-   </composer>
-    
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
     <lyricist xml:id="baudi-02-db04d557-lyricist">
         <persName codedval="baudi-04-f4848295">Johann Wolfgang Goethe</persName>
-   </lyricist>
+    </lyricist>
     <key pname="c" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Wuchtig, mit hymnenartigem Schwung</tempo>
@@ -39,13 +34,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal">Aus Deutscher Parnass von Goethe</annot>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

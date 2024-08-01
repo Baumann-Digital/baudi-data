@@ -1,63 +1,51 @@
-   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-92c07a62" status="proposed">
-      <title type="uniform" xml:id="baudi-02-92c07a62-title">
-         <titlePart type="main" xml:id="baudi-02-92c07a62-titleMain">
-            Die drei Zigeuner
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">drei Zigeuner</titlePart>
-         
-         
-      </title>
-      <composer xml:id="baudi-02-92c07a62-composer">
-         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-92c07a62-lyricist">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-92c07a62" status="proposed">
+   <title type="uniform" xml:id="baudi-02-92c07a62-title">
+      <titlePart type="main" xml:id="baudi-02-92c07a62-titleMain"> Die drei Zigeuner </titlePart>
+      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">drei Zigeuner</titlePart>
+   </title>
+   <composer xml:id="baudi-02-92c07a62-composer">
+      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+   </composer>
+   <lyricist xml:id="baudi-02-92c07a62-lyricist">
       <persName/>Niklas Lenau</lyricist>
-      
-      <key pname="e" mode="minor"/>
-      <meter count="4" unit="4"/>
-      <tempo>Schnell/Bewegt</tempo>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language codedval="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes codedval="voice">Sopran</perfRes>
-            <perfRes codedval="piano">Klavier</perfRes>
-            <perfRes codedval="violin">Violine</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      
-      
-      <classification>
-         
-         <termList>
-            
-            <term type="workGroup">vocal</term>
-            <term type="genre">song</term>
-            <term type="keyword"/>
-         </termList>
-      </classification>
-      <!--		
+   <key pname="e" mode="minor"/>
+   <meter count="4" unit="4"/>
+   <tempo>Schnell/Bewegt</tempo>
+   <incip/>
+   <creation/>
+   <history/>
+   <langUsage>
+      <head>In der Quelle verwendete Sprache(n)</head>
+      <language codedval="de"/>
+   </langUsage>
+   <perfMedium>
+      <perfResList>
+         <perfRes codedval="voice">Sopran</perfRes>
+         <perfRes codedval="piano">Klavier</perfRes>
+         <perfRes codedval="violin">Violine</perfRes>
+      </perfResList>
+   </perfMedium>
+   <audience/>
+   <classification>
+      <termList>
+         <term type="workGroup">vocal</term>
+         <term type="genre">song</term>
+         <term type="keyword"/>
+      </termList>
+   </classification>
+   <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" target="baudi-01-3807dae9"/>
-         <relation rel="hasEmbodiment" target="baudi-01-0f713136"/>
-         <relation rel="hasEmbodiment" target="baudi-01-4fb3658e"/>
-         <relation rel="hasExemplar" target="baudi-01-26673070" class="#part"/>
-      </relationList>
-   </work>
-
-
-
-
-
+   <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+      <relation rel="hasEmbodiment" target="baudi-01-3807dae9"/>
+      <relation rel="hasEmbodiment" target="baudi-01-0f713136"/>
+      <relation rel="hasEmbodiment" target="baudi-01-4fb3658e"/>
+      <relation rel="hasExemplar" target="baudi-01-26673070" class="#part"/>
+   </relationList>
+</work>

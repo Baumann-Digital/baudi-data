@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei"
-      status="proposed"
-      xml:id="baudi-02-bb950269">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-bb950269">
     <title type="uniform" xml:id="baudi-02-bb950269-title">
         <titlePart type="main" xml:id="baudi-02-bb950269-titleMain">Möchte gerne ziehen</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Moechte gerne ziehen</titlePart>
-        
-        
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Moechte gerne ziehen</titlePart>
         <titlePart type="number" codedval="opus">14</titlePart>
-      <titlePart type="dedication">Dem
-          <corpName>»Liederkranz <settlement>Bruchsal</settlement>«</corpName> und seinem, verdienstvollen Vorstande, <persName role="chairman" codedval="baudi-04-0d1f77b5">Herrn Albert Hamminger</persName>,
-                                gewidmet.</titlePart>
-   </title>
+        <titlePart type="dedication">Dem <corpName>»Liederkranz <settlement>Bruchsal</settlement>«</corpName> und seinem, verdienstvollen Vorstande, <persName role="chairman" codedval="baudi-04-0d1f77b5">Herrn Albert Hamminger</persName>, gewidmet.</titlePart>
+    </title>
     <composer xml:id="baudi-02-bb950269-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
@@ -42,9 +37,7 @@
     <notesStmt>
         <annot type="perf">Schlusswendung 6-stimmig.</annot>
     </notesStmt>
-    
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

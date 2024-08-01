@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-8b120378">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-8b120378">
     <title type="uniform" xml:id="baudi-02-8b120378-title">
         <titlePart type="main" xml:id="baudi-02-8b120378-titleMain">Frühlingswanderung</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-8b120378-titleMainSort">Fruehlingswanderung</titlePart>
@@ -18,7 +19,9 @@
     <tempo>Gemütliches Marschtempo, nicht zu schnell.</tempo>
     <incip/>
     <creation/>
-    <history><p>Die Fassung für gemischten Chor ist 1924 erschienen. Vermutlich entstand das Werk ebenfalls 1924.</p></history>
+    <history>
+        <p>Die Fassung für gemischten Chor ist 1924 erschienen. Vermutlich entstand das Werk ebenfalls 1924.</p>
+    </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
         <language codedval="de"/>
@@ -32,7 +35,7 @@
         </perfResList>
     </perfMedium>
     <notesStmt>
-        <annot type="internal"></annot>
+        <annot type="internal"/>
     </notesStmt>
     <classification>
         <termList>

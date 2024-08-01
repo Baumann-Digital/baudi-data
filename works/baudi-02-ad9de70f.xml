@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-ad9de70f">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-ad9de70f">
     <identifier type="baudi-copy">CMVS-HH-39</identifier>
-    <title type="uniform" xml:id="baudi-02-ad9de70f-title"><titlePart type="main" xml:id="baudi-02-ad9de70f-titleMain">Nun ist es
-            Zeit, zu singen hell</titlePart><titlePart type="mainSort" xml:id="baudi-02-ad9de70f-titleMainSort">Nun ist es Zeit
-            zu singen hell</titlePart><titlePart type="subordinate" xml:id="baudi-02-ad9de70f-titleSub"
-            >Weihnachtslied</titlePart></title>
+    <title type="uniform" xml:id="baudi-02-ad9de70f-title">
+        <titlePart type="main" xml:id="baudi-02-ad9de70f-titleMain">Nun ist es Zeit, zu singen hell</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-ad9de70f-titleMainSort">Nun ist es Zeit zu singen hell</titlePart>
+        <titlePart type="subordinate" xml:id="baudi-02-ad9de70f-titleSub">Weihnachtslied</titlePart></title>
     <composer xml:id="baudi-02-ad9de70f-composer"><persName codedval="baudi-04-8e43718d">Joachim von Burgk</persName></composer>
     <arranger xml:id="baudi-02-ad9de70f-arranger"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
     <lyricist xml:id="baudi-02-ad9de70f-lyricist"><persName>unbekannt</persName></lyricist>
@@ -27,13 +28,10 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal">Nach einer Melodie von Joachim von Burgk 1585</annot>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

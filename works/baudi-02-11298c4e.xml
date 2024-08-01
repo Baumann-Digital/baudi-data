@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei"
-      status="proposed"
-      xml:id="baudi-02-11298c4e">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-11298c4e">
     <identifier type="baudi-copy">CMVS-HH-63</identifier>
     <title type="uniform" xml:id="baudi-02-11298c4e-title">
-      <titlePart type="main" xml:id="baudi-02-11298c4e-titleMain">Feldeinwärts flog ein Vögelein</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-11298c4e-titleMainSort">Feldeinwaerts flog ein Voegelein</titlePart>
-      
-      
-      <titlePart type="dedication">Der <corpName>»Lyra« <settlement>Rintheim</settlement>
-      </corpName> und ihrem bewährten Dirigenten, <persName role="conductor" codedval="baudi-04-4dd6fbba">Herrn Gesangspädagogen Herbold</persName>
-                                gewidmet.</titlePart>
-   </title>
+        <titlePart type="main" xml:id="baudi-02-11298c4e-titleMain">Feldeinwärts flog ein Vögelein</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-11298c4e-titleMainSort">Feldeinwaerts flog ein Voegelein</titlePart>
+        <titlePart type="dedication">Der <corpName>»Lyra« <settlement>Rintheim</settlement>
+            </corpName> und ihrem bewährten Dirigenten, <persName role="conductor" codedval="baudi-04-4dd6fbba">Herrn Gesangspädagogen Herbold</persName> gewidmet.</titlePart>
+    </title>
     <composer xml:id="baudi-02-11298c4e-composer">
-      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-   </composer>
-    
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
     <lyricist xml:id="baudi-02-11298c4e-lyricist">
         <persName codedval="baudi-04-9b83d05b">A. Klauwell</persName>
-   </lyricist>
+    </lyricist>
     <key pname="d" accid="f" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>In mäßigem Tempo.</tempo>
@@ -38,14 +33,11 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="perf">Melodie durchweg im II. Ten.</annot>
         <annot type="internal"/>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

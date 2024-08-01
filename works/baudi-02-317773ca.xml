@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-317773ca">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-317773ca">
     <identifier type="baudi-copy">none</identifier>
     <title type="uniform" xml:id="baudi-02-317773ca-title">
         <titlePart type="main" xml:id="baudi-02-317773ca-titleMain">Duett: Psalm</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-317773ca-titleMainSort">Duett Psalm</titlePart>
-        
-        
     </title>
     <composer xml:id="baudi-02-317773ca-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -16,7 +15,11 @@
     <key pname="d" accid="f" mode="major"/>
     <meter count="3" unit="4"/>
     <tempo/>
-    <incip><incipText><p>Ob ich schon wanderte im finstern Tal,</p></incipText></incip>
+    <incip>
+        <incipText>
+            <p>Ob ich schon wanderte im finstern Tal,</p>
+        </incipText>
+    </incip>
     <creation/>
     <history/>
     <langUsage>
@@ -26,20 +29,17 @@
     <perfMedium>
         <perfResList>
             <perfRes solo="true" codedval="soprano"/>
-            <perfRes  solo="true" codedval="bass"/>
+            <perfRes solo="true" codedval="bass"/>
             <perfRes codedval="violin"/>
             <perfRes codedval="harp"/>
             <perfRes codedval="organ"/>
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <notesStmt>
         <annot type="internal">BLB: Mus. Hs. 1294</annot>
     </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">song</term>

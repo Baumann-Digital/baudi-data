@@ -1,18 +1,14 @@
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-933d737d">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-933d737d">
     <title type="uniform" xml:id="baudi-02-933d737d-title">
         <titlePart type="main" xml:id="baudi-02-933d737d-titleMain">Heimat</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-933d737d-titleMainSort">Heimat</titlePart>
-        <titlePart type="subordinate" xml:id="baudi-02-933d737d-titleSub">Ein Zyklus nach Gedichten von Erich Langer († 27.12.32)
-            Aus dem Gedichtwerk »Aus deutschem Herzen«</titlePart>
-        
+        <titlePart type="subordinate" xml:id="baudi-02-933d737d-titleSub">Ein Zyklus nach Gedichten von Erich Langer († 27.12.32) Aus dem Gedichtwerk »Aus deutschem Herzen«</titlePart>
     </title>
     <composer xml:id="baudi-02-933d737d-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
-    
     <lyricist xml:id="baudi-02-933d737d-lyricist"/>
-    
-    
     <key pname="f" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Schwungvoll, begeistert</tempo>
@@ -32,10 +28,7 @@
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">ensemble</term>
