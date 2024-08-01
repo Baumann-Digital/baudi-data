@@ -1,59 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><expression xmlns="http://www.music-encoding.org/ns/mei"
-      status="proposed"
-      xml:id="baudi-13-7fe8e75c">
+<?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-7fe8e75c">
     <identifier type="baudi-copy">CMVS-HH-54</identifier>
     <title type="uniform" xml:id="baudi-02-8b120378-title">
-      <titlePart type="main" xml:id="baudi-02-8b120378-titleMain">Frühlingswanderung</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-8b120378-titleMainSort">Fruehlingswanderung</titlePart>
-      
-      
-      <titlePart type="dedication">Dem <corpName>Männergesangverein <settlement>Müllheim (Baden)</settlement>
-         </corpName> zur Erinnerung an die Hauptversammlung des <corpName>Bad.
-                                Sängerbundes</corpName>
-         <date isodate="1922">1922</date>.</titlePart>
-   </title>
+        <titlePart type="main" xml:id="baudi-02-8b120378-titleMain">Frühlingswanderung</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8b120378-titleMainSort">Fruehlingswanderung</titlePart>
+        <titlePart type="dedication">Dem <corpName>Männergesangverein <settlement>Müllheim (Baden)</settlement>
+            </corpName> zur Erinnerung an die Hauptversammlung des <corpName>Bad. Sängerbundes</corpName>
+            <date isodate="1922">1922</date>.</titlePart>
+    </title>
     <composer xml:id="baudi-02-8b120378-composer">
-      <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-   </composer>
-    
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
     <lyricist xml:id="baudi-02-8b120378-lyricist">
         <persName codedval="baudi-04-d43ccdd0">Max Löhrich</persName>
-   </lyricist>
-
-    
-        
-            <key pname="f" mode="major"/>
-            <meter count="4" unit="4" sym="common"/>
-            <tempo>Gemütliches Marschtempo, nicht zu schnell.</tempo>
-            <incip/>
-            <creation></creation>
-    <history><p>Erschienen <date isodate="1924">1924</date></p></history>
-            <langUsage>
-                <head>In der Quelle verwendete Sprache(n)</head>
-                <language codedval="de"/>
-            </langUsage>
-            <perfMedium>
-                <perfResList codedval="choirMixed">
-                    <perfRes codedval="soprano"/>
-                    <perfRes codedval="alto"/>
-                    <perfRes codedval="tenor"/>
-                    <perfRes codedval="bass"/>
-                </perfResList>
-            </perfMedium>
-            
-            
-            <notesStmt>
-                <annot type="internal"></annot>
-            </notesStmt>
-            <classification>
-                
-                <termList>
-                    <term type="workGroup">vocal</term>
-                    <term type="genre">choir</term>
-                </termList>
-            </classification>
+    </lyricist>
+    <key pname="f" mode="major"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Gemütliches Marschtempo, nicht zu schnell.</tempo>
+    <incip/>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1924">1924</date></p>
+    </history>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMixed">
+            <perfRes codedval="soprano"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
+        </perfResList>
+    </perfMedium>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
     <relationList>
-                         <relation rel="hasEmbodiment"/>
-                     </relationList>
-        </expression>
+        <relation rel="hasEmbodiment"/>
+    </relationList>
+</expression>

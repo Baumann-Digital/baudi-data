@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-33ec1a6d">
+<?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-33ec1a6d">
     <identifier type="baudi-copy">CMVS-HH-14</identifier>
-    <title type="uniform" xml:id="baudi-02-9dc5659c-title"><titlePart type="main" xml:id="baudi-02-9dc5659c-titleMain">Fröhliche
-            Weihnacht überall</titlePart><titlePart type="mainSort" xml:id="baudi-02-9dc5659c-titleMainSort">Froehliche Weihnacht
-            ueberall</titlePart></title>
+    <title type="uniform" xml:id="baudi-02-9dc5659c-title">
+        <titlePart type="main" xml:id="baudi-02-9dc5659c-titleMain">Fröhliche Weihnacht überall</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-9dc5659c-titleMainSort">Froehliche Weihnacht ueberall</titlePart></title>
     <composer xml:id="baudi-02-9dc5659c-composer">Englische Melodie</composer>
     <arranger xml:id="baudi-02-9dc5659c-arranger"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
     <lyricist xml:id="baudi-02-9dc5659c-lyricist">N.N.</lyricist>
-
-    
-        
-            <key pname="b" accid="f" mode="major"/>
-            <meter count="4" unit="4" sym="common"/>
-            <tempo>Lebhaft</tempo>
-            <incip/>
-            <creation/>
-            <history/>
-            <langUsage>
-                <head>In der Quelle verwendete Sprache(n)</head>
-                <language codedval="de"/>
-            </langUsage>
-            <perfMedium>
-                <perfResList codedval="choirMen">
-                    <perfRes codedval="tenor.i"/>
-                    <perfRes codedval="tenor.ii"/>
-                    <perfRes codedval="bass.i"/>
-                    <perfRes codedval="bass.ii"/>
-                </perfResList>
-            </perfMedium>
-            
-            
-            <notesStmt>
-                <annot type="perf">Wenn alle 3 Strophen gesungen sind, noch einmal von Anfang bis »Fine«.</annot>
-                <annot type="internal">Satz: Ludwig Baumann</annot>
-            </notesStmt>
+    <key pname="b" accid="f" mode="major"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Lebhaft</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <notesStmt>
+        <annot type="perf">Wenn alle 3 Strophen gesungen sind, noch einmal von Anfang bis »Fine«.</annot>
+        <annot type="internal">Satz: Ludwig Baumann</annot>
+    </notesStmt>
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>
@@ -43,5 +38,5 @@
     </classification>
     <relationList>
         <relation rel="isRealizationOf" target="baudi-02-9dc5659c"/>
-                     </relationList>
+    </relationList>
 </expression>
