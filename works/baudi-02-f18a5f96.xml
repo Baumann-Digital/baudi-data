@@ -1,4 +1,4 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-f18a5f96">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-f18a5f96">
     <title type="uniform"
         xml:lang="de"
         xml:id="baudi-01-f18a5f96-titleUniformDE">
@@ -33,18 +33,18 @@
     </langUsage>
     <perfMedium>
         <perfResList>
-            <perfRes count="2">Flöte</perfRes>
-            <perfRes count="2">Oboe</perfRes>
-            <perfRes count="2">Klarinette in B</perfRes>
-            <perfRes count="2">Fagott</perfRes>
-            <perfRes count="4">Horn</perfRes>
-            <perfRes count="3">Trompete</perfRes>
-            <perfRes count="3">Posaune</perfRes>
-            <perfRes count="1">Tuba</perfRes>
-            <perfRes count="1">Pauken</perfRes>
-            <perfRes count="1" codedval="baudi-09-7314d24f">Männerchor</perfRes>
-            <perfRes count="1" codedval="baudi-09-5f4e900d">Orgel</perfRes>
-            <perfRes count="1" codedval="baudi-09-32aa6522">Piano</perfRes>
+            <perfRes count="2" codedval="flute">Flöte</perfRes>
+            <perfRes count="2" codedval="oboe">Oboe</perfRes>
+            <perfRes count="2" codedval="clarinet">Klarinette in B</perfRes>
+            <perfRes count="2" codedval="bassoon">Fagott</perfRes>
+            <perfRes count="4" codedval="hornFrench">Horn</perfRes>
+            <perfRes count="3" codedval="trumpet">Trompete</perfRes>
+            <perfRes count="3" codedval="trombone">Posaune</perfRes>
+            <perfRes count="1" codedval="tuba">Tuba</perfRes>
+            <perfRes count="1" codedval="timpani">Pauken</perfRes>
+            <perfRes count="1" codedval="choirMen">Männerchor</perfRes>
+            <perfRes count="1" codedval="organ">Orgel</perfRes>
+            <perfRes count="1" codedval="piano">Piano</perfRes>
         </perfResList>
     </perfMedium>
     <audience/>

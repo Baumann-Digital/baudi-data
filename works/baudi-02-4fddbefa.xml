@@ -1,4 +1,4 @@
-   <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-4fddbefa" status="created">
+   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-4fddbefa" status="created">
       <title type="uniform" xml:id="baudi-02-4fddbefa-title">
          <titlePart type="main" xml:id="baudi-02-4fddbefa-titleMain">
             Ja, beim Tanz!
@@ -25,8 +25,8 @@
       </langUsage>
       <perfMedium>
          <perfResList>
-            <perfRes codedval="baudi-09-97264ddc">Hohe Stimme</perfRes>
-            <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+            <perfRes codedval="voiceHigh">Hohe Stimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
          </perfResList>
       </perfMedium>
       <audience/>

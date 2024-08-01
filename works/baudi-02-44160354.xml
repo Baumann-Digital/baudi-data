@@ -1,4 +1,4 @@
-   <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-44160354" status="created">
+   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-44160354" status="created">
       <title type="uniform" xml:id="baudi-02-44160354-title">
          <titlePart type="main" xml:id="baudi-02-44160354-titleMain">
             Tanzlied
@@ -25,12 +25,12 @@
       </langUsage>
       <perfMedium>
          <perfResList>
-            <perfRes codedval="baudi-09-60a93f90">Violine I</perfRes>
-            <perfRes codedval="baudi-09-955bcfcd">Violine II</perfRes>
-            <perfRes codedval="baudi-09-07a930e8">Viola</perfRes>
-            <perfRes codedval="baudi-09-b3ad53dc">Violoncello</perfRes>
-            <perfRes codedval="baudi-09-f0a0dd20">Sopran</perfRes>
-            <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+            <perfRes codedval="violin.i">Violine I</perfRes>
+            <perfRes codedval="violin.ii">Violine II</perfRes>
+            <perfRes codedval="viola">Viola</perfRes>
+            <perfRes codedval="cello">Violoncello</perfRes>
+            <perfRes codedval="soprano">Sopran</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
          </perfResList>
       </perfMedium>
       <audience/>

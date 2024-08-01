@@ -1,4 +1,4 @@
-   <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-85fe51a2" status="created">
+   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-85fe51a2" status="created">
       <title type="uniform" xml:id="baudi-02-85fe51a2-title">
          <titlePart type="main" xml:id="baudi-02-85fe51a2-titleMain">
             Mein Vaterland
@@ -26,8 +26,8 @@
       </langUsage>
       <perfMedium>
          <perfResList>
-            <perfRes codedval="baudi-09-82e86ea7">Singstimme</perfRes>
-            <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+            <perfRes codedval="voice">Singstimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
          </perfResList>
       </perfMedium>
       <audience/>

@@ -1,4 +1,4 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-ed0fce55" status="created">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-ed0fce55" status="created">
 	<title type="uniform" xml:id="baudi-02-ed0fce55-title">
 		<titlePart type="main" xml:id="baudi-02-ed0fce55-titleMain">Wiegenlied</titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Wiegenlied</titlePart>
 		</title>
@@ -21,8 +21,8 @@
 		</langUsage>
 		<perfMedium>
 			<perfResList>
-				<perfRes count="1" codedval="baudi-09-f0a0dd20">[Sopran]</perfRes>
-				<perfRes count="1" codedval="baudi-09-32aa6522">[Klavier]</perfRes>
+				<perfRes count="1" codedval="soprano">[Sopran]</perfRes>
+				<perfRes count="1" codedval="piano">[Klavier]</perfRes>
 			</perfResList>
 		</perfMedium>
 		<audience/>

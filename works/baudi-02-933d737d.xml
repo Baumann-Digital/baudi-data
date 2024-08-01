@@ -1,4 +1,4 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-933d737d">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-933d737d">
     <title type="uniform" xml:id="baudi-02-933d737d-title">
         <titlePart type="main" xml:id="baudi-02-933d737d-titleMain">Heimat</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-933d737d-titleMainSort">Heimat</titlePart>
@@ -25,10 +25,10 @@
     </langUsage>
     <perfMedium>
         <perfResList>
-            <perfRes codedval="baudi-09-d49df821">[gemischter Chor]</perfRes>
-            <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
-            <perfRes codedval="baudi-09-b66b7de3">Violine</perfRes>
-            <perfRes codedval="baudi-09-b3ad53dc">Cello</perfRes>
+            <perfRes codedval="choirMixed">[gemischter Chor]</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
+            <perfRes codedval="violin">Violine</perfRes>
+            <perfRes codedval="cello">Cello</perfRes>
         </perfResList>
     </perfMedium>
     <audience/>
