@@ -55,11 +55,15 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes>Coro T (2)</perfRes>
-                  <perfRes>Coro B (2)</perfRes>
-                  <perfRes>vla</perfRes>
-                  <perfRes>cl</perfRes>
-                  <perfRes>fag</perfRes>
+                  <perfResList codedval="choirMale">
+                     <perfRes codedval="tenor.i"/>
+                     <perfRes codedval="tenor.ii"/>
+                     <perfRes codedval="bass.i"/>
+                     <perfRes codedval="bass.ii"/>
+                  </perfResList>
+                  <perfRes codedval="viola"/>
+                  <perfRes codedval="violoncello"/><!-- Cello or Clarinet? -->
+                  <perfRes codedval="bassoon"/>
                </perfResList>
             </perfMedium>
          </work>

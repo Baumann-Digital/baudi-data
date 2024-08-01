@@ -55,13 +55,17 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes>Coro T (2)</perfRes>
-                  <perfRes>Coro B (2)</perfRes>
-                  <perfRes>fl</perfRes>
-                  <perfRes>tr</perfRes>
-                  <perfRes>fl.picc</perfRes>
-                  <perfRes>tamburino</perfRes>
-                  <perfRes>gran cassa</perfRes>
+                  <perfResList codedval="choirMale">
+                     <perfRes codedval="tenor.i"/>
+                     <perfRes codedval="tenor.ii"/>
+                     <perfRes codedval="bass.i"/>
+                     <perfRes codedval="bass.ii"/>
+                  </perfResList>
+                  <perfRes codedval="flute"/>
+                  <perfRes codedval="trumpet"/>
+                  <perfRes codedval="piccolo"/>
+                  <perfRes codedval="percussion">tamburino</perfRes>
+                  <perfRes codedval="percussion">gran cassa</perfRes>
                </perfResList>
             </perfMedium>
          </work>

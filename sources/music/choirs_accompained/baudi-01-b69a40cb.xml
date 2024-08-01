@@ -54,13 +54,15 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes>Sprechstimme</perfRes>
-                  <perfRes>Coro S</perfRes>
-                  <perfRes>Coro A</perfRes>
-                  <perfRes>Coro T</perfRes>
-                  <perfRes>Coro B</perfRes>
-                  <perfRes>vl 1</perfRes>
-                  <perfRes>vlc</perfRes>
+                  <perfRes codedval="speaker"/>
+                  <perfResList codedval="choirMixed">
+                     <perfRes codedval="soprano"/>
+                     <perfRes codedval="alto"/>
+                     <perfRes codedval="tenor"/>
+                     <perfRes codedval="bass"/>
+                  </perfResList>
+                  <perfRes codedval="violin"/>
+                  <perfRes codedval="violoncello"/>
                </perfResList>
             </perfMedium>
          </work>

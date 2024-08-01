@@ -54,9 +54,13 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes>Coro T (2)</perfRes>
-                  <perfRes>Coro B (2)</perfRes>
-                  <perfRes>orch</perfRes>
+                  <perfResList codedval="choirMale">
+                     <perfRes codedval="tenor.i"/>
+                     <perfRes codedval="tenor.ii"/>
+                     <perfRes codedval="bass.i"/>
+                     <perfRes codedval="bass.ii"/>
+                  </perfResList>
+                  <perfRes codedval="orchestra"/>
                </perfResList>
             </perfMedium>
          </work>
