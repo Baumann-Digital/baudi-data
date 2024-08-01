@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0aa58a8c" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0aa58a8c" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniMainDE">Maimorgen</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniDescDE">für eine Singstimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniDescDE">für eine Singstimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de">für eine Singstimme und Klavier</titlePart>
             </title>
-
             <key pname="g" mode="major"/>
             <meter count="4" unit="4" sym="common"/>
             <tempo/>
@@ -58,9 +53,7 @@
                <lyricist xml:id="baudi-01-0aa58a8c-lyricist">
                   <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                </lyricist>
-               
             </titleStmt>
-
             <physDesc>
                <titlePage>
                   <p>
@@ -88,7 +81,6 @@
                <scoreFormat>song score</scoreFormat>
                <handList>
                   <hand label="N 1r composer" medium="Bleistift">nach A-dur transponieren</hand>
-                  
                   <hand label="NW 1v BiblVermerk" medium="Bleistift">12</hand>
                </handList>
                <handList>
@@ -109,7 +101,6 @@
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1394,12</identifier>
                </repository>
-
             </physLoc>
             <creation/>
             <history><!-- <eventList/> --></history>

@@ -1,9 +1,5 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-aa9eef19"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-aa9eef19" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -11,9 +7,7 @@
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-aa9eef19-titleUniMainDE">Arbeitskameraden</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -36,7 +30,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>"Nicht schnell</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choir"/>
                 </perfMedium>
@@ -47,24 +40,20 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-78</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Arbeitskameraden</titlePart>
-                    <titlePart type="mainSort">Arbeitskameraden</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>Max Steege</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Arbeitskameraden</titlePart>
+                        <titlePart type="mainSort">Arbeitskameraden</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>Max Steege</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Arbeitskameraden</title>
@@ -74,17 +63,15 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1937</date>
                             <dedicatee>
-                        <persName>Herrn Musikdirektor Kurt Layher-<settlement>Säckingen</settlement>
-                        </persName> und seinem <corpName>Männergesangverein »Liederkranz« <settlement>Wehr</settlement>
-                        </corpName>,
-                                zur <date isodate="1937-08">75 Jahrfeier des Vereins</date> (August 1937) gewidmet.</dedicatee>
+                                <persName>Herrn Musikdirektor Kurt Layher-<settlement>Säckingen</settlement>
+                                </persName> und seinem <corpName>Männergesangverein »Liederkranz« <settlement>Wehr</settlement>
+                                </corpName>, zur <date isodate="1937-08">75 Jahrfeier des Vereins</date> (August 1937) gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -97,7 +84,6 @@
                     <extent label="pages" unit="page">170</extent>
                     <extent label="pagination">2</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

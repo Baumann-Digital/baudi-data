@@ -1,260 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-44a09848"
-     status="proposed">
-	  <meiHead>
-		    <fileDesc>
-			      <titleStmt>
-				        <title type="uniform" xml:lang="de">
-					          <titlePart type="main" xml:lang="de" xml:id="baudi-01-44a09848-titleUniMainDE">Nun ist der Lenz
-						gekommen</titlePart>
-					          <titlePart type="desc" xml:lang="de" xml:id="baudi-01-44a09848-titleUniDescDE">für hohe Stimme, Violine und
-						Klavier</titlePart>
-				        </title>
-			      </titleStmt>
-			      <pubStmt/>
-
-			      <sourceDesc>
-				        <source/>
-			      </sourceDesc>
-		    </fileDesc>
-
-		    <workList>
-			      <work xml:id="baudi-01-44a09848-work">
-				        <title type="uniform" xml:lang="de">
-					          <titlePart type="main" xml:id="baudi-01-44a09848-titleMain-part001">Nun ist der Lenz
-						gekommen</titlePart>
-						         <titlePart type="subordinate" xml:id="baudi-01-44a09848-titleSub-part001">(Ernst
-							Klein)</titlePart>
-				        </title>
-
-				        <key pname="e" mode="major"/>
-				        <meter count="3" unit="4"/>
-				        <meter count="9" unit="8" label="roundBrackets"/>
-				        <tempo>Jubelnd, lebhaft</tempo>
-				        <!-- nicht in Violinstimme -->
-				        <incip/>
-				        <perfMedium>
-					          <perfResList>
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-44a09848" status="proposed">
+	<meiHead>
+		<fileDesc>
+			<titleStmt>
+				<title type="uniform" xml:lang="de">
+					<titlePart type="main" xml:lang="de" xml:id="baudi-01-44a09848-titleUniMainDE">Nun ist der Lenz gekommen</titlePart>
+					<titlePart type="desc" xml:lang="de" xml:id="baudi-01-44a09848-titleUniDescDE">für hohe Stimme, Violine und Klavier</titlePart>
+				</title>
+			</titleStmt>
+			<pubStmt/>
+			<sourceDesc>
+				<source/>
+			</sourceDesc>
+		</fileDesc>
+		<workList>
+			<work xml:id="baudi-01-44a09848-work">
+				<title type="uniform" xml:lang="de">
+					<titlePart type="main" xml:id="baudi-01-44a09848-titleMain-part001">Nun ist der Lenz gekommen</titlePart>
+					<titlePart type="subordinate" xml:id="baudi-01-44a09848-titleSub-part001">(Ernst Klein)</titlePart>
+				</title>
+				<key pname="e" mode="major"/>
+				<meter count="3" unit="4"/>
+				<meter count="9" unit="8" label="roundBrackets"/>
+				<tempo>Jubelnd, lebhaft</tempo>
+				<!-- nicht in Violinstimme -->
+				<incip/>
+				<perfMedium>
+					<perfResList>
 						<!-- StandardInstrumentName -->
-					          	<perfRes xml:id="baudi-01-44a09848-perfRes-0001" codedval="voice.high">
-					          		<range>
-						          		<rangeNote pname="d" accid="s" oct="4" type="lowest"/>
-						          		<rangeNote pname="f" accid="s" oct="5" type="highest"/>
-						          		<rangeNote pname="b" oct="5" type="highestAlt"/>
-						          	</range>
-                  				</perfRes>
-						            <perfRes codedval="piano"/>
-						            <perfRes codedval="violin">Violine</perfRes>
-					          </perfResList>
-				        </perfMedium>
-				        <contents/>
-			      </work>
-		    </workList>
-		    <manifestationList>
-			      <manifestation class="#ms" xml:id="baudi-01-44a09848-part1">
-				        <identifier type="rism">453003861</identifier>
-				        <identifier type="D-KA">Mus. Hs. 1282a</identifier>
-				        <titleStmt>
-					          <title>
-                  <titlePart type="main">Nun ist der Lenz
-							gekommen</titlePart>
-						            <titlePart type="subordinate">(Ernst
-						Klein)</titlePart>
-               </title>
-					          <composer xml:id="baudi-01-44a09848-composer-part001">
-						            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-					          </composer>
-					          <arranger xml:id="baudi-01-44a09848-arranger-part001"/>
-					          <lyricist xml:id="baudi-01-44a09848-lyricist-part001">
-						            <persName codedval="baudi-04-beec9878">Ernst Klein</persName>
-					          </lyricist>
-
-				        </titleStmt>
-				        <physDesc xml:id="baudi-01-44a09848-physDesc-part001">
-					          <p decls="creation"><!--	<date
+						<perfRes xml:id="baudi-01-44a09848-perfRes-0001" codedval="voice.high">
+							<range>
+								<rangeNote pname="d" accid="s" oct="4" type="lowest"/>
+								<rangeNote pname="f" accid="s" oct="5" type="highest"/>
+								<rangeNote pname="b" oct="5" type="highestAlt"/>
+							</range>
+						</perfRes>
+						<perfRes codedval="piano"/>
+						<perfRes codedval="violin">Violine</perfRes>
+					</perfResList>
+				</perfMedium>
+				<contents/>
+			</work>
+		</workList>
+		<manifestationList>
+			<manifestation class="#ms" xml:id="baudi-01-44a09848-part1">
+				<identifier type="rism">453003861</identifier>
+				<identifier type="D-KA">Mus. Hs. 1282a</identifier>
+				<titleStmt>
+					<title>
+						<titlePart type="main">Nun ist der Lenz gekommen</titlePart>
+						<titlePart type="subordinate">(Ernst Klein)</titlePart>
+					</title>
+					<composer xml:id="baudi-01-44a09848-composer-part001">
+						<persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+					</composer>
+					<arranger xml:id="baudi-01-44a09848-arranger-part001"/>
+					<lyricist xml:id="baudi-01-44a09848-lyricist-part001">
+						<persName codedval="baudi-04-beec9878">Ernst Klein</persName>
+					</lyricist>
+				</titleStmt>
+				<physDesc xml:id="baudi-01-44a09848-physDesc-part001">
+					<p decls="creation"><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-					          <titlePage>
-
-						            <p decls="titlePage">
-							              <rend halign="center">
-								                <handShift character="BiblVermerk" medium="Bleistift"/>Musik Hs. 1282 a</rend>
-							              <lb/>
-							              <handShift character="AuffVermerk" medium="Bleistift"/>
-							              <rend halign="right">Dauer 2 1/2 Min</rend>
-							              <handShift character="autograph" medium="tinteSchwarz"/>
-							              <title>Nun ist der Lenz gekommen</title>
-							              <lb/>(Ernst Klein)<lb/>
-							              <rend halign="right" valign="middle">Hohe Stimme</rend>
-						            </p>
-					          </titlePage>
-					          <dimensions label="height" unit="mm">338</dimensions>
-					          <dimensions label="width" unit="mm">269</dimensions>
-					          <extent label="orientation">portrait</extent>
-					          <extent label="folium" unit="folium">2</extent>
-					          <extent label="pages" unit="page">2</extent>
-					          <extent label="pagination">none</extent>
-					          <scoreFormat>song score</scoreFormat>
-					          <handList>
-						            <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1282a</hand>
-						            <hand label="NE 1r AuffVermerk" medium="Bleistift">Dauer 2 1/2 Min</hand>
-						            <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-					          </handList>
-               <handList>
-                  <hand type="biblNote"
-                        medium="pencil"
-                        xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="perfNote"
-                        medium="pencil"
-                        xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
-					          <condition n="1">
-						            <date isodate="2018-02-08" type="desc" resp="dried"/>
-						            <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
-					          </condition>
-					          <physMedium xml:id="baudi-01-44a09848-physMedium-part0001">Maschinell rastriert. Lied-Akkolade mit
-						Notenschlüsseln vorgedruckt. Beschrieben mit schwarzer Tinte.</physMedium>
-				        </physDesc>
-				        <physLoc xml:id="baudi-01-44a09848-physLoc-part001" label="klavier">
-					          <repository>
-						            <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-						            <identifier type="shelfmark">Mus. Hs. 1282a</identifier>
-					          </repository>
-
-				        </physLoc>
-				        <history><!-- <eventList/> --></history>
-				        <langUsage>
+					<titlePage>
+						<p decls="titlePage">
+							<rend halign="center">
+								<handShift character="BiblVermerk" medium="Bleistift"/>Musik Hs. 1282 a</rend>
+							<lb/>
+							<handShift character="AuffVermerk" medium="Bleistift"/>
+							<rend halign="right">Dauer 2 1/2 Min</rend>
+							<handShift character="autograph" medium="tinteSchwarz"/>
+							<title>Nun ist der Lenz gekommen</title>
+							<lb/>(Ernst Klein)<lb/>
+							<rend halign="right" valign="middle">Hohe Stimme</rend>
+						</p>
+					</titlePage>
+					<dimensions label="height" unit="mm">338</dimensions>
+					<dimensions label="width" unit="mm">269</dimensions>
+					<extent label="orientation">portrait</extent>
+					<extent label="folium" unit="folium">2</extent>
+					<extent label="pages" unit="page">2</extent>
+					<extent label="pagination">none</extent>
+					<scoreFormat>song score</scoreFormat>
+					<handList>
+						<hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1282a</hand>
+						<hand label="NE 1r AuffVermerk" medium="Bleistift">Dauer 2 1/2 Min</hand>
+						<hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
+					</handList>
+					<handList>
+						<hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+						<hand type="perfNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+					</handList>
+					<condition n="1">
+						<date isodate="2018-02-08" type="desc" resp="dried"/>
+						<!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+					</condition>
+					<physMedium xml:id="baudi-01-44a09848-physMedium-part0001">Maschinell rastriert. Lied-Akkolade mit Notenschlüsseln vorgedruckt. Beschrieben mit schwarzer Tinte.</physMedium>
+				</physDesc>
+				<physLoc xml:id="baudi-01-44a09848-physLoc-part001" label="klavier">
+					<repository>
+						<corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+						<identifier type="shelfmark">Mus. Hs. 1282a</identifier>
+					</repository>
+				</physLoc>
+				<history><!-- <eventList/> --></history>
+				<langUsage>
 					<!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-					          <language codedval="de"/>
-				        </langUsage>
-				        <contents>
+					<language codedval="de"/>
+				</langUsage>
+				<contents>
 					<!-- Weitere Beschreibung des physischen Mediums -->
-					          <p>
-						            <list label="quires">
-							              <head>Lagenordnung</head>
-							              <li n="1">Eine Lage, mittig gefaltet</li>
-						            </list>
-					          </p>
-				        </contents>
-				        <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+					<p>
+						<list label="quires">
+							<head>Lagenordnung</head>
+							<li n="1">Eine Lage, mittig gefaltet</li>
+						</list>
+					</p>
+				</contents>
+				<biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-				        <notesStmt>
+				<notesStmt>
 					<!-- Weitere Anmerkungen des Beschreibers -->
-					          <annot n="1" when="2018-02-08" label="dried">Taktangabe 3/4 (9/8)</annot>
-					          <annot plist="stamp S-oriented 1r"
-                      corresp="#baudi-01-44a09848-physMedium-part001"
-                      source="#baudi-01-44a09848-source-part001">L.B./Karlsruhe</annot>
-					          <annot plist="paperTypeNote SW-oriented 1r"
-                      corresp="#baudi-01-44a09848-physMedium-part001">»Sünova« Nr. 102-
-						4 Systeme</annot>
-				        </notesStmt>
-				        <classification>
-					          <termList>
-						            <term type="source">manuscript</term>
-						            <term type="source">part</term>
-						            <term type="workGroup">vocal</term>
-						            <term type="genre">song</term>
-					          </termList>
-				        </classification>
-				        <relationList>
-					          <relation rel="isEmbodimentOf" corresp="baudi-02-a023982a"/>
-				        </relationList>
-			      </manifestation>
-		    </manifestationList>
-		    <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-			      <tei:person>
-				        <tei:persName/>
-			      </tei:person>
-		    </extMeta>
-		    <revisionDesc>
-			      <change n="0" isodate="2017-04-01" resp="dried">
-				        <changeDesc>
-					          <p>Initializing the project</p>
-				        </changeDesc>
-			      </change>
-			      <change n="1" isodate="2018-02-08" resp="dried">
-				        <changeDesc>
-					          <p>File generated by generateSourceMsScore.xql</p>
-				        </changeDesc>
-			      </change>
-			      <change n="2" isodate="2018-02-14" resp="dried">
-				        <changeDesc>
-					          <p>File-Structure extendet for encoding parts.</p>
-				        </changeDesc>
-			      </change>
-		    </revisionDesc>
-	  </meiHead>
-	  <music>
-		    <facsimile>
+					<annot n="1" when="2018-02-08" label="dried">Taktangabe 3/4 (9/8)</annot>
+					<annot plist="stamp S-oriented 1r" corresp="#baudi-01-44a09848-physMedium-part001" source="#baudi-01-44a09848-source-part001">L.B./Karlsruhe</annot>
+					<annot plist="paperTypeNote SW-oriented 1r" corresp="#baudi-01-44a09848-physMedium-part001">»Sünova« Nr. 102- 4 Systeme</annot>
+				</notesStmt>
+				<classification>
+					<termList>
+						<term type="source">manuscript</term>
+						<term type="source">part</term>
+						<term type="workGroup">vocal</term>
+						<term type="genre">song</term>
+					</termList>
+				</classification>
+				<relationList>
+					<relation rel="isEmbodimentOf" corresp="baudi-02-a023982a"/>
+				</relationList>
+			</manifestation>
+		</manifestationList>
+		<extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+			<tei:person>
+				<tei:persName/>
+			</tei:person>
+		</extMeta>
+		<revisionDesc>
+			<change n="0" isodate="2017-04-01" resp="dried">
+				<changeDesc>
+					<p>Initializing the project</p>
+				</changeDesc>
+			</change>
+			<change n="1" isodate="2018-02-08" resp="dried">
+				<changeDesc>
+					<p>File generated by generateSourceMsScore.xql</p>
+				</changeDesc>
+			</change>
+			<change n="2" isodate="2018-02-14" resp="dried">
+				<changeDesc>
+					<p>File-Structure extendet for encoding parts.</p>
+				</changeDesc>
+			</change>
+		</revisionDesc>
+	</meiHead>
+	<music>
+		<facsimile>
 			<!--https://digital.blb-karlsruhe.de/blbihd/content/pageview/3242172-->
 		</facsimile>
-		    <body>
-			      <mdiv xml:id="baudi_20_4c7fe388" label="Nun ist der Lenz gekommen">
-				        <parts>
-					          <part xml:id="baudi-01-44a09848-part001" label="voiceHigh">
-						            <section>
-							              <div>
-								                <lg n="1">
-									                  <l n="1">Nun ist der Lenz gekommen,</l>
-									                  <l n="2">die Welt ist neu erwacht.</l>
-									                  <l n="3">Hei wie es allerorten</l>
-									                  <l n="4">nun jubelt, blüht und lacht.</l>
-									                  <l n="5">Drum frisch hinaus in's Freie</l>
-									                  <l n="6">mit Flöten und Schalmei'n:</l>
-									                  <l n="7">der Lenz ist angekommen,</l>
-									                  <l n="8">er muss genossen sein!</l>
-								                </lg>
-								                <lg n="2">
-									                  <l n="1">Der frohe Hirte treibet</l>
-									                  <l n="2">die Herde frisch zu Tal;</l>
-									                  <l n="3">die Lerch' und Nachtigallen</l>
-									                  <l n="4">sind fröhlich allzumal</l>
-									                  <l n="5">Drum frisch hinaus in's Freie</l>
-									                  <l n="6">mit Flöten und Schalmei'n:</l>
-									                  <l n="7">der Lenz ist angekommen,</l>
-									                  <l n="8">er muss genossen sein!</l>
-								                </lg>
-							              </div>
-						            </section>
-					          </part>
-					          <part xml:id="baudi-01-44a09848-part002" label="Klavier">
-						            <scoreDef>
-						            </scoreDef>
-						            <section>
-							              <div>
-								                <lg n="1">
-									                  <l n="1">Nun ist der Lenz gekommen,</l>
-									                  <l n="2">die Welt ist neu erwacht.</l>
-									                  <l n="3">Hei wie es allerorten</l>
-									                  <l n="4">nun jubelt, blüht und lacht.</l>
-									                  <l n="5">Drum frisch hinaus in's Freie</l>
-									                  <l n="6">mit Flöten und Schalmei'n:</l>
-									                  <l n="7">der Lenz ist angekommen,</l>
-									                  <l n="8">er muss genossen sein!</l>
-								                </lg>
-								                <lg n="2">
-									                  <l n="1">Der frohe Hirte treibet</l>
-									                  <l n="2">die Herde frisch zu Tal;</l>
-									                  <l n="3">die Lerch' und Nachtigallen</l>
-									                  <l n="4">sind fröhlich allzumal.</l>
-									                  <l n="5">Drum frisch hinaus in's Freie</l>
-									                  <l n="6">mit Flöten und Schalmei'n:</l>
-									                  <l n="7">der Lenz ist angekommen,</l>
-									                  <l n="8">er muss genossen sein!</l>
-								                </lg>
-							              </div>
-						            </section>
-					          </part>
-					          <part xml:id="baudi-01-44a09848-part003" label="Violine">
-						            <section/>
-					          </part>
-				        </parts>
-			      </mdiv>
-		    </body>
-	  </music>
+		<body>
+			<mdiv xml:id="baudi_20_4c7fe388" label="Nun ist der Lenz gekommen">
+				<parts>
+					<part xml:id="baudi-01-44a09848-part001" label="voiceHigh">
+						<section>
+							<div>
+								<lg n="1">
+									<l n="1">Nun ist der Lenz gekommen,</l>
+									<l n="2">die Welt ist neu erwacht.</l>
+									<l n="3">Hei wie es allerorten</l>
+									<l n="4">nun jubelt, blüht und lacht.</l>
+									<l n="5">Drum frisch hinaus in's Freie</l>
+									<l n="6">mit Flöten und Schalmei'n:</l>
+									<l n="7">der Lenz ist angekommen,</l>
+									<l n="8">er muss genossen sein!</l>
+								</lg>
+								<lg n="2">
+									<l n="1">Der frohe Hirte treibet</l>
+									<l n="2">die Herde frisch zu Tal;</l>
+									<l n="3">die Lerch' und Nachtigallen</l>
+									<l n="4">sind fröhlich allzumal</l>
+									<l n="5">Drum frisch hinaus in's Freie</l>
+									<l n="6">mit Flöten und Schalmei'n:</l>
+									<l n="7">der Lenz ist angekommen,</l>
+									<l n="8">er muss genossen sein!</l>
+								</lg>
+							</div>
+						</section>
+					</part>
+					<part xml:id="baudi-01-44a09848-part002" label="Klavier">
+						<scoreDef> </scoreDef>
+						<section>
+							<div>
+								<lg n="1">
+									<l n="1">Nun ist der Lenz gekommen,</l>
+									<l n="2">die Welt ist neu erwacht.</l>
+									<l n="3">Hei wie es allerorten</l>
+									<l n="4">nun jubelt, blüht und lacht.</l>
+									<l n="5">Drum frisch hinaus in's Freie</l>
+									<l n="6">mit Flöten und Schalmei'n:</l>
+									<l n="7">der Lenz ist angekommen,</l>
+									<l n="8">er muss genossen sein!</l>
+								</lg>
+								<lg n="2">
+									<l n="1">Der frohe Hirte treibet</l>
+									<l n="2">die Herde frisch zu Tal;</l>
+									<l n="3">die Lerch' und Nachtigallen</l>
+									<l n="4">sind fröhlich allzumal.</l>
+									<l n="5">Drum frisch hinaus in's Freie</l>
+									<l n="6">mit Flöten und Schalmei'n:</l>
+									<l n="7">der Lenz ist angekommen,</l>
+									<l n="8">er muss genossen sein!</l>
+								</lg>
+							</div>
+						</section>
+					</part>
+					<part xml:id="baudi-01-44a09848-part003" label="Violine">
+						<section/>
+					</part>
+				</parts>
+			</mdiv>
+		</body>
+	</music>
 </mei>

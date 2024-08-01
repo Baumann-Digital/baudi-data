@@ -1,28 +1,31 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7d81f046" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7d81f046" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de"><titlePart type="main" xml:lang="de" xml:id="baudi-01-7d81f046-titleUniMainDE">Herziges Schatzerl.</titlePart></title>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7d81f046-titleUniMainDE">Herziges Schatzerl.</titlePart></title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"><titlePart type="main">Herziges Schatzerl.</titlePart><titlePart type="number" codedval="opus">96b</titlePart><titlePart type="mainSort">Herziges Schatzerl</titlePart><titlePart type="subordinate"/><titlePart type="perfmedium"/></title>
+                <title type="uniform">
+                    <titlePart type="main">Herziges Schatzerl.</titlePart>
+                    <titlePart type="number" codedval="opus">96b</titlePart>
+                    <titlePart type="mainSort">Herziges Schatzerl</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/></title>
                 <composer>Volksweise</composer>
-                <arranger><persName codedval="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName></arranger>
+                <arranger><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
                 <lyricist><persName>Volksweise</persName></lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Leicht bewegt.</tempo>
                 <incip/>
-                
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -40,20 +43,17 @@
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HK-12</identifier>
                 <titleStmt>
-                    <title><titlePart type="main" xml:id="baudi-01-7d81f046-titleMain">Herziges Schatzerl.</titlePart><titlePart type="subordinate" xml:id="baudi-01-7d81f046-titleSub"/></title>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-7d81f046-titleMain">Herziges Schatzerl.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-7d81f046-titleSub"/></title>
                     <composer xml:id="baudi-01-7d81f046-composer"><persName codedval="baudi-04-5e3ed698">Volksweise</persName></composer>
-                    <arranger><persName codedval="baudi-04-5e3ed698">Ludwig
-                        Baumann</persName></arranger>
+                    <arranger><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
                     <lyricist xml:id="baudi-01-7d81f046-lyricist"><persName codedval="baudi-04-35c9a190"><persName>Volksweise</persName></persName></lyricist>
-                    
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Herziges Schatzerl.</title><bibl><identifier>H.50 K.</identifier><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee><persName role="musicalDirector">Herrn
-                                Musikdirektor Louis Baldas</persName> freundlichst gewidmet.</dedicatee></bibl></edition>
-                    
+                    <edition><title>Herziges Schatzerl.</title><bibl><identifier>H.50 K.</identifier><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee><persName role="musicalDirector">Herrn Musikdirektor Louis Baldas</persName> freundlichst gewidmet.</dedicatee></bibl></edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -61,7 +61,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

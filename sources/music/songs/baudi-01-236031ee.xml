@@ -1,23 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-236031ee" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-236031ee" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-236031ee-titleUniMainDE">Lied eines siebenbürgischen
-                  Wanderzigeuners</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-236031ee-titleUniDescDE">für Singstimme und
-                  Klavier</titlePart>
+               <titlePart type="main" xml:lang="de" xml:id="baudi-01-236031ee-titleUniMainDE">Lied eines siebenbürgischen Wanderzigeuners</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-236031ee-titleUniDescDE">für Singstimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -25,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="e" mode="major"/>
             <meter count="2" unit="2"/>
             <tempo mm.unit="4" mm="76">(ungefähr)</tempo>
@@ -57,8 +51,7 @@
             <identifier type="D-KA">Mus. Hs. 1324</identifier>
             <titleStmt>
                <title>
-                  <titlePart type="main" xml:id="baudi-01-236031ee-titleMain">Lied eines siebenbürgischen
-                     Wanderzigeuners.</titlePart>
+                  <titlePart type="main" xml:id="baudi-01-236031ee-titleMain">Lied eines siebenbürgischen Wanderzigeuners.</titlePart>
                   <titlePart type="subordinate" xml:id="baudi-01-236031ee-titleSub"/>
                </title>
                <composer xml:id="baudi-01-236031ee-composer">
@@ -74,7 +67,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Lied eines siebenbürgischen Wanderzigeuners.<lb/>
                      <lb/>Ludwig Baumann<lb/>
                      <lb/>Unbekannt<lb/>
@@ -87,20 +79,17 @@
                <extent label="pages" unit="page">6</extent>
                <extent label="pagination">none</extent>
                <scoreFormat>song score</scoreFormat>
-               
                <condition n="1">
                   <date isodate="2018-02-05" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-236031ee-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit
-                  schwarzer Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-236031ee-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1324</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -121,8 +110,7 @@
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2018-02-05" label="dried">Sammelquelle Mus. Hs. 1324</annot>
-               <annot plist="paperTypeNote SW SE-oriented" corresp="#baudi-01-236031ee-physMedium">B.C./No. 13. (mit Lyra)%Printed
-                  at Leipzig.</annot>
+               <annot plist="paperTypeNote SW SE-oriented" corresp="#baudi-01-236031ee-physMedium">B.C./No. 13. (mit Lyra)%Printed at Leipzig.</annot>
             </notesStmt>
             <classification>
                <termList>
@@ -159,12 +147,6 @@
    </meiHead>
    <music>
       <facsimile label="blb-vlid-3304793">
-         
-         
-         
-         
-         
-         
          <surface xml:id="baudi-01-236031ee-surface-0001" n="1" label="1r">
             <graphic targettype="blb-vlid" target="3301230" xml:id="baudi-01-236031ee-00-0001" type="facsimile"/>
          </surface>
@@ -185,8 +167,7 @@
          </surface>
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_090d15b2" label="Lied eines siebenbürgischen Wanderzigeuners">
-         </mdiv>
+         <mdiv xml:id="baudi_20_090d15b2" label="Lied eines siebenbürgischen Wanderzigeuners"> </mdiv>
       </body>
    </music>
 </mei>

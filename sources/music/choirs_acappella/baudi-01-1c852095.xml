@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-1c852095"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-1c852095" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-1c852095-titleUniMainDE">Feldeinwärts flog ein
-                        Vögelein</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-1c852095-titleUniMainDE">Feldeinwärts flog ein Vögelein</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -37,7 +30,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>In mäßigem Tempo.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -54,24 +46,20 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-63</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Feldeinwärts flog ein Vögelein</titlePart>
-                    <titlePart type="mainSort">Feldeinwärts flog ein Vögelein</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>A. Klauwell</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Feldeinwärts flog ein Vögelein</titlePart>
+                        <titlePart type="mainSort">Feldeinwärts flog ein Vögelein</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>A. Klauwell</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Feldeinwärts flog ein Vögelein</title>
@@ -81,15 +69,13 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee>Der <corpName>»Lyra« <settlement>Rintheim</settlement>
-                        </corpName> und ihrem bewährten Dirigenten, <persName role="conductor">Herrn Gesangspädagogen Herbold</persName>
-                                gewidmet.</dedicatee>
+                                </corpName> und ihrem bewährten Dirigenten, <persName role="conductor">Herrn Gesangspädagogen Herbold</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -102,7 +88,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-f8cc022e"
-     status="proposed">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-f8cc022e" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Ein Ferientag des jungen Geigers op. 18</title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-f8cc022e-titleUniformDE">
-                    <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-f8cc022e-titleUniformMainDE">Ein Ferientag des jungen
-                        Geigers op. 18</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-f8cc022e-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-f8cc022e-titleUniformMainDE">Ein Ferientag des jungen Geigers op. 18</titlePart>
                     <titlePart type="number" label="opus" codedval="opus">18</titlePart>
-                    <titlePart type="subordinate"
-                          xml:lang="de"
-                          xml:id="baudi-01-f8cc022e-titleUniformDescDE">Eine Reihenfolge von
-                        kleiunen Violinstücken</titlePart>
+                    <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-f8cc022e-titleUniformDescDE">Eine Reihenfolge von kleiunen Violinstücken</titlePart>
                     <titlePart type="perf">für Violine und Klavier</titlePart>
                 </title>
                 <key pname="c" mode="major"/>
@@ -49,8 +35,7 @@
                 <titleStmt>
                     <title xml:id="baudi-01-f8cc022e-title">
                         <titlePart type="main" xml:id="baudi-01-f8cc022e-titleMain">Ein Ferientag des jungen Geigers</titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-f8cc022e-titleSub">Eine Reihe von kleinen
-                            Violinstücken</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-f8cc022e-titleSub">Eine Reihe von kleinen Violinstücken</titlePart>
                         <titlePart type="perf" xml:id="baudi-01-f8cc022e-titleDesc">mit Begleitung des Pianoforte</titlePart>
                     </title>
                     <composer xml:id="baudi-01-f8cc022e-composer">
@@ -60,10 +45,7 @@
                 <physDesc>
                     <titlePage>
                         <p decls="titlePage">
-                            <rend halign="center">Ein Ferientag<lb/>des jungen Geigers<lb/> Eine Reihenfolge von
-                                kleinen<lb/>Violinstücken mit Belgietung<lb/>des Pianoforte komponiert von<lb/>Ludwig
-                                Baumann<lb/>op. 18<lb/> Preis 2 Mark<lb/>Chr. Friedrich Vieweg G.m.b.H.,
-                                Berlin=Lichterfelde</rend>
+                            <rend halign="center">Ein Ferientag<lb/>des jungen Geigers<lb/> Eine Reihenfolge von kleinen<lb/>Violinstücken mit Belgietung<lb/>des Pianoforte komponiert von<lb/>Ludwig Baumann<lb/>op. 18<lb/> Preis 2 Mark<lb/>Chr. Friedrich Vieweg G.m.b.H., Berlin=Lichterfelde</rend>
                         </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">328</dimensions>
@@ -82,12 +64,12 @@
                         <hand medium="FarbstiftBlau" label="Baumann?" xml:id="hand3">Zäsuren</hand>
                         <hand medium="Bleistift" label="Baumann?" xml:id="hand4">Fingersätze</hand>
                     </handList>
-               <handList>
-                  <hand type="unknown" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-                  <hand type="other" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
-                  <hand type="other" medium="pencil" xml:id="baudi-01-6b488120-hand-0004"/>
-               </handList>
+                    <handList>
+                        <hand type="unknown" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                        <hand type="other" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
+                        <hand type="other" medium="pencil" xml:id="baudi-01-6b488120-hand-0004"/>
+                    </handList>
                     <addDesc>
                         <p type="copyright">
                             <corpName>Chr. Friedrich Vieweg</corpName>, Berlin - Lichterfelde.</p>
@@ -173,10 +155,7 @@
                         <identifier type="D-KA">M 305, Viol.</identifier>
                         <physDesc>
                             <extent n="2">1 Blatt</extent>
-                            <addDesc> Stimmauszug zur Partitur Zustandsbeschr.: »Beilage: Wasserschaden + Anmerkungen mit
-                                Bleistift &amp; Kugelschreiber. KaBI 30.01.20« Ein Doppelblatt, Lage geklebt. Wasserhschaden, 2
-                                fol mi t4 Seiten Notentext. HxB: 292 auf 219mm hochformat Eintragungen mit Bleistift und blauen
-                                Kugelschreiber</addDesc>
+                            <addDesc> Stimmauszug zur Partitur Zustandsbeschr.: »Beilage: Wasserschaden + Anmerkungen mit Bleistift &amp; Kugelschreiber. KaBI 30.01.20« Ein Doppelblatt, Lage geklebt. Wasserhschaden, 2 fol mi t4 Seiten Notentext. HxB: 292 auf 219mm hochformat Eintragungen mit Bleistift und blauen Kugelschreiber</addDesc>
                         </physDesc>
                     </manifestation>
                 </componentList>

@@ -1,34 +1,19 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-a90e0de2"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a90e0de2" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Dich, mein Schwarzwald grüßt mein Sang!</title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-a90e0de2-titleUniformDE">
-                    <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-a90e0de2-titleUniformMainDE">Dich, mein Schwarzwald
-                        grüßt mein Sang!</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-a90e0de2-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-a90e0de2-titleUniformMainDE">Dich, mein Schwarzwald grüßt mein Sang!</titlePart>
                     <titlePart type="number" label="opus"/>
-                    <titlePart type="perf"
-                          xml:lang="de"
-                          xml:id="baudi-01-a90e0de2-titleUniformDescDE">für Männerchor a
-                        cappella</titlePart>
-                    <titlePart type="dedication">Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues<lb/>
-                        Herrn Albert Schultheis in St. Georgen i. Schw. gewidmet.</titlePart>
+                    <titlePart type="perf" xml:lang="de" xml:id="baudi-01-a90e0de2-titleUniformDescDE">für Männerchor a cappella</titlePart>
+                    <titlePart type="dedication">Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues<lb/> Herrn Albert Schultheis in St. Georgen i. Schw. gewidmet.</titlePart>
                 </title>
                 <lyricist>
                     <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -40,29 +25,29 @@
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0001" codedval="tenor.i">
-                     <range>
-                        <rangeNote type="lowest" pname="f" accid="s" oct="3"/>
-                        <rangeNote type="highest" pname="a" oct="4"/>
-                     </range>
-                  </perfRes>
+                            <range>
+                                <rangeNote type="lowest" pname="f" accid="s" oct="3"/>
+                                <rangeNote type="highest" pname="a" oct="4"/>
+                            </range>
+                        </perfRes>
                         <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0002" codedval="tenor.ii">
-                     <range>
-                        <rangeNote type="lowest" pname="d" oct="3"/>
-                        <rangeNote type="highest" pname="e" oct="4"/>
-                     </range>
-                  </perfRes>
+                            <range>
+                                <rangeNote type="lowest" pname="d" oct="3"/>
+                                <rangeNote type="highest" pname="e" oct="4"/>
+                            </range>
+                        </perfRes>
                         <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0003" codedval="bass.i">
-                     <range>
-                        <rangeNote type="lowest" pname="b" oct="2"/>
-                        <rangeNote type="highest" pname="c" oct="3"/>
-                     </range>
-                  </perfRes>
+                            <range>
+                                <rangeNote type="lowest" pname="b" oct="2"/>
+                                <rangeNote type="highest" pname="c" oct="3"/>
+                            </range>
+                        </perfRes>
                         <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0004" codedval="bass.ii">
-                     <range>
-                        <rangeNote type="lowest" pname="g" oct="2"/>
-                        <rangeNote type="highest" pname="a" oct="3"/>
-                     </range>
-                  </perfRes>
+                            <range>
+                                <rangeNote type="lowest" pname="g" oct="2"/>
+                                <rangeNote type="highest" pname="a" oct="3"/>
+                            </range>
+                        </perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -73,8 +58,7 @@
                 <identifier type="D-KA">MK7,3</identifier>
                 <titleStmt>
                     <title xml:id="baudi-01-a90e0de2-title">
-                        <titlePart type="main" xml:id="baudi-01-a90e0de2-titleMain">Dich, mein Schwarzwald grüßt mein
-                            Sang!</titlePart>
+                        <titlePart type="main" xml:id="baudi-01-a90e0de2-titleMain">Dich, mein Schwarzwald grüßt mein Sang!</titlePart>
                     </title>
                     <composer xml:id="baudi-01-a90e0de2-composer">
                         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -83,8 +67,7 @@
                 <physDesc>
                     <titlePage>
                         <p decls="titlePage">
-                            <rend halign="center">Ludwig Baumann<lb/> Dich mein Schwarzwald<lb/>grüßt mein Sang<lb/>Männerchor
-                                acappella<lb/>WILLY MÜLLER • SÜDDEUTSCHER MUSIKVERLAG • HEIDELBERG</rend>
+                            <rend halign="center">Ludwig Baumann<lb/> Dich mein Schwarzwald<lb/>grüßt mein Sang<lb/>Männerchor acappella<lb/>WILLY MÜLLER • SÜDDEUTSCHER MUSIKVERLAG • HEIDELBERG</rend>
                             <lb/>249 </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">271</dimensions>

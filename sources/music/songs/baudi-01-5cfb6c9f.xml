@@ -1,4 +1,5 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-5cfb6c9f" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-5cfb6c9f" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -7,15 +8,11 @@
                <titlePart type="desc" xml:lang="de" xml:id="baudi-01-5cfb6c9f-titleUniDescDE">für Stimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -23,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="g" mode="major"/>
             <meter count="3" unit="4"/>
             <tempo/>
@@ -58,7 +54,6 @@
                <lyricist xml:id="baudi-01-5cfb6c9f-lyricist">
                   <persName codedval="baudi-04-2d668bde">Karl Dollmätsch</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -66,9 +61,7 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
-                  <p decls="titlePage">Tanzlied.<lb/>(Klavierstimme, ohne Viol.)
-                  </p>
+                  <p decls="titlePage">Tanzlied.<lb/>(Klavierstimme, ohne Viol.) </p>
                </titlePage>
                <dimensions label="height" unit="mm">340</dimensions>
                <dimensions label="width" unit="mm">270</dimensions>
@@ -91,15 +84,13 @@
                   <date isodate="2018-02-08" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-5cfb6c9f-physMedium">Maschinell rastriert, 4 Systeme für Klavierlied. Beschrieben mit
-                  blauer Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-5cfb6c9f-physMedium">Maschinell rastriert, 4 Systeme für Klavierlied. Beschrieben mit blauer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1306a</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -158,7 +149,7 @@
    </meiHead>
    <music>
       <facsimile>
-<!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299265-->
+         <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299265-->
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_7f97656b" label="Tanzlied"/>

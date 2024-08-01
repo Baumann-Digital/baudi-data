@@ -1,14 +1,12 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0"
-   xml:id="baudi-01-8ea0e277" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-8ea0e277" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de" xml:id="baudi-01-8ea0e277-titleUniformDE">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-8ea0e277-titleUniformMainDE">Ständchen</titlePart>
                <titlePart type="sub" xml:lang="de" xml:id="baudi-01-8ea0e277-titleUniformSubDE"/>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-8ea0e277-titleUniformDescDE"
-                  >baudi-01-8ea0e277-titleUniformDescDE</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-8ea0e277-titleUniformDescDE">baudi-01-8ea0e277-titleUniformDescDE</titlePart>
             </title>
          </titleStmt>
          <pubStmt>
@@ -16,9 +14,7 @@
                <persName>
                   <ref target="baudi-04-1d680f20.xml#dried">Dennis Ried</ref>
                </persName>
-               <resp>This file was generated for the Baumann Digital project (BauDi). Files and data from the catalogue of works
-                  are a part of the PhD thesis of Dennis Ried. This data stock will be published after the PhD thesis ist
-                  finished.</resp>
+               <resp>This file was generated for the Baumann Digital project (BauDi). Files and data from the catalogue of works are a part of the PhD thesis of Dennis Ried. This data stock will be published after the PhD thesis ist finished.</resp>
             </respStmt>
             <address>
                <postCode>76133</postCode>
@@ -30,7 +26,6 @@
                <settlement>Waldsee</settlement>
                <country>Germany</country>
             </address>
-            
             <date isodate="2019-08-21"/>
          </pubStmt>
          <!-- <sourceDesc>
@@ -73,8 +68,7 @@
             <identifier type="D-KA">Mus. Hs. 1333</identifier>
             <titleStmt>
                <title xml:id="baudi-01-8ea0e277-title">
-                  <titlePart type="main" xml:id="baudi-01-8ea0e277-titleMain">Ständchen | (Richard
-                     Graebener)</titlePart>
+                  <titlePart type="main" xml:id="baudi-01-8ea0e277-titleMain">Ständchen | (Richard Graebener)</titlePart>
                   <titlePart type="sub" xml:id="baudi-01-8ea0e277-titleSub"/>
                   <titlePart type="desc" xml:id="baudi-01-8ea0e277-titleDesc">für Chor, Orchester, Solist</titlePart>
                </title>
@@ -88,8 +82,7 @@
                <contributor xml:id="baudi-01-8ea0e277-contributorDed"/>
             </titleStmt>
             <physDesc>
-               <p decls="creation"
-                  ><!--	<date
+               <p decls="creation"><!--	<date
     								type="creation"
     								subtype="sure"
     								isodate="0000"/> --></p>
@@ -106,7 +99,6 @@
                <extent label="pagination">arabic</extent>
                <scoreFormat>choral score</scoreFormat>
                <watermark label="watermark">none</watermark>
-               
                <condition n="1">
                   <date isodate="2019-08-21" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -120,7 +112,6 @@
                </repository>
             </physLoc>
             <history><!-- <eventList/> --></history>
-            
             <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
     							<list
     								label="quires">
@@ -135,8 +126,7 @@
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2019-08-21" label="dried">notCleaned</annot>
-               <annot plist="stamp S-oriented 0r" corresp="#baudi-01-8ea0e277-physMedium">Badische
-                  Landesbibliothek/Karlsruhe</annot>
+               <annot plist="stamp S-oriented 0r" corresp="#baudi-01-8ea0e277-physMedium">Badische Landesbibliothek/Karlsruhe</annot>
                <annot plist="paperTypeNote PapTypPos-oriented" corresp="#baudi-01-8ea0e277-physMedium">Papiertyp</annot>
             </notesStmt>
             <classification>

@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-744601db" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-744601db" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-744601db-titleUniMainDE">Das fleißige Sternlein</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-744601db-titleUniDescDE">für hohe Stimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-744601db-titleUniDescDE">für hohe Stimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="e" accid="s" mode="major"/>
             <meter count="4" unit="4"/>
             <tempo/>
@@ -64,7 +59,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Das fleissige Sternlein<lb/> Ludwig Baumann<lb/> Richard Graebener </p>
                </titlePage>
                <dimensions label="height" unit="mm">339</dimensions>
@@ -74,7 +68,6 @@
                <extent label="pages" unit="page">2</extent>
                <extent label="pagination">none</extent>
                <scoreFormat>song score</scoreFormat>
-               
                <condition n="1">
                   <date isodate="2018-02-05" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -86,7 +79,6 @@
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1303</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -142,7 +134,7 @@
    </meiHead>
    <music>
       <facsimile label="blb-vlid-3304327">
-<!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299118-->
+         <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299118-->
          <surface xml:id="baudi-01-744601db-surface-0001" n="1" label="1r">
             <graphic targettype="blb-vlid" target="3299118" xml:id="baudi-01-744601db-00-0001" type="facsimile"/>
          </surface>
@@ -151,8 +143,7 @@
          </surface>
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_1154c9b3" label="Das fleissige Sternlein">
-         </mdiv>
+         <mdiv xml:id="baudi_20_1154c9b3" label="Das fleissige Sternlein"> </mdiv>
       </body>
    </music>
 </mei>

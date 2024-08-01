@@ -1,15 +1,13 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-d2302042" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-d2302042" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d2302042-titleUniMainDE">Mägdlein am
-                        Spinnrad</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d2302042-titleUniMainDE">Mägdlein am Spinnrad</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -93,7 +91,6 @@
                     </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -101,7 +98,6 @@
                     <extent label="pages" unit="page">1</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -155,23 +151,19 @@
     </meiHead>
     <music>
         <facsimile label="6146150">
-            
-            
-                
-                
-        <surface xml:id="baudi-01-d2302042-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="6231075" xml:id="baudi-01-d2302042-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d2302042-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="6231076" xml:id="baudi-01-d2302042-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d2302042-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="6231077" xml:id="baudi-01-d2302042-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d2302042-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="6231078" xml:id="baudi-01-d2302042-00-0004" type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-d2302042-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6231075" xml:id="baudi-01-d2302042-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d2302042-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6231076" xml:id="baudi-01-d2302042-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d2302042-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6231077" xml:id="baudi-01-d2302042-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d2302042-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6231078" xml:id="baudi-01-d2302042-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-dfff7d0d" label="Mägdlein am Spinnrad"/>
         </body>

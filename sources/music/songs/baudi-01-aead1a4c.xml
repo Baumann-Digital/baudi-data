@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-aead1a4c" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-aead1a4c" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-aead1a4c-titleUniMainDE">Rosenduft</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-aead1a4c-titleUniDescDE">für eine Singstimme mit
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-aead1a4c-titleUniDescDE">für eine Singstimme mit Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="e" accid="s" mode="major"/>
             <meter count="4" unit="8"/>
             <tempo>Innig, ziemlich mod to:</tempo>
@@ -45,8 +40,7 @@
             <titleStmt>
                <title>
                   <titlePart type="main" xml:id="baudi-01-aead1a4c-titleMain">Rosenduft</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-aead1a4c-titleSub">Gedicht von Richard Graebener für eine
-                     Singstimme mit Klavier von Ludwig Baumann.</titlePart>
+                  <titlePart type="subordinate" xml:id="baudi-01-aead1a4c-titleSub">Gedicht von Richard Graebener für eine Singstimme mit Klavier von Ludwig Baumann.</titlePart>
                </title>
                <composer xml:id="baudi-01-aead1a4c-composer">
                   <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -55,7 +49,6 @@
                <lyricist xml:id="baudi-01-aead1a4c-lyricist">
                   <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -70,8 +63,7 @@
                            <figDesc>Drei Rosen, die mit einem Band (Schleife) zu einem Strauß gebunden sind.</figDesc>
                         </fig>
                      </rend>
-                     <rend halign="center" valign="bottom">Gedicht von Richard Graebener<lb/>für eine Singstimme mit
-                        Klavier<lb/>von Ludwig Baumann.</rend>
+                     <rend halign="center" valign="bottom">Gedicht von Richard Graebener<lb/>für eine Singstimme mit Klavier<lb/>von Ludwig Baumann.</rend>
                   </p>
                </titlePage>
                <dimensions label="height" unit="mm">299</dimensions>
@@ -91,15 +83,13 @@
                   <date isodate="2018-01-11" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-aead1a4c-physMedium">Titelblatt gedruckt (schwarz). Rest: schwarze Tinte oder Kopie.
-                  Von Hand rastriert. </physMedium>
+               <physMedium xml:id="baudi-01-aead1a4c-physMedium">Titelblatt gedruckt (schwarz). Rest: schwarze Tinte oder Kopie. Von Hand rastriert. </physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1394,1a</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -175,7 +165,6 @@
                   <lg n="1" xml:id="baudi-01-aead1a4c-stanza-0001">
                      <l n="1" xml:id="baudi-01-aead1a4c-verse-0001">Warte dort im Rosengarten,</l>
                      <l n="2" xml:id="baudi-01-aead1a4c-verse-0002">ich will mit Dir geh'n,</l>
-
                      <l n="3" xml:id="baudi-01-aead1a4c-verse-0003">all' die Blüten schön und zarten</l>
                      <l n="4" xml:id="baudi-01-aead1a4c-verse-0004">werden uns umweh'n.</l>
                      <l n="5" xml:id="baudi-01-aead1a4c-verse-0005">warte, bis der Abendglocken</l>

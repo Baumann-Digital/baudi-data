@@ -1,4 +1,5 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-89a68533" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-89a68533" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -7,15 +8,11 @@
                <titlePart type="desc" xml:lang="de" xml:id="baudi-01-89a68533-titleUniDescDE">für Sopran und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -23,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="d" mode="major"/>
             <meter count="6" unit="8"/>
             <tempo>schnell</tempo>
@@ -57,7 +53,6 @@
                <lyricist xml:id="baudi-01-89a68533-lyricist">
                   <persName codedval="baudi-04-adc6644a">Felicitas Rose</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -65,7 +60,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Heidewind (Felicitas Rose)<lb/>
                      <lb/>Ludwig Baumann<lb/>
                      <lb/>Felicitas Rose<lb/>
@@ -78,20 +72,17 @@
                <extent label="pages" unit="page">9</extent>
                <extent label="pagination">none</extent>
                <scoreFormat>song score</scoreFormat>
-               
                <condition n="1">
                   <date isodate="2018-02-05" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-89a68533-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit
-                  schwarzer Tinte. Letzte Seite Halb abgeschnitten (340x182)</physMedium>
+               <physMedium xml:id="baudi-01-89a68533-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit schwarzer Tinte. Letzte Seite Halb abgeschnitten (340x182)</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1324</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -147,16 +138,6 @@
    </meiHead>
    <music>
       <facsimile label="blb-vlid-3304795">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
          <surface xml:id="baudi-01-89a68533-surface-0001" n="1" label="1r">
             <graphic targettype="blb-vlid" target="3301236" xml:id="baudi-01-89a68533-00-0001" type="facsimile"/>
          </surface>
@@ -189,8 +170,7 @@
          </surface>
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_93bd117f" label="Heidewind">
-         </mdiv>
+         <mdiv xml:id="baudi_20_93bd117f" label="Heidewind"> </mdiv>
       </body>
    </music>
 </mei>

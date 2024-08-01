@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-54705eea" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-54705eea" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-54705eea-titleUniMainDE">Heiliges Feuer</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-54705eea-titleUniDescDE">für hohe Stimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-54705eea-titleUniDescDE">für hohe Stimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="f" mode="major"/>
             <meter count="3" unit="4"/>
             <tempo/>
@@ -53,7 +48,6 @@
                <lyricist xml:id="baudi-01-54705eea-lyricist">
                   <persName codedval="baudi-04-abc247c4">Heinz Stadelmann</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -61,7 +55,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Heiliges Feuer<lb/>
                      <lb/>Ludwig Baumann<lb/>
                      <lb/>Heinz Stadelmann<lb/>
@@ -87,15 +80,13 @@
                   <date isodate="2018-02-05" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-54705eea-physMedium">Maschinell rastriert für eine Singstimme und ein Tasteninstrument
-                  (2-zeilige Akkolade). Beschrieben mit schwarzer Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-54705eea-physMedium">Maschinell rastriert für eine Singstimme und ein Tasteninstrument (2-zeilige Akkolade). Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1300b</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -117,8 +108,7 @@
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2018-02-05" label="dried">Abschrift durch R Jüngling</annot>
                <annot plist="stamp S-oriented 1r 2v" corresp="#baudi-01-54705eea-physMedium">L.B./Karlsruhe</annot>
-               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-54705eea-physMedium">K.U.V. Beethoven Papier Nr.11. (4
-                  Systeme)</annot>
+               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-54705eea-physMedium">K.U.V. Beethoven Papier Nr.11. (4 Systeme)</annot>
             </notesStmt>
             <classification>
                <termList>
@@ -153,7 +143,7 @@
    </meiHead>
    <music>
       <facsimile>
-     <!--https://digital.blb-karlsruhe.de/blbihd/content/pageview/3296144-->
+         <!--https://digital.blb-karlsruhe.de/blbihd/content/pageview/3296144-->
       </facsimile>
       <body>
          <mdiv xml:id="baudi_20_de535d98" label="Heiliges Feuer">

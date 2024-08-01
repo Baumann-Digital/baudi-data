@@ -1,17 +1,15 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ad5eee0f" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ad5eee0f" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de" xml:id="baudi-01-ad5eee0f-titleUniformDE">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ad5eee0f-titleUniformMainDE">Andante
-                        religioso</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ad5eee0f-titleUniformMainDE">Andante religioso</titlePart>
                     <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-ad5eee0f-titleUniformSubDE"/>
-                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-ad5eee0f-titleUniformDescDE">für Streichorchester und
-                        Orgel</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-ad5eee0f-titleUniformDescDE">für Streichorchester und Orgel</titlePart>
                 </title>
             </titleStmt>
             <pubStmt/>
-
             <!-- <sourceDesc>
 			<source>
 			<head/>
@@ -20,7 +18,6 @@
 			</source>
 			</sourceDesc> -->
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -28,7 +25,6 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="f" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo/>
@@ -61,7 +57,6 @@
                     </composer>
                     <arranger xml:id="baudi-01-ad5eee0f-arranger"/>
                     <lyricist xml:id="baudi-01-ad5eee0f-lyricist"/>
-
                 </titleStmt>
                 <physDesc>
                     <p decls="creation"><!--	<date
@@ -70,9 +65,8 @@
 								isodate="0000"/> --></p>
                     <titlePage>
                         <p decls="titlePage">Andante religioso<lb/>
-                            <lb/>für Streichorchester und Orgel<lb/>komponiert von<lb/>L. Baumann<lb/>Op. 12 <lb/>Partitur M. 1.–
-                            no., Stimmen (einzeln je 25 Pf.) M. 1.25 no. <lb/>
-                     <fig facs="CFW-Logo.jpg"/>
+                            <lb/>für Streichorchester und Orgel<lb/>komponiert von<lb/>L. Baumann<lb/>Op. 12 <lb/>Partitur M. 1.– no., Stimmen (einzeln je 25 Pf.) M. 1.25 no. <lb/>
+                            <fig facs="CFW-Logo.jpg"/>
                             <lb/>Chr. Friedrich Vieweg<lb/>Berlin=Groß Lichterfelde W.<lb/> V. 587 </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">310</dimensions>
@@ -94,16 +88,15 @@
                         <hand label="NE 4r BiblVermerk" medium="Bleistift">dd/A356 (Stimmen in Tasche)</hand>
                         <hand label="C 4r BiblVermerk" medium="Bleistift">+4 Bei.</hand>
                     </handList>
-               <handList>
-                  <hand type="composer" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
+                    <handList>
+                        <hand type="composer" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                    </handList>
                     <condition n="1">
                         <date isodate="2020-02-27" type="desc" resp="dried"/>
                         <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                     </condition>
-                    <physMedium xml:id="baudi-01-ad5eee0f-physMedium">Gedruckt. Gebunden, Fadenheftung; Nachträglich in
-                        Kartoneinband eingebunden</physMedium>
+                    <physMedium xml:id="baudi-01-ad5eee0f-physMedium">Gedruckt. Gebunden, Fadenheftung; Nachträglich in Kartoneinband eingebunden</physMedium>
                 </physDesc>
                 <physLoc>
                     <repository>
@@ -130,14 +123,12 @@
                 <notesStmt>
                     <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2020-02-27" label="dried"/>
-                    <annot plist="stamp C-oriented 1r" corresp="#baudi-01-ad5eee0f-physMedium">Badische Landesbibliothek/Karlsruhe
-                        (auch 4v center)</annot>
+                    <annot plist="stamp C-oriented 1r" corresp="#baudi-01-ad5eee0f-physMedium">Badische Landesbibliothek/Karlsruhe (auch 4v center)</annot>
                     <annot plist="paperTypeNote -oriented" corresp="#baudi-01-ad5eee0f-physMedium">Plattennumer V.587</annot>
                 </notesStmt>
                 <classification>
                     <termList>
                         <term type="source">manuscript</term>
-
                         <term type="workGroup"/>
                         <term type="genre"/>
                     </termList>

@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-ed00a96a"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-ed00a96a" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ed00a96a-titleUniMainDE">Maiglöckchen ist
-                        kommen</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ed00a96a-titleUniMainDE">Maiglöckchen ist kommen</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -38,7 +31,6 @@
                 <meter count="3" unit="4"/>
                 <tempo>Nicht schnell.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -55,25 +47,21 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-12</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Maiglöckchen ist kommen</titlePart>
-                    <titlePart type="number" codedval="opus">67</titlePart>
-                    <titlePart type="mainSort">Maiglöckchen ist kommen</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>Fedor von Waldow</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Maiglöckchen ist kommen</titlePart>
+                        <titlePart type="number" codedval="opus">67</titlePart>
+                        <titlePart type="mainSort">Maiglöckchen ist kommen</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>Fedor von Waldow</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Maiglöckchen ist kommen</title>
@@ -83,13 +71,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1908</date>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -102,7 +89,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

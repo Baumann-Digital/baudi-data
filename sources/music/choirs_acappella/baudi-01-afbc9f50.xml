@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-afbc9f50"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-afbc9f50" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-afbc9f50-titleUniMainDE">»Großmutter will
-                        tanzen«</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-afbc9f50-titleUniMainDE">»Großmutter will tanzen«</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -36,7 +29,6 @@
                 <meter count="3" unit="4"/>
                 <tempo>Langsames, gemütliches Ländlertempo</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -53,24 +45,19 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-66</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">»Großmutter will tanzen«</titlePart>
-                    <titlePart type="mainSort">Großmutter will tanzen</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>Volkslied</composer>
-               <arranger>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist>Volkslied</lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">»Großmutter will tanzen«</titlePart>
+                        <titlePart type="mainSort">Großmutter will tanzen</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Volkslied</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>Volkslied</lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>»Großmutter will tanzen«</title>
@@ -80,14 +67,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1928</date>
-                            <dedicatee>Der <corpName>»<settlement codedval="baudi-06-21978c6c">Berliner</settlement> Liedertafel«</corpName> und ihrem hochverdienten Chormeister, <persName role="choirMaster">Herrn Musikdirektor Max
-                                Wiedemann</persName> in Hochachtung gewidmet.</dedicatee>
+                            <dedicatee>Der <corpName>»<settlement codedval="baudi-06-21978c6c">Berliner</settlement> Liedertafel«</corpName> und ihrem hochverdienten Chormeister, <persName role="choirMaster">Herrn Musikdirektor Max Wiedemann</persName> in Hochachtung gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -100,7 +85,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -154,35 +138,19 @@
     </meiHead>
     <music>
         <facsimile label="6145967">
-            
-                
-                
-                
-        <surface xml:id="baudi-01-afbc9f50-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6207095"
-                     xml:id="baudi-01-afbc9f50-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-afbc9f50-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6207096"
-                     xml:id="baudi-01-afbc9f50-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-afbc9f50-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6207097"
-                     xml:id="baudi-01-afbc9f50-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-afbc9f50-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6207098"
-                     xml:id="baudi-01-afbc9f50-00-0004"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-afbc9f50-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6207095" xml:id="baudi-01-afbc9f50-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-afbc9f50-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6207096" xml:id="baudi-01-afbc9f50-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-afbc9f50-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6207097" xml:id="baudi-01-afbc9f50-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-afbc9f50-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6207098" xml:id="baudi-01-afbc9f50-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-52ffc237" label="»Großmutter will tanzen«"/>
         </body>

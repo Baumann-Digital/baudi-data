@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-537c4f28"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-537c4f28" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-537c4f28-titleUniMainDE">Morgen marschieren
-                        wir</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-537c4f28-titleUniMainDE">Morgen marschieren wir</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -36,7 +29,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Marschtempo</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -53,24 +45,19 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-72</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Morgen marschieren wir</titlePart>
-                    <titlePart type="mainSort">Morgen marschieren wir</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>Altes Soldatenlied</composer>
-               <arranger>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist>Altes Soldatenlied</lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Morgen marschieren wir</titlePart>
+                        <titlePart type="mainSort">Morgen marschieren wir</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Altes Soldatenlied</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>Altes Soldatenlied</lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Morgen marschieren wir</title>
@@ -80,14 +67,13 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee>
-                        <persName>Herrn Bezirkschormeister Kurt Layher</persName> und seinen Vereinen gewidmet.</dedicatee>
+                                <persName>Herrn Bezirkschormeister Kurt Layher</persName> und seinen Vereinen gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -100,7 +86,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

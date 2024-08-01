@@ -1,9 +1,5 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-85f18c41"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-85f18c41" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -11,9 +7,7 @@
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-85f18c41-titleUniMainDE">Mein Badnerland</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -35,7 +29,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Frisches Tempo</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -52,24 +45,19 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-84</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Mein Badnerland</titlePart>
-                    <titlePart type="mainSort">Mein Badnerland</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>Volkslied</composer>
-               <arranger>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist>Volkslied</lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Mein Badnerland</titlePart>
+                        <titlePart type="mainSort">Mein Badnerland</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Volkslied</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>Volkslied</lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Mein Badnerland</title>
@@ -79,13 +67,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee>Den Badischen Sängern gewidmet</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -98,7 +85,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -153,35 +139,19 @@
     </meiHead>
     <music>
         <facsimile label="6145917">
-            
-                
-                
-                
-        <surface xml:id="baudi-01-85f18c41-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6206833"
-                     xml:id="baudi-01-85f18c41-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-85f18c41-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6206834"
-                     xml:id="baudi-01-85f18c41-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-85f18c41-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6206835"
-                     xml:id="baudi-01-85f18c41-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-85f18c41-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6206836"
-                     xml:id="baudi-01-85f18c41-00-0004"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-85f18c41-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206833" xml:id="baudi-01-85f18c41-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-85f18c41-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206834" xml:id="baudi-01-85f18c41-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-85f18c41-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206835" xml:id="baudi-01-85f18c41-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-85f18c41-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206836" xml:id="baudi-01-85f18c41-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-d02d6834" label="Mein Badnerland"/>
         </body>

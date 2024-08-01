@@ -1,15 +1,12 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0"
-   xml:id="baudi-01-0e57e784" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0e57e784" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de" xml:id="baudi-01-0e57e784-titleUniformDE">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-0e57e784-titleUniformMainDE">4 Charakterstücke für Männerchor
-                  und Einzelinstrumente</titlePart>
+               <titlePart type="main" xml:lang="de" xml:id="baudi-01-0e57e784-titleUniformMainDE">4 Charakterstücke für Männerchor und Einzelinstrumente</titlePart>
                <titlePart type="sub" xml:lang="de" xml:id="baudi-01-0e57e784-titleUniformSubDE"/>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0e57e784-titleUniformDescDE"
-                  >baudi-01-0e57e784-titleUniformDescDE</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0e57e784-titleUniformDescDE">baudi-01-0e57e784-titleUniformDescDE</titlePart>
             </title>
          </titleStmt>
          <pubStmt>
@@ -17,9 +14,7 @@
                <persName>
                   <ref target="baudi-04-1d680f20.xml#dried">Dennis Ried</ref>
                </persName>
-               <resp>This file was generated for the Baumann Digital project (BauDi). Files and data from the catalogue of works
-                  are a part of the PhD thesis of Dennis Ried. This data stock will be published after the PhD thesis ist
-                  finished.</resp>
+               <resp>This file was generated for the Baumann Digital project (BauDi). Files and data from the catalogue of works are a part of the PhD thesis of Dennis Ried. This data stock will be published after the PhD thesis ist finished.</resp>
             </respStmt>
             <address>
                <postCode>76133</postCode>
@@ -31,7 +26,6 @@
                <settlement>Waldsee</settlement>
                <country>Germany</country>
             </address>
-            
             <date isodate="2019-08-21"/>
          </pubStmt>
          <!-- <sourceDesc>
@@ -74,9 +68,7 @@
             <identifier type="D-KA">Mus. Hs. 1292</identifier>
             <titleStmt>
                <title xml:id="baudi-01-0e57e784-title">
-                  <titlePart type="main" xml:id="baudi-01-0e57e784-titleMain">[dust cover title:] Vier Charakterstücke | für |
-                     Männerchor und Einzelinstrumente | 1. Landsknechtslied | 2. Der Einsiedel (Humoreske) | 3. Mondnacht am Meer
-                     (Romanze) | 4. Der Csikos. | [...] | Ludwig Baumann, Karlsruhe</titlePart>
+                  <titlePart type="main" xml:id="baudi-01-0e57e784-titleMain">[dust cover title:] Vier Charakterstücke | für | Männerchor und Einzelinstrumente | 1. Landsknechtslied | 2. Der Einsiedel (Humoreske) | 3. Mondnacht am Meer (Romanze) | 4. Der Csikos. | [...] | Ludwig Baumann, Karlsruhe</titlePart>
                   <titlePart type="sub" xml:id="baudi-01-0e57e784-titleSub"/>
                   <titlePart type="desc" xml:id="baudi-01-0e57e784-titleDesc">für Chor, Orchester, Solist</titlePart>
                </title>
@@ -90,16 +82,13 @@
                <respStmt xml:id="baudi-01-0e57e784-respStmtDed"/>
             </titleStmt>
             <physDesc>
-               <p decls="creation"
-                  ><!--	<date
+               <p decls="creation"><!--	<date
     								type="creation"
     								subtype="sure"
     								isodate="0000"/> --></p>
                <titlePage>
                   <!-- Hier die Titelseite codieren (diplomatische Wiedergabe!) -->
-                  <p decls="titlePage">[dust cover title:] Vier Charakterstücke | für | Männerchor und Einzelinstrumente | 1.
-                     Landsknechtslied | 2. Der Einsiedel (Humoreske) | 3. Mondnacht am Meer (Romanze) | 4. Der Csikos. | [...] |
-                     Ludwig Baumann, Karlsruhe<lb/></p>
+                  <p decls="titlePage">[dust cover title:] Vier Charakterstücke | für | Männerchor und Einzelinstrumente | 1. Landsknechtslied | 2. Der Einsiedel (Humoreske) | 3. Mondnacht am Meer (Romanze) | 4. Der Csikos. | [...] | Ludwig Baumann, Karlsruhe<lb/></p>
                </titlePage>
                <dimensions label="height" unit="mm">333</dimensions>
                <dimensions label="width" unit="mm">260</dimensions>
@@ -110,7 +99,6 @@
                <extent label="pagination">arabic</extent>
                <scoreFormat>choral score</scoreFormat>
                <watermark label="watermark">none</watermark>
-               
                <condition n="1">
                   <date isodate="2019-08-21" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -124,7 +112,6 @@
                </repository>
             </physLoc>
             <history><!-- <eventList/> --></history>
-            
             <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
     							<list
     								label="quires">
@@ -139,8 +126,7 @@
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2019-08-21" label="dried">notCleaned</annot>
-               <annot plist="stamp S-oriented 0r" corresp="#baudi-01-0e57e784-physMedium">Badische
-                  Landesbibliothek/Karlsruhe</annot>
+               <annot plist="stamp S-oriented 0r" corresp="#baudi-01-0e57e784-physMedium">Badische Landesbibliothek/Karlsruhe</annot>
                <annot plist="paperTypeNote PapTypPos-oriented" corresp="#baudi-01-0e57e784-physMedium">Papiertyp</annot>
             </notesStmt>
             <classification>

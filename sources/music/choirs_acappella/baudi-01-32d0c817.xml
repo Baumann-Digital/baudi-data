@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-32d0c817"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-32d0c817" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-32d0c817-titleUniMainDE">Deutsche
-                        Strom-Hymne</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-32d0c817-titleUniMainDE">Deutsche Strom-Hymne</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -37,7 +30,6 @@
                 <meter count="3" unit="4"/>
                 <tempo>Gemessen, feierlich</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -54,24 +46,20 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-71</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Deutsche Strom-Hymne</titlePart>
-                    <titlePart type="mainSort">Deutsche Strom-Hymne</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>Joseph von Eichendorff</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Deutsche Strom-Hymne</titlePart>
+                        <titlePart type="mainSort">Deutsche Strom-Hymne</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>Joseph von Eichendorff</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Deutsche Strom-Hymne</title>
@@ -81,14 +69,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
-                            <dedicatee>Der <corpName>»Harmonie Worms«</corpName> und ihrem Chormeister, <persName role="choirMaster">Herrn Emil Sieh</persName>, aus Anlaß des <date>75jährigen
-                                Vereinsjubiläums</date> gewidmet von ihrem a. o. Mitglied.</dedicatee>
+                            <dedicatee>Der <corpName>»Harmonie Worms«</corpName> und ihrem Chormeister, <persName role="choirMaster">Herrn Emil Sieh</persName>, aus Anlaß des <date>75jährigen Vereinsjubiläums</date> gewidmet von ihrem a. o. Mitglied.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -101,7 +87,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

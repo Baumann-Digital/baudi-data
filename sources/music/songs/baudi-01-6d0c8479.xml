@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-6d0c8479" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-6d0c8479" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniMainDE">Tanzlied</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniDescDE">für Stimme, Violine und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniDescDE">für Stimme, Violine und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="g" mode="major"/>
             <meter count="3" unit="4"/>
             <tempo/>
@@ -68,12 +63,9 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">
                      <rend rend="underline">Tanzlied</rend>
-                     <lb/>von
-                     <lb/>Ludwig Baumann.<lb/>fpr<lb/>Klavier, Gesang &amp; Violine.
-                  </p>
+                     <lb/>von <lb/>Ludwig Baumann.<lb/>fpr<lb/>Klavier, Gesang &amp; Violine. </p>
                </titlePage>
                <dimensions label="height" unit="mm">351</dimensions>
                <dimensions label="width" unit="mm">276</dimensions>
@@ -94,15 +86,13 @@
                   <date isodate="2018-02-08" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-6d0c8479-physMedium">Maschinell rastriert, 12 Zeilen. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-6d0c8479-physMedium">Maschinell rastriert, 12 Zeilen. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1306b</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -163,11 +153,10 @@
    </meiHead>
    <music>
       <facsimile>
-<!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299275-->
+         <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299275-->
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_2f7889e3" label="Tanzlied">
-         </mdiv>
+         <mdiv xml:id="baudi_20_2f7889e3" label="Tanzlied"> </mdiv>
       </body>
    </music>
 </mei>

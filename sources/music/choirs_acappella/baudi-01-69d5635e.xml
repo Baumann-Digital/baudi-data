@@ -1,4 +1,5 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-69d5635e" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-69d5635e" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -6,9 +7,7 @@
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-69d5635e-titleUniMainDE">Der Morgen</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -85,7 +84,6 @@
                     </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -93,7 +91,6 @@
                     <extent label="pages" unit="page">7</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -147,39 +144,31 @@
     </meiHead>
     <music>
         <facsimile label="6146156">
-            
-                
-                
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-69d5635e-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="6206577" xml:id="baudi-01-69d5635e-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="6206578" xml:id="baudi-01-69d5635e-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="6206579" xml:id="baudi-01-69d5635e-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="6206580" xml:id="baudi-01-69d5635e-00-0004" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid" target="6206581" xml:id="baudi-01-69d5635e-00-0005" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid" target="6206582" xml:id="baudi-01-69d5635e-00-0006" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0007" n="7" label="4r">
-            <graphic targettype="blb-vlid" target="6206583" xml:id="baudi-01-69d5635e-00-0007" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-69d5635e-surface-0008" n="8" label="4v">
-            <graphic targettype="blb-vlid" target="6206584" xml:id="baudi-01-69d5635e-00-0008" type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-69d5635e-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206577" xml:id="baudi-01-69d5635e-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206578" xml:id="baudi-01-69d5635e-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206579" xml:id="baudi-01-69d5635e-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206580" xml:id="baudi-01-69d5635e-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6206581" xml:id="baudi-01-69d5635e-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6206582" xml:id="baudi-01-69d5635e-00-0006" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0007" n="7" label="4r">
+                <graphic targettype="blb-vlid" target="6206583" xml:id="baudi-01-69d5635e-00-0007" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-69d5635e-surface-0008" n="8" label="4v">
+                <graphic targettype="blb-vlid" target="6206584" xml:id="baudi-01-69d5635e-00-0008" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-5493f3fc" label="Der Morgen"/>
         </body>

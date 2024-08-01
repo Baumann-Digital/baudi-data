@@ -1,17 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0"
-    xml:id="baudi-01-a698f688" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-a698f688" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-a698f688-titleUniMainDE">Deutsche
-                        Segenswünsche</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-a698f688-titleUniMainDE">Deutsche Segenswünsche</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -21,8 +17,7 @@
                 <title type="uniform">
                     <titlePart type="main">Deutsche Segenswünsche</titlePart>
                     <titlePart type="mainSort">Deutsche Segenswuensche</titlePart>
-                    <titlePart type="subordinate">Musik von Méhul, aus der Oper: »Joseph und
-                        seine Brüder«. Für Männerchor und Blasorchester bearbeitet</titlePart>
+                    <titlePart type="subordinate">Musik von Méhul, aus der Oper: »Joseph und seine Brüder«. Für Männerchor und Blasorchester bearbeitet</titlePart>
                     <titlePart type="perfmedium"/>
                 </title>
                 <composer>Étienne Nicolas Méhul</composer>
@@ -58,8 +53,7 @@
                 <titleStmt>
                     <title>
                         <titlePart type="main" xml:id="baudi-01-a698f688-titleMain">Deutsche Segenswünsche</titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-a698f688-titleSub">Musik von Méhul, aus der Oper: »Joseph
-                            und seine Brüder«. Für Männerchor und Blasorchester bearbeitet</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-a698f688-titleSub">Musik von Méhul, aus der Oper: »Joseph und seine Brüder«. Für Männerchor und Blasorchester bearbeitet</titlePart>
                     </title>
                     <composer xml:id="baudi-01-a698f688-composer">
                         <persName codedval="baudi-04-5e3ed698">Étienne Nicolas Méhul</persName>
@@ -94,7 +88,6 @@
                     </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -102,7 +95,6 @@
                     <extent label="pages" unit="page">3</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

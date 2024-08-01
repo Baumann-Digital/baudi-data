@@ -1,18 +1,15 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-455fbeb0" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-455fbeb0" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de" xml:id="baudi-01-455fbeb0-titleUniformDE">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-455fbeb0-titleUniformMainDE">Andante
-                        religioso</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-455fbeb0-titleUniformMainDE">Andante religioso</titlePart>
                     <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-455fbeb0-titleUniformSubDE"/>
-                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-455fbeb0-titleUniformDescDE">für Streichorchester und
-                        Orgel</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-455fbeb0-titleUniformDescDE">für Streichorchester und Orgel</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <!-- <sourceDesc>
 			<source>
 			<head/>
@@ -73,9 +70,9 @@
                         <hand label="N 1v BiblVermerk" medium="Bleistift">M 304, Viol. I</hand>
                         <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
                     </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
                     <condition n="1">
                         <date isodate="2020-02-27" type="desc" resp="dried"/>
                         <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -98,8 +95,7 @@
                 <notesStmt>
                     <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2020-02-27" label="dried"/>
-                    <annot plist="stamp NE-oriented 1r" corresp="#baudi-01-455fbeb0-physMedium">Badische
-                        Landesbibliothek/Karlsruhe (auch 4v center)</annot>
+                    <annot plist="stamp NE-oriented 1r" corresp="#baudi-01-455fbeb0-physMedium">Badische Landesbibliothek/Karlsruhe (auch 4v center)</annot>
                     <annot plist="paperTypeNote -oriented" corresp="#baudi-01-f3965e6a-physMedium">Plattennumer V.587?</annot>
                 </notesStmt>
                 <classification>

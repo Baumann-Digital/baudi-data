@@ -1,27 +1,30 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-fd8fa12b" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-fd8fa12b" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de"><titlePart type="main" xml:lang="de" xml:id="baudi-01-fd8fa12b-titleUniMainDE">Möchte gerne ziehen.</titlePart></title>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-fd8fa12b-titleUniMainDE">Möchte gerne ziehen.</titlePart></title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"><titlePart type="main">Möchte gerne ziehen.</titlePart><titlePart type="number" codedval="opus">14</titlePart><titlePart type="mainSort">Möchte gerne ziehen</titlePart><titlePart type="subordinate"/><titlePart type="perfmedium"/></title>
-                <composer><persName codedval="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName></composer>
+                <title type="uniform">
+                    <titlePart type="main">Möchte gerne ziehen.</titlePart>
+                    <titlePart type="number" codedval="opus">14</titlePart>
+                    <titlePart type="mainSort">Möchte gerne ziehen</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/></title>
+                <composer><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
                 <lyricist><persName>C. Sieveking</persName></lyricist>
                 <key pname="f" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Bewegt, doch nicht schnell.</tempo>
                 <incip/>
-                
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -39,20 +42,16 @@
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HK-1</identifier>
                 <titleStmt>
-                    <title><titlePart type="main" xml:id="baudi-01-fd8fa12b-titleMain">Möchte gerne ziehen.</titlePart><titlePart type="subordinate" xml:id="baudi-01-fd8fa12b-titleSub"/></title>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-fd8fa12b-titleMain">Möchte gerne ziehen.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-fd8fa12b-titleSub"/></title>
                     <composer xml:id="baudi-01-fd8fa12b-composer"><persName codedval="baudi-04-5e3ed698"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></persName></composer>
-                    <lyricist xml:id="baudi-01-fd8fa12b-lyricist"><persName codedval="baudi-04-35c9a190"><persName>C.
-                                Sieveking</persName></persName></lyricist>
-                    
+                    <lyricist xml:id="baudi-01-fd8fa12b-lyricist"><persName codedval="baudi-04-35c9a190"><persName>C. Sieveking</persName></persName></lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Möchte gerne ziehen.</title><bibl><identifier>H. 18 K.</identifier><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee>Dem
-                                <corpName>»Liederkranz <settlement>Bruchsal</settlement>«</corpName> und seinem, verdienstvollen Vorstande, <persName role="chairman">Herrn Albert Hamminger</persName>,
-                                gewidmet.</dedicatee></bibl></edition>
-                    
+                    <edition><title>Möchte gerne ziehen.</title><bibl><identifier>H. 18 K.</identifier><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee>Dem <corpName>»Liederkranz <settlement>Bruchsal</settlement>«</corpName> und seinem, verdienstvollen Vorstande, <persName role="chairman">Herrn Albert Hamminger</persName>, gewidmet.</dedicatee></bibl></edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -60,7 +59,6 @@
                     <extent label="pages" unit="page">3</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

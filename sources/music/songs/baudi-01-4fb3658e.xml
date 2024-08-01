@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-4fb3658e" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-4fb3658e" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-4fb3658e-titleUniMainDE">Die drei Zigeuner</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-4fb3658e-titleUniDescDE">für hohe Stimme, Violine und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-4fb3658e-titleUniDescDE">für hohe Stimme, Violine und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,15 +20,13 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="e" mode="minor"/>
             <meter count="4" unit="4"/>
             <tempo>Schnell</tempo>
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="violin">Violine
-                  </perfRes>
+                  <perfRes codedval="violin">Violine </perfRes>
                   <perfRes codedval="soprano">
                      <range>
                         <rangeNote pname="b" oct="3" type="lowest"/>
@@ -60,7 +54,6 @@
                <lyricist xml:id="baudi-01-4fb3658e-lyricist">
                   <persName codedval="baudi-04-bebb0e03">Niklas Lenau</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -68,7 +61,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Die drei Zigeuner.<lb/>(Nik. Lenau)<lb/>Ludwig Baumann<lb/>
                      <lb/>Niklas Lenau<lb/>
                   </p>
@@ -92,15 +84,13 @@
                   <date isodate="2018-02-16" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-4fb3658e-physMedium">Maschinell rastriert. 12 Notenzeilen. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-4fb3658e-physMedium">Maschinell rastriert. 12 Notenzeilen. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1308a</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>

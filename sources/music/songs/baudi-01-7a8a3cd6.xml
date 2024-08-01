@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-7a8a3cd6" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-7a8a3cd6" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-7a8a3cd6-titleUniMainDE">Nächtlicher Wald</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-7a8a3cd6-titleUniDescDE">für tiefe Stimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-7a8a3cd6-titleUniDescDE">für tiefe Stimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="b" accid="s" mode="minor"/>
             <meter count="6" unit="8"/>
             <tempo>Getragen</tempo>
@@ -65,7 +60,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Nächtlicher Wald.<lb/>(Heinz Stadelmann.)<lb/>Ludwig Baumann<lb/>
                      <lb/>Heinz Stadelmann<lb/>
                   </p>
@@ -90,15 +84,13 @@
                   <date isodate="2018-02-08" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-7a8a3cd6-physMedium">Maschinell rastriert. 4 Systeme und Lied-Akkolade. Beschrieben
-                  mit schwarzer Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-7a8a3cd6-physMedium">Maschinell rastriert. 4 Systeme und Lied-Akkolade. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1311</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -156,8 +148,7 @@
    <music>
       <facsimile/>
       <body>
-         <mdiv xml:id="baudi_20_38125142" label="Nächtlicher Wald">
-         </mdiv>
+         <mdiv xml:id="baudi_20_38125142" label="Nächtlicher Wald"> </mdiv>
       </body>
    </music>
 </mei>

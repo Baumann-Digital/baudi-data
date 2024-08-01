@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-61ea6882" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-61ea6882" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniMainDE">Wiegenlied</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniDescDE">für Singstimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniDescDE">für Singstimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="a" mode="major"/>
             <meter count="6" unit="8"/>
             <tempo/>
@@ -59,7 +54,6 @@
                <lyricist xml:id="baudi-01-61ea6882-lyricist">
                   <persName codedval="baudi-04-d1c90992">Inge Karsten</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -87,15 +81,13 @@
                   <date isodate="2018-02-05" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-61ea6882-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit
-                  blauer Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-61ea6882-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit blauer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1314</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -116,11 +108,9 @@
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2018-02-05" label="dried">Sammelquelle Mus. Hs. 1314</annot>
-               <annot plist="stamp S-oriented 1r" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek /
-                  Karlsruhe</annot>
+               <annot plist="stamp S-oriented 1r" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek / Karlsruhe</annot>
                <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-61ea6882-physMedium">»Sünova« Nr. 2 - 4 Systeme</annot>
-               <annot plist="stamp S-oriented 2v" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek /
-                  Karlsruhe</annot>
+               <annot plist="stamp S-oriented 2v" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek / Karlsruhe</annot>
             </notesStmt>
             <classification>
                <termList>
@@ -161,8 +151,7 @@
    <music>
       <facsimile/>
       <body>
-         <mdiv xml:id="baudi_20_0dd1a4b4" label="Wiegenlied">
-         </mdiv>
+         <mdiv xml:id="baudi_20_0dd1a4b4" label="Wiegenlied"> </mdiv>
       </body>
    </music>
 </mei>

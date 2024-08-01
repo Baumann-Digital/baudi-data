@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-ae40f67b"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-ae40f67b" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ae40f67b-titleUniMainDE">Morgenhymne im
-                        Frühling</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ae40f67b-titleUniMainDE">Morgenhymne im Frühling</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -38,7 +31,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Feierlich, aber nicht zu langsam.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMixed">
                         <perfRes codedval="soprano"/>
@@ -55,25 +47,21 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-55</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Morgenhymne im Frühling</titlePart>
-                    <titlePart type="number" codedval="opus">50</titlePart>
-                    <titlePart type="mainSort">Morgenhymne im Frühling</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>August Dietz</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Morgenhymne im Frühling</titlePart>
+                        <titlePart type="number" codedval="opus">50</titlePart>
+                        <titlePart type="mainSort">Morgenhymne im Frühling</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>August Dietz</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Morgenhymne im Frühling</title>
@@ -83,13 +71,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1924</date>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -102,7 +89,6 @@
                     <extent label="pages" unit="page">4?</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -137,9 +123,7 @@
                     </termList>
                 </classification>
                 <relationList>
-                    <relation rel="isEmbodimentOf"
-                         type="otherPerfRes"
-                         corresp="baudi-02-acf9aa85"/>
+                    <relation rel="isEmbodimentOf" type="otherPerfRes" corresp="baudi-02-acf9aa85"/>
                 </relationList>
             </manifestation>
         </manifestationList>
@@ -158,49 +142,25 @@
     </meiHead>
     <music>
         <facsimile label="6146100">
-            
-            
-                
-                
-                
-                
-        <surface xml:id="baudi-01-ae40f67b-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6231021"
-                     xml:id="baudi-01-ae40f67b-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae40f67b-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6231022"
-                     xml:id="baudi-01-ae40f67b-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae40f67b-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6231023"
-                     xml:id="baudi-01-ae40f67b-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae40f67b-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6231024"
-                     xml:id="baudi-01-ae40f67b-00-0004"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae40f67b-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid"
-                     target="6231025"
-                     xml:id="baudi-01-ae40f67b-00-0005"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae40f67b-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid"
-                     target="6231026"
-                     xml:id="baudi-01-ae40f67b-00-0006"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-ae40f67b-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6231021" xml:id="baudi-01-ae40f67b-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae40f67b-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6231022" xml:id="baudi-01-ae40f67b-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae40f67b-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6231023" xml:id="baudi-01-ae40f67b-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae40f67b-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6231024" xml:id="baudi-01-ae40f67b-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae40f67b-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6231025" xml:id="baudi-01-ae40f67b-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae40f67b-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6231026" xml:id="baudi-01-ae40f67b-00-0006" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-56cf9824" label="Morgenhymne im Frühling"/>
         </body>

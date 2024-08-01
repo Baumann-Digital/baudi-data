@@ -1,25 +1,16 @@
-<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-57e03f0b"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-57e03f0b" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Am Brunnen</title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-57e03f0b-titleUniformDE">
-                    <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-57e03f0b-titleUniformMainDE">Am Brunnen</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-57e03f0b-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-57e03f0b-titleUniformMainDE">Am Brunnen</titlePart>
                     <titlePart type="perf">für Männerchor</titlePart>
                 </title>
                 <composer>
@@ -35,32 +26,31 @@
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0001" codedval="tenor.i">
-                          <range>
-                              <rangeNote type="lowest" pname="f" oct="3"/>
-                              <rangeNote type="highest" pname="b" accid="f" oct="4"/>
-                          </range>
-                       </perfRes>
-                             <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0002" codedval="tenor.ii">
-                          <range>
-                              <rangeNote type="lowest" pname="f" oct="3"/>
-                              <rangeNote type="highest" pname="f" oct="4"/>
-                          </range>
-                       </perfRes>
-                             <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0003" codedval="bass.i">
-                          <range>
-                              <rangeNote type="lowest" pname="d" oct="3"/>
-                              <rangeNote type="highest" pname="d" oct="4"/>
-                          </range>
-                       </perfRes>
-                             <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0004" codedval="bass.ii">
-                          <range>
-                             <rangeNote type="lowest" pname="f" oct="2"/>
-                             <rangeNote type="highest" pname="b" accid="f" oct="3"/>
-                          </range>
-                       </perfRes>
+                            <range>
+                                <rangeNote type="lowest" pname="f" oct="3"/>
+                                <rangeNote type="highest" pname="b" accid="f" oct="4"/>
+                            </range>
+                        </perfRes>
+                        <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0002" codedval="tenor.ii">
+                            <range>
+                                <rangeNote type="lowest" pname="f" oct="3"/>
+                                <rangeNote type="highest" pname="f" oct="4"/>
+                            </range>
+                        </perfRes>
+                        <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0003" codedval="bass.i">
+                            <range>
+                                <rangeNote type="lowest" pname="d" oct="3"/>
+                                <rangeNote type="highest" pname="d" oct="4"/>
+                            </range>
+                        </perfRes>
+                        <perfRes xml:id="baudi-01-3c1eaec1-perfRes-0004" codedval="bass.ii">
+                            <range>
+                                <rangeNote type="lowest" pname="f" oct="2"/>
+                                <rangeNote type="highest" pname="b" accid="f" oct="3"/>
+                            </range>
+                        </perfRes>
                     </perfResList>
                 </perfMedium>
-
             </work>
         </workList>
         <manifestationList>
@@ -102,9 +92,9 @@
                     <handList>
                         <hand medium="Bleistift" label="BiblVermerk" xml:id="hand1"/>
                     </handList>
-               <handList>
-                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
                     <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName >C.F.W. Siegel's
                             Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>--></addDesc>
                     <condition n="1" resp="dried" type="desc">
@@ -203,8 +193,7 @@
                                 <hand medium="Bleistift" label="BiblVermerk"/>
                             </handList>
                             <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName >C.F.W. Siegel's
-                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->
-                                Zweites Exemplar vorhanden</addDesc>
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>--> Zweites Exemplar vorhanden</addDesc>
                             <condition n="1" resp="dried" type="desc">
                                 <date isodate="2019-08-21" type="desc" resp="dried"/>
                                 <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -250,8 +239,7 @@
                                 <hand medium="Bleistift" label="BiblVermerk"/>
                             </handList>
                             <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName >C.F.W. Siegel's
-                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->
-                                Zweites Exemplar vorhanden</addDesc>
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>--> Zweites Exemplar vorhanden</addDesc>
                             <condition n="1" resp="dried" type="desc">
                                 <date isodate="2019-08-21" type="desc" resp="dried"/>
                                 <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -297,8 +285,7 @@
                                 <hand medium="Bleistift" label="BiblVermerk"/>
                             </handList>
                             <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName >C.F.W. Siegel's
-                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->
-                                Zweites Exemplar vorhanden</addDesc>
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>--> Zweites Exemplar vorhanden</addDesc>
                             <condition n="1" resp="dried" type="desc">
                                 <date isodate="2019-08-21" type="desc" resp="dried"/>
                                 <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -344,8 +331,7 @@
                                 <hand medium="Bleistift" label="BiblVermerk"/>
                             </handList>
                             <addDesc><!--<p type="copyright">Copyright <date type="copyright">1908</date> by <corpName >C.F.W. Siegel's
-                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->Zweites
-                                Exemplar vorhanden</addDesc>
+                            Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>-->Zweites Exemplar vorhanden</addDesc>
                             <condition n="1" resp="dried" type="desc">
                                 <date isodate="2019-08-21" type="desc" resp="dried"/>
                                 <!-- <p type="statusReport">Zustandsbeschreibung</p> -->

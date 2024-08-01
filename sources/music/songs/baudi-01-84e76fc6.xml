@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-84e76fc6" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-84e76fc6" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-84e76fc6-titleUniMainDE">Fern der Heimat</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-84e76fc6-titleUniDescDE">für eine Singstimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-84e76fc6-titleUniDescDE">für eine Singstimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,26 +20,22 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="a" mode="minor"/>
             <meter count="4" unit="4" sym="common"/>
             <tempo>Ernst, gemessen.</tempo>
             <incip>
                <score xml:id="m-29">
-                  <scoreDef xml:id="m-30" lyric.name="Plantin MT Std" meter.count="4" meter.unit="4" music.name="Opus Std" page.botmar="12.7mm" page.height="297mm" page.leftmar="12.7mm" page.rightmar="12.7mm" page.topmar="12.7mm" page.width="210mm"  text.name="Plantin MT Std">
+                  <scoreDef xml:id="m-30" lyric.name="Plantin MT Std" meter.count="4" meter.unit="4" music.name="Opus Std" page.botmar="12.7mm" page.height="297mm" page.leftmar="12.7mm" page.rightmar="12.7mm" page.topmar="12.7mm" page.width="210mm" text.name="Plantin MT Std">
                      <staffGrp xml:id="m-31">
-                        <staffDef xml:id="m-32" clef.line="2" clef.shape="G"   label="Stimme" lines="5" n="1">
+                        <staffDef xml:id="m-32" clef.line="2" clef.shape="G" label="Stimme" lines="5" n="1">
                            <!-- voice.ensemble.ah -->
-                           
                         </staffDef>
                         <staffGrp xml:id="m-41" n="1" symbol="brace">
-                           <staffDef xml:id="m-35" clef.line="2" clef.shape="G"   label="Klavier" lines="5" n="2">
+                           <staffDef xml:id="m-35" clef.line="2" clef.shape="G" label="Klavier" lines="5" n="2">
                               <!-- keyboard.piano.grand -->
-                              
                            </staffDef>
-                           <staffDef xml:id="m-38" clef.line="4" clef.shape="F"   label="Klavier" lines="5" n="3">
+                           <staffDef xml:id="m-38" clef.line="4" clef.shape="F" label="Klavier" lines="5" n="3">
                               <!-- keyboard.piano.grand -->
-                              
                            </staffDef>
                         </staffGrp>
                      </staffGrp>
@@ -113,9 +105,13 @@
                         </staff>
                         <staff xml:id="m-91" n="2">
                            <layer xml:id="m-92" n="1">
-                              <note xml:id="m-93" dur="4" oct="4" pname="e" stem.dir="up"><artic artic="stacc"/></note>
+                              <note xml:id="m-93" dur="4" oct="4" pname="e" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
                               <note xml:id="m-99" dur="4" oct="4" pname="e" stem.dir="up"/>
-                              <note xml:id="m-103" dur="4" oct="4" pname="e" stem.dir="up"><artic artic="stacc"/></note>
+                              <note xml:id="m-103" dur="4" oct="4" pname="e" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
                               <beam xml:id="m-107">
                                  <note xml:id="m-105" dots="1" dur="8" oct="4" pname="g" stem.dir="up">
                                     <accid xml:id="m-106" accid="n"/>
@@ -155,8 +151,12 @@
                                  </note>
                                  <note xml:id="m-121" dur="16" oct="2" pname="b" stem.dir="up"/>
                               </beam>
-                              <note xml:id="m-122" dur="4" oct="2" pname="a" stem.dir="up"><artic artic="stacc"/></note>
-                              <note xml:id="m-123" dur="4" oct="2" pname="d" stem.dir="up"><artic artic="stacc"/></note>
+                              <note xml:id="m-122" dur="4" oct="2" pname="a" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note xml:id="m-123" dur="4" oct="2" pname="d" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
                            </layer>
                         </staff>
                      </measure>
@@ -185,7 +185,9 @@
                         <staff xml:id="m-139" n="3">
                            <layer xml:id="m-140" n="1">
                               <note xml:id="m-141" dur="4" oct="2" pname="e" stem.dir="up"/>
-                              <note xml:id="m-142" dur="4" oct="3" pname="e" stem.dir="down"><artic artic="stacc"/></note>
+                              <note xml:id="m-142" dur="4" oct="3" pname="e" stem.dir="down">
+                                 <artic artic="stacc"/>
+                              </note>
                               <note xml:id="m-143" dur="4" oct="2" pname="d" stem.dir="up">
                                  <accid xml:id="m-144" accid="s"/>
                               </note>
@@ -501,8 +503,12 @@
                         </staff>
                         <staff xml:id="m-348" n="3">
                            <layer xml:id="m-349" n="1">
-                              <note xml:id="m-350" dur="4" oct="2" pname="a" stem.dir="up"><artic artic="stacc"/></note>
-                              <note xml:id="m-351" dur="4" oct="2" pname="e" stem.dir="up"><artic artic="stacc"/></note>
+                              <note xml:id="m-350" dur="4" oct="2" pname="a" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
+                              <note xml:id="m-351" dur="4" oct="2" pname="e" stem.dir="up">
+                                 <artic artic="stacc"/>
+                              </note>
                               <note xml:id="m-352" dur="4" oct="2" pname="a" stem.dir="up"/>
                               <note xml:id="m-353" dur="4" oct="2" pname="d" stem.dir="up"/>
                            </layer>
@@ -634,7 +640,6 @@
                <lyricist xml:id="baudi-01-84e76fc6-lyricist">
                   <ref target="baudi-04-35c9a190">Richard Graebener</ref>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -660,23 +665,19 @@
                   <date isodate="2018-01-11" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-84e76fc6-physMedium">Maschinell rastriert mit vorgedruckten Notenschlüsseln (Stimme:
-                  Violinschlüssel, Klavier: Violinschlüssel, Bassschlüssel). Beschrieben mit schwarzer Tinte. Bibliothekarischer
-                  Vermerk.</physMedium>
+               <physMedium xml:id="baudi-01-84e76fc6-physMedium">Maschinell rastriert mit vorgedruckten Notenschlüsseln (Stimme: Violinschlüssel, Klavier: Violinschlüssel, Bassschlüssel). Beschrieben mit schwarzer Tinte. Bibliothekarischer Vermerk.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1394,22</identifier>
                </repository>
-
             </physLoc>
             <history>
                <eventList>
                   <event>
                      <head>Werktitel</head>
-                     <desc>Der ursprüngliche Titel des Werkes lautete »Liebesglück und Liebesleid«. In der vorliegenden Quelle
-                        wurde dieser Titel durch zweifaches Durchstreichen getilgt und durch »Fern der Heimat« ersetzt.</desc>
+                     <desc>Der ursprüngliche Titel des Werkes lautete »Liebesglück und Liebesleid«. In der vorliegenden Quelle wurde dieser Titel durch zweifaches Durchstreichen getilgt und durch »Fern der Heimat« ersetzt.</desc>
                   </event>
                </eventList>
             </history>
@@ -699,8 +700,7 @@
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2018-01-11" label="dried"/>
-               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-84e76fc6-physMedium">»Sünova« Nr. 102 -
-                  4Systeme</annot>
+               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-84e76fc6-physMedium">»Sünova« Nr. 102 - 4Systeme</annot>
             </notesStmt>
             <classification>
                <termList>

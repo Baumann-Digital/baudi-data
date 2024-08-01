@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-02a123e3"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-02a123e3" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-02a123e3-titleUniMainDE">Nun ist es Zeit, zu singen
-                        hell</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-02a123e3-titleUniMainDE">Nun ist es Zeit, zu singen hell</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -23,8 +16,7 @@
             <work>
                 <title type="uniform">
                     <titlePart type="main">Nun ist es Zeit, zu singen hell</titlePart>
-                    <titlePart type="mainSort">Nun ist es Zeit, zu singen
-                        hell</titlePart>
+                    <titlePart type="mainSort">Nun ist es Zeit, zu singen hell</titlePart>
                     <titlePart type="subordinate">Weihnachtslied</titlePart>
                     <titlePart type="perfmedium"/>
                 </title>
@@ -39,7 +31,6 @@
                 <meter count="3" unit="4"/>
                 <tempo>Lebhaft, freudig.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMixed">
                         <perfRes codedval="soprano"/>
@@ -56,27 +47,21 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-39</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Nun ist es Zeit, zu singen hell</titlePart>
-                    <titlePart type="mainSort">Nun ist es Zeit, zu singen
-                        hell</titlePart>
-                    <titlePart type="subordinate">Weihnachtslied</titlePart>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>Joachim von Burgk</composer>
-               <arranger>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist>
-                    <persName>unbekannt</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Nun ist es Zeit, zu singen hell</titlePart>
+                        <titlePart type="mainSort">Nun ist es Zeit, zu singen hell</titlePart>
+                        <titlePart type="subordinate">Weihnachtslied</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Joachim von Burgk</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>
+                        <persName>unbekannt</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Nun ist es Zeit, zu singen hell</title>
@@ -86,13 +71,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -105,7 +89,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">none</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

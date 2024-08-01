@@ -1,27 +1,30 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-74bae2fe" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-74bae2fe" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de"><titlePart type="main" xml:lang="de" xml:id="baudi-01-74bae2fe-titleUniMainDE">Das Strumpfbanderl.</titlePart></title>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-74bae2fe-titleUniMainDE">Das Strumpfbanderl.</titlePart></title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"><titlePart type="main">Das Strumpfbanderl.</titlePart><titlePart type="number" codedval="opus">64</titlePart><titlePart type="mainSort">Strumpfbanderl</titlePart><titlePart type="subordinate"/><titlePart type="perfmedium"/></title>
-                <composer><persName codedval="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName></composer>
+                <title type="uniform">
+                    <titlePart type="main">Das Strumpfbanderl.</titlePart>
+                    <titlePart type="number" codedval="opus">64</titlePart>
+                    <titlePart type="mainSort">Strumpfbanderl</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/></title>
+                <composer><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
                 <lyricist><persName>Otto Hausmann</persName></lyricist>
                 <key pname="a" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Heitere Bewegung.</tempo>
                 <incip/>
-                
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -39,19 +42,16 @@
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HK-7</identifier>
                 <titleStmt>
-                    <title><titlePart type="main" xml:id="baudi-01-74bae2fe-titleMain">Das Strumpfbanderl.</titlePart><titlePart type="subordinate" xml:id="baudi-01-74bae2fe-titleSub"/></title>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-74bae2fe-titleMain">Das Strumpfbanderl.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-74bae2fe-titleSub"/></title>
                     <composer xml:id="baudi-01-74bae2fe-composer"><persName codedval="baudi-04-5e3ed698"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></persName></composer>
-                    <lyricist xml:id="baudi-01-74bae2fe-lyricist"><persName codedval="baudi-04-35c9a190"><persName>Otto
-                                Hausmann</persName></persName></lyricist>
-                    
+                    <lyricist xml:id="baudi-01-74bae2fe-lyricist"><persName codedval="baudi-04-35c9a190"><persName>Otto Hausmann</persName></persName></lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Das Strumpfbanderl.</title><bibl><identifier/><publisher><corpName codedval="baudi-05-b8018784">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in
-                                    Baden</settlement></pubPlace><date/><dedicatee/></bibl></edition>
-                    
+                    <edition><title>Das Strumpfbanderl.</title><bibl><identifier/><publisher><corpName codedval="baudi-05-b8018784">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee/></bibl></edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -59,7 +59,6 @@
                     <extent label="pages" unit="page">1</extent>
                     <extent label="pagination"/>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

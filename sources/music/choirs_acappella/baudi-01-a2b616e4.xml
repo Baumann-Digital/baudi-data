@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-a2b616e4"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-a2b616e4" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-a2b616e4-titleUniMainDE">Der brave
-                        Küferknecht</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-a2b616e4-titleUniMainDE">Der brave Küferknecht</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -35,7 +28,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Frisch und munter.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -52,22 +44,18 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-45</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Der brave Küferknecht</titlePart>
-                    <titlePart type="mainSort">brave Küferknecht</titlePart>
-                    <titlePart type="subordinate">Eine lustige Ballade</titlePart>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>Ludwig Baumann?</composer>
-               <lyricist>
-                    <persName>Franz Mäding</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Der brave Küferknecht</titlePart>
+                        <titlePart type="mainSort">brave Küferknecht</titlePart>
+                        <titlePart type="subordinate">Eine lustige Ballade</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Ludwig Baumann?</composer>
+                    <lyricist>
+                        <persName>Franz Mäding</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Der brave Küferknecht</title>
@@ -77,13 +65,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1914</date>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -96,7 +83,6 @@
                     <extent label="pages" unit="page">5</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -150,63 +136,31 @@
     </meiHead>
     <music>
         <facsimile label="6146144">
-            
-                
-                
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-a2b616e4-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6206897"
-                     xml:id="baudi-01-a2b616e4-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6206898"
-                     xml:id="baudi-01-a2b616e4-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6206899"
-                     xml:id="baudi-01-a2b616e4-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6206900"
-                     xml:id="baudi-01-a2b616e4-00-0004"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid"
-                     target="6206901"
-                     xml:id="baudi-01-a2b616e4-00-0005"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid"
-                     target="6206902"
-                     xml:id="baudi-01-a2b616e4-00-0006"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0007" n="7" label="4r">
-            <graphic targettype="blb-vlid"
-                     target="6206903"
-                     xml:id="baudi-01-a2b616e4-00-0007"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-a2b616e4-surface-0008" n="8" label="4v">
-            <graphic targettype="blb-vlid"
-                     target="6206904"
-                     xml:id="baudi-01-a2b616e4-00-0008"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-a2b616e4-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206897" xml:id="baudi-01-a2b616e4-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206898" xml:id="baudi-01-a2b616e4-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206899" xml:id="baudi-01-a2b616e4-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206900" xml:id="baudi-01-a2b616e4-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6206901" xml:id="baudi-01-a2b616e4-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6206902" xml:id="baudi-01-a2b616e4-00-0006" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0007" n="7" label="4r">
+                <graphic targettype="blb-vlid" target="6206903" xml:id="baudi-01-a2b616e4-00-0007" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-a2b616e4-surface-0008" n="8" label="4v">
+                <graphic targettype="blb-vlid" target="6206904" xml:id="baudi-01-a2b616e4-00-0008" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-5fde1269" label="Der brave Küferknecht"/>
         </body>

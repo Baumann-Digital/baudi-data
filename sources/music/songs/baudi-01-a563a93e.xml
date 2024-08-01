@@ -1,4 +1,5 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a563a93e" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a563a93e" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -8,10 +9,7 @@
                     <titlePart type="desc" xml:lang="de" xml:id="baudi-01-a563a93e-titleUniformDescDE">baudi-01-a563a93e-titleUniformDescDE</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
-
+            <pubStmt> </pubStmt>
             <!-- <sourceDesc>
 			<source>
 			<head/>
@@ -20,7 +18,6 @@
 			</source>
 			</sourceDesc> -->
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -28,7 +25,6 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="e" accid="f" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Schwungvoll, doch nicht zu schnell.</tempo>
@@ -37,14 +33,14 @@
                     <perfResList>
                         <perfRes xml:id="baudi-01-a563a93e-perfRes-0001" codedval="voice">
                             <range>
-                        <rangeNote type="lowest" pname="e" accid="f" oct="4"/>
-                        <rangeNote type="highest" pname="f" oct="5"/>
-                     </range>
-                  </perfRes>
+                                <rangeNote type="lowest" pname="e" accid="f" oct="4"/>
+                                <rangeNote type="highest" pname="f" oct="5"/>
+                            </range>
+                        </perfRes>
                         <perfRes xml:id="baudi-01-a563a93e-perfRes-0002" codedval="piano">Klavier</perfRes>
                     </perfResList>
                 </perfMedium>
-            <!--                <annot type="ambitus">es1-f2</annot>-->
+                <!--                <annot type="ambitus">es1-f2</annot>-->
             </work>
         </workList>
         <manifestationList>
@@ -56,8 +52,7 @@
                     <title xml:id="baudi-01-a563a93e-title">
                         <titlePart type="main" xml:id="baudi-01-a563a93e-titleMain">Heiliges Feuer.</titlePart>
                         <titlePart type="subordinate" xml:id="baudi-01-a563a93e-titleSub"/>
-                        <titlePart type="desc" xml:id="baudi-01-a563a93e-titleDesc">Für 1 höhere Singstimme mit
-                            Klavierbegleitung</titlePart>
+                        <titlePart type="desc" xml:id="baudi-01-a563a93e-titleDesc">Für 1 höhere Singstimme mit Klavierbegleitung</titlePart>
                     </title>
                     <composer xml:id="baudi-01-a563a93e-composer">
                         <ref target="persons.xml#baudi-04-5e3ed698">Ludwig Baumann</ref>
@@ -66,7 +61,6 @@
                     <lyricist xml:id="baudi-01-a563a93e-lyricist">
                         <ref target="persons.xml#baudi-04-ff23e58e">Heinz Stadelmann</ref>
                     </lyricist>
-                    
                 </titleStmt>
                 <physDesc>
                     <p decls="creation"><!--	<date
@@ -74,11 +68,8 @@
 								subtype="sure"
 								isodate="0000"/> --></p>
                     <titlePage>
-                        <p decls="titlePage">Lieder<lb/>für eine Singstimme<lb/>mit Klavierbegleitung <lb/>komponiert
-                            von<lb/>Ludwig Baumann<lb/>
-                            <lb/>[1.] heiliges Feuer, »Komm’ göttlicher Funke« (Heinz Stadelmann)<lb/>für 1 höhere Singstimme Mk.
-                            1.20<lb/>Wo ist Gott? »Wo ist Gott ? Im Meeresrauschen !«<lb/>für 1 mittlere Singstimme Mk.
-                            1.20<lb/>Verlag und Eigentum für alle Länder von Johann André,<lb/>Offenbach am Main</p>
+                        <p decls="titlePage">Lieder<lb/>für eine Singstimme<lb/>mit Klavierbegleitung <lb/>komponiert von<lb/>Ludwig Baumann<lb/>
+                            <lb/>[1.] heiliges Feuer, »Komm’ göttlicher Funke« (Heinz Stadelmann)<lb/>für 1 höhere Singstimme Mk. 1.20<lb/>Wo ist Gott? »Wo ist Gott ? Im Meeresrauschen !«<lb/>für 1 mittlere Singstimme Mk. 1.20<lb/>Verlag und Eigentum für alle Länder von Johann André,<lb/>Offenbach am Main</p>
                     </titlePage>
                     <dimensions label="height" unit="mm">334</dimensions>
                     <dimensions label="width" unit="mm">255</dimensions>
@@ -94,9 +85,9 @@
                         <hand label="C 1v BiblVermerk" medium="Bleistift">M 308, 1</hand>
                         <hand label="S 1v BiblVermerk" medium="Bleistift">Z</hand>
                     </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
                     <condition n="1">
                         <date isodate="2020-02-04" type="desc" resp="dried"/>
                         <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -128,8 +119,7 @@
                 <notesStmt>
                     <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2020-02-04" label="dried"/>
-                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-a563a93e-physMedium">Badische
-                        Landesbibliothek/Karlsruhe</annot>
+                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-a563a93e-physMedium">Badische Landesbibliothek/Karlsruhe</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -160,9 +150,7 @@
     <music>
         <facsimile/>
         <body>
-            <mdiv>
-
-            </mdiv>
+            <mdiv> </mdiv>
         </body>
     </music>
 </mei>

@@ -1,4 +1,5 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0bf72bf3" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0bf72bf3" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -8,10 +9,7 @@
                     <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0bf72bf3-titleUniformDescDE">für Chor</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
-
+            <pubStmt> </pubStmt>
             <!-- <sourceDesc>
     			<source>
     			<head/>
@@ -20,7 +18,6 @@
     			</source>
     			</sourceDesc> -->
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -28,7 +25,6 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="b" accid="f" mode="major"/>
                 <meter count="4" unit="8" sym="common"/>
                 <tempo>Innig, durchweg zart</tempo>
@@ -55,7 +51,6 @@
                     <lyricist xml:id="baudi-01-0bf72bf3-lyricist">
                         <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                     </lyricist>
-
                 </titleStmt>
                 <physDesc>
                     <p decls="creation"><!--	<date
@@ -77,11 +72,11 @@
                         <hand label="librarian" medium="bleistift" xml:id="baudi-01-0bf72bf3-hand2"/>
                         <hand label="librarian" medium="FarbstiftBlau" xml:id="baudi-01-0bf72bf3-hand3"/>
                     </handList>
-               <handList>
-                  <hand type="composer" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0001"/>
-                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-                   <hand type="biblNote" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
-               </handList>
+                    <handList>
+                        <hand type="composer" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                        <hand type="biblNote" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
+                    </handList>
                     <condition n="1">
                         <p type="statusReport">
                             <date isodate="2019-08-21" type="desc" resp="dried"/> Am oberen Rand fleckig.</p>

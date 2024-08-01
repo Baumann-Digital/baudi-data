@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-8a513ee6" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-8a513ee6" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-8a513ee6-titleUniMainDE">Tanzlied</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-8a513ee6-titleUniDescDE">für Sopran, streichensemble und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-8a513ee6-titleUniDescDE">für Sopran, streichensemble und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,15 +20,13 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="g" mode="major"/>
             <meter count="3" unit="4"/>
             <tempo/>
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="violin.i">Violine I
-                  </perfRes>
+                  <perfRes codedval="violin.i">Violine I </perfRes>
                   <perfRes codedval="violin.ii">Violine II</perfRes>
                   <perfRes codedval="viola">Viola</perfRes>
                   <perfRes codedval="violoncello">Violoncello</perfRes>
@@ -63,7 +57,6 @@
                <lyricist xml:id="baudi-01-8a513ee6-lyricist">
                   <persName codedval="baudi-04-2d668bde">Karl Dollmätsch</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -71,7 +64,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Tanzlied.<lb/>
                      <lb/>Ludwig Baumann<lb/>
                      <lb/>Karl Dollmätsch<lb/>
@@ -97,15 +89,13 @@
                   <date isodate="2018-02-08" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-8a513ee6-physMedium">Maschinell rastriert. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-8a513ee6-physMedium">Maschinell rastriert. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1306c</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -125,8 +115,7 @@
 						<bibl type="notice"/>--></biblList>
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-08" label="dried">Arrangierte Fassung der Orchesterversion für Kl, Vl, S, ad Lib: Vl.2,
-                  Vla, Vc</annot>
+               <annot n="1" when="2018-02-08" label="dried">Arrangierte Fassung der Orchesterversion für Kl, Vl, S, ad Lib: Vl.2, Vla, Vc</annot>
                <annot plist="stamp S-oriented 1r" corresp="#baudi-01-8a513ee6-physMedium">L.B./Karlsruhe</annot>
                <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-8a513ee6-physMedium">»Sünova« Nr. 6 - 16 zeilig</annot>
             </notesStmt>
@@ -167,11 +156,10 @@
    </meiHead>
    <music>
       <facsimile>
-<!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299280-->
+         <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299280-->
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_15221fe9" label="Tanzlied">
-         </mdiv>
+         <mdiv xml:id="baudi_20_15221fe9" label="Tanzlied"> </mdiv>
       </body>
    </music>
 </mei>

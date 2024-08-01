@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-d16a7c7c"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-d16a7c7c" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d16a7c7c-titleUniMainDE">Wenns die Soldaten durch die
-                        Stadt marschieren</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d16a7c7c-titleUniMainDE">Wenns die Soldaten durch die Stadt marschieren</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -22,10 +15,8 @@
         <workList>
             <work>
                 <title type="uniform">
-                    <titlePart type="main">Wenns die Soldaten durch die Stadt
-                        marschieren</titlePart>
-                    <titlePart type="mainSort">Wenns die Soldaten durch die Stadt
-                        marschieren</titlePart>
+                    <titlePart type="main">Wenns die Soldaten durch die Stadt marschieren</titlePart>
+                    <titlePart type="mainSort">Wenns die Soldaten durch die Stadt marschieren</titlePart>
                     <titlePart type="subordinate"/>
                     <titlePart type="perfmedium"/>
                 </title>
@@ -38,7 +29,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo/>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -55,26 +45,19 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-73</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Wenns die Soldaten durch die Stadt
-                        marschieren</titlePart>
-                    <titlePart type="mainSort">Wenns die Soldaten durch die Stadt
-                        marschieren</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>Soldatenlied</composer>
-               <arranger>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist>Soldatenlied</lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Wenns die Soldaten durch die Stadt marschieren</titlePart>
+                        <titlePart type="mainSort">Wenns die Soldaten durch die Stadt marschieren</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Soldatenlied</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>Soldatenlied</lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Wenns die Soldaten durch die Stadt marschieren</title>
@@ -84,13 +67,12 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -103,7 +85,6 @@
                     <extent label="pages" unit="page">4</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -158,8 +139,7 @@
     <music>
         <facsimile/>
         <body>
-            <mdiv xml:id="baudi-20-7a1fbfc7"
-               label="Wenns die Soldaten durch die Stadt marschieren"/>
+            <mdiv xml:id="baudi-20-7a1fbfc7" label="Wenns die Soldaten durch die Stadt marschieren"/>
         </body>
     </music>
 </mei>

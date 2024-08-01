@@ -1,9 +1,5 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-b119f8c1"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-b119f8c1" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -11,9 +7,7 @@
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-b119f8c1-titleUniMainDE">Bergfreiheit</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -24,8 +18,7 @@
                     <titlePart type="main">Bergfreiheit</titlePart>
                     <titlePart type="number" codedval="opus">27</titlePart>
                     <titlePart type="mainSort">Bergfreiheit</titlePart>
-                    <titlePart type="subordinate">Aus „Fröhlicher Herbst“, ein Weinidyll aus
-                        dem Elsass</titlePart>
+                    <titlePart type="subordinate">Aus „Fröhlicher Herbst“, ein Weinidyll aus dem Elsass</titlePart>
                     <titlePart type="perfmedium"/>
                 </title>
                 <composer>
@@ -38,7 +31,6 @@
                 <meter count="3" unit="4"/>
                 <tempo>Etwas langsam.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -55,26 +47,21 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-1</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Bergfreiheit</titlePart>
-                    <titlePart type="number" codedval="opus">27</titlePart>
-                    <titlePart type="mainSort">Bergfreiheit</titlePart>
-                    <titlePart type="subordinate">Aus „Fröhlicher Herbst“, ein Weinidyll aus
-                        dem Elsass</titlePart>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>A. F. Meyer</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Bergfreiheit</titlePart>
+                        <titlePart type="number" codedval="opus">27</titlePart>
+                        <titlePart type="mainSort">Bergfreiheit</titlePart>
+                        <titlePart type="subordinate">Aus „Fröhlicher Herbst“, ein Weinidyll aus dem Elsass</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>A. F. Meyer</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Bergfreiheit</title>
@@ -84,15 +71,13 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee>Dem <corpName>»Männergesangverein« <settlement>Kirchheim</settlement>
-                        </corpName> und seinem verdienstvollen Dirigenten <persName role="conductor">Herrn W. Grieser</persName>
-                                gewidmet.</dedicatee>
+                                </corpName> und seinem verdienstvollen Dirigenten <persName role="conductor">Herrn W. Grieser</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -105,7 +90,6 @@
                     <extent label="pages" unit="page">4</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -140,9 +124,7 @@
                     </termList>
                 </classification>
                 <relationList>
-                    <relation rel="isEmbodimentOf"
-                         corresp="baudi-02-7e1c02fd"
-                         type="otherPerfRes"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-7e1c02fd" type="otherPerfRes"/>
                 </relationList>
             </manifestation>
         </manifestationList>
@@ -161,49 +143,25 @@
     </meiHead>
     <music>
         <facsimile label="blb-vlid-6146109">
-            
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-b119f8c1-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6206773"
-                     xml:id="baudi-01-b119f8c1-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b119f8c1-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6206774"
-                     xml:id="baudi-01-b119f8c1-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b119f8c1-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6206775"
-                     xml:id="baudi-01-b119f8c1-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b119f8c1-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6206776"
-                     xml:id="baudi-01-b119f8c1-00-0004"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b119f8c1-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid"
-                     target="6206777"
-                     xml:id="baudi-01-b119f8c1-00-0005"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b119f8c1-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid"
-                     target="6206778"
-                     xml:id="baudi-01-b119f8c1-00-0006"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-b119f8c1-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206773" xml:id="baudi-01-b119f8c1-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b119f8c1-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206774" xml:id="baudi-01-b119f8c1-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b119f8c1-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206775" xml:id="baudi-01-b119f8c1-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b119f8c1-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206776" xml:id="baudi-01-b119f8c1-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b119f8c1-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6206777" xml:id="baudi-01-b119f8c1-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b119f8c1-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6206778" xml:id="baudi-01-b119f8c1-00-0006" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-ba6b8457" label="Bergfreiheit"/>
         </body>

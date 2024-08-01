@@ -1,14 +1,13 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7995c03b" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7995c03b" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-7995c03b-titleUniMainDE">Mailied.</titlePart>
-            </title>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7995c03b-titleUniMainDE">Mailied.</titlePart>
+                </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -16,24 +15,22 @@
         <workList>
             <work>
                 <title type="uniform">
-               <titlePart type="main">Mailied.</titlePart>
-               <titlePart type="number" codedval="opus">37</titlePart>
-               <titlePart type="mainSort">Mailied</titlePart>
-               <titlePart type="subordinate"/>
-               <titlePart type="perfmedium"/>
-            </title>
+                    <titlePart type="main">Mailied.</titlePart>
+                    <titlePart type="number" codedval="opus">37</titlePart>
+                    <titlePart type="mainSort">Mailied</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
+                </title>
                 <composer>
-               <persName codedval="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName>
-            </composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
                 <lyricist>
-               <persName>Pflanz</persName>
-            </lyricist>
+                    <persName>Pflanz</persName>
+                </lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="4" unit="4"/>
                 <tempo>In frischem Marschtempo.</tempo>
                 <incip/>
-                
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -52,42 +49,37 @@
                 <identifier type="baudi-copy">CMVS-HK-3</identifier>
                 <titleStmt>
                     <title>
-                  <titlePart type="main" xml:id="baudi-01-7995c03b-titleMain">Mailied.</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-7995c03b-titleSub"/>
-               </title>
+                        <titlePart type="main" xml:id="baudi-01-7995c03b-titleMain">Mailied.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-7995c03b-titleSub"/>
+                    </title>
                     <composer xml:id="baudi-01-7995c03b-composer">
-                  <persName codedval="baudi-04-5e3ed698">
-                     <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                  </persName>
-               </composer>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </persName>
+                    </composer>
                     <lyricist xml:id="baudi-01-7995c03b-lyricist">
-                  <persName codedval="baudi-04-35c9a190">
-                     <persName>Pflanz</persName>
-                  </persName>
-               </lyricist>
-                    
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName>Pflanz</persName>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
                     <edition>
-                  <title>Mailied.</title>
-                  <bibl>
-                     <identifier>H. 30 K.</identifier>
-                     <publisher>
-                        <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
-                     </publisher>
-                     <pubPlace>
-                         <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
-                     </pubPlace>
-                     <date/>
-                     <dedicatee>Dem
-                                <corpName>»<settlement>KRAICHGAU</settlement>-SÄNGERBUND«</corpName>und seinem Präsidenten <persName role="president">Herrn BRITSCH</persName> anläßlich des <date>XVIII. Bundes- und 25.
-                                Stiftungsfestes</date> des <corpName>»Liederkranz <settlement>MÜHLBACH</settlement>«</corpName>gewidmet.</dedicatee>
-                  </bibl>
-               </edition>
-                    
+                        <title>Mailied.</title>
+                        <bibl>
+                            <identifier>H. 30 K.</identifier>
+                            <publisher>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>Dem <corpName>»<settlement>KRAICHGAU</settlement>-SÄNGERBUND«</corpName>und seinem Präsidenten <persName role="president">Herrn BRITSCH</persName> anläßlich des <date>XVIII. Bundes- und 25. Stiftungsfestes</date> des <corpName>»Liederkranz <settlement>MÜHLBACH</settlement>«</corpName>gewidmet.</dedicatee>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -95,7 +87,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -106,8 +97,8 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                  <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
-               </repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation/>
                 <history/>
@@ -135,10 +126,10 @@
             </manifestation>
         </manifestationList>
         <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
             <change n="1" isodate="2020-07-25" resp="dried">
                 <changeDesc>
@@ -149,23 +140,19 @@
     </meiHead>
     <music>
         <facsimile label="6146087">
-            
-                
-                
-                
-        <surface xml:id="baudi-01-7995c03b-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="6206529" xml:id="baudi-01-7995c03b-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-7995c03b-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="6206530" xml:id="baudi-01-7995c03b-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-7995c03b-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="6206531" xml:id="baudi-01-7995c03b-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-7995c03b-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="6206532" xml:id="baudi-01-7995c03b-00-0004" type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-7995c03b-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206529" xml:id="baudi-01-7995c03b-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-7995c03b-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206530" xml:id="baudi-01-7995c03b-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-7995c03b-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206531" xml:id="baudi-01-7995c03b-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-7995c03b-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206532" xml:id="baudi-01-7995c03b-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-89aa9bdd" label="Mailied."/>
         </body>

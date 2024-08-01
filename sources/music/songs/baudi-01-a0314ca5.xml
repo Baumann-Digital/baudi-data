@@ -1,4 +1,5 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a0314ca5" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a0314ca5" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -7,15 +8,11 @@
                <titlePart type="desc" xml:lang="de" xml:id="baudi-01-a0314ca5-titleUniDescDE">für Stimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -23,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="e" mode="major"/>
             <meter count="9" unit="8"/>
             <tempo/>
@@ -58,7 +54,6 @@
                <lyricist xml:id="baudi-01-a0314ca5-lyricist">
                   <persName codedval="baudi-04-00000000">unbekannt</persName>
                </lyricist>
-
             </titleStmt>
             <physDesc>
                <p decls="creation"><!--	<date
@@ -66,7 +61,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Mondnacht am Meer<lb/>
                      <lb/>Ludwig Baumann<lb/>
                      <lb/>unbekannt<lb/>
@@ -90,16 +84,13 @@
                   <date isodate="2018-02-08" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-a0314ca5-physMedium">Maschinell rastriert, 6 Akkoladen zu je zwei Zeilen.
-                  Akkoladenklammern maschinell gesetzt. Blatt auf dem Kopf beschrieben und die Akkoladenklammern (hinter dem
-                  System) teilweise rasiert. Beschrieben mit schwarzer Tinte. Lied-Systeme</physMedium>
+               <physMedium xml:id="baudi-01-a0314ca5-physMedium">Maschinell rastriert, 6 Akkoladen zu je zwei Zeilen. Akkoladenklammern maschinell gesetzt. Blatt auf dem Kopf beschrieben und die Akkoladenklammern (hinter dem System) teilweise rasiert. Beschrieben mit schwarzer Tinte. Lied-Systeme</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1304a</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -158,11 +149,10 @@
    </meiHead>
    <music>
       <facsimile>
-<!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299186-->
+         <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299186-->
       </facsimile>
       <body>
-         <mdiv xml:id="baudi_20_9eeb452b" label="Mondnacht am Meer">
-         </mdiv>
+         <mdiv xml:id="baudi_20_9eeb452b" label="Mondnacht am Meer"> </mdiv>
       </body>
    </music>
 </mei>

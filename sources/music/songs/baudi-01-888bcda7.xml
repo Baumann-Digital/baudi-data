@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-888bcda7"
-     status="proposed">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-888bcda7" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-888bcda7-titleUniMainDE">Trüber Abschied</titlePart>
-               <titlePart type="perf" xml:lang="de" xml:id="baudi-01-888bcda7-titleUniDescDE">für Singstimme und
-                  Klavier</titlePart>
+               <titlePart type="perf" xml:lang="de" xml:id="baudi-01-888bcda7-titleUniDescDE">für Singstimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -69,7 +61,6 @@
 								cert="high"
 								isodate="0000"/> --></p>
                <titlePage>
-
                   <p decls="titlePage">Trüber Abschied.<lb/>
                      <lb/>Ludwig Baumann<lb/>
                      <lb/>unbekannt LB(RISM)<lb/>
@@ -88,29 +79,21 @@
                   <hand label="NE 1r Kennwort" medium="TinteSchwarz">Kennwort: Iris 1</hand>
                </handList>
                <handList>
-                  <hand type="biblNote"
-                        medium="pencil"
-                        xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="biblNote"
-                        medium="pencilBlue"
-                        xml:id="baudi-01-6b488120-hand-0002"/>
-                  <hand type="Kennwort"
-                        medium="inkBlack"
-                        xml:id="baudi-01-6b488120-hand-0003"/>
+                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                  <hand type="biblNote" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0002"/>
+                  <hand type="Kennwort" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0003"/>
                </handList>
                <condition n="1">
                   <date isodate="2018-02-08" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-888bcda7-physMedium">Maschinell rastriert, 14 Zeilen. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-888bcda7-physMedium">Maschinell rastriert, 14 Zeilen. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1295b</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -130,8 +113,7 @@
 						<bibl type="notice"/>--></biblList>
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-08" label="dried">Liedfassung des Orchesterliedes. Orchesterlied liegt in zwei Tonarten
-                  mit Stimmenmaterial vor.</annot>
+               <annot n="1" when="2018-02-08" label="dried">Liedfassung des Orchesterliedes. Orchesterlied liegt in zwei Tonarten mit Stimmenmaterial vor.</annot>
                <annot>Zahlreiche weitere Vermerke. 1v mit roter Tinte weitere Vermerke. Auf 2v Skizze.</annot>
                <annot plist="stamp S-oriented 1r" corresp="#baudi-01-888bcda7-physMedium">L.B./Karlsruhe</annot>
                <annot plist="paperTypeNote -oriented" corresp="#baudi-01-888bcda7-physMedium">B. &amp; S. Nr. 14</annot>

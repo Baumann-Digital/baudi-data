@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-0c61797b"
-     status="proposed">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0c61797b" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de"> Der Heimat Sang, das deutsche Lied op. 67 </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
+         <pubStmt> </pubStmt>
       </fileDesc>
       <workList>
          <work>
-            <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-0c61797b-titleUniformDE">
-               <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-0c61797b-titleUniformMainDE">Der Heimat Sang, das deutsche
-                  Lied</titlePart>
+            <title type="uniform" xml:lang="de" xml:id="baudi-01-0c61797b-titleUniformDE">
+               <titlePart type="main" xml:lang="de" xml:id="baudi-01-0c61797b-titleUniformMainDE">Der Heimat Sang, das deutsche Lied</titlePart>
                <titlePart type="number" label="opus">67</titlePart>
-               <titlePart type="desc"
-                          xml:lang="de"
-                          xml:id="baudi-01-0c61797b-titleUniformDescDE">für Männerchor und Sopran- und
-                  Bariton-Solo mit Orchester- oder Klavierbegleitung</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0c61797b-titleUniformDescDE">für Männerchor und Sopran- und Bariton-Solo mit Orchester- oder Klavierbegleitung</titlePart>
             </title>
             <key pname="f" mode="major"/>
             <meter count="4" unit="4" sym="common"/>
@@ -85,8 +71,7 @@
                <title xml:id="baudi-01-0c61797b-title">
                   <titlePart type="main" xml:id="baudi-01-0c61797b-titleMain">Der Heimat Sang, das deutsche Lied</titlePart>
                   <titlePart type="subordinate" xml:id="baudi-01-0c61797b-titleSub"/>
-                  <titlePart type="desc" xml:id="baudi-01-0c61797b-titleDesc">für Männerchor und Sopran- und Bariton-Solo mit
-                     Orchester- oder Klavierbegleitung</titlePart>
+                  <titlePart type="desc" xml:id="baudi-01-0c61797b-titleDesc">für Männerchor und Sopran- und Bariton-Solo mit Orchester- oder Klavierbegleitung</titlePart>
                </title>
                <composer xml:id="baudi-01-0c61797b-composer">
                   <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -99,9 +84,7 @@
             <physDesc>
                <titlePage>
                   <p decls="titlePage">
-                     <rend halign="center">Der Heimat Sang,<lb/>das deutsche Lied.<lb/>für Männerchor und Sopran- und
-                        Bariton-Solo<lb/>mit Orchester- oder Klavierbegleitung<lb/>komponiert<lb/>von<lb/>Ludwig Baumann.<lb/>Op.
-                        67. </rend>
+                     <rend halign="center">Der Heimat Sang,<lb/>das deutsche Lied.<lb/>für Männerchor und Sopran- und Bariton-Solo<lb/>mit Orchester- oder Klavierbegleitung<lb/>komponiert<lb/>von<lb/>Ludwig Baumann.<lb/>Op. 67. </rend>
                   </p>
                   <table>
                      <tr>
@@ -120,9 +103,7 @@
                      </tr>
                   </table>
                   <p>
-                     <rend halign="center"> Eigentum des Verlegers für alle Länder.<lb/>Aufführungsrecht
-                        vorbehalten.<lb/>LEIPZIG,<lb/>C.F.W. Siegel's Musikalienhandlung<lb/>(R.
-                        Linnemann.)<lb/>14828.<lb/>Lith.Anst.v.C.G.Röder G.m.b.H.Leipzig </rend>
+                     <rend halign="center"> Eigentum des Verlegers für alle Länder.<lb/>Aufführungsrecht vorbehalten.<lb/>LEIPZIG,<lb/>C.F.W. Siegel's Musikalienhandlung<lb/>(R. Linnemann.)<lb/>14828.<lb/>Lith.Anst.v.C.G.Röder G.m.b.H.Leipzig </rend>
                   </p>
                </titlePage>
                <dimensions label="height" unit="mm">345</dimensions>
@@ -139,20 +120,16 @@
                   <hand label="N 2v BiblVermerk" medium="Bleistift">Bad Mus. Dr. B184</hand>
                </handList>
                <handList>
-                  <hand type="biblNote"
-                        medium="pencil"
-                        xml:id="baudi-01-6b488120-hand-0001"/>
+                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                </handList>
                <addDesc>
-                  <p type="copyright">Copyright <date type="copyright">1908</date> by <corpName>C.F.W. Siegel's
-                        Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>
+                  <p type="copyright">Copyright <date type="copyright">1908</date> by <corpName>C.F.W. Siegel's Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>
                </addDesc>
                <condition n="1">
                   <date isodate="2019-08-21" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-0c61797b-physMedium">6 gefaltete ineinander gelegte Lagen: Umschlag mit Titel, Vorsatz
-                  (Schmutztitel ohne Aufdruck), 4 Lagen mit Notentext</physMedium>
+               <physMedium xml:id="baudi-01-0c61797b-physMedium">6 gefaltete ineinander gelegte Lagen: Umschlag mit Titel, Vorsatz (Schmutztitel ohne Aufdruck), 4 Lagen mit Notentext</physMedium>
                <sealDesc>
                   <stamp>
                      <locus n="2v">
@@ -224,7 +201,6 @@
          </manifestation>
       </manifestationList>
       <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"> </extMeta>
-
    </meiHead>
    <music>
       <facsimile/>

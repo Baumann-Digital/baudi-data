@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-7ad90e7f"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7ad90e7f" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7ad90e7f-titleUniMainDE">Leb‘ wohl, geliebtes
-                        Vaterhaus</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7ad90e7f-titleUniMainDE">Leb‘ wohl, geliebtes Vaterhaus</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -37,7 +30,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Frisch.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choirMen">
                         <perfRes codedval="tenor"/>
@@ -54,24 +46,20 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-49</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Leb‘ wohl, geliebtes Vaterhaus</titlePart>
-                    <titlePart type="mainSort">Leb‘ wohl, geliebtes Vaterhaus</titlePart>
-                    <titlePart type="subordinate">Wanderlied</titlePart>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>unbekannt</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Leb‘ wohl, geliebtes Vaterhaus</titlePart>
+                        <titlePart type="mainSort">Leb‘ wohl, geliebtes Vaterhaus</titlePart>
+                        <titlePart type="subordinate">Wanderlied</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>unbekannt</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Leb‘ wohl, geliebtes Vaterhaus</title>
@@ -81,14 +69,13 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee>Dem <corpName>Quartett-Verein »Zwanglos« <settlement>Dillingen-Saar</settlement>
-                        </corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor">Herrn Gymnasiallehrer Thobe</persName>, gewidmet.</dedicatee>
+                                </corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor">Herrn Gymnasiallehrer Thobe</persName>, gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -101,7 +88,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>

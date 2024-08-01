@@ -1,22 +1,18 @@
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-f7e5736d" status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-f7e5736d" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
             <title type="uniform" xml:lang="de">
                <titlePart type="main" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniMainDE">Maimorgen</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniDescDE">für eine Singstimme und
-                  Klavier</titlePart>
+               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniDescDE">für eine Singstimme und Klavier</titlePart>
             </title>
          </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
+         <pubStmt> </pubStmt>
          <sourceDesc>
             <source/>
          </sourceDesc>
       </fileDesc>
-
       <workList>
          <work>
             <title type="uniform" xml:lang="de">
@@ -24,7 +20,6 @@
                <titlePart type="subordinate" xml:lang="de"/>
                <titlePart type="desc" xml:lang="de"/>
             </title>
-
             <key pname="a" mode="major"/>
             <meter count="4" unit="4"/>
             <tempo/>
@@ -47,7 +42,6 @@
                   <titlePart type="main" xml:id="baudi-01-f7e5736d-titleMain">Maimorgen</titlePart>
                   <titlePart type="subordinate" xml:id="baudi-01-f7e5736d-titleSub"/>
                </title>
-
                <composer xml:id="baudi-01-f7e5736d-composer">
                   <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                </composer>
@@ -93,15 +87,13 @@
                   <date isodate="2018-01-11" type="desc" resp="dried"/>
                   <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                </condition>
-               <physMedium xml:id="baudi-01-f7e5736d-physMedium">Maschinell rastriert. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
+               <physMedium xml:id="baudi-01-f7e5736d-physMedium">Maschinell rastriert. Beschrieben mit schwarzer Tinte.</physMedium>
             </physDesc>
             <physLoc>
                <repository>
                   <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
                   <identifier type="shelfmark">Mus. Hs. 1394,12</identifier>
                </repository>
-
             </physLoc>
             <history><!-- <eventList/> --></history>
             <langUsage>
@@ -123,8 +115,7 @@
             <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                <annot n="1" when="2018-01-11" label="dried"/>
-               <annot plist="paperTypeNote C-oriented" corresp="#baudi-01-f7e5736d-physMedium">(?) 112 für Gesang und Klavier
-                  Systeme</annot>
+               <annot plist="paperTypeNote C-oriented" corresp="#baudi-01-f7e5736d-physMedium">(?) 112 für Gesang und Klavier Systeme</annot>
             </notesStmt>
             <classification>
                <termList>

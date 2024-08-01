@@ -1,20 +1,13 @@
-
- <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="5.0"
-     xml:id="baudi-01-7acf9f3a"
-     status="proposed">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7acf9f3a" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7acf9f3a-titleUniMainDE">Grüß dich, Deutschland, aus
-                        Herzensgrund</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7acf9f3a-titleUniMainDE">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
                 </title>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
@@ -22,10 +15,8 @@
         <workList>
             <work>
                 <title type="uniform">
-                    <titlePart type="main">Grüß dich, Deutschland, aus
-                        Herzensgrund</titlePart>
-                    <titlePart type="mainSort">Grüß dich, Deutschland, aus
-                        Herzensgrund</titlePart>
+                    <titlePart type="main">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
+                    <titlePart type="mainSort">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
                     <titlePart type="subordinate"/>
                     <titlePart type="perfmedium"/>
                 </title>
@@ -39,7 +30,6 @@
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Ruhig.</tempo>
                 <incip/>
-
                 <perfMedium>
                     <perfResList codedval="choir">
                         <perfRes codedval="tenor"/>
@@ -56,26 +46,20 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-58</identifier>
-            <titleStmt>
-               <title type="uniform">
-                    <titlePart type="main">Grüß dich, Deutschland, aus
-                        Herzensgrund</titlePart>
-                    <titlePart type="mainSort">Grüß dich, Deutschland, aus
-                        Herzensgrund</titlePart>
-                    <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/>
-                </title>
-               <composer>
-                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist>
-                    <persName>Joseph von Eichendorff</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
+                        <titlePart type="mainSort">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>Joseph von Eichendorff</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Grüß dich, Deutschland, aus Herzensgrund</title>
@@ -85,14 +69,13 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1926</date>
                             <dedicatee>Dem <corpName>»Arion« <settlement>Brooklyn N.-Y.</settlement>
-                        </corpName> und seinem Dirigenten <persName role="conductor">Herrn Heinz Fröhlich</persName> gewidmet.</dedicatee>
+                                </corpName> und seinem Dirigenten <persName role="conductor">Herrn Heinz Fröhlich</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -105,7 +88,6 @@
                     <extent label="pages" unit="page">1</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -160,8 +142,7 @@
     <music>
         <facsimile/>
         <body>
-            <mdiv xml:id="baudi-20-556d06dd"
-               label="Grüß dich, Deutschland, aus Herzensgrund"/>
+            <mdiv xml:id="baudi-20-556d06dd" label="Grüß dich, Deutschland, aus Herzensgrund"/>
         </body>
     </music>
 </mei>
