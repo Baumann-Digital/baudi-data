@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-4cca7e0f" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-4cca7e0f" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -18,7 +18,7 @@
                 <arranger><persName codedval="baudi-04-5e3ed698">Ludwig
                     Baumann</persName></arranger>
                 <lyricist><persName>Volksweise</persName></lyricist>
-                <key pname="a" accid="" mode="major"/>
+                <key pname="a"  mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Getragen, aber nicht schleppend.</tempo>
                 <incip/>
@@ -49,7 +49,7 @@
                     
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Mei Mutter mag mi net.</title><bibl><identifier>H.51 K.</identifier><publisher><corpName key="baudi-05-b8018784">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee><persName>Herrn
+                    <edition><title>Mei Mutter mag mi net.</title><bibl><identifier>H.51 K.</identifier><publisher><corpName codedval="baudi-05-b8018784">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee><persName>Herrn
                                 Musikdirektor Fassel</persName> gewidmet.</dedicatee></bibl></edition>
                     
                 </editionStmt>

@@ -1,4 +1,7 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-bdbeb9ff">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-bdbeb9ff" status="approved">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -6,7 +9,7 @@
             </titleStmt>
             <pubStmt/>
             <sourceDesc>
-                <source>https://digital.blb-karlsruhe.de/i3f/v20/3240913/manifest</source>
+                <source><bibl>https://digital.blb-karlsruhe.de/i3f/v20/3240913/manifest</bibl></source>
             </sourceDesc>
         </fileDesc>
         <workList>
@@ -14,7 +17,7 @@
                 <title/>
             </work>
         </workList>
-        <manifestationList>
+        <!--<manifestationList>
             <manifestation singleton="true">
                 <meta>Ob ich schon wanderte im finstern Tal - Mus. Hs. 1294 : V (2), vl, arp, org; D|b / Ludwig Baumann</meta>
                 <meta>Baumann, Ludwig</meta>
@@ -29,7 +32,7 @@
                 <meta>Karlsruhe : Badische Landesbibliothek, 2016</meta>
                 <meta>urn:nbn:de:bsz:31-57382</meta>
             </manifestation>
-        </manifestationList>
+        </manifestationList>-->
         <revisionDesc>
             <change n="1" isodate="2022-12-29Z" label="dried">
                 <changeDesc>

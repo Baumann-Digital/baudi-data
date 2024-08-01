@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
+     meiversion="5.0"
      xml:id="baudi-01-0c61797b"
-     status="created">
+     status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -35,13 +35,13 @@
             <perfMedium>
                <perfResList>
                   <perfRes solo="true" xml:id="baudi-01-0c61797b-perfRes-0001" codedval="soprano">
-                     <range corresp="baudi-01-0c61797b-perfRes-0001">
+                     <range>
                         <rangeNote pname="d" oct="4" type="lowest"/>
                         <rangeNote pname="g" oct="5" type="highest"/>
                      </range>
                   </perfRes>
                   <perfRes solo="true" xml:id="baudi-01-0c61797b-perfRes-0002" codedval="baritone">
-                     <range corresp="baudi-01-0c61797b-perfRes-0002">
+                     <range>
                         <rangeNote pname="d" oct="3" type="lowest"/>
                         <rangeNote pname="e" oct="4" type="highest"/>
                         <rangeNote pname="g" oct="4" type="highestAlt"/>
@@ -49,25 +49,25 @@
                   </perfRes>
                   <perfResList codedval="choirMen">
                      <perfRes xml:id="baudi-01-0c61797b-perfRes-0003" codedval="tenor.i">
-                        <range corresp="baudi-01-0c61797b-perfRes-0003">
+                        <range>
                            <rangeNote pname="e" oct="4" type="lowest"/>
                            <rangeNote pname="b" oct="5" type="highest"/>
                         </range>
                      </perfRes>
                      <perfRes xml:id="baudi-01-0c61797b-perfRes-0004" codedval="tenor.ii">
-                        <range corresp="baudi-01-0c61797b-perfRes-0004">
+                        <range>
                            <rangeNote pname="f" oct="4" type="lowest"/>
                            <rangeNote pname="f" accid="s" oct="5" type="highest"/>
                         </range>
                      </perfRes>
                      <perfRes xml:id="baudi-01-0c61797b-perfRes-0005" codedval="bass.i">
-                        <range corresp="baudi-01-0c61797b-perfRes-0005">
+                        <range>
                            <rangeNote pname="e" oct="3" type="lowest"/>
                            <rangeNote pname="f" oct="4" type="highest"/>
                         </range>
                      </perfRes>
                      <perfRes xml:id="baudi-01-0c61797b-perfRes-0006" codedval="bass.ii">
-                        <range corresp="baudi-01-0c61797b-perfRes-0006">
+                        <range>
                            <rangeNote pname="f" oct="2" type="lowest"/>
                            <rangeNote pname="f" oct="4" type="highest"/>
                         </range>
@@ -231,7 +231,7 @@
       <body>
          <mdiv>
             <score>
-               <scoreDef>
+               <!--<scoreDef>
                   <ambitus corresp="baudi-01-0c61797b-perfRes-0001">
                      <ambNote pname="d" oct="4" type="lowest"/>
                      <ambNote pname="g" oct="5" type="highest"/>
@@ -257,7 +257,7 @@
                      <ambNote pname="f" oct="2" type="lowest"/>
                      <ambNote pname="f" oct="4" type="highest"/>
                   </ambitus>
-               </scoreDef>
+               </scoreDef>-->
                <section/>
                <div>
                   <lg>

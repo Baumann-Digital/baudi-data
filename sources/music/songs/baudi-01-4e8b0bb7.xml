@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-4e8b0bb7" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-4e8b0bb7" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,7 +31,7 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="baudi-09-97264ddc">Hohe Stimme<range corresp="baudi-01-a563a93e-perfRes-0001">
+                  <perfRes codedval="baudi-09-97264ddc">Hohe Stimme<range>
                         <rangeNote type="lowest" pname="f" oct="4"/>
                         <rangeNote type="highest" pname="g" oct="5"/>
                      </range>

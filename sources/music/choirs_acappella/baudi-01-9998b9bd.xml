@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-9998b9bd" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-9998b9bd" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -63,9 +63,9 @@
                             <persName>Herman Dold</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-9998b9bd-respStmtDed">Zur Uraufführung beim X. Bodensee–Hegau–Sängerfest Pfingsten
+                    <contributor xml:id="baudi-01-9998b9bd-contributorDed">Zur Uraufführung beim X. Bodensee–Hegau–Sängerfest Pfingsten
                         1925 dem Männergesangverein Singen–Hohentwiel anläßlich seines 65 jährigen Stiftungsfestes gewidmet vom
-                        Komponisten.</respStmt>
+                        Komponisten.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -84,9 +84,9 @@
                                 Komponisten.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck von C.G.Röder G. m. b. H., Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

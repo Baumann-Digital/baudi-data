@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-be10d4f8" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-be10d4f8" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -63,7 +63,7 @@
                             <persName>Otto Hausmann</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-be10d4f8-respStmtDed"/>
+                    <contributor xml:id="baudi-01-be10d4f8-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -80,9 +80,9 @@
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich &amp; Druck von Engelmann &amp; Mühlberg, Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

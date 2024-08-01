@@ -1,6 +1,6 @@
-<?xml-model href="../../resources/schema/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0"
-   xml:id="baudi-01-953a2a38" status="created">
+
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0"
+   xml:id="baudi-01-953a2a38" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -55,7 +55,7 @@
       <workList>
          <work>
             <title analog="#baudi-01-953a2a38-title"/>
-            <key pname="D" accid="" mode=""/>
+            <key pname="d" mode="major"/>
             <meter count="4" unit="4" sym="cut"/>
             <tempo/>
             <incip/>
@@ -86,7 +86,7 @@
                <lyricist xml:id="baudi-01-953a2a38-lyricist">
                   <persName codedval="baudi-04-">Graebener, Richard</persName>
                </lyricist>
-               <respStmt xml:id="baudi-01-953a2a38-respStmtDed"/>
+               <contributor xml:id="baudi-01-953a2a38-contributorDed"/>
             </titleStmt>
             <physDesc>
                <p decls="creation"
@@ -121,7 +121,7 @@
                </repository>
             </physLoc>
             <history><!-- <eventList/> --></history>
-            <langUsage><!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet --></langUsage>
+            
             <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
     							<list
     								label="quires">

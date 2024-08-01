@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-    xml:id="baudi-01-013fb193" status="created">
+
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0"
+    xml:id="baudi-01-013fb193" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -68,8 +68,8 @@
                             <persName>A. F. Meyer</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-013fb193-respStmtDed">Dem Männergesangverein »Frohsinn« Karlsruhe-Mühlburg und
-                        seinem verdienstvollen Dirigenten Herrn Direktor Munz gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-013fb193-contributorDed">Dem Männergesangverein »Frohsinn« Karlsruhe-Mühlburg und
+                        seinem verdienstvollen Dirigenten Herrn Direktor Munz gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -87,9 +87,9 @@
                                 Herrn Direktor Munz gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich &amp; Druck von Engelmann &amp; Mühlberg in Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

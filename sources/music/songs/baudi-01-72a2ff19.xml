@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-72a2ff19" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-72a2ff19" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -162,11 +162,7 @@
          <mdiv xml:id="baudi_20_6f0687f6" label="Rosenduft">
             <score>
                <scoreDef>
-                  <ambitus>
-                     <ambNote pname="e" oct="4" type="lowest"/>
-                     <ambNote pname="g" oct="5" type="highest"/>
-                     <ambNote pname="f" oct="5" type="highestAlt"/>
-                  </ambitus>
+                  
                </scoreDef>
                <section/>
             </score>

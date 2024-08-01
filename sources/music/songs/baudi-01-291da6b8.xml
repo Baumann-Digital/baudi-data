@@ -1,4 +1,4 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-291da6b8" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-291da6b8" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -31,13 +31,13 @@
             <incip/>
             <perfMedium>
                <perfResList>
-                  <perfRes codedval="baudi-09-82e86ea7">Stimme<range>
+                  <perfRes codedval="voice"><range>
                         <rangeNote pname="f" oct="4" type="lowest"/>
                         <rangeNote pname="f" accid="s" oct="5" type="highest"/>
                         <rangeNote pname="g" oct="5" type="highestAlt"/>
                      </range>
                   </perfRes>
-                  <perfRes codedval="baudi-09-32aa6522">Klavier</perfRes>
+                  <perfRes codedval="piano">Klavier</perfRes>
                </perfResList>
             </perfMedium>
             <contents/>
@@ -155,11 +155,6 @@
          <mdiv xml:id="baudi_20_1fb717f6" label="Mein Vaterland">
             <score>
                <scoreDef>
-                  <ambitus>
-                     <ambNote pname="f" oct="4" type="lowest"/>
-                     <ambNote pname="f" accid="s" oct="5" type="highest"/>
-                     <ambNote pname="g" oct="5" type="highestAlt"/>
-                  </ambitus>
                </scoreDef>
                <section/>
             </score>

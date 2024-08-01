@@ -1,4 +1,4 @@
-<?xml-model href="../../../resources/schema/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-53926cd6" status="created">
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-53926cd6" status="proposed">
    <meiHead>
       <fileDesc>
          <titleStmt>
@@ -74,7 +74,7 @@
                <watermark label="watermark">none</watermark>
                <stamp>
                   <locus>
-                     <symbol xml:id="baudi-01-53926cd6-stamp" glyph.uri="BLB-Rund"/>
+                     <symbol xml:id="baudi-01-53926cd6-stamp" class="BLB-Rund"/>
                   </locus>
                </stamp>
                <handList>
@@ -108,7 +108,7 @@
                <annot plist="1r NW" corresp="#baudi-01-53926cd6-hand1">Musik Hs. 1339</annot>
                <annot plist="1r S" corresp="#baudi-01-53926cd6-stamp">L.B.<lb/>/Karlsruhe</annot>
                <annot plist="1r S" corresp="#baudi-01-53926cd6-hand1">Z</annot>
-               <annot plist="1r SW" corresp="#baudi-01-53926cd6-respStmtDed">dem »Männerckor Säckingen.«</annot>
+               <annot plist="1r SW" corresp="#baudi-01-53926cd6-contributorDed">dem »Männerckor Säckingen.«</annot>
             </notesStmt>
             <classification>
                <termList>
@@ -118,7 +118,7 @@
                   <term type="ms"/>
                </termList>
             </classification>
-            <componentList>
+            <!--<componentList>
                <head>Skizze</head>
                <work>
                   <title type="uniform" xml:lang="de">
@@ -137,7 +137,7 @@
                      </perfResList>
                   </perfMedium>
                </work>
-            </componentList>
+            </componentList>-->
             <relationList>
                <relation rel="isEmbodimentOf" corresp="baudi-02-da06c40d"/>
             </relationList>
@@ -183,11 +183,11 @@
                            <staffGrp xml:id="staffgrp-369541485" symbol="brace" bar.thru="true">
                               <!--                                        <label xml:id="label-409894773"/>-->
                               <!--                                        <labelAbbr xml:id="labelAbbr-1911324672"/>-->
-                              <staffDef xml:id="staffdef-1027404459" n="1" lines="5" ppq="256" clef.shape="G" clef.line="2" meter.count="4" meter.unit="4">
-                                 <keySig xml:id="keysig-327003460" mode="major" sig="1f"/>
+                              <staffDef xml:id="staffdef-1027404459" n="1" lines="5" clef.shape="G" clef.line="2" meter.count="4" meter.unit="4">
+                                 <keySig xml:id="keysig-327003460" sig="1f"/>
                               </staffDef>
-                              <staffDef xml:id="staffdef-1195135916" n="2" lines="5" ppq="256" clef.shape="F" clef.line="4" meter.count="4" meter.unit="4">
-                                 <keySig xml:id="keysig-650472712" mode="major" sig="1f"/>
+                              <staffDef xml:id="staffdef-1195135916" n="2" lines="5" clef.shape="F" clef.line="4" meter.count="4" meter.unit="4">
+                                 <keySig xml:id="keysig-650472712" sig="1f"/>
                               </staffDef>
                            </staffGrp>
                         </staffGrp>

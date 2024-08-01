@@ -1,4 +1,7 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-604d6b0b">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-604d6b0b" status="approved">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -14,11 +17,11 @@
                 <title/>
             </work>
         </workList>
-        <manifestationList>
+        <!--<manifestationList>
             <manifestation>
                 <meta>Jesus meine Zuversicht (Stimmen)</meta>
             </manifestation>
-        </manifestationList>
+        </manifestationList>-->
         <revisionDesc>
             <change n="1" isodate="2022-12-29Z" label="dried">
                 <changeDesc>

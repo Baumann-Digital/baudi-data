@@ -1,4 +1,4 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-a5ce7f93" status="created">
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-a5ce7f93" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -64,8 +64,8 @@
                             <persName>Dräseler Manfred</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-a5ce7f93-respStmtDed">Dem Neckartal-Sängerbund und seinem Präsidenten, Herrn Julius
-                        Malsch in Eberbach, gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-a5ce7f93-contributorDed">Dem Neckartal-Sängerbund und seinem Präsidenten, Herrn Julius
+                        Malsch in Eberbach, gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -83,9 +83,9 @@
                                 gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Notendruckerei Paris &amp; Co., Verlin N. 58</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     

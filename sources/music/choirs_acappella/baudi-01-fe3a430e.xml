@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+
+ <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
+     meiversion="5.0"
      xml:id="baudi-01-fe3a430e"
-     status="created">
+     status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -32,7 +32,7 @@
                 <lyricist>
                     <persName>unbekannt</persName>
                 </lyricist>
-                <key pname="es" mode="major"/>
+                <key pname="e" accid="f" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Getragen, mit zartem Ausdruck.</tempo>
                 <incip/>
@@ -80,7 +80,7 @@
                                 <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement key="baudi-06-5541661c" codedval="baudi-06-a1ca746a">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c" >Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
