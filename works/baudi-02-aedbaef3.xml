@@ -1,5 +1,6 @@
-<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all_anyStart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-aedbaef3" status="approved">
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-aedbaef3" status="approved">
     <title type="uniform" xml:lang="de">
         <titlePart type="main">Den Gefallenen zum Gedächtnis, den Trauernden zum Trost</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Gefallenen zum Gedächtnis, den Trauernden zum Trost</titlePart>
@@ -26,146 +27,146 @@
         <perfResList>
             <perfResList type="choose">
                 <perfRes solo="true" codedval="soprano">
-                    <ambitus>
-                        <ambNote pname="e" accid="f" oct="4" type="lowest"/>
-                        <ambNote pname="a" oct="5" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="e" accid="f" oct="4" type="lowest"/>
+                        <rangeNote pname="a" oct="5" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes solo="true" codedval="tenor">
-                    <ambitus>
-                        <ambNote pname="e" accid="f" oct="3" type="lowest"/>
-                        <ambNote pname="a" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="e" accid="f" oct="3" type="lowest"/>
+                        <rangeNote pname="a" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
             </perfResList>
             <perfResList codedval="choirMale">
                 <perfRes codedval="tenor.i">
-                    <ambitus>
-                        <ambNote pname="b" oct="2" type="lowest"/>
-                        <ambNote pname="a" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="b" oct="2" type="lowest"/>
+                        <rangeNote pname="a" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="tenor.ii">
-                    <ambitus>
-                        <ambNote pname="b" oct="2" type="lowest"/>
-                        <ambNote pname="a" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="b" oct="2" type="lowest"/>
+                        <rangeNote pname="a" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="bass.i">
-                    <ambitus>
-                        <ambNote pname="g" accid="s" oct="2" type="lowest"/>
-                        <ambNote pname="d" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="g" accid="s" oct="2" type="lowest"/>
+                        <rangeNote pname="d" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="bass.ii">
-                    <ambitus>
-                        <ambNote pname="e" oct="2" type="lowest"/>
-                        <ambNote pname="d" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="e" oct="2" type="lowest"/>
+                        <rangeNote pname="d" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
             </perfResList>
             <perfResList type="choose">
                 <perfResList codedval="choirChildren">
                     <perfRes codedval="soprano.i">
-                        <ambitus>
-                            <ambNote pname="a" accid="f" oct="4" type="lowest"/>
-                            <ambNote pname="g" accid="f" oct="5" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="a" accid="f" oct="4" type="lowest"/>
+                            <rangeNote pname="g" accid="f" oct="5" type="highest"/>
+                        </range>
                     </perfRes>
                     <perfRes codedval="soprano.ii">
-                        <ambitus>
-                            <ambNote pname="f" oct="4" type="lowest"/>
-                            <ambNote pname="f" accid="f" oct="5" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="f" oct="4" type="lowest"/>
+                            <rangeNote pname="f" accid="f" oct="5" type="highest"/>
+                        </range>
                     </perfRes>
                     <perfRes codedval="alto.i">
-                        <ambitus>
-                            <ambNote pname="d" accid="f" oct="4" type="lowest"/>
-                            <ambNote pname="c" oct="5" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="d" accid="f" oct="4" type="lowest"/>
+                            <rangeNote pname="c" oct="5" type="highest"/>
+                        </range>
                     </perfRes>
                     <perfRes codedval="alto.ii">
-                        <ambitus>
-                            <ambNote pname="a" accid="f" oct="3" type="lowest"/>
-                            <ambNote pname="a" oct="4" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="a" accid="f" oct="3" type="lowest"/>
+                            <rangeNote pname="a" oct="4" type="highest"/>
+                        </range>
                     </perfRes>
                 </perfResList>
                 <perfResList codedval="choirFemale">
                     <perfRes codedval="soprano.i">
-                        <ambitus>
-                            <ambNote pname="a" accid="f" oct="4" type="lowest"/>
-                            <ambNote pname="g" accid="f" oct="5" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="a" accid="f" oct="4" type="lowest"/>
+                            <rangeNote pname="g" accid="f" oct="5" type="highest"/>
+                        </range>
                     </perfRes>
                     <perfRes codedval="soprano.ii">
-                        <ambitus>
-                            <ambNote pname="f" oct="4" type="lowest"/>
-                            <ambNote pname="f" accid="f" oct="5" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="f" oct="4" type="lowest"/>
+                            <rangeNote pname="f" accid="f" oct="5" type="highest"/>
+                        </range>
                     </perfRes>
                     <perfRes codedval="alto.i">
-                        <ambitus>
-                            <ambNote pname="d" accid="f" oct="4" type="lowest"/>
-                            <ambNote pname="c" oct="5" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="d" accid="f" oct="4" type="lowest"/>
+                            <rangeNote pname="c" oct="5" type="highest"/>
+                        </range>
                     </perfRes>
                     <perfRes codedval="alto.ii">
-                        <ambitus>
-                            <ambNote pname="a" accid="f" oct="3" type="lowest"/>
-                            <ambNote pname="a" oct="4" type="highest"/>
-                        </ambitus>
+                        <range>
+                            <rangeNote pname="a" accid="f" oct="3" type="lowest"/>
+                            <rangeNote pname="a" oct="4" type="highest"/>
+                        </range>
                     </perfRes>
                 </perfResList>
             </perfResList>
             <perfRes codedval="choirMixed">
                 <perfRes codedval="soprano.i">
-                    <ambitus>
-                        <ambNote pname="c" oct="4" type="lowest"/>
-                        <ambNote pname="e" oct="5" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="4" type="lowest"/>
+                        <rangeNote pname="e" oct="5" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="soprano.ii">
-                    <ambitus>
-                        <ambNote pname="c" oct="4" type="lowest"/>
-                        <ambNote pname="c" oct="5" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="4" type="lowest"/>
+                        <rangeNote pname="c" oct="5" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="alto.i">
-                    <ambitus>
-                        <ambNote pname="c" oct="4" type="lowest"/>
-                        <ambNote pname="c" oct="5" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="4" type="lowest"/>
+                        <rangeNote pname="c" oct="5" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="alto.ii">
-                    <ambitus>
-                        <ambNote pname="c" accid="f" oct="3" type="lowest"/>
-                        <ambNote pname="c" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" accid="f" oct="3" type="lowest"/>
+                        <rangeNote pname="c" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="tenor.i">
-                    <ambitus>
-                        <ambNote pname="c" oct="3" type="lowest"/>
-                        <ambNote pname="e" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="3" type="lowest"/>
+                        <rangeNote pname="e" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="tenor.ii">
-                    <ambitus>
-                        <ambNote pname="c" oct="3" type="lowest"/>
-                        <ambNote pname="c" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="3" type="lowest"/>
+                        <rangeNote pname="c" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="bass.i">
-                    <ambitus>
-                        <ambNote pname="c" oct="3" type="lowest"/>
-                        <ambNote pname="c" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="3" type="lowest"/>
+                        <rangeNote pname="c" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
                 <perfRes codedval="bass.ii">
-                    <ambitus>
-                        <ambNote pname="c" oct="3" type="lowest"/>
-                        <ambNote pname="c" oct="4" type="highest"/>
-                    </ambitus>
+                    <range>
+                        <rangeNote pname="c" oct="3" type="lowest"/>
+                        <rangeNote pname="c" oct="4" type="highest"/>
+                    </range>
                 </perfRes>
             </perfRes>
             <perfResList codedval="orchestra">
@@ -188,15 +189,15 @@
                 <perfRes codedval="trombone.iii"/>
                 <perfRes codedval="tuba"/>
                 <perfRes codedval="timpani"/>
-                <perfRes adLib="true" codedval="harp"/>
-                <perfRes adLib="true" codedval="bells"/>
+                <perfRes codedval="harp" adlib="true"/>
+                <perfRes codedval="bells" adlib="true"/>
                 <perfRes codedval="violin.i"/>
                 <perfRes codedval="violin.ii"/>
                 <perfRes codedval="viola"/>
                 <perfRes codedval="violoncello"/>
                 <perfRes codedval="doubleBass"/>
             </perfResList>
-            <perfRes adLib="true" codedval="organ">Orgel</perfRes>
+            <perfRes codedval="organ" adlib="true">Orgel</perfRes>
         </perfResList>
     </perfMedium>
     <audience>Uraufführung beim Gau-Sängerfest in Karlsruhe (Festhalle) ???</audience>

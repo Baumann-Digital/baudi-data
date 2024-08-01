@@ -1,4 +1,4 @@
-   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-52fdc8e4" status="created">
+   <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-52fdc8e4" status="proposed">
       <title type="uniform" xml:id="baudi-02-52fdc8e4-title">
          <titlePart type="main" xml:id="baudi-02-52fdc8e4-titleMain">
             Trüber Abschied
@@ -2156,10 +2156,10 @@
       <perfMedium>
          <perfResList>
             <perfRes codedval="voice">
-               <ambitus>
-                  <ambNote pname="e" oct="4" type="lowest"/>
-                  <ambNote pname="f" accid="s" oct="5" type="highest"/>
-               </ambitus>
+               <range>
+                  <rangeNote pname="e" oct="4" type="lowest"/>
+                  <rangeNote pname="f" accid="s" oct="5" type="highest"/>
+               </range>
             </perfRes>
             <perfRes codedval="piano"/>
          </perfResList>
