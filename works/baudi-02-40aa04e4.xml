@@ -9,15 +9,14 @@
       <meter count="4" unit="4" sym="common"/>
       <tempo>Stürmisch bewegt.</tempo>
       <incip>
-        <mdiv xml:id="mdiv-0000000199899311">
             <score xml:id="score-0000000003219957">
                <scoreDef xml:id="scoredef-0000000408019085">
                   <staffGrp xml:id="staffgrp-0000000074284632">
-                     <staffDef xml:id="P1" n="1" lines="5" ppq="256">
+                     <staffDef xml:id="P1" n="1" lines="5">
                         <label xml:id="label-0000001538056324">Stimme</label>
                         <labelAbbr xml:id="labelAbbr-0000000358145334">Stimme</labelAbbr>
                         <clef xml:id="clef-0000000178713583" shape="G" color="#000000" line="2" />
-                        <keySig xml:id="keysig-0000000780215481" mode="minor" sig="3f" />
+                        <keySig xml:id="keysig-0000000780215481" sig="3f" />
                         <meterSig xml:id="msig-0000001505967456" count="4" sym="common" unit="4" />
                      </staffDef>
                      <staffGrp xml:id="staffgrp-0000000500339735">
@@ -25,14 +24,14 @@
                         <staffGrp xml:id="P2" bar.thru="true">
                            <label xml:id="label-0000000619946087">Klavier</label>
                            <labelAbbr xml:id="labelAbbr-0000000907173681">Klav.</labelAbbr>
-                           <staffDef xml:id="staffdef-0000001615282379" n="2" lines="5" ppq="256">
+                           <staffDef xml:id="staffdef-0000001615282379" n="2" lines="5">
                               <clef xml:id="clef-0000000175372619" shape="G" color="#000000" line="2" />
-                              <keySig xml:id="keysig-0000002058047291" mode="minor" sig="3f" />
+                              <keySig xml:id="keysig-0000002058047291" sig="3f" />
                               <meterSig xml:id="msig-0000000836685145" count="4" sym="common" unit="4" />
                            </staffDef>
-                           <staffDef xml:id="staffdef-0000000777996933" n="3" lines="5" ppq="256">
+                           <staffDef xml:id="staffdef-0000000777996933" n="3" lines="5">
                               <clef xml:id="clef-0000000670285165" shape="F" color="#000000" line="4" />
-                              <keySig xml:id="keysig-0000001066981413" mode="minor" sig="3f" />
+                              <keySig xml:id="keysig-0000001066981413" sig="3f" />
                               <meterSig xml:id="msig-0000001915621789" count="4" sym="common" unit="4" />
                            </staffDef>
                         </staffGrp>
@@ -775,7 +774,6 @@
                   </measure>
                </section>
             </score>
-         </mdiv>
       </incip>
       <creation/>
       <history/>
