@@ -15,7 +15,7 @@ declare option saxon:output "saxon:line-length=10000";
 let $collPlaces := collection('../loci?select=*.xml;recurse=yes')/tei:place
 let $dbPlaceNames := $collPlaces/tei:placeName[1]
 
-let $collToAddKeys := collection('../works?select=*xml;recurse=yes')/mei:*
+let $collToAddKeys := collection('../sources/music?select=*xml;recurse=yes')/mei:*
 
 for $document at $n in $collToAddKeys
 
