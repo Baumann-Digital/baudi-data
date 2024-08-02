@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-ac0e0281">
     <identifier type="baudi-copy">CMVS-HH-40</identifier>
     <title type="uniform" xml:id="baudi-02-ac0e0281-title">
         <titlePart type="main" xml:id="baudi-02-ac0e0281-titleMain">Joseph, lieber Joseph mein</titlePart>
-        <titlePart type="mainSort" xml:id="baudi-02-ac0e0281-titleMainSort">Joseph lieber Joseph mein</titlePart></title>
+        <titlePart type="mainSort" xml:id="baudi-02-ac0e0281-titleMainSort">Joseph lieber Joseph mein</titlePart>
+    </title>
     <composer xml:id="baudi-02-ac0e0281-composer">Aus dem 14. Jhd.</composer>
-    <arranger xml:id="baudi-02-ac0e0281-arranger"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
-    <lyricist xml:id="baudi-02-ac0e0281-lyricist"><persName>Aus dem 14. Jhd.</persName></lyricist>
+    <arranger xml:id="baudi-02-ac0e0281-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-ac0e0281-lyricist">
+        <persName>Aus dem 14. Jhd.</persName>
+    </lyricist>
     <key pname="f" mode="major"/>
     <meter count="3" unit="8"/>
     <tempo/>

@@ -1,4 +1,6 @@
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-4a46634e">
     <title type="uniform" xml:id="baudi-02-4a46634e-title">
         <titlePart type="main" xml:id="baudi-02-4a46634e-titleMain">Die glückliche Maid</titlePart>
@@ -19,11 +21,15 @@
             <p>Wie jubelt's in Lüften</p>
         </incipText>
     </incip>
-    <creation><date notafter="1914"/></creation>
+    <creation>
+        <date notafter="1914"/>
+    </creation>
     <history>
         <eventList>
             <event>
-                <desc><annot>Verlagswerbung von Johann André, Offenbach (1914), BLB M311, I, 19</annot></desc>
+                <desc>
+                    <annot>Verlagswerbung von Johann André, Offenbach (1914), BLB M311, I, 19</annot>
+                </desc>
             </event>
         </eventList>
     </history>

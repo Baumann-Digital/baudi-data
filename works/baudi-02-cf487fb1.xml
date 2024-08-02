@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-cf487fb1">
     <identifier type="baudi-copy">CMVS-HH-13</identifier>
     <title type="uniform" xml:id="baudi-02-cf487fb1-title">
         <titlePart type="main" xml:id="baudi-02-cf487fb1-titleMain">Liebestreue</titlePart>
         <titlePart type="number" codedval="opus">69</titlePart>
-        <titlePart type="mainSort" xml:id="baudi-02-cf487fb1-titleMainSort">Liebestreue</titlePart></title>
-    <composer xml:id="baudi-02-cf487fb1-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    <lyricist xml:id="baudi-02-cf487fb1-lyricist"><persName codedval="baudi-04-c696bb09">Franz Xaver Seidl</persName></lyricist>
+        <titlePart type="mainSort" xml:id="baudi-02-cf487fb1-titleMainSort">Liebestreue</titlePart>
+    </title>
+    <composer xml:id="baudi-02-cf487fb1-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-cf487fb1-lyricist">
+        <persName codedval="baudi-04-c696bb09">Franz Xaver Seidl</persName>
+    </lyricist>
     <key pname="g" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Getragen, aber nicht schleppend.</tempo>

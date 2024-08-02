@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-a3a28d86">
     <identifier type="baudi-copy">CMVS-HH-12</identifier>
     <title type="uniform" xml:id="baudi-02-a3a28d86-title">
         <titlePart type="main" xml:id="baudi-02-a3a28d86-titleMain">Maiglöckchen ist kommen</titlePart>
         <titlePart type="number" codedval="opus">67</titlePart>
-        <titlePart type="mainSort" xml:id="baudi-02-a3a28d86-titleMainSort">Maiglöckchen ist kommen</titlePart></title>
-    <composer xml:id="baudi-02-a3a28d86-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    <lyricist xml:id="baudi-02-a3a28d86-lyricist"><persName codedval="baudi-04-460ae089">Fedor von Waldow</persName></lyricist>
+        <titlePart type="mainSort" xml:id="baudi-02-a3a28d86-titleMainSort">Maiglöckchen ist kommen</titlePart>
+    </title>
+    <composer xml:id="baudi-02-a3a28d86-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-a3a28d86-lyricist">
+        <persName codedval="baudi-04-460ae089">Fedor von Waldow</persName>
+    </lyricist>
     <key pname="d" mode="major"/>
     <meter count="3" unit="4"/>
     <tempo>Nicht schnell.</tempo>
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1908">1908</date></p>
+        <p>Erschienen <date isodate="1908">1908</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

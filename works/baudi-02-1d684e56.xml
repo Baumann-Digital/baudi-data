@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-1d684e56">
     <identifier type="baudi-copy">CMVS-HH-61</identifier>
     <title type="uniform" xml:id="baudi-02-1d684e56-title">
         <titlePart type="main" xml:id="baudi-02-1d684e56-titleMain">Geisterruf</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-1d684e56-titleMainSort">Geisterruf</titlePart>
-        <titlePart type="subordinate" xml:id="baudi-02-1d684e56-titleSub">Aus „Symbolum“</titlePart></title>
-    <composer xml:id="baudi-02-1d684e56-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    <lyricist xml:id="baudi-02-1d684e56-lyricist"><persName codedval="baudi-04-f4848295">Johann Wolfgang Goethe</persName></lyricist>
+        <titlePart type="subordinate" xml:id="baudi-02-1d684e56-titleSub">Aus „Symbolum“</titlePart>
+    </title>
+    <composer xml:id="baudi-02-1d684e56-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-1d684e56-lyricist">
+        <persName codedval="baudi-04-f4848295">Johann Wolfgang Goethe</persName>
+    </lyricist>
     <key pname="c" mode="minor"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Langsam, düster. (Viertel etwa 50)</tempo>
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1927">1927</date></p>
+        <p>Erschienen <date isodate="1927">1927</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

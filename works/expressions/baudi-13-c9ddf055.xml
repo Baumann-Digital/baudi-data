@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-c9ddf055">
     <identifier type="baudi-copy">CMVS-HH-22</identifier>
     <title type="uniform">
         <titlePart type="main">Weihnachten im Waldkirchlein</titlePart>
         <titlePart type="number" codedval="opus">88</titlePart>
-        <titlePart type="mainSort">Weihnachten im Waldkirchlein</titlePart></title>
-    <composer><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    <lyricist><persName codedval="baudi-04-8876f0fc">F. W. Weber</persName></lyricist>
+        <titlePart type="mainSort">Weihnachten im Waldkirchlein</titlePart>
+    </title>
+    <composer>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist>
+        <persName codedval="baudi-04-8876f0fc">F. W. Weber</persName>
+    </lyricist>
     <key pname="c" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Ernst und feierlich</tempo>

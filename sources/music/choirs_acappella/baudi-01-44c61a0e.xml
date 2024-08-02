@@ -1,11 +1,15 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-44c61a0e" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-44c61a0e-titleUniMainDE">Bergmanns Auffahrt.</titlePart></title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-44c61a0e-titleUniMainDE">Bergmanns Auffahrt.</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -18,9 +22,14 @@
                     <titlePart type="number" codedval="opus">56</titlePart>
                     <titlePart type="mainSort">Bergmanns Auffahrt</titlePart>
                     <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/></title>
-                <composer><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-                <lyricist><persName/></lyricist>
+                    <titlePart type="perfmedium"/>
+                </title>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist>
+                    <persName/>
+                </lyricist>
                 <key pname="e" accid="f" mode="major"/>
                 <meter count="4" unit="4"/>
                 <tempo>Frisch.</tempo>
@@ -44,12 +53,34 @@
                 <titleStmt>
                     <title>
                         <titlePart type="main" xml:id="baudi-01-44c61a0e-titleMain">Bergmanns Auffahrt.</titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-44c61a0e-titleSub"/></title>
-                    <composer xml:id="baudi-01-44c61a0e-composer"><persName codedval="baudi-04-5e3ed698"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></persName></composer>
-                    <lyricist xml:id="baudi-01-44c61a0e-lyricist"><persName codedval="baudi-04-35c9a190"><persName/></persName></lyricist>
+                        <titlePart type="subordinate" xml:id="baudi-01-44c61a0e-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-44c61a0e-composer">
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-44c61a0e-lyricist">
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName/>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Bergmanns Auffahrt.</title><bibl><identifier>H.&amp; Co. 3260 H.</identifier><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date>1907</date><dedicatee/></bibl></edition>
+                    <edition>
+                        <title>Bergmanns Auffahrt.</title>
+                        <bibl>
+                            <identifier>H.&amp; Co. 3260 H.</identifier>
+                            <publisher>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date>1907</date>
+                            <dedicatee/>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
                     <dimensions label="height" unit="mm">170</dimensions>
@@ -68,7 +99,9 @@
                     <plateNum n="3260">H.&amp; Co. 3260 H.</plateNum>
                 </physDesc>
                 <physLoc>
-                    <repository><corpName>Chormusikverlag Seebold, St. Augustin</corpName></repository>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation>Erschienen 1907</creation>
                 <history/>
@@ -95,7 +128,11 @@
                 </relationList>
             </manifestation>
         </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"><tei:person><tei:persName/></tei:person></extMeta>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
             <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>

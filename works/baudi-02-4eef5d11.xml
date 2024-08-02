@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-4eef5d11">
     <identifier type="baudi-copy">CMVS-HH-26</identifier>
     <title type="uniform" xml:id="baudi-02-4eef5d11-title">
         <titlePart type="main" xml:id="baudi-02-4eef5d11-titleMain">Osterlied</titlePart>
-        <titlePart type="mainSort" xml:id="baudi-02-4eef5d11-titleMainSort">Osterlied</titlePart></title>
-    <composer xml:id="baudi-02-4eef5d11-composer"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-    <lyricist xml:id="baudi-02-4eef5d11-lyricist"><persName codedval="baudi-04-a14b885e">Emanuel Geibel</persName></lyricist>
+        <titlePart type="mainSort" xml:id="baudi-02-4eef5d11-titleMainSort">Osterlied</titlePart>
+    </title>
+    <composer xml:id="baudi-02-4eef5d11-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-4eef5d11-lyricist">
+        <persName codedval="baudi-04-a14b885e">Emanuel Geibel</persName>
+    </lyricist>
     <key pname="g" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Nicht zu langsam.</tempo>
