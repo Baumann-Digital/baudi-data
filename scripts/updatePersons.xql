@@ -12,10 +12,10 @@ declare option saxon:output "saxon:line-length=10000";
 
 
 (: Aufrufen aller Sammlungen. Der Teil '?select=*xml;recurse=yes' muss stehen bleiben! :)
-let $collPlaces := collection('../loci?select=*.xml;recurse=yes')/tei:place
-let $dbPlaceNames := $collPlaces/tei:placeName[1]
+let $collPlaces := collection('../persons?select=*.xml;recurse=yes')/tei:person
+let $dbPlaceNames := $collPlaces/tei:persName[1]
 
-let $collToAddKeys := collection('../works?select=*xml;recurse=yes')/mei:*
+let $collToAddKeys := (collection('../works?select=*xml;recurse=yes')|collection('../sources/music?select=*xml;recurse=yes'))/mei:*
 
 for $document at $n in $collToAddKeys
 
@@ -23,15 +23,9 @@ for $document at $n in $collToAddKeys
 	let $doc := doc($documentUri)
 	let $fileID := $doc/node()/@xml:id
 
-	let $Settlement := $doc//*:settlement[not(@codedval)]
-	let $PlaceName := $doc//*:placeName[not(@codedval)]
-	let $County := $doc//*:country[not(@codedval)]
-	let $Bloc := $doc//*:bloc[not(@codedval)]
-	let $Region := $doc//*:region[not(@codedval)]
-	let $District := $doc//*:district[not(@codedval)]
-	let $GeogName := $doc//*:geogName[not(@codedval)]
+	let $persNames := $doc//*:persName[not(@codedval)]
 	
-	let $Elems := $Settlement | $PlaceName | $County | $Bloc | $Region | $District | $GeogName
+	let $Elems := $persNames
 	
 	let $ElemStr := $Elems/text()
 	
@@ -49,7 +43,7 @@ for $document at $n in $collToAddKeys
 	
 	let $listValuesKeyAssigned := if(count($ElemStrDist) gt 0)
 	then(<matches file="{$fileID}">{for $each in $ElemStrDist
-									let $key := $dbPlaceNames[lower-case(normalize-space(./text())) = $each]/ancestor::tei:place/@xml:id/string()
+									let $key := $dbPlaceNames[lower-case(normalize-space(string-join(./text(),' '))) = $each]/ancestor::tei:person/@xml:id/string()
 									where count($key) = 1
 									order by $each
 									return
@@ -64,10 +58,10 @@ for $document at $n in $collToAddKeys
 	
 	return
 		for $elem in $Elems
-			let $elemTextMod := $elem/text() => replace('\[','') => replace('\]','') => replace('\?','') => replace('\.','') => normalize-space() => lower-case()
+			let $elemTextMod := $elem/text() => string-join(' ') => replace('\[','') => replace('\]','') => replace('\?','') => replace('\.','') => normalize-space() => lower-case()
 			let $key := $listValuesKeyAssigned//match[./text() = $elemTextMod]/@key/string()
 			where count($key) = 1
 			where not($elem/@key)
 			return
-				insert node attribute key {$key} into $elem
-				
+				insert node attribute codedval {$key} into $elem
+(:		$listValuesKeyAssigned:)
