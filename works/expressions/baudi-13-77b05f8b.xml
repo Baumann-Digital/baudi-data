@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-77b05f8b">
     <identifier type="baudi-copy">CMVS-HH-1</identifier>
     <title type="uniform" xml:id="baudi-02-7e1c02fd-title">
@@ -7,7 +8,7 @@
         <titlePart type="number" codedval="opus">27</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-7e1c02fd-titleMainSort">Bergfreiheit</titlePart>
         <titlePart type="subordinate" xml:id="baudi-02-7e1c02fd-titleSub">Aus „Fröhlicher Herbst“, ein Weinidyll aus dem Elsass</titlePart>
-        <titlePart type="dedication">Dem <corpName>»Männergesangverein« <settlement>Kirchheim</settlement>
+        <titlePart type="dedication">Dem <corpName>»Männergesangverein« <settlement codedval="baudi-06-6dc34df3">Kirchheim</settlement>
             </corpName> und seinem verdienstvollen Dirigenten <persName role="conductor">Herrn W. Grieser</persName> gewidmet.</titlePart>
     </title>
     <key pname="c" mode="major"/>

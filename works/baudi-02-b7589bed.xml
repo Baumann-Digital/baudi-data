@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-b7589bed">
     <identifier type="baudi-copy">CMVS-HH-3</identifier>
     <title type="uniform" xml:id="baudi-02-b7589bed-title">
         <titlePart type="main" xml:id="baudi-02-b7589bed-titleMain">Eifel-Wind</titlePart>
         <titlePart type="number" codedval="opus">35</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-b7589bed-titleMainSort">Eifel-Wind</titlePart>
-        <titlePart type="dedication">Dem <corpName>Liederkranz <settlement>Stuttgart</settlement>
+        <titlePart type="dedication">Dem <corpName>Liederkranz <settlement codedval="baudi-06-98b20dee">Stuttgart</settlement>
             </corpName> und seinem hochverdienten Director <persName role="director" codedval="baudi-04-ec0ed1b8">Herrn Professor Förstler</persName> gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-b7589bed-composer">

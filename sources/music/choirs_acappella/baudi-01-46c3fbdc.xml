@@ -1,11 +1,15 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-46c3fbdc" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-46c3fbdc-titleUniMainDE">Grüß Gott, du Welt, du weite.</titlePart></title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-46c3fbdc-titleUniMainDE">Grüß Gott, du Welt, du weite.</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -18,9 +22,14 @@
                     <titlePart type="number" codedval="opus">15</titlePart>
                     <titlePart type="mainSort">Grüß Gott, du Welt, du weite</titlePart>
                     <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/></title>
-                <composer><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></composer>
-                <lyricist><persName>E. Höfer</persName></lyricist>
+                    <titlePart type="perfmedium"/>
+                </title>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist>
+                    <persName>E. Höfer</persName>
+                </lyricist>
                 <key pname="a" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Schwungvoll, nicht zu schnell.</tempo>
@@ -44,12 +53,34 @@
                 <titleStmt>
                     <title>
                         <titlePart type="main" xml:id="baudi-01-46c3fbdc-titleMain">Grüß Gott, du Welt, du weite.</titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-46c3fbdc-titleSub"/></title>
-                    <composer xml:id="baudi-01-46c3fbdc-composer"><persName codedval="baudi-04-5e3ed698"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></persName></composer>
-                    <lyricist xml:id="baudi-01-46c3fbdc-lyricist"><persName codedval="baudi-04-35c9a190"><persName>E. Höfer</persName></persName></lyricist>
+                        <titlePart type="subordinate" xml:id="baudi-01-46c3fbdc-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-46c3fbdc-composer">
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-46c3fbdc-lyricist">
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName>E. Höfer</persName>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Grüß Gott, du Welt, du weite.</title><bibl><identifier/><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee>Dem <corpName>Gesangverein »Liederhalle <settlement>Pforzheim</settlement>«</corpName> und seinem verdienstvollen Musikdirektor <persName role="musicalDirector">Herrn Max Thiede</persName> gewidmet.</dedicatee></bibl></edition>
+                    <edition>
+                        <title>Grüß Gott, du Welt, du weite.</title>
+                        <bibl>
+                            <identifier/>
+                            <publisher>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>Dem <corpName>Gesangverein »Liederhalle <settlement codedval="baudi-06-eda48674">Pforzheim</settlement>«</corpName> und seinem verdienstvollen Musikdirektor <persName role="musicalDirector">Herrn Max Thiede</persName> gewidmet.</dedicatee>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
                     <dimensions label="height" unit="mm">170</dimensions>
@@ -68,7 +99,9 @@
                     <plateNum/>
                 </physDesc>
                 <physLoc>
-                    <repository><corpName>Chormusikverlag Seebold, St. Augustin</corpName></repository>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation/>
                 <history/>
@@ -95,7 +128,11 @@
                 </relationList>
             </manifestation>
         </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"><tei:person><tei:persName/></tei:person></extMeta>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
             <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>

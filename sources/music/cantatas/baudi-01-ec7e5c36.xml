@@ -6,7 +6,8 @@
         <fileDesc>
             <titleStmt>
                 <title>Autographe Partitur, Stickvorlage</title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
         </fileDesc>
         <encodingDesc>
@@ -147,8 +148,12 @@
                         </bifolium>
                     </foliaDesc>
                     <handList>
-                        <hand medium="ink.black"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
-                        <hand medium="pencil"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></hand>
+                        <hand medium="ink.black">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </hand>
+                        <hand medium="pencil">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </hand>
                         <hand medium="pencil">Bibliothekarische Vermerke</hand>
                         <hand medium="pencil.blue">Verlagsseitige Vermerke</hand>
                         <hand medium="pencil.red">Verlagsseitige Vermerke</hand>
@@ -159,7 +164,7 @@
                     <repository>
                         <identifier auth="rism" auth.uri="https://rism.info/de/community/sigla.html">D-KA</identifier>
                         <corpName>Badische Landesbibliothek</corpName>
-                        <settlement>Karlsruhe</settlement>
+                        <settlement codedval="baudi-06-ba166af7">Karlsruhe</settlement>
                         <country codedval="de">Deutschland</country>
                     </repository>
                 </physLoc>
