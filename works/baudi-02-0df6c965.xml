@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-0df6c965">
     <identifier type="baudi-copy">CMVS-HH-8</identifier>
     <title type="uniform" xml:id="baudi-02-0df6c965-title">
         <titlePart type="main" xml:id="baudi-02-0df6c965-titleMain">In Mitten der Nacht</titlePart>
         <titlePart type="subordinate">Alte Weihnachtsmelodie</titlePart>
-        <titlePart type="mainSort" xml:id="baudi-02-0df6c965-titleMainSort">In Mitten der Nacht</titlePart></title>
+        <titlePart type="mainSort" xml:id="baudi-02-0df6c965-titleMainSort">In Mitten der Nacht</titlePart>
+    </title>
     <composer xml:id="baudi-02-0df6c965-composer">Alte Weihnachtsmelodie</composer>
-    <arranger xml:id="baudi-02-0df6c965-arranger"><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
-    <lyricist xml:id="baudi-02-0df6c965-lyricist"><persName>unbekannt</persName></lyricist>
+    <arranger xml:id="baudi-02-0df6c965-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-0df6c965-lyricist">
+        <persName codedval="baudi-04-09b08f5a">unbekannt</persName>
+    </lyricist>
     <key pname="g" mode="major"/>
     <meter count="3" unit="4"/>
     <tempo>Etwas lebhaft.</tempo>
