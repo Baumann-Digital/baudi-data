@@ -1,4 +1,6 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-2d015685" status="proposed">
     <meiHead>
         <fileDesc>
@@ -6,7 +8,8 @@
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-2d015685-titleUniMainDE">Waldeinsamkeit</titlePart>
                 </title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -107,7 +110,7 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-e7a32f45">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
