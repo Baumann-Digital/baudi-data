@@ -1,100 +1,103 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-61ea6882" status="proposed">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniMainDE">Wiegenlied</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniDescDE">für Singstimme und Klavier</titlePart>
-            </title>
-         <editor xml:id="dried">Dennis Ried</editor></titleStmt>
-         <pubStmt> </pubStmt>
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Wiegenlied</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-            <key pname="a" mode="major"/>
-            <meter count="6" unit="8"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes codedval="voice">
-                     <range>
-                        <rangeNote pname="e" oct="4" type="lowest"/>
-                        <rangeNote pname="e" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes codedval="piano"/>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="rism">453003913</identifier>
-            <identifier type="D-KA">Mus. Hs. 1314</identifier>
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-61ea6882-titleMain">Wiegenlied.</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-61ea6882-titleSub"/>
-               </title>
-               <composer xml:id="baudi-01-61ea6882-composer">
-                  <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <arranger xml:id="baudi-01-61ea6882-arranger"/>
-               <lyricist xml:id="baudi-01-61ea6882-lyricist">
-                  <persName codedval="baudi-04-d1c90992">Inge Karsten</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniMainDE">Wiegenlied</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-61ea6882-titleUniDescDE">für Singstimme und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Wiegenlied</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="a" mode="major"/>
+                <meter count="6" unit="8"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="voice">
+                            <range>
+                                <rangeNote pname="e" oct="4" type="lowest"/>
+                                <rangeNote pname="e" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes codedval="piano"/>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="rism">453003913</identifier>
+                <identifier type="D-KA">Mus. Hs. 1314</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-61ea6882-titleMain">Wiegenlied.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-61ea6882-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-61ea6882-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <arranger xml:id="baudi-01-61ea6882-arranger"/>
+                    <lyricist xml:id="baudi-01-61ea6882-lyricist">
+                        <persName codedval="baudi-04-d1c90992">Inge Karsten</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <dimensions label="height" unit="mm">339</dimensions>
-               <dimensions label="width" unit="mm">270</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="folium" unit="folium">1</extent>
-               <extent label="pages" unit="page">1</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="NW 1r BiblVermerk" medium="Bleistift">No 2</hand>
-                  <hand label="N 1r BiblVermerk" medium="Bleistift">Mus. Hs. 1314</hand>
-                  <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-                  <hand label="N 1r composer">(Ged. v. Inge Karsten.)</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="composer" medium="unknown" xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-05" type="desc" resp="#dried"/>
-                  <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-61ea6882-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit blauer Tinte.</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1314</identifier>
-               </repository>
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <dimensions label="height" unit="mm">339</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">1</extent>
+                    <extent label="pages" unit="page">1</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand label="NW 1r BiblVermerk" medium="Bleistift">No 2</hand>
+                        <hand label="N 1r BiblVermerk" medium="Bleistift">Mus. Hs. 1314</hand>
+                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
+                        <hand label="N 1r composer">(Ged. v. Inge Karsten.)</hand>
+                    </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="composer" medium="unknown" xml:id="baudi-01-6b488120-hand-0002"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-05" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-61ea6882-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit blauer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1314</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language codedval="de"/>
-            </langUsage>
-            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
 								label="quires">
 								<head>Lagenordnung</head>
@@ -102,56 +105,56 @@
 									n="1">1. Lage</li>
 							</list>
 						</p> --></contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-05" label="dried">Sammelquelle Mus. Hs. 1314</annot>
-               <annot plist="stamp S-oriented 1r" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek / Karlsruhe</annot>
-               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-61ea6882-physMedium">»Sünova« Nr. 2 - 4 Systeme</annot>
-               <annot plist="stamp S-oriented 2v" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek / Karlsruhe</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="isPartOf" corresp="baudi-01-ed0d187e"/>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-7a784f23"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="#dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-05" resp="#dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-         <change n="2" isodate="2018-04-24" resp="#dried">
-            <changeDesc>
-               <p>Datenbereinigung</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile/>
-      <body>
-         <mdiv xml:id="baudi_20_0dd1a4b4" label="Wiegenlied"> </mdiv>
-      </body>
-   </music>
+                    <annot n="1" when="2018-02-05" label="dried">Sammelquelle Mus. Hs. 1314</annot>
+                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek / Karlsruhe</annot>
+                    <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-61ea6882-physMedium">»Sünova« Nr. 2 - 4 Systeme</annot>
+                    <annot plist="stamp S-oriented 2v" corresp="#baudi-01-61ea6882-physMedium">Badische Landebibliothek / Karlsruhe</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isPartOf" corresp="baudi-01-ed0d187e"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-7a784f23"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-05" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+            <change n="2" isodate="2018-04-24" resp="#dried">
+                <changeDesc>
+                    <p>Datenbereinigung</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv xml:id="baudi_20_0dd1a4b4" label="Wiegenlied"> </mdiv>
+        </body>
+    </music>
 </mei>

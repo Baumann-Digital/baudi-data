@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ef87c799" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Trüber Abschied</title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
@@ -58,8 +60,12 @@
                         <p>
                             <rend halign="center">
                                 <rend rend="box">Trüber<lb/>Abschied</rend>rend&gt; </rend>
-                            <lb/>Lied <lb/><rend rend="smcaps">Für Eine Singstimme &amp; <lb/>Klavierbegleitung</rend>
-                            <lb/>Komponiert von <lb/>LUDWIG BAUMANN <lb/>Verlags N<rend rend="sup"><rend rend="underline(2)">o</rend></rend> 17229 <lb/>Preis Mk. 1._. <lb/>Verlag und Eigentum für alle Länder <lb/>von <lb/><rend rend="smcaps">Johann Andrè, Offenbach A.M.</rend>
+                            <lb/>Lied <lb/>
+                            <rend rend="smcaps">Für Eine Singstimme &amp; <lb/>Klavierbegleitung</rend>
+                            <lb/>Komponiert von <lb/>LUDWIG BAUMANN <lb/>Verlags N<rend rend="sup">
+                                <rend rend="underline(2)">o</rend>
+                            </rend> 17229 <lb/>Preis Mk. 1._. <lb/>Verlag und Eigentum für alle Länder <lb/>von <lb/>
+                            <rend rend="smcaps">Johann Andrè, Offenbach A.M.</rend>
                         </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">314</dimensions>
@@ -102,7 +108,7 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">M 313</identifier>
                     </repository>
                 </physLoc>

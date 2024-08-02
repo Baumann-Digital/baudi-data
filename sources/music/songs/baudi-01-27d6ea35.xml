@@ -1,103 +1,106 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-27d6ea35" status="proposed">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-27d6ea35-titleUniMainDE">Wo ist Gott?</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-27d6ea35-titleUniDescDE">für Singstimme und Klavier</titlePart>
-            </title>
-         <editor xml:id="dried">Dennis Ried</editor></titleStmt>
-         <pubStmt> </pubStmt>
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Wo ist Gott?</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-            <key pname="e" accid="s" mode="major"/>
-            <meter count="3" unit="4"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes codedval="voice">
-                     <range>
-                        <rangeNote pname="c" oct="4" type="lowest"/>
-                        <rangeNote pname="e" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes codedval="piano"/>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="rism">453003887</identifier>
-            <identifier type="D-KA">Mus. Hs. 1296b</identifier>
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-27d6ea35-titleMain">Wo ist Gott?</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-27d6ea35-titleSub">(Felix Dahn.)</titlePart>
-               </title>
-               <composer xml:id="baudi-01-27d6ea35-composer">
-                  <ref target="baudi-04-5e3ed698">Ludwig Baumann</ref>
-               </composer>
-               <lyricist xml:id="baudi-01-27d6ea35-lyricist">
-                  <ref target="baudi-04-12476394">Felix Dahn</ref>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-27d6ea35-titleUniMainDE">Wo ist Gott?</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-27d6ea35-titleUniDescDE">für Singstimme und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Wo ist Gott?</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="e" accid="s" mode="major"/>
+                <meter count="3" unit="4"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="voice">
+                            <range>
+                                <rangeNote pname="c" oct="4" type="lowest"/>
+                                <rangeNote pname="e" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes codedval="piano"/>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="rism">453003887</identifier>
+                <identifier type="D-KA">Mus. Hs. 1296b</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-27d6ea35-titleMain">Wo ist Gott?</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-27d6ea35-titleSub">(Felix Dahn.)</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-27d6ea35-composer">
+                        <ref target="baudi-04-5e3ed698">Ludwig Baumann</ref>
+                    </composer>
+                    <lyricist xml:id="baudi-01-27d6ea35-lyricist">
+                        <ref target="baudi-04-12476394">Felix Dahn</ref>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <titlePage>
-                  <p>Wo ist Gott?<lb/>(Felix Dahn.)<lb/>Ludwig Baumann<lb/>
-                     <lb/>Felix Dahn<lb/>
-                  </p>
-               </titlePage>
-               <dimensions label="height" unit="mm">341</dimensions>
-               <dimensions label="width" unit="mm">269</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="folium" unit="folium">2</extent>
-               <extent label="pages" unit="page">4</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1296b</hand>
-                  <hand label="NE 1r composer" medium="TinteBlau">Karlsruhe,/Sophienstrasse 152</hand>
-                  <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="composer" medium="inkBlue" xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-08" type="desc" resp="#dried"/>
-                  <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-27d6ea35-physMedium">Maschinell rastriert für Liedbesetzung mit viel Platz für Text. 3 Systeme. Beschrieben mit blauer Tinte.</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1296b</identifier>
-               </repository>
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <titlePage>
+                        <p>Wo ist Gott?<lb/>(Felix Dahn.)<lb/>Ludwig Baumann<lb/>
+                            <lb/>Felix Dahn<lb/>
+                        </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">341</dimensions>
+                    <dimensions label="width" unit="mm">269</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">4</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1296b</hand>
+                        <hand label="NE 1r composer" medium="TinteBlau">Karlsruhe,/Sophienstrasse 152</hand>
+                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
+                    </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="composer" medium="inkBlue" xml:id="baudi-01-6b488120-hand-0002"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-08" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-27d6ea35-physMedium">Maschinell rastriert für Liedbesetzung mit viel Platz für Text. 3 Systeme. Beschrieben mit blauer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1296b</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language codedval="de"/>
-            </langUsage>
-            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
 								label="quires">
 								<head>Lagenordnung</head>
@@ -105,58 +108,58 @@
 									n="1">1. Lage</li>
 							</list>
 						</p> --></contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-08" label="dried"/>
-               <annot corresp="#baudi-01-6b488120-hand-0002">Rasur auf 1r, position NW und NE, vmtl. ältere Adresse darunter</annot>
-               <annot plist="stamp S-oriented 1r" corresp="#baudi-01-27d6ea35-physMedium">L.B./Karlsruhe</annot>
-               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-27d6ea35-physMedium">C.A.Klemm./C.No.6</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="hasAlternate" corresp="baudi-01-95b5c6aa"/>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-7e3c5c35"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="#dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-08" resp="#dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile>
+                    <annot n="1" when="2018-02-08" label="dried"/>
+                    <annot corresp="#baudi-01-6b488120-hand-0002">Rasur auf 1r, position NW und NE, vmtl. ältere Adresse darunter</annot>
+                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-27d6ea35-physMedium">L.B./Karlsruhe</annot>
+                    <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-27d6ea35-physMedium">C.A.Klemm./C.No.6</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="hasAlternate" corresp="baudi-01-95b5c6aa"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-7e3c5c35"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-08" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile>
          <!-- https://digital.blb-karlsruhe.de/blbihd/content/pageview/3296218 -->
       </facsimile>
-      <body>
-         <mdiv xml:id="baudi_20_71fc9892" label="Wo ist Gott?">
-            <score>
-               <scoreDef/>
-               <section/>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+        <body>
+            <mdiv xml:id="baudi_20_71fc9892" label="Wo ist Gott?">
+                <score>
+                    <scoreDef/>
+                    <section/>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>

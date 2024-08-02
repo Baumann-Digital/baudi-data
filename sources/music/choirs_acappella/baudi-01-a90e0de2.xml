@@ -1,10 +1,13 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a90e0de2" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Dich, mein Schwarzwald grüßt mein Sang!</title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
@@ -97,7 +100,7 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="D-KA">MK7,3</identifier>
                     </repository>
                 </physLoc>

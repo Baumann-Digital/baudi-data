@@ -1,199 +1,202 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-24c80b0c" status="proposed">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-24c80b0c-titleUniMainDE">Heidewind</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-24c80b0c-titleUniDescDE">für Sopran und Klavier</titlePart>
-            </title>
-         <editor xml:id="dried">Dennis Ried</editor></titleStmt>
-         <pubStmt> </pubStmt>
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Heidewind</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-            <key pname="d" mode="major"/>
-            <meter count="6" unit="8"/>
-            <tempo>schnell</tempo>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes codedval="soprano">
-                     <range>
-                        <rangeNote pname="d" oct="4" type="lowest"/>
-                        <rangeNote pname="f" accid="s" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes codedval="piano"/>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="rism">453003954</identifier>
-            <identifier type="D-KA">Mus. Hs. 1345</identifier>
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-24c80b0c-titleMain">Heidewind.</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-24c80b0c-titleSub">(Felicitas Rose.)</titlePart>
-               </title>
-               <composer xml:id="baudi-01-24c80b0c-composer">
-                  <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <lyricist xml:id="baudi-01-24c80b0c-lyricist">
-                  <persName codedval="baudi-04-adc6644a">Felicitas Rose</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-24c80b0c-titleUniMainDE">Heidewind</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-24c80b0c-titleUniDescDE">für Sopran und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Heidewind</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="d" mode="major"/>
+                <meter count="6" unit="8"/>
+                <tempo>schnell</tempo>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="soprano">
+                            <range>
+                                <rangeNote pname="d" oct="4" type="lowest"/>
+                                <rangeNote pname="f" accid="s" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes codedval="piano"/>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="rism">453003954</identifier>
+                <identifier type="D-KA">Mus. Hs. 1345</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-24c80b0c-titleMain">Heidewind.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-24c80b0c-titleSub">(Felicitas Rose.)</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-24c80b0c-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-24c80b0c-lyricist">
+                        <persName codedval="baudi-04-adc6644a">Felicitas Rose</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <dimensions label="height" unit="mm">260</dimensions>
-               <dimensions label="width" unit="mm">329</dimensions>
-               <extent label="orientation">landscape</extent>
-               <extent label="folium" unit="folium">3</extent>
-               <extent label="pages" unit="page">5</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="NNE 1r BiblVermerk" medium="Bleistift">Musik Hs. 1345</hand>
-                  <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-05" type="desc" resp="#dried"/>
-                  <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-24c80b0c-physMedium">Maschinell rastriert, 12 Zeilen. Beschrieben mit schwarzer Tinte.</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1345</identifier>
-               </repository>
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <dimensions label="height" unit="mm">260</dimensions>
+                    <dimensions label="width" unit="mm">329</dimensions>
+                    <extent label="orientation">landscape</extent>
+                    <extent label="folium" unit="folium">3</extent>
+                    <extent label="pages" unit="page">5</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand label="NNE 1r BiblVermerk" medium="Bleistift">Musik Hs. 1345</hand>
+                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
+                    </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-05" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-24c80b0c-physMedium">Maschinell rastriert, 12 Zeilen. Beschrieben mit schwarzer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1345</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language codedval="de"/>
-            </langUsage>
-            <contents>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents>
                <!-- Weitere Beschreibung des physischen Mediums -->
-               <p>
-                  <list label="quires">
-                     <head>Lagenordnung</head>
-                     <li n="1">Lage gefaltet</li>
-                     <li n="2">Lage besteht aus einzelnem eingelegten Blatt</li>
-                  </list>
-               </p>
-            </contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                    <p>
+                        <list label="quires">
+                            <head>Lagenordnung</head>
+                            <li n="1">Lage gefaltet</li>
+                            <li n="2">Lage besteht aus einzelnem eingelegten Blatt</li>
+                        </list>
+                    </p>
+                </contents>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-05" label="dried"/>
-               <annot plist="stamp S-oriented 1r 3v" corresp="#baudi-01-24c80b0c-physMedium">L.B./Karlsruhe</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-3b2862a7"/>
-               <relation rel="hasEmbodiment" corresp="baudi-01-89a68533"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="#dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-05" resp="#dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-         <change n="2" isodate="2018-04-24" resp="#dried">
-            <changeDesc>
-               <p>Daten bereinigt.</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile decls="blb">
-         <surface xml:id="baudi-01-24c80b0c-surface-0000" n="0">
-            <figDesc>
-               <repository>D-KA</repository>
-               <identifier type="blb-vlid">3301128</identifier>
-            </figDesc>
-         </surface>
-         <surface xml:id="baudi-01-24c80b0c-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="3304969" xml:id="baudi-01-24c80b0c-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-24c80b0c-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="3304970" xml:id="baudi-01-24c80b0c-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-24c80b0c-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="3304971" xml:id="baudi-01-24c80b0c-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-24c80b0c-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="3304972" xml:id="baudi-01-24c80b0c-00-0004" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-24c80b0c-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid" target="3304973" xml:id="baudi-01-24c80b0c-00-0005" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-24c80b0c-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid" target="3304974" xml:id="baudi-01-24c80b0c-00-0006" type="facsimile"/>
-         </surface>
-      </facsimile>
-      <body>
-         <mdiv xml:id="baudi_20_42f6290d" label="Heidewind">
-            <score>
-               <section/>
-               <div type="songtext" xml:lang="de">
-                  <lg label="title">
-                     <l label="title">Heidewind</l>
-                  </lg>
-                  <lg n="1" label="1. Stophe" xml:id="baudi-01-0afc502e-stanza-0001-de">
-                     <l n="1" xml:id="baudi-01-0afc502e-verse-0001-de">Heidewind, rühr' dich</l>
-                     <l n="2" xml:id="baudi-01-0afc502e-verse-0002-de">Heidewind, fang mich</l>
-                     <l n="3" xml:id="baudi-01-0afc502e-verse-0003-de">Heidewind, laß mich mit dir rennen,</l>
-                     <l n="4" xml:id="baudi-01-0afc502e-verse-0004-de">bis uns die flüchtigen Sohlen brennen</l>
-                     <l n="5" xml:id="baudi-01-0afc502e-verse-0005-de">Heidewind, fang mich</l>
-                     <l n="6" xml:id="baudi-01-0afc502e-verse-0006-de"/>
-                     <l n="7" xml:id="baudi-01-0afc502e-verse-0007-de"/>
-                     <l n="8" xml:id="baudi-01-0afc502e-verse-0008-de"/>
-                     <l n="9" xml:id="baudi-01-0afc502e-verse-0009-de"/>
-                     <l n="10" xml:id="baudi-01-0afc502e-verse-0010-de"/>
-                  </lg>
-               </div>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+                    <annot n="1" when="2018-02-05" label="dried"/>
+                    <annot plist="stamp S-oriented 1r 3v" corresp="#baudi-01-24c80b0c-physMedium">L.B./Karlsruhe</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-3b2862a7"/>
+                    <relation rel="hasEmbodiment" corresp="baudi-01-89a68533"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-05" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+            <change n="2" isodate="2018-04-24" resp="#dried">
+                <changeDesc>
+                    <p>Daten bereinigt.</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile decls="blb">
+            <surface xml:id="baudi-01-24c80b0c-surface-0000" n="0">
+                <figDesc>
+                    <repository>D-KA</repository>
+                    <identifier type="blb-vlid">3301128</identifier>
+                </figDesc>
+            </surface>
+            <surface xml:id="baudi-01-24c80b0c-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="3304969" xml:id="baudi-01-24c80b0c-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-24c80b0c-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="3304970" xml:id="baudi-01-24c80b0c-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-24c80b0c-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="3304971" xml:id="baudi-01-24c80b0c-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-24c80b0c-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="3304972" xml:id="baudi-01-24c80b0c-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-24c80b0c-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="3304973" xml:id="baudi-01-24c80b0c-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-24c80b0c-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="3304974" xml:id="baudi-01-24c80b0c-00-0006" type="facsimile"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="baudi_20_42f6290d" label="Heidewind">
+                <score>
+                    <section/>
+                    <div type="songtext" xml:lang="de">
+                        <lg label="title">
+                            <l label="title">Heidewind</l>
+                        </lg>
+                        <lg n="1" label="1. Stophe" xml:id="baudi-01-0afc502e-stanza-0001-de">
+                            <l n="1" xml:id="baudi-01-0afc502e-verse-0001-de">Heidewind, rühr' dich</l>
+                            <l n="2" xml:id="baudi-01-0afc502e-verse-0002-de">Heidewind, fang mich</l>
+                            <l n="3" xml:id="baudi-01-0afc502e-verse-0003-de">Heidewind, laß mich mit dir rennen,</l>
+                            <l n="4" xml:id="baudi-01-0afc502e-verse-0004-de">bis uns die flüchtigen Sohlen brennen</l>
+                            <l n="5" xml:id="baudi-01-0afc502e-verse-0005-de">Heidewind, fang mich</l>
+                            <l n="6" xml:id="baudi-01-0afc502e-verse-0006-de"/>
+                            <l n="7" xml:id="baudi-01-0afc502e-verse-0007-de"/>
+                            <l n="8" xml:id="baudi-01-0afc502e-verse-0008-de"/>
+                            <l n="9" xml:id="baudi-01-0afc502e-verse-0009-de"/>
+                            <l n="10" xml:id="baudi-01-0afc502e-verse-0010-de"/>
+                        </lg>
+                    </div>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>

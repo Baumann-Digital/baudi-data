@@ -1,203 +1,206 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0f713136" status="proposed">
    <!-- Export nach MARC! zur Nachnutzung im BLB-Katalog? -->
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniMainDE">Die drei Zigeuner</titlePart>
-               <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniSubDE">(Nik. Lenau)</titlePart>
-            </title>
-         <editor xml:id="dried">Dennis Ried</editor></titleStmt>
-         <pubStmt> </pubStmt>
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Die drei Zigeuner</titlePart>
-               <titlePart type="subordinate" xml:lang="de">(Nik. Lenau)</titlePart>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-            <key pname="e" mode="minor"/>
-            <meter count="4" unit="4" sym="common"/>
-            <tempo>Schnell</tempo>
-            <incip> </incip>
-            <perfMedium>
-               <perfResList>
-                  <perfRes codedval="violin">Violine </perfRes>
-                  <perfRes codedval="soprano">
-                     <range>
-                        <rangeNote pname="b" oct="3" type="lowest"/>
-                        <rangeNote pname="g" accid="f" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes codedval="piano"/>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <head>Interner Titel, z.B. Stimmenmaterial</head>
-            <identifier auth="RISM" auth.uri="https://opac.rism.info">453003906</identifier>
-            <!--               Unabhängig von der Institution-->
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-0f713136-titleMain">Die drei Zigeuner</titlePart>
-                  <titlePart type="sub" xml:id="baudi-01-0f713136-titleSub">(Nik. Lenau)</titlePart>
-               </title>
-               <composer xml:id="baudi-01-0f713136-composer">
-                  <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <lyricist xml:id="baudi-01-0f713136-lyricist">
-                  <persName codedval="baudi-04-bebb0e03">Niklas Lenau</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniMainDE">Die drei Zigeuner</titlePart>
+                    <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-0aa58a8c-titleUniSubDE">(Nik. Lenau)</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Die drei Zigeuner</titlePart>
+                    <titlePart type="subordinate" xml:lang="de">(Nik. Lenau)</titlePart>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="e" mode="minor"/>
+                <meter count="4" unit="4" sym="common"/>
+                <tempo>Schnell</tempo>
+                <incip> </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="violin">Violine </perfRes>
+                        <perfRes codedval="soprano">
+                            <range>
+                                <rangeNote pname="b" oct="3" type="lowest"/>
+                                <rangeNote pname="g" accid="f" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes codedval="piano"/>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <head>Interner Titel, z.B. Stimmenmaterial</head>
+                <identifier auth="RISM" auth.uri="https://opac.rism.info">453003906</identifier>
+                <!--               Unabhängig von der Institution-->
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-0f713136-titleMain">Die drei Zigeuner</titlePart>
+                        <titlePart type="sub" xml:id="baudi-01-0f713136-titleSub">(Nik. Lenau)</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-0f713136-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-0f713136-lyricist">
+                        <persName codedval="baudi-04-bebb0e03">Niklas Lenau</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <titlePage>
-                  <p>Die drei Zigeuner<lb/>(Nik. Lenau)<lb/>Ludwig Baumann<lb/>
-                     <lb/>Niklas Lenau<lb/>
-                  </p>
-               </titlePage>
-               <dimensions unit="mm" analog="marc:300$c" class="myproject:bindingclass">
-                  <height>355</height>
-                  <width>278</width>
-                  <depth>HÖHE</depth>
-               </dimensions>
-               <extent type="orientation">portrait</extent>
-               <extent type="cover">true</extent>
-               <extent type="folium" unit="folium">6</extent>
-               <extent type="pages" unit="page">7</extent>
-               <extent type="pagination">none</extent>
-               <scoreFormat>piano score</scoreFormat>
-               <handList>
+                    <titlePage>
+                        <p>Die drei Zigeuner<lb/>(Nik. Lenau)<lb/>Ludwig Baumann<lb/>
+                            <lb/>Niklas Lenau<lb/>
+                        </p>
+                    </titlePage>
+                    <dimensions unit="mm" analog="marc:300$c" class="myproject:bindingclass">
+                        <height>355</height>
+                        <width>278</width>
+                        <depth>HÖHE</depth>
+                    </dimensions>
+                    <extent type="orientation">portrait</extent>
+                    <extent type="cover">true</extent>
+                    <extent type="folium" unit="folium">6</extent>
+                    <extent type="pages" unit="page">7</extent>
+                    <extent type="pagination">none</extent>
+                    <scoreFormat>piano score</scoreFormat>
+                    <handList>
                   <!-- HandList ist gedacht zur Identifikation von Schreibern!-->
-                  <hand analog="baudi-04-Schreiber" label="C 1r BiblVermerk" medium="ballpointPenBlue">Musik Hs. 1308</hand>
-                  <hand analog="baudi-04-Schreiber" label="NE 2r BiblVermerk" medium="ballpointPenBlue">Musik Hs. 1308</hand>
-                  <hand label="NE 2r BiblVermerk" medium="pencil">2. Expl.</hand>
-                  <hand label="S 2r BiblVermerk" medium="pencil">Z</hand>
-                  <hand n="1">
-                     <persName auth="baudi" codedval="baudi-04-5e3ed698" cert="high">Ludwig Baumann</persName>
-                  </hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="biblNote" medium="ballpointPenBlue" xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-16" type="desc" resp="#dried"/>
-                  <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <stamp class="#">
-                  <fig>
-                     <figDesc/>
-                     <graphic/>
-                  </fig>
-                  <locus>
-                     <rend/>
-                  </locus>
-               </stamp>
-               <physMedium xml:id="baudi-01-0f713136-physMedium">
-                  <p>Maschinell rastriert. 12 Notenzeilen. Beschrieben mit schwarzer Tinte. Enthält Farbstiftmarkiereungen (rot)</p>
-               </physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier auth="RISM" auth.uri="http://opac.rism.info" codedval="ks30000839">D-KA</identifier>
-                  <!-- codedval kommt mit MEI4 -->
-                  <identifier auth="GND" auth.uri="http://d-nb.info/gnd/2005707-6">2005707-6</identifier>
-               </repository>
-               <identifier analog="marc:852$c" type="shelfmark">Mus. Hs. 1308</identifier>
-               <history>
-                  <acquisition>19XX wurde der musikalische Nachlass von Ludwig Baumann in die BLB überführt.</acquisition>
-               </history>
-            </physLoc>
-            <creation> Entstehungsgeschichte </creation>
-            <history>
-               <eventList>
-                  <event>
-                     <head>Verlust von Seite 5/6</head>
-                     <desc>
-                        <date>wann</date>
-                        <persName>wer</persName>
-                        <geogName>wo</geogName> wie und <damage>was</damage>
-                     </desc>
-                  </event>
-               </eventList>
-            </history>
-            <langUsage>
+                        <hand analog="baudi-04-Schreiber" label="C 1r BiblVermerk" medium="ballpointPenBlue">Musik Hs. 1308</hand>
+                        <hand analog="baudi-04-Schreiber" label="NE 2r BiblVermerk" medium="ballpointPenBlue">Musik Hs. 1308</hand>
+                        <hand label="NE 2r BiblVermerk" medium="pencil">2. Expl.</hand>
+                        <hand label="S 2r BiblVermerk" medium="pencil">Z</hand>
+                        <hand n="1">
+                            <persName auth="baudi" codedval="baudi-04-5e3ed698" cert="high">Ludwig Baumann</persName>
+                        </hand>
+                    </handList>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="ballpointPenBlue" xml:id="baudi-01-6b488120-hand-0002"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-16" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <stamp class="#">
+                        <fig>
+                            <figDesc/>
+                            <graphic/>
+                        </fig>
+                        <locus>
+                            <rend/>
+                        </locus>
+                    </stamp>
+                    <physMedium xml:id="baudi-01-0f713136-physMedium">
+                        <p>Maschinell rastriert. 12 Notenzeilen. Beschrieben mit schwarzer Tinte. Enthält Farbstiftmarkiereungen (rot)</p>
+                    </physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier auth="RISM" auth.uri="http://opac.rism.info" codedval="ks30000839">D-KA</identifier>
+                        <!-- codedval kommt mit MEI4 -->
+                        <identifier auth="GND" auth.uri="http://d-nb.info/gnd/2005707-6">2005707-6</identifier>
+                    </repository>
+                    <identifier analog="marc:852$c" type="shelfmark">Mus. Hs. 1308</identifier>
+                    <history>
+                        <acquisition>19XX wurde der musikalische Nachlass von Ludwig Baumann in die BLB überführt.</acquisition>
+                    </history>
+                </physLoc>
+                <creation> Entstehungsgeschichte </creation>
+                <history>
+                    <eventList>
+                        <event>
+                            <head>Verlust von Seite 5/6</head>
+                            <desc>
+                                <date>wann</date>
+                                <persName>wer</persName>
+                                <geogName>wo</geogName> wie und <damage>was</damage>
+                            </desc>
+                        </event>
+                    </eventList>
+                </history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language codedval="de"/>
-            </langUsage>
-            <contents><!-- INHALTSVERZEICHNIS real oder rekonstruiert. -->
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- INHALTSVERZEICHNIS real oder rekonstruiert. -->
                <!--	<p></p> -->
             </contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-16" label="dried"/>
-               <annot plist="stamp S-oriented 2r 5v" corresp="#baudi-01-0f713136-physMedium">L.B./Karlsruhe</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-                  <term type="keyword">trio</term>
-                  <term type="keyword">ensemble</term>
-               </termList>
-            </classification>
-            <componentList>
-               <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
-               <manifestation type="ms">
-                  <identifier/>
-                  <physDesc>
-                     <extent/>
-                  </physDesc>
-               </manifestation>
-               <manifestation type="pr"/>
-            </componentList>
-            <relationList>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-92c07a62"/>
-               <relation rel="hasEmbodiment" corresp="baudi-01-3807dae9"/>
-               <relation rel="hasEmbodiment" corresp="baudi-01-4fb3658e"/>
-               <relation rel="hasExemplar" class="#part" corresp="baudi-01-26673070"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="#dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-16" resp="#dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile/>
-      <body>
-         <mdiv xml:id="baudi_20_23432f2b" label="Die drei Zigeuner"/>
-      </body>
-   </music>
+                    <annot n="1" when="2018-02-16" label="dried"/>
+                    <annot plist="stamp S-oriented 2r 5v" corresp="#baudi-01-0f713136-physMedium">L.B./Karlsruhe</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                        <term type="keyword">trio</term>
+                        <term type="keyword">ensemble</term>
+                    </termList>
+                </classification>
+                <componentList>
+                    <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
+                    <manifestation type="ms">
+                        <identifier/>
+                        <physDesc>
+                            <extent/>
+                        </physDesc>
+                    </manifestation>
+                    <manifestation type="pr"/>
+                </componentList>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-92c07a62"/>
+                    <relation rel="hasEmbodiment" corresp="baudi-01-3807dae9"/>
+                    <relation rel="hasEmbodiment" corresp="baudi-01-4fb3658e"/>
+                    <relation rel="hasExemplar" class="#part" corresp="baudi-01-26673070"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-16" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv xml:id="baudi_20_23432f2b" label="Die drei Zigeuner"/>
+        </body>
+    </music>
 </mei>

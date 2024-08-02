@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="5.0"
-     xml:id="baudi-01-ede79baf"
-     status="proposed">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ede79baf" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -12,16 +10,15 @@
                     <titlePart type="desc" xml:lang="de" xml:id="baudi-01-ede79baf-titleUniDescDE">Singstimme und
                         Klavier</titlePart>
                 </title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt>
                 
             </pubStmt>
-
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -29,48 +26,21 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="c" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Stormily moved. (Stürmisch bewegt.)</tempo>
                 <incip>
                     <score xml:id="m-25">
-                        <scoreDef xml:id="m-26"
-                            lyric.name="Plantin MT Std"
-                            meter.count="4"
-                            meter.unit="4"
-                            music.name="Opus Std"
-                            page.botmar="12.7mm"
-                            page.height="297mm"
-                            page.leftmar="12.7mm"
-                            page.rightmar="12.7mm"
-                            page.topmar="12.7mm"
-                            page.width="210mm"
-                            text.name="Plantin MT Std">
+                        <scoreDef xml:id="m-26" lyric.name="Plantin MT Std" meter.count="4" meter.unit="4" music.name="Opus Std" page.botmar="12.7mm" page.height="297mm" page.leftmar="12.7mm" page.rightmar="12.7mm" page.topmar="12.7mm" page.width="210mm" text.name="Plantin MT Std">
                             <staffGrp xml:id="m-27">
-                                <staffDef xml:id="m-28"
-                                  clef.line="2"
-                                  clef.shape="G"
-                                  label="Stimme"
-                                  lines="5"
-                                  n="1">
+                                <staffDef xml:id="m-28" clef.line="2" clef.shape="G" label="Stimme" lines="5" n="1">
                                     <!-- voice.ensemble.ah -->
                                 </staffDef>
                                 <staffGrp xml:id="m-37" n="1" symbol="brace">
-                                    <staffDef xml:id="m-31"
-                                     clef.line="2"
-                                     clef.shape="G"
-                                     label="Klavier"
-                                     lines="5"
-                                     n="2">
+                                    <staffDef xml:id="m-31" clef.line="2" clef.shape="G" label="Klavier" lines="5" n="2">
                                         <!-- keyboard.piano.grand -->
                                     </staffDef>
-                                    <staffDef xml:id="m-34"
-                                     clef.line="4"
-                                     clef.shape="F"
-                                     label="Klavier"
-                                     lines="5"
-                                     n="3">
+                                    <staffDef xml:id="m-34" clef.line="4" clef.shape="F" label="Klavier" lines="5" n="3">
                                         <!-- keyboard.piano.grand -->
                                     </staffDef>
                                 </staffGrp>
@@ -86,12 +56,7 @@
                                 </staff>
                                 <staff xml:id="m-44" n="2">
                                     <layer xml:id="m-45" n="1">
-                                        <tuplet xml:id="m-52"
-                                      endid="#m-54"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-46">
+                                        <tuplet xml:id="m-52" endid="#m-54" num="3" num.format="count" numbase="2" startid="#m-46">
                                             <beam xml:id="m-51">
                                                 <chord xml:id="m-46" dur="8" stem.dir="up">
                                                     <note xml:id="m-47" dur="8" oct="4" pname="e" pnum="63">
@@ -100,12 +65,7 @@
                                                     <note xml:id="m-49" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-50" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-53"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-53" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-54" dur="8" stem.dir="up">
                                                     <note xml:id="m-55" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-56" accid.ges="f"/>
@@ -115,19 +75,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-61"
-                                      endid="#m-67"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-59">
+                                        <tuplet xml:id="m-61" endid="#m-67" num="3" num.format="count" numbase="2" startid="#m-59">
                                             <beam xml:id="m-60">
-                                                <note xml:id="m-59"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-59" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-62" dur="8" stem.dir="up">
                                                     <note xml:id="m-63" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-64" accid.ges="f"/>
@@ -135,20 +85,10 @@
                                                     <note xml:id="m-65" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-66" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-67"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-67" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-74"
-                                      endid="#m-76"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-68">
+                                        <tuplet xml:id="m-74" endid="#m-76" num="3" num.format="count" numbase="2" startid="#m-68">
                                             <beam xml:id="m-73">
                                                 <chord xml:id="m-68" dur="8" stem.dir="up">
                                                     <note xml:id="m-69" dur="8" oct="4" pname="e" pnum="63">
@@ -157,12 +97,7 @@
                                                     <note xml:id="m-71" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-72" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-75"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-75" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-76" dur="8" stem.dir="up">
                                                     <note xml:id="m-77" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-78" accid.ges="f"/>
@@ -172,19 +107,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-83"
-                                      endid="#m-89"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-81">
+                                        <tuplet xml:id="m-83" endid="#m-89" num="3" num.format="count" numbase="2" startid="#m-81">
                                             <beam xml:id="m-82">
-                                                <note xml:id="m-81"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-81" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-84" dur="8" stem.dir="up">
                                                     <note xml:id="m-85" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-86" accid.ges="f"/>
@@ -192,52 +117,21 @@
                                                     <note xml:id="m-87" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-88" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-89"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-89" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-90" n="3">
                                     <layer xml:id="m-91" n="1">
-                                        <note xml:id="m-92"
-                                    dots="1"
-                                    dur="2"
-                                    oct="3"
-                                    pname="c"
-                                    pnum="48"
-                                    stem.dir="up"/>
-                                        <tuplet xml:id="m-97"
-                                      endid="#m-99"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-94">
+                                        <note xml:id="m-92" dots="1" dur="2" oct="3" pname="c" pnum="48" stem.dir="up"/>
+                                        <tuplet xml:id="m-97" endid="#m-99" num="3" num.format="count" numbase="2" startid="#m-94">
                                             <beam xml:id="m-96">
-                                                <note xml:id="m-94"
-                                          dur="8"
-                                          oct="2"
-                                          pname="b"
-                                          pnum="46"
-                                          stem.dir="up">
+                                                <note xml:id="m-94" dur="8" oct="2" pname="b" pnum="46" stem.dir="up">
                                                     <accid xml:id="m-95" accid.ges="f"/>
                                                 </note>
-                                                <note xml:id="m-98"
-                                          dur="8"
-                                          oct="3"
-                                          pname="c"
-                                          pnum="48"
-                                          stem.dir="up"/>
-                                                <note xml:id="m-99"
-                                          dur="8"
-                                          oct="2"
-                                          pname="b"
-                                          pnum="46"
-                                          stem.dir="up">
+                                                <note xml:id="m-98" dur="8" oct="3" pname="c" pnum="48" stem.dir="up"/>
+                                                <note xml:id="m-99" dur="8" oct="2" pname="b" pnum="46" stem.dir="up">
                                                     <accid xml:id="m-100" accid.ges="f"/>
                                                 </note>
                                             </beam>
@@ -255,12 +149,7 @@
                                 </staff>
                                 <staff xml:id="m-107" n="2">
                                     <layer xml:id="m-108" n="1">
-                                        <tuplet xml:id="m-116"
-                                      endid="#m-118"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-109">
+                                        <tuplet xml:id="m-116" endid="#m-118" num="3" num.format="count" numbase="2" startid="#m-109">
                                             <beam xml:id="m-115">
                                                 <chord xml:id="m-109" dur="8" stem.dir="up">
                                                     <note xml:id="m-110" dur="8" oct="4" pname="e" pnum="63">
@@ -271,12 +160,7 @@
                                                     </note>
                                                     <note xml:id="m-114" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-117"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-117" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-118" dur="8" stem.dir="up">
                                                     <note xml:id="m-119" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-120" accid.ges="f"/>
@@ -288,19 +172,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-126"
-                                      endid="#m-133"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-124">
+                                        <tuplet xml:id="m-126" endid="#m-133" num="3" num.format="count" numbase="2" startid="#m-124">
                                             <beam xml:id="m-125">
-                                                <note xml:id="m-124"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-124" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-127" dur="8" stem.dir="up">
                                                     <note xml:id="m-128" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-129" accid.ges="f"/>
@@ -310,20 +184,10 @@
                                                     </note>
                                                     <note xml:id="m-132" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-133"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-133" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-141"
-                                      endid="#m-143"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-134">
+                                        <tuplet xml:id="m-141" endid="#m-143" num="3" num.format="count" numbase="2" startid="#m-134">
                                             <beam xml:id="m-140">
                                                 <chord xml:id="m-134" dur="8" stem.dir="up">
                                                     <note xml:id="m-135" dur="8" oct="4" pname="e" pnum="63">
@@ -334,12 +198,7 @@
                                                     </note>
                                                     <note xml:id="m-139" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-142"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-142" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-143" dur="8" stem.dir="up">
                                                     <note xml:id="m-144" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-145" accid.ges="f"/>
@@ -351,19 +210,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-151"
-                                      endid="#m-158"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-149">
+                                        <tuplet xml:id="m-151" endid="#m-158" num="3" num.format="count" numbase="2" startid="#m-149">
                                             <beam xml:id="m-150">
-                                                <note xml:id="m-149"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-149" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-152" dur="8" stem.dir="up">
                                                     <note xml:id="m-153" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-154" accid.ges="f"/>
@@ -373,63 +222,28 @@
                                                     </note>
                                                     <note xml:id="m-157" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-158"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-158" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-159" n="3">
                                     <layer xml:id="m-160" n="1">
-                                        <note xml:id="m-161"
-                                    dots="1"
-                                    dur="2"
-                                    oct="2"
-                                    pname="a"
-                                    pnum="44"
-                                    stem.dir="up">
+                                        <note xml:id="m-161" dots="1" dur="2" oct="2" pname="a" pnum="44" stem.dir="up">
                                             <accid xml:id="m-162" accid.ges="f"/>
                                         </note>
-                                        <tuplet xml:id="m-166"
-                                      endid="#m-169"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-164">
+                                        <tuplet xml:id="m-166" endid="#m-169" num="3" num.format="count" numbase="2" startid="#m-164">
                                             <beam xml:id="m-165">
-                                                <note xml:id="m-164"
-                                          dur="8"
-                                          oct="2"
-                                          pname="g"
-                                          pnum="43"
-                                          stem.dir="up"/>
-                                                <note xml:id="m-167"
-                                          dur="8"
-                                          oct="2"
-                                          pname="a"
-                                          pnum="44"
-                                          stem.dir="up">
+                                                <note xml:id="m-164" dur="8" oct="2" pname="g" pnum="43" stem.dir="up"/>
+                                                <note xml:id="m-167" dur="8" oct="2" pname="a" pnum="44" stem.dir="up">
                                                     <accid xml:id="m-168" accid.ges="f"/>
                                                 </note>
-                                                <note xml:id="m-169"
-                                          dur="8"
-                                          oct="2"
-                                          pname="g"
-                                          pnum="43"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-169" dur="8" oct="2" pname="g" pnum="43" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
-                                <slur xml:id="m-163"
-                              layer="1"
-                              staff="3"
-                              tstamp="4"
-                              tstamp2="1m+1"/>
+                                <slur xml:id="m-163" layer="1" staff="3" tstamp="4" tstamp2="1m+1"/>
                             </measure>
                             <measure xml:id="m-170" n="3">
                                 <staff xml:id="m-171" n="1">
@@ -439,12 +253,7 @@
                                 </staff>
                                 <staff xml:id="m-174" n="2">
                                     <layer xml:id="m-175" n="1">
-                                        <tuplet xml:id="m-182"
-                                      endid="#m-184"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-176">
+                                        <tuplet xml:id="m-182" endid="#m-184" num="3" num.format="count" numbase="2" startid="#m-176">
                                             <beam xml:id="m-181">
                                                 <chord xml:id="m-176" dur="8" stem.dir="up">
                                                     <note xml:id="m-177" dur="8" oct="4" pname="f" pnum="65"/>
@@ -453,12 +262,7 @@
                                                     </note>
                                                     <note xml:id="m-180" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-183"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-183" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-184" dur="8" stem.dir="up">
                                                     <note xml:id="m-185" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-186" dur="8" oct="4" pname="a" pnum="68">
@@ -468,19 +272,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-191"
-                                      endid="#m-197"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-189">
+                                        <tuplet xml:id="m-191" endid="#m-197" num="3" num.format="count" numbase="2" startid="#m-189">
                                             <beam xml:id="m-190">
-                                                <note xml:id="m-189"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-189" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-192" dur="8" stem.dir="up">
                                                     <note xml:id="m-193" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-194" dur="8" oct="4" pname="a" pnum="68">
@@ -488,20 +282,10 @@
                                                     </note>
                                                     <note xml:id="m-196" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-197"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-197" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-204"
-                                      endid="#m-206"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-198">
+                                        <tuplet xml:id="m-204" endid="#m-206" num="3" num.format="count" numbase="2" startid="#m-198">
                                             <beam xml:id="m-203">
                                                 <chord xml:id="m-198" dur="8" stem.dir="up">
                                                     <note xml:id="m-199" dur="8" oct="4" pname="f" pnum="65"/>
@@ -510,12 +294,7 @@
                                                     </note>
                                                     <note xml:id="m-202" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-205"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-205" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-206" dur="8" stem.dir="up">
                                                     <note xml:id="m-207" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-208" dur="8" oct="4" pname="a" pnum="68">
@@ -525,19 +304,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-213"
-                                      endid="#m-219"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-211">
+                                        <tuplet xml:id="m-213" endid="#m-219" num="3" num.format="count" numbase="2" startid="#m-211">
                                             <beam xml:id="m-212">
-                                                <note xml:id="m-211"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-211" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-214" dur="8" stem.dir="up">
                                                     <note xml:id="m-215" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-216" dur="8" oct="4" pname="a" pnum="68">
@@ -545,90 +314,36 @@
                                                     </note>
                                                     <note xml:id="m-218" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-219"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-219" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-220" n="3">
                                     <layer xml:id="m-221" n="1">
-                                        <note xml:id="m-222"
-                                    dur="2"
-                                    oct="2"
-                                    pname="f"
-                                    pnum="41"
-                                    stem.dir="up"/>
-                                        <tuplet xml:id="m-226"
-                                      endid="#m-230"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-224">
+                                        <note xml:id="m-222" dur="2" oct="2" pname="f" pnum="41" stem.dir="up"/>
+                                        <tuplet xml:id="m-226" endid="#m-230" num="3" num.format="count" numbase="2" startid="#m-224">
                                             <beam xml:id="m-225">
-                                                <note xml:id="m-224"
-                                          dur="8"
-                                          oct="2"
-                                          pname="f"
-                                          pnum="41"
-                                          stem.dir="up"/>
-                                                <note xml:id="m-228"
-                                          dur="8"
-                                          oct="2"
-                                          pname="a"
-                                          pnum="44"
-                                          stem.dir="up">
+                                                <note xml:id="m-224" dur="8" oct="2" pname="f" pnum="41" stem.dir="up"/>
+                                                <note xml:id="m-228" dur="8" oct="2" pname="a" pnum="44" stem.dir="up">
                                                     <accid xml:id="m-229" accid.ges="f"/>
                                                 </note>
-                                                <note xml:id="m-230"
-                                          dur="8"
-                                          oct="3"
-                                          pname="c"
-                                          pnum="48"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-230" dur="8" oct="3" pname="c" pnum="48" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-233"
-                                      endid="#m-236"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-231">
+                                        <tuplet xml:id="m-233" endid="#m-236" num="3" num.format="count" numbase="2" startid="#m-231">
                                             <beam xml:id="m-232">
-                                                <note xml:id="m-231"
-                                          dur="8"
-                                          oct="3"
-                                          pname="f"
-                                          pnum="53"
-                                          stem.dir="down"/>
-                                                <note xml:id="m-234"
-                                          dur="8"
-                                          oct="3"
-                                          pname="a"
-                                          pnum="56"
-                                          stem.dir="down">
+                                                <note xml:id="m-231" dur="8" oct="3" pname="f" pnum="53" stem.dir="down"/>
+                                                <note xml:id="m-234" dur="8" oct="3" pname="a" pnum="56" stem.dir="down">
                                                     <accid xml:id="m-235" accid.ges="f"/>
                                                 </note>
-                                                <note xml:id="m-236"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="down"/>
+                                                <note xml:id="m-236" dur="8" oct="4" pname="c" pnum="60" stem.dir="down"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <tie xml:id="m-223" endid="#m-224" startid="#m-222"/>
-                                <slur xml:id="m-227"
-                              layer="1"
-                              staff="3"
-                              tstamp="3.332"
-                              tstamp2="1m+1"/>
+                                <slur xml:id="m-227" layer="1" staff="3" tstamp="3.332" tstamp2="1m+1"/>
                             </measure>
                             <sb xml:id="m-238"/>
                             <measure xml:id="m-237" n="4">
@@ -639,12 +354,7 @@
                                 </staff>
                                 <staff xml:id="m-242" n="2">
                                     <layer xml:id="m-243" n="1">
-                                        <tuplet xml:id="m-250"
-                                      endid="#m-252"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-244">
+                                        <tuplet xml:id="m-250" endid="#m-252" num="3" num.format="count" numbase="2" startid="#m-244">
                                             <beam xml:id="m-249">
                                                 <chord xml:id="m-244" dur="8" stem.dir="up">
                                                     <note xml:id="m-245" dur="8" oct="4" pname="f" pnum="65"/>
@@ -653,12 +363,7 @@
                                                     </note>
                                                     <note xml:id="m-248" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-251"
-                                          dur="8"
-                                          oct="4"
-                                          pname="d"
-                                          pnum="62"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-251" dur="8" oct="4" pname="d" pnum="62" stem.dir="up"/>
                                                 <chord xml:id="m-252" dur="8" stem.dir="up">
                                                     <note xml:id="m-253" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-254" dur="8" oct="4" pname="a" pnum="68">
@@ -668,19 +373,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-259"
-                                      endid="#m-265"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-257">
+                                        <tuplet xml:id="m-259" endid="#m-265" num="3" num.format="count" numbase="2" startid="#m-257">
                                             <beam xml:id="m-258">
-                                                <note xml:id="m-257"
-                                          dur="8"
-                                          oct="4"
-                                          pname="d"
-                                          pnum="62"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-257" dur="8" oct="4" pname="d" pnum="62" stem.dir="up"/>
                                                 <chord xml:id="m-260" dur="8" stem.dir="up">
                                                     <note xml:id="m-261" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-262" dur="8" oct="4" pname="a" pnum="68">
@@ -688,20 +383,10 @@
                                                     </note>
                                                     <note xml:id="m-264" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-265"
-                                          dur="8"
-                                          oct="4"
-                                          pname="d"
-                                          pnum="62"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-265" dur="8" oct="4" pname="d" pnum="62" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-272"
-                                      endid="#m-274"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-266">
+                                        <tuplet xml:id="m-272" endid="#m-274" num="3" num.format="count" numbase="2" startid="#m-266">
                                             <beam xml:id="m-271">
                                                 <chord xml:id="m-266" dur="8" stem.dir="up">
                                                     <note xml:id="m-267" dur="8" oct="4" pname="f" pnum="65"/>
@@ -710,12 +395,7 @@
                                                         <accid xml:id="m-270" accid="n"/>
                                                     </note>
                                                 </chord>
-                                                <note xml:id="m-273"
-                                          dur="8"
-                                          oct="4"
-                                          pname="d"
-                                          pnum="62"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-273" dur="8" oct="4" pname="d" pnum="62" stem.dir="up"/>
                                                 <chord xml:id="m-274" dur="8" stem.dir="up">
                                                     <note xml:id="m-275" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-276" dur="8" oct="4" pname="g" pnum="67"/>
@@ -725,19 +405,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-281"
-                                      endid="#m-287"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-279">
+                                        <tuplet xml:id="m-281" endid="#m-287" num="3" num.format="count" numbase="2" startid="#m-279">
                                             <beam xml:id="m-280">
-                                                <note xml:id="m-279"
-                                          dur="8"
-                                          oct="4"
-                                          pname="d"
-                                          pnum="62"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-279" dur="8" oct="4" pname="d" pnum="62" stem.dir="up"/>
                                                 <chord xml:id="m-282" dur="8" stem.dir="up">
                                                     <note xml:id="m-283" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-284" dur="8" oct="4" pname="g" pnum="67"/>
@@ -745,42 +415,22 @@
                                                         <accid xml:id="m-286" accid="n" func="caution"/>
                                                     </note>
                                                 </chord>
-                                                <note xml:id="m-287"
-                                          dur="8"
-                                          oct="4"
-                                          pname="d"
-                                          pnum="62"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-287" dur="8" oct="4" pname="d" pnum="62" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-288" n="3">
                                     <layer xml:id="m-289" n="1">
-                                        <note xml:id="m-290"
-                                    dur="2"
-                                    oct="4"
-                                    pname="d"
-                                    pnum="62"
-                                    stem.dir="down"/>
-                                        <note xml:id="m-291"
-                                    dur="2"
-                                    oct="3"
-                                    pname="g"
-                                    pnum="55"
-                                    stem.dir="down"/>
+                                        <note xml:id="m-290" dur="2" oct="4" pname="d" pnum="62" stem.dir="down"/>
+                                        <note xml:id="m-291" dur="2" oct="3" pname="g" pnum="55" stem.dir="down"/>
                                     </layer>
                                 </staff>
                             </measure>
                             <measure xml:id="m-292" n="5">
                                 <staff xml:id="m-293" n="1">
                                     <layer xml:id="m-294" n="1">
-                                        <note xml:id="m-296"
-                                    dur="2"
-                                    oct="5"
-                                    pname="c"
-                                    pnum="72"
-                                    stem.dir="down">
+                                        <note xml:id="m-296" dur="2" oct="5" pname="c" pnum="72" stem.dir="down">
                                             <verse xml:id="m-303" n="1">
                                                 <syl xml:id="m-304" wordpos="i">1.Wild</syl>
                                             </verse>
@@ -794,12 +444,7 @@
                                                 <syl xml:id="m-310" wordpos="i">2.So</syl>
                                             </verse>
                                         </note>
-                                        <note xml:id="m-297"
-                                    dur="4"
-                                    oct="4"
-                                    pname="g"
-                                    pnum="67"
-                                    stem.dir="up">
+                                        <note xml:id="m-297" dur="4" oct="4" pname="g" pnum="67" stem.dir="up">
                                             <verse xml:id="m-311" n="1">
                                                 <syl xml:id="m-312" con="d" wordpos="i">surg</syl>
                                             </verse>
@@ -814,12 +459,7 @@
                                             </verse>
                                         </note>
                                         <beam xml:id="m-300">
-                                            <note xml:id="m-298"
-                                       dur="8"
-                                       oct="4"
-                                       pname="e"
-                                       pnum="63"
-                                       stem.dir="up">
+                                            <note xml:id="m-298" dur="8" oct="4" pname="e" pnum="63" stem.dir="up">
                                                 <accid xml:id="m-299" accid.ges="f"/>
                                                 <verse xml:id="m-313" n="1">
                                                     <syl xml:id="m-314" wordpos="t">es</syl>
@@ -834,12 +474,7 @@
                                                     <syl xml:id="m-326" wordpos="t">set</syl>
                                                 </verse>
                                             </note>
-                                            <note xml:id="m-301"
-                                       dur="8"
-                                       oct="4"
-                                       pname="e"
-                                       pnum="63"
-                                       stem.dir="up">
+                                            <note xml:id="m-301" dur="8" oct="4" pname="e" pnum="63" stem.dir="up">
                                                 <accid xml:id="m-302" accid.ges="f"/>
                                                 <verse xml:id="m-327" n="1">
                                                     <syl xml:id="m-328" wordpos="i">the</syl>
@@ -859,12 +494,7 @@
                                 </staff>
                                 <staff xml:id="m-335" n="2">
                                     <layer xml:id="m-336" n="1">
-                                        <tuplet xml:id="m-343"
-                                      endid="#m-345"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-337">
+                                        <tuplet xml:id="m-343" endid="#m-345" num="3" num.format="count" numbase="2" startid="#m-337">
                                             <beam xml:id="m-342">
                                                 <chord xml:id="m-337" dur="8" stem.dir="up">
                                                     <note xml:id="m-338" dur="8" oct="4" pname="e" pnum="63">
@@ -873,12 +503,7 @@
                                                     <note xml:id="m-340" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-341" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-344"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-344" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-345" dur="8" stem.dir="up">
                                                     <note xml:id="m-346" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-347" accid.ges="f"/>
@@ -888,19 +513,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-352"
-                                      endid="#m-358"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-350">
+                                        <tuplet xml:id="m-352" endid="#m-358" num="3" num.format="count" numbase="2" startid="#m-350">
                                             <beam xml:id="m-351">
-                                                <note xml:id="m-350"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-350" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-353" dur="8" stem.dir="up">
                                                     <note xml:id="m-354" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-355" accid.ges="f"/>
@@ -908,20 +523,10 @@
                                                     <note xml:id="m-356" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-357" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-358"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-358" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-365"
-                                      endid="#m-367"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-359">
+                                        <tuplet xml:id="m-365" endid="#m-367" num="3" num.format="count" numbase="2" startid="#m-359">
                                             <beam xml:id="m-364">
                                                 <chord xml:id="m-359" dur="8" stem.dir="up">
                                                     <note xml:id="m-360" dur="8" oct="4" pname="e" pnum="63">
@@ -930,12 +535,7 @@
                                                     <note xml:id="m-362" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-363" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-366"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-366" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-367" dur="8" stem.dir="up">
                                                     <note xml:id="m-368" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-369" accid.ges="f"/>
@@ -945,19 +545,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-374"
-                                      endid="#m-380"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-372">
+                                        <tuplet xml:id="m-374" endid="#m-380" num="3" num.format="count" numbase="2" startid="#m-372">
                                             <beam xml:id="m-373">
-                                                <note xml:id="m-372"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-372" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-375" dur="8" stem.dir="up">
                                                     <note xml:id="m-376" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-377" accid.ges="f"/>
@@ -965,94 +555,35 @@
                                                     <note xml:id="m-378" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-379" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-380"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-380" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-381" n="3">
                                     <layer xml:id="m-382" n="1">
-                                        <note xml:id="m-383"
-                                    dots="1"
-                                    dur="2"
-                                    oct="3"
-                                    pname="c"
-                                    pnum="48"
-                                    stem.dir="up"/>
-                                        <tuplet xml:id="m-388"
-                                      endid="#m-393"
-                                      num="5"
-                                      num.format="count"
-                                      numbase="4"
-                                      startid="#m-386">
+                                        <note xml:id="m-383" dots="1" dur="2" oct="3" pname="c" pnum="48" stem.dir="up"/>
+                                        <tuplet xml:id="m-388" endid="#m-393" num="5" num.format="count" numbase="4" startid="#m-386">
                                             <beam xml:id="m-387">
-                                                <note xml:id="m-386"
-                                          dur="16"
-                                          oct="3"
-                                          pname="c"
-                                          pnum="48"
-                                          stem.dir="down"/>
-                                                <note xml:id="m-389"
-                                          dur="16"
-                                          oct="3"
-                                          pname="d"
-                                          pnum="50"
-                                          stem.dir="down"/>
-                                                <note xml:id="m-390"
-                                          dur="16"
-                                          oct="3"
-                                          pname="e"
-                                          pnum="51"
-                                          stem.dir="down">
+                                                <note xml:id="m-386" dur="16" oct="3" pname="c" pnum="48" stem.dir="down"/>
+                                                <note xml:id="m-389" dur="16" oct="3" pname="d" pnum="50" stem.dir="down"/>
+                                                <note xml:id="m-390" dur="16" oct="3" pname="e" pnum="51" stem.dir="down">
                                                     <accid xml:id="m-391" accid.ges="f"/>
                                                 </note>
-                                                <note xml:id="m-392"
-                                          dur="16"
-                                          oct="3"
-                                          pname="f"
-                                          pnum="53"
-                                          stem.dir="down"/>
-                                                <note xml:id="m-393"
-                                          dur="16"
-                                          oct="3"
-                                          pname="g"
-                                          pnum="55"
-                                          stem.dir="down"/>
+                                                <note xml:id="m-392" dur="16" oct="3" pname="f" pnum="53" stem.dir="down"/>
+                                                <note xml:id="m-393" dur="16" oct="3" pname="g" pnum="55" stem.dir="down"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
-                                <dynam xml:id="m-295"
-                               ho="-1.0391mm"
-                               staff="1"
-                               tstamp="1"
-                               vo="5.25mm">f</dynam>
-                                <slur xml:id="m-384"
-                              layer="1"
-                              staff="3"
-                              tstamp="4"
-                              tstamp2="0m+4.7969"/>
-                                <slur xml:id="m-385"
-                              layer="1"
-                              staff="3"
-                              tstamp="4"
-                              tstamp2="1m+1"/>
+                                <dynam xml:id="m-295" ho="-1.0391mm" staff="1" tstamp="1" vo="5.25mm">f</dynam>
+                                <slur xml:id="m-384" layer="1" staff="3" tstamp="4" tstamp2="0m+4.7969"/>
+                                <slur xml:id="m-385" layer="1" staff="3" tstamp="4" tstamp2="1m+1"/>
                             </measure>
                             <measure xml:id="m-394" n="6">
                                 <staff xml:id="m-395" n="1">
                                     <layer xml:id="m-396" n="1">
-                                        <note xml:id="m-397"
-                                    dots="1"
-                                    dur="2"
-                                    oct="4"
-                                    pname="c"
-                                    pnum="60"
-                                    stem.dir="up">
+                                        <note xml:id="m-397" dots="1" dur="2" oct="4" pname="c" pnum="60" stem.dir="up">
                                             <verse xml:id="m-399" n="1">
                                                 <syl xml:id="m-400" wordpos="i">sea!</syl>
                                             </verse>
@@ -1066,12 +597,7 @@
                                                 <syl xml:id="m-406" wordpos="i">zu,</syl>
                                             </verse>
                                         </note>
-                                        <note xml:id="m-398"
-                                    dur="4"
-                                    oct="4"
-                                    pname="c"
-                                    pnum="60"
-                                    stem.dir="up">
+                                        <note xml:id="m-398" dur="4" oct="4" pname="c" pnum="60" stem.dir="up">
                                             <verse xml:id="m-407" n="1">
                                                 <syl xml:id="m-408" wordpos="i">The</syl>
                                             </verse>
@@ -1089,12 +615,7 @@
                                 </staff>
                                 <staff xml:id="m-415" n="2">
                                     <layer xml:id="m-416" n="1">
-                                        <tuplet xml:id="m-423"
-                                      endid="#m-425"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-417">
+                                        <tuplet xml:id="m-423" endid="#m-425" num="3" num.format="count" numbase="2" startid="#m-417">
                                             <beam xml:id="m-422">
                                                 <chord xml:id="m-417" dur="8" stem.dir="up">
                                                     <note xml:id="m-418" dur="8" oct="4" pname="e" pnum="63">
@@ -1103,12 +624,7 @@
                                                     <note xml:id="m-420" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-421" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-424"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-424" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-425" dur="8" stem.dir="up">
                                                     <note xml:id="m-426" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-427" accid.ges="f"/>
@@ -1118,19 +634,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-432"
-                                      endid="#m-438"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-430">
+                                        <tuplet xml:id="m-432" endid="#m-438" num="3" num.format="count" numbase="2" startid="#m-430">
                                             <beam xml:id="m-431">
-                                                <note xml:id="m-430"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-430" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-433" dur="8" stem.dir="up">
                                                     <note xml:id="m-434" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-435" accid.ges="f"/>
@@ -1138,20 +644,10 @@
                                                     <note xml:id="m-436" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-437" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-438"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-438" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-445"
-                                      endid="#m-447"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-439">
+                                        <tuplet xml:id="m-445" endid="#m-447" num="3" num.format="count" numbase="2" startid="#m-439">
                                             <beam xml:id="m-444">
                                                 <chord xml:id="m-439" dur="8" stem.dir="up">
                                                     <note xml:id="m-440" dur="8" oct="4" pname="e" pnum="63">
@@ -1160,12 +656,7 @@
                                                     <note xml:id="m-442" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-443" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-446"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-446" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-447" dur="8" stem.dir="up">
                                                     <note xml:id="m-448" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-449" accid.ges="f"/>
@@ -1175,19 +666,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-454"
-                                      endid="#m-460"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-452">
+                                        <tuplet xml:id="m-454" endid="#m-460" num="3" num.format="count" numbase="2" startid="#m-452">
                                             <beam xml:id="m-453">
-                                                <note xml:id="m-452"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-452" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-455" dur="8" stem.dir="up">
                                                     <note xml:id="m-456" dur="8" oct="4" pname="e" pnum="63">
                                                         <accid xml:id="m-457" accid.ges="f"/>
@@ -1195,50 +676,21 @@
                                                     <note xml:id="m-458" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-459" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-460"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-460" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-461" n="3">
                                     <layer xml:id="m-462" n="1">
-                                        <note xml:id="m-463"
-                                    artic="acc"
-                                    dur="4"
-                                    oct="3"
-                                    pname="a"
-                                    pnum="56"
-                                    stem.dir="down">
+                                        <note xml:id="m-463" artic="acc" dur="4" oct="3" pname="a" pnum="56" stem.dir="down">
                                             <accid xml:id="m-464" accid.ges="f"/>
                                         </note>
-                                        <note xml:id="m-465"
-                                    artic="acc"
-                                    dur="4"
-                                    oct="3"
-                                    pname="e"
-                                    pnum="51"
-                                    stem.dir="down">
+                                        <note xml:id="m-465" artic="acc" dur="4" oct="3" pname="e" pnum="51" stem.dir="down">
                                             <accid xml:id="m-466" accid.ges="f"/>
                                         </note>
-                                        <note xml:id="m-467"
-                                    artic="acc"
-                                    dur="4"
-                                    oct="3"
-                                    pname="c"
-                                    pnum="48"
-                                    stem.dir="up"/>
-                                        <note xml:id="m-468"
-                                    artic="acc"
-                                    dur="4"
-                                    oct="2"
-                                    pname="a"
-                                    pnum="44"
-                                    stem.dir="up">
+                                        <note xml:id="m-467" artic="acc" dur="4" oct="3" pname="c" pnum="48" stem.dir="up"/>
+                                        <note xml:id="m-468" artic="acc" dur="4" oct="2" pname="a" pnum="44" stem.dir="up">
                                             <accid xml:id="m-469" accid.ges="f"/>
                                         </note>
                                     </layer>
@@ -1248,12 +700,7 @@
                             <measure xml:id="m-470" n="7">
                                 <staff xml:id="m-472" n="1">
                                     <layer xml:id="m-473" n="1">
-                                        <note xml:id="m-474"
-                                    dur="4"
-                                    oct="4"
-                                    pname="f"
-                                    pnum="65"
-                                    stem.dir="up">
+                                        <note xml:id="m-474" dur="4" oct="4" pname="f" pnum="65" stem.dir="up">
                                             <verse xml:id="m-483" n="2">
                                                 <syl xml:id="m-484" con="d" wordpos="i">tem</syl>
                                             </verse>
@@ -1268,12 +715,7 @@
                                             </verse>
                                         </note>
                                         <beam xml:id="m-476">
-                                            <note xml:id="m-475"
-                                       dur="8"
-                                       oct="4"
-                                       pname="g"
-                                       pnum="67"
-                                       stem.dir="up">
+                                            <note xml:id="m-475" dur="8" oct="4" pname="g" pnum="67" stem.dir="up">
                                                 <verse xml:id="m-485" n="2">
                                                     <syl xml:id="m-486" wordpos="t">pest</syl>
                                                 </verse>
@@ -1287,12 +729,7 @@
                                                     <syl xml:id="m-504" con="d" wordpos="m">zi</syl>
                                                 </verse>
                                             </note>
-                                            <note xml:id="m-477"
-                                       dur="8"
-                                       oct="4"
-                                       pname="a"
-                                       pnum="68"
-                                       stem.dir="up">
+                                            <note xml:id="m-477" dur="8" oct="4" pname="a" pnum="68" stem.dir="up">
                                                 <accid xml:id="m-478" accid.ges="f"/>
                                                 <verse xml:id="m-495" n="1">
                                                     <syl xml:id="m-496" wordpos="t">man</syl>
@@ -1308,12 +745,7 @@
                                                 </verse>
                                             </note>
                                         </beam>
-                                        <note xml:id="m-479"
-                                    dur="4"
-                                    oct="4"
-                                    pname="g"
-                                    pnum="67"
-                                    stem.dir="up">
+                                        <note xml:id="m-479" dur="4" oct="4" pname="g" pnum="67" stem.dir="up">
                                             <verse xml:id="m-507" n="2">
                                                 <syl xml:id="m-508" wordpos="i">rage</syl>
                                             </verse>
@@ -1328,12 +760,7 @@
                                             </verse>
                                         </note>
                                         <beam xml:id="m-481">
-                                            <note xml:id="m-480"
-                                       dur="8"
-                                       oct="4"
-                                       pname="c"
-                                       pnum="60"
-                                       stem.dir="up">
+                                            <note xml:id="m-480" dur="8" oct="4" pname="c" pnum="60" stem.dir="up">
                                                 <verse xml:id="m-511" n="1">
                                                     <syl xml:id="m-512" wordpos="t">ly,</syl>
                                                 </verse>
@@ -1347,12 +774,7 @@
                                                     <syl xml:id="m-522" wordpos="t">me</syl>
                                                 </verse>
                                             </note>
-                                            <note xml:id="m-482"
-                                       dur="8"
-                                       oct="4"
-                                       pname="c"
-                                       pnum="60"
-                                       stem.dir="up">
+                                            <note xml:id="m-482" dur="8" oct="4" pname="c" pnum="60" stem.dir="up">
                                                 <verse xml:id="m-523" n="1">
                                                     <syl xml:id="m-524" wordpos="i">the</syl>
                                                 </verse>
@@ -1371,12 +793,7 @@
                                 </staff>
                                 <staff xml:id="m-531" n="2">
                                     <layer xml:id="m-532" n="1">
-                                        <tuplet xml:id="m-539"
-                                      endid="#m-541"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-533">
+                                        <tuplet xml:id="m-539" endid="#m-541" num="3" num.format="count" numbase="2" startid="#m-533">
                                             <beam xml:id="m-538">
                                                 <chord xml:id="m-533" dur="8" stem.dir="up">
                                                     <note xml:id="m-534" dur="8" oct="4" pname="f" pnum="65"/>
@@ -1385,12 +802,7 @@
                                                     </note>
                                                     <note xml:id="m-537" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-540"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-540" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-541" dur="8" stem.dir="up">
                                                     <note xml:id="m-542" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-543" dur="8" oct="4" pname="a" pnum="68">
@@ -1400,19 +812,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-548"
-                                      endid="#m-554"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-546">
+                                        <tuplet xml:id="m-548" endid="#m-554" num="3" num.format="count" numbase="2" startid="#m-546">
                                             <beam xml:id="m-547">
-                                                <note xml:id="m-546"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-546" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-549" dur="8" stem.dir="up">
                                                     <note xml:id="m-550" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-551" dur="8" oct="4" pname="a" pnum="68">
@@ -1420,20 +822,10 @@
                                                     </note>
                                                     <note xml:id="m-553" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-554"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-554" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-562"
-                                      endid="#m-564"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-555">
+                                        <tuplet xml:id="m-562" endid="#m-564" num="3" num.format="count" numbase="2" startid="#m-555">
                                             <beam xml:id="m-561">
                                                 <chord xml:id="m-555" dur="8" stem.dir="up">
                                                     <note xml:id="m-556" dur="8" oct="4" pname="e" pnum="64">
@@ -1444,12 +836,7 @@
                                                     </note>
                                                     <note xml:id="m-560" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-563"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-563" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-564" dur="8" stem.dir="up">
                                                     <note xml:id="m-565" dur="8" oct="4" pname="e" pnum="64">
                                                         <accid xml:id="m-566" accid="n" func="caution"/>
@@ -1461,19 +848,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-572"
-                                      endid="#m-579"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-570">
+                                        <tuplet xml:id="m-572" endid="#m-579" num="3" num.format="count" numbase="2" startid="#m-570">
                                             <beam xml:id="m-571">
-                                                <note xml:id="m-570"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-570" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-573" dur="8" stem.dir="up">
                                                     <note xml:id="m-574" dur="8" oct="4" pname="e" pnum="64">
                                                         <accid xml:id="m-575" accid="n" func="caution"/>
@@ -1483,86 +860,34 @@
                                                     </note>
                                                     <note xml:id="m-578" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-579"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-579" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-580" n="3">
                                     <layer xml:id="m-581" n="1">
-                                        <note xml:id="m-582"
-                                    dots="1"
-                                    dur="4"
-                                    oct="2"
-                                    pname="f"
-                                    pnum="41"
-                                    stem.dir="up"/>
+                                        <note xml:id="m-582" dots="1" dur="4" oct="2" pname="f" pnum="41" stem.dir="up"/>
                                         <beam xml:id="m-585">
-                                            <note xml:id="m-584"
-                                       dur="32"
-                                       oct="2"
-                                       pname="f"
-                                       pnum="41"
-                                       stem.dir="up"/>
-                                            <note xml:id="m-586"
-                                       dur="32"
-                                       oct="2"
-                                       pname="g"
-                                       pnum="43"
-                                       stem.dir="up"/>
-                                            <note xml:id="m-587"
-                                       dur="32"
-                                       oct="2"
-                                       pname="a"
-                                       pnum="44"
-                                       stem.dir="up">
+                                            <note xml:id="m-584" dur="32" oct="2" pname="f" pnum="41" stem.dir="up"/>
+                                            <note xml:id="m-586" dur="32" oct="2" pname="g" pnum="43" stem.dir="up"/>
+                                            <note xml:id="m-587" dur="32" oct="2" pname="a" pnum="44" stem.dir="up">
                                                 <accid xml:id="m-588" accid.ges="f"/>
                                             </note>
-                                            <note xml:id="m-589"
-                                       dur="32"
-                                       oct="2"
-                                       pname="b"
-                                       pnum="46"
-                                       stem.dir="up">
+                                            <note xml:id="m-589" dur="32" oct="2" pname="b" pnum="46" stem.dir="up">
                                                 <accid xml:id="m-590" accid.ges="f"/>
                                             </note>
                                         </beam>
-                                        <note xml:id="m-591"
-                                    artic="acc"
-                                    dur="4"
-                                    oct="3"
-                                    pname="c"
-                                    pnum="48"
-                                    stem.dir="up"/>
-                                        <note xml:id="m-592"
-                                    artic="acc"
-                                    dur="4"
-                                    oct="2"
-                                    pname="g"
-                                    pnum="43"
-                                    stem.dir="up"/>
+                                        <note xml:id="m-591" artic="acc" dur="4" oct="3" pname="c" pnum="48" stem.dir="up"/>
+                                        <note xml:id="m-592" artic="acc" dur="4" oct="2" pname="g" pnum="43" stem.dir="up"/>
                                     </layer>
                                 </staff>
-                                <slur xml:id="m-583"
-                              layer="1"
-                              staff="3"
-                              tstamp="2.5"
-                              tstamp2="0m+3"/>
+                                <slur xml:id="m-583" layer="1" staff="3" tstamp="2.5" tstamp2="0m+3"/>
                             </measure>
                             <measure xml:id="m-593" n="8" right="end">
                                 <staff xml:id="m-594" n="1">
                                     <layer xml:id="m-595" n="1">
-                                        <note xml:id="m-596"
-                                    dur="4"
-                                    oct="4"
-                                    pname="g"
-                                    pnum="67"
-                                    stem.dir="up">
+                                        <note xml:id="m-596" dur="4" oct="4" pname="g" pnum="67" stem.dir="up">
                                             <verse xml:id="m-604" n="1">
                                                 <syl xml:id="m-605" con="d" wordpos="i">bel</syl>
                                             </verse>
@@ -1577,12 +902,7 @@
                                             </verse>
                                         </note>
                                         <beam xml:id="m-599">
-                                            <note xml:id="m-597"
-                                       dur="8"
-                                       oct="4"
-                                       pname="a"
-                                       pnum="68"
-                                       stem.dir="up">
+                                            <note xml:id="m-597" dur="8" oct="4" pname="a" pnum="68" stem.dir="up">
                                                 <accid xml:id="m-598" accid.ges="f"/>
                                                 <verse xml:id="m-606" n="1">
                                                     <syl xml:id="m-607" wordpos="t">lows</syl>
@@ -1597,12 +917,7 @@
                                                     <syl xml:id="m-625" con="d" wordpos="m">sen</syl>
                                                 </verse>
                                             </note>
-                                            <note xml:id="m-600"
-                                       dur="8"
-                                       oct="4"
-                                       pname="b"
-                                       pnum="70"
-                                       stem.dir="up">
+                                            <note xml:id="m-600" dur="8" oct="4" pname="b" pnum="70" stem.dir="up">
                                                 <accid xml:id="m-601" accid.ges="f"/>
                                                 <verse xml:id="m-612" n="1">
                                                     <syl xml:id="m-613" wordpos="i">speeds</syl>
@@ -1618,12 +933,7 @@
                                                 </verse>
                                             </note>
                                         </beam>
-                                        <note xml:id="m-602"
-                                    dur="2"
-                                    oct="4"
-                                    pname="a"
-                                    pnum="68"
-                                    stem.dir="up">
+                                        <note xml:id="m-602" dur="2" oct="4" pname="a" pnum="68" stem.dir="up">
                                             <accid xml:id="m-603" accid.ges="f"/>
                                             <verse xml:id="m-628" n="1">
                                                 <syl xml:id="m-629" wordpos="i">ov'r</syl>
@@ -1642,12 +952,7 @@
                                 </staff>
                                 <staff xml:id="m-636" n="2">
                                     <layer xml:id="m-637" n="1">
-                                        <tuplet xml:id="m-644"
-                                      endid="#m-646"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-638">
+                                        <tuplet xml:id="m-644" endid="#m-646" num="3" num.format="count" numbase="2" startid="#m-638">
                                             <beam xml:id="m-643">
                                                 <chord xml:id="m-638" dur="8" stem.dir="up">
                                                     <note xml:id="m-639" dur="8" oct="4" pname="g" pnum="67"/>
@@ -1656,12 +961,7 @@
                                                     </note>
                                                     <note xml:id="m-642" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-645"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-645" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-646" dur="8" stem.dir="up">
                                                     <note xml:id="m-647" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-648" dur="8" oct="4" pname="b" pnum="70">
@@ -1671,19 +971,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-653"
-                                      endid="#m-659"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-651">
+                                        <tuplet xml:id="m-653" endid="#m-659" num="3" num.format="count" numbase="2" startid="#m-651">
                                             <beam xml:id="m-652">
-                                                <note xml:id="m-651"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-651" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-654" dur="8" stem.dir="up">
                                                     <note xml:id="m-655" dur="8" oct="4" pname="g" pnum="67"/>
                                                     <note xml:id="m-656" dur="8" oct="4" pname="b" pnum="70">
@@ -1691,20 +981,10 @@
                                                     </note>
                                                     <note xml:id="m-658" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-659"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-659" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-666"
-                                      endid="#m-668"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-660">
+                                        <tuplet xml:id="m-666" endid="#m-668" num="3" num.format="count" numbase="2" startid="#m-660">
                                             <beam xml:id="m-665">
                                                 <chord xml:id="m-660" dur="8" stem.dir="up">
                                                     <note xml:id="m-661" dur="8" oct="4" pname="f" pnum="65"/>
@@ -1713,12 +993,7 @@
                                                     </note>
                                                     <note xml:id="m-664" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-667"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-667" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-668" dur="8" stem.dir="up">
                                                     <note xml:id="m-669" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-670" dur="8" oct="4" pname="a" pnum="68">
@@ -1728,19 +1003,9 @@
                                                 </chord>
                                             </beam>
                                         </tuplet>
-                                        <tuplet xml:id="m-675"
-                                      endid="#m-681"
-                                      num="3"
-                                      num.format="count"
-                                      numbase="2"
-                                      startid="#m-673">
+                                        <tuplet xml:id="m-675" endid="#m-681" num="3" num.format="count" numbase="2" startid="#m-673">
                                             <beam xml:id="m-674">
-                                                <note xml:id="m-673"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-673" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                                 <chord xml:id="m-676" dur="8" stem.dir="up">
                                                     <note xml:id="m-677" dur="8" oct="4" pname="f" pnum="65"/>
                                                     <note xml:id="m-678" dur="8" oct="4" pname="a" pnum="68">
@@ -1748,82 +1013,31 @@
                                                     </note>
                                                     <note xml:id="m-680" dur="8" oct="5" pname="c" pnum="72"/>
                                                 </chord>
-                                                <note xml:id="m-681"
-                                          dur="8"
-                                          oct="4"
-                                          pname="c"
-                                          pnum="60"
-                                          stem.dir="up"/>
+                                                <note xml:id="m-681" dur="8" oct="4" pname="c" pnum="60" stem.dir="up"/>
                                             </beam>
                                         </tuplet>
                                     </layer>
                                 </staff>
                                 <staff xml:id="m-682" n="3">
                                     <layer xml:id="m-683" n="1">
-                                        <note xml:id="m-684"
-                                    dur="4"
-                                    oct="2"
-                                    pname="e"
-                                    pnum="40"
-                                    stem.dir="up">
+                                        <note xml:id="m-684" dur="4" oct="2" pname="e" pnum="40" stem.dir="up">
                                             <accid xml:id="m-685" accid="n"/>
                                         </note>
                                         <beam xml:id="m-689">
-                                            <note xml:id="m-686"
-                                       dur="8"
-                                       oct="2"
-                                       pname="c"
-                                       pnum="36"
-                                       stem.dir="up"/>
-                                            <tuplet xml:id="m-690"
-                                         endid="#m-692"
-                                         num="3"
-                                         num.format="count"
-                                         numbase="2"
-                                         startid="#m-688">
-
-                                                <note xml:id="m-688"
-                                          dur="16"
-                                          oct="2"
-                                          pname="c"
-                                          pnum="36"
-                                          stem.dir="up"/>
-                                                <note xml:id="m-691"
-                                          dur="16"
-                                          oct="2"
-                                          pname="d"
-                                          pnum="38"
-                                          stem.dir="up"/>
-                                                <note xml:id="m-692"
-                                          dur="16"
-                                          oct="2"
-                                          pname="e"
-                                          pnum="40"
-                                          stem.dir="up">
+                                            <note xml:id="m-686" dur="8" oct="2" pname="c" pnum="36" stem.dir="up"/>
+                                            <tuplet xml:id="m-690" endid="#m-692" num="3" num.format="count" numbase="2" startid="#m-688">
+                                                <note xml:id="m-688" dur="16" oct="2" pname="c" pnum="36" stem.dir="up"/>
+                                                <note xml:id="m-691" dur="16" oct="2" pname="d" pnum="38" stem.dir="up"/>
+                                                <note xml:id="m-692" dur="16" oct="2" pname="e" pnum="40" stem.dir="up">
                                                     <accid xml:id="m-693" accid="n"/>
                                                 </note>
-
                                             </tuplet>
                                         </beam>
-                                        <note xml:id="m-694"
-                                    dur="4"
-                                    oct="2"
-                                    pname="f"
-                                    pnum="41"
-                                    stem.dir="up"/>
-                                        <note xml:id="m-695"
-                                    dur="4"
-                                    oct="3"
-                                    pname="f"
-                                    pnum="53"
-                                    stem.dir="down"/>
+                                        <note xml:id="m-694" dur="4" oct="2" pname="f" pnum="41" stem.dir="up"/>
+                                        <note xml:id="m-695" dur="4" oct="3" pname="f" pnum="53" stem.dir="down"/>
                                     </layer>
                                 </staff>
-                                <slur xml:id="m-687"
-                              layer="1"
-                              staff="3"
-                              tstamp="2.5"
-                              tstamp2="0m+3"/>
+                                <slur xml:id="m-687" layer="1" staff="3" tstamp="2.5" tstamp2="0m+3"/>
                             </measure>
                         </section>
                     </score>
@@ -1831,12 +1045,12 @@
                 <perfMedium>
                     <perfResList>
                         <perfRes count="1" solo="true" codedval="voice">
-                     <range>
-                        <rangeNote pname="c" oct="4" type="lowest"/>
-                        <rangeNote pname="e" oct="5" type="highest"/>
-                        <rangeNote pname="f" oct="5" type="highestAlt"/>
-                     </range>
-                  </perfRes>
+                            <range>
+                                <rangeNote pname="c" oct="4" type="lowest"/>
+                                <rangeNote pname="e" oct="5" type="highest"/>
+                                <rangeNote pname="f" oct="5" type="highestAlt"/>
+                            </range>
+                        </perfRes>
                         <!-- Singstimme -->
                         <perfRes count="1" codedval="piano"/>
                         <!-- Klavier -->
@@ -1851,9 +1065,9 @@
                 <identifier type="D-KA">Mus. Hs. 1313</identifier>
                 <titleStmt>
                     <title>
-                  <titlePart type="main" xml:id="baudi-01-ede79baf-titleMain">The Distand Strand.</titlePart>
+                        <titlePart type="main" xml:id="baudi-01-ede79baf-titleMain">The Distand Strand.</titlePart>
                         <titlePart type="subordinate" xml:id="baudi-01-ede79baf-titleSub">(Am fernen Strand.)</titlePart>
-               </title>
+                    </title>
                     <composer xml:id="baudi-01-ede79baf-composer">
                         <ref target="baudi-04-5e3ed698">Ludwig Baumann</ref>
                     </composer>
@@ -1861,7 +1075,6 @@
                     <lyricist xml:id="baudi-01-ede79baf-lyricist">
                         <ref target="baudi-04-f7902fb2">Willi Birger</ref>
                     </lyricist>
-
                 </titleStmt>
                 <physDesc>
                     <p><!--	<date
@@ -1880,14 +1093,10 @@
                         <hand label="NW 1r BiblVermerk" medium="Bleistift">Musik Hs. 1313</hand>
                         <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
                     </handList>
-               <handList>
-                  <hand type="composer"
-                        medium="pencilBlue"
-                        xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="biblNote"
-                        medium="pencil"
-                        xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
+                    <handList>
+                        <hand type="composer" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                    </handList>
                     <condition n="1">
                         <date isodate="2018-02-05" type="desc" resp="dried"/>
                         <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
@@ -1897,10 +1106,9 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">Mus. Hs. 1313</identifier>
                     </repository>
-
                 </physLoc>
                 <history><!-- <eventList/> --></history>
                 <langUsage>
@@ -1925,8 +1133,7 @@
                     <annot n="1" when="2018-02-05" label="dried">Englischer und deutscher Text. Brinzing spricht hier von
                         C-Dur</annot>
                     <annot plist="stamp S-oriented 1r 2v" corresp="#baudi-01-ede79baf-physMedium">L.B./Karlsruhe</annot>
-                    <annot plist="paperTypeNote SW-oriented"
-                      corresp="#baudi-01-ede79baf-physMedium">C. A. Klemm./C.No.6.</annot>
+                    <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-ede79baf-physMedium">C. A. Klemm./C.No.6.</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -1936,13 +1143,12 @@
                     </termList>
                 </classification>
                 <itemList>
-                    <item label="textbezug"
-                     target="https://www.volksliederarchiv.de/wild-flutet-der-see-masuren/">
+                    <item label="textbezug" target="https://www.volksliederarchiv.de/wild-flutet-der-see-masuren/">
                         <notesStmt>
                             <annot>Ludwig Baumann <lb/>
                                 <rend rend="strike">Karlsruhe</rend> B. Baden, Fremersbergstr 3 <lb/>
                                 <rend rend="strike">Sofienstrasse 152</rend>
-                     </annot>
+                            </annot>
                             <annot>Wild flutet der See (Masuren) aus <ref target="https://www.volksliederarchiv.de/lexikon/liederbuch-postverband/">Liederuch
                                     Postverband (1898)</ref>
                             </annot>
@@ -1978,35 +1184,19 @@
     </meiHead>
     <music>
         <facsimile label="blb-vlid-3299928">
-            
-            
-            
-            
-        <surface xml:id="baudi-01-ede79baf-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="3300457"
-                     xml:id="baudi-01-ede79baf-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ede79baf-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="3300458"
-                     xml:id="baudi-01-ede79baf-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ede79baf-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="3300459"
-                     xml:id="baudi-01-ede79baf-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ede79baf-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="3300460"
-                     xml:id="baudi-01-ede79baf-00-0004"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-ede79baf-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="3300457" xml:id="baudi-01-ede79baf-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ede79baf-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="3300458" xml:id="baudi-01-ede79baf-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ede79baf-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="3300459" xml:id="baudi-01-ede79baf-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ede79baf-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="3300460" xml:id="baudi-01-ede79baf-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi_20_d83d0412" label="The Distand Strand">
                 <score>
