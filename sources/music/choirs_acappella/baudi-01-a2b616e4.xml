@@ -1,4 +1,6 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-a2b616e4" status="proposed">
     <meiHead>
         <fileDesc>
@@ -6,7 +8,8 @@
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-a2b616e4-titleUniMainDE">Der brave Küferknecht</titlePart>
                 </title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -22,7 +25,7 @@
                 </title>
                 <composer>Ludwig Baumann?</composer>
                 <lyricist>
-                    <persName>Franz Mäding</persName>
+                    <persName codedval="baudi-04-a30d410a">Franz Mäding</persName>
                 </lyricist>
                 <key pname="a" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
@@ -53,7 +56,7 @@
                     </title>
                     <composer>Ludwig Baumann?</composer>
                     <lyricist>
-                        <persName>Franz Mäding</persName>
+                        <persName codedval="baudi-04-a30d410a">Franz Mäding</persName>
                     </lyricist>
                 </titleStmt>
                 <editionStmt>

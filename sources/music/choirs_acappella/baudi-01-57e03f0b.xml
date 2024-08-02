@@ -1,10 +1,13 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-57e03f0b" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Am Brunnen</title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
@@ -74,8 +77,8 @@
                                 <fig>
                                     <figDesc>Brunnen, direkt daneben ein Baum, darunter eine Sitzbank.</figDesc>
                                 </fig>
-                                <lb/>Gedicht von <persName>Richard Graebener</persName>
-                                <lb/> für Männerchor von <persName>Ludwig Baumann</persName>
+                                <lb/>Gedicht von <persName codedval="baudi-04-e9b662d5">Richard Graebener</persName>
+                                <lb/> für Männerchor von <persName codedval="baudi-04-df0e0ed9">Ludwig Baumann</persName>
                             </rend>
                         </p>
                     </titlePage>

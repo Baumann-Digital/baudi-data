@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-69166e46" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Grenzen der Menscheit</title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
@@ -46,7 +49,7 @@
                         <titlePart type="perf" xml:id="baudi-01-69166e46-titleSub">für 4-stimmigen Männerchor und Blasorchester (3 Trompeten, 4 Hörner, 3 Posaunen, Tuba, Pauken und ORgel, wenn keine Orgel vorhanden, treten 8 Holzbläser an deren Stelle) und Orgel- oder Klavierbegleitung, ev. beides zusammen</titlePart>
                     </title>
                     <lyricist>
-                        <persName>Johann Wolfgang Goethe</persName>
+                        <persName codedval="baudi-04-f4848295">Johann Wolfgang Goethe</persName>
                     </lyricist>
                     <composer xml:id="baudi-01-69166e46-composer">
                         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>

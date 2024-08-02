@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-d6bd173e">
     <identifier type="baudi-copy">CMVS-HH-58</identifier>
     <title type="uniform" xml:id="baudi-02-d6bd173e-title">
         <titlePart type="main" xml:id="baudi-02-d6bd173e-titleMain">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-d6bd173e-titleMainSort">Grüß dich, Deutschland, aus Herzensgrund</titlePart>
         <titlePart type="dedication">Dem <corpName>»Arion« <settlement>Brooklyn N.-Y.</settlement>
-            </corpName> und seinem Dirigenten <persName role="conductor">Herrn Heinz Fröhlich</persName> gewidmet.</titlePart>
+            </corpName> und seinem Dirigenten <persName role="conductor" codedval="baudi-04-e204fa10">Herrn Heinz Fröhlich</persName> gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-d6bd173e-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
     <lyricist xml:id="baudi-02-d6bd173e-lyricist">
-        <persName>Joseph von Eichendorff</persName>
+        <persName codedval="baudi-04-e907e49d">Joseph von Eichendorff</persName>
     </lyricist>
     <key pname="b" accid="f" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
@@ -20,7 +21,8 @@
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1926">1926</date></p>
+        <p>Erschienen <date isodate="1926">1926</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

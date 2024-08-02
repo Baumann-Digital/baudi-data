@@ -1,4 +1,6 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-99d2cf0e" status="proposed">
     <meiHead>
         <fileDesc>
@@ -6,7 +8,8 @@
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-99d2cf0e-titleUniMainDE">Ave Maria.</titlePart>
                 </title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -25,7 +28,7 @@
                     <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist>
-                    <persName>Franz Wildt</persName>
+                    <persName codedval="baudi-04-0133021b">Franz Wildt</persName>
                 </lyricist>
                 <key pname="f" mode="major"/>
                 <meter count="4" unit="4"/>
@@ -59,7 +62,7 @@
                     </composer>
                     <lyricist xml:id="baudi-01-99d2cf0e-lyricist">
                         <persName codedval="baudi-04-35c9a190">
-                            <persName>Franz Wildt</persName>
+                            <persName codedval="baudi-04-0133021b">Franz Wildt</persName>
                         </persName>
                     </lyricist>
                 </titleStmt>
@@ -76,7 +79,7 @@
                             </pubPlace>
                             <date>1910</date>
                             <dedicatee>Dem <corpName>Gesangverein KONKORDIA <settlement codedval="baudi-06-ba166af7">Karlsruhe</settlement>
-                                </corpName> und seinem verdienten Chormeister <persName role="choirMaster">HEINRICH LECHNER</persName> gewidmet.</dedicatee>
+                                </corpName> und seinem verdienten Chormeister <persName role="choirMaster" codedval="baudi-04-54b6cd70">HEINRICH LECHNER</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
                 </editionStmt>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-a569dba5">
     <identifier type="baudi-copy">BLB-SMV-2</identifier>
     <title type="uniform" xml:id="baudi-02-a569dba5-title">
@@ -12,7 +13,7 @@
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </arranger>
     <lyricist xml:id="baudi-02-a569dba5-lyricist">
-        <persName>Ferdinand Dietz</persName>
+        <persName codedval="baudi-04-50ce65b4">Ferdinand Dietz</persName>
     </lyricist>
     <key pname="c" mode="major"/>
     <meter count="4" unit="4"/>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-1d8eab38">
     <identifier type="baudi-copy">BLB-HH-5</identifier>
     <title type="uniform" xml:id="baudi-13-1d8eab38-title">
@@ -11,7 +12,7 @@
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
     <lyricist xml:id="baudi-13-1d8eab38-lyricist">
-        <persName>Georg Türk</persName>
+        <persName codedval="baudi-04-7f51d2ea">Georg Türk</persName>
     </lyricist>
     <key pname="f" mode="major"/>
     <meter count="4" unit="4"/>

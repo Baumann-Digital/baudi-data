@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-11e94e4e">
     <identifier type="baudi-copy">CMVS-HH-45</identifier>
     <title type="uniform" xml:id="baudi-02-11e94e4e-title">
@@ -8,14 +9,17 @@
         <titlePart type="subordinate" xml:id="baudi-02-11e94e4e-titleSub">Eine lustige Ballade</titlePart>
     </title>
     <composer xml:id="baudi-02-11e94e4e-composer" cert="medium">Ludwig Baumann</composer>
-    <lyricist xml:id="baudi-02-11e94e4e-lyricist"><persName>Franz Mäding</persName></lyricist>
+    <lyricist xml:id="baudi-02-11e94e4e-lyricist">
+        <persName codedval="baudi-04-a30d410a">Franz Mäding</persName>
+    </lyricist>
     <key pname="a" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Frisch und munter.</tempo>
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1914">1914</date></p>
+        <p>Erschienen <date isodate="1914">1914</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-aff02b83">
     <identifier type="baudi-copy">BLB-Andre-4</identifier>
     <title type="uniform" xml:id="baudi-02-aff02b83-title">
@@ -14,7 +15,7 @@
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </arranger>
     <lyricist xml:id="baudi-02-aff02b83-lyricist">
-        <persName>Franz Wildt</persName>
+        <persName codedval="baudi-04-0133021b">Franz Wildt</persName>
     </lyricist>
     <key pname="f" mode="major"/>
     <meter count="2" unit="4"/>

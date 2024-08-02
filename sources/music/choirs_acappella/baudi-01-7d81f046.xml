@@ -1,11 +1,15 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-7d81f046" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7d81f046-titleUniMainDE">Herziges Schatzerl.</titlePart></title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-7d81f046-titleUniMainDE">Herziges Schatzerl.</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -18,10 +22,15 @@
                     <titlePart type="number" codedval="opus">96b</titlePart>
                     <titlePart type="mainSort">Herziges Schatzerl</titlePart>
                     <titlePart type="subordinate"/>
-                    <titlePart type="perfmedium"/></title>
+                    <titlePart type="perfmedium"/>
+                </title>
                 <composer>Volksweise</composer>
-                <arranger><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
-                <lyricist><persName>Volksweise</persName></lyricist>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </arranger>
+                <lyricist>
+                    <persName>Volksweise</persName>
+                </lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Leicht bewegt.</tempo>
@@ -45,13 +54,36 @@
                 <titleStmt>
                     <title>
                         <titlePart type="main" xml:id="baudi-01-7d81f046-titleMain">Herziges Schatzerl.</titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-7d81f046-titleSub"/></title>
-                    <composer xml:id="baudi-01-7d81f046-composer"><persName codedval="baudi-04-5e3ed698">Volksweise</persName></composer>
-                    <arranger><persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName></arranger>
-                    <lyricist xml:id="baudi-01-7d81f046-lyricist"><persName codedval="baudi-04-35c9a190"><persName>Volksweise</persName></persName></lyricist>
+                        <titlePart type="subordinate" xml:id="baudi-01-7d81f046-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-7d81f046-composer">
+                        <persName codedval="baudi-04-5e3ed698">Volksweise</persName>
+                    </composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist xml:id="baudi-01-7d81f046-lyricist">
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName>Volksweise</persName>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Herziges Schatzerl.</title><bibl><identifier>H.50 K.</identifier><publisher><corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName></publisher><pubPlace><settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee><persName role="musicalDirector">Herrn Musikdirektor Louis Baldas</persName> freundlichst gewidmet.</dedicatee></bibl></edition>
+                    <edition>
+                        <title>Herziges Schatzerl.</title>
+                        <bibl>
+                            <identifier>H.50 K.</identifier>
+                            <publisher>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>
+                                <persName role="musicalDirector" codedval="baudi-04-84fbfcc5">Herrn Musikdirektor Louis Baldas</persName> freundlichst gewidmet.</dedicatee>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
                     <dimensions label="height" unit="mm">170</dimensions>
@@ -70,7 +102,9 @@
                     <plateNum n="50">H.50 K.</plateNum>
                 </physDesc>
                 <physLoc>
-                    <repository><corpName>Chormusikverlag Seebold, St. Augustin</corpName></repository>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation/>
                 <history/>
@@ -97,7 +131,11 @@
                 </relationList>
             </manifestation>
         </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"><tei:person><tei:persName/></tei:person></extMeta>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
             <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
