@@ -10,7 +10,7 @@ declare option saxon:output "omit-xml-declaration=no";
 declare option saxon:output "indent=yes";
 declare option saxon:output "saxon:line-length=10000";
 
-<places>{
+<places>{functx:distinct-deep(
 (: Aufrufen aller Sammlungen. Der Teil '?select=*xml;recurse=yes' muss stehen bleiben! :)
 let $collPlaces := collection('../loci?select=*.xml;recurse=yes')/tei:place
 let $dbPlaceNames := $collPlaces/tei:placeName[1]
@@ -38,4 +38,4 @@ for $document at $n in $collToAddKeys
 	       order by $Elem/text()
 	       return
 	           $Elem
-}</places>
+)}</places>

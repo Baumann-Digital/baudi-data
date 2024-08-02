@@ -1,4 +1,6 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-f0de78bd" status="proposed">
     <meiHead>
         <fileDesc>
@@ -6,7 +8,8 @@
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-f0de78bd-titleUniMainDE">Schön Astrid</titlePart>
                 </title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -72,7 +75,7 @@
                                 <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1926</date>
-                            <dedicatee>Dem <corpName>Männergesangverein »Harmonie« <settlement>Worms</settlement>
+                            <dedicatee>Dem <corpName>Männergesangverein »Harmonie« <settlement codedval="baudi-06-b4ddff19">Worms</settlement>
                                 </corpName> und seinem Chormeister, <persName role="choirMaster">Herrn Georg Dommershauser</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>

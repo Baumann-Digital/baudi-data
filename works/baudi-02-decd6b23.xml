@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-decd6b23">
     <identifier type="baudi-copy">CMVS-HH-60</identifier>
     <title type="uniform" xml:id="baudi-02-decd6b23-title">
         <titlePart type="main" xml:id="baudi-02-decd6b23-titleMain">Schön Astrid</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-decd6b23-titleMainSort">Schoen Astrid</titlePart>
-        <titlePart type="dedication">Dem <corpName>Männergesangverein »Harmonie« <settlement>Worms</settlement>
+        <titlePart type="dedication">Dem <corpName>Männergesangverein »Harmonie« <settlement codedval="baudi-06-b4ddff19">Worms</settlement>
             </corpName> und seinem Chormeister, <persName role="choirMaster" codedval="baudi-04-566d177b">Herrn Georg Dommershauser</persName> gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-decd6b23-composer">
@@ -20,7 +21,8 @@
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1926">1926</date></p>
+        <p>Erschienen <date isodate="1926">1926</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-ad159d95">
     <identifier type="baudi-copy">CMVS-HH-4</identifier>
     <title type="uniform">
         <titlePart type="main">Morgenhymne im Frühling</titlePart>
         <titlePart type="number" codedval="opus">50</titlePart>
         <titlePart type="mainSort">Morgenhymne im Fruehling</titlePart>
-        <titlePart type="dedication">Dem <corpName>»Männergesangverein <settlement>Seckenheim</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-444d51b4">Herrn Philipp Stein</persName>, gewidmet.</titlePart>
+        <titlePart type="dedication">Dem <corpName>»Männergesangverein <settlement codedval="baudi-06-16791bb5">Seckenheim</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-444d51b4">Herrn Philipp Stein</persName>, gewidmet.</titlePart>
     </title>
     <composer>
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -20,7 +21,8 @@
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1906">1906</date></p>
+        <p>Erschienen <date isodate="1906">1906</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

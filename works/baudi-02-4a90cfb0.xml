@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-4a90cfb0">
     <identifier type="baudi-copy">CMVS-HH-57</identifier>
     <title type="uniform" xml:id="baudi-02-4a90cfb0-title">
         <titlePart type="main" xml:id="baudi-02-4a90cfb0-titleMain">Die Alpennacht</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-4a90cfb0-titleMainSort">Alpennacht</titlePart>
-        <titlePart type="dedication">Dem <corpName>»<settlement>Mümling-Gau</settlement>«</corpName> und seinem Dirigenten, <persName role="conductor">Herrn Göbel</persName> gewidmet.</titlePart>
+        <titlePart type="dedication">Dem <corpName>»<settlement codedval="baudi-06-ba47e315">Mümling-Gau</settlement>«</corpName> und seinem Dirigenten, <persName role="conductor">Herrn Göbel</persName> gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-4a90cfb0-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -19,7 +20,8 @@
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1926">1926</date></p>
+        <p>Erschienen <date isodate="1926">1926</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

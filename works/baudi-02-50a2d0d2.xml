@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-50a2d0d2">
     <identifier type="baudi-copy">CMVS-HH-62</identifier>
     <title type="uniform" xml:id="baudi-02-50a2d0d2-title">
         <titlePart type="main" xml:id="baudi-02-50a2d0d2-titleMain">An den Hochwald</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-50a2d0d2-titleMainSort">An den Hochwald</titlePart>
-        <titlePart type="dedication">Dem <corpName>Männergesangverein <settlement>Weiskirchen</settlement></corpName> und seinem Dirigenten, <persName role="conductor">Herrn N. Barth</persName>, gewidmet.</titlePart>
+        <titlePart type="dedication">Dem <corpName>Männergesangverein <settlement codedval="baudi-06-5baa36a3">Weiskirchen</settlement>
+            </corpName> und seinem Dirigenten, <persName role="conductor">Herrn N. Barth</persName>, gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-50a2d0d2-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>

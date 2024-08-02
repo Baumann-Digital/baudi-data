@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-c65e3482">
     <identifier type="baudi-copy">CMVS-HH-46</identifier>
     <title type="uniform" xml:id="baudi-02-c65e3482-title">
         <titlePart type="main" xml:id="baudi-02-c65e3482-titleMain">König Nornegast</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-c65e3482-titleMainSort">Koenig Nornegast</titlePart>
-        <titlePart type="dedication">Dem <corpName>Gesangverein Konkordia <settlement>Frankfurt a/M-Eschersheim</settlement>
+        <titlePart type="dedication">Dem <corpName>Gesangverein Konkordia <settlement codedval="baudi-06-7c57d8b9">Frankfurt a/M-Eschersheim</settlement>
             </corpName> und seinem Dirigenten <persName role="conductor" codedval="baudi-04-4b2e963b">Herrn Musikdirektor HEINRICH GRASS</persName>
-            <settlement>Frankfurt a/M</settlement> gewidmet.</titlePart>
+            <settlement codedval="baudi-06-cadfbf6b">Frankfurt a/M</settlement> gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-c65e3482-composer">
         <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
@@ -21,7 +22,8 @@
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1914">1914</date></p>
+        <p>Erschienen <date isodate="1914">1914</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>

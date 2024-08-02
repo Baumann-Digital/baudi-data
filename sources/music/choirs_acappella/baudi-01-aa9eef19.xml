@@ -1,4 +1,6 @@
-<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-aa9eef19" status="proposed">
     <meiHead>
         <fileDesc>
@@ -6,7 +8,8 @@
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-aa9eef19-titleUniMainDE">Arbeitskameraden</titlePart>
                 </title>
-            <editor xml:id="dried">Dennis Ried</editor></titleStmt>
+                <editor xml:id="dried">Dennis Ried</editor>
+            </titleStmt>
             <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
@@ -67,8 +70,8 @@
                             </pubPlace>
                             <date>1937</date>
                             <dedicatee>
-                                <persName>Herrn Musikdirektor Kurt Layher-<settlement>Säckingen</settlement>
-                                </persName> und seinem <corpName>Männergesangverein »Liederkranz« <settlement>Wehr</settlement>
+                                <persName>Herrn Musikdirektor Kurt Layher-<settlement codedval="baudi-06-80c04255">Säckingen</settlement>
+                                </persName> und seinem <corpName>Männergesangverein »Liederkranz« <settlement codedval="baudi-06-30a688ff">Wehr</settlement>
                                 </corpName>, zur <date isodate="1937-08">75 Jahrfeier des Vereins</date> (August 1937) gewidmet.</dedicatee>
                         </bibl>
                     </edition>

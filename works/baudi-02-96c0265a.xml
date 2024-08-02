@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-96c0265a">
     <identifier type="baudi-copy">CMVS-HH-34</identifier>
     <title type="uniform" xml:id="baudi-02-96c0265a-title">
         <titlePart type="main" xml:id="baudi-02-96c0265a-titleMain">Waidmannsheil!</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-96c0265a-titleMainSort">Waidmannsheil</titlePart>
-        <titlePart type="dedication">Dem <corpName>Männergesangverein <settlement>Durlach</settlement>
+        <titlePart type="dedication">Dem <corpName>Männergesangverein <settlement codedval="baudi-06-084bd83b">Durlach</settlement>
             </corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-ac684657">Herrn Ludwig Lehmann</persName> gewidmet.</titlePart>
     </title>
     <composer xml:id="baudi-02-96c0265a-composer">
@@ -20,7 +21,8 @@
     <incip/>
     <creation/>
     <history>
-        <p>Erschienen <date isodate="1911">1911</date></p>
+        <p>Erschienen <date isodate="1911">1911</date>
+        </p>
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
