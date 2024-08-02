@@ -1,8 +1,10 @@
 xquery version "3.1";
 
+declare default element namespace "http://www.music-encoding.org/ns/mei";
+declare namespace uuid = "java:java.util.UUID";
 declare namespace mei = "http://www.music-encoding.org/ns/mei";
-declare namespace tei = "http://www.tei-c.org/ns/1.0";
-import module namespace functx = "http://www.functx.com" at "../../baudiResources/data/libraries/functx.xqm";
+
+import module namespace functx = "http://www.functx.com" at "../../baudiResources/libraries/functx.xqm";
 
 declare option saxon:output "method=xml";
 declare option saxon:output "media-type=text/xml";
@@ -10,58 +12,11 @@ declare option saxon:output "omit-xml-declaration=no";
 declare option saxon:output "indent=yes";
 declare option saxon:output "saxon:line-length=10000";
 
-
-(: Aufrufen aller Sammlungen. Der Teil '?select=*xml;recurse=yes' muss stehen bleiben! :)
-let $collPlaces := collection('../persons?select=*.xml;recurse=yes')/tei:person
-let $dbPlaceNames := $collPlaces/tei:persName[1]
-
-let $collToAddKeys := (collection('../works?select=*xml;recurse=yes')|collection('../sources/music?select=*xml;recurse=yes'))/mei:*
-
-for $document at $n in $collToAddKeys
-
-	let $documentUri := document-uri($document/root())
-	let $doc := doc($documentUri)
-	let $fileID := $doc/node()/@xml:id
-
-	let $persNames := $doc//*:persName[not(@codedval)]
-	
-	let $Elems := $persNames
-	
-	let $ElemStr := $Elems/text()
-	
-	
-	let $ElemStrMod := for $each in $ElemStr
-								return
-									$each
-									=> replace('\[','')
-									=> replace('\]','')
-									=> replace('\?','')
-									=> replace('\.','')
-									=> normalize-space()
-									=> lower-case()
-	let $ElemStrDist := distinct-values($ElemStrMod)
-	
-	let $listValuesKeyAssigned := if(count($ElemStrDist) gt 0)
-	then(<matches file="{$fileID}">{for $each in $ElemStrDist
-									let $key := $dbPlaceNames[lower-case(normalize-space(string-join(./text(),' '))) = $each]/ancestor::tei:person/@xml:id/string()
-									where count($key) = 1
-									order by $each
-									return
-										element match {
-											attribute key {$key},
-											attribute file {$fileID},
-											$each
-										}
-										}</matches>)
-										else()
-										=> functx:distinct-deep()
-	
-	return
-		for $elem in $Elems
-			let $elemTextMod := $elem/text() => string-join(' ') => replace('\[','') => replace('\]','') => replace('\?','') => replace('\.','') => normalize-space() => lower-case()
-			let $key := $listValuesKeyAssigned//match[./text() = $elemTextMod]/@key/string()
-			where count($key) = 1
-			where not($elem/@key)
-			return
-				insert node attribute codedval {$key} into $elem
-(:		$listValuesKeyAssigned:)
+<persons>{
+        let $coll := collection('../persons?select=*.xml;recurse=yes')
+        
+        for $file in $coll
+        let $file := doc(document-uri($file))
+        return
+            $file/node()
+    }</persons>
