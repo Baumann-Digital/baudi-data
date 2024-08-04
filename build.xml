@@ -48,7 +48,11 @@
         <zip destfile="${dist.dir}/${project.app}-${project.version}-${local.revision}.xar">
             <fileset dir=".">
                 <include name="**/*.*"/>
+                <exclude name="texts/documentation/"/>
+                <exclude name="texts/textsAlt/"/>
+                <exclude name="**/alt/"/>
                 <exclude name="**/baudi-06-dummy.xml"/>
+                <exclude name="periodicals/"/>
                 <exclude name="build.xml"/>
                 <exclude name=".existdb.json"/>
                 <exclude name=".git*"/>
@@ -59,7 +63,7 @@
                 <exclude name="${dist.dir}/"/>
                 <exclude name="blob/"/>
                 <exclude name="**/__contents__.xml"/>
-                <exclude name="submodules/**/*.*"/>
+                <exclude name="submodules/"/>
                 <exclude name="*.xar"/>
                 <exclude name="*.tar.gz"/>
             </fileset>
