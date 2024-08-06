@@ -77,12 +77,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>single part</scoreFormat>
                     <handList>
-                        <hand label="NE 1r BiblVermerk" medium="Bleistift">Mus. Hs. 1282b, Viol.</hand>
-                        <hand label="NW 1r BiblVermerk autograph" medium="TinteSchwarz">Violinstimme.</hand>
-                        <hand label="NE 1r AuffVermerk" medium="TinteSchwarz">(Lied für Sopran.)</hand>
-                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="biblNote" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0002"/>
                         <hand type="perfNote" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0003"/>
@@ -120,6 +114,10 @@
 					<!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2018-02-08" label="dried">Taktangabe 3/4 (9/8)</annot>
                     <annot corresp="#baudi-01-a1cd6c8b-physDesc-part003">Enthält auch "Wiegenlied"</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Mus. Hs. 1282b, Viol.</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">Violinstimme.</annot>
+                    <annot plist="perfNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0003">(Lied für Sopran.)</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
                 </notesStmt>
                 <classification>
                     <termList>

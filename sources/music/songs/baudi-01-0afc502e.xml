@@ -65,11 +65,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="NW 1r composer" medium="Bleistift">nach F transp.</hand>
-                        <hand label="NW 1r BiblVermerk" medium="Bleistift">31</hand>
-                        <hand label="NE 1r BiblVermerk" medium="Bleistift">31</hand>
-                    </handList>
-                    <handList>
                         <hand type="composer" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -105,6 +100,9 @@
                 <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot/>
+                    <annot plist="composer NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">nach F transp.</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">31</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">31</annot>
                 </notesStmt>
                 <classification>
                     <termList>

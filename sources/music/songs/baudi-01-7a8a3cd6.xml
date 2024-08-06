@@ -75,11 +75,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1311a</hand>
-                        <hand label="NE 1r BiblVermerk" medium="FarbstiftRot">tiefe Stimme</hand>
-                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="biblNote" medium="FarbstiftRot" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -116,6 +111,9 @@
                     <annot n="1" when="2018-02-08" label="dried"/>
                     <annot plist="stamp S-oriented 1r 2v" corresp="#baudi-01-7a8a3cd6-physMedium">L.B./Karlsruhe</annot>
                     <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-7a8a3cd6-physMedium">»Sünova« Nr. 2</annot>
+                    <annot plist="biblNote N-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Musik Hs. 1311a</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">tiefe Stimme</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
                 </notesStmt>
                 <classification>
                     <termList>

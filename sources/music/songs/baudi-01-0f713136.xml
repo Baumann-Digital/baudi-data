@@ -82,16 +82,6 @@
                     <extent type="pagination">none</extent>
                     <scoreFormat>piano score</scoreFormat>
                     <handList>
-                  <!-- HandList ist gedacht zur Identifikation von Schreibern!-->
-                        <hand analog="baudi-04-Schreiber" label="C 1r BiblVermerk" medium="ballpointPenBlue">Musik Hs. 1308</hand>
-                        <hand analog="baudi-04-Schreiber" label="NE 2r BiblVermerk" medium="ballpointPenBlue">Musik Hs. 1308</hand>
-                        <hand label="NE 2r BiblVermerk" medium="pencil">2. Expl.</hand>
-                        <hand label="S 2r BiblVermerk" medium="pencil">Z</hand>
-                        <hand n="1">
-                            <persName auth="baudi" codedval="baudi-04-5e3ed698" cert="high">Ludwig Baumann</persName>
-                        </hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="biblNote" medium="ballpointPenBlue" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -151,6 +141,10 @@
                <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2018-02-16" label="dried"/>
                     <annot plist="stamp S-oriented 2r 5v" corresp="#baudi-01-0f713136-physMedium">L.B./Karlsruhe</annot>
+                    <annot plist="biblNote 1r" corresp="#baudi-01-6b488120-hand-0002">Musik Hs. 1308</annot>
+                    <annot plist="biblNote NE-oriented 2r" corresp="#baudi-01-6b488120-hand-0002">Musik Hs. 1308</annot>
+                    <annot plist="biblNote NE-oriented 2r" corresp="#baudi-01-6b488120-hand-0001">2. Expl.</annot>
+                    <annot plist="biblNote S-oriented 2r" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
                 </notesStmt>
                 <classification>
                     <termList>

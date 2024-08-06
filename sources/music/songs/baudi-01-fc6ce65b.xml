@@ -77,12 +77,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="NE 1r BiblVermerk" medium="Bleistift">Musik Hs. 1310</hand>
-                        <hand label="NW 1r AuffVermerk" medium="Bleistift">2 Min</hand>
-                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-                        <hand label="NW 1r BiblVermerk" medium="FarbstiftBlau">Klavierst.</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="perfNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0003"/>
@@ -121,6 +115,10 @@
                     <annot n="1" when="2018-02-08" label="dried"/>
                     <annot plist="stamp S-oriented 1r 2v" corresp="#baudi-01-fc6ce65b-physMedium">L.B./Karlsruhe</annot>
                     <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-fc6ce65b-physMedium">»Sünova« Nr. 2 - 4 zeilig</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0001 baudi-01-6b488120-hand-0003">Musik Hs. 1310</annot>
+                    <annot plist="perfNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">2 Min</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001 baudi-01-6b488120-hand-0003">Z</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0004">Klavierst.</annot>
                 </notesStmt>
                 <classification>
                     <termList>

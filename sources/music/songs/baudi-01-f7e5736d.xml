@@ -79,10 +79,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="NW 1r composer" medium="tinteSchwarz">transponiert!</hand>
-                        <hand label="NW 1r BiblVermerk" medium="Bleistift">12</hand>
-                    </handList>
-                    <handList>
                         <hand type="composer" medium="tinteSchwarz" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -119,6 +115,8 @@
                <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2018-01-11" label="dried"/>
                     <annot plist="paperTypeNote C-oriented" corresp="#baudi-01-f7e5736d-physMedium">(?) 112 für Gesang und Klavier Systeme</annot>
+                    <annot plist="composer NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">transponiert!</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">12</annot>
                 </notesStmt>
                 <classification>
                     <termList>

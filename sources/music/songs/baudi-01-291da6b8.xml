@@ -71,10 +71,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="NW 1v BiblVermerk" medium="Bleistift">N<rend rend="sup underline(2)">o</rend> 1</hand>
-                        <hand label="N 1r composer" medium="ink">(Ged. v. Inge Karsten)</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="composer" medium="ink" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -109,6 +105,8 @@
                 <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2018-02-05" label="dried">Sammelquelle Mus. Hs. 1314; Taktvorzeichnung 12/8 = 4/4 (C)</annot>
+                    <annot plist="biblNote NW-oriented 1v" corresp="#baudi-01-6b488120-hand-0001">No 1</annot>
+                    <annot plist="composer N-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">(Ged. v. Inge Karsten)</annot>
                 </notesStmt>
                 <classification>
                     <termList>

@@ -81,17 +81,6 @@
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>score</scoreFormat>
                     <handList>
-                        <hand label="NW 1r Vermerk" medium="FarbstiftBlau">No 3</hand>
-                        <hand label="NE 1r BiblVermerk" medium="Bleistift">Viol. I fehlt!</hand>
-                        <hand label="NW 1v Vermerk" medium="Bleistift">aK</hand>
-                        <hand label="N 1v BiblVermerk" medium="Bleistift">M340a</hand>
-                        <hand label="E 1v BiblVermerk" medium="Bleistift">1.2. 2. oder Klar. in B</hand>
-                        <hand label="S 1v BiblVermerk" medium="Bleistift">Z</hand>
-                        <hand label="1v-4r KompVermerk" medium="Bleistift">Zahlreiche Eintragungen des Komponisten</hand>
-                        <hand label="NE 4r BiblVermerk" medium="Bleistift">dd/A356 (Stimmen in Tasche)</hand>
-                        <hand label="C 4r BiblVermerk" medium="Bleistift">+4 Bei.</hand>
-                    </handList>
-                    <handList>
                         <hand type="composer" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -128,6 +117,12 @@
                     <annot n="1" when="2020-02-27" label="dried"/>
                     <annot plist="stamp C-oriented 1r" corresp="#baudi-01-ad5eee0f-physMedium">Badische Landesbibliothek/Karlsruhe (auch 4v center)</annot>
                     <annot plist="paperTypeNote -oriented" corresp="#baudi-01-ad5eee0f-physMedium">Plattennumer V.587</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">Viol. I fehlt!</annot>
+                    <annot plist="biblNote N-oriented 1v" corresp="#baudi-01-6b488120-hand-0002">M340a</annot>
+                    <annot plist="biblNote E-oriented 1v" corresp="#baudi-01-6b488120-hand-0002">1.2. 2. oder Klar. in B</annot>
+                    <annot plist="biblNote S-oriented 1v" corresp="#baudi-01-6b488120-hand-0002">Z</annot>
+                    <annot plist="biblNote NE-oriented 4r" corresp="#baudi-01-6b488120-hand-0002">dd/A356 (Stimmen in Tasche)</annot>
+                    <annot plist="biblNote 4r" corresp="#baudi-01-6b488120-hand-0002">+4 Bei.</annot>
                 </notesStmt>
                 <classification>
                     <termList>

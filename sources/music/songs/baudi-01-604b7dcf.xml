@@ -70,10 +70,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="NW 1r BiblVermerk" medium="Bleistift">50</hand>
-                        <hand label="C 2r Schlussvermerk" medium="TinteBlau">Mai 1943</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                         <hand type="closingNote" medium="inkBlue" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
@@ -109,6 +105,8 @@
                <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2018-01-31" label="dried">Keine General-Takt-Angabe</annot>
                     <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-604b7dcf-physMedium">»Sünova« Nr. 4 - 12 zeilig</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">50</annot>
+                    <annot plist="closingNote 2r" corresp="#baudi-01-6b488120-hand-0002">Mai 1943</annot>
                 </notesStmt>
                 <classification>
                     <termList>

@@ -75,11 +75,6 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1296b</hand>
-                        <hand label="NE 1r composer" medium="TinteBlau">Karlsruhe,/Sophienstrasse 152</hand>
-                        <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="hand1"/>
                         <hand type="composer" medium="inkBlue" xml:id="hand2"/>
                     </handList>
@@ -117,6 +112,9 @@
                     <annot corresp="#hand2">Rasur auf 1r, position NW und NE, vmtl. ältere Adresse darunter</annot>
                     <annot plist="stamp S-oriented 1r" corresp="#baudi-01-27d6ea35-physMedium">L.B./Karlsruhe</annot>
                     <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-27d6ea35-physMedium">C.A.Klemm./C.No.6</annot>
+                    <annot plist="biblNote N-oriented 1r" corresp="#hand1">Musik Hs. 1296b</annot>
+                    <annot plist="composer NE-oriented 1r" corresp="#hand2">Karlsruhe,/Sophienstrasse 152</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#hand1">Z</annot>
                 </notesStmt>
                 <classification>
                     <termList>

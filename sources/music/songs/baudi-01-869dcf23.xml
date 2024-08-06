@@ -85,10 +85,6 @@
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="C 1v BiblVermerk" medium="Bleistift">M 308, 2</hand>
-                        <hand label="S 1v BiblVermerk" medium="Bleistift">Z</hand>
-                    </handList>
-                    <handList>
                         <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                     </handList>
                     <condition n="1">
@@ -123,6 +119,8 @@
 					<!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2020-02-04" label="dried"/>
                     <annot plist="stamp S-oriented 3v" corresp="#baudi-01-869dcf23-physMedium">Badische Landesbibliothek/Karlsruhe</annot>
+                    <annot plist="biblNote 1v" corresp="#baudi-01-6b488120-hand-0001">M 308, 2</annot>
+                    <annot plist="biblNote S-oriented 1v" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
                 </notesStmt>
                 <classification>
                     <termList>
