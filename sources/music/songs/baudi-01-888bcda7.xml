@@ -76,14 +76,9 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1295b</hand>
-                        <hand label="NW 1r BiblVermerk" medium="BundstiftBlau">2004 2 Seiten 49</hand>
-                        <hand label="NE 1r Kennwort" medium="TinteSchwarz">Kennwort: Iris 1</hand>
-                    </handList>
-                    <handList>
-                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                        <hand type="biblNote" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0002"/>
-                        <hand type="Kennwort" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0003"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand1"/>
+                        <hand type="biblNote" medium="pencilBlue" xml:id="hand2"/>
+                        <hand type="composer" medium="inkBlack" xml:id="hand3"/>
                     </handList>
                     <condition n="1">
                         <date isodate="2018-02-08" type="desc" resp="#dried"/>
@@ -119,6 +114,9 @@
                     <annot>Zahlreiche weitere Vermerke. 1v mit roter Tinte weitere Vermerke. Auf 2v Skizze.</annot>
                     <annot plist="stamp S-oriented 1r" corresp="#baudi-01-888bcda7-physMedium">L.B./Karlsruhe</annot>
                     <annot plist="paperTypeNote -oriented" corresp="#baudi-01-888bcda7-physMedium">B. &amp; S. Nr. 14</annot>
+                    <annot plist="biblNote N-oriented 1r" corresp="#hand1">Musik Hs. 1295b</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#hand2">2004 2 Seiten 49</annot>
+                    <annot plist="composer NE-oriented 1r" corresp="#hand3">Kennwort: Iris 1</annot>
                 </notesStmt>
                 <classification>
                     <termList>

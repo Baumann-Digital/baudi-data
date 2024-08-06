@@ -81,18 +81,7 @@
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>score</scoreFormat>
                     <handList>
-                        <hand label="NE 1r BiblVermerk" medium="Bleistift">Viol. I fehlt!</hand>
-                        <hand label="NW 1v Vermerk" medium="Bleistift">aK</hand>
-                        <hand label="S 1v BiblVermerk" medium="Bleistift">[um 1925]</hand>
-                        <hand label="N 1v BiblVermerk" medium="Bleistift">M340</hand>
-                        <hand label="E 1v BiblVermerk" medium="Bleistift">[Viola] oder Klar. in B</hand>
-                        <hand label="S 1v BiblVermerk" medium="Bleistift">Z</hand>
-                        <hand label="NE 4r BiblVermerk" medium="Bleistift">dd/A356 Stimmen in Tasche</hand>
-                        <hand label="C 4r BiblVermerk" medium="Bleistift">+4 Bei.</hand>
-                    </handList>
-                    <handList>
-                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                        <hand type="unknown" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand1"/>
                     </handList>
                     <condition n="1">
                         <date isodate="2020-02-27" type="desc" resp="#dried"/>
@@ -127,6 +116,14 @@
                     <annot n="1" when="2020-02-27" label="dried"/>
                     <annot plist="stamp C-oriented 1r" corresp="#baudi-01-f3965e6a-physMedium">Badische Landesbibliothek/Karlsruhe (auch 4v center)</annot>
                     <annot plist="paperTypeNote -oriented" corresp="#baudi-01-f3965e6a-physMedium">Plattennumer V.587</annot>
+                    <annot corresp="biblNote NE-oriented 1r" hand="#hand1">Viol. I fehlt!</annot>
+                    <annot corresp="note NW-oriented 1v" hand="#hand1">aK</annot>
+                    <annot corresp="biblNote S-oriented 1v" hand="#hand1">[um 1925]</annot>
+                    <annot corresp="biblNote N-oriented 1v" hand="#hand1">M340</annot>
+                    <annot corresp="biblNote E-oriented 1v" hand="#hand1">[Viola] oder Klar. in B</annot>
+                    <annot corresp="biblNote S-oriented 1v" hand="#hand1">Z</annot>
+                    <annot corresp="biblNote NE-oriented 4r" hand="#hand1">dd/A356 Stimmen in Tasche</annot>
+                    <annot corresp="biblNote C-oriented 4r" hand="#hand1">+4 Bei.</annot>
                 </notesStmt>
                 <classification>
                     <termList>

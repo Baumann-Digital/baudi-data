@@ -72,8 +72,8 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand type="composer" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                        <hand type="composer" medium="pencil" xml:id="hand1"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand2"/>
                     </handList>
                     <condition n="1">
                         <!--<date isodate="2018-02-05" type="desc" resp="#dried"/>
@@ -111,9 +111,9 @@
                     <!-- Weitere Anmerkungen des Beschreibers -->
                     <!--<annot n="1" when="2018-02-05" label="dried">Brinzing spricht hier von
                         D-Dur</annot>-->
-                    <annot place="topmar leftmar" data="#baudi-01-6b488120-surface-0001" resp="#baudi-01-6b488120-hand-001">3 1/2 Minuten</annot>
-                    <annot place="topmar rightmar" data="#baudi-01-6b488120-surface-0001" resp="#baudi-01-6b488120-hand-002">Musik Hs. 1312</annot>
-                    <annot place="botmar" data="#baudi-01-6b488120-surface-0001" resp="#baudi-01-6b488120-hand-002">Z</annot>
+                    <annot place="topmar leftmar" data="#baudi-01-6b488120-surface-0001" corresp="#hand1">3 1/2 Minuten</annot>
+                    <annot place="topmar rightmar" data="#baudi-01-6b488120-surface-0001" corresp="#hand2">Musik Hs. 1312</annot>
+                    <annot place="botmar" data="#baudi-01-6b488120-surface-0001" corresp="#hand2">Z</annot>
                     <annot place="botmar" data="#baudi-01-6b488120-surface-0001 #baudi-01-6b488120-surface-0004" type="stamp">L.B./Karlsruhe</annot>
                     <annot type="paperNote" place="botmar leftmar" data="#baudi-01-6b488120-surface-0001">»Sünova« Nr. 37 - 4 Systeme</annot>
                 </notesStmt>

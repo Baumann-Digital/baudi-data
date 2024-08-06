@@ -60,16 +60,10 @@
                     <watermark label="watermark"/>
                     <plateNum>V. 570</plateNum>
                     <handList>
-                        <hand label="fremde Hand" medium="Bleistift" xml:id="hand1">Bibl</hand>
-                        <hand medium="Bleistift" label="Bibl?" xml:id="hand2">Signaturvermerk</hand>
-                        <hand medium="FarbstiftBlau" label="Baumann?" xml:id="hand3">Zäsuren</hand>
-                        <hand medium="Bleistift" label="Baumann?" xml:id="hand4">Fingersätze</hand>
-                    </handList>
-                    <handList>
-                        <hand type="unknown" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-                        <hand type="other" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
-                        <hand type="other" medium="pencil" xml:id="baudi-01-6b488120-hand-0004"/>
+                        <hand type="unknown" medium="pencil" xml:id="hand1"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand2"/>
+                        <hand type="other" medium="pencilBlue" xml:id="hand3"/>
+                        <hand type="other" medium="pencil" xml:id="hand4"/>
                     </handList>
                     <addDesc>
                         <p type="copyright">
@@ -143,6 +137,10 @@
                             <symbol/>
                         </locus>
                     </annot>
+                    <annot corresp="#hand1">Bibl</annot>
+                    <annot corresp="#hand2">Signaturvermerk</annot>
+                    <annot corresp="#hand3">Zäsuren</annot>
+                    <annot corresp="#hand4">Fingersätze</annot>
                 </notesStmt>
                 <classification>
                     <termList>

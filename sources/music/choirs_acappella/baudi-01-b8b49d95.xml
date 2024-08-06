@@ -5,10 +5,10 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformDE">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformMainDE">Ständchen</titlePart>
-                    <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformSubDE"/>
-                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformDescDE">für Chor</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="handtitleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="handtitleUniformMainDE">Ständchen</titlePart>
+                    <titlePart type="subordinate" xml:lang="de" xml:id="handtitleUniformSubDE"/>
+                    <titlePart type="desc" xml:lang="de" xml:id="handtitleUniformDescDE">für Chor</titlePart>
                 </title>
                 <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
@@ -45,16 +45,16 @@
                 <identifier type="rism">453007174</identifier>
                 <identifier type="D-KA">Mus. Hs. 1394,2a</identifier>
                 <titleStmt>
-                    <title xml:id="baudi-01-b8b49d95-title">
-                        <titlePart type="main" xml:id="baudi-01-b8b49d95-titleMain">Ständchen </titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-b8b49d95-titleSub"/>
-                        <titlePart type="desc" xml:id="baudi-01-b8b49d95-titleDesc">für Chor</titlePart>
+                    <title xml:id="handtitle">
+                        <titlePart type="main" xml:id="handtitleMain">Ständchen </titlePart>
+                        <titlePart type="subordinate" xml:id="handtitleSub"/>
+                        <titlePart type="desc" xml:id="handtitleDesc">für Chor</titlePart>
                     </title>
-                    <composer xml:id="baudi-01-b8b49d95-composer">
+                    <composer xml:id="handcomposer">
                         <persName codedval="baudi-04-5e3ed698">L. Baumann</persName>
                     </composer>
-                    <arranger xml:id="baudi-01-b8b49d95-arranger"/>
-                    <lyricist xml:id="baudi-01-b8b49d95-lyricist">
+                    <arranger xml:id="handarranger"/>
+                    <lyricist xml:id="handlyricist">
                         <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                     </lyricist>
                 </titleStmt>
@@ -74,16 +74,13 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>choral score</scoreFormat>
                     <handList>
-                        <hand label="librarian" medium="bleistift" xml:id="baudi-01-b8b49d95-hand1"/>
-                    </handList>
-                    <handList>
-                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand1"/>
                     </handList>
                     <condition n="1">
                         <p type="statusReport">
                             <date isodate="2019-08-21" type="desc" resp="#dried"/>Am oberen Rand von fol. 1v, 2r und in der Mitte von fol. 2v fleckig.</p>
                     </condition>
-                    <physMedium xml:id="baudi-01-b8b49d95-physMedium">Einzelblatt, Maschinell rastiert (6-zeilig), überkopf beschrieben.</physMedium>
+                    <physMedium xml:id="physMedium">Einzelblatt, Maschinell rastiert (6-zeilig), überkopf beschrieben.</physMedium>
                 </physDesc>
                 <physLoc>
                     <repository>
@@ -107,8 +104,8 @@
     						<bibl type="announcement"/>
     						<bibl type="notice"/>--></biblList>
                 <notesStmt>
-                    <annot plist="1r top right" corresp="#baudi-01-b8b49d95-hand1">2a</annot>
-                    <annot plist="1r paperTypeNote SW-oriented" corresp="#baudi-01-b8b49d95-physMedium">»Sünova« Nr.50 – 6 zeilig</annot>
+                    <annot plist="1r top right" corresp="#hand1">2a</annot>
+                    <annot plist="1r paperTypeNote SW-oriented" corresp="#physMedium">»Sünova« Nr.50 – 6 zeilig</annot>
                 </notesStmt>
                 <classification>
                     <termList>
