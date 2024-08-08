@@ -12,8 +12,8 @@ declare option saxon:output "saxon:line-length=10000";
 
 
 (: Aufrufen aller Sammlungen. Der Teil '?select=*xml;recurse=yes' muss stehen bleiben! :)
-let $collPlaces := collection('../institutions?select=*.xml;recurse=yes')/tei:org
-let $dbPlaceNames := $collPlaces/tei:orgName[1]
+let $collOrgs := collection('../institutions?select=*.xml;recurse=yes')/tei:org
+let $dbOrgNames := $collOrgs/tei:orgName[1]
 
 let $collToAddKeys := (collection('../works?select=*xml;recurse=yes')|collection('../sources/music?select=*xml;recurse=yes'))/mei:*
 
@@ -43,7 +43,7 @@ for $document at $n in $collToAddKeys
 	
 	let $listValuesKeyAssigned := if(count($ElemStrDist) gt 0)
 	then(<matches file="{$fileID}">{for $each in $ElemStrDist
-									let $key := $dbPlaceNames[lower-case(normalize-space(string-join(./text(),' '))) = $each]/ancestor::tei:org/@xml:id/string()
+									let $key := $dbOrgNames[lower-case(normalize-space(string-join(./text(),' '))) = $each]/ancestor::tei:org/@xml:id/string()
 									where count($key) = 1
 									order by $each
 									return
