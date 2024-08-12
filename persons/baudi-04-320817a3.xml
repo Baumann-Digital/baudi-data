@@ -1,13 +1,15 @@
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-320817a3" status="proposed">
-    <persName>
-        <forename type="used" sort="1">Erwin</forename>
-        <surname type="used">Baumann</surname>
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-320817a3" status="approved">
+    <persName type="reg">
+        <surname>Baumann</surname>, <forename>Erwin</forename>
     </persName>
-    <birth/>
-    <death/>
+    <birth when="1894-11-27"><placeName key="baudi-06-8cd102e5">Mannheim</placeName></birth>
+    <death when="1958-11-12"/>
     <sex type="male"/>
     <nationality key="de"/>
     <occupation>Musiklehrer</occupation>
     <occupation>Chorleiter</occupation>
-    <note>Erwin Baumann war scheinbar vor 1947 in Pforzheim und hatte (dort?) Vereine.</note>
+    <note>Umfangreiche Akten zur Person (Dienst und Aufarbeitung der NS-Zeit) im Generallandesarchiv Karlsruhe vorhanden.</note>
+    <note>Sohn von <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName></note>
 </person>

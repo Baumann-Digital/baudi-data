@@ -1,30 +1,13 @@
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-df754354" status="candidate">
-    <persName role="uniform">
-        <forename sort="1" type="used">Gerda</forename>
-        <surname type="used">Baumann</surname>
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-df754354" status="approved">
+    <persName role="reg">
+        <surname>Baumann</surname>, <forename>Gerda</forename>
     </persName>
-    <birth/>
-    <death/>
+    <birth when="1905-11-29"><placeName key="baudi-06-ba166af7">Karlsruhe</placeName></birth>
     <sex type="female"/>
     <nationality key="de"/>
     <occupation>Opernsängerin</occupation>
-    <note>Tochter von Ludwig Baumann</note>
-    <note type="brief">Gerda Baumann, Tochter des Seminarmusiklehrers Ludwig Baumann ist
-            Schülerin meiner Gesangsklasse zwecks ihrer beruflichen Ausbildung.<lb/> Elisabeth
-            Gutzmann.<lb/> Konzert &amp; Opernsängerin<lb/> Karlsruhe, den 23. Juli 1924 </note>
-    <note type="brief">Brief:Der Unterzeichnende bescheinigt hiermit, daß Gerda Baumann, Tochter
-            des Musiklehrers Baumann, zwecks ihrer beruflichen Ausbildung in seinen Klavierklasse
-            Unterricht erhält.<lb/> Karlsruhe, den 23. Juli 1924<lb/> Hans Vogel<lb/> Lehrer am
-            Konservatorium </note>
-    <note>
-        <hi rend="right">f. 24/6.24</hi> An das Finanzministerium. <hi rend="right">Bitte des
-                Ludwig Baumann,<lb/>Seminamusiklehrers a. D. um <lb/>Weiterführung der
-                Kinder=<lb/>Zulage betr.</hi>
-        <lb/>Meine Tochter Gerda, geb. am 29. Nov. 1905, obliegt ihre, Studien zwecks
-            beruflicher Ausbildung als Gesangs= und Klavierlehrerin.<lb/> Die Zulage wurde vom
-            Ministerium des Kultus und Unterrichts vom 1. April d. J. für ein weiteres Jahr
-            bewilligt. Auf 1. Juli trete ich in den einstweiligen Ruhestand. Ich bitte um um
-            Weiterführung des Zuschlags. <hi rend="right">Karlsruhe, 23. Juni
-                1924.<lb/>LBaumann,<lb/>Sophienstr. 152</hi>
-    </note>
+    <note>Tochter von <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName></note>
+    <note>In der Dienstakte von <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName> sind Beihilfegesuche enthalten, die Informationen zur Ausbildung der Tochter Gerda enthalten</note>
 </person>

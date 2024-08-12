@@ -1,16 +1,22 @@
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-950fbff3" status="proposed">
-    <persName>
-        <forename sort="1" type="used">Friederike</forename>
-        <surname type="birth">Wenner</surname>
-        <surname type="married" from="1859-11-15">Baumann</surname>
-        <addName/>
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-950fbff3" status="approved">
+    <persName type="reg">
+        <surname>Baumann</surname>, <forename>Friederike</forename>
+    </persName>
+    <persName type="birth">
+        <forename>Friederike</forename>
+        <surname>Wenner</surname>
+    </persName>
+    <persName type="married" from="1859-11-15">
+        <forename>Friederike</forename>
+        <surname>Baumann</surname>
     </persName>
     <birth when="1835-03-01">
         <placeName>Mühlburg</placeName>
     </birth>
-    <death/>
     <faith key="rk"/>
     <sex type="female"/>
     <nationality key="de"/>
-    <note>1859-11-15 Hochzeit mit Ludwig Baumann in Eggenstein</note>
+    <note>Hochzeit mit <persName key="baudi-04-16c61111">Ludwig Baumann</persName> am <date when="1859-11-15">15. Nov. 1859</date> in <settlement key="baudi-06-ef212d55">Eggenstein</settlement></note>
 </person>
