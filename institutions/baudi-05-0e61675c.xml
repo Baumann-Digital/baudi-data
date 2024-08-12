@@ -1,18 +1,9 @@
-<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-05-0e61675c" status="proposed">
-    <!--<idno type="gnd">1087169127</idno>
-    <idno type="gnd">1065555687</idno>-->
+<?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><org xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-05-0e61675c" status="approved">
+    <idno type="gnd">1087169127</idno>
     <orgName type="used">Süddeutscher Musikverlag</orgName>
     <location>
         <settlement type="city" key="baudi-06-ba166af7">Karlsruhe</settlement>
         <country key="D"/>
     </location>
-    <listPerson>
-        <person sex="male">
-            <persName key="baudi-04-066cab08" type="fouder">Fritz Müller</persName>
-        </person>
-        <person sex="male">
-            <persName key="baudi-04-585e6747" type="employee">Willy Müller</persName>
-        </person>
-    </listPerson>
-    <note/>
+    <note>Gegründet von <persName key="baudi-04-066cab08">Fritz Müller</persName>, weitergeführt von seinem Sohn <persName key="baudi-04-585e6747">Willy Müller</persName></note>
 </org>
