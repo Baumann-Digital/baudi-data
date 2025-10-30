@@ -29,6 +29,7 @@ jobs:
           curl -L https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-9/SaxonHE12-9J.zip -o saxon.zip
           unzip saxon.zip
           mv saxon-he-12.9.jar scripts/libs/
+          mv lib scripts/libs/
           rm saxon.zip
 
       - name: Build data package
