@@ -1,4 +1,7 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-0bf72bf3" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0bf72bf3" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -7,11 +10,9 @@
                     <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-0bf72bf3-titleUniformSubDE"/>
                     <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0bf72bf3-titleUniformDescDE">für Chor</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
-
+            <pubStmt> </pubStmt>
             <!-- <sourceDesc>
     			<source>
     			<head/>
@@ -20,7 +21,6 @@
     			</source>
     			</sourceDesc> -->
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -28,14 +28,13 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="b" accid="f" mode="major"/>
                 <meter count="4" unit="8" sym="common"/>
                 <tempo>Innig, durchweg zart</tempo>
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="baudi-09-">[Männer-]Chor</perfRes>
+                        <perfRes codedval="choirMale">[Männer-]Chor</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -53,12 +52,11 @@
                     </title>
                     <arranger xml:id="baudi-01-0bf72bf3-arranger"/>
                     <lyricist xml:id="baudi-01-0bf72bf3-lyricist">
-                        <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
+                        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                     </lyricist>
-
                 </titleStmt>
                 <physDesc>
-                    <p decls="creation"><!--	<date
+                    <p><!--	<date
     								type="creation"
     								subtype="sure"
     								isodate="0000"/> --></p>
@@ -73,24 +71,19 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>choral score</scoreFormat>
                     <handList>
-                        <hand label="composer" medium="TinteSchwarz" xml:id="baudi-01-0bf72bf3-hand1"/>
-                        <hand label="librarian" medium="bleistift" xml:id="baudi-01-0bf72bf3-hand2"/>
-                        <hand label="librarian" medium="FarbstiftBlau" xml:id="baudi-01-0bf72bf3-hand3"/>
+                        <hand type="composer" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                        <hand type="biblNote" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
                     </handList>
-               <handList>
-                  <hand type="composer" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0001"/>
-                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-                   <hand type="biblNote" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
-               </handList>
                     <condition n="1">
-                        <p decls="statusReport">
-                            <date isodate="2019-08-21" type="desc" resp="dried"/> Am oberen Rand fleckig.</p>
+                        <p type="statusReport">
+                            <date isodate="2019-08-21" type="desc" resp="#dried"/> Am oberen Rand fleckig.</p>
                     </condition>
                     <physMedium xml:id="baudi-01-0bf72bf3-physMedium">Einzelblatt, Maschinell rastiert (10-zeilig)</physMedium>
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">Mus. Hs. 1394,2</identifier>
                     </repository>
                 </physLoc>
@@ -110,9 +103,9 @@
     						<bibl type="announcement"/>
     						<bibl type="notice"/>--></biblList>
                 <notesStmt>
-                    <annot plist="1r top right" corresp="#baudi-01-0bf72bf3-hand1">Kennwort: Rokoko.</annot>
-                    <annot plist="1r top left" corresp="#baudi-01-0bf72bf3-hand2">2</annot>
-                    <annot plist="1r top right" corresp="#baudi-01-0bf72bf3-hand3">48</annot>
+                    <annot plist="1r top right" corresp="#hand1">Kennwort: Rokoko.</annot>
+                    <annot plist="1r top left" corresp="#hand2">2</annot>
+                    <annot plist="1r top right" corresp="#hand3">48</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -142,12 +135,12 @@
         </manifestationList>
         <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"/>
         <revisionDesc>
-            <change n="0" isodate="2017-04-01" resp="dried">
+            <change n="0" isodate="2017-04-01" resp="#dried">
                 <changeDesc>
                     <p>Initializing the project</p>
                 </changeDesc>
             </change>
-            <change n="1" isodate="2019-08-21" resp="dried">
+            <change n="1" isodate="2019-08-21" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourceMsScore.xql</p>
                 </changeDesc>

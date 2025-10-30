@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-0b5903be">
+    <identifier type="baudi-copy">CMVS-HH-66</identifier>
+    <title type="uniform" xml:id="baudi-02-0b5903be-title">
+        <titlePart type="main" xml:id="baudi-02-0b5903be-titleMain">»Großmutter will tanzen«</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-0b5903be-titleMainSort">Grossmutter will tanzen</titlePart>
+        <titlePart type="dedication">Der <corpName>»<settlement codedval="baudi-06-21978c6c">Berliner</settlement> Liedertafel«</corpName> und ihrem hochverdienten Chormeister, <persName role="choirMaster" codedval="baudi-04-75573fe3">Herrn Musikdirektor Max Wiedemann</persName> in Hochachtung gewidmet.</titlePart>
+    </title>
+    <composer xml:id="baudi-02-0b5903be-composer">Volkslied</composer>
+    <arranger xml:id="baudi-02-0b5903be-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-0b5903be-lyricist">Volkslied</lyricist>
+    <key pname="e" accid="f" mode="major"/>
+    <meter count="3" unit="4"/>
+    <tempo>Langsames, gemütliches Ländlertempo</tempo>
+    <incip/>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1928">1928</date>
+        </p>
+    </history>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal">Auch in E-dur</annot>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>

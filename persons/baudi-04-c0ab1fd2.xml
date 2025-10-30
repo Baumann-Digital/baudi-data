@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-c0ab1fd2" status="created">
-    <persName>A. von Othegraven</persName>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-c0ab1fd2" status="proposed">
+    <persName>
+        <forename>A.</forename>
+        <nameLink>von</nameLink>
+        <surname>Othegraven</surname>
+    </persName>
     <birth/>
     <death/>
     <faith key="unknown"/>

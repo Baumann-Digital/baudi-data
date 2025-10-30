@@ -1,33 +1,45 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-74bae2fe" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-74bae2fe" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de"><titlePart type="main" xml:lang="de" xml:id="baudi-01-74bae2fe-titleUniMainDE">Das Strumpfbanderl.</titlePart></title>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-74bae2fe-titleUniMainDE">Das Strumpfbanderl.</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-74bae2fe-title"><titlePart type="main" xml:id="baudi-02-74bae2fe-titleMain">Das Strumpfbanderl.</titlePart><titlePart type="number" auth="opus">64</titlePart><titlePart type="mainSort" xml:id="baudi-02-74bae2fe-titleMainSort">Strumpfbanderl</titlePart><titlePart type="subordinate" xml:id="baudi-02-74bae2fe-titleSub"/><titlePart type="perfmedium" xml:id="baudi-02-74bae2fe-titleDesc"/></title>
-                <composer xml:id="baudi-02-74bae2fe-composer"><persName auth="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName></composer>
-                <lyricist xml:id="baudi-02-74bae2fe-lyricist"><persName>Otto Hausmann</persName></lyricist>
+                <title type="uniform">
+                    <titlePart type="main">Das Strumpfbanderl.</titlePart>
+                    <titlePart type="number" codedval="opus">64</titlePart>
+                    <titlePart type="mainSort">Strumpfbanderl</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
+                </title>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </composer>
+                <lyricist>
+                    <persName codedval="baudi-04-760965b2">Otto Hausmann</persName>
+                </lyricist>
                 <key pname="a" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Heitere Bewegung.</tempo>
                 <incip/>
-                
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -39,19 +51,38 @@
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HK-7</identifier>
                 <titleStmt>
-                    <title><titlePart type="main" xml:id="baudi-01-74bae2fe-titleMain">Das Strumpfbanderl.</titlePart><titlePart type="subordinate" xml:id="baudi-01-74bae2fe-titleSub"/></title>
-                    <composer xml:id="baudi-01-74bae2fe-composer"><persName auth="baudi-04-5e3ed698"><persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName></persName></composer>
-                    <lyricist xml:id="baudi-01-74bae2fe-lyricist"><persName auth="baudi-04-35c9a190"><persName>Otto
-                                Hausmann</persName></persName></lyricist>
-                    
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-74bae2fe-titleMain">Das Strumpfbanderl.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-74bae2fe-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-74bae2fe-composer">
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        </persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-74bae2fe-lyricist">
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName codedval="baudi-04-760965b2">Otto Hausmann</persName>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Das Strumpfbanderl.</title><bibl><identifier/><publisher><corpName auth="baudi-05-b8018784">Hugo Kuntz</corpName></publisher><pubPlace><settlement auth="baudi-06-ba166af7">Karlsruhe in
-                                    Baden</settlement></pubPlace><date/><dedicatee/></bibl></edition>
-                    
+                    <edition>
+                        <title>Das Strumpfbanderl.</title>
+                        <bibl>
+                            <identifier/>
+                            <publisher>
+                                <corpName codedval="baudi-05-b8018784">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee/>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -59,22 +90,23 @@
                     <extent label="pages" unit="page">1</extent>
                     <extent label="pagination"/>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
                    							              <symbol class="suenova-001"/>
                    						            </locus>
                    					          </physMedium>-->
-                    <plateNum n=""/>
+                    <plateNum/>
                 </physDesc>
                 <physLoc>
-                    <repository><corpName>Chormusikverlag Seebold, St. Augustin</corpName></repository>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -96,9 +128,13 @@
                 </relationList>
             </manifestation>
         </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"><tei:person><tei:persName/></tei:person></extMeta>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

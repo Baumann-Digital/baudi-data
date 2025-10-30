@@ -1,34 +1,36 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-05602ffb" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-05602ffb" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-05602ffb-titleUniMainDE">Der Csikos</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-05602ffb-title">
-                    <titlePart type="main" xml:id="baudi-02-05602ffb-titleMain">Der Csikos</titlePart>
-                    <titlePart type="number" auth="opus">110 Nr. 3</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-05602ffb-titleMainSort">Csikos</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-05602ffb-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-05602ffb-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Der Csikos</titlePart>
+                    <titlePart type="number" codedval="opus">110 Nr. 3</titlePart>
+                    <titlePart type="mainSort">Csikos</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-05602ffb-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <arranger xml:id="baudi-02-05602ffb-arranger">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </arranger>
-                <lyricist xml:id="baudi-02-05602ffb-lyricist">
+                <lyricist>
                     <persName>A. Thielert</persName>
                 </lyricist>
                 <key pname="f" mode="major"/>
@@ -36,11 +38,11 @@
                 <tempo>Mit Feuer, aber nicht hastig</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano" xml:id="baudi-02-05602ffb-perfRes-0001"/>
-                        <perfRes auth="alto" xml:id="baudi-02-05602ffb-perfRes-0002"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-05602ffb-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-05602ffb-perfRes-0004"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes xml:id="baudi-02-05602ffb-perfRes-0001" codedval="soprano"/>
+                        <perfRes xml:id="baudi-02-05602ffb-perfRes-0002" codedval="alto"/>
+                        <perfRes xml:id="baudi-02-05602ffb-perfRes-0003" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-05602ffb-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -58,19 +60,19 @@
                         <titlePart type="subordinate" xml:id="baudi-01-05602ffb-titleSub"/>
                     </title>
                     <composer xml:id="baudi-01-05602ffb-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <arranger>
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </arranger>
                     <lyricist xml:id="baudi-01-05602ffb-lyricist">
-                        <persName auth="baudi-04-35c9a190">
+                        <persName codedval="baudi-04-35c9a190">
                             <persName>A. Thielert</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-05602ffb-respStmtDed"/>
+                    <contributor xml:id="baudi-01-05602ffb-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -78,21 +80,20 @@
                         <bibl>
                             <identifier>ANDRÉ 16969</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing"/>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -100,7 +101,6 @@
                     <extent label="pages" unit="page">3</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -111,13 +111,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -145,7 +145,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -154,31 +154,25 @@
     </meiHead>
     <music>
         <facsimile label="blb-vlid-6146153">
-            
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-05602ffb-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="6231065" xml:id="baudi-01-05602ffb-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-05602ffb-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="6231066" xml:id="baudi-01-05602ffb-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-05602ffb-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="6231067" xml:id="baudi-01-05602ffb-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-05602ffb-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="6231068" xml:id="baudi-01-05602ffb-00-0004" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-05602ffb-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid" target="6231069" xml:id="baudi-01-05602ffb-00-0005" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-05602ffb-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid" target="6231070" xml:id="baudi-01-05602ffb-00-0006" type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-05602ffb-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6231065" xml:id="baudi-01-05602ffb-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-05602ffb-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6231066" xml:id="baudi-01-05602ffb-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-05602ffb-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6231067" xml:id="baudi-01-05602ffb-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-05602ffb-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6231068" xml:id="baudi-01-05602ffb-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-05602ffb-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6231069" xml:id="baudi-01-05602ffb-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-05602ffb-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6231070" xml:id="baudi-01-05602ffb-00-0006" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-1271619a" label="Der Csikos"/>
         </body>

@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-f940fc15" status="created"><persName>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-f940fc15" status="approved">
+    <persName>
         <forename sort="1">Felix</forename>
         <surname>Dahn</surname>
-        <genName/>
-        <nameLink/>
-        <roleName/>
-        <addName/>
-    </persName><birth/><death/><faith key="unknown"/><education/><sex type="male"/><nationality
-        key="de"/><occupation/><idno type="gnd"/><idno type="viaf"/></person>
+    </persName>
+    <birth when="1834-02-09"/>
+    <death when="1912-01-03"/>
+    <sex type="male"/>
+    <nationality key="de"/>
+    <occupation>Dichter</occupation>
+    <idno type="gnd">118523392</idno>
+</person>

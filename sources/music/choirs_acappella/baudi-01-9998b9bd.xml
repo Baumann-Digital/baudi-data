@@ -1,42 +1,44 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-9998b9bd" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-9998b9bd" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-9998b9bd-titleUniMainDE">Bodensee</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-9998b9bd-title">
-                    <titlePart type="main" xml:id="baudi-02-9998b9bd-titleMain">Bodensee</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-9998b9bd-titleMainSort">Bodensee</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-9998b9bd-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-9998b9bd-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Bodensee</titlePart>
+                    <titlePart type="mainSort">Bodensee</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-9998b9bd-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-9998b9bd-lyricist">
-                    <persName>Herman Dold</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-f18c7e36">Herman Dold</persName>
                 </lyricist>
                 <key pname="g" mode="major"/>
                 <meter count="9" unit="8"/>
                 <tempo>Leicht bewegt. (Barcarole)</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor" xml:id="baudi-02-9998b9bd-perfRes-0001"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-9998b9bd-perfRes-0002"/>
-                        <perfRes auth="bass" xml:id="baudi-02-9998b9bd-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-9998b9bd-perfRes-0004"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes xml:id="baudi-02-9998b9bd-perfRes-0001" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-9998b9bd-perfRes-0002" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-9998b9bd-perfRes-0003" codedval="bass"/>
+                        <perfRes xml:id="baudi-02-9998b9bd-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -54,18 +56,16 @@
                         <titlePart type="subordinate" xml:id="baudi-01-9998b9bd-titleSub"/>
                     </title>
                     <composer xml:id="baudi-01-9998b9bd-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-9998b9bd-lyricist">
-                        <persName auth="baudi-04-35c9a190">
-                            <persName>Herman Dold</persName>
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName codedval="baudi-04-f18c7e36">Herman Dold</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-9998b9bd-respStmtDed">Zur Uraufführung beim X. Bodensee–Hegau–Sängerfest Pfingsten
-                        1925 dem Männergesangverein Singen–Hohentwiel anläßlich seines 65 jährigen Stiftungsfestes gewidmet vom
-                        Komponisten.</respStmt>
+                    <contributor xml:id="baudi-01-9998b9bd-contributorDed">Zur Uraufführung beim X. Bodensee–Hegau–Sängerfest Pfingsten 1925 dem Männergesangverein Singen–Hohentwiel anläßlich seines 65 jährigen Stiftungsfestes gewidmet vom Komponisten.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -73,23 +73,20 @@
                         <bibl>
                             <identifier>F. M. 412</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date>1925</date>
-                            <dedicatee>Zur Uraufführung beim X. Bodensee–Hegau–Sängerfest Pfingsten 1925 dem Männergesangverein
-                                Singen–Hohentwiel anläßlich seines 65 jährigen Stiftungsfestes gewidmet vom
-                                Komponisten.</dedicatee>
+                            <dedicatee>Zur Uraufführung beim X. Bodensee–Hegau–Sängerfest Pfingsten 1925 dem Männergesangverein Singen–Hohentwiel anläßlich seines 65 jährigen Stiftungsfestes gewidmet vom Komponisten.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck von C.G.Röder G. m. b. H., Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -97,7 +94,6 @@
                     <extent label="pages" unit="page">12</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -108,13 +104,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation>Erschienen 1925</creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -142,7 +138,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -151,71 +147,55 @@
     </meiHead>
     <music>
         <facsimile label="blb-vlid-6146066">
-            
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-9998b9bd-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="6207039" xml:id="baudi-01-9998b9bd-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="6207040" xml:id="baudi-01-9998b9bd-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="6207041" xml:id="baudi-01-9998b9bd-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="6207042" xml:id="baudi-01-9998b9bd-00-0004" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid" target="6207043" xml:id="baudi-01-9998b9bd-00-0005" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid" target="6207044" xml:id="baudi-01-9998b9bd-00-0006" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0007" n="7" label="4r">
-            <graphic targettype="blb-vlid" target="6207045" xml:id="baudi-01-9998b9bd-00-0007" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0008" n="8" label="4v">
-            <graphic targettype="blb-vlid" target="6207046" xml:id="baudi-01-9998b9bd-00-0008" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0009" n="9" label="5r">
-            <graphic targettype="blb-vlid" target="6207047" xml:id="baudi-01-9998b9bd-00-0009" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0010" n="10" label="5v">
-            <graphic targettype="blb-vlid" target="6207048" xml:id="baudi-01-9998b9bd-00-0010" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0011" n="11" label="6r">
-            <graphic targettype="blb-vlid" target="6207049" xml:id="baudi-01-9998b9bd-00-0011" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0012" n="12" label="6v">
-            <graphic targettype="blb-vlid" target="6207050" xml:id="baudi-01-9998b9bd-00-0012" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0013" n="13" label="7r">
-            <graphic targettype="blb-vlid" target="6207051" xml:id="baudi-01-9998b9bd-00-0013" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0014" n="14" label="7v">
-            <graphic targettype="blb-vlid" target="6207052" xml:id="baudi-01-9998b9bd-00-0014" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0015" n="15" label="8r">
-            <graphic targettype="blb-vlid" target="6207053" xml:id="baudi-01-9998b9bd-00-0015" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-9998b9bd-surface-0016" n="16" label="8v">
-            <graphic targettype="blb-vlid" target="6207054" xml:id="baudi-01-9998b9bd-00-0016" type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-9998b9bd-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6207039" xml:id="baudi-01-9998b9bd-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6207040" xml:id="baudi-01-9998b9bd-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6207041" xml:id="baudi-01-9998b9bd-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6207042" xml:id="baudi-01-9998b9bd-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6207043" xml:id="baudi-01-9998b9bd-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6207044" xml:id="baudi-01-9998b9bd-00-0006" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0007" n="7" label="4r">
+                <graphic targettype="blb-vlid" target="6207045" xml:id="baudi-01-9998b9bd-00-0007" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0008" n="8" label="4v">
+                <graphic targettype="blb-vlid" target="6207046" xml:id="baudi-01-9998b9bd-00-0008" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0009" n="9" label="5r">
+                <graphic targettype="blb-vlid" target="6207047" xml:id="baudi-01-9998b9bd-00-0009" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0010" n="10" label="5v">
+                <graphic targettype="blb-vlid" target="6207048" xml:id="baudi-01-9998b9bd-00-0010" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0011" n="11" label="6r">
+                <graphic targettype="blb-vlid" target="6207049" xml:id="baudi-01-9998b9bd-00-0011" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0012" n="12" label="6v">
+                <graphic targettype="blb-vlid" target="6207050" xml:id="baudi-01-9998b9bd-00-0012" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0013" n="13" label="7r">
+                <graphic targettype="blb-vlid" target="6207051" xml:id="baudi-01-9998b9bd-00-0013" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0014" n="14" label="7v">
+                <graphic targettype="blb-vlid" target="6207052" xml:id="baudi-01-9998b9bd-00-0014" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0015" n="15" label="8r">
+                <graphic targettype="blb-vlid" target="6207053" xml:id="baudi-01-9998b9bd-00-0015" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-9998b9bd-surface-0016" n="16" label="8v">
+                <graphic targettype="blb-vlid" target="6207054" xml:id="baudi-01-9998b9bd-00-0016" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-11800dfc" label="Bodensee"/>
         </body>

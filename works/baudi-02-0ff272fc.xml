@@ -1,44 +1,41 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-0ff272fc" status="created">
-                            <title type="uniform" xml:id="baudi-02-0ff272fc-title">
-                                   <titlePart type="main" xml:id="baudi-02-0ff272fc-titleMain">
-                                          Du schönes Weltenall
-                                   </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Du schönes Weltenall</titlePart>
-                            </title>
-                            <composer xml:id="baudi-02-0ff272fc-composer">
-                                   <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                            </composer>
-                            <lyricist xml:id="baudi-02-0ff272fc-lyricist">
-                                   <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
-                            </lyricist>
-                            
-                            <key pname="b" accid="s" mode="major"/>
-                            <meter count="4" unit="4"/>
-                            <tempo>Leicht bewegt.</tempo>
-                            <incip/>
-                            <creation/>
-                            <history/>
-                            <langUsage>
-                                   <head>In der Quelle verwendete Sprache(n)</head>
-                                   <language auth="de"/>
-                            </langUsage>
-                            <perfMedium>
-                                   <perfResList>
-                                          <perfRes auth="baudi-09-97264ddc">Hohe Stimme</perfRes>
-                                          <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-                                   </perfResList>
-                            </perfMedium>
-                            <audience/>
-                            
-                            
-                            <classification>
-                                   
-                                   <termList>
-                                          
-                                          <term type="workGroup">vocal</term>
-                                          <term type="genre">song</term>
-                                   </termList>
-                            </classification>
-                            <relationList>
-                                   <relation rel="hasEmbodiment" target="baudi-01-d4981579"/>
-                            </relationList>
-                     </work>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-0ff272fc" status="proposed">
+    <title type="uniform" xml:id="baudi-02-0ff272fc-title">
+        <titlePart type="main" xml:id="baudi-02-0ff272fc-titleMain"> Du schönes Weltenall </titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Du schönes Weltenall</titlePart>
+    </title>
+    <composer xml:id="baudi-02-0ff272fc-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-0ff272fc-lyricist">
+        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
+    </lyricist>
+    <key pname="b" accid="s" mode="major"/>
+    <meter count="4" unit="4"/>
+    <tempo>Leicht bewegt.</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList>
+            <perfRes codedval="voice">Hohe Stimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">song</term>
+        </termList>
+    </classification>
+    <relationList>
+        <relation rel="hasEmbodiment" target="baudi-01-d4981579"/>
+    </relationList>
+</work>

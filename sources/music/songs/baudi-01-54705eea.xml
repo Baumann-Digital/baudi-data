@@ -1,108 +1,97 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-54705eea" status="created">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-54705eea-titleUniMainDE">Heiliges Feuer</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-54705eea-titleUniDescDE">für hohe Stimme und
-                  Klavier</titlePart>
-            </title>
-         </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Heiliges Feuer</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-
-            <key pname="f" mode="major"/>
-            <meter count="3" unit="4"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes auth="baudi-09-97264ddc">Hohe Stimme</perfRes>
-                  <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="rism">453003895</identifier>
-            <identifier type="D-KA">Mus. Hs. 1300b</identifier>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-54705eea" status="proposed">
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-54705eea-titleMain">Heiliges Feuer</titlePart>
-               </title>
-               <composer xml:id="baudi-01-54705eea-composer">
-                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <arranger xml:id="baudi-01-54705eea-arranger"/>
-               <lyricist xml:id="baudi-01-54705eea-lyricist">
-                  <persName auth="baudi-04-abc247c4">Heinz Stadelmann</persName>
-               </lyricist>
-
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-54705eea-titleUniMainDE">Heiliges Feuer</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-54705eea-titleUniDescDE">für hohe Stimme und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p decls="creation"><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Heiliges Feuer</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="f" mode="major"/>
+                <meter count="3" unit="4"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="voice.high">Hohe Stimme</perfRes>
+                        <perfRes codedval="piano"/>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="rism">453003895</identifier>
+                <identifier type="D-KA">Mus. Hs. 1300b</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-54705eea-titleMain">Heiliges Feuer</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-54705eea-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <arranger xml:id="baudi-01-54705eea-arranger"/>
+                    <lyricist xml:id="baudi-01-54705eea-lyricist">
+                        <persName codedval="baudi-04-abc247c4">Heinz Stadelmann</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <titlePage>
-
-                  <p decls="titlePage">Heiliges Feuer<lb/>
-                     <lb/>Ludwig Baumann<lb/>
-                     <lb/>Heinz Stadelmann<lb/>
-                  </p>
-               </titlePage>
-               <dimensions label="height" unit="mm">340</dimensions>
-               <dimensions label="width" unit="mm">270</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="folium" unit="folium">2</extent>
-               <extent label="pages" unit="page">3</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="NE 1r BiblVermerk" medium="Bleistift">Mus. Hs. 1300 b</hand>
-                  <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-                  <hand label="E 2r Schlussvermerk" medium="BLeistift">Fecit. 28.II/1.II 25. R Jüngling</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="closingNote" medium="BLeistift" xml:id="baudi-01-6b488120-hand-0003"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-05" type="desc" resp="dried"/>
-                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-54705eea-physMedium">Maschinell rastriert für eine Singstimme und ein Tasteninstrument
-                  (2-zeilige Akkolade). Beschrieben mit schwarzer Tinte.</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1300b</identifier>
-               </repository>
-
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <titlePage>
+                        <p>Heiliges Feuer<lb/>
+                            <lb/>Ludwig Baumann<lb/>
+                            <lb/>Heinz Stadelmann<lb/>
+                        </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">340</dimensions>
+                    <dimensions label="width" unit="mm">270</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">3</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="closingNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0003"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-05" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-54705eea-physMedium">Maschinell rastriert für eine Singstimme und ein Tasteninstrument (2-zeilige Akkolade). Beschrieben mit schwarzer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1300b</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language auth="de"/>
-            </langUsage>
-            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
 								label="quires">
 								<head>Lagenordnung</head>
@@ -110,58 +99,60 @@
 									n="1">1. Lage</li>
 							</list>
 						</p> --></contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-05" label="dried">Abschrift durch R Jüngling</annot>
-               <annot plist="stamp S-oriented 1r 2v" corresp="#baudi-01-54705eea-physMedium">L.B./Karlsruhe</annot>
-               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-54705eea-physMedium">K.U.V. Beethoven Papier Nr.11. (4
-                  Systeme)</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-1328ea0e"/>
-               <relation rel="hasEmbodiment" corresp="baudi-01-4e8b0bb7"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-05" resp="dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile>
-     <!--https://digital.blb-karlsruhe.de/blbihd/content/pageview/3296144-->
+                    <annot n="1" when="2018-02-05" label="dried">Abschrift durch R Jüngling</annot>
+                    <annot plist="stamp S-oriented 1r 2v" corresp="#baudi-01-54705eea-physMedium">L.B./Karlsruhe</annot>
+                    <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-54705eea-physMedium">K.U.V. Beethoven Papier Nr.11. (4 Systeme)</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Mus. Hs. 1300 b</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
+                    <annot plist="closingNote E-oriented 2r" corresp="#baudi-01-6b488120-hand-0003">Fecit. 28.II/1.II 25. R Jüngling</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-1328ea0e"/>
+                    <relation rel="hasEmbodiment" corresp="baudi-01-4e8b0bb7"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-05" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+         <!--https://digital.blb-karlsruhe.de/blbihd/content/pageview/3296144-->
       </facsimile>
-      <body>
-         <mdiv xml:id="baudi_20_de535d98" label="Heiliges Feuer">
-            <score>
-               <scoreDef/>
-               <section/>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+        <body>
+            <mdiv xml:id="baudi_20_de535d98" label="Heiliges Feuer">
+                <score>
+                    <scoreDef/>
+                    <section/>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>

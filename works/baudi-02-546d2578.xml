@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-546d2578">
+    <identifier type="baudi-copy">none</identifier>
+    <title type="uniform" xml:id="baudi-02-546d2578-title">
+        <titlePart type="main" xml:id="baudi-02-546d2578-titleMain">Quartett (Canon)</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-546d2578-titleMainSort">Quartett Canon</titlePart>
+    </title>
+    <composer xml:id="baudi-02-546d2578-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist> </lyricist>
+    <key pname="g" mode="major"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Moderato</tempo>
+    <incip>
+        <incipText>
+            <p>Danket dem Herrn, denn er ist freundlich</p>
+        </incipText>
+    </incip>
+    <creation>Stebbach 1885</creation>
+    <history/>
+    <perfMedium>
+        <perfResList>
+            <perfRes codedval="soprano"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal">BLB: Mus. Hs. 1294a (https://digital.blb-karlsruhe.de/blbihd/content/pageview/3295093)</annot>
+        <annot type="internal">Alte Schlüsselung! Sopran-, Alt-, Tenor- Basschlüssel</annot>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">quartet</term>
+        </termList>
+    </classification>
+    <!--<relationList>
+                         <relation rel="hasEmbodiment"/> 
+                     </relationList>-->
+</work>

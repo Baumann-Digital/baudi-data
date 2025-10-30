@@ -1,46 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-028c31ae"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-028c31ae" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-028c31ae-titleUniMainDE">Nacht auf dem Meer</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-028c31ae-title">
-                    <titlePart type="main" xml:id="baudi-02-028c31ae-titleMain">Nacht auf dem Meer</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-028c31ae-titleMainSort">Nacht auf dem Meer</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-028c31ae-titleSub">"Georg Richter</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-028c31ae-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Nacht auf dem Meer</titlePart>
+                    <titlePart type="mainSort">Nacht auf dem Meer</titlePart>
+                    <titlePart type="subordinate">"Georg Richter</titlePart>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-028c31ae-composer">an Bord des Linienschiffes Hessen"</composer>
-                <lyricist xml:id="baudi-02-028c31ae-lyricist">
-                    <persName>Ludwig Baumann</persName>
+                <composer>an Bord des Linienschiffes Hessen"</composer>
+                <lyricist>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </lyricist>
-                <key pname="" mode="d"/>
-                <meter count="minor" unit="4"/>
+                <key pname="d" mode="minor"/>
+                <!--                <meter count="?" unit="4"/>-->
                 <tempo/>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choir">
-                        <perfRes auth="Universitätsdruckerei H. Stürtz A. G."/>
-                        <perfRes auth=" Würzburg"/>
-                    </perfResList>
-                    <annot type="performance"/>
+                    <perfResList codedval="choir"/>
                 </perfMedium>
                 <contents/>
             </work>
@@ -49,40 +41,34 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-68</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-028c31ae-title">
-                    <titlePart type="main" xml:id="baudi-02-028c31ae-titleMain">Nacht auf dem Meer</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-028c31ae-titleMainSort">Nacht auf dem Meer</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-028c31ae-titleSub">"Georg Richter</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-028c31ae-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-028c31ae-composer">an Bord des Linienschiffes Hessen"</composer>
-               <lyricist xml:id="baudi-02-028c31ae-lyricist">
-                    <persName>Ludwig Baumann</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Nacht auf dem Meer</titlePart>
+                        <titlePart type="mainSort">Nacht auf dem Meer</titlePart>
+                        <titlePart type="subordinate">"Georg Richter</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>an Bord des Linienschiffes Hessen"</composer>
+                    <lyricist>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Nacht auf dem Meer</title>
                         <bibl>
                             <identifier>muspr</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>2755</date>
-                            <dedicatee>Der <corpName>»Sängervereinigung Jahn«, <settlement>Paderborn</settlement>
-                        </corpName>, und ihrem hochverdienten Dirigenten, <persName role="conductor">Herrn
-                                Max Steege</persName> gewidmet.</dedicatee>
+                            <dedicatee>Der <corpName>»Sängervereinigung Jahn«, <settlement codedval="baudi-06-3c7883d5">Paderborn</settlement>
+                                </corpName>, und ihrem hochverdienten Dirigenten, <persName role="conductor" codedval="baudi-04-2540e39d">Herrn Max Steege</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -95,14 +81,13 @@
                     <extent label="pages" unit="page">170</extent>
                     <extent label="pagination">3</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
                    							              <symbol class="suenova-001"/>
                    						            </locus>
                    					          </physMedium>-->
-                    <plateNum n="H. 2755 H.">2755</plateNum>
+                    <plateNum n="2755">H. 2755 H.</plateNum>
                 </physDesc>
                 <physLoc>
                     <repository>
@@ -110,10 +95,10 @@
                     </repository>
                 </physLoc>
                 <creation>Erschienen <date isodate="1930">1930</date>
-            </creation>
+                </creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -131,9 +116,7 @@
                     </termList>
                 </classification>
                 <relationList>
-                    <relation rel="isEmbodimentOf"
-                         corresp="baudi-02-2b8a80d5"
-                         type="otherPerfRes"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-2b8a80d5" type="otherPerfRes"/>
                 </relationList>
             </manifestation>
         </manifestationList>
@@ -143,7 +126,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -152,63 +135,31 @@
     </meiHead>
     <music>
         <facsimile label="6145929">
-            
-                
-                
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-028c31ae-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6207079"
-                     xml:id="baudi-01-028c31ae-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6207080"
-                     xml:id="baudi-01-028c31ae-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6207081"
-                     xml:id="baudi-01-028c31ae-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6207082"
-                     xml:id="baudi-01-028c31ae-00-0004"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid"
-                     target="6207083"
-                     xml:id="baudi-01-028c31ae-00-0005"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid"
-                     target="6207084"
-                     xml:id="baudi-01-028c31ae-00-0006"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0007" n="7" label="4r">
-            <graphic targettype="blb-vlid"
-                     target="6207085"
-                     xml:id="baudi-01-028c31ae-00-0007"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-028c31ae-surface-0008" n="8" label="4v">
-            <graphic targettype="blb-vlid"
-                     target="6207086"
-                     xml:id="baudi-01-028c31ae-00-0008"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-028c31ae-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6207079" xml:id="baudi-01-028c31ae-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6207080" xml:id="baudi-01-028c31ae-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6207081" xml:id="baudi-01-028c31ae-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6207082" xml:id="baudi-01-028c31ae-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6207083" xml:id="baudi-01-028c31ae-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6207084" xml:id="baudi-01-028c31ae-00-0006" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0007" n="7" label="4r">
+                <graphic targettype="blb-vlid" target="6207085" xml:id="baudi-01-028c31ae-00-0007" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-028c31ae-surface-0008" n="8" label="4v">
+                <graphic targettype="blb-vlid" target="6207086" xml:id="baudi-01-028c31ae-00-0008" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-514b18c4" label="Nacht auf dem Meer"/>
         </body>

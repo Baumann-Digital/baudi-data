@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person sex="male" xmlns="http://www.tei-c.org/ns/1.0" status="checked" xml:id="baudi-04-f9fa4cb9">
-   <idno type="gnd">11690545X</idno>
-   <idno type="viaf">5694989</idno>
-   <persName>
-      <forename sort="1">Hans</forename>
-      <forename sort="2">Wilhelm</forename>
-      <surname>Mertens</surname>
-   </persName>
-   <birth when="1866"/>
-   <death when="1921">
-      <settlement>Köln</settlement>
-   </death>
-   <faith/>
-   <nationality key="de"/>
-   <education/>
-   <occupation>Lehrer</occupation><occupation>lyricist</occupation>
-   <affiliation/> <!-- warum Süddeutscher Musikverlag??? -->
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" sex="male" status="approved" xml:id="baudi-04-f9fa4cb9">
+    <idno type="gnd">11690545X</idno>
+    <idno type="viaf">5694989</idno>
+    <persName>
+        <forename sort="1">Hans</forename>
+        <forename sort="2">Wilhelm</forename>
+        <surname>Mertens</surname>
+    </persName>
+    <birth when="1866"/>
+    <death when="1921">
+        <placeName>Köln</placeName>
+    </death>
+    <nationality key="de"/>
+    <occupation>Lehrer</occupation>
+    <occupation>Dichter</occupation>
 </person>

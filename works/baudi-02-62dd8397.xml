@@ -1,65 +1,55 @@
-    <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-62dd8397" status="created">
-        <title type="uniform" xml:id="baudi-02-62dd8397-title">
-            <titlePart type="main" xml:id="baudi-02-62dd8397-titleMain">
-                Rosenduft
-            </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Rosenduft</titlePart>
-            
-            
-        </title>
-        <composer xml:id="baudi-02-62dd8397-composer">
-            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-        </composer>
-        <lyricist xml:id="baudi-02-62dd8397-lyricist">
-            <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
-        </lyricist>
-        
-        <key pname="e" accid="f" mode="major"/>
-        <key pname="f" mode="major"/>
-        <meter count="4" unit="8"/>
-        <meter count="2" unit="4"/>
-        <tempo>Innig; nicht schnell. | Innig, ziemlich mod to: | </tempo>
-        <incip/>
-        <creation/>
-        <history/>
-        <langUsage>
-            <head>In der Quelle verwendete Sprache(n)</head>
-            <language auth="de"/>
-        </langUsage>
-        <perfMedium>
-            <perfResList>
-                <perfRes auth="baudi-09-d66ce403">Mittlere Singstimme</perfRes>
-                <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-            </perfResList>
-        </perfMedium>
-        <audience/>
-        
-        
-        <classification>
-            
-            <termList>
-                
-                <term type="workGroup">vocal</term>
-                <term type="genre">song</term>
-            </termList>
-        </classification>
-        <!--		
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-62dd8397" status="proposed">
+    <title type="uniform" xml:id="baudi-02-62dd8397-title">
+        <titlePart type="main" xml:id="baudi-02-62dd8397-titleMain"> Rosenduft </titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Rosenduft</titlePart>
+    </title>
+    <composer xml:id="baudi-02-62dd8397-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-62dd8397-lyricist">
+        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
+    </lyricist>
+    <key pname="e" accid="f" mode="major"/>
+    <key pname="f" mode="major"/>
+    <meter count="4" unit="8"/>
+    <meter count="2" unit="4"/>
+    <tempo>Innig; nicht schnell. | Innig, ziemlich mod to: | </tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList>
+            <perfRes codedval="voice.middle">Mittlere Singstimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">song</term>
+        </termList>
+    </classification>
+    <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-        <relationList>
-            <!-- Hier werden die zugehörigen Quellen verlinkt -->
-            <relation rel="hasEmbodiment" target="baudi-01-aead1a4c"/>
-            <relation rel="hasEmbodiment" target="baudi-01-ca793ce9"/>
-            <relation rel="hasEmbodiment" target="baudi-01-72a2ff19"/>
-            <relation rel="hasEmbodiment" target="baudi-01-1426d57f"/>
-            <relation rel="hasEmbodiment" target="baudi-01-fc6ce65b"/>
-        </relationList>
-    </work>
-
-
-
-
-
+    <relationList>
+        <!-- Hier werden die zugehörigen Quellen verlinkt -->
+        <relation rel="hasEmbodiment" target="baudi-01-aead1a4c"/>
+        <relation rel="hasEmbodiment" target="baudi-01-ca793ce9"/>
+        <relation rel="hasEmbodiment" target="baudi-01-72a2ff19"/>
+        <relation rel="hasEmbodiment" target="baudi-01-1426d57f"/>
+        <relation rel="hasEmbodiment" target="baudi-01-fc6ce65b"/>
+    </relationList>
+</work>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-b4767824">
+    <identifier type="baudi-copy">CMVS-HH-23</identifier>
+    <title type="uniform" xml:id="baudi-02-b4767824-title">
+        <titlePart type="main" xml:id="baudi-02-b4767824-titleMain">Halleluja, Kind Jesus</titlePart>
+        <titlePart type="number" codedval="opus">89</titlePart>
+        <titlePart type="mainSort">Halleluja Kind Jesus</titlePart>
+    </title>
+    <composer xml:id="baudi-02-b4767824-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-b4767824-lyricist">
+        <persName codedval="baudi-04-31a17e8b">Nach einem englischen Text: Child Jesus</persName>
+    </lyricist>
+    <key pname="f" mode="major"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Etwas belebt.</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choir5voices">
+            <perfRes codedval="soprano.i"/>
+            <perfRes codedval="soprano.ii"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal">Für 5-stimmigen Chor (SSATB)</annot>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+    <!--<relationList>
+                         <relation rel="hasEmbodiment"/>
+                     </relationList>-->
+</work>

@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-    xml:id="baudi-01-ec0b5c19" status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-ec0b5c19" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ec0b5c19-titleUniMainDE">Zum Anger bei der
-                        Linde</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ec0b5c19-titleUniMainDE">Zum Anger bei der Linde</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-ec0b5c19-title">
-                    <titlePart type="main" xml:id="baudi-02-ec0b5c19-titleMain">Zum Anger bei der Linde</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-ec0b5c19-titleMainSort">Zum Anger bei der Linde</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-ec0b5c19-titleSub">Tanzlied</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-ec0b5c19-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Zum Anger bei der Linde</titlePart>
+                    <titlePart type="mainSort">Zum Anger bei der Linde</titlePart>
+                    <titlePart type="subordinate">Tanzlied</titlePart>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-ec0b5c19-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-ec0b5c19-lyricist">
-                    <persName>Anton König</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-0a5e1380">Anton König</persName>
                 </lyricist>
                 <key pname="b" accid="f" mode="major"/>
                 <meter count="2" unit="4"/>
                 <tempo>Nicht zu schnell [Viertel = ungefähr 72]</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano" xml:id="baudi-02-ec0b5c19-perfRes-0001"/>
-                        <perfRes auth="alto" xml:id="baudi-02-ec0b5c19-perfRes-0002"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-ec0b5c19-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-ec0b5c19-perfRes-0004"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes xml:id="baudi-02-ec0b5c19-perfRes-0001" codedval="soprano"/>
+                        <perfRes xml:id="baudi-02-ec0b5c19-perfRes-0002" codedval="alto"/>
+                        <perfRes xml:id="baudi-02-ec0b5c19-perfRes-0003" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-ec0b5c19-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -57,16 +56,16 @@
                         <titlePart type="subordinate" xml:id="baudi-01-ec0b5c19-titleSub">Tanzlied</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ec0b5c19-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-ec0b5c19-lyricist">
-                        <persName auth="baudi-04-35c9a190">
-                            <persName>Anton König</persName>
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName codedval="baudi-04-0a5e1380">Anton König</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-ec0b5c19-respStmtDed"/>
+                    <contributor xml:id="baudi-01-ec0b5c19-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -74,18 +73,18 @@
                         <bibl>
                             <identifier>45</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck der Universitätsdruckerei H. Stürtz A. G., Würzburg</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
                     <dimensions label="height" unit="mm">170</dimensions>
@@ -95,7 +94,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -106,13 +104,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -140,7 +138,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

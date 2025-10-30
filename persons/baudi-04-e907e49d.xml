@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-e907e49d" status="created">
-    <persName>Joseph von Eichendorff</persName>
-    <birth/>
-    <death/>
-    <faith key="unknown"/>
-    <education/>
-    <sex type="unknown"/>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-e907e49d" status="approved">
+    <persName>
+        <forename>Joseph</forename>
+        <nameLink>von</nameLink>
+        <surname>Eichendorff</surname>
+    </persName>
+    <birth when="1788-03-10"/>
+    <death when="1857-11-26"/>
+    <sex type="male"/>
     <nationality key="de"/>
-    <occupation/>
-    <affiliation/>
-    <idno type="gnd"/>
-    <idno type="viaf"/>
+    <occupation>Schriftsteller</occupation>
+    <idno type="gnd">118529390</idno>
     <note/>
 </person>

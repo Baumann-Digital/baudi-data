@@ -1,54 +1,49 @@
-	<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-9a7e7370" status="created">
-		<title type="uniform" xml:id="baudi-02-9a7e7370-title">
-			<titlePart type="main" xml:id="baudi-02-9a7e7370-titleMain">Wiegenlied</titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Wiegenlied</titlePart>
-		</title>
-		<composer xml:id="baudi-02-9a7e7370-composer">
-			<persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-		</composer>
-		<lyricist xml:id="baudi-02-9a7e7370-lyricist">
-			<persName auth="baudi-04-fbea52a7">Ferdinand Freiligrath</persName>
-		</lyricist>
-		
-		<key pname="f" mode="major"/>
-		<meter count="3" unit="4"/>
-		<tempo/>
-		<incip/>
-		<creation/>
-		<history/>
-		<langUsage>
-			<head>In der Quelle verwendete Sprache(n)</head>
-			<language auth="de"/>
-		</langUsage>
-		<perfMedium>
-			<perfResList>
-				<perfRes auth="baudi-09-82e86ea7">Singstimme</perfRes>
-				<perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-			</perfResList>
-		</perfMedium>
-		<audience/>
-		
-		
-		<classification>
-			
-			<termList>
-				
-				<term type="workGroup">vocal</term>
-				<term type="genre">song</term>
-			</termList>
-		</classification>
-		<!--		
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-9a7e7370" status="proposed">
+    <title type="uniform" xml:id="baudi-02-9a7e7370-title">
+        <titlePart type="main" xml:id="baudi-02-9a7e7370-titleMain">Wiegenlied</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Wiegenlied</titlePart>
+    </title>
+    <composer xml:id="baudi-02-9a7e7370-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-9a7e7370-lyricist">
+        <persName codedval="baudi-04-fbea52a7">Ferdinand Freiligrath</persName>
+    </lyricist>
+    <key pname="f" mode="major"/>
+    <meter count="3" unit="4"/>
+    <tempo/>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList>
+            <perfRes codedval="voice">Singstimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">song</term>
+        </termList>
+    </classification>
+    <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-		<relationList>
-			<!-- Hier werden die zugehörigen Quellen verlinkt -->
-			<relation rel="hasEmbodiment" target="baudi-01-5569da27"/>
-		</relationList>
-	</work>
-
-
-
-
+    <relationList>
+		<!-- Hier werden die zugehörigen Quellen verlinkt -->
+        <relation rel="hasEmbodiment" target="baudi-01-5569da27"/>
+    </relationList>
+</work>

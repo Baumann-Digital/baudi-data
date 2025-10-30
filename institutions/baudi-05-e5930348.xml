@@ -1,28 +1,16 @@
-<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-05-e5930348" type="company">
-   <orgName type="used">Bärenreiter-Verlag</orgName>
-   <orgName>Bärenreiter-Kunstverlag</orgName>
-   <orgName>Bärenreiter-Verlag Karl Vötterle</orgName>
-   <orgName>Bärenreiter-Verlag Karl Vötterle GmbH &amp; Co. KG</orgName>
-   <location>
-      <placeName type="street"/>
-      <settlement type="city">Kassel</settlement>
-      <settlement to="1927" key="baudi-06-2e7e1c81">Augsburg</settlement>
-      <country key="D"/>
-   </location>
-   <listPerson>
-      <person>
-         <persName/>
-      </person>
-   </listPerson>
-<listEvent>
-   <event>
-      <desc> Der Verlag wurde am <date type="established" when="1923-11-01" when-custom="1923-11-01"
-               >1. November 1923</date> gegründet. </desc>
-   </event>
-</listEvent>   
-   <idno type="gnd"/>
-   <idno type="viaf"/>
-   
-      <note/>
-   
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-05-e5930348" type="company" status="approved">
+    <orgName type="used">Bärenreiter-Verlag</orgName>
+    <orgName>Bärenreiter-Kunstverlag</orgName>
+    <orgName>Bärenreiter-Verlag Karl Vötterle</orgName>
+    <orgName>Bärenreiter-Verlag Karl Vötterle GmbH &amp; Co. KG</orgName>
+    <location>
+        <placeName type="street"/>
+        <settlement type="city">Kassel</settlement>
+        <settlement to="1927" key="baudi-06-2e7e1c81">Augsburg</settlement>
+        <country key="D"/>
+    </location>
+    <idno type="gnd">2005573-0</idno>
+    <note>Der Verlag wurde am <date type="established" when="1923-11-01" when-custom="1923-11-01">1. November 1923</date> gegründet</note>
 </org>

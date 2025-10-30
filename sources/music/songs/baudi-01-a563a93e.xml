@@ -1,4 +1,7 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-a563a93e" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-a563a93e" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
@@ -7,11 +10,9 @@
                     <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-a563a93e-titleUniformSubDE"/>
                     <titlePart type="desc" xml:lang="de" xml:id="baudi-01-a563a93e-titleUniformDescDE">baudi-01-a563a93e-titleUniformDescDE</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
-
+            <pubStmt> </pubStmt>
             <!-- <sourceDesc>
 			<source>
 			<head/>
@@ -20,7 +21,6 @@
 			</source>
 			</sourceDesc> -->
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -28,22 +28,22 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="e" accid="f" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Schwungvoll, doch nicht zu schnell.</tempo>
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="voice" xml:id="baudi-01-a563a93e-perfRes-0001">Singstimme<range corresp="baudi-01-a563a93e-perfRes-0001">
-                        <rangeNote type="lowest" pname="e" accid="f" oct="4"/>
-                        <rangeNote type="highest" pname="f" oct="5"/>
-                     </range>
-                  </perfRes>
-                        <perfRes auth="piano" xml:id="baudi-01-a563a93e-perfRes-0002">Klavier</perfRes>
+                        <perfRes xml:id="baudi-01-a563a93e-perfRes-0001" codedval="voice">
+                            <range>
+                                <rangeNote type="lowest" pname="e" accid="f" oct="4"/>
+                                <rangeNote type="highest" pname="f" oct="5"/>
+                            </range>
+                        </perfRes>
+                        <perfRes xml:id="baudi-01-a563a93e-perfRes-0002" codedval="piano">Klavier</perfRes>
                     </perfResList>
                 </perfMedium>
-            <!--                <annot type="ambitus">es1-f2</annot>-->
+                <!--                <annot type="ambitus">es1-f2</annot>-->
             </work>
         </workList>
         <manifestationList>
@@ -55,8 +55,7 @@
                     <title xml:id="baudi-01-a563a93e-title">
                         <titlePart type="main" xml:id="baudi-01-a563a93e-titleMain">Heiliges Feuer.</titlePart>
                         <titlePart type="subordinate" xml:id="baudi-01-a563a93e-titleSub"/>
-                        <titlePart type="desc" xml:id="baudi-01-a563a93e-titleDesc">Für 1 höhere Singstimme mit
-                            Klavierbegleitung</titlePart>
+                        <titlePart type="desc" xml:id="baudi-01-a563a93e-titleDesc">Für 1 höhere Singstimme mit Klavierbegleitung</titlePart>
                     </title>
                     <composer xml:id="baudi-01-a563a93e-composer">
                         <ref target="persons.xml#baudi-04-5e3ed698">Ludwig Baumann</ref>
@@ -65,19 +64,15 @@
                     <lyricist xml:id="baudi-01-a563a93e-lyricist">
                         <ref target="persons.xml#baudi-04-ff23e58e">Heinz Stadelmann</ref>
                     </lyricist>
-                    
                 </titleStmt>
                 <physDesc>
-                    <p decls="creation"><!--	<date
+                    <p><!--	<date
 								type="creation"
 								subtype="sure"
 								isodate="0000"/> --></p>
                     <titlePage>
-                        <p decls="titlePage">Lieder<lb/>für eine Singstimme<lb/>mit Klavierbegleitung <lb/>komponiert
-                            von<lb/>Ludwig Baumann<lb/>
-                            <lb/>[1.] heiliges Feuer, »Komm’ göttlicher Funke« (Heinz Stadelmann)<lb/>für 1 höhere Singstimme Mk.
-                            1.20<lb/>Wo ist Gott? »Wo ist Gott ? Im Meeresrauschen !«<lb/>für 1 mittlere Singstimme Mk.
-                            1.20<lb/>Verlag und Eigentum für alle Länder von Johann André,<lb/>Offenbach am Main</p>
+                        <p>Lieder<lb/>für eine Singstimme<lb/>mit Klavierbegleitung <lb/>komponiert von<lb/>Ludwig Baumann<lb/>
+                            <lb/>[1.] heiliges Feuer, »Komm’ göttlicher Funke« (Heinz Stadelmann)<lb/>für 1 höhere Singstimme Mk. 1.20<lb/>Wo ist Gott? »Wo ist Gott ? Im Meeresrauschen !«<lb/>für 1 mittlere Singstimme Mk. 1.20<lb/>Verlag und Eigentum für alle Länder von Johann André,<lb/>Offenbach am Main</p>
                     </titlePage>
                     <dimensions label="height" unit="mm">334</dimensions>
                     <dimensions label="width" unit="mm">255</dimensions>
@@ -88,30 +83,24 @@
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand label="S 1r BiblVermerk" medium="Bleistift">[um 1920]</hand>
-                        <hand label="N 1r BiblVermerk" medium="Bleistift">M 308, 1./2.</hand>
-                        <hand label="C 1v BiblVermerk" medium="Bleistift">M 308, 1</hand>
-                        <hand label="S 1v BiblVermerk" medium="Bleistift">Z</hand>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
                     </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
                     <condition n="1">
-                        <date isodate="2020-02-04" type="desc" resp="dried"/>
-                        <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
+                        <date isodate="2020-02-04" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
                     </condition>
                     <physMedium xml:id="baudi-01-a563a93e-physMedium">Gedruckt, Gebunden (Klebebindung).</physMedium>
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">M 308,1</identifier>
                     </repository>
                 </physLoc>
                 <history><!-- <eventList/> --></history>
                 <langUsage>
                     <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
@@ -127,8 +116,11 @@
                 <notesStmt>
                     <!-- Weitere Anmerkungen des Beschreibers -->
                     <annot n="1" when="2020-02-04" label="dried"/>
-                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-a563a93e-physMedium">Badische
-                        Landesbibliothek/Karlsruhe</annot>
+                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-a563a93e-physMedium">Badische Landesbibliothek/Karlsruhe</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">[um 1920]</annot>
+                    <annot plist="biblNote N-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">M 308, 1./2.</annot>
+                    <annot plist="biblNote 1v" corresp="#baudi-01-6b488120-hand-0001">M 308, 1</annot>
+                    <annot plist="biblNote S-oriented 1v" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -144,12 +136,12 @@
         </manifestationList>
         <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"/>
         <revisionDesc>
-            <change n="0" isodate="2017-04-01" resp="dried">
+            <change n="0" isodate="2017-04-01" resp="#dried">
                 <changeDesc>
                     <p>Initializing the project</p>
                 </changeDesc>
             </change>
-            <change n="1" isodate="2020-02-04" resp="dried">
+            <change n="1" isodate="2020-02-04" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourceMsScore.xql</p>
                 </changeDesc>
@@ -159,17 +151,7 @@
     <music>
         <facsimile/>
         <body>
-            <mdiv>
-                <score>
-                    <scoreDef>
-                        <ambitus corresp="baudi-01-a563a93e-perfRes-0001">
-                            <ambNote type="lowest" pname="e" accid="f" oct="4"/>
-                            <ambNote type="highest" pname="f" oct="5"/>
-                        </ambitus>
-                    </scoreDef>
-                    <section/>
-                </score>
-            </mdiv>
+            <mdiv> </mdiv>
         </body>
     </music>
 </mei>

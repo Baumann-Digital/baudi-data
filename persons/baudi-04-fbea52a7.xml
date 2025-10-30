@@ -1,25 +1,14 @@
- 
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-fbea52a7" sex="male" status="created">
-   <persName>
-      <forename sort="1" type="used">Ferdinand</forename>
-      <surname type="used">Freiligrath</surname>
-      <genName/>
-      <nameLink/>
-      <roleName/>
-      <addName/>
-   </persName>
-   <birth when-custom="1810"/>
-   <death when-custom="1876"/>
-   <faith key="unknown"/>
-   <education/>
-   <nationality key="de"/>
-   <occupation>Schriftsteller</occupation>
-   <idno type="gnd">118535196</idno>
-   <idno type="viaf"/>
-   
-      <note/>
-   <bibl>
-      W. Buchner: Ferdinand Freiligrath. Ein Dichterleben in Briefen, Bd. 1 Lahr 1882 (<ref target="https://books.google.de/books?id=gpUMAQAAIAAJ&amp;hl=de&amp;pg=PP1#v=onepage&amp;q&amp;f=false">Google Books</ref>)
-   </bibl>
-   
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-fbea52a7" sex="male" status="proposed">
+    <persName>
+        <forename sort="1" type="used">Ferdinand</forename>
+        <surname type="used">Freiligrath</surname>
+    </persName>
+    <birth when-custom="1810"/>
+    <death when-custom="1876"/>
+    <nationality key="de"/>
+    <occupation>Schriftsteller</occupation>
+    <idno type="gnd">118535196</idno>
+    <bibl>W. Buchner: Ferdinand Freiligrath. Ein Dichterleben in Briefen, Bd. 1 Lahr 1882.</bibl>
 </person>

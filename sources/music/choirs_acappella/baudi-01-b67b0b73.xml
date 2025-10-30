@@ -1,48 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-b67b0b73"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-b67b0b73" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-b67b0b73-titleUniMainDE">Gottesfrieden</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-b67b0b73-title">
-                    <titlePart type="main" xml:id="baudi-02-b67b0b73-titleMain">Gottesfrieden</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-b67b0b73-titleMainSort">Gottesfrieden</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-b67b0b73-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-b67b0b73-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Gottesfrieden</titlePart>
+                    <titlePart type="mainSort">Gottesfrieden</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-b67b0b73-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-b67b0b73-lyricist">
-                    <persName>Ferdinand Dietz</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-50ce65b4">Ferdinand Dietz</persName>
                 </lyricist>
                 <key pname="a" mode="minor"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Langsam. Viertel = 42 (Die Tempobezeichnungen sind nur annähernd.)</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance">Die Tempobezeichnungen sind nur annähernd</annot>
                 </perfMedium>
@@ -53,42 +49,36 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-35</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-b67b0b73-title">
-                    <titlePart type="main" xml:id="baudi-02-b67b0b73-titleMain">Gottesfrieden</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-b67b0b73-titleMainSort">Gottesfrieden</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-b67b0b73-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-b67b0b73-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-b67b0b73-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-b67b0b73-lyricist">
-                    <persName>Ferdinand Dietz</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Gottesfrieden</titlePart>
+                        <titlePart type="mainSort">Gottesfrieden</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName codedval="baudi-04-50ce65b4">Ferdinand Dietz</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Gottesfrieden</title>
                         <bibl>
                             <identifier>H. 1100 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
-                            <dedicatee>Dem <corpName>Lehrergesangverein <settlement>Mannheim</settlement>-<settlement>Ludwigshafen</settlement>
-                        </corpName> und seinem hochverdienten Dirigenten, <persName role="conductor">Herrn
-                                Musikdirektor Karl Weidt</persName> gewidmet.</dedicatee>
+                            <dedicatee>Dem <corpName>Lehrergesangverein <settlement codedval="baudi-06-8cd102e5">Mannheim</settlement>-<settlement codedval="baudi-06-8eb96db4">Ludwigshafen</settlement>
+                                </corpName> und seinem hochverdienten Dirigenten, <persName role="conductor" codedval="baudi-04-9e1ab47b">Herrn Musikdirektor Karl Weidt</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -101,7 +91,6 @@
                     <extent label="pages" unit="page">9</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -118,7 +107,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -147,7 +136,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -156,91 +145,43 @@
     </meiHead>
     <music>
         <facsimile label="6146177">
-            
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-        <surface xml:id="baudi-01-b67b0b73-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6207067"
-                     xml:id="baudi-01-b67b0b73-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6207068"
-                     xml:id="baudi-01-b67b0b73-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6207069"
-                     xml:id="baudi-01-b67b0b73-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6207070"
-                     xml:id="baudi-01-b67b0b73-00-0004"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid"
-                     target="6207071"
-                     xml:id="baudi-01-b67b0b73-00-0005"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid"
-                     target="6207072"
-                     xml:id="baudi-01-b67b0b73-00-0006"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0007" n="7" label="4r">
-            <graphic targettype="blb-vlid"
-                     target="6207073"
-                     xml:id="baudi-01-b67b0b73-00-0007"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0008" n="8" label="4v">
-            <graphic targettype="blb-vlid"
-                     target="6207074"
-                     xml:id="baudi-01-b67b0b73-00-0008"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0009" n="9" label="5r">
-            <graphic targettype="blb-vlid"
-                     target="6207075"
-                     xml:id="baudi-01-b67b0b73-00-0009"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0010" n="10" label="5v">
-            <graphic targettype="blb-vlid"
-                     target="6207076"
-                     xml:id="baudi-01-b67b0b73-00-0010"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0011" n="11" label="6r">
-            <graphic targettype="blb-vlid"
-                     target="6207077"
-                     xml:id="baudi-01-b67b0b73-00-0011"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-b67b0b73-surface-0012" n="12" label="6v">
-            <graphic targettype="blb-vlid"
-                     target="6207078"
-                     xml:id="baudi-01-b67b0b73-00-0012"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-b67b0b73-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6207067" xml:id="baudi-01-b67b0b73-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6207068" xml:id="baudi-01-b67b0b73-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6207069" xml:id="baudi-01-b67b0b73-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6207070" xml:id="baudi-01-b67b0b73-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="6207071" xml:id="baudi-01-b67b0b73-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="6207072" xml:id="baudi-01-b67b0b73-00-0006" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0007" n="7" label="4r">
+                <graphic targettype="blb-vlid" target="6207073" xml:id="baudi-01-b67b0b73-00-0007" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0008" n="8" label="4v">
+                <graphic targettype="blb-vlid" target="6207074" xml:id="baudi-01-b67b0b73-00-0008" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0009" n="9" label="5r">
+                <graphic targettype="blb-vlid" target="6207075" xml:id="baudi-01-b67b0b73-00-0009" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0010" n="10" label="5v">
+                <graphic targettype="blb-vlid" target="6207076" xml:id="baudi-01-b67b0b73-00-0010" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0011" n="11" label="6r">
+                <graphic targettype="blb-vlid" target="6207077" xml:id="baudi-01-b67b0b73-00-0011" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-b67b0b73-surface-0012" n="12" label="6v">
+                <graphic targettype="blb-vlid" target="6207078" xml:id="baudi-01-b67b0b73-00-0012" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-793ffffd" label="Gottesfrieden"/>
         </body>

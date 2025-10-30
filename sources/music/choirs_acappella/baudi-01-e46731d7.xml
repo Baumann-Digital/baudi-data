@@ -1,48 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-e46731d7"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-e46731d7" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-e46731d7-titleUniMainDE">Frühlingswanderung</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-e46731d7-title">
-                    <titlePart type="main" xml:id="baudi-02-e46731d7-titleMain">Frühlingswanderung</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-e46731d7-titleMainSort">Frühlingswanderung</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-e46731d7-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-e46731d7-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Frühlingswanderung</titlePart>
+                    <titlePart type="mainSort">Frühlingswanderung</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-e46731d7-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-e46731d7-lyricist">
-                    <persName>Max Löhrich</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-d43ccdd0">Max Löhrich</persName>
                 </lyricist>
                 <key pname="a" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Gemütliches Marschtempo, nicht zu schnell.</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -53,43 +49,37 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-52</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-e46731d7-title">
-                    <titlePart type="main" xml:id="baudi-02-e46731d7-titleMain">Frühlingswanderung</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-e46731d7-titleMainSort">Frühlingswanderung</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-e46731d7-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-e46731d7-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-e46731d7-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-e46731d7-lyricist">
-                    <persName>Max Löhrich</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Frühlingswanderung</titlePart>
+                        <titlePart type="mainSort">Frühlingswanderung</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName codedval="baudi-04-d43ccdd0">Max Löhrich</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Frühlingswanderung</title>
                         <bibl>
                             <identifier>H. 2030 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
-                            <dedicatee>Dem <corpName>Männergesangverein <settlement>Müllheim (Baden)</settlement>
-                        </corpName> zur Erinnerung an die Hauptversammlung des <corpName>Bad.
-                                Sängerbundes</corpName> 
-                        <date isodate="1922">1922</date>.</dedicatee>
+                            <dedicatee>Dem <corpName>Männergesangverein <settlement codedval="baudi-06-8087d350">Müllheim (Baden)</settlement>
+                                </corpName> zur Erinnerung an die Hauptversammlung des <corpName>Bad. Sängerbundes</corpName>
+                                <date isodate="1922">1922</date>.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -102,7 +92,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -119,7 +108,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -137,9 +126,7 @@
                     </termList>
                 </classification>
                 <relationList>
-                    <relation rel="isEmbodimentOf"
-                         corresp="baudi-02-8b120378"
-                         type="otherPerfRes"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-8b120378" type="otherPerfRes"/>
                 </relationList>
             </manifestation>
         </manifestationList>
@@ -149,7 +136,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -158,35 +145,19 @@
     </meiHead>
     <music>
         <facsimile label="6146069">
-            
-                
-                
-                
-        <surface xml:id="baudi-01-e46731d7-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6206885"
-                     xml:id="baudi-01-e46731d7-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-e46731d7-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6206886"
-                     xml:id="baudi-01-e46731d7-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-e46731d7-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6206887"
-                     xml:id="baudi-01-e46731d7-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-e46731d7-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6206888"
-                     xml:id="baudi-01-e46731d7-00-0004"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-e46731d7-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206885" xml:id="baudi-01-e46731d7-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-e46731d7-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206886" xml:id="baudi-01-e46731d7-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-e46731d7-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206887" xml:id="baudi-01-e46731d7-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-e46731d7-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206888" xml:id="baudi-01-e46731d7-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-508a3002" label="Frühlingswanderung"/>
         </body>

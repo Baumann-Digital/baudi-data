@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-d874db3f" status="created">
-    <persName>Johann Herold von Boxberg</persName>
-    <birth/>
-    <death/>
-    <faith key="unknown"/>
-    <education/>
-    <sex type="unknown"/>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-d874db3f" status="proposed">
+    <persName>
+        <forename>Johann</forename>
+        <roleName>Herold</roleName>
+        <nameLink>von</nameLink>
+        <surname>Boxberg</surname>
+    </persName>
+    <sex type="male"/>
     <nationality key="de"/>
-    <occupation/>
-    <affiliation/>
-    <idno type="gnd"/>
-    <idno type="viaf"/>
-    <note/>
 </person>

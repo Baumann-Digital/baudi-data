@@ -1,4 +1,7 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-fb34254b">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-fb34254b">
     <title type="uniform" xml:id="baudi-02-fb34254b-title">
         <titlePart type="main" xml:id="baudi-02-fb34254b-titleMain">Vier Stücke</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-fb34254b-titleMainSort">Vier Stuecke</titlePart>
@@ -6,10 +9,10 @@
         <titlePart type="perf" xml:id="baudi-02-fb34254b-titleDesc">Für drei Violinen, Viola und Klavier</titlePart>
     </title>
     <composer xml:id="baudi-02-fb34254b-composer">
-        <persName auth="baudi-04-e8587b8c">F. Mendelssohn-Bartholdy</persName>
+        <persName codedval="baudi-04-e8587b8c">F. Mendelssohn-Bartholdy</persName>
     </composer>
     <arranger>
-        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </arranger>
     <key/>
     <meter/>
@@ -22,14 +25,14 @@
         <language/>
     </langUsage>
     <perfMedium>
-        <perfResList auth="ensemble">
-            <perfResList auth="strings"> 
-                <perfRes auth="violin.i"/>
-                <perfRes auth="violin.ii"/>
-                <perfRes auth="violin.iii"/>
-                <perfRes auth="viola"/>
+        <perfResList codedval="ensemble">
+            <perfResList codedval="strings">
+                <perfRes codedval="violin.i"/>
+                <perfRes codedval="violin.ii"/>
+                <perfRes codedval="violin.iii"/>
+                <perfRes codedval="viola"/>
             </perfResList>
-            <perfRes auth="piano"/>
+            <perfRes codedval="piano"/>
         </perfResList>
     </perfMedium>
     <audience/>
@@ -42,15 +45,23 @@
         </termList>
     </classification>
     <componentList>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <work n="1" corresp="baudi-02-25394b2b">
             <title>Andante aus der B-dur Sonate für Orgel</title>
         </work>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <work n="2" corresp="baudi-02-54be08cc">
             <title>Andante aus der A-dur Sonate</title>
         </work>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <work n="3" corresp="baudi-02-4c6fcd46">
             <title>Adagio aus der F-moll Sonate</title>
         </work>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <work n="4" corresp="baudi-02-1074b023">
             <title>Allegro maestoso e vivace aus der C-moll Sonate</title>
         </work>

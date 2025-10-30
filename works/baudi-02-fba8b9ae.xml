@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-fba8b9ae">
+    <identifier type="baudi-copy">BLB-Andre-3</identifier>
+    <title type="uniform" xml:id="baudi-02-fba8b9ae-title">
+        <titlePart type="main" xml:id="baudi-02-fba8b9ae-titleMain">Der Lenz zieht ein</titlePart>
+        <titlePart type="number" codedval="opus">110 Nr. 1</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-fba8b9ae-titleMainSort">Lenz zieht ein</titlePart>
+    </title>
+    <composer xml:id="baudi-02-fba8b9ae-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <arranger xml:id="baudi-02-fba8b9ae-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-fba8b9ae-lyricist">
+        <persName codedval="baudi-04-50ce65b4">Ferdinand Dietz</persName>
+    </lyricist>
+    <key pname="f" mode="major"/>
+    <meter count="3" unit="4"/>
+    <tempo>Lebhaft</tempo>
+    <incip>
+        <incipText>
+            <p>Zum Einzug ist der Lenz bereit</p>
+        </incipText>
+    </incip>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMixed">
+            <perfRes xml:id="baudi-02-fba8b9ae-perfRes-0001" codedval="soprano"/>
+            <perfRes xml:id="baudi-02-fba8b9ae-perfRes-0002" codedval="alto"/>
+            <perfRes xml:id="baudi-02-fba8b9ae-perfRes-0003" codedval="tenor"/>
+            <perfRes xml:id="baudi-02-fba8b9ae-perfRes-0004" codedval="bass"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+    <!--<relationList>
+                         <relation rel="hasEmbodiment"/>
+                     </relationList>-->
+</work>

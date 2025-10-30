@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-3ef2eba7">
+    <identifier type="baudi-copy">CMVS-HH-30</identifier>
+    <title type="uniform" xml:id="baudi-02-3ef2eba7-title">
+        <titlePart type="main" xml:id="baudi-02-3ef2eba7-titleMain">Der Einsiedel</titlePart>
+        <titlePart type="number" codedval="opus">84</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-3ef2eba7-titleMainSort">Einsiedel Tanzlied</titlePart>
+        <titlePart type="subordinate" xml:id="baudi-02-3ef2eba7-titleSub">Tanzlied</titlePart>
+        <titlePart type="dedication">Dem <corpName>»<settlement codedval="baudi-06-2306bccf">Pforzheimer</settlement> Sängerkranz«</corpName> und seinem verdienstvollen Chormeister, <persName role="choirMaster" codedval="baudi-04-85aec32c">Herrn Ernst Götze</persName>, freundschaftlich gewidmet.</titlePart>
+    </title>
+    <composer xml:id="baudi-02-3ef2eba7-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-3ef2eba7-lyricist">
+        <persName codedval="baudi-04-228f5e07">K. Bulcke</persName>
+    </lyricist>
+    <key pname="g" mode="major"/>
+    <meter count="3" unit="4"/>
+    <tempo>Heiterer Tanzrhythmus, nicht schnell.</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>

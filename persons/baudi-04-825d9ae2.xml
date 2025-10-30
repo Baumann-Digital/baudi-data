@@ -1,23 +1,18 @@
- 
-    <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-825d9ae2" status="created">
-        <persName>
-            <forename sort="1" type="used">Guido</forename>
-            <surname type="used">Baumann</surname>
-            <genName/>
-            <nameLink/>
-            <roleName/>
-            <addName>Dr.</addName>
-        </persName>
-        <birth/>
-        <death/>
-        <faith key="unknown"/>
-        <education>Ingenieur</education>
-        <sex type="male"/>
-        <nationality key="de"/>
-        <occupation>Ingenieur</occupation>
-        <idno type="gnd"/>
-        <idno type="viaf"/>
-    
-        <note/>
-    
-    </person>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-825d9ae2" status="approved">
+    <persName type="reg">
+        <surname>Baumann</surname>, <addName type="title">Dr.</addName> <forename>Guido</forename>
+    </persName>
+    <persName type="birth">
+        <forename>Guido</forename>
+        <surname>Baumann</surname>
+    </persName>
+    <birth when="1900-08-23"><placeName key="baudi-06-8cd102e5">Mannheim</placeName></birth>
+    <education>Ingenieur</education>
+    <sex type="male"/>
+    <nationality key="de"/>
+    <occupation>Ingenieur</occupation>
+    <note>Sohn von <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName></note>
+    <note>Die Mitgliederkartei des Nationalsozialistischen Lehrerbunds (Baden und Elsass) im Generallandesarchiv Karlsruhe, Signatur: 465 c Kartei 3 Nr. 1 (Ab–Bech), enthälte eine Mitgliedskarte zu »Dr. Guido Baumann«</note>
+</person>

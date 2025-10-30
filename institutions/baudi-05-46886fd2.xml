@@ -1,10 +1,13 @@
-<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-05-46886fd2" type="publicInstitution">
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-05-46886fd2" type="publicInstitution" status="approved">
     <idno type="gnd">2005707-6</idno>
     <idno type="viaf">156582730</idno>
-    <orgName type="used">Badische Landesbibliothek Karlsruhe</orgName>
+    <orgName type="used">Badische Landesbibliothek</orgName>
     <location>
         <address>
-            <street>Erbprinzenstraße <num>15</num></street>
+            <street>Erbprinzenstraße <num>15</num>
+            </street>
             <postCode>76133</postCode>
             <settlement key="baudi-06-ba166af7">Karlsruhe</settlement>
             <country key="de">Deutschland</country>

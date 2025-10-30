@@ -1,59 +1,50 @@
-   <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-4fddbefa" status="created">
-      <title type="uniform" xml:id="baudi-02-4fddbefa-title">
-         <titlePart type="main" xml:id="baudi-02-4fddbefa-titleMain">
-            Ja, beim Tanz!
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Ja, beim Tanz!</titlePart>
-         
-         
-      </title>
-      <composer xml:id="baudi-02-4fddbefa-composer">
-         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-4fddbefa-lyricist">
-         <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
-      </lyricist>
-      
-      <key pname="e" accid="f" mode="major"/>
-      <meter count="3" unit="4"/>
-      <tempo>Gemütliches Walzertempo.</tempo>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language auth="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes auth="baudi-09-97264ddc">Hohe Stimme</perfRes>
-            <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      
-      
-      <classification>
-         
-         <termList>
-            
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-4fddbefa" status="proposed">
+    <title type="uniform" xml:id="baudi-02-4fddbefa-title">
+        <titlePart type="main" xml:id="baudi-02-4fddbefa-titleMain"> Ja, beim Tanz! </titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Ja, beim Tanz!</titlePart>
+    </title>
+    <composer xml:id="baudi-02-4fddbefa-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-4fddbefa-lyricist">
+        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
+    </lyricist>
+    <key pname="e" accid="f" mode="major"/>
+    <meter count="3" unit="4"/>
+    <tempo>Gemütliches Walzertempo.</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList>
+            <perfRes codedval="voice.high">Hohe Stimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <classification>
+        <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">song</term>
-         </termList>
-      </classification>
-      <!--		
+        </termList>
+    </classification>
+    <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" target="baudi-01-aa915600"/>
-         <relation rel="hasEmbodiment" target="baudi-01-37c11a92"/>
-      </relationList>
-   </work>
-
-
-
-
+    <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+        <relation rel="hasEmbodiment" target="baudi-01-aa915600"/>
+        <relation rel="hasEmbodiment" target="baudi-01-37c11a92"/>
+    </relationList>
+</work>

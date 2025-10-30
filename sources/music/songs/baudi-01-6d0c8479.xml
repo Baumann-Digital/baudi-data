@@ -1,114 +1,103 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-6d0c8479" status="created">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniMainDE">Tanzlied</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniDescDE">für Stimme, Violine und
-                  Klavier</titlePart>
-            </title>
-         </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Tanzlied</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-
-            <key pname="g" mode="major"/>
-            <meter count="3" unit="4"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes auth="baudi-09-82e86ea7" solo="true" count="1">Stimme<range>
-                        <rangeNote pname="d" oct="4" type="lowest"/>
-                        <rangeNote pname="g" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes auth="baudi-09-b66b7de3" solo="true" count="1">Violine</perfRes>
-                  <perfRes auth="baudi-09-32aa6522" count="1">Klavier</perfRes>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="D-KA">Mus. Hs. 1306b</identifier>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-6d0c8479" status="proposed">
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-6d0c8479-titleMain">Tanzlied</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-6d0c8479-titleSub"/>
-               </title>
-               <composer xml:id="baudi-01-6d0c8479-composer">
-                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <arranger xml:id="baudi-01-6d0c8479-arranger">
-                  <persName auth="baudi-04-0bcec89d">Gerda Baumann</persName>
-               </arranger>
-               <lyricist xml:id="baudi-01-6d0c8479-lyricist">
-                  <persName auth="baudi-04-2d668bde">Karl Dollmätsch</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniMainDE">Tanzlied</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-6d0c8479-titleUniDescDE">für Stimme, Violine und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p decls="creation"><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Tanzlied</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="g" mode="major"/>
+                <meter count="3" unit="4"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes solo="true" count="1" codedval="voice">
+                            <range>
+                                <rangeNote pname="d" oct="4" type="lowest"/>
+                                <rangeNote pname="g" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes solo="true" count="1" codedval="violin">Violine</perfRes>
+                        <perfRes count="1" codedval="piano">Klavier</perfRes>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="D-KA">Mus. Hs. 1306b</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-6d0c8479-titleMain">Tanzlied</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-6d0c8479-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-6d0c8479-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <arranger xml:id="baudi-01-6d0c8479-arranger">
+                        <persName codedval="baudi-04-0bcec89d">Gerda Baumann</persName>
+                    </arranger>
+                    <lyricist xml:id="baudi-01-6d0c8479-lyricist">
+                        <persName codedval="baudi-04-2d668bde">Karl Dollmätsch</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <titlePage>
-
-                  <p decls="titlePage">
-                     <hi rend="underlined">Tanzlied</hi>
-                     <lb/>von
-                     <lb/>Ludwig Baumann.<lb/>fpr<lb/>Klavier, Gesang &amp; Violine.
-                  </p>
-               </titlePage>
-               <dimensions label="height" unit="mm">351</dimensions>
-               <dimensions label="width" unit="mm">276</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="folium" unit="folium">2</extent>
-               <extent label="pages" unit="page">2</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="NE 1r BiblVermerk" medium="Bleistift">Musik Hs. 1306b</hand>
-                  <hand label="NW 1r BiblVermerk" medium="Bleistift">Gerda Baumann</hand>
-                  <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-08" type="desc" resp="dried"/>
-                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-6d0c8479-physMedium">Maschinell rastriert, 12 Zeilen. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1306b</identifier>
-               </repository>
-
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <titlePage>
+                        <p>
+                            <rend rend="underline">Tanzlied</rend>
+                            <lb/>von <lb/>Ludwig Baumann.<lb/>fpr<lb/>Klavier, Gesang &amp; Violine. </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">351</dimensions>
+                    <dimensions label="width" unit="mm">276</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-08" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-6d0c8479-physMedium">Maschinell rastriert, 12 Zeilen. Beschrieben mit schwarzer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1306b</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language auth="de"/>
-            </langUsage>
-            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
 								label="quires">
 								<head>Lagenordnung</head>
@@ -116,66 +105,59 @@
 									n="1">1. Lage</li>
 							</list>
 						</p> --></contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-08" label="dried">Arrangierte Fassung der Orchesterversion für Kl, Vl, V</annot>
-               <annot plist="stamp S-oriented 1r" corresp="#baudi-01-6d0c8479-physMedium">L.B./Karlsruhe</annot>
-               <annot plist="paperTypeNote E-oriented 1v" corresp="#baudi-01-6d0c8479-physMedium">? 1012</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="workGroup">chamber</term>
-                  <term type="genre">song</term>
-                  <term type="genre">ensemble</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-44160354"/>
-               <relation rel="hasAlternate" corresp="baudi-01-5cfb6c9f"/>
-               <relation rel="hasAlternate" corresp="baudi-01-8a513ee6"/>
-               <relation rel="hasAlternate" corresp="baudi-01-03ff70ef"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-08" resp="dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile>
-<!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299275-->
+                    <annot n="1" when="2018-02-08" label="dried">Arrangierte Fassung der Orchesterversion für Kl, Vl, V</annot>
+                    <annot plist="stamp S-oriented 1r" corresp="#baudi-01-6d0c8479-physMedium">L.B./Karlsruhe</annot>
+                    <annot plist="paperTypeNote E-oriented 1v" corresp="#baudi-01-6d0c8479-physMedium">? 1012</annot>
+                    <annot plist="biblNote NE-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Musik Hs. 1306b</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Gerda Baumann</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="workGroup">chamber</term>
+                        <term type="genre">song</term>
+                        <term type="genre">ensemble</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-44160354"/>
+                    <relation rel="hasAlternate" corresp="baudi-01-5cfb6c9f"/>
+                    <relation rel="hasAlternate" corresp="baudi-01-8a513ee6"/>
+                    <relation rel="hasAlternate" corresp="baudi-01-03ff70ef"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-08" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+         <!--         https://digital.blb-karlsruhe.de/blbihd/content/pageview/3299275-->
       </facsimile>
-      <body>
-         <mdiv xml:id="baudi_20_2f7889e3" label="Tanzlied">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="d" oct="4" type="lowest"/>
-                     <ambNote pname="g" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+        <body>
+            <mdiv xml:id="baudi_20_2f7889e3" label="Tanzlied"> </mdiv>
+        </body>
+    </music>
 </mei>

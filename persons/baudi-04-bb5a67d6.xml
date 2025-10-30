@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-bb5a67d6" status="created">
-    <persName>Richard Dehmel</persName>
-    <birth/>
-    <death/>
-    <faith key="unknown"/>
-    <education/>
-    <sex type="unknown"/>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-bb5a67d6" status="approved">
+    <persName>
+        <forename>Richard</forename>
+        <surname>Dehmel</surname>
+    </persName>
+    <birth when="1863-11-18"/>
+    <death when="1920-02-08"/>
+    <sex type="male"/>
     <nationality key="de"/>
-    <occupation/>
-    <affiliation/>
-    <idno type="gnd"/>
-    <idno type="viaf"/>
+    <occupation>Schriftsteller</occupation>
+    <idno type="gnd">118679236</idno>
     <note/>
 </person>

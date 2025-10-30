@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-8e47594e">
+    <identifier type="baudi-copy">CMVS-HH-84</identifier>
+    <title type="uniform" xml:id="baudi-02-8e47594e-title">
+        <titlePart type="main" xml:id="baudi-02-8e47594e-titleMain">Mein Badnerland</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8e47594e-titleMainSort">Mein Badnerland</titlePart>
+        <titlePart type="dedication">Den Badischen Sängern gewidmet</titlePart>
+    </title>
+    <composer xml:id="baudi-02-8e47594e-composer">Volkslied</composer>
+    <arranger xml:id="baudi-02-8e47594e-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-8e47594e-lyricist">Volkslied</lyricist>
+    <key pname="c" mode="major"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Frisches Tempo</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="perf">Kann einen halben oder ganzen Ton höher gesungen werden</annot>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>

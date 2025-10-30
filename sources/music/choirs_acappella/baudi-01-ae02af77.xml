@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-ae02af77"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-ae02af77" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-ae02af77-titleUniMainDE">Jungferngebet</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-ae02af77-title">
-                    <titlePart type="main" xml:id="baudi-02-ae02af77-titleMain">Jungferngebet</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-ae02af77-titleMainSort">Jungferngebet</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-ae02af77-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-ae02af77-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Jungferngebet</titlePart>
+                    <titlePart type="mainSort">Jungferngebet</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-ae02af77-composer">Österreichisches Volkslied</composer>
-                <arranger xml:id="baudi-02-ae02af77-arranger">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>Österreichisches Volkslied</composer>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </arranger>
-                <lyricist xml:id="baudi-02-ae02af77-lyricist">Österreichisches Volkslied</lyricist>
+                <lyricist>Österreichisches Volkslied</lyricist>
                 <key pname="g" mode="major"/>
                 <meter count="2" unit="4"/>
                 <tempo>Gemütliche Bewegung, mit Humor.</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -52,41 +48,34 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-65</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-ae02af77-title">
-                    <titlePart type="main" xml:id="baudi-02-ae02af77-titleMain">Jungferngebet</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-ae02af77-titleMainSort">Jungferngebet</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-ae02af77-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-ae02af77-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-ae02af77-composer">Österreichisches Volkslied</composer>
-               <arranger xml:id="baudi-02-ae02af77-arranger">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist xml:id="baudi-02-ae02af77-lyricist">Österreichisches Volkslied</lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Jungferngebet</titlePart>
+                        <titlePart type="mainSort">Jungferngebet</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Österreichisches Volkslied</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>Österreichisches Volkslied</lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Jungferngebet</title>
                         <bibl>
                             <identifier>H. 2501 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1928</date>
-                            <dedicatee>Dem <corpName>»Sängerbund <settlement>Großsachen</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor">Herrn Robert Englert</persName>
-                                gewidmet.</dedicatee>
+                            <dedicatee>Dem <corpName>»Sängerbund <settlement codedval="baudi-06-be4616fd">Großsachen</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-e5500e56">Herrn Robert Englert</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -99,7 +88,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -116,7 +104,7 @@
                 <creation>Erschienen 1928</creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -144,7 +132,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -153,35 +141,19 @@
     </meiHead>
     <music>
         <facsimile label="6146041">
-            
-                
-                
-                
-        <surface xml:id="baudi-01-ae02af77-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6206471"
-                     xml:id="baudi-01-ae02af77-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae02af77-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6206472"
-                     xml:id="baudi-01-ae02af77-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae02af77-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6206473"
-                     xml:id="baudi-01-ae02af77-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-ae02af77-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6206474"
-                     xml:id="baudi-01-ae02af77-00-0004"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-ae02af77-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6206471" xml:id="baudi-01-ae02af77-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae02af77-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6206472" xml:id="baudi-01-ae02af77-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae02af77-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6206473" xml:id="baudi-01-ae02af77-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-ae02af77-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6206474" xml:id="baudi-01-ae02af77-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-303b08e7" label="Jungferngebet"/>
         </body>

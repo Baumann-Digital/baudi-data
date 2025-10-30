@@ -1,34 +1,46 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-4cca7e0f" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-4cca7e0f" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de"><titlePart type="main" xml:lang="de" xml:id="baudi-01-4cca7e0f-titleUniMainDE">Mei Mutter mag mi net.</titlePart></title>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-4cca7e0f-titleUniMainDE">Mei Mutter mag mi net.</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-4cca7e0f-title"><titlePart type="main" xml:id="baudi-02-4cca7e0f-titleMain">Mei Mutter mag mi net.</titlePart><titlePart type="number" auth="opus">96c</titlePart><titlePart type="mainSort" xml:id="baudi-02-4cca7e0f-titleMainSort">Mei Mutter mag mi net</titlePart><titlePart type="subordinate" xml:id="baudi-02-4cca7e0f-titleSub"/><titlePart type="perfmedium" xml:id="baudi-02-4cca7e0f-titleDesc"/></title>
-                <composer xml:id="baudi-02-4cca7e0f-composer">Volksweise</composer>
-                <arranger xml:id="baudi-02-4cca7e0f-arranger"><persName auth="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName></arranger>
-                <lyricist xml:id="baudi-02-4cca7e0f-lyricist"><persName>Volksweise</persName></lyricist>
-                <key pname="a" accid="" mode="major"/>
+                <title type="uniform">
+                    <titlePart type="main">Mei Mutter mag mi net.</titlePart>
+                    <titlePart type="number" codedval="opus">96c</titlePart>
+                    <titlePart type="mainSort">Mei Mutter mag mi net</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
+                </title>
+                <composer>Volksweise</composer>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </arranger>
+                <lyricist>
+                    <persName>Volksweise</persName>
+                </lyricist>
+                <key pname="a" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Getragen, aber nicht schleppend.</tempo>
                 <incip/>
-                
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -40,21 +52,40 @@
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HK-13</identifier>
                 <titleStmt>
-                    <title><titlePart type="main" xml:id="baudi-01-4cca7e0f-titleMain">Mei Mutter mag mi
-                            net.</titlePart><titlePart type="subordinate" xml:id="baudi-01-4cca7e0f-titleSub"/></title>
-                    <composer xml:id="baudi-01-4cca7e0f-composer"><persName auth="baudi-04-5e3ed698">Volksweise</persName></composer>
-                    <arranger xml:id="baudi-02-4cca7e0f-arranger"><persName auth="baudi-04-5e3ed698">Ludwig
-                        Baumann</persName></arranger>
-                    <lyricist xml:id="baudi-01-4cca7e0f-lyricist"><persName auth="baudi-04-35c9a190"><persName>Volksweise</persName></persName></lyricist>
-                    
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-4cca7e0f-titleMain">Mei Mutter mag mi net.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-4cca7e0f-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-4cca7e0f-composer">
+                        <persName codedval="baudi-04-5e3ed698">Volksweise</persName>
+                    </composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist xml:id="baudi-01-4cca7e0f-lyricist">
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName>Volksweise</persName>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Mei Mutter mag mi net.</title><bibl><identifier>H.51 K.</identifier><publisher><corpName key="baudi-05-b8018784">Hugo Kuntz</corpName></publisher><pubPlace><settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement></pubPlace><date/><dedicatee><persName>Herrn
-                                Musikdirektor Fassel</persName> gewidmet.</dedicatee></bibl></edition>
-                    
+                    <edition>
+                        <title>Mei Mutter mag mi net.</title>
+                        <bibl>
+                            <identifier>H.51 K.</identifier>
+                            <publisher>
+                                <corpName codedval="baudi-05-b8018784">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>
+                                <persName codedval="baudi-04-af9a3601">Herrn Musikdirektor Fassel</persName> gewidmet.</dedicatee>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -62,7 +93,6 @@
                     <extent label="pages" unit="page">1</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -72,12 +102,14 @@
                     <plateNum n="51">H.51 K.</plateNum>
                 </physDesc>
                 <physLoc>
-                    <repository><corpName>Chormusikverlag Seebold, St. Augustin</corpName></repository>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -99,9 +131,13 @@
                 </relationList>
             </manifestation>
         </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"><tei:person><tei:persName/></tei:person></extMeta>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

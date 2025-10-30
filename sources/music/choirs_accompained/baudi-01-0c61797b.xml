@@ -1,192 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="baudi-01-0c61797b"
-     status="created">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de"> Der Heimat Sang, das deutsche Lied op. 67 </title>
-         </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-      </fileDesc>
-      <workList>
-         <work>
-            <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-0c61797b-titleUniformDE">
-               <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-0c61797b-titleUniformMainDE">Der Heimat Sang, das deutsche
-                  Lied</titlePart>
-               <titlePart type="number" label="opus">67</titlePart>
-               <titlePart type="desc"
-                          xml:lang="de"
-                          xml:id="baudi-01-0c61797b-titleUniformDescDE">für Männerchor und Sopran- und
-                  Bariton-Solo mit Orchester- oder Klavierbegleitung</titlePart>
-            </title>
-            <key pname="f" mode="major"/>
-            <meter count="4" unit="4" sym="common"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes auth="soprano" solo="true" xml:id="baudi-01-0c61797b-perfRes-0001">
-                     <range corresp="baudi-01-0c61797b-perfRes-0001">
-                        <rangeNote pname="d" oct="4" type="lowest"/>
-                        <rangeNote pname="g" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes auth="baritone" solo="true" xml:id="baudi-01-0c61797b-perfRes-0002">
-                     <range corresp="baudi-01-0c61797b-perfRes-0002">
-                        <rangeNote pname="d" oct="3" type="lowest"/>
-                        <rangeNote pname="e" oct="4" type="highest"/>
-                        <rangeNote pname="g" oct="4" type="highestAlt"/>
-                     </range>
-                  </perfRes>
-                  <perfResList auth="choirMen">
-                     <perfRes auth="tenor.i" xml:id="baudi-01-0c61797b-perfRes-0003">
-                        <range corresp="baudi-01-0c61797b-perfRes-0003">
-                           <rangeNote pname="e" oct="4" type="lowest"/>
-                           <rangeNote pname="b" oct="5" type="highest"/>
-                        </range>
-                     </perfRes>
-                     <perfRes auth="tenor.ii" xml:id="baudi-01-0c61797b-perfRes-0004">
-                        <range corresp="baudi-01-0c61797b-perfRes-0004">
-                           <rangeNote pname="f" oct="4" type="lowest"/>
-                           <rangeNote pname="f" accid="s" oct="5" type="highest"/>
-                        </range>
-                     </perfRes>
-                     <perfRes auth="bass.i" xml:id="baudi-01-0c61797b-perfRes-0005">
-                        <range corresp="baudi-01-0c61797b-perfRes-0005">
-                           <rangeNote pname="e" oct="3" type="lowest"/>
-                           <rangeNote pname="f" oct="4" type="highest"/>
-                        </range>
-                     </perfRes>
-                     <perfRes auth="bass.ii" xml:id="baudi-01-0c61797b-perfRes-0006">
-                        <range corresp="baudi-01-0c61797b-perfRes-0006">
-                           <rangeNote pname="f" oct="2" type="lowest"/>
-                           <rangeNote pname="f" oct="4" type="highest"/>
-                        </range>
-                     </perfRes>
-                  </perfResList>
-               </perfResList>
-            </perfMedium>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="pr">
-            <identifier type="rism"/>
-            <identifier type="D-KA">Bad Mus. Dr. B184</identifier>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-0c61797b" status="proposed">
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title xml:id="baudi-01-0c61797b-title">
-                  <titlePart type="main" xml:id="baudi-01-0c61797b-titleMain">Der Heimat Sang, das deutsche Lied</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-0c61797b-titleSub"/>
-                  <titlePart type="desc" xml:id="baudi-01-0c61797b-titleDesc">für Männerchor und Sopran- und Bariton-Solo mit
-                     Orchester- oder Klavierbegleitung</titlePart>
-               </title>
-               <composer xml:id="baudi-01-0c61797b-composer">
-                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <arranger xml:id="baudi-01-0c61797b-arranger"/>
-               <lyricist xml:id="baudi-01-0c61797b-lyricist">
-                  <persName auth="baudi-04-0f27b561">Herzog, Albert</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de"> Der Heimat Sang, das deutsche Lied op. 67 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <titlePage>
-                  <p decls="titlePage">
-                     <rend halign="center">Der Heimat Sang,<lb/>das deutsche Lied.<lb/>für Männerchor und Sopran- und
-                        Bariton-Solo<lb/>mit Orchester- oder Klavierbegleitung<lb/>komponiert<lb/>von<lb/>Ludwig Baumann.<lb/>Op.
-                        67. </rend>
-                  </p>
-                  <table>
-                     <tr>
-                        <td>Klavier-Auszug ...... M.</td>
-                        <td>Orchesterpartitur....... no. M.</td>
-                     </tr>
-                     <tr>
-                        <td>Chorstimmen ..(je 40 Pf)..... M. 1.60.</td>
-                        <td>Orchesterstimmen..kpltl...no. M.</td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <rend rend="italic" halign="right">Duplierstimmen..... M.</rend>
-                        </td>
-                        <td/>
-                     </tr>
-                  </table>
-                  <p>
-                     <rend halign="center"> Eigentum des Verlegers für alle Länder.<lb/>Aufführungsrecht
-                        vorbehalten.<lb/>LEIPZIG,<lb/>C.F.W. Siegel's Musikalienhandlung<lb/>(R.
-                        Linnemann.)<lb/>14828.<lb/>Lith.Anst.v.C.G.Röder G.m.b.H.Leipzig </rend>
-                  </p>
-               </titlePage>
-               <dimensions label="height" unit="mm">345</dimensions>
-               <dimensions label="width" unit="mm">274</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="cover">true</extent>
-               <extent label="folium" unit="folium">12</extent>
-               <extent label="pages" unit="page">16</extent>
-               <extent label="pagination">arabic</extent>
-               <scoreFormat>choral score</scoreFormat>
-               <watermark label="watermark">none</watermark>
-               <plateNum>14828</plateNum>
-               <handList>
-                  <hand label="N 2v BiblVermerk" medium="Bleistift">Bad Mus. Dr. B184</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote"
-                        medium="pencil"
-                        xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
-               <addDesc>
-                  <p type="copyright">Copyright <date type="copyright">1908</date> by <corpName auth="">C.F.W. Siegel's
-                        Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>
-               </addDesc>
-               <condition n="1">
-                  <date isodate="2019-08-21" type="desc" resp="dried"/>
-                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-0c61797b-physMedium">6 gefaltete ineinander gelegte Lagen: Umschlag mit Titel, Vorsatz
-                  (Schmutztitel ohne Aufdruck), 4 Lagen mit Notentext</physMedium>
-               <sealDesc>
-                  <stamp>
-                     <locus n="2v">
-                        <rend valign="baseline" halign="center">Badische Landesbibliothek/Karlsruhe</rend>
-                     </locus>
-                  </stamp>
-                  <stamp>
-                     <locus n="1r">
-                        <rend valign="baseline" halign="left">B184</rend>
-                     </locus>
-                  </stamp>
-                  <stamp>
-                     <locus n="1v">
-                        <rend valign="baseline" halign="right">B184</rend>
-                     </locus>
-                  </stamp>
-                  <stamp>
-                     <locus n="2r">
-                        <rend valign="baseline" halign="center">B184</rend>
-                     </locus>
-                  </stamp>
-               </sealDesc>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">MBad Mus. Dr. B184</identifier>
-               </repository>
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
-               <language auth="de"/>
-            </langUsage>
-            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+            <pubStmt> </pubStmt>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-0c61797b-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-0c61797b-titleUniformMainDE">Der Heimat Sang, das deutsche Lied</titlePart>
+                    <titlePart type="number" label="opus">67</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-0c61797b-titleUniformDescDE">für Männerchor und Sopran- und Bariton-Solo mit Orchester- oder Klavierbegleitung</titlePart>
+                </title>
+                <key pname="f" mode="major"/>
+                <meter count="4" unit="4" sym="common"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes solo="true" xml:id="baudi-01-0c61797b-perfRes-0001" codedval="soprano">
+                            <range>
+                                <rangeNote pname="d" oct="4" type="lowest"/>
+                                <rangeNote pname="g" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes solo="true" xml:id="baudi-01-0c61797b-perfRes-0002" codedval="baritone">
+                            <range>
+                                <rangeNote pname="d" oct="3" type="lowest"/>
+                                <rangeNote pname="e" oct="4" type="highest"/>
+                                <rangeNote pname="g" oct="4" type="highestAlt"/>
+                            </range>
+                        </perfRes>
+                        <perfResList codedval="choirMen">
+                            <perfRes xml:id="baudi-01-0c61797b-perfRes-0003" codedval="tenor.i">
+                                <range>
+                                    <rangeNote pname="e" oct="4" type="lowest"/>
+                                    <rangeNote pname="b" oct="5" type="highest"/>
+                                </range>
+                            </perfRes>
+                            <perfRes xml:id="baudi-01-0c61797b-perfRes-0004" codedval="tenor.ii">
+                                <range>
+                                    <rangeNote pname="f" oct="4" type="lowest"/>
+                                    <rangeNote pname="f" accid="s" oct="5" type="highest"/>
+                                </range>
+                            </perfRes>
+                            <perfRes xml:id="baudi-01-0c61797b-perfRes-0005" codedval="bass.i">
+                                <range>
+                                    <rangeNote pname="e" oct="3" type="lowest"/>
+                                    <rangeNote pname="f" oct="4" type="highest"/>
+                                </range>
+                            </perfRes>
+                            <perfRes xml:id="baudi-01-0c61797b-perfRes-0006" codedval="bass.ii">
+                                <range>
+                                    <rangeNote pname="f" oct="2" type="lowest"/>
+                                    <rangeNote pname="f" oct="4" type="highest"/>
+                                </range>
+                            </perfRes>
+                        </perfResList>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="pr">
+                <identifier type="rism"/>
+                <identifier type="D-KA">Bad Mus. Dr. B184</identifier>
+                <titleStmt>
+                    <title xml:id="baudi-01-0c61797b-title">
+                        <titlePart type="main" xml:id="baudi-01-0c61797b-titleMain">Der Heimat Sang, das deutsche Lied</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-0c61797b-titleSub"/>
+                        <titlePart type="desc" xml:id="baudi-01-0c61797b-titleDesc">für Männerchor und Sopran- und Bariton-Solo mit Orchester- oder Klavierbegleitung</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-0c61797b-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <arranger xml:id="baudi-01-0c61797b-arranger"/>
+                    <lyricist xml:id="baudi-01-0c61797b-lyricist">
+                        <persName codedval="baudi-04-0f27b561">Herzog, Albert</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <titlePage>
+                        <p>
+                            <rend halign="center">Der Heimat Sang,<lb/>das deutsche Lied.<lb/>für Männerchor und Sopran- und Bariton-Solo<lb/>mit Orchester- oder Klavierbegleitung<lb/>komponiert<lb/>von<lb/>Ludwig Baumann.<lb/>Op. 67. </rend>
+                        </p>
+                        <table>
+                            <tr>
+                                <td>Klavier-Auszug ...... M.</td>
+                                <td>Orchesterpartitur....... no. M.</td>
+                            </tr>
+                            <tr>
+                                <td>Chorstimmen ..(je 40 Pf)..... M. 1.60.</td>
+                                <td>Orchesterstimmen..kpltl...no. M.</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <rend rend="italic" halign="right">Duplierstimmen..... M.</rend>
+                                </td>
+                                <td/>
+                            </tr>
+                        </table>
+                        <p>
+                            <rend halign="center"> Eigentum des Verlegers für alle Länder.<lb/>Aufführungsrecht vorbehalten.<lb/>LEIPZIG,<lb/>C.F.W. Siegel's Musikalienhandlung<lb/>(R. Linnemann.)<lb/>14828.<lb/>Lith.Anst.v.C.G.Röder G.m.b.H.Leipzig </rend>
+                        </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">345</dimensions>
+                    <dimensions label="width" unit="mm">274</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="cover">true</extent>
+                    <extent label="folium" unit="folium">12</extent>
+                    <extent label="pages" unit="page">16</extent>
+                    <extent label="pagination">arabic</extent>
+                    <scoreFormat>choral score</scoreFormat>
+                    <watermark label="watermark">none</watermark>
+                    <plateNum>14828</plateNum>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
+                    <addDesc>
+                        <p type="copyright">Copyright <date type="copyright">1908</date> by <corpName>C.F.W. Siegel's Musikalienhandlung (R. Linnemann)</corpName>, Leipzig.</p>
+                    </addDesc>
+                    <condition n="1">
+                        <date isodate="2019-08-21" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-0c61797b-physMedium">6 gefaltete ineinander gelegte Lagen: Umschlag mit Titel, Vorsatz (Schmutztitel ohne Aufdruck), 4 Lagen mit Notentext</physMedium>
+                    <sealDesc>
+                        <stamp>
+                            <locus n="2v">
+                                <rend valign="baseline" halign="center">Badische Landesbibliothek/Karlsruhe</rend>
+                            </locus>
+                        </stamp>
+                        <stamp>
+                            <locus n="1r">
+                                <rend valign="baseline" halign="left">B184</rend>
+                            </locus>
+                        </stamp>
+                        <stamp>
+                            <locus n="1v">
+                                <rend valign="baseline" halign="right">B184</rend>
+                            </locus>
+                        </stamp>
+                        <stamp>
+                            <locus n="2r">
+                                <rend valign="baseline" halign="center">B184</rend>
+                            </locus>
+                        </stamp>
+                    </sealDesc>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">MBad Mus. Dr. B184</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
     							<list
     								label="quires">
     								<head>Lagenordnung</head>
@@ -194,44 +171,44 @@
     									n="1">1. Lage</li>
     							</list>
     						</p> --></contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
     						<bibl type="announcement"/>
     						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">print</term>
-                  <term type="workGroup">orchestral</term>
-                  <term type="genre">choir</term>
-               </termList>
-            </classification>
-            <componentList>
-               <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
-               <manifestation type="text">
-                  <identifier>Text</identifier>
-                  <physDesc>
-                     <extent n="2">1 Blatt</extent>
-                     <addDesc> Enthält den Chor-Text </addDesc>
-                  </physDesc>
-               </manifestation>
-            </componentList>
-            <relationList>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-58cbcbd4"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"> </extMeta>
-
-   </meiHead>
-   <music>
-      <facsimile/>
-      <body>
-         <mdiv>
-            <score>
-               <scoreDef>
+                    <annot n="1" when="2019-08-21" resp="#dried">notCleaned</annot>
+                    <annot plist="biblNote N-oriented 2v" corresp="#baudi-01-6b488120-hand-0001">Bad Mus. Dr. B184</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">print</term>
+                        <term type="workGroup">orchestral</term>
+                        <term type="genre">choir</term>
+                    </termList>
+                </classification>
+                <componentList>
+                    <head>Beschreibung einzelner Stimmen oder untergeordneten Quellen.</head>
+                    <manifestation type="text">
+                        <identifier>Text</identifier>
+                        <physDesc>
+                            <extent n="2">1 Blatt</extent>
+                            <addDesc> Enthält den Chor-Text </addDesc>
+                        </physDesc>
+                    </manifestation>
+                </componentList>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-58cbcbd4"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"> </extMeta>
+    </meiHead>
+    <music>
+        <facsimile/>
+        <body>
+            <mdiv>
+                <score>
+               <!--<scoreDef>
                   <ambitus corresp="baudi-01-0c61797b-perfRes-0001">
                      <ambNote pname="d" oct="4" type="lowest"/>
                      <ambNote pname="g" oct="5" type="highest"/>
@@ -257,15 +234,15 @@
                      <ambNote pname="f" oct="2" type="lowest"/>
                      <ambNote pname="f" oct="4" type="highest"/>
                   </ambitus>
-               </scoreDef>
-               <section/>
-               <div>
-                  <lg>
-                     <l/>
-                  </lg>
-               </div>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+               </scoreDef>-->
+                    <section/>
+                    <div>
+                        <lg>
+                            <l/>
+                        </lg>
+                    </div>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>

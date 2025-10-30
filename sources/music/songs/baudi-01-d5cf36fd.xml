@@ -1,115 +1,101 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-d5cf36fd" status="created">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-d5cf36fd-titleUniMainDE">Lied eines siebenbürgischen
-                  Wanderzigeuners</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-d5cf36fd-titleUniDescDE">für hohe Stimme und
-                  Klavier</titlePart>
-            </title>
-         </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Lied eines siebenbürgischen Wanderzigeuners</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-
-            <key pname="f" mode="minor"/>
-            <meter count="4" unit="4"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes auth="baudi-09-b66b7de3">Violine
-                  </perfRes>
-                  <perfRes auth="baudi-09-97264ddc">Hohe Stimme<range>
-                        <rangeNote pname="e" accid="f" oct="4" type="lowest"/>
-                        <rangeNote pname="a" accid="f" oct="5" type="highest"/>
-                     </range>
-                  </perfRes>
-                  <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="rism">453003905</identifier>
-            <identifier type="D-KA">Mus. Hs. 1307</identifier>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-d5cf36fd" status="proposed">
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-d5cf36fd-titleMain">Lied eines siebenbürgischen
-                     Wanderzigeuners.</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-d5cf36fd-titleSub">Für hohe Stimme, Klavier und
-                     Violine</titlePart>
-               </title>
-               <composer xml:id="baudi-01-d5cf36fd-composer">
-                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <lyricist xml:id="baudi-01-d5cf36fd-lyricist">
-                  <persName>[Unbekannt]</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d5cf36fd-titleUniMainDE">Lied eines siebenbürgischen Wanderzigeuners</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-d5cf36fd-titleUniDescDE">für hohe Stimme und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p decls="creation"><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Lied eines siebenbürgischen Wanderzigeuners</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="f" mode="minor"/>
+                <meter count="4" unit="4"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="violin">Violine </perfRes>
+                        <perfRes codedval="voice.high">
+                            <range>
+                                <rangeNote pname="e" accid="f" oct="4" type="lowest"/>
+                                <rangeNote pname="a" accid="f" oct="5" type="highest"/>
+                            </range>
+                        </perfRes>
+                        <perfRes codedval="piano"/>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="rism">453003905</identifier>
+                <identifier type="D-KA">Mus. Hs. 1307</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-d5cf36fd-titleMain">Lied eines siebenbürgischen Wanderzigeuners.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-d5cf36fd-titleSub">Für hohe Stimme, Klavier und Violine</titlePart>
+                    </title>
+                    <composer xml:id="baudi-01-d5cf36fd-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-d5cf36fd-lyricist">
+                        <persName codedval="baudi-04-09b08f5a">[Unbekannt]</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <titlePage>
-
-                  <p decls="titlePage">Lied eines siebenbürgischen Wanderzigeuners.<lb/>Für hohe Stimme, Klavier und
-                     Violine<lb/>Ludwig Baumann<lb/>
-                     <lb/>unbekannt<lb/>
-                  </p>
-               </titlePage>
-               <dimensions label="height" unit="mm">391</dimensions>
-               <dimensions label="width" unit="mm">271</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="folium" unit="folium">4</extent>
-               <extent label="pages" unit="page">6</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="N 1r BiblVermerk" medium="Bleistift">Musik Hs. 1307</hand>
-                  <hand label="N 1r BiblVermerk" medium="Bleistift">Singstimme</hand>
-                  <hand label="S 1r BiblVermerk" medium="Bleistift">Z</hand>
-               </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-02-08" type="desc" resp="dried"/>
-                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-d5cf36fd-physMedium">Maschinell rastriert. 4 Systeme und Lied-Akkolade. Beschrieben
-                  mit schwarzer Tinte. Erste Lage auf dem Kopf beschrieben und eingeheftet. Fasenheftung</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1307</identifier>
-               </repository>
-
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <titlePage>
+                        <p>Lied eines siebenbürgischen Wanderzigeuners.<lb/>Für hohe Stimme, Klavier und Violine<lb/>Ludwig Baumann<lb/>
+                            <lb/>unbekannt<lb/>
+                        </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">391</dimensions>
+                    <dimensions label="width" unit="mm">271</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">4</extent>
+                    <extent label="pages" unit="page">6</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-02-08" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-d5cf36fd-physMedium">Maschinell rastriert. 4 Systeme und Lied-Akkolade. Beschrieben mit schwarzer Tinte. Erste Lage auf dem Kopf beschrieben und eingeheftet. Fasenheftung</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1307</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language auth="de"/>
-            </langUsage>
-            <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents><!-- Weitere Beschreibung des physischen Mediums --><!--	<p>
 							<list
 								label="quires">
 								<head>Lagenordnung</head>
@@ -117,98 +103,82 @@
 									n="1">1. Lage</li>
 							</list>
 						</p> --></contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-02-08" label="dried"/>
-               <annot plist="stamp S-oriented 1r 4v" corresp="#baudi-01-d5cf36fd-physMedium">L.B./Karlsruhe</annot>
-               <annot>2r Violine bleibt weg NW Bleistift; 2r -,50 SW Bleistift</annot>
-               <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-d5cf36fd-physMedium">»Sünova« Nr. 4 - 12 zeilig</annot>
-               <annot>Spätere Fassung (vgl. Violine und Pause vor letztem Teil)</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-                  <term type="genre">ensemble</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-e147645e"/>
-               <relation rel="hasAlternate" corresp="baudi-01-236031ee"/>
-               <relation rel="hasAlternate" corresp="baudi-01-404f34bd"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-02-08" resp="dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile label="3240929">
-         
-         
-            
-            
-            
-            
-            
-            
-            
-         <surface xml:id="baudi-01-d5cf36fd-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid" target="3299161" xml:id="baudi-01-d5cf36fd-00-0001" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid" target="3299162" xml:id="baudi-01-d5cf36fd-00-0002" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid" target="3299163" xml:id="baudi-01-d5cf36fd-00-0003" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid" target="3299164" xml:id="baudi-01-d5cf36fd-00-0004" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0005" n="5" label="3r">
-            <graphic targettype="blb-vlid" target="3299165" xml:id="baudi-01-d5cf36fd-00-0005" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0006" n="6" label="3v">
-            <graphic targettype="blb-vlid" target="3299166" xml:id="baudi-01-d5cf36fd-00-0006" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0007" n="7" label="4r">
-            <graphic targettype="blb-vlid" target="3299167" xml:id="baudi-01-d5cf36fd-00-0007" type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-d5cf36fd-surface-0008" n="8" label="4v">
-            <graphic targettype="blb-vlid" target="3299168" xml:id="baudi-01-d5cf36fd-00-0008" type="facsimile"/>
-         </surface>
-      </facsimile>
-      <body>
-         <mdiv xml:id="baudi_20_577d59d3" label="Lied eines siebenbürgischen Wanderzigeuners">
-            <score>
-               <scoreDef>
-                  <ambitus>
-                     <ambNote pname="e" accid="f" oct="4" type="lowest"/>
-                     <ambNote pname="a" accid="f" oct="5" type="highest"/>
-                  </ambitus>
-               </scoreDef>
-               <section/>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+                    <annot n="1" when="2018-02-08" label="dried"/>
+                    <annot plist="stamp S-oriented 1r 4v" corresp="#baudi-01-d5cf36fd-physMedium">L.B./Karlsruhe</annot>
+                    <annot>2r Violine bleibt weg NW Bleistift; 2r -,50 SW Bleistift</annot>
+                    <annot plist="paperTypeNote SW-oriented" corresp="#baudi-01-d5cf36fd-physMedium">»Sünova« Nr. 4 - 12 zeilig</annot>
+                    <annot>Spätere Fassung (vgl. Violine und Pause vor letztem Teil)</annot>
+                    <annot plist="biblNote N-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Musik Hs. 1307</annot>
+                    <annot plist="biblNote N-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Singstimme</annot>
+                    <annot plist="biblNote S-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">Z</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                        <term type="genre">ensemble</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-e147645e"/>
+                    <relation rel="hasAlternate" corresp="baudi-01-236031ee"/>
+                    <relation rel="hasAlternate" corresp="baudi-01-404f34bd"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-02-08" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile label="3240929">
+            <surface xml:id="baudi-01-d5cf36fd-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="3299161" xml:id="baudi-01-d5cf36fd-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="3299162" xml:id="baudi-01-d5cf36fd-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="3299163" xml:id="baudi-01-d5cf36fd-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="3299164" xml:id="baudi-01-d5cf36fd-00-0004" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0005" n="5" label="3r">
+                <graphic targettype="blb-vlid" target="3299165" xml:id="baudi-01-d5cf36fd-00-0005" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0006" n="6" label="3v">
+                <graphic targettype="blb-vlid" target="3299166" xml:id="baudi-01-d5cf36fd-00-0006" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0007" n="7" label="4r">
+                <graphic targettype="blb-vlid" target="3299167" xml:id="baudi-01-d5cf36fd-00-0007" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-d5cf36fd-surface-0008" n="8" label="4v">
+                <graphic targettype="blb-vlid" target="3299168" xml:id="baudi-01-d5cf36fd-00-0008" type="facsimile"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="baudi_20_577d59d3" label="Lied eines siebenbürgischen Wanderzigeuners"> </mdiv>
+        </body>
+    </music>
 </mei>

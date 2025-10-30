@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-9fd06dc8">
+    <identifier type="baudi-copy">CMVS-HH-11</identifier>
+    <title type="uniform" xml:id="baudi-02-9fd06dc8-title">
+        <titlePart type="main" xml:id="baudi-02-9fd06dc8-titleMain">Wenn der Ginster blüht!</titlePart>
+        <titlePart type="number" codedval="opus">65</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-9fd06dc8-titleMainSort">Wenn der Ginster blüht!</titlePart>
+    </title>
+    <composer xml:id="baudi-02-9fd06dc8-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-9fd06dc8-lyricist">
+        <persName codedval="baudi-04-8876f0fc">F. W. Weber</persName>
+    </lyricist>
+    <key pname="a" mode="major"/>
+    <meter count="3" unit="4"/>
+    <tempo>Nicht schleppend.</tempo>
+    <incip/>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1908">1908</date>
+        </p>
+    </history>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>

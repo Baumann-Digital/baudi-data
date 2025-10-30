@@ -1,23 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" status="checked" sex="male" xml:id="baudi-04-36115aa4">
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" status="approved" xml:id="baudi-04-36115aa4">
     <idno type="gnd">119115042</idno>
     <idno type="viaf">64810341</idno>
     <persName>
         <forename sort="1">Friedrich</forename>
         <forename sort="2">Wilhelm</forename>
-        <surname>Grimme</surname></persName>
-    <birth when="1827">
-        <settlement>Olsberg-Assinghausen</settlement> 
+        <surname>Grimme</surname>
+    </persName>
+    <birth when="1827-12-25">
+        <settlement>Olsberg-Assinghausen</settlement>
     </birth>
-    <death when="1887">
+    <death when="1887-04-03">
         <settlement>Münster</settlement>
     </death>
-    <faith/>
-    <education/>
     <sex type="male"/>
     <nationality key="de"/>
-    <occupation>Schriftsteller, Heimatschriftsteller, Pädagoge, Schulleiter</occupation>
-    <affiliation/>
+    <occupation>Schriftsteller</occupation>
+    <occupation>Heimatschriftsteller</occupation>
+    <occupation>Pädagoge</occupation>
+    <occupation>Schulleiter</occupation>
     <note>
         <ref type="https://de.wikipedia.org/wiki/Friedrich_Wilhelm_Grimme">Wikipedia</ref>
     </note>

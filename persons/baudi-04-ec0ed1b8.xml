@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-ec0ed1b8" status="created">
-    <persName>Herrn Professor Förstler</persName>
-    <birth/>
-    <death/>
-    <faith key="unknown"/>
-    <education/>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-ec0ed1b8" status="proposed">
+    <persName>
+        <addName type="title">Professor</addName>
+        <surname>Förstler</surname>
+    </persName>
     <sex type="male"/>
     <nationality key="de"/>
     <occupation>director</occupation>
-    <affiliation/>
-    <idno type="gnd"/>
-    <idno type="viaf"/>
-    <note/>
 </person>

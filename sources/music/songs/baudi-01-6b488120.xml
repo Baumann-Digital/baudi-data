@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../baudiResources/data/schema/mei_baudi-1.0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     status="checked"
-     xml:id="baudi-01-6b488120">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" status="proposed" xml:id="baudi-01-6b488120">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-6b488120-titleUniMainDE">Am fernen Strand</titlePart>
-                    <titlePart type="perf" xml:lang="de" xml:id="baudi-01-6b488120-titleUniDescDE">für Singstimme und
-                        Klavier</titlePart>
+                    <titlePart type="perf" xml:lang="de" xml:id="baudi-01-6b488120-titleUniDescDE">für Singstimme und Klavier</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
-
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -30,10 +23,10 @@
                     <titlePart type="perf" xml:lang="de">für Singstimme und Klavier</titlePart>
                 </title>
                 <composer>
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <lyricist>
-                    <persName auth="baudi-04-f7902fb2">Willi Birger</persName>
+                    <persName codedval="baudi-04-f7902fb2">Willi Birger</persName>
                 </lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
@@ -41,14 +34,14 @@
                 <!-- incip moved to work -->
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="voice" xml:id="baudi-01-6b488120-perfRes-0001">
-                            <ambitus>
-                                <ambNote pname="d" oct="4" type="lowest"/>
-                                <ambNote pname="f" accid="s" oct="5" type="highest"/>
-                                <ambNote pname="a" accid="s" oct="5" type="highestAlt"/>
-                            </ambitus>
+                        <perfRes xml:id="baudi-01-6b488120-perfRes-0001" codedval="voice">
+                            <range>
+                                <rangeNote pname="d" oct="4" type="lowest"/>
+                                <rangeNote pname="f" accid="s" oct="5" type="highest"/>
+                                <rangeNote pname="a" accid="s" oct="5" type="highestAlt"/>
+                            </range>
                         </perfRes>
-                        <perfRes auth="piano" xml:id="baudi-01-6b488120-perfRes-0002"/>
+                        <perfRes xml:id="baudi-01-6b488120-perfRes-0002" codedval="piano"/>
                     </perfResList>
                 </perfMedium>
                 <contents/>
@@ -60,14 +53,14 @@
                 <identifier type="D-KA">Mus. Hs. 1312</identifier>
                 <titleStmt>
                     <title>
-                  <titlePart type="main" xml:id="baudi-01-6b488120-titleMain">Am fernen Strand.</titlePart>
+                        <titlePart type="main" xml:id="baudi-01-6b488120-titleMain">Am fernen Strand.</titlePart>
                         <titlePart type="subordinate" xml:id="baudi-01-6b488120-titleSub"/>
-               </title>
+                    </title>
                     <composer>
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                     <lyricist>
-                        <persName auth="baudi-04-f7902fb2">Willi Birger</persName>
+                        <persName codedval="baudi-04-f7902fb2">Willi Birger</persName>
                     </lyricist>
                 </titleStmt>
                 <physDesc>
@@ -79,20 +72,16 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>song score</scoreFormat>
                     <handList>
-                        <hand type="composer" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                        <hand type="composer" medium="pencil" xml:id="hand1"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand2"/>
                     </handList>
                     <condition n="1">
-                        <!--<date isodate="2018-02-05" type="desc" resp="dried"/>
-                         <p decls="statusReport">Zustandsbeschreibung</p>--> 
+                        <!--<date isodate="2018-02-05" type="desc" resp="#dried"/>
+                         <p type="statusReport">Zustandsbeschreibung</p>-->
                     </condition>
-                    <physMedium xml:id="baudi-01-6b488120-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit
-                        schwarzer Tinte.</physMedium>
+                    <physMedium xml:id="baudi-01-6b488120-physMedium">Maschinell rastriert für Gesang und Klavier. Beschrieben mit schwarzer Tinte.</physMedium>
                     <foliaDesc>
-                        <bifolium outer.recto="#baudi-01-6b488120-surface-0001"
-                            inner.verso="#baudi-01-6b488120-surface-0002"
-                            inner.recto="#baudi-01-6b488120-surface-0003"
-                            outer.verso="#baudi-01-6b488120-surface-0004"/>
+                        <bifolium outer.recto="#baudi-01-6b488120-surface-0001" inner.verso="#baudi-01-6b488120-surface-0002" inner.recto="#baudi-01-6b488120-surface-0003" outer.verso="#baudi-01-6b488120-surface-0004"/>
                     </foliaDesc>
                     <layoutDesc>
                         <stamp>
@@ -107,14 +96,14 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName auth="baudi-05-46886fd2" label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">Mus. Hs. 1312</identifier>
                     </repository>
                 </physLoc>
                 <history><!-- <eventList/> --></history>
                 <langUsage>
                     <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList/>
@@ -122,23 +111,11 @@
                     <!-- Weitere Anmerkungen des Beschreibers -->
                     <!--<annot n="1" when="2018-02-05" label="dried">Brinzing spricht hier von
                         D-Dur</annot>-->
-                    
-                    <annot place="topmar leftmar"
-                      data="#baudi-01-6b488120-surface-0001"
-                      resp="#baudi-01-6b488120-hand-001">3 1/2 Minuten</annot>
-                    <annot place="topmar rightmar"
-                      data="#baudi-01-6b488120-surface-0001"
-                      resp="#baudi-01-6b488120-hand-002">Musik Hs. 1312</annot>
-                    <annot place="botmar"
-                      data="#baudi-01-6b488120-surface-0001"
-                      resp="#baudi-01-6b488120-hand-002">Z</annot>
-                    
-                    <annot place="botmar"
-                      data="#baudi-01-6b488120-surface-0001 #baudi-01-6b488120-surface-0004"
-                      type="stamp">L.B./Karlsruhe</annot>
-                    <annot type="paperNote"
-                      place="botmar leftmar"
-                      data="#baudi-01-6b488120-surface-0001">»Sünova« Nr. 37 - 4 Systeme</annot>
+                    <annot place="topmar leftmar" data="#baudi-01-6b488120-surface-0001" corresp="#hand1">3 1/2 Minuten</annot>
+                    <annot place="topmar rightmar" data="#baudi-01-6b488120-surface-0001" corresp="#hand2">Musik Hs. 1312</annot>
+                    <annot place="botmar" data="#baudi-01-6b488120-surface-0001" corresp="#hand2">Z</annot>
+                    <annot place="botmar" data="#baudi-01-6b488120-surface-0001 #baudi-01-6b488120-surface-0004" type="stamp">L.B./Karlsruhe</annot>
+                    <annot type="paperNote" place="botmar leftmar" data="#baudi-01-6b488120-surface-0001">»Sünova« Nr. 37 - 4 Systeme</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -148,8 +125,7 @@
                     </termList>
                 </classification>
                 <itemList>
-                    <item label="textvorlage"
-                     target="https://www.volksliederarchiv.de/wild-flutet-der-see-masuren/"/>
+                    <item label="textvorlage" target="https://www.volksliederarchiv.de/wild-flutet-der-see-masuren/"/>
                     <item label="textvorlage" target="https://de.wikipedia.org/wiki/Masurenlied"/>
                 </itemList>
                 <relationList>
@@ -164,12 +140,12 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="0" isodate="2017-04-01" resp="dried">
+            <change n="0" isodate="2017-04-01" resp="#dried">
                 <changeDesc>
                     <p>Initializing the project</p>
                 </changeDesc>
             </change>
-            <change n="1" isodate="2018-02-05" resp="dried">
+            <change n="1" isodate="2018-02-05" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourceMsScore.xql</p>
                 </changeDesc>
@@ -185,35 +161,22 @@
                 </figDesc>
             </surface>
             <surface xml:id="baudi-01-6b488120-surface-0001" n="1" label="1r">
-                <graphic targettype="blb-vlid"
-                     target="3300462"
-                     xml:id="baudi-01-6b488120-00-0001"
-                     type="facsimile"/>
+                <graphic targettype="blb-vlid" target="3300462" xml:id="baudi-01-6b488120-00-0001" type="facsimile"/>
             </surface>
             <surface xml:id="baudi-01-6b488120-surface-0002" n="2" label="1v">
-                <graphic targettype="blb-vlid"
-                     target="3300463"
-                     xml:id="baudi-01-6b488120-00-0002"
-                     type="facsimile"/>
+                <graphic targettype="blb-vlid" target="3300463" xml:id="baudi-01-6b488120-00-0002" type="facsimile"/>
             </surface>
             <surface xml:id="baudi-01-6b488120-surface-0003" n="3" label="2r">
-                <graphic targettype="blb-vlid"
-                     target="3300464"
-                     xml:id="baudi-01-6b488120-00-0003"
-                     type="facsimile"/>
+                <graphic targettype="blb-vlid" target="3300464" xml:id="baudi-01-6b488120-00-0003" type="facsimile"/>
             </surface>
             <surface xml:id="baudi-01-6b488120-surface-0004" n="4" label="2v">
-                <graphic targettype="blb-vlid"
-                     target="3300465"
-                     xml:id="baudi-01-6b488120-00-0004"
-                     type="facsimile"/>
+                <graphic targettype="blb-vlid" target="3300465" xml:id="baudi-01-6b488120-00-0004" type="facsimile"/>
             </surface>
         </facsimile>
         <body>
             <mdiv xml:id="baudi_20_a8478298" label="Am fernen Strand">
                 <score>
-                    <scoreDef>
-                    </scoreDef>
+                    <scoreDef> </scoreDef>
                     <section/>
                     <div type="songtext">
                         <lg label="title">
@@ -258,8 +221,7 @@
                             <l n="11" xml:id="baudi-01-6b488120-verse-0025">frei ist mein Volk!</l>
                             <l n="12" xml:id="baudi-01-6b488120-verse-0026">Dort steht noch das Hüttchen</l>
                             <l n="13" xml:id="baudi-01-6b488120-verse-0027">am blühenden duftenden Hang;</l>
-                            <l n="14" xml:id="baudi-01-6b488120-verse-0028">dort lauscht' ich so gerne der Vögel entzückenden
-                                Sang.</l>
+                            <l n="14" xml:id="baudi-01-6b488120-verse-0028">dort lauscht' ich so gerne der Vögel entzückenden Sang.</l>
                         </lg>
                         <lg n="4" label="Refrain 2" xml:id="baudi-01-6b488120-chorous-0002">
                             <l n="1" xml:id="baudi-01-6b488120-ch2Verse-0001">Am fernen Strand,</l>

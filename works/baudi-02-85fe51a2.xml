@@ -1,60 +1,50 @@
-   <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-85fe51a2" status="created">
-      <title type="uniform" xml:id="baudi-02-85fe51a2-title">
-         <titlePart type="main" xml:id="baudi-02-85fe51a2-titleMain">
-            Mein Vaterland
-         </titlePart><titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Mein Vaterland</titlePart>
-         
-         
-      </title>
-      <composer xml:id="baudi-02-85fe51a2-composer">
-         <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-      </composer>
-      <lyricist xml:id="baudi-02-85fe51a2-lyricist">
-         <persName>Inge Karsten</persName>
-      </lyricist>
-      
-      <key pname="c" mode="major"/>
-      <meter count="12" unit="8"/>
-      <meter count="4" unit="4" sym="common" type="roundBrackets"/>
-      <tempo/>
-      <incip/>
-      <creation/>
-      <history/>
-      <langUsage>
-         <head>In der Quelle verwendete Sprache(n)</head>
-         <language auth="de"/>
-      </langUsage>
-      <perfMedium>
-         <perfResList>
-            <perfRes auth="baudi-09-82e86ea7">Singstimme</perfRes>
-            <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
-         </perfResList>
-      </perfMedium>
-      <audience/>
-      
-      
-      <classification>
-         
-         <termList>
-            
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="baudi-02-85fe51a2" status="proposed">
+    <title type="uniform" xml:id="baudi-02-85fe51a2-title">
+        <titlePart type="main" xml:id="baudi-02-85fe51a2-titleMain"> Mein Vaterland </titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Mein Vaterland</titlePart>
+    </title>
+    <composer xml:id="baudi-02-85fe51a2-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-85fe51a2-lyricist">
+        <persName codedval="baudi-04-8bcd5d19">Inge Karsten</persName>
+    </lyricist>
+    <key pname="c" mode="major"/>
+    <meter count="12" unit="8"/>
+    <meter count="4" unit="4" sym="common" type="roundBrackets"/>
+    <tempo/>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList>
+            <perfRes codedval="voice">Singstimme</perfRes>
+            <perfRes codedval="piano">Klavier</perfRes>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <classification>
+        <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">song</term>
-         </termList>
-      </classification>
-      <!--		
+        </termList>
+    </classification>
+    <!--		
                    		          <componentList>
                    					<!-/- Gibt es untergeordnete Werke, werden hier die Einzel-Werke verlinkt.
                    						Die Quellen werden dann den entsprechenden Werken zugeordnet. -/->
                    						<manifestation target="#ID"/>
                    				  </componentList>
                    				-->
-      <relationList>
-         <!-- Hier werden die zugehörigen Quellen verlinkt -->
-         <relation rel="hasEmbodiment" target="baudi-01-291da6b8"/>
-      </relationList>
-   </work>
-
-
-
-
-
+    <relationList>
+      <!-- Hier werden die zugehörigen Quellen verlinkt -->
+        <relation rel="hasEmbodiment" target="baudi-01-291da6b8"/>
+    </relationList>
+</work>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-f4c72ac3">
+    <identifier type="baudi-copy">BLB-SMV-4</identifier>
+    <title type="uniform" xml:id="baudi-02-f4c72ac3-title">
+        <titlePart type="main" xml:id="baudi-02-f4c72ac3-titleMain">Küferlied</titlePart>
+        <titlePart type="number" codedval="opus">40</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-f4c72ac3-titleMainSort">Kueferlied</titlePart>
+        <titlePart type="subordinate" xml:id="baudi-02-f4c72ac3-titleSub">aus »Fröhlicher Herbst« ein Weinidyll aus dem Elsass von A.F. Meyer</titlePart>
+    </title>
+    <composer xml:id="baudi-02-f4c72ac3-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-f4c72ac3-lyricist">
+        <persName>A. F. Meyer</persName>
+    </lyricist>
+    <key pname="b" accid="f" mode="major"/>
+    <meter count="2" unit="4"/>
+    <tempo>Mässiges Marschtempo</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes xml:id="baudi-02-f4c72ac3-perfRes-0001" codedval="tenor.i"/>
+            <perfRes xml:id="baudi-02-f4c72ac3-perfRes-0002" codedval="tenor.ii"/>
+            <perfRes xml:id="baudi-02-f4c72ac3-perfRes-0003" codedval="bass.i"/>
+            <perfRes xml:id="baudi-02-f4c72ac3-perfRes-0004" codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+    <!--<relationList>
+                         <relation rel="hasEmbodiment"/>
+                     </relationList>-->
+</work>

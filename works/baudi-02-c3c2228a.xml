@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-c3c2228a">
+    <identifier type="baudi-copy">CMVS-HH-83</identifier>
+    <title type="uniform" xml:id="baudi-02-c3c2228a-title">
+        <titlePart type="main" xml:id="baudi-02-c3c2228a-titleMain">Erntezeit</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-c3c2228a-titleMainSort">Erntezeit</titlePart>
+        <titlePart type="dedication">Dem <corpName>»Männergesangverein« <settlement codedval="baudi-06-3b89085d">Pforzheim-Brötzingen</settlement>
+            </corpName> und seinem Dirigenten <persName role="conductor" codedval="baudi-04-320817a3">Erwin Baumann</persName> gewidmet.</titlePart>
+    </title>
+    <composer xml:id="baudi-02-c3c2228a-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-c3c2228a-lyricist">
+        <persName codedval="baudi-04-8bcd5d19">Inge Karsten</persName>
+    </lyricist>
+    <key pname="g" mode="major"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Etwas belebt.</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="perf">Kann 1/2 Ton höher gesungen werden.</annot>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>

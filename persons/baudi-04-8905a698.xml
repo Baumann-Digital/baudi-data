@@ -1,23 +1,17 @@
- 
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-8905a698" status="created">
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-8905a698" status="approved">
     <persName>
         <forename sort="1" type="used">Hildegard</forename>
-        <surname type="used">Baumann</surname>
-        <genName/>
-        <nameLink/>
-        <roleName/>
-        <addName/>
+        <surname type="born">Baumann</surname>
+        <surname type="married">Bieber-Baumann</surname>
     </persName>
-    <birth/>
-    <death/>
-    <faith key="unknown"/>
+    <birth when="1892-10-16"><placeName key="baudi-06-8cd102e5">Mannheim</placeName></birth>
+    <death when="1934-06"/>
     <education>Sopran</education>
     <sex type="female"/>
     <nationality key="de"/>
     <occupation>Opernsängerin</occupation>
-    <idno type="gnd"/>
-    <idno type="viaf"/>
-    
-        <note/>
-    
+    <idno type="gnd">1327095750</idno>
+    <note>Tochter von <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName></note>
 </person>

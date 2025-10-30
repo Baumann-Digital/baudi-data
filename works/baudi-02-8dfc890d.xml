@@ -1,4 +1,7 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-8dfc890d">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-8dfc890d">
     <title type="uniform" xml:id="baudi-02-8dfc890d-title">
         <titlePart type="main" xml:id="baudi-02-8dfc890d-titleMain">Die Himmel rühmen des Ewigen Ehre</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-8dfc890d-titleMainSort">Himmel ruehmen des Ewigen Ehre</titlePart>
@@ -6,11 +9,11 @@
         <titlePart type="perf" xml:id="baudi-02-8dfc890d-titleDesc"/>
     </title>
     <composer xml:id="baudi-02-8dfc890d-composer">
-        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
     <arranger/>
     <editor>
-        <persName auth="baudi-04-bee123c8">Heinrich Trautner</persName>
+        <persName codedval="baudi-04-bee123c8">Heinrich Trautner</persName>
     </editor>
     <key pname="d" mode="major"/>
     <meter count="3" unit="4"/>
@@ -24,7 +27,7 @@
     </langUsage>
     <perfMedium>
         <perfResList>
-            <perfRes auth="organ"/>
+            <perfRes codedval="organ"/>
         </perfResList>
     </perfMedium>
     <audience/>
@@ -33,7 +36,7 @@
         <head/>
         <termList>
             <term type="workGroup">instrumental</term>
-            <term type="genre">organ</term>
+            <term type="genre">solo</term>
         </termList>
     </classification>
 </work>

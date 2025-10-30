@@ -1,214 +1,206 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-f7e5736d" status="created">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniMainDE">Maimorgen</titlePart>
-               <titlePart type="desc" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniDescDE">für eine Singstimme und
-                  Klavier</titlePart>
-            </title>
-         </titleStmt>
-         <pubStmt>
-            
-         </pubStmt>
-
-         <sourceDesc>
-            <source/>
-         </sourceDesc>
-      </fileDesc>
-
-      <workList>
-         <work>
-            <title type="uniform" xml:lang="de">
-               <titlePart type="main" xml:lang="de">Maimorgen</titlePart>
-               <titlePart type="subordinate" xml:lang="de"/>
-               <titlePart type="desc" xml:lang="de"/>
-            </title>
-
-            <key pname="a" mode="major"/>
-            <meter count="4" unit="4"/>
-            <tempo/>
-            <incip/>
-            <perfMedium>
-               <perfResList>
-                  <perfRes count="1" solo="true" auth="baudi-09-82e86ea7">[Singstimme]</perfRes>
-                  <perfRes count="1" auth="baudi-09-32aa6522">[Klavier]</perfRes>
-               </perfResList>
-            </perfMedium>
-            <contents/>
-         </work>
-      </workList>
-      <manifestationList>
-         <manifestation type="ms">
-            <identifier type="rism">453007185</identifier>
-            <identifier type="D-KA">Mus. Hs. 1394,12</identifier>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-f7e5736d" status="proposed">
+    <meiHead>
+        <fileDesc>
             <titleStmt>
-               <title>
-                  <titlePart type="main" xml:id="baudi-01-f7e5736d-titleMain">Maimorgen</titlePart>
-                  <titlePart type="subordinate" xml:id="baudi-01-f7e5736d-titleSub"/>
-               </title>
-
-               <composer xml:id="baudi-01-f7e5736d-composer">
-                  <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-               </composer>
-               <lyricist xml:id="baudi-01-f7e5736d-lyricist">
-                  <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
-               </lyricist>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniMainDE">Maimorgen</titlePart>
+                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-f7e5736d-titleUniDescDE">für eine Singstimme und Klavier</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <physDesc>
-               <p decls="creation"><!--	<date
+            <pubStmt> </pubStmt>
+            <sourceDesc>
+                <source/>
+            </sourceDesc>
+        </fileDesc>
+        <workList>
+            <work>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de">Maimorgen</titlePart>
+                    <titlePart type="subordinate" xml:lang="de"/>
+                    <titlePart type="desc" xml:lang="de"/>
+                </title>
+                <key pname="a" mode="major"/>
+                <meter count="4" unit="4"/>
+                <tempo/>
+                <incip/>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" solo="true" codedval="voice">[Singstimme]</perfRes>
+                        <perfRes count="1" codedval="piano">[Klavier]</perfRes>
+                    </perfResList>
+                </perfMedium>
+                <contents/>
+            </work>
+        </workList>
+        <manifestationList>
+            <manifestation type="ms">
+                <identifier type="rism">453007185</identifier>
+                <identifier type="D-KA">Mus. Hs. 1394,12</identifier>
+                <titleStmt>
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-f7e5736d-titleMain">Maimorgen</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-f7e5736d-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-f7e5736d-composer">
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist xml:id="baudi-01-f7e5736d-lyricist">
+                        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
+                    </lyricist>
+                </titleStmt>
+                <physDesc>
+                    <p><!--	<date
 								type="creation"
 								cert="high"
 								isodate="0000"/> --></p>
-               <titlePage>
-                  <p>
-                     <rend valign="top" halign="left" rotation="-40" rend="overline underline">transponiert!</rend>
-                     <rend halign="center" valign="middle">
-                        <rend rend="underline" altrend="double" halign="center">Maimorgen</rend>
-                        <lb/>
-                        <rend rend="underline" altrend="double" halign="center">Gedicht von Richard Graebener</rend>
-                        <lb/>
-                        <rend rend="underline" halign="center">Für eine Singstimme und Klavier</rend>
-                        <lb/>von<lb/>
-                        <rend rend="underline" altrend="double" halign="center">Ludwig Baumann.</rend>
-                     </rend>
-                  </p>
-               </titlePage>
-               <dimensions label="height" unit="mm">351</dimensions>
-               <dimensions label="width" unit="mm">278</dimensions>
-               <extent label="orientation">portrait</extent>
-               <extent label="folium" unit="folium">2</extent>
-               <extent label="pages" unit="page">2</extent>
-               <extent label="pagination">none</extent>
-               <scoreFormat>song score</scoreFormat>
-               <handList>
-                  <hand label="NW 1r composer" medium="tinteSchwarz">transponiert!</hand>
-                  <hand label="NW 1r BiblVermerk" medium="Bleistift">12</hand>
-               </handList>
-               <handList>
-                  <hand type="composer" medium="tinteSchwarz" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
-               <condition n="1">
-                  <date isodate="2018-01-11" type="desc" resp="dried"/>
-                  <!-- <p decls="statusReport">Zustandsbeschreibung</p> -->
-               </condition>
-               <physMedium xml:id="baudi-01-f7e5736d-physMedium">Maschinell rastriert. Beschrieben mit schwarzer
-                  Tinte.</physMedium>
-            </physDesc>
-            <physLoc>
-               <repository>
-                  <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
-                  <identifier type="shelfmark">Mus. Hs. 1394,12</identifier>
-               </repository>
-
-            </physLoc>
-            <history><!-- <eventList/> --></history>
-            <langUsage>
+                    <titlePage>
+                        <p>
+                            <rend valign="top" halign="left" rotation="-40" rend="overline underline">transponiert!</rend>
+                            <rend halign="center" valign="middle">
+                                <rend rend="underline" altrend="double" halign="center">Maimorgen</rend>
+                                <lb/>
+                                <rend rend="underline" altrend="double" halign="center">Gedicht von Richard Graebener</rend>
+                                <lb/>
+                                <rend rend="underline" halign="center">Für eine Singstimme und Klavier</rend>
+                                <lb/>von<lb/>
+                                <rend rend="underline" altrend="double" halign="center">Ludwig Baumann.</rend>
+                            </rend>
+                        </p>
+                    </titlePage>
+                    <dimensions label="height" unit="mm">351</dimensions>
+                    <dimensions label="width" unit="mm">278</dimensions>
+                    <extent label="orientation">portrait</extent>
+                    <extent label="folium" unit="folium">2</extent>
+                    <extent label="pages" unit="page">2</extent>
+                    <extent label="pagination">none</extent>
+                    <scoreFormat>song score</scoreFormat>
+                    <handList>
+                        <hand type="composer" medium="tinteSchwarz" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
+                    </handList>
+                    <condition n="1">
+                        <date isodate="2018-01-11" type="desc" resp="#dried"/>
+                        <!-- <p type="statusReport">Zustandsbeschreibung</p> -->
+                    </condition>
+                    <physMedium xml:id="baudi-01-f7e5736d-physMedium">Maschinell rastriert. Beschrieben mit schwarzer Tinte.</physMedium>
+                </physDesc>
+                <physLoc>
+                    <repository>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
+                        <identifier type="shelfmark">Mus. Hs. 1394,12</identifier>
+                    </repository>
+                </physLoc>
+                <history><!-- <eventList/> --></history>
+                <langUsage>
                <!-- u.U. Beschreibung welcher Teil der Quelle welche Sprache verwendet -->
-               <language auth="de"/>
-            </langUsage>
-            <contents>
+                    <language codedval="de"/>
+                </langUsage>
+                <contents>
                <!-- Weitere Beschreibung des physischen Mediums -->
-               <p>
-                  <list label="quires">
-                     <head>Lagenordnung</head>
-                     <li n="1">Eine Lage gefaltet</li>
-                  </list>
-               </p>
-            </contents>
-            <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
+                    <p>
+                        <list label="quires">
+                            <head>Lagenordnung</head>
+                            <li n="1">Eine Lage gefaltet</li>
+                        </list>
+                    </p>
+                </contents>
+                <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
 						<bibl type="announcement"/>
 						<bibl type="notice"/>--></biblList>
-            <notesStmt>
+                <notesStmt>
                <!-- Weitere Anmerkungen des Beschreibers -->
-               <annot n="1" when="2018-01-11" label="dried"/>
-               <annot plist="paperTypeNote C-oriented" corresp="#baudi-01-f7e5736d-physMedium">(?) 112 für Gesang und Klavier
-                  Systeme</annot>
-            </notesStmt>
-            <classification>
-               <termList>
-                  <term type="source">manuscript</term>
-                  <term type="workGroup">vocal</term>
-                  <term type="genre">song</term>
-               </termList>
-            </classification>
-            <relationList>
-               <relation rel="hasAlternate" corresp="baudi-01-0aa58a8c"/>
-               <relation rel="isEmbodimentOf" corresp="baudi-02-192bf8db"/>
-            </relationList>
-         </manifestation>
-      </manifestationList>
-      <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <tei:person>
-            <tei:persName/>
-         </tei:person>
-      </extMeta>
-      <revisionDesc>
-         <change n="0" isodate="2017-04-01" resp="dried">
-            <changeDesc>
-               <p>Initializing the project</p>
-            </changeDesc>
-         </change>
-         <change n="1" isodate="2018-01-11" resp="dried">
-            <changeDesc>
-               <p>File generated by generateSourceMsScore.xql</p>
-            </changeDesc>
-         </change>
-         <change n="2" isodate="2018-01-26" resp="dried">
-            <changeDesc>
-               <p>Datenbereinigung</p>
-            </changeDesc>
-         </change>
-      </revisionDesc>
-   </meiHead>
-   <music>
-      <facsimile>
-         <surface xml:id="baudi-01-f7e5736d-surface-0001" n="1">
-            <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0001.jpg" xml:id="baudi-01-f7e5736d-00-0001" type="facsimile" width="3120" height="4160"/>
-         </surface>
-         <surface xml:id="baudi-01-f7e5736d-surface-0002" n="2">
-            <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0002.jpg" xml:id="baudi-01-f7e5736d-00-0002" type="facsimile" width="3120" height="4160"/>
-         </surface>
-         <surface xml:id="baudi-01-f7e5736d-surface-0003" n="3">
-            <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0003.jpg" xml:id="baudi-01-f7e5736d-00-0003" type="facsimile" width="3120" height="4160"/>
-         </surface>
-         <surface xml:id="baudi-01-f7e5736d-surface-0004" n="4">
-            <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0004.jpg" xml:id="baudi-01-f7e5736d-00-0004" type="facsimile" width="3120" height="4160"/>
-         </surface>
-      </facsimile>
-      <body>
-         <mdiv xml:id="baudi_20_e2c7e835" label="Maimorgen">
-            <score>
-               <scoreDef/>
-               <section/>
-               <div type="songtext">
-                  <lg label="title">
-                     <l label="title"/>
-                  </lg>
-                  <lg n="1" xml:id="baudi-01-f7e5736d-stanza-001">
-                     <l n="1" xml:id="baudi-01-f7e5736d-verse-0001">Nickt mir zu, ihr schönen Rosen</l>
-                     <l n="2" xml:id="baudi-01-f7e5736d-verse-0002">mahnet mich Vergissmeinnicht.</l>
-                     <l n="3" xml:id="baudi-01-f7e5736d-verse-0003">Nelken euren Duft umkosen</l>
-                     <l n="4" xml:id="baudi-01-f7e5736d-verse-0004">möcht' ich wie das Sonnenlicht!</l>
-                     <l n="5" xml:id="baudi-01-f7e5736d-verse-0005">Wo auch nur mein Fuss mag stehen,</l>
-                     <l n="6" xml:id="baudi-01-f7e5736d-verse-0006">wo mein Auge hin auch schaut,</l>
-                     <l n="7" xml:id="baudi-01-f7e5736d-verse-0007">Blumendüfte mich um wehen</l>
-                     <l n="8" xml:id="baudi-01-f7e5736d-verse-0008">und da zu der Himmel blaut.</l>
-                  </lg>
-                  <lg n="2" xml:id="baudi-01-f7e5736d-stanza-002">
-                     <l n="1" xml:id="baudi-01-f7e5736d-verse-0009">Auf den Hängen, auf der Heide</l>
-                     <l n="2" xml:id="baudi-01-f7e5736d-verse-0010">überall ist gleiche Pracht!</l>
-                     <l n="3" xml:id="baudi-01-f7e5736d-verse-0011">Überall ist dies Geschmeide</l>
-                     <l n="4" xml:id="baudi-01-f7e5736d-verse-0012">das als Glück mich lieb umlacht!</l>
-                     <l n="5" xml:id="baudi-01-f7e5736d-verse-0013">Bringt der Herbst dann das Vergehen</l>
-                     <l n="6" xml:id="baudi-01-f7e5736d-verse-0014">dieser schönen Erdenzeit,</l>
-                     <l n="7" xml:id="baudi-01-f7e5736d-verse-0015">liegt im Wiederauferstehen</l>
-                     <l n="8" xml:id="baudi-01-f7e5736d-verse-0016">schon ein Trost um dieses Leid.</l>
-                  </lg>
-               </div>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+                    <annot n="1" when="2018-01-11" label="dried"/>
+                    <annot plist="paperTypeNote C-oriented" corresp="#baudi-01-f7e5736d-physMedium">(?) 112 für Gesang und Klavier Systeme</annot>
+                    <annot plist="composer NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0001">transponiert!</annot>
+                    <annot plist="biblNote NW-oriented 1r" corresp="#baudi-01-6b488120-hand-0002">12</annot>
+                </notesStmt>
+                <classification>
+                    <termList>
+                        <term type="source">manuscript</term>
+                        <term type="workGroup">vocal</term>
+                        <term type="genre">song</term>
+                    </termList>
+                </classification>
+                <relationList>
+                    <relation rel="hasAlternate" corresp="baudi-01-0aa58a8c"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-192bf8db"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
+        <revisionDesc>
+            <change n="0" isodate="2017-04-01" resp="#dried">
+                <changeDesc>
+                    <p>Initializing the project</p>
+                </changeDesc>
+            </change>
+            <change n="1" isodate="2018-01-11" resp="#dried">
+                <changeDesc>
+                    <p>File generated by generateSourceMsScore.xql</p>
+                </changeDesc>
+            </change>
+            <change n="2" isodate="2018-01-26" resp="#dried">
+                <changeDesc>
+                    <p>Datenbereinigung</p>
+                </changeDesc>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <facsimile>
+            <surface xml:id="baudi-01-f7e5736d-surface-0001" n="1">
+                <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0001.jpg" xml:id="baudi-01-f7e5736d-00-0001" type="facsimile" width="3120" height="4160"/>
+            </surface>
+            <surface xml:id="baudi-01-f7e5736d-surface-0002" n="2">
+                <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0002.jpg" xml:id="baudi-01-f7e5736d-00-0002" type="facsimile" width="3120" height="4160"/>
+            </surface>
+            <surface xml:id="baudi-01-f7e5736d-surface-0003" n="3">
+                <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0003.jpg" xml:id="baudi-01-f7e5736d-00-0003" type="facsimile" width="3120" height="4160"/>
+            </surface>
+            <surface xml:id="baudi-01-f7e5736d-surface-0004" n="4">
+                <graphic target="pictures/baudi-01-f7e5736d/baudi-01-f7e5736d-00-0004.jpg" xml:id="baudi-01-f7e5736d-00-0004" type="facsimile" width="3120" height="4160"/>
+            </surface>
+        </facsimile>
+        <body>
+            <mdiv xml:id="baudi_20_e2c7e835" label="Maimorgen">
+                <score>
+                    <scoreDef/>
+                    <section/>
+                    <div type="songtext">
+                        <lg label="title">
+                            <l label="title"/>
+                        </lg>
+                        <lg n="1" xml:id="baudi-01-f7e5736d-stanza-001">
+                            <l n="1" xml:id="baudi-01-f7e5736d-verse-0001">Nickt mir zu, ihr schönen Rosen</l>
+                            <l n="2" xml:id="baudi-01-f7e5736d-verse-0002">mahnet mich Vergissmeinnicht.</l>
+                            <l n="3" xml:id="baudi-01-f7e5736d-verse-0003">Nelken euren Duft umkosen</l>
+                            <l n="4" xml:id="baudi-01-f7e5736d-verse-0004">möcht' ich wie das Sonnenlicht!</l>
+                            <l n="5" xml:id="baudi-01-f7e5736d-verse-0005">Wo auch nur mein Fuss mag stehen,</l>
+                            <l n="6" xml:id="baudi-01-f7e5736d-verse-0006">wo mein Auge hin auch schaut,</l>
+                            <l n="7" xml:id="baudi-01-f7e5736d-verse-0007">Blumendüfte mich um wehen</l>
+                            <l n="8" xml:id="baudi-01-f7e5736d-verse-0008">und da zu der Himmel blaut.</l>
+                        </lg>
+                        <lg n="2" xml:id="baudi-01-f7e5736d-stanza-002">
+                            <l n="1" xml:id="baudi-01-f7e5736d-verse-0009">Auf den Hängen, auf der Heide</l>
+                            <l n="2" xml:id="baudi-01-f7e5736d-verse-0010">überall ist gleiche Pracht!</l>
+                            <l n="3" xml:id="baudi-01-f7e5736d-verse-0011">Überall ist dies Geschmeide</l>
+                            <l n="4" xml:id="baudi-01-f7e5736d-verse-0012">das als Glück mich lieb umlacht!</l>
+                            <l n="5" xml:id="baudi-01-f7e5736d-verse-0013">Bringt der Herbst dann das Vergehen</l>
+                            <l n="6" xml:id="baudi-01-f7e5736d-verse-0014">dieser schönen Erdenzeit,</l>
+                            <l n="7" xml:id="baudi-01-f7e5736d-verse-0015">liegt im Wiederauferstehen</l>
+                            <l n="8" xml:id="baudi-01-f7e5736d-verse-0016">schon ein Trost um dieses Leid.</l>
+                        </lg>
+                    </div>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>

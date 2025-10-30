@@ -1,26 +1,17 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-f18a5f96">
-    <title type="uniform"
-        xml:lang="de"
-        xml:id="baudi-01-f18a5f96-titleUniformDE">
-        <titlePart type="main"
-            xml:lang="de"
-            xml:id="baudi-01-f18a5f96-titleUniformMainDE">Grenzen der
-            Menschheit</titlePart>
-        <titlePart type="mainSort"
-            xml:lang="de">Grenzen der
-            Menschheit</titlePart>
-        <titlePart type="number" label="opus" auth="woo"/>
-        
-        <titlePart type="dedication">Dem »Karlsruher Liederkranz« uns deinem Präsidente, Herr Gustav Vollmer Direktor
-            der Lehrerbildungsanstalt, Karlsruhe, zum 90jährigen Vereinsjubiläum gewidmet</titlePart>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-f18a5f96">
+    <title type="uniform" xml:lang="de" xml:id="baudi-01-f18a5f96-titleUniformDE">
+        <titlePart type="main" xml:lang="de" xml:id="baudi-01-f18a5f96-titleUniformMainDE">Grenzen der Menschheit</titlePart>
+        <titlePart type="mainSort" xml:lang="de">Grenzen der Menschheit</titlePart>
+        <titlePart type="number" label="opus" codedval="woo"/>
+        <titlePart type="dedication">Dem »Karlsruher Liederkranz« uns deinem Präsidente, Herr Gustav Vollmer Direktor der Lehrerbildungsanstalt, Karlsruhe, zum 90jährigen Vereinsjubiläum gewidmet</titlePart>
     </title>
     <composer xml:id="baudi-02-f18a5f96-composer">
-        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
-    
     <lyricist xml:id="baudi-02-f18a5f96-lyricist">Johann Wolfgang Goethe</lyricist>
-    
-    
     <key pname="c" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
     <tempo>Wuchtig, gemessen</tempo>
@@ -33,33 +24,26 @@
     </langUsage>
     <perfMedium>
         <perfResList>
-            <perfRes count="2">Flöte</perfRes>
-            <perfRes auth="" count="2">Oboe</perfRes>
-            <perfRes auth="" count="2">Klarinette in B</perfRes>
-            <perfRes auth="" count="2">Fagott</perfRes>
-            <perfRes auth="" count="4">Horn</perfRes>
-            <perfRes auth="" count="3">Trompete</perfRes>
-            <perfRes auth="" count="3">Posaune</perfRes>
-            <perfRes auth="" count="1">Tuba</perfRes>
-            <perfRes auth="" count="1">Pauken</perfRes>
-            <perfRes auth="baudi-09-7314d24f" count="1">Männerchor</perfRes>
-            <perfRes auth="baudi-09-5f4e900d" count="1">Orgel</perfRes>
-            <perfRes auth="baudi-09-32aa6522" count="1">Piano</perfRes>
+            <perfRes count="2" codedval="flute">Flöte</perfRes>
+            <perfRes count="2" codedval="oboe">Oboe</perfRes>
+            <perfRes count="2" codedval="clarinet">Klarinette in B</perfRes>
+            <perfRes count="2" codedval="bassoon">Fagott</perfRes>
+            <perfRes count="4" codedval="hornFrench">Horn</perfRes>
+            <perfRes count="3" codedval="trumpet">Trompete</perfRes>
+            <perfRes count="3" codedval="trombone">Posaune</perfRes>
+            <perfRes count="1" codedval="tuba">Tuba</perfRes>
+            <perfRes count="1" codedval="timpani">Pauken</perfRes>
+            <perfRes count="1" codedval="choirMale">Männerchor</perfRes>
+            <perfRes count="1" codedval="organ">Orgel</perfRes>
+            <perfRes count="1" codedval="piano">Piano</perfRes>
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="workGroup">orchestral</term>
             <term type="genre">choir</term>
-            
         </termList>
     </classification>
-    <relationList>
-        <relation/>
-    </relationList>
 </work>

@@ -9,7 +9,9 @@
             <publicationStmt><p/></publicationStmt>
             <sourceDesc>
                 <listPlace>
-                    <place type="city">
+                    <?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<place>
                         <placeName type="official" notBefore="1974-12-01" xml:lang="de">Eggenstein-Leopoldshafen</placeName>
                         <location>
                             <geo>49.091068 8.388257</geo>

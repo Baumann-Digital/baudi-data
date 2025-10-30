@@ -1,4 +1,7 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-25394b2b">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-25394b2b">
     <title type="uniform" xml:id="baudi-02-25394b2b-title">
         <titlePart type="main" xml:id="baudi-02-25394b2b-titleMain">Andante</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-25394b2b-titleMainSort">Andante</titlePart>
@@ -6,10 +9,10 @@
         <titlePart type="perf" xml:id="baudi-02-25394b2b-titleDesc">Für drei Violinen, Viola und Klavier</titlePart>
     </title>
     <composer xml:id="baudi-02-25394b2b-composer">
-        <persName auth="baudi-04-e8587b8c">F. Mendelssohn-Bartholdy</persName>
+        <persName codedval="baudi-04-e8587b8c">F. Mendelssohn-Bartholdy</persName>
     </composer>
     <arranger>
-        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </arranger>
     <key pname="b" accid="f" mode="major"/>
     <meter count="4" unit="4" sym="common"/>
@@ -22,14 +25,14 @@
         <language/>
     </langUsage>
     <perfMedium>
-        <perfResList auth="ensemble">
-            <perfResList auth="strings"> 
-                <perfRes auth="violin.i"/>
-                <perfRes auth="violin.ii"/>
-                <perfRes auth="violin.iii"/>
-                <perfRes auth="viola"/>
+        <perfResList codedval="ensemble">
+            <perfResList codedval="strings">
+                <perfRes codedval="violin.i"/>
+                <perfRes codedval="violin.ii"/>
+                <perfRes codedval="violin.iii"/>
+                <perfRes codedval="viola"/>
             </perfResList>
-            <perfRes auth="piano"/>
+            <perfRes codedval="piano"/>
         </perfResList>
     </perfMedium>
     <audience/>

@@ -1,49 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-b7127f69"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-b7127f69" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-b7127f69-titleUniMainDE">In Mitten der Nacht</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-b7127f69-title">
-                    <titlePart type="main" xml:id="baudi-02-b7127f69-titleMain">In Mitten der Nacht</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-b7127f69-titleMainSort">In Mitten der Nacht</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-b7127f69-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-b7127f69-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">In Mitten der Nacht</titlePart>
+                    <titlePart type="mainSort">In Mitten der Nacht</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-b7127f69-composer">Alte Weihnachtsmelodie</composer>
-                <arranger xml:id="baudi-02-b7127f69-arranger">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>Alte Weihnachtsmelodie</composer>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </arranger>
-                <lyricist xml:id="baudi-02-b7127f69-lyricist">
-                    <persName>unbekannt</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-09b08f5a">unbekannt</persName>
                 </lyricist>
                 <key pname="g" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Etwas lebhaft.</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano"/>
-                        <perfRes auth="alto"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes codedval="soprano"/>
+                        <perfRes codedval="alto"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -54,42 +50,36 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-8</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-b7127f69-title">
-                    <titlePart type="main" xml:id="baudi-02-b7127f69-titleMain">In Mitten der Nacht</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-b7127f69-titleMainSort">In Mitten der Nacht</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-b7127f69-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-b7127f69-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-b7127f69-composer">Alte Weihnachtsmelodie</composer>
-               <arranger xml:id="baudi-02-b7127f69-arranger">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </arranger>
-               <lyricist xml:id="baudi-02-b7127f69-lyricist">
-                    <persName>unbekannt</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">In Mitten der Nacht</titlePart>
+                        <titlePart type="mainSort">In Mitten der Nacht</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>Alte Weihnachtsmelodie</composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist>
+                        <persName codedval="baudi-04-09b08f5a">unbekannt</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>In Mitten der Nacht</title>
                         <bibl>
                             <identifier>H. 642 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -102,7 +92,6 @@
                     <extent label="pages" unit="page">1</extent>
                     <extent label="pagination">none</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -119,7 +108,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -148,7 +137,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

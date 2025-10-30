@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-1dad0326" status="created">
-    <persName><surname>Müller</surname></persName>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-1dad0326" status="proposed">
+    <persName>
+        <surname>Müller</surname>
+    </persName>
     <birth/>
     <death/>
     <faith/>
@@ -10,5 +13,6 @@
     <affiliation/>
     <idno type="gnd"/>
     <idno type="viaf"/>
-    <note>Ehefrau von <persName key="baudi-04-585e6747">Willy Müller</persName></note>
+    <note>Ehefrau von <persName key="baudi-04-585e6747">Willy Müller</persName>
+    </note>
 </person>

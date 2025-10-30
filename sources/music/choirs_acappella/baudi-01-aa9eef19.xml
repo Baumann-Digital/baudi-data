@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-aa9eef19"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-aa9eef19" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-aa9eef19-titleUniMainDE">Arbeitskameraden</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-aa9eef19-title">
-                    <titlePart type="main" xml:id="baudi-02-aa9eef19-titleMain">Arbeitskameraden</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-aa9eef19-titleMainSort">Arbeitskameraden</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-aa9eef19-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-aa9eef19-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Arbeitskameraden</titlePart>
+                    <titlePart type="mainSort">Arbeitskameraden</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-aa9eef19-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-aa9eef19-lyricist">
-                    <persName>Max Steege</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-2540e39d">Max Steege</persName>
                 </lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>"Nicht schnell</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choir">
-                        <perfRes auth="Universitätsdruckerei H. Stürtz A. G."/>
-                        <perfRes auth=" Würzburg"/>
-                    </perfResList>
-                    <annot type="performance"/>
+                    <perfResList codedval="choir"/>
                 </perfMedium>
                 <contents/>
             </work>
@@ -51,44 +43,38 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-78</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-aa9eef19-title">
-                    <titlePart type="main" xml:id="baudi-02-aa9eef19-titleMain">Arbeitskameraden</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-aa9eef19-titleMainSort">Arbeitskameraden</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-aa9eef19-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-aa9eef19-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-aa9eef19-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-aa9eef19-lyricist">
-                    <persName>Max Steege</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Arbeitskameraden</titlePart>
+                        <titlePart type="mainSort">Arbeitskameraden</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName codedval="baudi-04-2540e39d">Max Steege</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Arbeitskameraden</title>
                         <bibl>
                             <identifier>H. 3470 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1937</date>
                             <dedicatee>
-                        <persName>Herrn Musikdirektor Kurt Layher-<settlement>Säckingen</settlement>
-                        </persName> und seinem <corpName>Männergesangverein »Liederkranz« <settlement>Wehr</settlement>
-                        </corpName>,
-                                zur <date isodate="1937-08">75 Jahrfeier des Vereins</date> (August 1937) gewidmet.</dedicatee>
+                                <persName>Herrn Musikdirektor Kurt Layher-<settlement codedval="baudi-06-80c04255">Säckingen</settlement>
+                                </persName> und seinem <corpName>Männergesangverein »Liederkranz« <settlement codedval="baudi-06-30a688ff">Wehr</settlement>
+                                </corpName>, zur <date isodate="1937-08">75 Jahrfeier des Vereins</date> (August 1937) gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -101,7 +87,6 @@
                     <extent label="pages" unit="page">170</extent>
                     <extent label="pagination">2</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -120,7 +105,7 @@
                     <p>Universitätsdruckerei H. Stürtz A. G. Würzburg</p>
                 </history>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -148,7 +133,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

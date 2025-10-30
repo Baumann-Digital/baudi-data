@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<work xmlns="http://www.music-encoding.org/ns/mei"
-      status="checked"
-      xml:id="baudi-02-35443acf">
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-35443acf">
     <title type="uniform" xml:id="baudi-02-35443acf-title">
         <titlePart type="main" xml:id="baudi-02-35443acf-titleMain">Grüß Gott, du Welt, du weite</titlePart>
-      <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Grüß Gott, du Welt, du weite</titlePart>
-        
-        
-        <titlePart type="number" auth="opus">15</titlePart>
-      <titlePart type="dedication">Dem
-          <corpName>Gesangverein »Liederhalle <settlement>Pforzheim</settlement>«</corpName> und seinem verdienstvollen Musikdirektor <persName role="musicalDirector" auth="baudi-04-a2e11f19">Herrn Max Thiede</persName>
-                                gewidmet.</titlePart>
-   </title>
+        <titlePart type="mainSort" xml:id="baudi-02-8eb61d34-titleMainSort">Grüß Gott, du Welt, du weite</titlePart>
+        <titlePart type="number" codedval="opus">15</titlePart>
+        <titlePart type="dedication">Dem <corpName>Gesangverein »Liederhalle <settlement codedval="baudi-06-eda48674">Pforzheim</settlement>«</corpName> und seinem verdienstvollen Musikdirektor <persName role="musicalDirector" codedval="baudi-04-a2e11f19">Herrn Max Thiede</persName> gewidmet.</titlePart>
+    </title>
     <composer xml:id="baudi-02-35443acf-composer">
-        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
     <lyricist xml:id="baudi-02-35443acf-lyricist">
-        <persName auth="baudi-04-b59ec381">E. Höfer</persName>
+        <persName codedval="baudi-04-f56e7fdf">E. Höfer</persName>
     </lyricist>
     <key pname="a" mode="major"/>
     <meter count="3" unit="4"/>
@@ -28,21 +24,18 @@
     </history>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
-        <language auth="de"/>
+        <language codedval="de"/>
     </langUsage>
     <perfMedium>
-        <perfResList auth="choirMen">
-            <perfRes auth="tenor.i"/>
-            <perfRes auth="tenor.ii"/>
-            <perfRes auth="bass.i"/>
-            <perfRes auth="bass.ii"/>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

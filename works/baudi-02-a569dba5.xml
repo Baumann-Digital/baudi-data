@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-a569dba5">
+    <identifier type="baudi-copy">BLB-SMV-2</identifier>
+    <title type="uniform" xml:id="baudi-02-a569dba5-title">
+        <titlePart type="main" xml:id="baudi-02-a569dba5-titleMain">Deutsche Segenswünsche</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-a569dba5-titleMainSort">Deutsche Segenswuensche</titlePart>
+        <titlePart type="subordinate" xml:id="baudi-02-a569dba5-titleSub">Musik von Méhul, aus der Oper: »Joseph und seine Brüder«. Für Männerchor und Blasorchester bearbeitet</titlePart>
+    </title>
+    <composer xml:id="baudi-02-a569dba5-composer">Étienne Nicolas Méhul</composer>
+    <arranger xml:id="baudi-02-a569dba5-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-a569dba5-lyricist">
+        <persName codedval="baudi-04-50ce65b4">Ferdinand Dietz</persName>
+    </lyricist>
+    <key pname="c" mode="major"/>
+    <meter count="4" unit="4"/>
+    <tempo/>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="ensemle">
+            <perfRes xml:id="baudi-02-a569dba5-perfRes-0001" codedval="tenor.i"/>
+            <perfRes xml:id="baudi-02-a569dba5-perfRes-0002" codedval="tenor.ii"/>
+            <perfRes xml:id="baudi-02-a569dba5-perfRes-0003" codedval="bass.i"/>
+            <perfRes xml:id="baudi-02-a569dba5-perfRes-0004" codedval="bass.ii"/>
+            <perfRes xml:id="baudi-02-a569dba5-perfRes-0005" codedval="piano"/>
+            <perfRes xml:id="baudi-02-a569dba5-perfRes-0006" codedval="trumpet"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+    <!--<relationList>
+                         <relation rel="hasEmbodiment"/>
+                     </relationList>-->
+</work>

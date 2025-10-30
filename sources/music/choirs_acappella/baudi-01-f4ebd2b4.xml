@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-f4ebd2b4"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-f4ebd2b4" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-f4ebd2b4-titleUniMainDE">Pfingstlied</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-f4ebd2b4-title">
-                    <titlePart type="main" xml:id="baudi-02-f4ebd2b4-titleMain">Pfingstlied</titlePart>
-                    <titlePart type="number" auth="opus">100 Nr. 3</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-f4ebd2b4-titleMainSort">Pfingstlied. Choralmelodie</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-f4ebd2b4-titleSub">Choralmelodie</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-f4ebd2b4-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Pfingstlied</titlePart>
+                    <titlePart type="number" codedval="opus">100 Nr. 3</titlePart>
+                    <titlePart type="mainSort">Pfingstlied. Choralmelodie</titlePart>
+                    <titlePart type="subordinate">Choralmelodie</titlePart>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-f4ebd2b4-composer">Ehrenfried Liebich?</composer>
-                <arranger xml:id="baudi-02-f4ebd2b4-arranger">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>Ehrenfried Liebich?</composer>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </arranger>
-                <lyricist xml:id="baudi-02-f4ebd2b4-lyricist">
+                <lyricist>
                     <persName>Ehrenfried Liebich?</persName>
                 </lyricist>
                 <key pname="g" mode="major"/>
@@ -39,11 +36,11 @@
                 <tempo>Frohe Bewegung</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano" xml:id="baudi-02-f4ebd2b4-perfRes-0001"/>
-                        <perfRes auth="alto" xml:id="baudi-02-f4ebd2b4-perfRes-0002"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-f4ebd2b4-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-f4ebd2b4-perfRes-0004"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes xml:id="baudi-02-f4ebd2b4-perfRes-0001" codedval="soprano"/>
+                        <perfRes xml:id="baudi-02-f4ebd2b4-perfRes-0002" codedval="alto"/>
+                        <perfRes xml:id="baudi-02-f4ebd2b4-perfRes-0003" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-f4ebd2b4-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -61,17 +58,17 @@
                         <titlePart type="subordinate" xml:id="baudi-01-f4ebd2b4-titleSub">Choralmelodie</titlePart>
                     </title>
                     <composer xml:id="baudi-01-f4ebd2b4-composer">
-                        <persName auth="baudi-04-5e3ed698">Ehrenfried Liebich?</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ehrenfried Liebich?</persName>
                     </composer>
                     <arranger>
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </arranger>
                     <lyricist xml:id="baudi-01-f4ebd2b4-lyricist">
-                        <persName auth="baudi-04-35c9a190">
+                        <persName codedval="baudi-04-35c9a190">
                             <persName>Ehrenfried Liebich?</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-f4ebd2b4-respStmtDed"/>
+                    <contributor xml:id="baudi-01-f4ebd2b4-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -79,21 +76,20 @@
                         <bibl>
                             <identifier>H. 966 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck von C.G.Röder G. m. b. H., Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -101,7 +97,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -112,13 +107,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -146,7 +141,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>
@@ -155,35 +150,19 @@
     </meiHead>
     <music>
         <facsimile label="6146203">
-            
-                
-                
-                
-        <surface xml:id="baudi-01-f4ebd2b4-surface-0001" n="1" label="1r">
-            <graphic targettype="blb-vlid"
-                     target="6230997"
-                     xml:id="baudi-01-f4ebd2b4-00-0001"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-f4ebd2b4-surface-0002" n="2" label="1v">
-            <graphic targettype="blb-vlid"
-                     target="6230998"
-                     xml:id="baudi-01-f4ebd2b4-00-0002"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-f4ebd2b4-surface-0003" n="3" label="2r">
-            <graphic targettype="blb-vlid"
-                     target="6230999"
-                     xml:id="baudi-01-f4ebd2b4-00-0003"
-                     type="facsimile"/>
-         </surface>
-         <surface xml:id="baudi-01-f4ebd2b4-surface-0004" n="4" label="2v">
-            <graphic targettype="blb-vlid"
-                     target="6231000"
-                     xml:id="baudi-01-f4ebd2b4-00-0004"
-                     type="facsimile"/>
-         </surface>
-      </facsimile>
+            <surface xml:id="baudi-01-f4ebd2b4-surface-0001" n="1" label="1r">
+                <graphic targettype="blb-vlid" target="6230997" xml:id="baudi-01-f4ebd2b4-00-0001" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-f4ebd2b4-surface-0002" n="2" label="1v">
+                <graphic targettype="blb-vlid" target="6230998" xml:id="baudi-01-f4ebd2b4-00-0002" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-f4ebd2b4-surface-0003" n="3" label="2r">
+                <graphic targettype="blb-vlid" target="6230999" xml:id="baudi-01-f4ebd2b4-00-0003" type="facsimile"/>
+            </surface>
+            <surface xml:id="baudi-01-f4ebd2b4-surface-0004" n="4" label="2v">
+                <graphic targettype="blb-vlid" target="6231000" xml:id="baudi-01-f4ebd2b4-00-0004" type="facsimile"/>
+            </surface>
+        </facsimile>
         <body>
             <mdiv xml:id="baudi-20-c8baf7fa" label="Pfingstlied"/>
         </body>

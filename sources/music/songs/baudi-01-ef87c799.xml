@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../baudiResources/data/schema/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="baudi-01-ef87c799"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-ef87c799" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Trüber Abschied</title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-ef87c799-titleUniformDE">
-                    <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-ef87c799-titleUniformMainDE">Trüber Abschied</titlePart>
-                    <titlePart type="number" label="opus" auth="woo"/>
-                    <titlePart type="perf"
-                          xml:lang="de"
-                          xml:id="baudi-01-ef87c799-titleUniformDescDE">für Singstimme und
-                        Klavier</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-ef87c799-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-ef87c799-titleUniformMainDE">Trüber Abschied</titlePart>
+                    <titlePart type="number" label="opus" codedval="woo"/>
+                    <titlePart type="perf" xml:lang="de" xml:id="baudi-01-ef87c799-titleUniformDescDE">für Singstimme und Klavier</titlePart>
                 </title>
                 <lyricist>
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </lyricist>
                 <composer>
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
                 <key pname="a" mode="minor"/>
                 <meter count="4" unit="4" sym="common"/>
@@ -40,12 +29,13 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="baudi-09-82e86ea7" xml:id="baudi-01-ef87c799-perfRes-0001">Singstimme<range corresp="baudi-01-ef87c799-perfRes-0001">
-                        <rangeNote type="lowest" pname="e" oct="4"/>
-                        <rangeNote type="highest" pname="f" accid="s" oct="5"/>
-                     </range>
-                  </perfRes>
-                        <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
+                        <perfRes xml:id="baudi-01-ef87c799-perfRes-0001" codedval="voice">
+                            <range>
+                                <rangeNote type="lowest" pname="e" oct="4"/>
+                                <rangeNote type="highest" pname="f" accid="s" oct="5"/>
+                            </range>
+                        </perfRes>
+                        <perfRes codedval="piano"/>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -56,32 +46,26 @@
                 <titleStmt>
                     <title xml:id="baudi-01-ef87c799-title">
                         <titlePart type="main" xml:id="baudi-01-ef87c799-titleMain">Trüber Abschied</titlePart>
-                        <titlePart type="perf" xml:id="baudi-01-ef87c799-titleSub">für eine Singstimme &amp;
-                            Klavierbegleitung</titlePart>
+                        <titlePart type="perf" xml:id="baudi-01-ef87c799-titleSub">für eine Singstimme &amp; Klavierbegleitung</titlePart>
                     </title>
                     <composer xml:id="baudi-01-ef87c799-composer">
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                     <lyricist>
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </lyricist>
                 </titleStmt>
                 <physDesc>
                     <titlePage>
-                        <p decls="titlePage">
+                        <p>
                             <rend halign="center">
-                                <rend rend="box">Trüber<lb/>Abschied</rend>rend&gt;<lb/>
-                            </rend>
-                            <rend rend="right">Lied<lb/>
-                                <rend rend="smcaps">Für Eine Singstimme &amp;<lb/>Klavierbegleitung</rend>
-                            </rend>
-                            <rend rend="left">Komponiert</rend>
-                            <rend rend="center">von<lb/>LUDWIG BAUMANN</rend>
-                            <rend rend="left">Verlags N<rend rend="sup dblu">o</rend> 17229</rend>
-                            <rend rend="right">Preis Mk. 1._.</rend>
-                            <rend rend="center">Verlag und Eigentum für alle Länder<lb/>von<lb/>
-                                <rend rend="smcaps">Johann Andrè, Offenbach A.M.</rend>
-                            </rend>
+                                <rend rend="box">Trüber<lb/>Abschied</rend>rend&gt; </rend>
+                            <lb/>Lied <lb/>
+                            <rend rend="smcaps">Für Eine Singstimme &amp; <lb/>Klavierbegleitung</rend>
+                            <lb/>Komponiert von <lb/>LUDWIG BAUMANN <lb/>Verlags N<rend rend="sup">
+                                <rend rend="underline(2)">o</rend>
+                            </rend> 17229 <lb/>Preis Mk. 1._. <lb/>Verlag und Eigentum für alle Länder <lb/>von <lb/>
+                            <rend rend="smcaps">Johann Andrè, Offenbach A.M.</rend>
                         </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">314</dimensions>
@@ -95,22 +79,14 @@
                     <watermark label="watermark"/>
                     <plateNum>545</plateNum>
                     <handList>
-                        <hand medium="TinteSchwarz" xml:id="hand1" label="Ludwig Baumann"/>
-                        <hand medium="Bleistift" xml:id="hand2" label="BiblVermerk"/>
+                        <hand type="note" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0001"/>
+                        <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
                     </handList>
-               <handList>
-                  <hand type="note" medium="inkBlack" xml:id="baudi-01-6b488120-hand-0001"/>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-               </handList>
                     <addDesc>
-                        <p xmlns="" type="copyright">Verlag und Eigentum für alle Länder von <corpName>Johann André</corpName>,
-                            Offenbach a.M.</p>
+                        <p type="copyright">Verlag und Eigentum für alle Länder von <corpName codedval="baudi-05-d20bb50c">Johann André</corpName>, Offenbach a.M.</p>
                     </addDesc>
-                    <condition n="1" resp="dried" type="desc">
-                        <date isodate="2020-05-14" type="desc" resp="dried"/>
-                        <p xmlns="" decls="statusReport">An den Rändern brüchig, Leichte Gebrauchsspuren. Im Fals verstärkt. Mit
-                            Fadenheftung in einen Kartonumschlag eingebunden.</p>
-                    </condition>
+                    <condition n="1" resp="#dried" type="desc">
+                        <date isodate="2020-05-14" type="desc" resp="#dried"/> An den Rändern brüchig, Leichte Gebrauchsspuren. Im Fals verstärkt. Mit Fadenheftung in einen Kartonumschlag eingebunden. </condition>
                     <physMedium xml:id="baudi-01-ef87c799-physMedium"><!-- Lagenordnung -->
                         <stamp>
                             <locus n="2r" type="stamps">
@@ -128,43 +104,43 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">M 313</identifier>
                     </repository>
                 </physLoc>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList/>
                 <notesStmt>
                     <!-- Weitere Anmerkungen des Beschreibers -->
-                    <annot n="1" resp="dried" corresp="hand1">Ludwig Baumann, fol. 1v</annot>
+                    <annot n="1" resp="#dried" corresp="#hand1">Ludwig Baumann, fol. 1v</annot>
                     <!--<annot type="ambitus" corresp="baudi-09-82e86ea7">
                         <note type="start" pname="e" oct="4"/>–<note type="end" pname="f" accid="s" oct="5"/>
                     </annot>-->
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand2">fol. 1r<locus type="biblNotes" corresp="#hand1">
                             <rend halign="left" valign="top">aK</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand2">fol. 1r<locus type="biblNotes" corresp="#hand1">
                             <rend halign="right" valign="top">M 313</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand2">fol. 1r<locus type="biblNotes" corresp="#hand1">
                             <rend halign="center" valign="bottom">[um 1915]</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand2">fol. 1r<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand2">fol. 1r<locus type="biblNotes" corresp="#hand1">
                             <rend halign="center" valign="bottom">Z</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand2">fol. 2v<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand2">fol. 2v<locus type="biblNotes" corresp="#hand1">
                             <rend halign="left" valign="top">[pt?]</rend>
                             <symbol/>
                         </locus>
@@ -192,12 +168,6 @@
         <body>
             <mdiv>
                 <score>
-                    <scoreDef>
-                        <ambitus corresp="baudi-01-ef87c799-perfRes-0001">
-                            <ambNote type="lowest" pname="e" oct="4"/>
-                            <ambNote type="highest" pname="f" accid="s" oct="5"/>
-                        </ambitus>
-                    </scoreDef>
                     <section/>
                     <div type="songtext">
                         <lg>

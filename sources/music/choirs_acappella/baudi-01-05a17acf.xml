@@ -1,50 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-05a17acf"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-05a17acf" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-05a17acf-titleUniMainDE">Morgenhymne im
-                        Frühling</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-05a17acf-titleUniMainDE">Morgenhymne im Frühling</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-05a17acf-title">
-                    <titlePart type="main" xml:id="baudi-02-05a17acf-titleMain">Morgenhymne im Frühling</titlePart>
-                    <titlePart type="number" auth="opus">50</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-05a17acf-titleMainSort">Morgenhymne im Frühling</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-05a17acf-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-05a17acf-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Morgenhymne im Frühling</titlePart>
+                    <titlePart type="number" codedval="opus">50</titlePart>
+                    <titlePart type="mainSort">Morgenhymne im Frühling</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-05a17acf-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-05a17acf-lyricist">
-                    <persName>August Dietz</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-ab1f9497">August Dietz</persName>
                 </lyricist>
                 <key pname="f" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Feierlich, aber nicht zu langsam.</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -55,42 +50,36 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-4</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-05a17acf-title">
-                    <titlePart type="main" xml:id="baudi-02-05a17acf-titleMain">Morgenhymne im Frühling</titlePart>
-                    <titlePart type="number" auth="opus">50</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-05a17acf-titleMainSort">Morgenhymne im Frühling</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-05a17acf-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-05a17acf-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-05a17acf-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-05a17acf-lyricist">
-                    <persName>August Dietz</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Morgenhymne im Frühling</titlePart>
+                        <titlePart type="number" codedval="opus">50</titlePart>
+                        <titlePart type="mainSort">Morgenhymne im Frühling</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName codedval="baudi-04-ab1f9497">August Dietz</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Morgenhymne im Frühling</title>
                         <bibl>
                             <identifier>H. 551 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1906</date>
-                            <dedicatee>Dem <corpName>»Männergesangverein <settlement>Seckenheim</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor">Herrn Philipp
-                                Stein</persName>, gewidmet.</dedicatee>
+                            <dedicatee>Dem <corpName>»Männergesangverein <settlement codedval="baudi-06-16791bb5">Seckenheim</settlement>«</corpName> und seinem verdienstvollen Dirigenten, <persName role="conductor" codedval="baudi-04-444d51b4">Herrn Philipp Stein</persName>, gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -103,7 +92,6 @@
                     <extent label="pages" unit="page">4</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -120,7 +108,7 @@
                 <creation>Erschienen 1906</creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -138,9 +126,7 @@
                     </termList>
                 </classification>
                 <relationList>
-                    <relation rel="isEmbodimentOf"
-                         corresp="baudi-02-acf9aa85"
-                         type="otherPerfRes"/>
+                    <relation rel="isEmbodimentOf" corresp="baudi-02-acf9aa85" type="otherPerfRes"/>
                 </relationList>
             </manifestation>
         </manifestationList>
@@ -150,7 +136,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

@@ -1,23 +1,13 @@
- 
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-066cab08" status="created">
-   <persName>
-      <forename sort="1" type="used">Fritz</forename>
-      <surname type="used">Müller</surname>
-      <genName/>
-      <nameLink/>
-      <roleName/>
-      <addName/>
-   </persName>
-   <birth/>
-   <death/>
-   <faith key="unknown"/>
-   <education/>
-   <sex type="unknown"/>
-   <nationality key="de"/>
-   <occupation/>
-   <idno type="gnd"/>
-   <idno type="viaf"/>
-   
-      <note>Verleger. Süddeutscher Musikverlag</note>
-   
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-066cab08" status="approved">
+    <persName>
+        <forename sort="1" type="used">Fritz</forename>
+        <surname type="used">Müller</surname>
+    </persName>
+    <sex type="male"/>
+    <nationality key="de"/>
+    <occupation>Verleger</occupation>
+    <affiliation key="baudi-05-0e61675c">Süddeutscher Musikverlag</affiliation>
+    <note>Vater von <persName key="baudi-04-585e6747">Willy Müller</persName></note>
 </person>

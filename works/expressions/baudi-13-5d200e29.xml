@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<expression xmlns="http://www.music-encoding.org/ns/mei" status="checked" xml:id="baudi-13-5d200e29">
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<expression xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-13-5d200e29">
     <identifier type="baudi-copy">CMVS-HH-21</identifier>
     <title type="uniform" xml:id="baudi-02-9c6af56f-title">
         <titlePart type="main" xml:id="baudi-02-9c6af56f-titleMain">Christ-Wiegen-Liedlein</titlePart>
-        <titlePart type="number" auth="opus">87</titlePart>
+        <titlePart type="number" codedval="opus">87</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-9c6af56f-titleMainSort">Christ-Wiegen-Liedlein</titlePart>
     </title>
     <key pname="f" mode="major"/>
@@ -14,14 +16,14 @@
     <history/>
     <langUsage>
         <head>In der Quelle verwendete Sprache(n)</head>
-        <language auth="de"/>
+        <language codedval="de"/>
     </langUsage>
     <perfMedium>
-        <perfResList auth="choirMixed">
-            <perfRes auth="soprano"/>
-            <perfRes auth="alto"/>
-            <perfRes auth="tenor"/>
-            <perfRes auth="bass"/>
+        <perfResList codedval="choirMixed">
+            <perfRes codedval="soprano"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
         </perfResList>
     </perfMedium>
     <notesStmt>

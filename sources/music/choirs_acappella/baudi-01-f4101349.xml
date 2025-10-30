@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-    xml:id="baudi-01-f4101349" status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-f4101349" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-f4101349-titleUniMainDE">Dich, mein Schwarzwald grüßt mein Sang!</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-f4101349-title">
-                    <titlePart type="main" xml:id="baudi-02-f4101349-titleMain">Dich, mein Schwarzwald grüßt mein Sang!</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-f4101349-titleMainSort">Dich mein Schwarzwald gruesst mein Sang</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-f4101349-titleDesc">für Männerchor</titlePart>
+                <title type="uniform">
+                    <titlePart type="main">Dich, mein Schwarzwald grüßt mein Sang!</titlePart>
+                    <titlePart type="mainSort">Dich mein Schwarzwald gruesst mein Sang</titlePart>
+                    <titlePart type="perfmedium">für Männerchor</titlePart>
                 </title>
-                <composer xml:id="baudi-02-f4101349-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-f4101349-lyricist">
-                    <persName>Ludwig Baumann</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </lyricist>
                 <key pname="g" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo>Mäßig bewegt</tempo>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor.i" xml:id="baudi-02-f4101349-perfRes-0001"/>
-                        <perfRes auth="tenor.ii" xml:id="baudi-02-f4101349-perfRes-0002"/>
-                        <perfRes auth="bass.i" xml:id="baudi-02-f4101349-perfRes-0003"/>
-                        <perfRes auth="bass.ii" xml:id="baudi-02-f4101349-perfRes-0004"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes xml:id="baudi-02-f4101349-perfRes-0001" codedval="tenor.i"/>
+                        <perfRes xml:id="baudi-02-f4101349-perfRes-0002" codedval="tenor.ii"/>
+                        <perfRes xml:id="baudi-02-f4101349-perfRes-0003" codedval="bass.i"/>
+                        <perfRes xml:id="baudi-02-f4101349-perfRes-0004" codedval="bass.ii"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -54,16 +54,16 @@
                         <titlePart type="main" xml:id="baudi-01-f4101349-titleMain">Dich, mein Schwarzwald grüßt mein Sang!</titlePart>
                     </title>
                     <composer xml:id="baudi-01-f4101349-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-f4101349-lyricist">
-                        <persName auth="baudi-04-35c9a190">
-                            <persName>Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-f4101349-respStmtDed">Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues Herrn Albert Schultheiß in St. Georgen i. Schw. gewidmet.</respStmt>
+                    <contributor xml:id="baudi-01-f4101349-contributorDed">Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues Herrn Albert Schultheiß in St. Georgen i. Schw. gewidmet.</contributor>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -71,21 +71,20 @@
                         <bibl>
                             <identifier/>
                             <publisher>
-                                <corpName auth="baudi-05-8272ad0d">Fritz Müller, Karlsruhe.</corpName>
+                                <corpName codedval="baudi-05-8272ad0d">Fritz Müller, Karlsruhe.</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee>Den Sängern des Schwarzwaldes und dem Vorsitzenden des Bad. Schwarzwaldgaues Herrn Albert Schultheiß in St. Georgen i. Schw. gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck der Universitätsdruckerei H. Stürtz A. G., Würzburg</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -93,7 +92,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -104,13 +102,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -138,7 +136,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-10-17" resp="dried">
+            <change n="1" isodate="2020-10-17" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

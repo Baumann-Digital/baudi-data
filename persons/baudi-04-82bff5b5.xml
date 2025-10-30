@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-82bff5b5" status="created">
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-82bff5b5" status="proposed">
     <persName>
-        <forename/>
         <surname>Adels</surname>
-        <genName/>
-        <nameLink/>
-        <roleName/>
-        <addName/>
     </persName>
     <birth/>
     <death/>
@@ -18,5 +14,8 @@
     <idno type="gnd"/>
     <idno type="viaf"/>
     <note>Berta Baumann kommt nach dem Krieg bei Frau Adels unter, nachdem sie ihre Wohnung an die Besatzungsmächte abgeben musste.
-        <bibl source="baudi-07-6c97296a"><biblScope unit="page">2</biblScope></bibl></note>
+        <bibl source="baudi-07-6c97296a">
+            <biblScope unit="page">2</biblScope>
+        </bibl>
+    </note>
 </person>

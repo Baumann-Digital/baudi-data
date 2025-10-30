@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-decd6b23">
+    <identifier type="baudi-copy">CMVS-HH-60</identifier>
+    <title type="uniform" xml:id="baudi-02-decd6b23-title">
+        <titlePart type="main" xml:id="baudi-02-decd6b23-titleMain">Schön Astrid</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-decd6b23-titleMainSort">Schoen Astrid</titlePart>
+        <titlePart type="dedication">Dem <corpName>Männergesangverein »Harmonie« <settlement codedval="baudi-06-b4ddff19">Worms</settlement>
+            </corpName> und seinem Chormeister, <persName role="choirMaster" codedval="baudi-04-566d177b">Herrn Georg Dommershauser</persName> gewidmet.</titlePart>
+    </title>
+    <composer xml:id="baudi-02-decd6b23-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-decd6b23-lyricist">
+        <persName codedval="baudi-04-f943714d">Philipp Eulenburg</persName>
+    </lyricist>
+    <key pname="a" mode="minor"/>
+    <meter count="4" unit="4" sym="common"/>
+    <tempo>Andante gemessen.</tempo>
+    <incip/>
+    <creation/>
+    <history>
+        <p>Erschienen <date isodate="1926">1926</date>
+        </p>
+    </history>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes codedval="tenor.i"/>
+            <perfRes codedval="tenor.ii"/>
+            <perfRes codedval="bass.i"/>
+            <perfRes codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>

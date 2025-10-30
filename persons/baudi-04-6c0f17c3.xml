@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-6c0f17c3" status="created">
-    <persName>Herrn Professor RÜDEL</persName>
-    <birth/>
-    <death/>
-    <faith key="unknown"/>
-    <education/>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-6c0f17c3" status="approved">
+    <persName>
+        <addName type="title">Professor</addName>
+        <surname>Rüdel</surname>
+    </persName>
     <sex type="male"/>
     <nationality key="de"/>
-    <occupation>conductor</occupation>
-    <affiliation/>
-    <idno type="gnd"/>
-    <idno type="viaf"/>
-    <note/>
+    <occupation>Dirigent</occupation>
 </person>

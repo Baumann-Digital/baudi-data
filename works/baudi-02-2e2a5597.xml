@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-2e2a5597">
+    <identifier type="baudi-copy">BLB-HK-14</identifier>
+    <title type="uniform" xml:id="baudi-02-2e2a5597-title">
+        <titlePart type="main" xml:id="baudi-02-2e2a5597-titleMain">In der Schenke</titlePart>
+        <titlePart type="number" codedval="opus">78</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-2e2a5597-titleMainSort">In der Schenke</titlePart>
+    </title>
+    <composer xml:id="baudi-02-2e2a5597-composer">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </composer>
+    <lyricist xml:id="baudi-02-2e2a5597-lyricist">
+        <persName>Fr. Kinkel</persName>
+    </lyricist>
+    <key pname="g" mode="major"/>
+    <meter count="4" unit="4"/>
+    <tempo>Frisch</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMen">
+            <perfRes xml:id="baudi-02-2e2a5597-perfRes-0001" codedval="tenor.i"/>
+            <perfRes xml:id="baudi-02-2e2a5597-perfRes-0002" codedval="tenor.ii"/>
+            <perfRes xml:id="baudi-02-2e2a5597-perfRes-0003" codedval="bass.i"/>
+            <perfRes xml:id="baudi-02-2e2a5597-perfRes-0004" codedval="bass.ii"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal">Ohne Plattennummer und Datum</annot>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+    <!--<relationList>
+                         <relation rel="hasEmbodiment"/>
+                     </relationList>-->
+</work>

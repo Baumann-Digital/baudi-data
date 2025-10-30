@@ -1,36 +1,47 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-72dfd439" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-72dfd439" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de"><titlePart type="main" xml:lang="de" xml:id="baudi-01-72dfd439-titleUniMainDE">Ich hört ein Sichlein rauschen.</titlePart></title>
+                <title type="uniform" xml:lang="de">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-72dfd439-titleUniMainDE">Ich hört ein Sichlein rauschen.</titlePart>
+                </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-72dfd439-title"><titlePart type="main" xml:id="baudi-02-72dfd439-titleMain">Ich hört ein Sichlein rauschen.</titlePart><titlePart type="number" auth="opus">96a</titlePart><titlePart type="mainSort" xml:id="baudi-02-72dfd439-titleMainSort">Ich hört ein Sichlein
-                        rauschen</titlePart><titlePart type="subordinate" xml:id="baudi-02-72dfd439-titleSub"/><titlePart type="perfmedium" xml:id="baudi-02-72dfd439-titleDesc"/></title>
-                <composer xml:id="baudi-02-72dfd439-composer">Volksweise</composer>
-                <arranger xml:id="baudi-02-72dfd439-arranger"><persName auth="baudi-04-5e3ed698">Ludwig
-                    Baumann</persName></arranger>
-                <lyricist xml:id="baudi-02-72dfd439-lyricist"><persName>Volksweise</persName></lyricist>
+                <title type="uniform">
+                    <titlePart type="main">Ich hört ein Sichlein rauschen.</titlePart>
+                    <titlePart type="number" codedval="opus">96a</titlePart>
+                    <titlePart type="mainSort">Ich hört ein Sichlein rauschen</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
+                </title>
+                <composer>Volksweise</composer>
+                <arranger>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                </arranger>
+                <lyricist>
+                    <persName>Volksweise</persName>
+                </lyricist>
                 <key pname="g" mode="major"/>
                 <meter count="6" unit="8"/>
                 <tempo>Getragen.</tempo>
                 <incip/>
-                
                 <perfMedium>
-                    <perfResList auth="choir">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="T-Solo"/>
+                    <perfResList codedval="choir">
+                        <perfRes codedval="tenor.i"/>
+                        <perfRes codedval="tenor.ii"/>
+                        <perfRes codedval="bass.i"/>
+                        <perfRes codedval="bass.ii"/>
+                        <perfRes codedval="tenor" solo="true"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -42,25 +53,40 @@
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HK-11</identifier>
                 <titleStmt>
-                    <title><titlePart type="main" xml:id="baudi-01-72dfd439-titleMain">Ich hört ein Sichlein
-                            rauschen.</titlePart><titlePart type="subordinate" xml:id="baudi-01-72dfd439-titleSub"/></title>
-                    <composer xml:id="baudi-01-72dfd439-composer"><persName auth="baudi-04-5e3ed698">Volksweise</persName></composer>
-                    <arranger xml:id="baudi-02-72dfd439-arranger"><persName auth="baudi-04-5e3ed698">Ludwig
-                        Baumann</persName></arranger>
-                    <lyricist xml:id="baudi-01-72dfd439-lyricist"><persName auth="baudi-04-35c9a190"><persName>Volksweise</persName></persName></lyricist>
-                    
+                    <title>
+                        <titlePart type="main" xml:id="baudi-01-72dfd439-titleMain">Ich hört ein Sichlein rauschen.</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-72dfd439-titleSub"/>
+                    </title>
+                    <composer xml:id="baudi-01-72dfd439-composer">
+                        <persName codedval="baudi-04-5e3ed698">Volksweise</persName>
+                    </composer>
+                    <arranger>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </arranger>
+                    <lyricist xml:id="baudi-01-72dfd439-lyricist">
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName>Volksweise</persName>
+                        </persName>
+                    </lyricist>
                 </titleStmt>
                 <editionStmt>
-                    <edition><title>Ich hört ein Sichlein rauschen.</title><bibl><identifier>H.49
-                                    K.</identifier><publisher><corpName auth="baudi-05-1cc47b51">Hugo
-                                        Kuntz</corpName></publisher><pubPlace><settlement auth="baudi-06-ba166af7">Karlsruhe in
-                                    Baden</settlement></pubPlace><date/><dedicatee>Dem <corpName>Gesangverein Liedertafel <settlement>Grünwinkel</settlement></corpName> und
-                                seinem verdienstvollen Dirigenten <persName role="conductor">Herrn Hauptlehrer A. Maier</persName>
-                        gewidmet.</dedicatee></bibl></edition>
-                    
+                    <edition>
+                        <title>Ich hört ein Sichlein rauschen.</title>
+                        <bibl>
+                            <identifier>H.49 K.</identifier>
+                            <publisher>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                            </publisher>
+                            <pubPlace>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                            </pubPlace>
+                            <date/>
+                            <dedicatee>Dem <corpName>Gesangverein Liedertafel <settlement codedval="baudi-06-14ee7fa7">Grünwinkel</settlement>
+                                </corpName> und seinem verdienstvollen Dirigenten <persName role="conductor">Herrn Hauptlehrer A. Maier</persName> gewidmet.</dedicatee>
+                        </bibl>
+                    </edition>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -68,7 +94,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -78,12 +103,14 @@
                     <plateNum n="49">H.49 K.</plateNum>
                 </physDesc>
                 <physLoc>
-                    <repository><corpName>Chormusikverlag Seebold, St. Augustin</corpName></repository>
+                    <repository>
+                        <corpName>Chormusikverlag Seebold, St. Augustin</corpName>
+                    </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -105,9 +132,13 @@
                 </relationList>
             </manifestation>
         </manifestationList>
-        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"><tei:person><tei:persName/></tei:person></extMeta>
+        <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <tei:person>
+                <tei:persName/>
+            </tei:person>
+        </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

@@ -1,15 +1,23 @@
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-2d158485" status="checked">
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-2d158485" status="approved">
+    <persName type="reg">
+        <surname>Baumann</surname>, <forename>Berta</forename>
+    </persName>
     <persName type="birth">
         <forename>Karoline</forename>
         <surname>Boppert</surname>
     </persName>
-    <persName from="1982-06-23" type="married" role="uniform">
+    <persName from="1982-06-23" type="married">
         <forename>Karoline</forename>
-        <forename type="used">Berta</forename>
         <surname>Baumann</surname>
     </persName>
-    <birth when-iso="1873-02-05">5. Februar 1873</birth>
-    <death when-iso="1947-07-12">12. Juli 1947</death>
+    <persName type="alt">
+        <forename>Berta</forename>
+        <surname>Baumann</surname>
+    </persName>
+    <birth when="1873-02-05">5. Feb. 1873</birth>
+    <death when="1947-07-12">12. Jul. 1947</death>
     <faith key="unknown"/>
     <education/>
     <sex type="female"/>
@@ -17,8 +25,6 @@
     <occupation/>
     <idno type="gnd"/>
     <idno type="viaf"/>
-    <event type="marriage">
-        <desc>Hochzeit mit Ludwig Baumann am <date when="1982-06-23">23. Juni 1892</date></desc>
-    </event>
-    <note>Verheiratet mit <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName></note>
+    <note>Hochzeit mit <persName key="baudi-04-5e3ed698">Ludwig Baumann</persName> am <date when="1982-06-23">23. Jun. 1892</date> in <settlement key="baudi-06-95ceae12">Achern</settlement></note>
+    <note>In Toronto (Privatbesitz) befindet sich ein Ölgemälde von ihr unter dem notiert ist: »Karoline B. Baumann«</note>
 </person>

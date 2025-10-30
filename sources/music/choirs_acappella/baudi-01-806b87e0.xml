@@ -1,52 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-806b87e0"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-806b87e0" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-806b87e0-titleUniMainDE">Geisterruf</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-806b87e0-title">
-                    <titlePart type="main" xml:id="baudi-02-806b87e0-titleMain">Geisterruf</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-806b87e0-titleMainSort">Geisterruf</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-806b87e0-titleSub">Aus „Symbolum“</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-806b87e0-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Geisterruf</titlePart>
+                    <titlePart type="mainSort">Geisterruf</titlePart>
+                    <titlePart type="subordinate">Aus „Symbolum“</titlePart>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-806b87e0-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-806b87e0-lyricist">
-                    <persName>Johann Wolfgang Goethe</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-f4848295">Johann Wolfgang Goethe</persName>
                 </lyricist>
                 <key pname="c" mode="minor"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Langsam, düster. (Viertel etwa 50)</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choir">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choir">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -57,40 +53,35 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-61</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-806b87e0-title">
-                    <titlePart type="main" xml:id="baudi-02-806b87e0-titleMain">Geisterruf</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-806b87e0-titleMainSort">Geisterruf</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-806b87e0-titleSub">Aus „Symbolum“</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-806b87e0-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-806b87e0-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-806b87e0-lyricist">
-                    <persName>Johann Wolfgang Goethe</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Geisterruf</titlePart>
+                        <titlePart type="mainSort">Geisterruf</titlePart>
+                        <titlePart type="subordinate">Aus „Symbolum“</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName codedval="baudi-04-f4848295">Johann Wolfgang Goethe</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Geisterruf</title>
                         <bibl>
                             <identifier>H. 2363 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date>1927</date>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -103,7 +94,6 @@
                     <extent label="pages" unit="page">8</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -120,15 +110,14 @@
                 <creation>Erschienen 1927</creation>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
                    						          <bibl type="announcement"/>
                    						          <bibl type="notice"/>--></biblList>
                 <notesStmt>
-                    <annot type="internal">Man achte darauf, daß in den Chor I hohe Tenöre mit schönem, leichtem Falsett
-                        kommen.</annot>
+                    <annot type="internal">Man achte darauf, daß in den Chor I hohe Tenöre mit schönem, leichtem Falsett kommen.</annot>
                 </notesStmt>
                 <classification>
                     <head/>
@@ -149,7 +138,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

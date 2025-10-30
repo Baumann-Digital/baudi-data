@@ -1,50 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-82625256"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-82625256" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-82625256-titleUniMainDE">Frühling im Gebirge</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-82625256-title">
-                    <titlePart type="main" xml:id="baudi-02-82625256-titleMain">Frühling im Gebirge</titlePart>
-                    <titlePart type="number" auth="opus">85</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-82625256-titleMainSort">Frühling im Gebirge</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-82625256-titleSub">Aus „Fröhlicher Herbst“, ein Weinidyll aus
-                        dem Elsass</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-82625256-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Frühling im Gebirge</titlePart>
+                    <titlePart type="number" codedval="opus">85</titlePart>
+                    <titlePart type="mainSort">Frühling im Gebirge</titlePart>
+                    <titlePart type="subordinate">Aus „Fröhlicher Herbst“, ein Weinidyll aus dem Elsass</titlePart>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-82625256-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-82625256-lyricist">
+                <lyricist>
                     <persName>A. F. Meyer</persName>
                 </lyricist>
                 <key pname="d" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>Ruhige Bewegung.</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -55,42 +50,36 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-15</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-82625256-title">
-                    <titlePart type="main" xml:id="baudi-02-82625256-titleMain">Frühling im Gebirge</titlePart>
-                    <titlePart type="number" auth="opus">85</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-82625256-titleMainSort">Frühling im Gebirge</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-82625256-titleSub">Aus „Fröhlicher Herbst“, ein Weinidyll aus
-                        dem Elsass</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-82625256-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-82625256-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-82625256-lyricist">
-                    <persName>A. F. Meyer</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Frühling im Gebirge</titlePart>
+                        <titlePart type="number" codedval="opus">85</titlePart>
+                        <titlePart type="mainSort">Frühling im Gebirge</titlePart>
+                        <titlePart type="subordinate">Aus „Fröhlicher Herbst“, ein Weinidyll aus dem Elsass</titlePart>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>A. F. Meyer</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Frühling im Gebirge</title>
                         <bibl>
                             <identifier>H. 799 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -103,7 +92,6 @@
                     <extent label="pages" unit="page">3</extent>
                     <extent label="pagination">none</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -120,7 +108,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -149,7 +137,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

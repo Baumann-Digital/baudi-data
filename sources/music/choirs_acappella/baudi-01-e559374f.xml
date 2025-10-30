@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0"
-    xml:id="baudi-01-e559374f" status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-e559374f" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
                     <titlePart type="main" xml:lang="de" xml:id="baudi-01-e559374f-titleUniMainDE">Zur Trauung</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-e559374f-title">
-                    <titlePart type="main" xml:id="baudi-02-e559374f-titleMain">Zur Trauung</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-e559374f-titleMainSort">Zur Trauung. Wo du hingehst</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-e559374f-titleSub">Wo du hingehst</titlePart>
-                    <titlePart type="perfmedium" xml:id="baudi-02-e559374f-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Zur Trauung</titlePart>
+                    <titlePart type="mainSort">Zur Trauung. Wo du hingehst</titlePart>
+                    <titlePart type="subordinate">Wo du hingehst</titlePart>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-e559374f-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-e559374f-lyricist">
-                    <persName>Bibel, Ruth, 1, 16–17</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-6175facf">Bibel, Ruth, 1, 16–17</persName>
                 </lyricist>
                 <key pname="f" mode="major"/>
                 <meter count="4" unit="4"/>
                 <tempo/>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth=""/>
+                    <perfResList/>
                     <annot type="performance"/>
                 </perfMedium>
                 <contents/>
@@ -51,16 +51,16 @@
                         <titlePart type="subordinate" xml:id="baudi-01-e559374f-titleSub">Wo du hingehst</titlePart>
                     </title>
                     <composer xml:id="baudi-01-e559374f-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-e559374f-lyricist">
-                        <persName auth="baudi-04-35c9a190">
-                            <persName>Bibel, Ruth, 1, 16–17</persName>
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName codedval="baudi-04-6175facf">Bibel, Ruth, 1, 16–17</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-e559374f-respStmtDed"/>
+                    <contributor xml:id="baudi-01-e559374f-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -68,21 +68,20 @@
                         <bibl>
                             <identifier>F. M. 436 S. M.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing"/>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -90,7 +89,6 @@
                     <extent label="pages" unit="page"/>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -101,13 +99,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -135,7 +133,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

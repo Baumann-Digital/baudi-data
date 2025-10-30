@@ -1,17 +1,18 @@
-<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="4.0.0" xml:id="baudi-01-b8b49d95" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-b8b49d95" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title type="uniform" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformDE">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformMainDE">Ständchen</titlePart>
-                    <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformSubDE"/>
-                    <titlePart type="desc" xml:lang="de" xml:id="baudi-01-b8b49d95-titleUniformDescDE">für Chor</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="handtitleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="handtitleUniformMainDE">Ständchen</titlePart>
+                    <titlePart type="subordinate" xml:lang="de" xml:id="handtitleUniformSubDE"/>
+                    <titlePart type="desc" xml:lang="de" xml:id="handtitleUniformDescDE">für Chor</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
-
+            <pubStmt> </pubStmt>
             <!-- <sourceDesc>
     			<source>
     			<head/>
@@ -20,7 +21,6 @@
     			</source>
     			</sourceDesc> -->
         </fileDesc>
-
         <workList>
             <work>
                 <title type="uniform" xml:lang="de">
@@ -28,14 +28,13 @@
                     <titlePart type="subordinate" xml:lang="de"/>
                     <titlePart type="desc" xml:lang="de"/>
                 </title>
-
                 <key pname="b" accid="f" mode="major"/>
                 <meter count="4" unit="8" sym="common"/>
                 <tempo>Mit zartem Vortrag.</tempo>
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="baudi-09-">Männerchor</perfRes>
+                        <perfRes codedval="choirMale">Männerchor</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -46,22 +45,21 @@
                 <identifier type="rism">453007174</identifier>
                 <identifier type="D-KA">Mus. Hs. 1394,2a</identifier>
                 <titleStmt>
-                    <title xml:id="baudi-01-b8b49d95-title">
-                        <titlePart type="main" xml:id="baudi-01-b8b49d95-titleMain">Ständchen </titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-b8b49d95-titleSub"/>
-                        <titlePart type="desc" xml:id="baudi-01-b8b49d95-titleDesc">für Chor</titlePart>
+                    <title xml:id="handtitle">
+                        <titlePart type="main" xml:id="handtitleMain">Ständchen </titlePart>
+                        <titlePart type="subordinate" xml:id="handtitleSub"/>
+                        <titlePart type="desc" xml:id="handtitleDesc">für Chor</titlePart>
                     </title>
-                    <composer xml:id="baudi-01-b8b49d95-composer">
-                        <persName auth="baudi-04-5e3ed698">L. Baumann</persName>
+                    <composer xml:id="handcomposer">
+                        <persName codedval="baudi-04-5e3ed698">L. Baumann</persName>
                     </composer>
-                    <arranger xml:id="baudi-01-b8b49d95-arranger"/>
-                    <lyricist xml:id="baudi-01-b8b49d95-lyricist">
-                        <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
+                    <arranger xml:id="handarranger"/>
+                    <lyricist xml:id="handlyricist">
+                        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
                     </lyricist>
-
                 </titleStmt>
                 <physDesc>
-                    <p decls="creation"><!--	<date
+                    <p><!--	<date
     								type="creation"
     								subtype="sure"
     								isodate="0000"/> --></p>
@@ -76,22 +74,17 @@
                     <extent label="pagination">none</extent>
                     <scoreFormat>choral score</scoreFormat>
                     <handList>
-                        <hand label="librarian" medium="bleistift" xml:id="baudi-01-b8b49d95-hand1"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand1"/>
                     </handList>
-               <handList>
-                  <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-               </handList>
                     <condition n="1">
-                        <p decls="statusReport">
-                            <date isodate="2019-08-21" type="desc" resp="dried"/>Am oberen Rand von fol. 1v, 2r und in der Mitte
-                            von fol. 2v fleckig.</p>
+                        <p type="statusReport">
+                            <date isodate="2019-08-21" type="desc" resp="#dried"/>Am oberen Rand von fol. 1v, 2r und in der Mitte von fol. 2v fleckig.</p>
                     </condition>
-                    <physMedium xml:id="baudi-01-b8b49d95-physMedium">Einzelblatt, Maschinell rastiert (6-zeilig), überkopf
-                        beschrieben.</physMedium>
+                    <physMedium xml:id="physMedium">Einzelblatt, Maschinell rastiert (6-zeilig), überkopf beschrieben.</physMedium>
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">Mus. Hs. 1394,2</identifier>
                     </repository>
                 </physLoc>
@@ -111,9 +104,8 @@
     						<bibl type="announcement"/>
     						<bibl type="notice"/>--></biblList>
                 <notesStmt>
-                    <annot plist="1r top right" corresp="#baudi-01-b8b49d95-hand1">2a</annot>
-                    <annot plist="1r paperTypeNote SW-oriented" corresp="#baudi-01-b8b49d95-physMedium">»Sünova« Nr.50 – 6
-                        zeilig</annot>
+                    <annot plist="1r top right" corresp="#hand1">2a</annot>
+                    <annot plist="1r paperTypeNote SW-oriented" corresp="#physMedium">»Sünova« Nr.50 – 6 zeilig</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -130,12 +122,12 @@
         </manifestationList>
         <extMeta xmlns:tei="http://www.tei-c.org/ns/1.0"/>
         <revisionDesc>
-            <change n="0" isodate="2017-04-01" resp="dried">
+            <change n="0" isodate="2017-04-01" resp="#dried">
                 <changeDesc>
                     <p>Initializing the project</p>
                 </changeDesc>
             </change>
-            <change n="1" isodate="2019-08-21" resp="dried">
+            <change n="1" isodate="2019-08-21" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourceMsScore.xql</p>
                 </changeDesc>

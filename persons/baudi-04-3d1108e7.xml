@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-3d1108e7" status="created">
-    <persName><forename>Heinrich III.</forename></persName>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_tei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<person xmlns="http://www.tei-c.org/ns/1.0" xml:id="baudi-04-3d1108e7" status="proposed">
+    <persName>
+        <roleName>Heinrich III.</roleName>
+    </persName>
     <birth when="1017"/>
     <death when="1056"/>
     <faith key="unknown"/>

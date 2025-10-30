@@ -1,43 +1,44 @@
-<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0" xml:id="baudi-01-d310a3db" status="created">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-d310a3db" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d310a3db-titleUniMainDE">Komm’ mit deinem
-                        Engelslied</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-d310a3db-titleUniMainDE">Komm’ mit deinem Engelslied</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-d310a3db-title">
-                    <titlePart type="main" xml:id="baudi-02-d310a3db-titleMain">Komm’ mit deinem Engelslied</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-d310a3db-titleMainSort">Komm mit deinem Engelslied</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-d310a3db-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-d310a3db-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Komm’ mit deinem Engelslied</titlePart>
+                    <titlePart type="mainSort">Komm mit deinem Engelslied</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-d310a3db-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-d310a3db-lyricist">
-                    <persName>August Sturm</persName>
+                <lyricist>
+                    <persName codedval="baudi-04-ab856ebc">August Sturm</persName>
                 </lyricist>
                 <key pname="g" mode="major"/>
                 <meter count="3" unit="4"/>
                 <tempo/>
                 <incip/>
                 <perfMedium>
-                    <perfResList auth="choirMixed">
-                        <perfRes auth="soprano" xml:id="baudi-02-d310a3db-perfRes-0001"/>
-                        <perfRes auth="alto" xml:id="baudi-02-d310a3db-perfRes-0002"/>
-                        <perfRes auth="tenor" xml:id="baudi-02-d310a3db-perfRes-0003"/>
-                        <perfRes auth="bass" xml:id="baudi-02-d310a3db-perfRes-0004"/>
+                    <perfResList codedval="choirMixed">
+                        <perfRes xml:id="baudi-02-d310a3db-perfRes-0001" codedval="soprano"/>
+                        <perfRes xml:id="baudi-02-d310a3db-perfRes-0002" codedval="alto"/>
+                        <perfRes xml:id="baudi-02-d310a3db-perfRes-0003" codedval="tenor"/>
+                        <perfRes xml:id="baudi-02-d310a3db-perfRes-0004" codedval="bass"/>
                     </perfResList>
                     <annot type="performance"/>
                 </perfMedium>
@@ -55,16 +56,16 @@
                         <titlePart type="subordinate" xml:id="baudi-01-d310a3db-titleSub"/>
                     </title>
                     <composer xml:id="baudi-01-d310a3db-composer">
-                        <persName auth="baudi-04-5e3ed698">
-                            <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">
+                            <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                         </persName>
                     </composer>
                     <lyricist xml:id="baudi-01-d310a3db-lyricist">
-                        <persName auth="baudi-04-35c9a190">
-                            <persName>August Sturm</persName>
+                        <persName codedval="baudi-04-35c9a190">
+                            <persName codedval="baudi-04-ab856ebc">August Sturm</persName>
                         </persName>
                     </lyricist>
-                    <respStmt xml:id="baudi-01-d310a3db-respStmtDed"/>
+                    <contributor xml:id="baudi-01-d310a3db-contributorDed"/>
                 </titleStmt>
                 <editionStmt>
                     <edition>
@@ -72,21 +73,20 @@
                         <bibl>
                             <identifier>27</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Hugo Kuntz</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Hugo Kuntz</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
+                                <settlement codedval="baudi-06-ba166af7">Karlsruhe in Baden</settlement>
                             </pubPlace>
                             <date/>
                             <dedicatee/>
                         </bibl>
                     </edition>
-                    <respStmt>
+                    <contributor>
                         <corpName role="printing">Stich und Druck von C.G.Röder G. m. b. H., Leipzig</corpName>
-                    </respStmt>
+                    </contributor>
                 </editionStmt>
                 <physDesc>
-                    
                     <dimensions label="height" unit="mm">170</dimensions>
                     <dimensions label="width" unit="mm">270</dimensions>
                     <extent label="orientation">portrait</extent>
@@ -94,7 +94,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -105,13 +104,13 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName>Badische Landesbibliothek</corpName>
+                        <corpName codedval="baudi-05-46886fd2">Badische Landesbibliothek</corpName>
                     </repository>
                 </physLoc>
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -139,7 +138,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

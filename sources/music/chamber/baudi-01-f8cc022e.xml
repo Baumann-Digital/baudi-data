@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     meiversion="4.0.0"
-     xml:id="baudi-01-f8cc022e"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xlink="http://www.w3.org/1999/xlink" meiversion="5.0" xml:id="baudi-01-f8cc022e" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">Ein Ferientag des jungen Geigers op. 18</title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform"
-                   xml:lang="de"
-                   xml:id="baudi-01-f8cc022e-titleUniformDE">
-                    <titlePart type="main"
-                          xml:lang="de"
-                          xml:id="baudi-01-f8cc022e-titleUniformMainDE">Ein Ferientag des jungen
-                        Geigers op. 18</titlePart>
-                    <titlePart type="number" label="opus" auth="opus">18</titlePart>
-                    <titlePart type="subordinate"
-                          xml:lang="de"
-                          xml:id="baudi-01-f8cc022e-titleUniformDescDE">Eine Reihenfolge von
-                        kleiunen Violinstücken</titlePart>
+                <title type="uniform" xml:lang="de" xml:id="baudi-01-f8cc022e-titleUniformDE">
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-f8cc022e-titleUniformMainDE">Ein Ferientag des jungen Geigers op. 18</titlePart>
+                    <titlePart type="number" label="opus" codedval="opus">18</titlePart>
+                    <titlePart type="subordinate" xml:lang="de" xml:id="baudi-01-f8cc022e-titleUniformDescDE">Eine Reihenfolge von kleiunen Violinstücken</titlePart>
                     <titlePart type="perf">für Violine und Klavier</titlePart>
                 </title>
                 <key pname="c" mode="major"/>
@@ -35,8 +24,8 @@
                 <incip/>
                 <perfMedium>
                     <perfResList>
-                        <perfRes auth="baudi-09-b66b7de3">Violine</perfRes>
-                        <perfRes auth="baudi-09-32aa6522">Klavier</perfRes>
+                        <perfRes codedval="violin">Violine</perfRes>
+                        <perfRes codedval="piano"/>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -47,21 +36,17 @@
                 <titleStmt>
                     <title xml:id="baudi-01-f8cc022e-title">
                         <titlePart type="main" xml:id="baudi-01-f8cc022e-titleMain">Ein Ferientag des jungen Geigers</titlePart>
-                        <titlePart type="subordinate" xml:id="baudi-01-f8cc022e-titleSub">Eine Reihe von kleinen
-                            Violinstücken</titlePart>
+                        <titlePart type="subordinate" xml:id="baudi-01-f8cc022e-titleSub">Eine Reihe von kleinen Violinstücken</titlePart>
                         <titlePart type="perf" xml:id="baudi-01-f8cc022e-titleDesc">mit Begleitung des Pianoforte</titlePart>
                     </title>
                     <composer xml:id="baudi-01-f8cc022e-composer">
-                        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                     </composer>
                 </titleStmt>
                 <physDesc>
                     <titlePage>
-                        <p decls="titlePage">
-                            <rend halign="center">Ein Ferientag<lb/>des jungen Geigers<lb/> Eine Reihenfolge von
-                                kleinen<lb/>Violinstücken mit Belgietung<lb/>des Pianoforte komponiert von<lb/>Ludwig
-                                Baumann<lb/>op. 18<lb/> Preis 2 Mark<lb/>Chr. Friedrich Vieweg G.m.b.H.,
-                                Berlin=Lichterfelde</rend>
+                        <p>
+                            <rend halign="center">Ein Ferientag<lb/>des jungen Geigers<lb/> Eine Reihenfolge von kleinen<lb/>Violinstücken mit Belgietung<lb/>des Pianoforte komponiert von<lb/>Ludwig Baumann<lb/>op. 18<lb/> Preis 2 Mark<lb/>Chr. Friedrich Vieweg G.m.b.H., Berlin=Lichterfelde</rend>
                         </p>
                     </titlePage>
                     <dimensions label="height" unit="mm">328</dimensions>
@@ -75,24 +60,18 @@
                     <watermark label="watermark"/>
                     <plateNum>V. 570</plateNum>
                     <handList>
-                        <hand label="fremde Hand" medium="Bleistift" xml:id="hand1">Bibl</hand>
-                        <hand medium="Bleistift" label="Bibl?" xml:id="hand2">Signaturvermerk</hand>
-                        <hand medium="FarbstiftBlau" label="Baumann?" xml:id="hand3">Zäsuren</hand>
-                        <hand medium="Bleistift" label="Baumann?" xml:id="hand4">Fingersätze</hand>
+                        <hand type="unknown" medium="pencil" xml:id="hand1"/>
+                        <hand type="biblNote" medium="pencil" xml:id="hand2"/>
+                        <hand type="other" medium="pencilBlue" xml:id="hand3"/>
+                        <hand type="other" medium="pencil" xml:id="hand4"/>
                     </handList>
-               <handList>
-                  <hand type="unknown" medium="pencil" xml:id="baudi-01-6b488120-hand-0001"/>
-                   <hand type="biblNote" medium="pencil" xml:id="baudi-01-6b488120-hand-0002"/>
-                  <hand type="other" medium="pencilBlue" xml:id="baudi-01-6b488120-hand-0003"/>
-                  <hand type="other" medium="pencil" xml:id="baudi-01-6b488120-hand-0004"/>
-               </handList>
                     <addDesc>
-                        <p xmlns="" type="copyright">
-                            <corpName auth="">Chr. Friedrich Vieweg</corpName>, Berlin - Lichterfelde.</p>
+                        <p type="copyright">
+                            <corpName>Chr. Friedrich Vieweg</corpName>, Berlin - Lichterfelde.</p>
                     </addDesc>
-                    <condition n="1" resp="dried" type="desc">
-                        <date isodate="2019-08-21" type="desc" resp="dried"/>
-                        <p xmlns="" decls="statusReport">In Karton eingebunden, weist Gebrauchsspuren auf. Bindung intakt</p>
+                    <condition n="1" resp="#dried" type="desc">
+                        <p type="statusReport">
+                            <date isodate="2019-08-21" type="desc" resp="#dried"/>In Karton eingebunden, weist Gebrauchsspuren auf. Bindung intakt</p>
                     </condition>
                     <physMedium xml:id="baudi-01-f8cc022e-physMedium"><!-- Lagenordnung -->
                         <stamp>
@@ -117,7 +96,7 @@
                 </physDesc>
                 <physLoc>
                     <repository>
-                        <corpName label="D-KA">Badische Landesbibliothek Karlsruhe</corpName>
+                        <corpName label="D-KA" codedval="baudi-05-46886fd2">Badische Landesbibliothek Karlsruhe</corpName>
                         <identifier type="shelfmark">M 305</identifier>
                     </repository>
                 </physLoc>
@@ -137,27 +116,31 @@
                 <biblList/>
                 <notesStmt>
                     <!-- Weitere Anmerkungen des Beschreibers -->
-                    <annot n="1" when="2019-08-21" resp="dried">notCleaned</annot>
-                    <annot resp="dried" corresp="hand1">fol. 2r<locus type="biblNotes" corresp="hand1">
+                    <annot n="1" when="2019-08-21" resp="#dried">notCleaned</annot>
+                    <annot resp="#dried" corresp="#hand1">fol. 2r<locus type="biblNotes" corresp="#hand1">
                             <rend halign="center" valign="top">16315</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand1">fol 2r.<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand1">fol 2r.<locus type="biblNotes" corresp="#hand1">
                             <rend halign="center" valign="bottom">[um 1925]</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand1">fol. 10v<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand1">fol. 10v<locus type="biblNotes" corresp="#hand1">
                             <rend halign="center" valign="bottom">+1 Bei.</rend>
                             <symbol/>
                         </locus>
                     </annot>
-                    <annot resp="dried" corresp="hand2">fol 10v<locus type="biblNotes" corresp="hand1">
+                    <annot resp="#dried" corresp="#hand2">fol 10v<locus type="biblNotes" corresp="#hand1">
                             <rend halign="left" valign="top">d / A 355</rend>
                             <symbol/>
                         </locus>
                     </annot>
+                    <annot corresp="#hand1">Bibl</annot>
+                    <annot corresp="#hand2">Signaturvermerk</annot>
+                    <annot corresp="#hand3">Zäsuren</annot>
+                    <annot corresp="#hand4">Fingersätze</annot>
                 </notesStmt>
                 <classification>
                     <termList>
@@ -172,10 +155,7 @@
                         <identifier type="D-KA">M 305, Viol.</identifier>
                         <physDesc>
                             <extent n="2">1 Blatt</extent>
-                            <addDesc> Stimmauszug zur Partitur Zustandsbeschr.: »Beilage: Wasserschaden + Anmerkungen mit
-                                Bleistift &amp; Kugelschreiber. KaBI 30.01.20« Ein Doppelblatt, Lage geklebt. Wasserhschaden, 2
-                                fol mi t4 Seiten Notentext. HxB: 292 auf 219mm hochformat Eintragungen mit Bleistift und blauen
-                                Kugelschreiber</addDesc>
+                            <addDesc> Stimmauszug zur Partitur Zustandsbeschr.: »Beilage: Wasserschaden + Anmerkungen mit Bleistift &amp; Kugelschreiber. KaBI 30.01.20« Ein Doppelblatt, Lage geklebt. Wasserhschaden, 2 fol mi t4 Seiten Notentext. HxB: 292 auf 219mm hochformat Eintragungen mit Bleistift und blauen Kugelschreiber</addDesc>
                         </physDesc>
                     </manifestation>
                 </componentList>

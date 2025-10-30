@@ -1,18 +1,17 @@
-<work xmlns="http://www.music-encoding.org/ns/mei" status="created" xml:id="baudi-02-7b1dd5e8">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-7b1dd5e8">
     <title type="uniform" xml:id="baudi-02-7b1dd5e8-title">
         <titlePart type="main" xml:id="baudi-02-7b1dd5e8-titleMain">Ständchen</titlePart>
         <titlePart type="mainSort" xml:id="baudi-02-7b1dd5e8-titleMainSort">Staendchen</titlePart>
-        
     </title>
     <composer xml:id="baudi-02-7b1dd5e8-composer">
-        <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
     </composer>
-    
     <lyricist xml:id="baudi-02-7b1dd5e8-lyricist">
-        <persName auth="baudi-04-35c9a190">Richard Graebener</persName>
+        <persName codedval="baudi-04-35c9a190">Richard Graebener</persName>
     </lyricist>
-    
-    
     <key pname="b" accid="f" mode="major"/>
     <meter count="4" unit="8" sym="common"/>
     <tempo>Innig, durchweg zart</tempo>
@@ -25,14 +24,11 @@
     </langUsage>
     <perfMedium>
         <perfResList>
-            <perfRes auth="choirMen">ChorTTBB</perfRes>
+            <perfRes codedval="choirMale">ChorTTBB</perfRes>
         </perfResList>
     </perfMedium>
     <audience/>
-    
-    
     <classification>
-        
         <termList>
             <term type="workGroup">vocal</term>
             <term type="genre">choir</term>

@@ -1,49 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mei xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns="http://www.music-encoding.org/ns/mei"
-     meiversion="4.0.0"
-     xml:id="baudi-01-1c852095"
-     status="created">
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0" xml:id="baudi-01-1c852095" status="proposed">
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <title type="uniform" xml:lang="de">
-                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-1c852095-titleUniMainDE">Feldeinwärts flog ein
-                        Vögelein</titlePart>
+                    <titlePart type="main" xml:lang="de" xml:id="baudi-01-1c852095-titleUniMainDE">Feldeinwärts flog ein Vögelein</titlePart>
                 </title>
+                <editor xml:id="dried">Dennis Ried</editor>
             </titleStmt>
-            <pubStmt>
-                
-            </pubStmt>
+            <pubStmt> </pubStmt>
             <sourceDesc>
                 <source/>
             </sourceDesc>
         </fileDesc>
         <workList>
             <work>
-                <title type="uniform" xml:id="baudi-02-1c852095-title">
-                    <titlePart type="main" xml:id="baudi-02-1c852095-titleMain">Feldeinwärts flog ein Vögelein</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-1c852095-titleMainSort">Feldeinwärts flog ein Vögelein</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-1c852095-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-1c852095-titleDesc"/>
+                <title type="uniform">
+                    <titlePart type="main">Feldeinwärts flog ein Vögelein</titlePart>
+                    <titlePart type="mainSort">Feldeinwärts flog ein Vögelein</titlePart>
+                    <titlePart type="subordinate"/>
+                    <titlePart type="perfmedium"/>
                 </title>
-                <composer xml:id="baudi-02-1c852095-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                <composer>
+                    <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
                 </composer>
-                <lyricist xml:id="baudi-02-1c852095-lyricist">
+                <lyricist>
                     <persName>A. Klauwell</persName>
                 </lyricist>
                 <key pname="d" accid="f" mode="major"/>
                 <meter count="4" unit="4" sym="common"/>
                 <tempo>In mäßigem Tempo.</tempo>
                 <incip/>
-
                 <perfMedium>
-                    <perfResList auth="choirMen">
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="tenor"/>
-                        <perfRes auth="bass"/>
-                        <perfRes auth="bass"/>
+                    <perfResList codedval="choirMen">
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="tenor"/>
+                        <perfRes codedval="bass"/>
+                        <perfRes codedval="bass"/>
                     </perfResList>
                     <annot type="performance">Melodie durchweg im II. Ten.</annot>
                 </perfMedium>
@@ -54,42 +49,36 @@
             <manifestation type="pr">
                 <identifier type="rism"/>
                 <identifier type="baudi-copy">CMVS-HH-63</identifier>
-            <titleStmt>
-               <title type="uniform" xml:id="baudi-02-1c852095-title">
-                    <titlePart type="main" xml:id="baudi-02-1c852095-titleMain">Feldeinwärts flog ein Vögelein</titlePart>
-                    <titlePart type="mainSort" xml:id="baudi-02-1c852095-titleMainSort">Feldeinwärts flog ein Vögelein</titlePart>
-                    <titlePart type="subordinate" xml:id="baudi-02-1c852095-titleSub"/>
-                    <titlePart type="perfmedium" xml:id="baudi-02-1c852095-titleDesc"/>
-                </title>
-               <composer xml:id="baudi-02-1c852095-composer">
-                    <persName auth="baudi-04-5e3ed698">Ludwig Baumann</persName>
-                </composer>
-               <lyricist xml:id="baudi-02-1c852095-lyricist">
-                    <persName>A. Klauwell</persName>
-                </lyricist>
-            </titleStmt>
-                
-                
-                
-                
+                <titleStmt>
+                    <title type="uniform">
+                        <titlePart type="main">Feldeinwärts flog ein Vögelein</titlePart>
+                        <titlePart type="mainSort">Feldeinwärts flog ein Vögelein</titlePart>
+                        <titlePart type="subordinate"/>
+                        <titlePart type="perfmedium"/>
+                    </title>
+                    <composer>
+                        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+                    </composer>
+                    <lyricist>
+                        <persName>A. Klauwell</persName>
+                    </lyricist>
+                </titleStmt>
                 <editionStmt>
                     <edition>
                         <title>Feldeinwärts flog ein Vögelein</title>
                         <bibl>
                             <identifier>H. 2381 H.</identifier>
                             <publisher>
-                                <corpName auth="baudi-05-1cc47b51">Karl Hochstein</corpName>
+                                <corpName codedval="baudi-05-1cc47b51">Karl Hochstein</corpName>
                             </publisher>
                             <pubPlace>
-                                <settlement auth="baudi-06-a1ca746a" key="baudi-06-5541661c">Heidelberg</settlement>
+                                <settlement codedval="baudi-06-5541661c">Heidelberg</settlement>
                             </pubPlace>
                             <date/>
-                            <dedicatee>Der <corpName>»Lyra« <settlement>Rintheim</settlement>
-                        </corpName> und ihrem bewährten Dirigenten, <persName role="conductor">Herrn Gesangspädagogen Herbold</persName>
-                                gewidmet.</dedicatee>
+                            <dedicatee>Der <corpName>»Lyra« <settlement codedval="baudi-06-fa48135f">Rintheim</settlement>
+                                </corpName> und ihrem bewährten Dirigenten, <persName role="conductor" codedval="baudi-04-d6d9f38e">Herrn Gesangspädagogen Herbold</persName> gewidmet.</dedicatee>
                         </bibl>
                     </edition>
-                    
                 </editionStmt>
                 <physDesc>
                     <titlePage>
@@ -102,7 +91,6 @@
                     <extent label="pages" unit="page">2</extent>
                     <extent label="pagination">arabic</extent>
                     <scoreFormat>choir score</scoreFormat>
-                    
                     <!--<physMedium xml:id="baudi-01-{$IdPartString}-physMedium">
                    						          <locus type="paperNotes">
                    							              <rend halign="center" valign="bottom"/>
@@ -119,7 +107,7 @@
                 <creation/>
                 <history/>
                 <langUsage>
-                    <language auth="de"/>
+                    <language codedval="de"/>
                 </langUsage>
                 <contents/>
                 <biblList><!-- Erwähnungen der Quelle --><!--<bibl type="letter"/>
@@ -148,7 +136,7 @@
             </tei:person>
         </extMeta>
         <revisionDesc>
-            <change n="1" isodate="2020-07-25" resp="dried">
+            <change n="1" isodate="2020-07-25" resp="#dried">
                 <changeDesc>
                     <p>File generated by generateSourcesFromCSV.xql</p>
                 </changeDesc>

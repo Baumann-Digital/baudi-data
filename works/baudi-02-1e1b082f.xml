@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../submodules/baudi-odd/rng/baudi_mei.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" status="proposed" xml:id="baudi-02-1e1b082f">
+    <identifier type="baudi-copy">CMVS-HH-33</identifier>
+    <title type="uniform" xml:id="baudi-02-1e1b082f-title">
+        <titlePart type="main" xml:id="baudi-02-1e1b082f-titleMain">Weihnachtslied</titlePart>
+        <titlePart type="mainSort" xml:id="baudi-02-1e1b082f-titleMainSort">Weihnachtslied</titlePart>
+        <titlePart type="subordinate" xml:id="baudi-02-1e1b082f-titleSub">[Still, still, still, ...]</titlePart>
+    </title>
+    <composer xml:id="baudi-02-1e1b082f-composer">Salzburgisches Volkslied</composer>
+    <arranger xml:id="baudi-02-1e1b082f-arranger">
+        <persName codedval="baudi-04-5e3ed698">Ludwig Baumann</persName>
+    </arranger>
+    <lyricist xml:id="baudi-02-1e1b082f-lyricist">Salzburgisches Volkslied</lyricist>
+    <key pname="f" mode="major"/>
+    <meter count="2" unit="4"/>
+    <tempo>Sehr zart, aber nicht schleppend.</tempo>
+    <incip/>
+    <creation/>
+    <history/>
+    <langUsage>
+        <head>In der Quelle verwendete Sprache(n)</head>
+        <language codedval="de"/>
+    </langUsage>
+    <perfMedium>
+        <perfResList codedval="choirMixed">
+            <perfRes codedval="soprano"/>
+            <perfRes codedval="alto"/>
+            <perfRes codedval="tenor"/>
+            <perfRes codedval="bass"/>
+        </perfResList>
+    </perfMedium>
+    <audience/>
+    <notesStmt>
+        <annot type="internal"/>
+    </notesStmt>
+    <classification>
+        <termList>
+            <term type="workGroup">vocal</term>
+            <term type="genre">choir</term>
+        </termList>
+    </classification>
+</work>
