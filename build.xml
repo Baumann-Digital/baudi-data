@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="update-baudi-docker" name="baudiData" basedir="." xmlns:unless="ant:unless">
+<project default="data-package" name="baudiData" basedir="." xmlns:unless="ant:unless">
     <dirname property="baudiData.basedir" file="${ant.file.baudiData}"/>
     
     <!-- import default properties from file -->
     <property file="${baudiData.basedir}/local.build.properties"/>
     <property file="${baudiData.basedir}/build.properties"/>
-    
+    <tstamp>
+        <format property="release.date" pattern="yyyy-MM-dd"/>
+    </tstamp>
+    <tstamp>
+        <format property="release.year" pattern="yyyy"/>
+    </tstamp>
     <target name="clean-all">
         <delete dir="${build.dir}"/>
         <delete file="expath-pkg.xml"/>
@@ -13,7 +18,7 @@
     </target>
     
     <target name="clean">
-        <delete dir="${build.dir}" includeemptydirs="true"/>
+<!--        <delete dir="${build.dir}" includeemptydirs="true"/>-->
     </target>
     
     <target name="init" depends="get-current-hash-of-HEAD">
@@ -31,7 +36,8 @@
     </target>
     
     <target name="data-package" depends="init">
-        <copy file="expath-pkg.xml.tmpl" tofile="expath-pkg.xml" filtering="true" overwrite="true">
+        <echo>Creating expath-pkgf</echo>
+        <copy file="expath-pkg.xml.tmpl" tofile="${build.dir}/expath-pkg.xml" filtering="true" overwrite="true">
             <filterset>
                 <filter token="project.app" value="${project.app}"/>
                 <filter token="project.name" value="${project.name}"/>
@@ -39,33 +45,43 @@
                 <filter token="project.url" value="${project.url}"/>
             </filterset>
         </copy>
-        <copy file="repo.xml.tmpl" tofile="repo.xml" filtering="true" overwrite="true">
+        <echo>Creating repo.xml</echo>
+        <copy file="repo.xml.tmpl" tofile="${build.dir}/repo.xml" filtering="true" overwrite="true">
             <filterset>
                 <filter token="data.target" value="${project.app}"/>
                 <filter token="project.name" value="${project.name}"/>
             </filterset>
         </copy>
+        <echo>Creating CITATION.cff</echo>
+        <copy file="CITATION.cff.tmpl" tofile="${build.dir}/CITATION.cff" filtering="true" overwrite="true">
+            <filterset>
+                <filter token="project.app" value="${project.app}"/>
+                <filter token="project.version" value="${project.version}"/>
+                <filter token="release.date" value="${release.date}"/>
+                <filter token="release.year" value="${release.year}"/>
+            </filterset>
+        </copy>
+        <copy todir="${build.dir}">
+            <fileset dir="${baudiData.basedir}">
+              <include name="editions/"/>
+              <include name="indices/"/>
+                <include name="institutions/"/>
+                <include name="loci/"/>
+                <include name="persons/"/>
+                <include name="sources/"/>
+                <include name="texts/"/>
+                <include name="works/"/>
+              <include name="README.md"/>
+              <exclude name="texts/documentation/"/>
+              <exclude name="texts/textsAlt/"/>
+            </fileset>
+        </copy>
         <zip destfile="${dist.dir}/${project.app}-${project.version}-${local.revision}.xar">
-            <fileset dir=".">
+            <fileset dir="${build.dir}">
                 <include name="**/*.*"/>
-                <exclude name="texts/documentation/"/>
-                <exclude name="texts/textsAlt/"/>
                 <exclude name="**/alt/"/>
                 <exclude name="**/baudi-06-dummy.xml"/>
-                <exclude name="periodicals/"/>
-                <exclude name="build.xml"/>
-                <exclude name=".existdb.json"/>
-                <exclude name=".git*"/>
-                <exclude name="*.tmpl"/>
-                <exclude name="*.xpr"/>
-                <exclude name="*.properties"/>
-                <exclude name="${build.dir}/"/>
-                <exclude name="${dist.dir}/"/>
-                <exclude name="blob/"/>
-                <exclude name="**/__contents__.xml"/>
-                <exclude name="submodules/"/>
-                <exclude name="*.xar"/>
-                <exclude name="*.tar.gz"/>
+                <exclude name="**/.DS_Store"/>
             </fileset>
         </zip>
         <antcall target="clean"/>
