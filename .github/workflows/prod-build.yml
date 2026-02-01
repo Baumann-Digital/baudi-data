@@ -9,7 +9,7 @@ permissions:
   packages: write
 
 jobs:
-  build-and-publish:
+  build-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -57,3 +57,14 @@ jobs:
           gh api repos/Baumann-Digital/baudi-docker/dispatches \
             -X POST \
             -f event_type=baudi_data_prod_latest
+  dispatch:
+    runs-on: ubuntu-latest
+    needs: build-publish
+    steps:
+      - name: Trigger baudi-docker (Prod) build
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/Baumann-Digital/baudi-docker/dispatches \
+            -d '{"event_type":"baudi_data_prod_latest","client_payload":{"ref":"'$GITHUB_REF'","commit":"'$GITHUB_SHA'"}}'
