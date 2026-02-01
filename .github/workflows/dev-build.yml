@@ -1,4 +1,4 @@
-name: Build and publish data package
+name: Development (build-publish)
 
 on:
   push:
@@ -49,3 +49,11 @@ jobs:
           else
             gh release upload dev-latest "$ARTIFACT" --repo "$TARGET_REPO" --clobber
           fi
+
+      - name: Trigger baudi-docker build
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api repos/Baumann-Digital/baudi-docker/dispatches \
+            -X POST \
+            -f event_type=baudi_data_dev_latest
