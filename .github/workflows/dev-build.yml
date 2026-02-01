@@ -7,6 +7,7 @@ on:
 permissions:
   contents: write
   packages: write
+  actions: write
 
 jobs:
   build-publish:
@@ -55,9 +56,11 @@ jobs:
     needs: build-publish
     steps:
       - name: Trigger baudi-docker (Dev) build
+        env:
+          PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -X POST \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Authorization: token $PAT" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/Baumann-Digital/baudi-docker/dispatches \
             -d '{"event_type":"baudi_data_dev_latest","client_payload":{"ref":"'$GITHUB_REF'","commit":"'$GITHUB_SHA'"}}'
