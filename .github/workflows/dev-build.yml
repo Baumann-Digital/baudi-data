@@ -1,0 +1,51 @@
+name: Build and publish data package
+
+on:
+  push:
+    branches: [ "develop" ]
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '11'
+
+      - name: Install Ant and gh CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ant gh curl
+
+      - name: Build data package
+        run: |
+          ant -lib scripts/libs data-package
+
+      - name: Find artifact
+        id: find
+        run: |
+          ART=$(ls dist/baudiData-*.xar 2>/dev/null | head -n1 || true)
+          if [ -z "$ART" ]; then echo "No artifact found" && exit 1; fi
+          echo "artifact=$ART" >> $GITHUB_OUTPUT
+
+      - name: Publish to this repo as Release asset
+        env:
+          TARGET_REPO: ${{ github.repository }}        # current repo
+          TARGET_PAT: ${{ secrets.GITHUB_TOKEN }}      # use GITHUB_TOKEN for same-repo writes
+          ARTIFACT: ${{ steps.find.outputs.artifact }}
+        run: |
+          echo "$TARGET_PAT" | gh auth login --with-token
+          if ! gh release view dev-latest --repo "$TARGET_REPO" >/dev/null 2>&1; then
+            gh release create dev-latest "$ARTIFACT" --repo "$TARGET_REPO" --title "BauDi Data (Development)" --notes "Automated publish from CI" --prerelease
+          else
+            gh release upload dev-latest "$ARTIFACT" --repo "$TARGET_REPO" --clobber
+          fi

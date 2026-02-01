@@ -21,20 +21,14 @@ jobs:
           distribution: temurin
           java-version: '11'
 
-      - name: Install Ant, gh CLI and setup Saxon
+      - name: Install Ant and gh CLI
         run: |
           sudo apt-get update
           sudo apt-get install -y ant gh curl
-          mkdir -p scripts/libs
-          curl -L https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE12-9/SaxonHE12-9J.zip -o saxon.zip
-          unzip saxon.zip
-          mv saxon-he-12.9.jar scripts/libs/
-          mv lib scripts/libs/
-          rm saxon.zip
 
       - name: Build data package
         run: |
-          ant -lib scripts/libs data-package -DdataColl.type=public -Dbuild.env.ci=true
+          ant -lib scripts/libs data-package
 
       - name: Find artifact
         id: find
@@ -45,14 +39,14 @@ jobs:
 
       - name: Publish to this repo as Release asset
         env:
-          TARGET_REPO: ${{ github.repository }}        # current repo (will be private)
+          TARGET_REPO: ${{ github.repository }}        # current repo
           TARGET_PAT: ${{ secrets.GITHUB_TOKEN }}      # use GITHUB_TOKEN for same-repo writes
           ARTIFACT: ${{ steps.find.outputs.artifact }}
         run: |
           echo "$TARGET_PAT" | gh auth login --with-token
             VERSION=$(grep '^project.version=' build.properties | cut -d'=' -f2)
-            if ! gh release view latest --repo "$TARGET_REPO" >/dev/null 2>&1; then
-            gh release create latest "$ARTIFACT" --repo "$TARGET_REPO" --title "BauDi Data v$VERSION" --notes "Automated publish from CI"
+            if ! gh release view prod-latest --repo "$TARGET_REPO" >/dev/null 2>&1; then
+            gh release create prod-latest "$ARTIFACT" --repo "$TARGET_REPO" --title "BauDi Data v$VERSION" --notes "Automated publish from CI"
           else
-            gh release upload latest "$ARTIFACT" --repo "$TARGET_REPO"
+            gh release upload prod-latest "$ARTIFACT" --repo "$TARGET_REPO"
           fi
