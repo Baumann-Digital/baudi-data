@@ -64,7 +64,7 @@ jobs:
     steps:
       - name: Trigger baudi-docker (Prod) build
         env:
-          PAT: ${{ secrets.GITHUB_TOKEN }}
+          PAT: ${{ secrets.BAUDI_WORKFLOW_PAT }}
         run: |
           curl -X POST \
             -H "Authorization: token $PAT" \
